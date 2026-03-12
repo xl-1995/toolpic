@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Darmowe narzedzia online do obrazow i wideo. Cale przetwarzanie odbywa sie w przegladarce - Twoje pliki nigdy nie opuszczaja urzadzenia.",
+    "homeTitle": "Darmowe narzedzia online do obrazow i wideo | ToolPic"
+  },
+  "common": {
+    "upload": "Przeslij pliki",
+    "uploadHint": "lub przeciagnij i upusc pliki tutaj",
+    "download": "Pobierz",
+    "downloadAll": "Pobierz wszystko",
+    "processing": "Przetwarzanie...",
+    "reset": "Resetuj",
+    "privacy": "Twoje pliki sa przetwarzane lokalnie w przegladarce. Nic nie jest wysylane na zaden serwer.",
+    "maxFileSize": "Maksymalny rozmiar pliku: {size}MB",
+    "supportedFormats": "Obslugiwane formaty: {formats}",
+    "quality": "Jakosc",
+    "width": "Szerokosc",
+    "height": "Wysokosc",
+    "format": "Format wyjsciowy",
+    "start": "Rozpocznij",
+    "cancel": "Anuluj",
+    "done": "Gotowe",
+    "error": "Wystapil blad. Sprobuj ponownie.",
+    "fileCount": "Wybrano {count} plik(ow)",
+    "originalSize": "Oryginal: {size}",
+    "newSize": "Nowy: {size}",
+    "savedPercent": "Zaoszczedzono {percent}%"
+  },
+  "nav": {
+    "home": "Strona glowna",
+    "imageTools": "Narzedzia obrazow",
+    "videoTools": "Narzedzia wideo",
+    "allTools": "Wszystkie narzedzia"
+  },
+  "home": {
+    "h1": "Darmowe narzedzia online do obrazow i wideo",
+    "subtitle": "Cale przetwarzanie odbywa sie w przegladarce. Twoje pliki nigdy nie opuszczaja urzadzenia.",
+    "imageSection": "Narzedzia obrazow",
+    "videoSection": "Narzedzia wideo",
+    "whyTitle": "Dlaczego ToolPic?",
+    "why1Title": "100% w przegladarce",
+    "why1Desc": "Wszystkie pliki sa przetwarzane lokalnie. Nic nie jest wysylane na serwer. Twoja prywatnosc jest gwarantowana.",
+    "why2Title": "Darmowe i bez limitow",
+    "why2Desc": "Bez rejestracji, bez limitow plikow, bez znakow wodnych. Korzystaj ile chcesz, calkowicie za darmo.",
+    "why3Title": "Szybkie i latwe",
+    "why3Desc": "Prosty interfejs przeciagnij i upusc. Wyniki w kilka sekund, bez koniecznosci instalacji oprogramowania."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Kompresor obrazow",
+      "description": "Kompresuj obrazy JPEG, PNG, WebP do 80% bez utraty jakosci.",
+      "h1": "Kompresja obrazow online - Darmowa i szybka",
+      "metaTitle": "Darmowy kompresor obrazow - Zmniejsz rozmiar online | ToolPic",
+      "metaDescription": "Kompresuj obrazy JPEG, PNG, WebP, AVIF online za darmo. Zmniejsz rozmiar pliku do 80% z inteligentna kompresja. Bez przesylania, 100% w przegladarce."
+    },
+    "image-converter": {
+      "title": "Konwerter obrazow",
+      "description": "Konwertuj obrazy miedzy formatami JPG, PNG, WebP, AVIF, BMP natychmiast.",
+      "h1": "Konwersja formatu obrazu online - Darmowa",
+      "metaTitle": "Darmowy konwerter obrazow - JPG PNG WebP AVIF online | ToolPic",
+      "metaDescription": "Konwertuj obrazy miedzy JPG, PNG, WebP, AVIF, BMP, TIFF online za darmo. Szybko i bezpiecznie."
+    },
+    "image-crop": {
+      "title": "Przycinanie i zmiana rozmiaru obrazu",
+      "description": "Przycinaj i zmieniaj rozmiar obrazow z predefiniowanymi wymiarami dla mediow spolecznosciowych.",
+      "h1": "Przycinanie i zmiana rozmiaru obrazow online - Darmowe",
+      "metaTitle": "Darmowe narzedzie do przycinania i zmiany rozmiaru obrazow | ToolPic",
+      "metaDescription": "Przycinaj i zmieniaj rozmiar obrazow online za darmo. Predefiniowane wymiary dla mediow spolecznosciowych. Bez przesylania."
+    },
+    "image-watermark": {
+      "title": "Dodaj znak wodny",
+      "description": "Dodawaj tekstowe lub graficzne znaki wodne do zdjec masowo.",
+      "h1": "Dodaj znak wodny do obrazow online - Darmowe",
+      "metaTitle": "Darmowe narzedzie do znakow wodnych - Dodaj tekst/logo | ToolPic",
+      "metaDescription": "Dodawaj tekstowe lub graficzne znaki wodne do zdjec online za darmo. Przetwarzanie masowe. 100% w przegladarce."
+    },
+    "image-bg-remove": {
+      "title": "Usuwanie tla",
+      "description": "Usuwanie tla oparte na AI. Otrzymaj przezroczyste PNG w kilka sekund.",
+      "h1": "Usuwanie tla obrazu online - Darmowe narzedzie AI",
+      "metaTitle": "Darmowe usuwanie tla - AI usun tlo online | ToolPic",
+      "metaDescription": "Usun tlo obrazu za pomoca AI online za darmo. Przezroczyste PNG w kilka sekund. Bez przesylania, 100% prywatnie."
+    },
+    "image-merge": {
+      "title": "Laczenie obrazow",
+      "description": "Polacz wiele obrazow w jeden. Tworzenie kolaży i dlugich obrazow.",
+      "h1": "Laczenie obrazow online - Darmowy kreator kolaży",
+      "metaTitle": "Darmowe narzedzie do laczenia obrazow online | ToolPic",
+      "metaDescription": "Polacz wiele obrazow w jeden online za darmo. Tworzenie kolaży, dlugich obrazow. Bez przesylania."
+    },
+    "video-compress": {
+      "title": "Kompresor wideo",
+      "description": "Kompresuj pliki wideo dostosowujac rozdzielczosc i bitrate.",
+      "h1": "Kompresja wideo online - Darmowa i szybka",
+      "metaTitle": "Darmowy kompresor wideo - Zmniejsz rozmiar wideo online | ToolPic",
+      "metaDescription": "Kompresuj wideo MP4, WebM, AVI online za darmo. Zmniejsz rozmiar pliku bez utraty jakosci. W przegladarce."
+    },
+    "video-convert": {
+      "title": "Konwerter wideo",
+      "description": "Konwertuj wideo miedzy formatami MP4, WebM, AVI, MOV.",
+      "h1": "Konwersja formatu wideo online - Darmowa",
+      "metaTitle": "Darmowy konwerter wideo - MP4 WebM AVI MOV online | ToolPic",
+      "metaDescription": "Konwertuj wideo miedzy MP4, WebM, AVI, MOV, MKV online za darmo. Szybka konwersja w przegladarce."
+    },
+    "video-to-gif": {
+      "title": "Wideo do GIF",
+      "description": "Konwertuj klipy wideo na animowane GIF z niestandardowymi ustawieniami.",
+      "h1": "Konwersja wideo do GIF online - Darmowa",
+      "metaTitle": "Darmowy konwerter wideo do GIF online | ToolPic",
+      "metaDescription": "Konwertuj wideo do GIF online za darmo. Dostosuj czestotliwosc klatek, rozmiar i czas trwania. Bez oprogramowania."
+    },
+    "video-extract-audio": {
+      "title": "Ekstrakcja audio",
+      "description": "Wyodrebnij sciezki dzwiekowe z plikow wideo jako MP3, WAV lub AAC.",
+      "h1": "Ekstrakcja audio z wideo online - Darmowa",
+      "metaTitle": "Darmowy ekstraktor audio - Pobierz MP3 z wideo | ToolPic",
+      "metaDescription": "Wyodrebnij audio z wideo online za darmo. Zapisz jako MP3, WAV lub AAC. Szybka ekstrakcja w przegladarce."
+    }
+  },
+  "footer": {
+    "tagline": "Darmowe narzedzia online do obrazow i wideo. 100% w przegladarce, Twoje pliki nigdy nie opuszczaja urzadzenia.",
+    "tools": "Narzedzia",
+    "legal": "Informacje prawne",
+    "privacy": "Polityka prywatnosci",
+    "terms": "Regulamin",
+    "contact": "Kontakt",
+    "copyright": "© 2026 ToolPic. Wszelkie prawa zastrzezone."
+  }
+}

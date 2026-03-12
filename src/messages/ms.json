@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Alat imej dan video dalam talian percuma. Semua pemprosesan berlaku dalam pelayar anda - fail anda tidak pernah meninggalkan peranti anda.",
+    "homeTitle": "Alat Imej & Video Dalam Talian Percuma | ToolPic"
+  },
+  "common": {
+    "upload": "Muat naik fail",
+    "uploadHint": "atau seret dan lepas fail di sini",
+    "download": "Muat turun",
+    "downloadAll": "Muat turun semua",
+    "processing": "Memproses...",
+    "reset": "Tetapkan semula",
+    "privacy": "Fail anda diproses secara tempatan dalam pelayar anda. Tiada apa yang dimuat naik ke mana-mana pelayan.",
+    "maxFileSize": "Saiz fail maksimum: {size}MB",
+    "supportedFormats": "Format yang disokong: {formats}",
+    "quality": "Kualiti",
+    "width": "Lebar",
+    "height": "Tinggi",
+    "format": "Format output",
+    "start": "Mula",
+    "cancel": "Batal",
+    "done": "Selesai",
+    "error": "Ralat berlaku. Sila cuba lagi.",
+    "fileCount": "{count} fail dipilih",
+    "originalSize": "Asal: {size}",
+    "newSize": "Baharu: {size}",
+    "savedPercent": "Dijimatkan {percent}%"
+  },
+  "nav": {
+    "home": "Laman Utama",
+    "imageTools": "Alat Imej",
+    "videoTools": "Alat Video",
+    "allTools": "Semua Alat"
+  },
+  "home": {
+    "h1": "Alat Imej & Video Dalam Talian Percuma",
+    "subtitle": "Semua pemprosesan berlaku dalam pelayar anda. Fail anda tidak pernah meninggalkan peranti anda.",
+    "imageSection": "Alat Imej",
+    "videoSection": "Alat Video",
+    "whyTitle": "Mengapa ToolPic?",
+    "why1Title": "100% Berasaskan Pelayar",
+    "why1Desc": "Semua fail diproses secara tempatan. Tiada apa yang dimuat naik ke pelayan. Privasi anda terjamin.",
+    "why2Title": "Percuma & Tanpa Had",
+    "why2Desc": "Tanpa pendaftaran, tanpa had fail, tanpa tera air. Gunakan seberapa banyak yang anda mahu, sepenuhnya percuma.",
+    "why3Title": "Pantas & Mudah",
+    "why3Desc": "Antara muka seret dan lepas yang mudah. Dapatkan keputusan dalam beberapa saat, tanpa pemasangan perisian."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Pemampat Imej",
+      "description": "Mampatkan imej JPEG, PNG, WebP sehingga 80% tanpa kehilangan kualiti.",
+      "h1": "Mampatkan Imej Dalam Talian - Percuma & Pantas",
+      "metaTitle": "Pemampat Imej Percuma - Kurangkan Saiz Imej Dalam Talian | ToolPic",
+      "metaDescription": "Mampatkan imej JPEG, PNG, WebP, AVIF dalam talian secara percuma. Kurangkan saiz fail sehingga 80% dengan pemampatan pintar. Tanpa muat naik, 100% dalam pelayar."
+    },
+    "image-converter": {
+      "title": "Penukar Imej",
+      "description": "Tukar imej antara format JPG, PNG, WebP, AVIF, BMP serta-merta.",
+      "h1": "Tukar Format Imej Dalam Talian - Percuma",
+      "metaTitle": "Penukar Imej Percuma - JPG PNG WebP AVIF Dalam Talian | ToolPic",
+      "metaDescription": "Tukar imej antara JPG, PNG, WebP, AVIF, BMP, TIFF dalam talian secara percuma. Pantas dan selamat."
+    },
+    "image-crop": {
+      "title": "Potong & Ubah Saiz Imej",
+      "description": "Potong dan ubah saiz imej dengan dimensi pratetap media sosial.",
+      "h1": "Potong & Ubah Saiz Imej Dalam Talian - Percuma",
+      "metaTitle": "Alat Potong & Ubah Saiz Imej Percuma Dalam Talian | ToolPic",
+      "metaDescription": "Potong dan ubah saiz imej dalam talian secara percuma. Dimensi pratetap untuk media sosial. Tanpa perlu muat naik."
+    },
+    "image-watermark": {
+      "title": "Tambah Tera Air",
+      "description": "Tambah tera air teks atau imej pada foto anda secara berkelompok.",
+      "h1": "Tambah Tera Air pada Imej Dalam Talian - Percuma",
+      "metaTitle": "Alat Tera Air Percuma - Tambah Teks/Logo | ToolPic",
+      "metaDescription": "Tambah tera air teks atau imej pada foto dalam talian secara percuma. Pemprosesan berkelompok disokong. 100% dalam pelayar."
+    },
+    "image-bg-remove": {
+      "title": "Buang Latar Belakang",
+      "description": "Pembuangan latar belakang berkuasa AI. Dapatkan PNG lutsinar dalam beberapa saat.",
+      "h1": "Buang Latar Belakang Imej Dalam Talian - Alat AI Percuma",
+      "metaTitle": "Pembuang Latar Belakang Percuma - AI Buang BG Dalam Talian | ToolPic",
+      "metaDescription": "Buang latar belakang imej dengan AI dalam talian secara percuma. PNG lutsinar dalam beberapa saat. Tanpa muat naik, 100% peribadi."
+    },
+    "image-merge": {
+      "title": "Gabung Imej",
+      "description": "Gabungkan beberapa imej menjadi satu. Cipta kolaj dan imej panjang.",
+      "h1": "Gabung Imej Dalam Talian - Pembuat Kolaj Percuma",
+      "metaTitle": "Alat Gabung Imej Percuma Dalam Talian | ToolPic",
+      "metaDescription": "Gabungkan beberapa imej menjadi satu dalam talian secara percuma. Cipta kolaj, imej panjang. Tanpa perlu muat naik."
+    },
+    "video-compress": {
+      "title": "Pemampat Video",
+      "description": "Mampatkan fail video dengan melaraskan resolusi dan kadar bit.",
+      "h1": "Mampatkan Video Dalam Talian - Percuma & Pantas",
+      "metaTitle": "Pemampat Video Percuma - Kurangkan Saiz Video Dalam Talian | ToolPic",
+      "metaDescription": "Mampatkan video MP4, WebM, AVI dalam talian secara percuma. Kurangkan saiz fail tanpa kehilangan kualiti. Berasaskan pelayar."
+    },
+    "video-convert": {
+      "title": "Penukar Video",
+      "description": "Tukar video antara format MP4, WebM, AVI, MOV.",
+      "h1": "Tukar Format Video Dalam Talian - Percuma",
+      "metaTitle": "Penukar Video Percuma - MP4 WebM AVI MOV Dalam Talian | ToolPic",
+      "metaDescription": "Tukar video antara MP4, WebM, AVI, MOV, MKV dalam talian secara percuma. Penukaran pantas dalam pelayar."
+    },
+    "video-to-gif": {
+      "title": "Video ke GIF",
+      "description": "Tukar klip video kepada GIF animasi dengan tetapan tersuai.",
+      "h1": "Tukar Video ke GIF Dalam Talian - Percuma",
+      "metaTitle": "Penukar Video ke GIF Percuma Dalam Talian | ToolPic",
+      "metaDescription": "Tukar video ke GIF dalam talian secara percuma. Sesuaikan kadar bingkai, saiz dan tempoh. Tanpa perisian."
+    },
+    "video-extract-audio": {
+      "title": "Ekstrak Audio",
+      "description": "Ekstrak trek audio daripada fail video sebagai MP3, WAV atau AAC.",
+      "h1": "Ekstrak Audio daripada Video Dalam Talian - Percuma",
+      "metaTitle": "Pengekstrak Audio Percuma - Dapatkan MP3 daripada Video | ToolPic",
+      "metaDescription": "Ekstrak audio daripada video dalam talian secara percuma. Simpan sebagai MP3, WAV atau AAC. Pengekstrakan pantas dalam pelayar."
+    }
+  },
+  "footer": {
+    "tagline": "Alat dalam talian percuma untuk imej dan video. 100% dalam pelayar, fail anda tidak pernah meninggalkan peranti anda.",
+    "tools": "Alat",
+    "legal": "Undang-undang",
+    "privacy": "Dasar Privasi",
+    "terms": "Terma Perkhidmatan",
+    "contact": "Hubungi",
+    "copyright": "© 2026 ToolPic. Hak cipta terpelihara."
+  }
+}

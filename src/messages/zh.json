@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "免费在线图片和视频工具。所有处理均在浏览器中完成，文件不会离开您的设备。",
+    "homeTitle": "免费在线图片视频工具 | ToolPic"
+  },
+  "common": {
+    "upload": "上传文件",
+    "uploadHint": "或将文件拖放到此处",
+    "download": "下载",
+    "downloadAll": "全部下载",
+    "processing": "处理中...",
+    "reset": "重置",
+    "privacy": "文件在您的浏览器中本地处理，不会上传到任何服务器。",
+    "maxFileSize": "最大文件大小：{size}MB",
+    "supportedFormats": "支持格式：{formats}",
+    "quality": "质量",
+    "width": "宽度",
+    "height": "高度",
+    "format": "输出格式",
+    "start": "开始",
+    "cancel": "取消",
+    "done": "完成",
+    "error": "发生错误，请重试。",
+    "fileCount": "已选择 {count} 个文件",
+    "originalSize": "原始：{size}",
+    "newSize": "压缩后：{size}",
+    "savedPercent": "节省 {percent}%"
+  },
+  "nav": {
+    "home": "首页",
+    "imageTools": "图片工具",
+    "videoTools": "视频工具",
+    "allTools": "所有工具"
+  },
+  "home": {
+    "h1": "免费在线图片视频工具",
+    "subtitle": "所有处理均在浏览器中完成，文件不会离开您的设备。",
+    "imageSection": "图片工具",
+    "videoSection": "视频工具",
+    "whyTitle": "为什么选择 ToolPic？",
+    "why1Title": "100% 浏览器处理",
+    "why1Desc": "所有文件在本地处理，不上传到任何服务器，隐私安全有保障。",
+    "why2Title": "免费无限制",
+    "why2Desc": "无需注册，不限文件数量，无水印。完全免费使用。",
+    "why3Title": "快速简单",
+    "why3Desc": "拖放即用，秒出结果，无需安装任何软件。"
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "图片压缩",
+      "description": "智能压缩 JPEG、PNG、WebP 图片，最高可减少 80% 体积。",
+      "h1": "在线图片压缩 - 免费快速",
+      "metaTitle": "免费在线图片压缩工具 - 智能无损压缩 | ToolPic",
+      "metaDescription": "免费在线压缩 JPEG、PNG、WebP、AVIF 图片。智能压缩最高减少 80% 体积，不上传文件，100% 浏览器处理。"
+    },
+    "image-converter": {
+      "title": "图片格式转换",
+      "description": "在 JPG、PNG、WebP、AVIF、BMP 格式之间自由转换。",
+      "h1": "在线图片格式转换 - 免费",
+      "metaTitle": "免费图片格式转换器 - JPG PNG WebP 在线转换 | ToolPic",
+      "metaDescription": "免费在线转换图片格式。支持 JPG、PNG、WebP、AVIF、BMP、TIFF 互转。快速安全。"
+    },
+    "image-crop": {
+      "title": "图片裁剪缩放",
+      "description": "裁剪和缩放图片，提供社交媒体预设尺寸。",
+      "h1": "在线图片裁剪缩放 - 免费",
+      "metaTitle": "免费在线图片裁剪缩放工具 | ToolPic",
+      "metaDescription": "免费在线裁剪和缩放图片。提供社交媒体预设尺寸，无需上传。"
+    },
+    "image-watermark": {
+      "title": "添加水印",
+      "description": "批量为图片添加文字或图片水印。",
+      "h1": "在线添加图片水印 - 免费",
+      "metaTitle": "免费图片水印工具 - 批量添加文字水印 | ToolPic",
+      "metaDescription": "免费在线为图片添加文字或图片水印。支持批量处理，100% 浏览器处理。"
+    },
+    "image-bg-remove": {
+      "title": "AI 抠图去背景",
+      "description": "AI 智能抠图，秒出透明 PNG。",
+      "h1": "在线 AI 抠图去背景 - 免费",
+      "metaTitle": "免费 AI 抠图工具 - 在线一键去背景 | ToolPic",
+      "metaDescription": "免费使用 AI 在线去除图片背景。秒出透明 PNG，不上传文件，100% 隐私安全。"
+    },
+    "image-merge": {
+      "title": "图片拼接",
+      "description": "多图拼接合并，制作拼图和长图。",
+      "h1": "在线图片拼接 - 免费拼图工具",
+      "metaTitle": "免费在线图片拼接工具 - 多图合并 | ToolPic",
+      "metaDescription": "免费在线拼接合并多张图片。制作拼图、长图，无需上传。"
+    },
+    "video-compress": {
+      "title": "视频压缩",
+      "description": "通过调整分辨率和码率压缩视频文件。",
+      "h1": "在线视频压缩 - 免费快速",
+      "metaTitle": "免费在线视频压缩工具 - 减小视频体积 | ToolPic",
+      "metaDescription": "免费在线压缩 MP4、WebM、AVI 视频。减小文件体积，不损失质量。浏览器处理。"
+    },
+    "video-convert": {
+      "title": "视频格式转换",
+      "description": "在 MP4、WebM、AVI、MOV 格式之间转换视频。",
+      "h1": "在线视频格式转换 - 免费",
+      "metaTitle": "免费视频格式转换器 - MP4 WebM AVI 在线转换 | ToolPic",
+      "metaDescription": "免费在线转换视频格式。支持 MP4、WebM、AVI、MOV、MKV 互转。快速浏览器转换。"
+    },
+    "video-to-gif": {
+      "title": "视频转 GIF",
+      "description": "将视频片段转换为 GIF 动图，可自定义设置。",
+      "h1": "在线视频转 GIF - 免费",
+      "metaTitle": "免费视频转 GIF 工具 | ToolPic",
+      "metaDescription": "免费在线将视频转换为 GIF 动图。自定义帧率、尺寸和时长。无需安装软件。"
+    },
+    "video-extract-audio": {
+      "title": "视频提取音频",
+      "description": "从视频中提取音频，保存为 MP3、WAV 或 AAC。",
+      "h1": "在线视频提取音频 - 免费",
+      "metaTitle": "免费视频提取音频工具 - 从视频获取 MP3 | ToolPic",
+      "metaDescription": "免费在线从视频提取音频。保存为 MP3、WAV 或 AAC。快速浏览器处理。"
+    }
+  },
+  "footer": {
+    "tagline": "免费在线图片视频工具。100% 浏览器处理，文件不会离开您的设备。",
+    "tools": "工具",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们",
+    "copyright": "© 2026 ToolPic. 保留所有权利。"
+  }
+}

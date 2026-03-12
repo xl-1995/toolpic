@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Ucretsiz cevrimici gorsel ve video araclari. Tum islemler tarayicinizda gerceklesir - dosyalariniz cihazinizdan hic cikmaz.",
+    "homeTitle": "Ucretsiz Cevrimici Gorsel ve Video Araclari | ToolPic"
+  },
+  "common": {
+    "upload": "Dosya yukle",
+    "uploadHint": "veya dosyalari buraya surukleyip birakin",
+    "download": "Indir",
+    "downloadAll": "Tumunu indir",
+    "processing": "Isleniyor...",
+    "reset": "Sifirla",
+    "privacy": "Dosyalariniz tarayicinizda yerel olarak islenir. Hicbir sey sunucuya yuklenmez.",
+    "maxFileSize": "Maksimum dosya boyutu: {size}MB",
+    "supportedFormats": "Desteklenen formatlar: {formats}",
+    "quality": "Kalite",
+    "width": "Genislik",
+    "height": "Yukseklik",
+    "format": "Cikti formati",
+    "start": "Basla",
+    "cancel": "Iptal",
+    "done": "Tamamlandi",
+    "error": "Bir hata olustu. Lutfen tekrar deneyin.",
+    "fileCount": "{count} dosya secildi",
+    "originalSize": "Orijinal: {size}",
+    "newSize": "Yeni: {size}",
+    "savedPercent": "%{percent} tasarruf"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "imageTools": "Gorsel Araclari",
+    "videoTools": "Video Araclari",
+    "allTools": "Tum Araclar"
+  },
+  "home": {
+    "h1": "Ucretsiz Cevrimici Gorsel ve Video Araclari",
+    "subtitle": "Tum islemler tarayicinizda gerceklesir. Dosyalariniz cihazinizdan hic cikmaz.",
+    "imageSection": "Gorsel Araclari",
+    "videoSection": "Video Araclari",
+    "whyTitle": "Neden ToolPic?",
+    "why1Title": "%100 Tarayici Tabanli",
+    "why1Desc": "Tum dosyalar yerel olarak islenir. Sunucuya hicbir sey yuklenmez. Gizliliginiz garanti altindadir.",
+    "why2Title": "Ucretsiz ve Sinirsiz",
+    "why2Desc": "Kayit yok, dosya siniri yok, filigran yok. Istediginiz kadar kullanin, tamamen ucretsiz.",
+    "why3Title": "Hizli ve Kolay",
+    "why3Desc": "Basit surukle-birak arayuzu. Saniyeler icinde sonuc alin, yazilim kurulumu gerekli degil."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Gorsel Sikistirma",
+      "description": "JPEG, PNG, WebP gorselleri kalite kaybetmeden %80'e kadar sikistirin.",
+      "h1": "Cevrimici Gorsel Sikistirma - Ucretsiz ve Hizli",
+      "metaTitle": "Ucretsiz Gorsel Sikistirma - Cevrimici Gorsel Boyutu Kucultme | ToolPic",
+      "metaDescription": "JPEG, PNG, WebP, AVIF gorselleri cevrimici ucretsiz sikistirin. Akilli sikistirma ile %80'e kadar boyut azaltma. Yukleme yok, %100 tarayici tabanli."
+    },
+    "image-converter": {
+      "title": "Gorsel Donusturucu",
+      "description": "Gorselleri JPG, PNG, WebP, AVIF, BMP formatlari arasinda aninda donusturun.",
+      "h1": "Cevrimici Gorsel Format Donusturme - Ucretsiz",
+      "metaTitle": "Ucretsiz Gorsel Donusturucu - JPG PNG WebP AVIF Cevrimici | ToolPic",
+      "metaDescription": "JPG, PNG, WebP, AVIF, BMP, TIFF formatlari arasinda cevrimici ucretsiz gorsel donusturme. Hizli ve guvenli."
+    },
+    "image-crop": {
+      "title": "Gorsel Kirpma ve Boyutlandirma",
+      "description": "Sosyal medya on ayarli boyutlarla gorselleri kirpin ve boyutlandirin.",
+      "h1": "Cevrimici Gorsel Kirpma ve Boyutlandirma - Ucretsiz",
+      "metaTitle": "Ucretsiz Cevrimici Gorsel Kirpma ve Boyutlandirma Araci | ToolPic",
+      "metaDescription": "Cevrimici ucretsiz gorsel kirpma ve boyutlandirma. Sosyal medya icin on ayarli boyutlar. Yukleme gerekli degil."
+    },
+    "image-watermark": {
+      "title": "Filigran Ekle",
+      "description": "Fotolariniza toplu olarak metin veya gorsel filigran ekleyin.",
+      "h1": "Cevrimici Gorsellere Filigran Ekle - Ucretsiz",
+      "metaTitle": "Ucretsiz Filigran Araci - Metin/Logo Filigrani Ekle | ToolPic",
+      "metaDescription": "Fotolara cevrimici ucretsiz metin veya gorsel filigran ekleyin. Toplu isleme destegi. %100 tarayici tabanli."
+    },
+    "image-bg-remove": {
+      "title": "Arka Plan Kaldirma",
+      "description": "Yapay zeka destekli arka plan kaldirma. Saniyeler icinde seffaf PNG elde edin.",
+      "h1": "Cevrimici Gorsel Arka Plan Kaldirma - Ucretsiz AI Araci",
+      "metaTitle": "Ucretsiz Arka Plan Kaldirici - AI ile Cevrimici Arka Plan Silme | ToolPic",
+      "metaDescription": "AI ile cevrimici ucretsiz gorsel arka plani kaldirin. Saniyeler icinde seffaf PNG. Yukleme yok, %100 gizli."
+    },
+    "image-merge": {
+      "title": "Gorsel Birlestirme",
+      "description": "Birden fazla gorseli bir arada birlestirin. Kolaj ve uzun gorseller olusturun.",
+      "h1": "Cevrimici Gorsel Birlestirme - Ucretsiz Kolaj Olusturucu",
+      "metaTitle": "Ucretsiz Cevrimici Gorsel Birlestirme Araci | ToolPic",
+      "metaDescription": "Birden fazla gorseli cevrimici ucretsiz birlestirin. Kolaj, uzun gorseller olusturun. Yukleme gerekli degil."
+    },
+    "video-compress": {
+      "title": "Video Sikistirma",
+      "description": "Cozunurluk ve bit hizini ayarlayarak video dosyalarini sikistirin.",
+      "h1": "Cevrimici Video Sikistirma - Ucretsiz ve Hizli",
+      "metaTitle": "Ucretsiz Video Sikistirma - Cevrimici Video Boyutu Kucultme | ToolPic",
+      "metaDescription": "MP4, WebM, AVI videolari cevrimici ucretsiz sikistirin. Kalite kaybetmeden dosya boyutunu azaltin. Tarayici tabanli."
+    },
+    "video-convert": {
+      "title": "Video Donusturucu",
+      "description": "Videolari MP4, WebM, AVI, MOV formatlari arasinda donusturun.",
+      "h1": "Cevrimici Video Format Donusturme - Ucretsiz",
+      "metaTitle": "Ucretsiz Video Donusturucu - MP4 WebM AVI MOV Cevrimici | ToolPic",
+      "metaDescription": "MP4, WebM, AVI, MOV, MKV formatlari arasinda cevrimici ucretsiz video donusturme. Hizli tarayici donusumu."
+    },
+    "video-to-gif": {
+      "title": "Videodan GIF'e",
+      "description": "Video klipleri ozel ayarlarla animasyonlu GIF'e donusturun.",
+      "h1": "Cevrimici Videodan GIF'e Donusturme - Ucretsiz",
+      "metaTitle": "Ucretsiz Videodan GIF'e Donusturucu | ToolPic",
+      "metaDescription": "Cevrimici ucretsiz video GIF donusturme. Kare hizi, boyut ve sure ozellestirme. Yazilim gerekli degil."
+    },
+    "video-extract-audio": {
+      "title": "Ses Cikarma",
+      "description": "Video dosyalarindan ses izlerini MP3, WAV veya AAC olarak cikarin.",
+      "h1": "Cevrimici Videodan Ses Cikarma - Ucretsiz",
+      "metaTitle": "Ucretsiz Ses Cikarma Araci - Videodan MP3 Elde Etme | ToolPic",
+      "metaDescription": "Cevrimici ucretsiz videodan ses cikarin. MP3, WAV veya AAC olarak kaydedin. Hizli tarayici tabanli cikarma."
+    }
+  },
+  "footer": {
+    "tagline": "Gorseller ve videolar icin ucretsiz cevrimici araclar. %100 tarayici tabanli, dosyalariniz cihazinizdan hic cikmaz.",
+    "tools": "Araclar",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikasi",
+    "terms": "Kullanim Sartlari",
+    "contact": "Iletisim",
+    "copyright": "© 2026 ToolPic. Tum haklari saklidir."
+  }
+}

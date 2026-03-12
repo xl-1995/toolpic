@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Outils gratuits en ligne pour images et videos. Tout le traitement se fait dans votre navigateur - vos fichiers ne quittent jamais votre appareil.",
+    "homeTitle": "Outils gratuits d'image et video en ligne | ToolPic"
+  },
+  "common": {
+    "upload": "Importer des fichiers",
+    "uploadHint": "ou glissez-deposez vos fichiers ici",
+    "download": "Telecharger",
+    "downloadAll": "Tout telecharger",
+    "processing": "Traitement en cours...",
+    "reset": "Reinitialiser",
+    "privacy": "Vos fichiers sont traites localement dans votre navigateur. Rien n'est envoye sur un serveur.",
+    "maxFileSize": "Taille maximale du fichier : {size} Mo",
+    "supportedFormats": "Formats pris en charge : {formats}",
+    "quality": "Qualite",
+    "width": "Largeur",
+    "height": "Hauteur",
+    "format": "Format de sortie",
+    "start": "Demarrer",
+    "cancel": "Annuler",
+    "done": "Termine",
+    "error": "Une erreur s'est produite. Veuillez reessayer.",
+    "fileCount": "{count} fichier(s) selectionne(s)",
+    "originalSize": "Original : {size}",
+    "newSize": "Nouveau : {size}",
+    "savedPercent": "{percent}% economise"
+  },
+  "nav": {
+    "home": "Accueil",
+    "imageTools": "Outils image",
+    "videoTools": "Outils video",
+    "allTools": "Tous les outils"
+  },
+  "home": {
+    "h1": "Outils gratuits d'image et video en ligne",
+    "subtitle": "Tout le traitement se fait dans votre navigateur. Vos fichiers ne quittent jamais votre appareil.",
+    "imageSection": "Outils image",
+    "videoSection": "Outils video",
+    "whyTitle": "Pourquoi ToolPic ?",
+    "why1Title": "100% dans le navigateur",
+    "why1Desc": "Tous les fichiers sont traites localement. Rien n'est envoye sur un serveur. Votre vie privee est garantie.",
+    "why2Title": "Gratuit et illimite",
+    "why2Desc": "Pas d'inscription, pas de limite de fichiers, pas de filigrane. Utilisez autant que vous voulez, entierement gratuit.",
+    "why3Title": "Rapide et facile",
+    "why3Desc": "Interface simple de glisser-deposer. Obtenez des resultats en quelques secondes, aucune installation de logiciel necessaire."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Compresseur d'images",
+      "description": "Compressez les images JPEG, PNG, WebP jusqu'a 80% sans perte de qualite.",
+      "h1": "Compresser des images en ligne - Gratuit et rapide",
+      "metaTitle": "Compresseur d'images gratuit - Reduire la taille en ligne | ToolPic",
+      "metaDescription": "Compressez des images JPEG, PNG, WebP, AVIF en ligne gratuitement. Reduction jusqu'a 80% avec compression intelligente. Sans telechargement, 100% navigateur."
+    },
+    "image-converter": {
+      "title": "Convertisseur d'images",
+      "description": "Convertissez des images entre les formats JPG, PNG, WebP, AVIF, BMP instantanement.",
+      "h1": "Convertir le format d'image en ligne - Gratuit",
+      "metaTitle": "Convertisseur d'images gratuit - JPG PNG WebP AVIF en ligne | ToolPic",
+      "metaDescription": "Convertissez des images entre JPG, PNG, WebP, AVIF, BMP, TIFF en ligne gratuitement. Rapide et securise."
+    },
+    "image-crop": {
+      "title": "Recadrer et redimensionner",
+      "description": "Recadrez et redimensionnez des images avec des dimensions predefinis pour les reseaux sociaux.",
+      "h1": "Recadrer et redimensionner des images en ligne - Gratuit",
+      "metaTitle": "Outil gratuit de recadrage et redimensionnement d'images | ToolPic",
+      "metaDescription": "Recadrez et redimensionnez des images en ligne gratuitement. Dimensions predefinis pour les reseaux sociaux. Sans telechargement."
+    },
+    "image-watermark": {
+      "title": "Ajouter un filigrane",
+      "description": "Ajoutez des filigranes texte ou image a vos photos en lot.",
+      "h1": "Ajouter un filigrane aux images en ligne - Gratuit",
+      "metaTitle": "Outil de filigrane gratuit - Ajouter texte/logo | ToolPic",
+      "metaDescription": "Ajoutez des filigranes texte ou image a vos photos en ligne gratuitement. Traitement par lot supporte. 100% navigateur."
+    },
+    "image-bg-remove": {
+      "title": "Supprimer l'arriere-plan",
+      "description": "Suppression d'arriere-plan par IA. Obtenez un PNG transparent en quelques secondes.",
+      "h1": "Supprimer l'arriere-plan en ligne - Outil IA gratuit",
+      "metaTitle": "Suppresseur d'arriere-plan gratuit - IA en ligne | ToolPic",
+      "metaDescription": "Supprimez l'arriere-plan d'images avec l'IA en ligne gratuitement. PNG transparent en quelques secondes. Sans telechargement, 100% prive."
+    },
+    "image-merge": {
+      "title": "Fusionner des images",
+      "description": "Combinez plusieurs images en une seule. Creez des collages et des images longues.",
+      "h1": "Fusionner des images en ligne - Createur de collages gratuit",
+      "metaTitle": "Outil gratuit de fusion d'images - Combiner des photos | ToolPic",
+      "metaDescription": "Fusionnez et combinez plusieurs images en une en ligne gratuitement. Creez des collages, des images longues. Sans telechargement."
+    },
+    "video-compress": {
+      "title": "Compresseur video",
+      "description": "Compressez des fichiers video en ajustant la resolution et le debit.",
+      "h1": "Compresser des videos en ligne - Gratuit et rapide",
+      "metaTitle": "Compresseur video gratuit - Reduire la taille en ligne | ToolPic",
+      "metaDescription": "Compressez des videos MP4, WebM, AVI en ligne gratuitement. Reduisez la taille sans perte de qualite. Base sur navigateur."
+    },
+    "video-convert": {
+      "title": "Convertisseur video",
+      "description": "Convertissez des videos entre les formats MP4, WebM, AVI, MOV.",
+      "h1": "Convertir le format video en ligne - Gratuit",
+      "metaTitle": "Convertisseur video gratuit - MP4 WebM AVI MOV en ligne | ToolPic",
+      "metaDescription": "Convertissez des videos entre MP4, WebM, AVI, MOV, MKV en ligne gratuitement. Conversion rapide dans le navigateur."
+    },
+    "video-to-gif": {
+      "title": "Video en GIF",
+      "description": "Convertissez des clips video en GIF anime avec des parametres personnalises.",
+      "h1": "Convertir une video en GIF en ligne - Gratuit",
+      "metaTitle": "Convertisseur video en GIF gratuit en ligne | ToolPic",
+      "metaDescription": "Convertissez une video en GIF en ligne gratuitement. Personnalisez la cadence, la taille et la duree. Aucun logiciel necessaire."
+    },
+    "video-extract-audio": {
+      "title": "Extraire l'audio",
+      "description": "Extrayez les pistes audio des fichiers video en MP3, WAV ou AAC.",
+      "h1": "Extraire l'audio d'une video en ligne - Gratuit",
+      "metaTitle": "Extracteur audio gratuit - Obtenir MP3 d'une video | ToolPic",
+      "metaDescription": "Extrayez l'audio d'une video en ligne gratuitement. Enregistrez en MP3, WAV ou AAC. Extraction rapide dans le navigateur."
+    }
+  },
+  "footer": {
+    "tagline": "Outils gratuits en ligne pour images et videos. 100% dans le navigateur, vos fichiers ne quittent jamais votre appareil.",
+    "tools": "Outils",
+    "legal": "Mentions legales",
+    "privacy": "Politique de confidentialite",
+    "terms": "Conditions d'utilisation",
+    "contact": "Contact",
+    "copyright": "© 2026 ToolPic. Tous droits reserves."
+  }
+}

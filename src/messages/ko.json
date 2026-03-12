@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "무료 온라인 이미지 및 동영상 도구. 모든 처리는 브라우저에서 이루어지며, 파일이 기기를 떠나지 않습니다.",
+    "homeTitle": "무료 온라인 이미지 및 동영상 도구 | ToolPic"
+  },
+  "common": {
+    "upload": "파일 업로드",
+    "uploadHint": "또는 파일을 여기에 드래그 앤 드롭",
+    "download": "다운로드",
+    "downloadAll": "모두 다운로드",
+    "processing": "처리 중...",
+    "reset": "초기화",
+    "privacy": "파일은 브라우저에서 로컬로 처리됩니다. 어떤 서버에도 업로드되지 않습니다.",
+    "maxFileSize": "최대 파일 크기: {size}MB",
+    "supportedFormats": "지원 형식: {formats}",
+    "quality": "품질",
+    "width": "너비",
+    "height": "높이",
+    "format": "출력 형식",
+    "start": "시작",
+    "cancel": "취소",
+    "done": "완료",
+    "error": "오류가 발생했습니다. 다시 시도해 주세요.",
+    "fileCount": "{count}개 파일 선택됨",
+    "originalSize": "원본: {size}",
+    "newSize": "변환 후: {size}",
+    "savedPercent": "{percent}% 절약"
+  },
+  "nav": {
+    "home": "홈",
+    "imageTools": "이미지 도구",
+    "videoTools": "동영상 도구",
+    "allTools": "모든 도구"
+  },
+  "home": {
+    "h1": "무료 온라인 이미지 및 동영상 도구",
+    "subtitle": "모든 처리는 브라우저에서 이루어집니다. 파일이 기기를 떠나지 않습니다.",
+    "imageSection": "이미지 도구",
+    "videoSection": "동영상 도구",
+    "whyTitle": "왜 ToolPic인가요?",
+    "why1Title": "100% 브라우저 기반",
+    "why1Desc": "모든 파일은 로컬에서 처리됩니다. 서버에 업로드되지 않아 개인정보가 보장됩니다.",
+    "why2Title": "무료 및 무제한",
+    "why2Desc": "가입 불필요, 파일 제한 없음, 워터마크 없음. 완전 무료로 사용하세요.",
+    "why3Title": "빠르고 간편",
+    "why3Desc": "간단한 드래그 앤 드롭 인터페이스. 몇 초 만에 결과를 얻을 수 있으며, 소프트웨어 설치가 필요 없습니다."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "이미지 압축",
+      "description": "JPEG, PNG, WebP 이미지를 품질 손실 없이 최대 80% 압축.",
+      "h1": "온라인 이미지 압축 - 무료 및 빠름",
+      "metaTitle": "무료 이미지 압축 도구 - 온라인 이미지 크기 줄이기 | ToolPic",
+      "metaDescription": "JPEG, PNG, WebP, AVIF 이미지를 무료로 온라인 압축. 스마트 압축으로 최대 80% 파일 크기 감소. 업로드 불필요, 100% 브라우저 처리."
+    },
+    "image-converter": {
+      "title": "이미지 변환",
+      "description": "JPG, PNG, WebP, AVIF, BMP 형식 간 즉시 변환.",
+      "h1": "온라인 이미지 형식 변환 - 무료",
+      "metaTitle": "무료 이미지 변환기 - JPG PNG WebP AVIF 온라인 변환 | ToolPic",
+      "metaDescription": "JPG, PNG, WebP, AVIF, BMP, TIFF 형식 간 무료 온라인 이미지 변환. 빠르고 안전합니다."
+    },
+    "image-crop": {
+      "title": "이미지 자르기 및 크기 조절",
+      "description": "소셜 미디어 프리셋 크기로 이미지를 자르고 크기를 조절.",
+      "h1": "온라인 이미지 자르기 및 크기 조절 - 무료",
+      "metaTitle": "무료 온라인 이미지 자르기 및 크기 조절 도구 | ToolPic",
+      "metaDescription": "무료로 온라인에서 이미지를 자르고 크기를 조절하세요. 소셜 미디어용 프리셋 크기 지원. 업로드 불필요."
+    },
+    "image-watermark": {
+      "title": "워터마크 추가",
+      "description": "사진에 텍스트 또는 이미지 워터마크를 일괄 추가.",
+      "h1": "온라인 이미지 워터마크 추가 - 무료",
+      "metaTitle": "무료 이미지 워터마크 도구 - 텍스트/로고 워터마크 추가 | ToolPic",
+      "metaDescription": "무료로 온라인에서 사진에 텍스트 또는 이미지 워터마크 추가. 일괄 처리 지원. 100% 브라우저 처리."
+    },
+    "image-bg-remove": {
+      "title": "AI 배경 제거",
+      "description": "AI 기반 배경 제거. 몇 초 만에 투명 PNG 생성.",
+      "h1": "온라인 AI 배경 제거 - 무료 도구",
+      "metaTitle": "무료 AI 배경 제거 도구 - 온라인 배경 삭제 | ToolPic",
+      "metaDescription": "AI로 무료 온라인 이미지 배경 제거. 몇 초 만에 투명 PNG 생성. 업로드 불필요, 100% 개인정보 보호."
+    },
+    "image-merge": {
+      "title": "이미지 합치기",
+      "description": "여러 이미지를 하나로 합치기. 콜라주 및 긴 이미지 만들기.",
+      "h1": "온라인 이미지 합치기 - 무료 콜라주 메이커",
+      "metaTitle": "무료 온라인 이미지 합치기 도구 | ToolPic",
+      "metaDescription": "여러 이미지를 무료로 온라인에서 합치기. 콜라주, 긴 이미지 만들기. 업로드 불필요."
+    },
+    "video-compress": {
+      "title": "동영상 압축",
+      "description": "해상도와 비트레이트를 조절하여 동영상 파일 압축.",
+      "h1": "온라인 동영상 압축 - 무료 및 빠름",
+      "metaTitle": "무료 온라인 동영상 압축 도구 - 동영상 크기 줄이기 | ToolPic",
+      "metaDescription": "MP4, WebM, AVI 동영상을 무료로 온라인 압축. 품질 손실 없이 파일 크기 감소. 브라우저 처리."
+    },
+    "video-convert": {
+      "title": "동영상 변환",
+      "description": "MP4, WebM, AVI, MOV 형식 간 동영상 변환.",
+      "h1": "온라인 동영상 형식 변환 - 무료",
+      "metaTitle": "무료 동영상 변환기 - MP4 WebM AVI MOV 온라인 변환 | ToolPic",
+      "metaDescription": "MP4, WebM, AVI, MOV, MKV 형식 간 무료 온라인 동영상 변환. 빠른 브라우저 변환."
+    },
+    "video-to-gif": {
+      "title": "동영상을 GIF로 변환",
+      "description": "동영상 클립을 맞춤 설정으로 애니메이션 GIF로 변환.",
+      "h1": "온라인 동영상 GIF 변환 - 무료",
+      "metaTitle": "무료 동영상 GIF 변환 도구 | ToolPic",
+      "metaDescription": "무료로 온라인에서 동영상을 GIF로 변환. 프레임 속도, 크기, 재생 시간 맞춤 설정. 소프트웨어 불필요."
+    },
+    "video-extract-audio": {
+      "title": "오디오 추출",
+      "description": "동영상 파일에서 오디오 트랙을 MP3, WAV 또는 AAC로 추출.",
+      "h1": "온라인 동영상에서 오디오 추출 - 무료",
+      "metaTitle": "무료 오디오 추출 도구 - 동영상에서 MP3 추출 | ToolPic",
+      "metaDescription": "무료로 온라인에서 동영상의 오디오 추출. MP3, WAV 또는 AAC로 저장. 빠른 브라우저 처리."
+    }
+  },
+  "footer": {
+    "tagline": "무료 온라인 이미지 및 동영상 도구. 100% 브라우저 처리, 파일이 기기를 떠나지 않습니다.",
+    "tools": "도구",
+    "legal": "법적 고지",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "contact": "문의하기",
+    "copyright": "© 2026 ToolPic. All rights reserved."
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Free online image and video tools. All processing happens in your browser - your files never leave your device.",
+    "homeTitle": "Free Online Image & Video Tools | ToolPic"
+  },
+  "common": {
+    "upload": "Upload files",
+    "uploadHint": "or drag and drop files here",
+    "download": "Download",
+    "downloadAll": "Download all",
+    "processing": "Processing...",
+    "reset": "Reset",
+    "privacy": "Your files are processed locally in your browser. Nothing is uploaded to any server.",
+    "maxFileSize": "Max file size: {size}MB",
+    "supportedFormats": "Supported formats: {formats}",
+    "quality": "Quality",
+    "width": "Width",
+    "height": "Height",
+    "format": "Output format",
+    "start": "Start",
+    "cancel": "Cancel",
+    "done": "Done",
+    "error": "An error occurred. Please try again.",
+    "fileCount": "{count} file(s) selected",
+    "originalSize": "Original: {size}",
+    "newSize": "New: {size}",
+    "savedPercent": "Saved {percent}%"
+  },
+  "nav": {
+    "home": "Home",
+    "imageTools": "Image Tools",
+    "videoTools": "Video Tools",
+    "allTools": "All Tools"
+  },
+  "home": {
+    "h1": "Free Online Image & Video Tools",
+    "subtitle": "All processing happens in your browser. Your files never leave your device.",
+    "imageSection": "Image Tools",
+    "videoSection": "Video Tools",
+    "whyTitle": "Why ToolPic?",
+    "why1Title": "100% Browser-Based",
+    "why1Desc": "All files are processed locally. Nothing is uploaded to any server. Your privacy is guaranteed.",
+    "why2Title": "Free & Unlimited",
+    "why2Desc": "No registration, no file limits, no watermarks. Use as much as you want, completely free.",
+    "why3Title": "Fast & Easy",
+    "why3Desc": "Simple drag-and-drop interface. Get results in seconds, no software installation needed."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Image Compressor",
+      "description": "Compress JPEG, PNG, WebP images up to 80% without losing quality.",
+      "h1": "Compress Images Online - Free & Fast",
+      "metaTitle": "Free Image Compressor - Reduce Image Size Online | ToolPic",
+      "metaDescription": "Compress JPEG, PNG, WebP, AVIF images online for free. Reduce file size up to 80% with smart compression. No upload, 100% browser-based."
+    },
+    "image-converter": {
+      "title": "Image Converter",
+      "description": "Convert images between JPG, PNG, WebP, AVIF, BMP formats instantly.",
+      "h1": "Convert Image Format Online - Free",
+      "metaTitle": "Free Image Converter - JPG PNG WebP AVIF Online | ToolPic",
+      "metaDescription": "Convert images between JPG, PNG, WebP, AVIF, BMP, TIFF formats online for free. Fast and secure."
+    },
+    "image-crop": {
+      "title": "Image Crop & Resize",
+      "description": "Crop and resize images with preset social media dimensions.",
+      "h1": "Crop & Resize Images Online - Free",
+      "metaTitle": "Free Image Cropper & Resizer Online | ToolPic",
+      "metaDescription": "Crop and resize images online for free. Preset dimensions for social media. No upload needed."
+    },
+    "image-watermark": {
+      "title": "Add Watermark",
+      "description": "Add text or image watermarks to your photos in batch.",
+      "h1": "Add Watermark to Images Online - Free",
+      "metaTitle": "Free Image Watermark Tool - Add Text/Logo Watermark | ToolPic",
+      "metaDescription": "Add text or image watermarks to photos online for free. Batch processing supported. 100% browser-based."
+    },
+    "image-bg-remove": {
+      "title": "Remove Background",
+      "description": "AI-powered background removal. Get transparent PNG in seconds.",
+      "h1": "Remove Image Background Online - Free AI Tool",
+      "metaTitle": "Free Background Remover - AI Remove BG Online | ToolPic",
+      "metaDescription": "Remove image background with AI online for free. Get transparent PNG in seconds. No upload, 100% private."
+    },
+    "image-merge": {
+      "title": "Merge Images",
+      "description": "Combine multiple images into one. Create collages and long images.",
+      "h1": "Merge Images Online - Free Collage Maker",
+      "metaTitle": "Free Image Merger - Combine Photos Online | ToolPic",
+      "metaDescription": "Merge and combine multiple images into one online for free. Create collages, long images. No upload needed."
+    },
+    "video-compress": {
+      "title": "Video Compressor",
+      "description": "Compress video files by adjusting resolution and bitrate.",
+      "h1": "Compress Videos Online - Free & Fast",
+      "metaTitle": "Free Video Compressor - Reduce Video Size Online | ToolPic",
+      "metaDescription": "Compress MP4, WebM, AVI videos online for free. Reduce file size without losing quality. Browser-based."
+    },
+    "video-convert": {
+      "title": "Video Converter",
+      "description": "Convert videos between MP4, WebM, AVI, MOV formats.",
+      "h1": "Convert Video Format Online - Free",
+      "metaTitle": "Free Video Converter - MP4 WebM AVI MOV Online | ToolPic",
+      "metaDescription": "Convert videos between MP4, WebM, AVI, MOV, MKV formats online for free. Fast browser-based conversion."
+    },
+    "video-to-gif": {
+      "title": "Video to GIF",
+      "description": "Convert video clips to animated GIF with custom settings.",
+      "h1": "Convert Video to GIF Online - Free",
+      "metaTitle": "Free Video to GIF Converter Online | ToolPic",
+      "metaDescription": "Convert video to GIF online for free. Customize frame rate, size, and duration. No software needed."
+    },
+    "video-extract-audio": {
+      "title": "Extract Audio",
+      "description": "Extract audio tracks from video files as MP3, WAV, or AAC.",
+      "h1": "Extract Audio from Video Online - Free",
+      "metaTitle": "Free Audio Extractor - Get MP3 from Video | ToolPic",
+      "metaDescription": "Extract audio from video online for free. Save as MP3, WAV, or AAC. Fast browser-based extraction."
+    }
+  },
+  "footer": {
+    "tagline": "Free online tools for images and videos. 100% browser-based, your files never leave your device.",
+    "tools": "Tools",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "copyright": "© 2026 ToolPic. All rights reserved."
+  }
+}

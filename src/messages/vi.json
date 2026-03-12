@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Cong cu hinh anh va video truc tuyen mien phi. Moi xu ly deu dien ra trong trinh duyet - tep cua ban khong bao gio roi khoi thiet bi.",
+    "homeTitle": "Cong cu hinh anh va video truc tuyen mien phi | ToolPic"
+  },
+  "common": {
+    "upload": "Tai tep len",
+    "uploadHint": "hoac keo va tha tep vao day",
+    "download": "Tai xuong",
+    "downloadAll": "Tai tat ca",
+    "processing": "Dang xu ly...",
+    "reset": "Dat lai",
+    "privacy": "Tep cua ban duoc xu ly cuc bo trong trinh duyet. Khong co gi duoc tai len bat ky may chu nao.",
+    "maxFileSize": "Kich thuoc tep toi da: {size}MB",
+    "supportedFormats": "Dinh dang ho tro: {formats}",
+    "quality": "Chat luong",
+    "width": "Chieu rong",
+    "height": "Chieu cao",
+    "format": "Dinh dang dau ra",
+    "start": "Bat dau",
+    "cancel": "Huy",
+    "done": "Hoan tat",
+    "error": "Da xay ra loi. Vui long thu lai.",
+    "fileCount": "Da chon {count} tep",
+    "originalSize": "Goc: {size}",
+    "newSize": "Moi: {size}",
+    "savedPercent": "Tiet kiem {percent}%"
+  },
+  "nav": {
+    "home": "Trang chu",
+    "imageTools": "Cong cu hinh anh",
+    "videoTools": "Cong cu video",
+    "allTools": "Tat ca cong cu"
+  },
+  "home": {
+    "h1": "Cong cu hinh anh va video truc tuyen mien phi",
+    "subtitle": "Moi xu ly deu dien ra trong trinh duyet. Tep cua ban khong bao gio roi khoi thiet bi.",
+    "imageSection": "Cong cu hinh anh",
+    "videoSection": "Cong cu video",
+    "whyTitle": "Tai sao chon ToolPic?",
+    "why1Title": "100% xu ly trong trinh duyet",
+    "why1Desc": "Tat ca tep duoc xu ly cuc bo. Khong co gi duoc tai len may chu. Quyen rieng tu cua ban duoc dam bao.",
+    "why2Title": "Mien phi va khong gioi han",
+    "why2Desc": "Khong can dang ky, khong gioi han tep, khong watermark. Su dung thoai mai, hoan toan mien phi.",
+    "why3Title": "Nhanh va de dang",
+    "why3Desc": "Giao dien keo tha don gian. Nhan ket qua trong vai giay, khong can cai dat phan mem."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Nen hinh anh",
+      "description": "Nen anh JPEG, PNG, WebP len den 80% ma khong mat chat luong.",
+      "h1": "Nen hinh anh truc tuyen - Mien phi va nhanh",
+      "metaTitle": "Nen hinh anh mien phi - Giam kich thuoc anh truc tuyen | ToolPic",
+      "metaDescription": "Nen anh JPEG, PNG, WebP, AVIF truc tuyen mien phi. Giam kich thuoc tep len den 80% voi nen thong minh. Khong tai len, 100% trong trinh duyet."
+    },
+    "image-converter": {
+      "title": "Chuyen doi hinh anh",
+      "description": "Chuyen doi hinh anh giua cac dinh dang JPG, PNG, WebP, AVIF, BMP ngay lap tuc.",
+      "h1": "Chuyen doi dinh dang hinh anh truc tuyen - Mien phi",
+      "metaTitle": "Chuyen doi hinh anh mien phi - JPG PNG WebP AVIF truc tuyen | ToolPic",
+      "metaDescription": "Chuyen doi hinh anh giua JPG, PNG, WebP, AVIF, BMP, TIFF truc tuyen mien phi. Nhanh va an toan."
+    },
+    "image-crop": {
+      "title": "Cat va thay doi kich thuoc anh",
+      "description": "Cat va thay doi kich thuoc anh voi kich thuoc dat san cho mang xa hoi.",
+      "h1": "Cat va thay doi kich thuoc anh truc tuyen - Mien phi",
+      "metaTitle": "Cong cu cat va thay doi kich thuoc anh mien phi | ToolPic",
+      "metaDescription": "Cat va thay doi kich thuoc anh truc tuyen mien phi. Kich thuoc dat san cho mang xa hoi. Khong can tai len."
+    },
+    "image-watermark": {
+      "title": "Them watermark",
+      "description": "Them watermark van ban hoac hinh anh vao anh theo lo.",
+      "h1": "Them watermark vao anh truc tuyen - Mien phi",
+      "metaTitle": "Cong cu watermark mien phi - Them van ban/logo | ToolPic",
+      "metaDescription": "Them watermark van ban hoac hinh anh vao anh truc tuyen mien phi. Ho tro xu ly theo lo. 100% trong trinh duyet."
+    },
+    "image-bg-remove": {
+      "title": "Xoa nen anh",
+      "description": "Xoa nen bang AI. Nhan PNG trong suot trong vai giay.",
+      "h1": "Xoa nen hinh anh truc tuyen - Cong cu AI mien phi",
+      "metaTitle": "Xoa nen mien phi - AI xoa nen anh truc tuyen | ToolPic",
+      "metaDescription": "Xoa nen hinh anh bang AI truc tuyen mien phi. PNG trong suot trong vai giay. Khong tai len, 100% rieng tu."
+    },
+    "image-merge": {
+      "title": "Ghep anh",
+      "description": "Ghep nhieu anh thanh mot. Tao collage va anh dai.",
+      "h1": "Ghep anh truc tuyen - Tao collage mien phi",
+      "metaTitle": "Cong cu ghep anh mien phi truc tuyen | ToolPic",
+      "metaDescription": "Ghep va ket hop nhieu anh thanh mot truc tuyen mien phi. Tao collage, anh dai. Khong can tai len."
+    },
+    "video-compress": {
+      "title": "Nen video",
+      "description": "Nen tep video bang cach dieu chinh do phan giai va bitrate.",
+      "h1": "Nen video truc tuyen - Mien phi va nhanh",
+      "metaTitle": "Nen video mien phi - Giam kich thuoc video truc tuyen | ToolPic",
+      "metaDescription": "Nen video MP4, WebM, AVI truc tuyen mien phi. Giam kich thuoc ma khong mat chat luong. Xu ly trong trinh duyet."
+    },
+    "video-convert": {
+      "title": "Chuyen doi video",
+      "description": "Chuyen doi video giua cac dinh dang MP4, WebM, AVI, MOV.",
+      "h1": "Chuyen doi dinh dang video truc tuyen - Mien phi",
+      "metaTitle": "Chuyen doi video mien phi - MP4 WebM AVI MOV truc tuyen | ToolPic",
+      "metaDescription": "Chuyen doi video giua MP4, WebM, AVI, MOV, MKV truc tuyen mien phi. Chuyen doi nhanh trong trinh duyet."
+    },
+    "video-to-gif": {
+      "title": "Video sang GIF",
+      "description": "Chuyen doi clip video thanh GIF dong voi cai dat tuy chinh.",
+      "h1": "Chuyen doi video sang GIF truc tuyen - Mien phi",
+      "metaTitle": "Chuyen doi video sang GIF mien phi truc tuyen | ToolPic",
+      "metaDescription": "Chuyen doi video sang GIF truc tuyen mien phi. Tuy chinh toc do khung hinh, kich thuoc va thoi luong. Khong can phan mem."
+    },
+    "video-extract-audio": {
+      "title": "Trich xuat am thanh",
+      "description": "Trich xuat am thanh tu tep video duoi dang MP3, WAV hoac AAC.",
+      "h1": "Trich xuat am thanh tu video truc tuyen - Mien phi",
+      "metaTitle": "Trich xuat am thanh mien phi - Lay MP3 tu video | ToolPic",
+      "metaDescription": "Trich xuat am thanh tu video truc tuyen mien phi. Luu duoi dang MP3, WAV hoac AAC. Trich xuat nhanh trong trinh duyet."
+    }
+  },
+  "footer": {
+    "tagline": "Cong cu truc tuyen mien phi cho hinh anh va video. 100% trong trinh duyet, tep cua ban khong bao gio roi khoi thiet bi.",
+    "tools": "Cong cu",
+    "legal": "Phap ly",
+    "privacy": "Chinh sach bao mat",
+    "terms": "Dieu khoan dich vu",
+    "contact": "Lien he",
+    "copyright": "© 2026 ToolPic. Moi quyen duoc bao luu."
+  }
+}

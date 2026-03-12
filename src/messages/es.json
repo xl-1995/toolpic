@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Herramientas gratuitas en linea para imagenes y videos. Todo el procesamiento ocurre en tu navegador: tus archivos nunca salen de tu dispositivo.",
+    "homeTitle": "Herramientas gratuitas de imagen y video en linea | ToolPic"
+  },
+  "common": {
+    "upload": "Subir archivos",
+    "uploadHint": "o arrastra y suelta archivos aqui",
+    "download": "Descargar",
+    "downloadAll": "Descargar todo",
+    "processing": "Procesando...",
+    "reset": "Restablecer",
+    "privacy": "Tus archivos se procesan localmente en tu navegador. No se sube nada a ningun servidor.",
+    "maxFileSize": "Tamano maximo de archivo: {size}MB",
+    "supportedFormats": "Formatos compatibles: {formats}",
+    "quality": "Calidad",
+    "width": "Ancho",
+    "height": "Alto",
+    "format": "Formato de salida",
+    "start": "Iniciar",
+    "cancel": "Cancelar",
+    "done": "Listo",
+    "error": "Ocurrio un error. Por favor, intentalo de nuevo.",
+    "fileCount": "{count} archivo(s) seleccionado(s)",
+    "originalSize": "Original: {size}",
+    "newSize": "Nuevo: {size}",
+    "savedPercent": "Ahorrado {percent}%"
+  },
+  "nav": {
+    "home": "Inicio",
+    "imageTools": "Herramientas de imagen",
+    "videoTools": "Herramientas de video",
+    "allTools": "Todas las herramientas"
+  },
+  "home": {
+    "h1": "Herramientas gratuitas de imagen y video en linea",
+    "subtitle": "Todo el procesamiento ocurre en tu navegador. Tus archivos nunca salen de tu dispositivo.",
+    "imageSection": "Herramientas de imagen",
+    "videoSection": "Herramientas de video",
+    "whyTitle": "¿Por que ToolPic?",
+    "why1Title": "100% basado en el navegador",
+    "why1Desc": "Todos los archivos se procesan localmente. No se sube nada a ningun servidor. Tu privacidad esta garantizada.",
+    "why2Title": "Gratis e ilimitado",
+    "why2Desc": "Sin registro, sin limites de archivos, sin marcas de agua. Usa todo lo que quieras, completamente gratis.",
+    "why3Title": "Rapido y facil",
+    "why3Desc": "Interfaz simple de arrastrar y soltar. Obtiene resultados en segundos, sin necesidad de instalar software."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Compresor de imagenes",
+      "description": "Comprime imagenes JPEG, PNG, WebP hasta un 80% sin perder calidad.",
+      "h1": "Comprimir imagenes en linea - Gratis y rapido",
+      "metaTitle": "Compresor de imagenes gratis - Reducir tamano de imagen en linea | ToolPic",
+      "metaDescription": "Comprime imagenes JPEG, PNG, WebP, AVIF en linea gratis. Reduce el tamano hasta un 80% con compresion inteligente. Sin subir archivos, 100% en el navegador."
+    },
+    "image-converter": {
+      "title": "Convertidor de imagenes",
+      "description": "Convierte imagenes entre formatos JPG, PNG, WebP, AVIF, BMP al instante.",
+      "h1": "Convertir formato de imagen en linea - Gratis",
+      "metaTitle": "Convertidor de imagenes gratis - JPG PNG WebP AVIF en linea | ToolPic",
+      "metaDescription": "Convierte imagenes entre formatos JPG, PNG, WebP, AVIF, BMP, TIFF en linea gratis. Rapido y seguro."
+    },
+    "image-crop": {
+      "title": "Recortar y redimensionar imagen",
+      "description": "Recorta y redimensiona imagenes con dimensiones preestablecidas para redes sociales.",
+      "h1": "Recortar y redimensionar imagenes en linea - Gratis",
+      "metaTitle": "Recortador y redimensionador de imagenes gratis en linea | ToolPic",
+      "metaDescription": "Recorta y redimensiona imagenes en linea gratis. Dimensiones preestablecidas para redes sociales. Sin necesidad de subir archivos."
+    },
+    "image-watermark": {
+      "title": "Agregar marca de agua",
+      "description": "Agrega marcas de agua de texto o imagen a tus fotos en lote.",
+      "h1": "Agregar marca de agua a imagenes en linea - Gratis",
+      "metaTitle": "Herramienta de marca de agua gratis - Agregar texto/logo | ToolPic",
+      "metaDescription": "Agrega marcas de agua de texto o imagen a fotos en linea gratis. Procesamiento por lotes compatible. 100% en el navegador."
+    },
+    "image-bg-remove": {
+      "title": "Eliminar fondo",
+      "description": "Eliminacion de fondo con IA. Obtiene PNG transparente en segundos.",
+      "h1": "Eliminar fondo de imagen en linea - Herramienta IA gratis",
+      "metaTitle": "Eliminador de fondo gratis - IA para quitar fondo en linea | ToolPic",
+      "metaDescription": "Elimina el fondo de imagenes con IA en linea gratis. Obtiene PNG transparente en segundos. Sin subir archivos, 100% privado."
+    },
+    "image-merge": {
+      "title": "Combinar imagenes",
+      "description": "Combina multiples imagenes en una. Crea collages e imagenes largas.",
+      "h1": "Combinar imagenes en linea - Creador de collages gratis",
+      "metaTitle": "Combinador de imagenes gratis - Unir fotos en linea | ToolPic",
+      "metaDescription": "Combina y une multiples imagenes en una en linea gratis. Crea collages, imagenes largas. Sin necesidad de subir archivos."
+    },
+    "video-compress": {
+      "title": "Compresor de video",
+      "description": "Comprime archivos de video ajustando la resolucion y la tasa de bits.",
+      "h1": "Comprimir videos en linea - Gratis y rapido",
+      "metaTitle": "Compresor de video gratis - Reducir tamano de video en linea | ToolPic",
+      "metaDescription": "Comprime videos MP4, WebM, AVI en linea gratis. Reduce el tamano sin perder calidad. Basado en navegador."
+    },
+    "video-convert": {
+      "title": "Convertidor de video",
+      "description": "Convierte videos entre formatos MP4, WebM, AVI, MOV.",
+      "h1": "Convertir formato de video en linea - Gratis",
+      "metaTitle": "Convertidor de video gratis - MP4 WebM AVI MOV en linea | ToolPic",
+      "metaDescription": "Convierte videos entre formatos MP4, WebM, AVI, MOV, MKV en linea gratis. Conversion rapida en el navegador."
+    },
+    "video-to-gif": {
+      "title": "Video a GIF",
+      "description": "Convierte clips de video a GIF animado con ajustes personalizados.",
+      "h1": "Convertir video a GIF en linea - Gratis",
+      "metaTitle": "Convertidor de video a GIF gratis en linea | ToolPic",
+      "metaDescription": "Convierte video a GIF en linea gratis. Personaliza la velocidad de fotogramas, tamano y duracion. Sin software necesario."
+    },
+    "video-extract-audio": {
+      "title": "Extraer audio",
+      "description": "Extrae pistas de audio de archivos de video como MP3, WAV o AAC.",
+      "h1": "Extraer audio de video en linea - Gratis",
+      "metaTitle": "Extractor de audio gratis - Obtener MP3 de video | ToolPic",
+      "metaDescription": "Extrae audio de video en linea gratis. Guarda como MP3, WAV o AAC. Extraccion rapida en el navegador."
+    }
+  },
+  "footer": {
+    "tagline": "Herramientas gratuitas en linea para imagenes y videos. 100% en el navegador, tus archivos nunca salen de tu dispositivo.",
+    "tools": "Herramientas",
+    "legal": "Legal",
+    "privacy": "Politica de privacidad",
+    "terms": "Terminos de servicio",
+    "contact": "Contacto",
+    "copyright": "© 2026 ToolPic. Todos los derechos reservados."
+  }
+}

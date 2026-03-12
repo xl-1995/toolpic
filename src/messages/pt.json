@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Ferramentas online gratuitas para imagens e videos. Todo o processamento acontece no seu navegador - seus arquivos nunca saem do seu dispositivo.",
+    "homeTitle": "Ferramentas gratuitas de imagem e video online | ToolPic"
+  },
+  "common": {
+    "upload": "Enviar arquivos",
+    "uploadHint": "ou arraste e solte arquivos aqui",
+    "download": "Baixar",
+    "downloadAll": "Baixar tudo",
+    "processing": "Processando...",
+    "reset": "Redefinir",
+    "privacy": "Seus arquivos sao processados localmente no seu navegador. Nada e enviado para nenhum servidor.",
+    "maxFileSize": "Tamanho maximo do arquivo: {size}MB",
+    "supportedFormats": "Formatos suportados: {formats}",
+    "quality": "Qualidade",
+    "width": "Largura",
+    "height": "Altura",
+    "format": "Formato de saida",
+    "start": "Iniciar",
+    "cancel": "Cancelar",
+    "done": "Concluido",
+    "error": "Ocorreu um erro. Por favor, tente novamente.",
+    "fileCount": "{count} arquivo(s) selecionado(s)",
+    "originalSize": "Original: {size}",
+    "newSize": "Novo: {size}",
+    "savedPercent": "{percent}% economizado"
+  },
+  "nav": {
+    "home": "Inicio",
+    "imageTools": "Ferramentas de imagem",
+    "videoTools": "Ferramentas de video",
+    "allTools": "Todas as ferramentas"
+  },
+  "home": {
+    "h1": "Ferramentas gratuitas de imagem e video online",
+    "subtitle": "Todo o processamento acontece no seu navegador. Seus arquivos nunca saem do seu dispositivo.",
+    "imageSection": "Ferramentas de imagem",
+    "videoSection": "Ferramentas de video",
+    "whyTitle": "Por que o ToolPic?",
+    "why1Title": "100% baseado no navegador",
+    "why1Desc": "Todos os arquivos sao processados localmente. Nada e enviado para nenhum servidor. Sua privacidade e garantida.",
+    "why2Title": "Gratuito e ilimitado",
+    "why2Desc": "Sem cadastro, sem limite de arquivos, sem marcas d'agua. Use o quanto quiser, totalmente gratis.",
+    "why3Title": "Rapido e facil",
+    "why3Desc": "Interface simples de arrastar e soltar. Obtenha resultados em segundos, sem necessidade de instalar software."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Compressor de imagens",
+      "description": "Comprima imagens JPEG, PNG, WebP em ate 80% sem perder qualidade.",
+      "h1": "Comprimir imagens online - Gratis e rapido",
+      "metaTitle": "Compressor de imagens gratis - Reduzir tamanho online | ToolPic",
+      "metaDescription": "Comprima imagens JPEG, PNG, WebP, AVIF online gratis. Reduza o tamanho em ate 80% com compressao inteligente. Sem upload, 100% no navegador."
+    },
+    "image-converter": {
+      "title": "Conversor de imagens",
+      "description": "Converta imagens entre formatos JPG, PNG, WebP, AVIF, BMP instantaneamente.",
+      "h1": "Converter formato de imagem online - Gratis",
+      "metaTitle": "Conversor de imagens gratis - JPG PNG WebP AVIF online | ToolPic",
+      "metaDescription": "Converta imagens entre JPG, PNG, WebP, AVIF, BMP, TIFF online gratis. Rapido e seguro."
+    },
+    "image-crop": {
+      "title": "Cortar e redimensionar imagem",
+      "description": "Corte e redimensione imagens com dimensoes predefinidas para redes sociais.",
+      "h1": "Cortar e redimensionar imagens online - Gratis",
+      "metaTitle": "Ferramenta gratis de corte e redimensionamento de imagens | ToolPic",
+      "metaDescription": "Corte e redimensione imagens online gratis. Dimensoes predefinidas para redes sociais. Sem necessidade de upload."
+    },
+    "image-watermark": {
+      "title": "Adicionar marca d'agua",
+      "description": "Adicione marcas d'agua de texto ou imagem as suas fotos em lote.",
+      "h1": "Adicionar marca d'agua em imagens online - Gratis",
+      "metaTitle": "Ferramenta gratis de marca d'agua - Adicionar texto/logo | ToolPic",
+      "metaDescription": "Adicione marcas d'agua de texto ou imagem a fotos online gratis. Processamento em lote suportado. 100% no navegador."
+    },
+    "image-bg-remove": {
+      "title": "Remover fundo",
+      "description": "Remocao de fundo com IA. Obtenha PNG transparente em segundos.",
+      "h1": "Remover fundo de imagem online - Ferramenta IA gratis",
+      "metaTitle": "Removedor de fundo gratis - IA para remover fundo online | ToolPic",
+      "metaDescription": "Remova o fundo de imagens com IA online gratis. PNG transparente em segundos. Sem upload, 100% privado."
+    },
+    "image-merge": {
+      "title": "Juntar imagens",
+      "description": "Combine varias imagens em uma. Crie colagens e imagens longas.",
+      "h1": "Juntar imagens online - Criador de colagens gratis",
+      "metaTitle": "Ferramenta gratis para juntar imagens - Combinar fotos online | ToolPic",
+      "metaDescription": "Junte e combine varias imagens em uma online gratis. Crie colagens, imagens longas. Sem necessidade de upload."
+    },
+    "video-compress": {
+      "title": "Compressor de video",
+      "description": "Comprima arquivos de video ajustando resolucao e taxa de bits.",
+      "h1": "Comprimir videos online - Gratis e rapido",
+      "metaTitle": "Compressor de video gratis - Reduzir tamanho online | ToolPic",
+      "metaDescription": "Comprima videos MP4, WebM, AVI online gratis. Reduza o tamanho sem perder qualidade. Baseado no navegador."
+    },
+    "video-convert": {
+      "title": "Conversor de video",
+      "description": "Converta videos entre formatos MP4, WebM, AVI, MOV.",
+      "h1": "Converter formato de video online - Gratis",
+      "metaTitle": "Conversor de video gratis - MP4 WebM AVI MOV online | ToolPic",
+      "metaDescription": "Converta videos entre MP4, WebM, AVI, MOV, MKV online gratis. Conversao rapida no navegador."
+    },
+    "video-to-gif": {
+      "title": "Video para GIF",
+      "description": "Converta clipes de video em GIF animado com configuracoes personalizadas.",
+      "h1": "Converter video para GIF online - Gratis",
+      "metaTitle": "Conversor gratis de video para GIF online | ToolPic",
+      "metaDescription": "Converta video para GIF online gratis. Personalize taxa de quadros, tamanho e duracao. Sem software necessario."
+    },
+    "video-extract-audio": {
+      "title": "Extrair audio",
+      "description": "Extraia faixas de audio de arquivos de video como MP3, WAV ou AAC.",
+      "h1": "Extrair audio de video online - Gratis",
+      "metaTitle": "Extrator de audio gratis - Obter MP3 de video | ToolPic",
+      "metaDescription": "Extraia audio de video online gratis. Salve como MP3, WAV ou AAC. Extracao rapida no navegador."
+    }
+  },
+  "footer": {
+    "tagline": "Ferramentas online gratuitas para imagens e videos. 100% no navegador, seus arquivos nunca saem do seu dispositivo.",
+    "tools": "Ferramentas",
+    "legal": "Legal",
+    "privacy": "Politica de privacidade",
+    "terms": "Termos de servico",
+    "contact": "Contato",
+    "copyright": "© 2026 ToolPic. Todos os direitos reservados."
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Kostenlose Online-Tools fur Bilder und Videos. Die gesamte Verarbeitung erfolgt in Ihrem Browser - Ihre Dateien verlassen nie Ihr Gerat.",
+    "homeTitle": "Kostenlose Online-Bild- und Video-Tools | ToolPic"
+  },
+  "common": {
+    "upload": "Dateien hochladen",
+    "uploadHint": "oder Dateien hierher ziehen und ablegen",
+    "download": "Herunterladen",
+    "downloadAll": "Alle herunterladen",
+    "processing": "Verarbeitung...",
+    "reset": "Zurucksetzen",
+    "privacy": "Ihre Dateien werden lokal in Ihrem Browser verarbeitet. Es wird nichts auf einen Server hochgeladen.",
+    "maxFileSize": "Maximale Dateigrose: {size}MB",
+    "supportedFormats": "Unterstutzte Formate: {formats}",
+    "quality": "Qualitat",
+    "width": "Breite",
+    "height": "Hohe",
+    "format": "Ausgabeformat",
+    "start": "Starten",
+    "cancel": "Abbrechen",
+    "done": "Fertig",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "fileCount": "{count} Datei(en) ausgewahlt",
+    "originalSize": "Original: {size}",
+    "newSize": "Neu: {size}",
+    "savedPercent": "{percent}% gespart"
+  },
+  "nav": {
+    "home": "Startseite",
+    "imageTools": "Bild-Tools",
+    "videoTools": "Video-Tools",
+    "allTools": "Alle Tools"
+  },
+  "home": {
+    "h1": "Kostenlose Online-Bild- und Video-Tools",
+    "subtitle": "Die gesamte Verarbeitung erfolgt in Ihrem Browser. Ihre Dateien verlassen nie Ihr Gerat.",
+    "imageSection": "Bild-Tools",
+    "videoSection": "Video-Tools",
+    "whyTitle": "Warum ToolPic?",
+    "why1Title": "100% browserbasiert",
+    "why1Desc": "Alle Dateien werden lokal verarbeitet. Es wird nichts auf einen Server hochgeladen. Ihre Privatsphare ist garantiert.",
+    "why2Title": "Kostenlos und unbegrenzt",
+    "why2Desc": "Keine Registrierung, keine Dateilimits, keine Wasserzeichen. Nutzen Sie es so viel Sie wollen, vollig kostenlos.",
+    "why3Title": "Schnell und einfach",
+    "why3Desc": "Einfache Drag-and-Drop-Oberflache. Ergebnisse in Sekunden, keine Softwareinstallation erforderlich."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Bildkompressor",
+      "description": "Komprimieren Sie JPEG-, PNG-, WebP-Bilder um bis zu 80% ohne Qualitatsverlust.",
+      "h1": "Bilder online komprimieren - Kostenlos und schnell",
+      "metaTitle": "Kostenloser Bildkompressor - Bildgrose online reduzieren | ToolPic",
+      "metaDescription": "Komprimieren Sie JPEG, PNG, WebP, AVIF Bilder kostenlos online. Bis zu 80% Dateigrose reduzieren mit intelligenter Komprimierung. Kein Upload, 100% browserbasiert."
+    },
+    "image-converter": {
+      "title": "Bildkonverter",
+      "description": "Konvertieren Sie Bilder zwischen JPG, PNG, WebP, AVIF, BMP sofort.",
+      "h1": "Bildformat online konvertieren - Kostenlos",
+      "metaTitle": "Kostenloser Bildkonverter - JPG PNG WebP AVIF online | ToolPic",
+      "metaDescription": "Konvertieren Sie Bilder zwischen JPG, PNG, WebP, AVIF, BMP, TIFF kostenlos online. Schnell und sicher."
+    },
+    "image-crop": {
+      "title": "Bild zuschneiden und skalieren",
+      "description": "Schneiden und skalieren Sie Bilder mit voreingestellten Social-Media-Abmessungen.",
+      "h1": "Bilder online zuschneiden und skalieren - Kostenlos",
+      "metaTitle": "Kostenloses Online-Tool zum Zuschneiden und Skalieren von Bildern | ToolPic",
+      "metaDescription": "Schneiden und skalieren Sie Bilder kostenlos online. Voreingestellte Abmessungen fur soziale Medien. Kein Upload erforderlich."
+    },
+    "image-watermark": {
+      "title": "Wasserzeichen hinzufugen",
+      "description": "Fugen Sie Text- oder Bild-Wasserzeichen zu Ihren Fotos im Stapel hinzu.",
+      "h1": "Wasserzeichen zu Bildern online hinzufugen - Kostenlos",
+      "metaTitle": "Kostenloses Wasserzeichen-Tool - Text/Logo hinzufugen | ToolPic",
+      "metaDescription": "Fugen Sie kostenlos online Text- oder Bild-Wasserzeichen zu Fotos hinzu. Stapelverarbeitung unterstutzt. 100% browserbasiert."
+    },
+    "image-bg-remove": {
+      "title": "Hintergrund entfernen",
+      "description": "KI-basierte Hintergrundentfernung. Transparentes PNG in Sekunden.",
+      "h1": "Bildhintergrund online entfernen - Kostenloses KI-Tool",
+      "metaTitle": "Kostenloser Hintergrund-Entferner - KI-Hintergrund online entfernen | ToolPic",
+      "metaDescription": "Entfernen Sie den Bildhintergrund mit KI kostenlos online. Transparentes PNG in Sekunden. Kein Upload, 100% privat."
+    },
+    "image-merge": {
+      "title": "Bilder zusammenfugen",
+      "description": "Mehrere Bilder zu einem kombinieren. Collagen und lange Bilder erstellen.",
+      "h1": "Bilder online zusammenfugen - Kostenloser Collage-Maker",
+      "metaTitle": "Kostenloses Tool zum Zusammenfugen von Bildern | ToolPic",
+      "metaDescription": "Fugen Sie mehrere Bilder kostenlos online zusammen. Erstellen Sie Collagen und lange Bilder. Kein Upload erforderlich."
+    },
+    "video-compress": {
+      "title": "Videokompressor",
+      "description": "Komprimieren Sie Videodateien durch Anpassung von Auflosung und Bitrate.",
+      "h1": "Videos online komprimieren - Kostenlos und schnell",
+      "metaTitle": "Kostenloser Videokompressor - Videogrose online reduzieren | ToolPic",
+      "metaDescription": "Komprimieren Sie MP4, WebM, AVI Videos kostenlos online. Dateigrose reduzieren ohne Qualitatsverlust. Browserbasiert."
+    },
+    "video-convert": {
+      "title": "Videokonverter",
+      "description": "Konvertieren Sie Videos zwischen MP4, WebM, AVI, MOV Formaten.",
+      "h1": "Videoformat online konvertieren - Kostenlos",
+      "metaTitle": "Kostenloser Videokonverter - MP4 WebM AVI MOV online | ToolPic",
+      "metaDescription": "Konvertieren Sie Videos zwischen MP4, WebM, AVI, MOV, MKV kostenlos online. Schnelle browserbasierte Konvertierung."
+    },
+    "video-to-gif": {
+      "title": "Video zu GIF",
+      "description": "Konvertieren Sie Videoclips zu animierten GIFs mit benutzerdefinierten Einstellungen.",
+      "h1": "Video zu GIF online konvertieren - Kostenlos",
+      "metaTitle": "Kostenloser Video-zu-GIF-Konverter online | ToolPic",
+      "metaDescription": "Konvertieren Sie Videos kostenlos online zu GIF. Bildrate, Grose und Dauer anpassen. Keine Software erforderlich."
+    },
+    "video-extract-audio": {
+      "title": "Audio extrahieren",
+      "description": "Audio-Spuren aus Videodateien als MP3, WAV oder AAC extrahieren.",
+      "h1": "Audio aus Video online extrahieren - Kostenlos",
+      "metaTitle": "Kostenloser Audio-Extraktor - MP3 aus Video erhalten | ToolPic",
+      "metaDescription": "Extrahieren Sie Audio aus Videos kostenlos online. Als MP3, WAV oder AAC speichern. Schnelle browserbasierte Extraktion."
+    }
+  },
+  "footer": {
+    "tagline": "Kostenlose Online-Tools fur Bilder und Videos. 100% browserbasiert, Ihre Dateien verlassen nie Ihr Gerat.",
+    "tools": "Tools",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "copyright": "© 2026 ToolPic. Alle Rechte vorbehalten."
+  }
+}

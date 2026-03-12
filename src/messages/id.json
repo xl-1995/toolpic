@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Alat gambar dan video online gratis. Semua pemrosesan dilakukan di browser Anda - file Anda tidak pernah meninggalkan perangkat.",
+    "homeTitle": "Alat Gambar & Video Online Gratis | ToolPic"
+  },
+  "common": {
+    "upload": "Unggah file",
+    "uploadHint": "atau seret dan lepas file di sini",
+    "download": "Unduh",
+    "downloadAll": "Unduh semua",
+    "processing": "Memproses...",
+    "reset": "Atur ulang",
+    "privacy": "File Anda diproses secara lokal di browser. Tidak ada yang diunggah ke server mana pun.",
+    "maxFileSize": "Ukuran file maksimal: {size}MB",
+    "supportedFormats": "Format yang didukung: {formats}",
+    "quality": "Kualitas",
+    "width": "Lebar",
+    "height": "Tinggi",
+    "format": "Format output",
+    "start": "Mulai",
+    "cancel": "Batal",
+    "done": "Selesai",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "fileCount": "{count} file dipilih",
+    "originalSize": "Asli: {size}",
+    "newSize": "Baru: {size}",
+    "savedPercent": "Hemat {percent}%"
+  },
+  "nav": {
+    "home": "Beranda",
+    "imageTools": "Alat Gambar",
+    "videoTools": "Alat Video",
+    "allTools": "Semua Alat"
+  },
+  "home": {
+    "h1": "Alat Gambar & Video Online Gratis",
+    "subtitle": "Semua pemrosesan dilakukan di browser Anda. File Anda tidak pernah meninggalkan perangkat.",
+    "imageSection": "Alat Gambar",
+    "videoSection": "Alat Video",
+    "whyTitle": "Mengapa ToolPic?",
+    "why1Title": "100% Berbasis Browser",
+    "why1Desc": "Semua file diproses secara lokal. Tidak ada yang diunggah ke server. Privasi Anda terjamin.",
+    "why2Title": "Gratis & Tanpa Batas",
+    "why2Desc": "Tanpa registrasi, tanpa batas file, tanpa watermark. Gunakan sepuasnya, sepenuhnya gratis.",
+    "why3Title": "Cepat & Mudah",
+    "why3Desc": "Antarmuka seret dan lepas yang sederhana. Dapatkan hasil dalam hitungan detik, tanpa perlu instalasi software."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Kompresor Gambar",
+      "description": "Kompres gambar JPEG, PNG, WebP hingga 80% tanpa kehilangan kualitas.",
+      "h1": "Kompres Gambar Online - Gratis & Cepat",
+      "metaTitle": "Kompresor Gambar Gratis - Kurangi Ukuran Gambar Online | ToolPic",
+      "metaDescription": "Kompres gambar JPEG, PNG, WebP, AVIF online gratis. Kurangi ukuran file hingga 80% dengan kompresi cerdas. Tanpa unggah, 100% di browser."
+    },
+    "image-converter": {
+      "title": "Konverter Gambar",
+      "description": "Konversi gambar antara format JPG, PNG, WebP, AVIF, BMP secara instan.",
+      "h1": "Konversi Format Gambar Online - Gratis",
+      "metaTitle": "Konverter Gambar Gratis - JPG PNG WebP AVIF Online | ToolPic",
+      "metaDescription": "Konversi gambar antara JPG, PNG, WebP, AVIF, BMP, TIFF online gratis. Cepat dan aman."
+    },
+    "image-crop": {
+      "title": "Potong & Ubah Ukuran Gambar",
+      "description": "Potong dan ubah ukuran gambar dengan dimensi preset untuk media sosial.",
+      "h1": "Potong & Ubah Ukuran Gambar Online - Gratis",
+      "metaTitle": "Alat Potong & Ubah Ukuran Gambar Gratis Online | ToolPic",
+      "metaDescription": "Potong dan ubah ukuran gambar online gratis. Dimensi preset untuk media sosial. Tanpa perlu unggah."
+    },
+    "image-watermark": {
+      "title": "Tambah Watermark",
+      "description": "Tambahkan watermark teks atau gambar ke foto Anda secara massal.",
+      "h1": "Tambah Watermark ke Gambar Online - Gratis",
+      "metaTitle": "Alat Watermark Gratis - Tambah Teks/Logo Watermark | ToolPic",
+      "metaDescription": "Tambahkan watermark teks atau gambar ke foto online gratis. Pemrosesan massal didukung. 100% di browser."
+    },
+    "image-bg-remove": {
+      "title": "Hapus Latar Belakang",
+      "description": "Penghapusan latar belakang berbasis AI. Dapatkan PNG transparan dalam hitungan detik.",
+      "h1": "Hapus Latar Belakang Gambar Online - Alat AI Gratis",
+      "metaTitle": "Penghapus Latar Belakang Gratis - AI Hapus BG Online | ToolPic",
+      "metaDescription": "Hapus latar belakang gambar dengan AI online gratis. PNG transparan dalam hitungan detik. Tanpa unggah, 100% privat."
+    },
+    "image-merge": {
+      "title": "Gabung Gambar",
+      "description": "Gabungkan beberapa gambar menjadi satu. Buat kolase dan gambar panjang.",
+      "h1": "Gabung Gambar Online - Pembuat Kolase Gratis",
+      "metaTitle": "Alat Gabung Gambar Gratis Online | ToolPic",
+      "metaDescription": "Gabungkan beberapa gambar menjadi satu online gratis. Buat kolase, gambar panjang. Tanpa perlu unggah."
+    },
+    "video-compress": {
+      "title": "Kompresor Video",
+      "description": "Kompres file video dengan menyesuaikan resolusi dan bitrate.",
+      "h1": "Kompres Video Online - Gratis & Cepat",
+      "metaTitle": "Kompresor Video Gratis - Kurangi Ukuran Video Online | ToolPic",
+      "metaDescription": "Kompres video MP4, WebM, AVI online gratis. Kurangi ukuran file tanpa kehilangan kualitas. Berbasis browser."
+    },
+    "video-convert": {
+      "title": "Konverter Video",
+      "description": "Konversi video antara format MP4, WebM, AVI, MOV.",
+      "h1": "Konversi Format Video Online - Gratis",
+      "metaTitle": "Konverter Video Gratis - MP4 WebM AVI MOV Online | ToolPic",
+      "metaDescription": "Konversi video antara MP4, WebM, AVI, MOV, MKV online gratis. Konversi cepat di browser."
+    },
+    "video-to-gif": {
+      "title": "Video ke GIF",
+      "description": "Konversi klip video menjadi GIF animasi dengan pengaturan kustom.",
+      "h1": "Konversi Video ke GIF Online - Gratis",
+      "metaTitle": "Konverter Video ke GIF Gratis Online | ToolPic",
+      "metaDescription": "Konversi video ke GIF online gratis. Kustomisasi frame rate, ukuran, dan durasi. Tanpa software."
+    },
+    "video-extract-audio": {
+      "title": "Ekstrak Audio",
+      "description": "Ekstrak trek audio dari file video sebagai MP3, WAV, atau AAC.",
+      "h1": "Ekstrak Audio dari Video Online - Gratis",
+      "metaTitle": "Ekstraktor Audio Gratis - Dapatkan MP3 dari Video | ToolPic",
+      "metaDescription": "Ekstrak audio dari video online gratis. Simpan sebagai MP3, WAV, atau AAC. Ekstraksi cepat di browser."
+    }
+  },
+  "footer": {
+    "tagline": "Alat online gratis untuk gambar dan video. 100% di browser, file Anda tidak pernah meninggalkan perangkat.",
+    "tools": "Alat",
+    "legal": "Hukum",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "contact": "Kontak",
+    "copyright": "© 2026 ToolPic. Hak cipta dilindungi."
+  }
+}

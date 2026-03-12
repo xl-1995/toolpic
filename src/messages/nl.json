@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "Gratis online afbeelding- en videotools. Alle verwerking gebeurt in uw browser - uw bestanden verlaten nooit uw apparaat.",
+    "homeTitle": "Gratis online afbeelding- en videotools | ToolPic"
+  },
+  "common": {
+    "upload": "Bestanden uploaden",
+    "uploadHint": "of sleep bestanden hierheen",
+    "download": "Downloaden",
+    "downloadAll": "Alles downloaden",
+    "processing": "Verwerken...",
+    "reset": "Resetten",
+    "privacy": "Uw bestanden worden lokaal in uw browser verwerkt. Er wordt niets naar een server geupload.",
+    "maxFileSize": "Maximale bestandsgrootte: {size}MB",
+    "supportedFormats": "Ondersteunde formaten: {formats}",
+    "quality": "Kwaliteit",
+    "width": "Breedte",
+    "height": "Hoogte",
+    "format": "Uitvoerformaat",
+    "start": "Starten",
+    "cancel": "Annuleren",
+    "done": "Klaar",
+    "error": "Er is een fout opgetreden. Probeer het opnieuw.",
+    "fileCount": "{count} bestand(en) geselecteerd",
+    "originalSize": "Origineel: {size}",
+    "newSize": "Nieuw: {size}",
+    "savedPercent": "{percent}% bespaard"
+  },
+  "nav": {
+    "home": "Home",
+    "imageTools": "Afbeeldingstools",
+    "videoTools": "Videotools",
+    "allTools": "Alle tools"
+  },
+  "home": {
+    "h1": "Gratis online afbeelding- en videotools",
+    "subtitle": "Alle verwerking gebeurt in uw browser. Uw bestanden verlaten nooit uw apparaat.",
+    "imageSection": "Afbeeldingstools",
+    "videoSection": "Videotools",
+    "whyTitle": "Waarom ToolPic?",
+    "why1Title": "100% browsergebaseerd",
+    "why1Desc": "Alle bestanden worden lokaal verwerkt. Er wordt niets naar een server geupload. Uw privacy is gegarandeerd.",
+    "why2Title": "Gratis en onbeperkt",
+    "why2Desc": "Geen registratie, geen bestandslimieten, geen watermerken. Gebruik zoveel als u wilt, volledig gratis.",
+    "why3Title": "Snel en eenvoudig",
+    "why3Desc": "Eenvoudige drag-and-drop interface. Resultaten in seconden, geen software-installatie nodig."
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "Afbeeldingscompressor",
+      "description": "Comprimeer JPEG, PNG, WebP afbeeldingen tot 80% zonder kwaliteitsverlies.",
+      "h1": "Afbeeldingen online comprimeren - Gratis en snel",
+      "metaTitle": "Gratis afbeeldingscompressor - Afbeeldingsgrootte verkleinen | ToolPic",
+      "metaDescription": "Comprimeer JPEG, PNG, WebP, AVIF afbeeldingen online gratis. Verklein bestandsgrootte tot 80% met slimme compressie. Geen upload, 100% in de browser."
+    },
+    "image-converter": {
+      "title": "Afbeeldingsconverter",
+      "description": "Converteer afbeeldingen tussen JPG, PNG, WebP, AVIF, BMP formaten direct.",
+      "h1": "Afbeeldingsformaat online converteren - Gratis",
+      "metaTitle": "Gratis afbeeldingsconverter - JPG PNG WebP AVIF online | ToolPic",
+      "metaDescription": "Converteer afbeeldingen tussen JPG, PNG, WebP, AVIF, BMP, TIFF online gratis. Snel en veilig."
+    },
+    "image-crop": {
+      "title": "Afbeelding bijsnijden en schalen",
+      "description": "Snij afbeeldingen bij en schaal ze met vooraf ingestelde social media-afmetingen.",
+      "h1": "Afbeeldingen online bijsnijden en schalen - Gratis",
+      "metaTitle": "Gratis online afbeelding bijsnijden en schalen | ToolPic",
+      "metaDescription": "Snij afbeeldingen online gratis bij en schaal ze. Vooraf ingestelde afmetingen voor social media. Geen upload nodig."
+    },
+    "image-watermark": {
+      "title": "Watermerk toevoegen",
+      "description": "Voeg tekst- of afbeeldingswatermerken toe aan uw foto's in batch.",
+      "h1": "Watermerk toevoegen aan afbeeldingen online - Gratis",
+      "metaTitle": "Gratis watermerk-tool - Tekst/logo watermerk toevoegen | ToolPic",
+      "metaDescription": "Voeg gratis online tekst- of afbeeldingswatermerken toe aan foto's. Batchverwerking ondersteund. 100% in de browser."
+    },
+    "image-bg-remove": {
+      "title": "Achtergrond verwijderen",
+      "description": "AI-aangedreven achtergrondverwijdering. Krijg transparante PNG in seconden.",
+      "h1": "Achtergrond van afbeelding online verwijderen - Gratis AI-tool",
+      "metaTitle": "Gratis achtergrondverwijderaar - AI achtergrond verwijderen | ToolPic",
+      "metaDescription": "Verwijder de achtergrond van afbeeldingen met AI online gratis. Transparante PNG in seconden. Geen upload, 100% prive."
+    },
+    "image-merge": {
+      "title": "Afbeeldingen samenvoegen",
+      "description": "Combineer meerdere afbeeldingen tot een. Maak collages en lange afbeeldingen.",
+      "h1": "Afbeeldingen online samenvoegen - Gratis collagemaker",
+      "metaTitle": "Gratis online afbeeldingen samenvoegen | ToolPic",
+      "metaDescription": "Voeg meerdere afbeeldingen online gratis samen. Maak collages en lange afbeeldingen. Geen upload nodig."
+    },
+    "video-compress": {
+      "title": "Videocompressor",
+      "description": "Comprimeer videobestanden door resolutie en bitrate aan te passen.",
+      "h1": "Video's online comprimeren - Gratis en snel",
+      "metaTitle": "Gratis videocompressor - Videogrootte verkleinen online | ToolPic",
+      "metaDescription": "Comprimeer MP4, WebM, AVI video's online gratis. Verklein bestandsgrootte zonder kwaliteitsverlies. Browsergebaseerd."
+    },
+    "video-convert": {
+      "title": "Videoconverter",
+      "description": "Converteer video's tussen MP4, WebM, AVI, MOV formaten.",
+      "h1": "Videoformaat online converteren - Gratis",
+      "metaTitle": "Gratis videoconverter - MP4 WebM AVI MOV online | ToolPic",
+      "metaDescription": "Converteer video's tussen MP4, WebM, AVI, MOV, MKV online gratis. Snelle browsergebaseerde conversie."
+    },
+    "video-to-gif": {
+      "title": "Video naar GIF",
+      "description": "Converteer videoclips naar geanimeerde GIF met aangepaste instellingen.",
+      "h1": "Video naar GIF online converteren - Gratis",
+      "metaTitle": "Gratis video naar GIF converter online | ToolPic",
+      "metaDescription": "Converteer video naar GIF online gratis. Pas framerate, grootte en duur aan. Geen software nodig."
+    },
+    "video-extract-audio": {
+      "title": "Audio extraheren",
+      "description": "Extraheer audiotracks uit videobestanden als MP3, WAV of AAC.",
+      "h1": "Audio uit video online extraheren - Gratis",
+      "metaTitle": "Gratis audio-extractor - MP3 uit video halen | ToolPic",
+      "metaDescription": "Extraheer audio uit video online gratis. Opslaan als MP3, WAV of AAC. Snelle browsergebaseerde extractie."
+    }
+  },
+  "footer": {
+    "tagline": "Gratis online tools voor afbeeldingen en video's. 100% in de browser, uw bestanden verlaten nooit uw apparaat.",
+    "tools": "Tools",
+    "legal": "Juridisch",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "contact": "Contact",
+    "copyright": "© 2026 ToolPic. Alle rechten voorbehouden."
+  }
+}

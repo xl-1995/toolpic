@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteName": "ToolPic",
+    "siteDescription": "無料オンライン画像・動画ツール。すべての処理はブラウザ内で完結し、ファイルがデバイスから離れることはありません。",
+    "homeTitle": "無料オンライン画像・動画ツール | ToolPic"
+  },
+  "common": {
+    "upload": "ファイルをアップロード",
+    "uploadHint": "またはここにドラッグ＆ドロップ",
+    "download": "ダウンロード",
+    "downloadAll": "すべてダウンロード",
+    "processing": "処理中...",
+    "reset": "リセット",
+    "privacy": "ファイルはブラウザ内でローカル処理されます。サーバーにアップロードされることはありません。",
+    "maxFileSize": "最大ファイルサイズ：{size}MB",
+    "supportedFormats": "対応フォーマット：{formats}",
+    "quality": "品質",
+    "width": "幅",
+    "height": "高さ",
+    "format": "出力フォーマット",
+    "start": "開始",
+    "cancel": "キャンセル",
+    "done": "完了",
+    "error": "エラーが発生しました。もう一度お試しください。",
+    "fileCount": "{count}個のファイルを選択",
+    "originalSize": "元のサイズ：{size}",
+    "newSize": "圧縮後：{size}",
+    "savedPercent": "{percent}%削減"
+  },
+  "nav": {
+    "home": "ホーム",
+    "imageTools": "画像ツール",
+    "videoTools": "動画ツール",
+    "allTools": "すべてのツール"
+  },
+  "home": {
+    "h1": "無料オンライン画像・動画ツール",
+    "subtitle": "すべての処理はブラウザ内で完結。ファイルがデバイスから離れることはありません。",
+    "imageSection": "画像ツール",
+    "videoSection": "動画ツール",
+    "whyTitle": "ToolPicが選ばれる理由",
+    "why1Title": "100%ブラウザ処理",
+    "why1Desc": "すべてのファイルはローカルで処理されます。サーバーにアップロードされないため、プライバシーが保証されます。",
+    "why2Title": "完全無料・無制限",
+    "why2Desc": "登録不要、ファイル数制限なし、ウォーターマークなし。完全無料でご利用いただけます。",
+    "why3Title": "高速・簡単",
+    "why3Desc": "ドラッグ＆ドロップで簡単操作。数秒で結果を取得、ソフトウェアのインストール不要。"
+  },
+  "tools": {
+    "image-compressor": {
+      "title": "画像圧縮",
+      "description": "JPEG、PNG、WebP画像を最大80%スマート圧縮。",
+      "h1": "オンライン画像圧縮 - 無料・高速",
+      "metaTitle": "無料オンライン画像圧縮ツール | ToolPic",
+      "metaDescription": "JPEG、PNG、WebP、AVIF画像を無料でオンライン圧縮。最大80%のファイルサイズ削減。アップロード不要、ブラウザ処理。"
+    },
+    "image-converter": {
+      "title": "画像形式変換",
+      "description": "JPG、PNG、WebP、AVIF、BMP形式間で自由に変換。",
+      "h1": "オンライン画像形式変換 - 無料",
+      "metaTitle": "無料画像形式変換ツール - JPG PNG WebP オンライン変換 | ToolPic",
+      "metaDescription": "JPG、PNG、WebP、AVIF、BMP、TIFF形式間で無料オンライン変換。高速で安全。"
+    },
+    "image-crop": {
+      "title": "画像切り抜き・リサイズ",
+      "description": "SNS用プリセットサイズで画像を切り抜き・リサイズ。",
+      "h1": "オンライン画像切り抜き・リサイズ - 無料",
+      "metaTitle": "無料オンライン画像切り抜き・リサイズツール | ToolPic",
+      "metaDescription": "無料で画像をオンラインで切り抜き・リサイズ。SNS用プリセットサイズ対応。アップロード不要。"
+    },
+    "image-watermark": {
+      "title": "ウォーターマーク追加",
+      "description": "写真にテキストや画像のウォーターマークを一括追加。",
+      "h1": "オンラインウォーターマーク追加 - 無料",
+      "metaTitle": "無料ウォーターマークツール - テキスト・ロゴ追加 | ToolPic",
+      "metaDescription": "無料で写真にテキストや画像のウォーターマークをオンライン追加。一括処理対応。ブラウザ処理。"
+    },
+    "image-bg-remove": {
+      "title": "AI背景除去",
+      "description": "AI搭載の背景除去。透過PNGを数秒で生成。",
+      "h1": "オンラインAI背景除去 - 無料ツール",
+      "metaTitle": "無料AI背景除去ツール - オンラインで背景を削除 | ToolPic",
+      "metaDescription": "AIで無料オンライン背景除去。透過PNGを数秒で生成。アップロード不要、プライバシー保護。"
+    },
+    "image-merge": {
+      "title": "画像結合",
+      "description": "複数画像を結合。コラージュやロング画像を作成。",
+      "h1": "オンライン画像結合 - 無料コラージュメーカー",
+      "metaTitle": "無料オンライン画像結合ツール | ToolPic",
+      "metaDescription": "複数の画像を無料でオンライン結合。コラージュやロング画像を作成。アップロード不要。"
+    },
+    "video-compress": {
+      "title": "動画圧縮",
+      "description": "解像度とビットレートを調整して動画を圧縮。",
+      "h1": "オンライン動画圧縮 - 無料・高速",
+      "metaTitle": "無料オンライン動画圧縮ツール | ToolPic",
+      "metaDescription": "MP4、WebM、AVI動画を無料でオンライン圧縮。画質を保ちながらファイルサイズを削減。ブラウザ処理。"
+    },
+    "video-convert": {
+      "title": "動画形式変換",
+      "description": "MP4、WebM、AVI、MOV形式間で動画を変換。",
+      "h1": "オンライン動画形式変換 - 無料",
+      "metaTitle": "無料動画形式変換ツール - MP4 WebM AVI オンライン変換 | ToolPic",
+      "metaDescription": "MP4、WebM、AVI、MOV、MKV形式間で無料オンライン変換。高速ブラウザ変換。"
+    },
+    "video-to-gif": {
+      "title": "動画からGIF変換",
+      "description": "動画クリップをカスタム設定でアニメーションGIFに変換。",
+      "h1": "オンライン動画からGIF変換 - 無料",
+      "metaTitle": "無料動画GIF変換ツール | ToolPic",
+      "metaDescription": "無料で動画をオンラインでGIFに変換。フレームレート、サイズ、再生時間をカスタマイズ。ソフト不要。"
+    },
+    "video-extract-audio": {
+      "title": "音声抽出",
+      "description": "動画から音声トラックをMP3、WAV、AACとして抽出。",
+      "h1": "オンライン動画から音声抽出 - 無料",
+      "metaTitle": "無料音声抽出ツール - 動画からMP3取得 | ToolPic",
+      "metaDescription": "無料で動画からオンライン音声抽出。MP3、WAV、AACとして保存。高速ブラウザ処理。"
+    }
+  },
+  "footer": {
+    "tagline": "無料オンライン画像・動画ツール。100%ブラウザ処理、ファイルはデバイスから離れません。",
+    "tools": "ツール",
+    "legal": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ",
+    "copyright": "© 2026 ToolPic. All rights reserved."
+  }
+}
