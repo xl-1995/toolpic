@@ -1,0 +1,14 @@
+{
+  "name": "ToolPic",
+  "short_name": "ToolPic",
+  "description": "Free online image and video tools",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#7c3aed",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

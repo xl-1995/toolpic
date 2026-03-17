@@ -90,21 +90,21 @@ export default function ImageConverter() {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       {/* Format and Quality */}
       <div className="flex flex-wrap items-center gap-6">
         <div className="flex items-center gap-3">
-          <label className="text-sm font-medium">{t('format')}:</label>
+          <label className="font-medium">{t('format')}:</label>
           <div className="flex gap-2">
             {formats.map((f) => (
               <button
                 key={f.value}
                 onClick={() => setOutputFormat(f.value)}
                 disabled={isProcessing}
-                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
                   outputFormat === f.value
-                    ? 'bg-[var(--color-primary)] text-white'
-                    : 'bg-white/5 text-[var(--color-text-muted)] hover:bg-white/10'
+                    ? 'btn-primary'
+                    : 'bg-black/20 text-[var(--color-text-muted)] hover:bg-white/5 hover:text-[var(--color-text)]'
                 }`}
               >
                 {f.label}
@@ -113,8 +113,11 @@ export default function ImageConverter() {
           </div>
         </div>
         {outputFormat !== 'image/png' && (
-          <div className="flex items-center gap-3">
-            <label className="text-sm font-medium">{t('quality')}: {Math.round(quality * 100)}%</label>
+          <div>
+            <div className="flex justify-between items-center mb-2">
+              <label className="font-medium">{t('quality')}</label>
+              <span className="text-[var(--color-text-muted)]">{Math.round(quality * 100)}%</span>
+            </div>
             <input
               type="range"
               min="0.1"
@@ -122,7 +125,7 @@ export default function ImageConverter() {
               step="0.05"
               value={quality}
               onChange={(e) => setQuality(parseFloat(e.target.value))}
-              className="w-32 accent-[var(--color-primary)]"
+              className="w-40"
               disabled={isProcessing}
             />
           </div>
@@ -132,19 +135,31 @@ export default function ImageConverter() {
       {/* File list */}
       <div className="space-y-3">
         {files.map((f, i) => (
-          <div key={i} className="flex items-center gap-4 p-4 rounded-xl bg-white/5">
-            <i className="fas fa-image text-[var(--color-primary)]"></i>
+          <div key={i} className="flex items-center gap-4 p-4 rounded-xl bg-black/20">
+            <i className="fa-regular fa-file-image text-xl text-[var(--color-text-muted)]"></i>
             <div className="flex-1 min-w-0">
-              <p className="text-sm font-medium truncate">{f.original.name}</p>
-              <p className="text-xs text-[var(--color-text-muted)] mt-1">
-                {formatSize(f.original.size)}
-                {f.converted && ` → ${formatSize(f.converted.size)}`}
-              </p>
-              {f.progress > 0 && f.progress < 100 && <ProgressBar progress={f.progress} />}
-              {f.error && <p className="text-xs text-[var(--color-error)] mt-1">{f.error}</p>}
+              <p className="font-medium truncate">{f.original.name}</p>
+              <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-[var(--color-text-muted)] mt-1">
+                <span>{formatSize(f.original.size)}</span>
+                {f.converted && (
+                  <span className="flex items-center gap-1">
+                    <i className="fas fa-arrow-right-long text-xs"></i>
+                    {formatSize(f.converted.size)}
+                  </span>
+                )}
+              </div>
+              {f.progress > 0 && f.progress < 100 && (
+                <div className="mt-2">
+                  <ProgressBar progress={f.progress} />
+                </div>
+              )}
+              {f.error && <p className="text-sm text-[var(--color-error)] mt-1">{f.error}</p>}
             </div>
             {f.converted && (
-              <button onClick={() => downloadOne(f)} className="text-[var(--color-primary)]">
+              <button
+                onClick={() => downloadOne(f)}
+                className="px-3 py-1.5 rounded-lg border border-[var(--color-border-hover)] text-sm text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-white/5 transition-all"
+              >
                 <i className="fas fa-download"></i>
               </button>
             )}
@@ -153,18 +168,29 @@ export default function ImageConverter() {
       </div>
 
       {/* Actions */}
-      <div className="flex gap-3 justify-center">
+      <div className="flex flex-wrap gap-3 justify-center">
         {!isProcessing && files.some((f) => !f.converted) && (
-          <button onClick={convert} className="px-6 py-2.5 rounded-xl bg-[var(--color-primary)] hover:bg-[var(--color-primary-hover)] text-white font-medium transition-colors">
+          <button
+            onClick={convert}
+            className="btn-primary px-8 py-3 rounded-xl font-semibold"
+          >
             {t('start')}
           </button>
         )}
         {files.some((f) => f.converted) && (
-          <button onClick={downloadAll} className="px-6 py-2.5 rounded-xl bg-[var(--color-success)] hover:opacity-90 text-white font-medium transition-colors">
+          <button
+            onClick={downloadAll}
+            className="px-8 py-3 rounded-xl bg-[var(--color-success)] hover:bg-[#16a34a] text-white font-semibold transition-colors"
+          >
+            <i className="fas fa-download mr-2"></i>
             {t('downloadAll')}
           </button>
         )}
-        <button onClick={reset} className="px-6 py-2.5 rounded-xl border border-[var(--color-border)] text-[var(--color-text-muted)] hover:text-white font-medium transition-colors">
+        <button
+          onClick={reset}
+          className="px-8 py-3 rounded-xl border border-[var(--color-border-hover)] text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-white/5 font-semibold transition-all"
+        >
+          <i className="fas fa-arrow-rotate-left mr-2"></i>
           {t('reset')}
         </button>
       </div>

@@ -1,0 +1,64 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+import ImageCompressor from '@/components/tools/ImageCompressor';
+import ImageConverter from '@/components/tools/ImageConverter';
+import ImageCrop from '@/components/tools/ImageCrop';
+import ImageWatermark from '@/components/tools/ImageWatermark';
+import ImageBgRemove from '@/components/tools/ImageBgRemove';
+import ImageMerge from '@/components/tools/ImageMerge';
+import VideoCompress from '@/components/tools/VideoCompress';
+import VideoConvert from '@/components/tools/VideoConvert';
+import VideoToGif from '@/components/tools/VideoToGif';
+import VideoExtractAudio from '@/components/tools/VideoExtractAudio';
+import PlaceholderTool from '@/components/tools/PlaceholderTool';
+
+const toolComponents: Record<string, React.ComponentType> = {
+  'image-compressor': ImageCompressor,
+  'image-converter': ImageConverter,
+  'image-crop': ImageCrop,
+  'image-watermark': ImageWatermark,
+  'image-bg-remove': ImageBgRemove,
+  'image-merge': ImageMerge,
+  'video-compress': VideoCompress,
+  'video-convert': VideoConvert,
+  'video-to-gif': VideoToGif,
+  'video-extract-audio': VideoExtractAudio,
+};
+
+interface SeoPageClientProps {
+  toolId: string;
+  titleKey: string;
+  descKey: string;
+}
+
+export default function SeoPageClient({ toolId, titleKey, descKey }: SeoPageClientProps) {
+  const t = useTranslations('seoPages');
+  const commonT = useTranslations('common');
+  const ToolComponent = toolComponents[toolId] || PlaceholderTool;
+
+  return (
+    <div className="max-w-[900px] mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <div className="text-center mb-12">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 gradient-text tracking-tight">
+          {t(titleKey)}
+        </h1>
+        <p className="text-lg text-[var(--color-text-muted)] max-w-2xl mx-auto leading-relaxed">
+          {t(descKey)}
+        </p>
+      </div>
+
+      <div className="glass-card p-6 sm:p-8">
+        <ToolComponent />
+      </div>
+
+      {/* Privacy notice */}
+      <div className="mt-8 text-center">
+        <p className="text-sm text-[var(--color-text-muted)] flex items-center justify-center gap-3">
+          <i className="fas fa-shield-halved text-[var(--color-success)]"></i>
+          {commonT('privacy')}
+        </p>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToolPic - Free In-Browser Image & Video Tools</title>
+    <meta name="description" content="Compress, convert, crop, and edit images & videos for free, right in your browser. No uploads, 100% private and lightning fast.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        :root {
+            --color-purple: #7c3aed;
+            --color-blue: #3b82f6;
+            --color-cyan: #06b6d4;
+            --color-green: #22c55e;
+
+            --bg-dark: #09090b;
+            --bg-card: rgba(255, 255, 255, 0.03);
+            --border-card: rgba(255, 255, 255, 0.06);
+            --border-card-hover: rgba(255, 255, 255, 0.1);
+            --text-primary: #f4f4f5;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+
+            --gradient-primary: linear-gradient(90deg, var(--color-purple), var(--color-blue));
+            --gradient-extended: linear-gradient(90deg, var(--color-purple), var(--color-blue), var(--color-cyan));
+            --gradient-glow: radial-gradient(circle, rgba(124, 58, 237, 0.3) 0%, rgba(124, 58, 237, 0) 60%);
+
+            --radius-card: 1.25rem;
+            --radius-btn: 0.75rem;
+            --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* --- Global Styles & Resets --- */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            font-size: 16px;
+            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body::before, body::after {
+            content: '';
+            position: fixed;
+            width: 800px;
+            height: 800px;
+            border-radius: 50%;
+            filter: blur(150px);
+            z-index: -1;
+            will-change: transform;
+        }
+
+        body::before {
+            background: radial-gradient(circle, rgba(124, 58, 237, 0.2) 0%, rgba(124, 58, 237, 0) 70%);
+            top: -20%;
+            left: -20%;
+            animation: float 15s ease-in-out infinite;
+        }
+
+        body::after {
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, rgba(59, 130, 246, 0) 70%);
+            bottom: -20%;
+            right: -20%;
+            animation: float 20s ease-in-out infinite reverse;
+        }
+
+        .background-grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100vh;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            mask-image: radial-gradient(ellipse 80% 50% at 50% 0%, black 40%, transparent 100%);
+            z-index: -1;
+        }
+        
+        /* --- Utility Classes --- */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .gradient-text {
+            background: var(--gradient-extended);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+        .section {
+            padding: 6rem 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 3rem auto;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: var(--radius-btn);
+            border: 2px solid transparent;
+            cursor: pointer;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: white;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(124, 58, 237, 0.2), 0 5px 10px rgba(59, 130, 246, 0.2);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            border-color: var(--border-card-hover);
+            color: var(--text-primary);
+        }
+        .btn-secondary:hover {
+            background-color: var(--bg-card);
+            border-color: var(--text-secondary);
+        }
+
+        .btn-green {
+            background-color: var(--color-green);
+            color: white;
+        }
+        .btn-green:hover {
+            background-color: #16a34a;
+        }
+
+        .glass-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: var(--radius-card);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .animate-on-scroll.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- Keyframes --- */
+        @keyframes float {
+            0% { transform: translate(0, 0); }
+            50% { transform: translate(30px, -40px); }
+            100% { transform: translate(0, 0); }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -500% 0; }
+            100% { background-position: 500% 0; }
+        }
+
+        @keyframes pulse-glow {
+            0% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(124, 58, 237, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0); }
+        }
+
+
+        /* --- Header --- */
+        .header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            padding: 1rem 0;
+            z-index: 50;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .header.scrolled {
+            background-color: rgba(9, 9, 11, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: var(--gradient-primary);
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .logo-icon .fa-wand-magic-sparkles { font-size: 1.25rem; }
+
+        .nav-links {
+            display: none;
+            list-style: none;
+            gap: 2rem;
+        }
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .nav-actions .icon-btn {
+            color: var(--text-secondary);
+            font-size: 1.25rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .nav-actions .icon-btn:hover { color: var(--text-primary); }
+
+        .mobile-menu-toggle {
+            display: block;
+        }
+        
+        /* --- Hero Section --- */
+        .hero {
+            text-align: center;
+            padding: 8rem 0;
+            position: relative;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .hero-headline {
+            font-size: 3rem;
+            font-weight: 800;
+            line-height: 1.2;
+            letter-spacing: -0.05em;
+            margin-bottom: 1.5rem;
+            animation: shimmer 5s infinite linear;
+            background-size: 200% auto;
+        }
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 650px;
+            margin: 0 auto 2.5rem auto;
+        }
+        .hero-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        /* --- Tool Cards Section --- */
+        .tool-grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .tool-card {
+            padding: 2rem;
+            text-align: left;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tool-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            border-radius: var(--radius-card);
+            padding: 1px;
+            background: var(--gradient-primary);
+            -webkit-mask: 
+                linear-gradient(#fff 0 0) content-box, 
+                linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity var(--transition-smooth);
+        }
+
+        .tool-card:hover {
+            transform: translateY(-6px);
+            background-color: rgba(255,255,255,0.05);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2), 0 0 0 1px var(--border-card-hover);
+        }
+        .tool-card:hover::before {
+            opacity: 1;
+        }
+
+        .tool-card-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(59, 130, 246, 0.1));
+            color: var(--text-primary);
+            font-size: 1.5rem;
+        }
+
+        .tool-card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+        .tool-card-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* --- Benefits Section --- */
+        .benefits-grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: 1fr;
+        }
+        .benefit-card {
+            padding: 2.5rem;
+            text-align: center;
+        }
+        .benefit-card .tool-card-icon {
+            margin: 0 auto 1.5rem auto;
+            width: 64px;
+            height: 64px;
+            font-size: 2rem;
+        }
+        .benefit-card .tool-card-title {
+            font-size: 1.5rem;
+        }
+
+        /* --- Tool Page Layout Mockup --- */
+        .tool-layout-container {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: 1fr;
+        }
+        .drop-zone {
+            border: 2px dashed var(--border-card-hover);
+            border-radius: var(--radius-card);
+            padding: 4rem 2rem;
+            text-align: center;
+            transition: var(--transition-smooth);
+            cursor: pointer;
+        }
+        .drop-zone.is-dragging {
+            border-color: var(--color-purple);
+            background-color: rgba(124, 58, 237, 0.05);
+            box-shadow: inset 0 0 30px rgba(124, 58, 237, 0.2);
+        }
+        .drop-zone-icon {
+            font-size: 3rem;
+            color: var(--color-purple);
+            margin-bottom: 1rem;
+        }
+        .drop-zone-text {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .drop-zone-text span {
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+        .drop-zone-note {
+            margin-top: 1rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        .privacy-notice {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 1.5rem;
+        }
+        .privacy-notice i { color: var(--color-green); }
+
+        /* --- Tool Working State Mockup --- */
+        .tool-working-state {
+            padding: 2rem;
+        }
+        .settings-group {
+            margin-bottom: 2rem;
+        }
+        .slider-label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        .slider-label span:last-child {
+            color: var(--text-secondary);
+        }
+        .quality-slider {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            outline: none;
+        }
+        .quality-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 4px solid var(--color-purple);
+        }
+        .quality-slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 4px solid var(--color-purple);
+        }
+
+        .file-list {
+            list-style: none;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: rgba(0,0,0,0.2);
+            border-radius: 0.75rem;
+            font-size: 0.9rem;
+        }
+        .file-item-icon {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+        }
+        .file-item-name {
+            flex-grow: 1;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .file-item-size {
+            color: var(--text-muted);
+        }
+        .file-item-size .fa-arrow-right-long {
+            margin: 0 0.5rem;
+        }
+        .file-item-savings {
+            color: var(--color-green);
+            font-weight: 600;
+            min-width: 50px;
+            text-align: right;
+        }
+        .file-item-download .btn {
+            padding: 0.25rem 0.75rem;
+            font-size: 0.8rem;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 8px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        .progress-bar {
+            width: 65%;
+            height: 100%;
+            background: var(--gradient-primary);
+            border-radius: 4px;
+        }
+
+        .tool-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .tool-actions .btn:first-child {
+            margin-right: auto;
+        }
+
+        /* --- Coming Soon Placeholder --- */
+        .coming-soon {
+            text-align: center;
+            padding: 4rem 0;
+        }
+        .coming-soon .tool-card-icon {
+            margin: 0 auto 1.5rem auto;
+            width: 64px;
+            height: 64px;
+            font-size: 2rem;
+        }
+        .coming-soon-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+
+        /* --- Footer --- */
+        .footer {
+            background-color: #040405;
+            padding: 4rem 0 2rem 0;
+            border-top: 1px solid var(--border-card);
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .footer-brand .logo {
+            margin-bottom: 1rem;
+        }
+        .footer-brand p {
+            color: var(--text-secondary);
+            max-width: 300px;
+        }
+        .footer-links h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        .footer-links ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+        .footer-copyright {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            border-top: 1px solid var(--border-card);
+            padding-top: 2rem;
+        }
+
+        /* --- Responsive Design --- */
+        @media (min-width: 768px) {
+            .nav-links { display: flex; }
+            .mobile-menu-toggle { display: none; }
+            .hero-headline { font-size: 4.5rem; }
+            .benefits-grid { grid-template-columns: repeat(3, 1fr); }
+            .tool-layout-container { grid-template-columns: repeat(2, 1fr); align-items: start; }
+        }
+
+        @media (max-width: 767px) {
+            .section { padding: 4rem 0; }
+            .hero { padding: 6rem 0; }
+            .hero-headline { font-size: 2.5rem; }
+            .hero-subtitle { font-size: 1.125rem; }
+            .section-title { font-size: 2rem; }
+            
+            .nav { position: relative; }
+            .nav-links {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg-dark);
+                flex-direction: column;
+                padding: 1rem;
+                border: 1px solid var(--border-card);
+                border-radius: var(--radius-btn);
+                margin-top: 1rem;
+                display: none; /* Toggled by JS */
+            }
+            .nav-links.active { display: flex; }
+            
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .footer-brand p {
+                margin: 0 auto;
+            }
+            .footer-brand .logo {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background-grid"></div>
+
+    <!-- 1. HEADER -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                    <span>ToolPic</span>
+                </a>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#image-tools">Image Tools</a></li>
+                    <li><a href="#video-tools">Video Tools</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="icon-btn" aria-label="Change language">
+                        <i class="fa-solid fa-globe"></i>
+                    </button>
+                    <button class="icon-btn mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. HERO SECTION -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-headline gradient-text">Browser-Based Image & Video Tools.</h1>
+                    <p class="hero-subtitle">Compress, convert, and edit your media files instantly. No uploads, no sign-ups, no limits. 100% free and private.</p>
+                    <div class="hero-actions">
+                        <a href="#image-tools" class="btn btn-primary">Start Now <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#why-toolpic" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. TOOL CARDS SECTION - Image Tools -->
+        <section id="image-tools" class="section">
+            <div class="container">
+                <h2 class="section-title gradient-text animate-on-scroll">Image Tools</h2>
+                <p class="section-subtitle animate-on-scroll">Powerful image editing and conversion utilities that run entirely in your browser. Fast, secure, and easy to use.</p>
+                <div class="tool-grid">
+                    <article class="glass-card tool-card animate-on-scroll">
+                        <div class="tool-card-icon"><i class="fa-solid fa-compress"></i></div>
+                        <h3 class="tool-card-title">Image Compressor</h3>
+                        <p class="tool-card-description">Drastically reduce image file sizes without losing quality. Perfect for web and sharing.</p>
+                    </article>
+                    <article class="glass-card tool-card animate-on-scroll" style="transition-delay: 0.1s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-repeat"></i></div>
+                        <h3 class="tool-card-title">Format Converter</h3>
+                        <p class="tool-card-description">Convert images between formats like JPG, PNG, WebP, and AVIF with ease.</p>
+                    </article>
+                    <article class="glass-card tool-card animate-on-scroll" style="transition-delay: 0.2s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-crop-simple"></i></div>
+                        <h3 class="tool-card-title">Image Crop & Resize</h3>
+                        <p class="tool-card-description">Crop to specific dimensions or aspect ratios. Resize images quickly and precisely.</p>
+                    </article>
+                    <article class="glass-card tool-card animate-on-scroll" style="transition-delay: 0.3s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-droplet"></i></div>
+                        <h3 class="tool-card-title">Watermark Image</h3>
+                        <p class="tool-card-description">Add text or image watermarks to protect your creations. Customize opacity and position.</p>
+                    </article>
+                    <article class="glass-card tool-card animate-on-scroll" style="transition-delay: 0.4s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-eraser"></i></div>
+                        <h3 class="tool-card-title">Background Remove</h3>
+                        <p class="tool-card-description">Automatically remove the background from any image with a single click using AI.</p>
+                    </article>
+                    <article class="glass-card tool-card animate-on-scroll" style="transition-delay: 0.5s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h3 class="tool-card-title">Image Merge</h3>
+                        <p class="tool-card-description">Combine multiple images into a single canvas, either vertically or horizontally.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. TOOL CARDS SECTION - Video Tools -->
+        <section id="video-tools" class="section">
+            <div class="container">
+                <h2 class="section-title gradient-text animate-on-scroll">Video Tools</h2>
+                <p class="section-subtitle animate-on-scroll">Perform common video operations without uploading large files. All processing happens on your device.</p>
+                <div class="tool-grid">
+                    <article class="glass-card tool-card animate-on-scroll">
+                        <div class="tool-card-icon"><i class="fa-solid fa-file-zipper"></i></div>
+                        <h3 class="tool-card-title">Video Compressor</h3>
+                        <p class="tool-card-description">Reduce video file size significantly while maintaining visual quality for easier sharing.</p>
+                    </article>
+                    <article class="glass-card tool-card animate-on-scroll" style="transition-delay: 0.1s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-film"></i></div>
+                        <h3 class="tool-card-title">Video Converter</h3>
+                        <p class="tool-card-description">Convert videos to different formats like MP4, WebM, and MKV right in your browser.</p>
+                    </article>
+                    <article class="glass-card tool-card animate-on-scroll" style="transition-delay: 0.2s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-gif"></i></div>
+                        <h3 class="tool-card-title">Video to GIF</h3>
+                        <p class="tool-card-description">Create high-quality animated GIFs from your video clips with custom settings.</p>
+                    </article>
+                    <article class="glass-card tool-card animate-on-scroll" style="transition-delay: 0.3s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-music"></i></div>
+                        <h3 class="tool-card-title">Extract Audio</h3>
+                        <p class="tool-card-description">Pull the audio track from a video file and save it as an MP3 or WAV file.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 5. WHY TOOLPIC - Benefits Section -->
+        <section id="why-toolpic" class="section">
+            <div class="container">
+                <h2 class="section-title gradient-text animate-on-scroll">Why ToolPic?</h2>
+                <p class="section-subtitle animate-on-scroll">We built ToolPic with three core principles in mind, ensuring the best possible experience for every user.</p>
+                <div class="benefits-grid">
+                    <article class="glass-card benefit-card animate-on-scroll">
+                        <div class="tool-card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3 class="tool-card-title">Privacy First</h3>
+                        <p class="tool-card-description">Your files are never uploaded to any server. All processing is done locally on your computer, guaranteeing 100% privacy.</p>
+                    </article>
+                    <article class="glass-card benefit-card animate-on-scroll" style="transition-delay: 0.1s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-infinity"></i></div>
+                        <h3 class="tool-card-title">Unlimited & Free</h3>
+                        <p class="tool-card-description">No watermarks, no file limits, no premium features. All tools are completely free to use, forever. No sign-up required.</p>
+                    </article>
+                    <article class="glass-card benefit-card animate-on-scroll" style="transition-delay: 0.2s;">
+                        <div class="tool-card-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3 class="tool-card-title">Lightning Fast</h3>
+                        <p class="tool-card-description">Powered by modern browser technologies like WebAssembly, our tools are incredibly fast and efficient, rivaling desktop applications.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. TOOL PAGE LAYOUT & 7. TOOL WORKING STATE -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title gradient-text animate-on-scroll">A Glimpse of the Editor</h2>
+                <p class="section-subtitle animate-on-scroll">Our tools feature a clean, intuitive interface designed for maximum productivity and ease of use.</p>
+                <div class="tool-layout-container">
+                    <!-- Tool Page Layout -->
+                    <div class="animate-on-scroll">
+                        <div class="glass-card">
+                            <div class="drop-zone" id="drop-zone">
+                                <i class="fa-solid fa-cloud-arrow-up drop-zone-icon"></i>
+                                <p class="drop-zone-text">Drag & drop files here</p>
+                                <p class="drop-zone-text"><span>or click to browse</span></p>
+                                <p class="drop-zone-note">Max file size: 2 GB</p>
+                            </div>
+                        </div>
+                        <div class="privacy-notice">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>Your files stay on your device.</span>
+                        </div>
+                    </div>
+                    <!-- Tool Working State -->
+                    <div class="glass-card tool-working-state animate-on-scroll" style="transition-delay: 0.2s;">
+                        <div class="settings-group">
+                            <label class="slider-label">
+                                <span>Quality</span>
+                                <span>80%</span>
+                            </label>
+                            <input type="range" min="0" max="100" value="80" class="quality-slider">
+                        </div>
+
+                        <ul class="file-list">
+                            <li class="file-item">
+                                <i class="fa-regular fa-file-image file-item-icon"></i>
+                                <span class="file-item-name">vacation-photo-01.jpg</span>
+                                <span class="file-item-size">4.2 MB <i class="fa-solid fa-arrow-right-long"></i> 850 KB</span>
+                                <span class="file-item-savings">-79%</span>
+                                <a href="#" class="btn btn-secondary file-item-download"><i class="fa-solid fa-download"></i></a>
+                            </li>
+                            <li class="file-item">
+                                <i class="fa-regular fa-file-image file-item-icon"></i>
+                                <span class="file-item-name">mountain-landscape.png</span>
+                                <span class="file-item-size">8.9 MB <i class="fa-solid fa-arrow-right-long"></i> 1.1 MB</span>
+                                <span class="file-item-savings">-87%</span>
+                                <a href="#" class="btn btn-secondary file-item-download"><i class="fa-solid fa-download"></i></a>
+                            </li>
+                        </ul>
+
+                        <div class="progress-bar-container">
+                            <div class="progress-bar"></div>
+                        </div>
+
+                        <div class="tool-actions">
+                            <button class="btn btn-primary">Start Compression</button>
+                            <button class="btn btn-green"><i class="fa-solid fa-download"></i> Download All</button>
+                            <button class="btn btn-secondary"><i class="fa-solid fa-arrow-rotate-left"></i> Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. PLACEHOLDER TOOL -->
+        <section class="section">
+            <div class="container">
+                 <div class="glass-card coming-soon animate-on-scroll">
+                    <div class="tool-card-icon"><i class="fa-solid fa-wrench"></i></div>
+                    <h3 class="coming-soon-title">More Tools Coming Soon!</h3>
+                    <p class="tool-card-description">We're constantly working on new features. Stay tuned!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                        <span>ToolPic</span>
+                    </a>
+                    <p>Fast, free, and private in-browser tools for all your image and video needs.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Popular Tools</h4>
+                    <ul>
+                        <li><a href="#image-tools">Image Compressor</a></li>
+                        <li><a href="#image-tools">Background Remover</a></li>
+                        <li><a href="#video-tools">Video to GIF</a></li>
+                        <li><a href="#video-tools">Video Converter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 ToolPic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- Header Scroll Effect ---
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 10) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // --- Mobile Menu Toggle ---
+            const menuToggle = document.getElementById('mobile-menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                });
+            }
+            
+            // --- Animate on Scroll ---
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
+            elementsToAnimate.forEach(el => observer.observe(el));
+
+            // --- Drop Zone Interaction ---
+            const dropZone = document.getElementById('drop-zone');
+            if (dropZone) {
+                ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                    dropZone.addEventListener(eventName, preventDefaults, false);
+                });
+
+                function preventDefaults(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+
+                ['dragenter', 'dragover'].forEach(eventName => {
+                    dropZone.addEventListener(eventName, () => dropZone.classList.add('is-dragging'), false);
+                });
+
+                ['dragleave', 'drop'].forEach(eventName => {
+                    dropZone.addEventListener(eventName, () => dropZone.classList.remove('is-dragging'), false);
+                });
+
+                // You would handle the file drop here
+                // dropZone.addEventListener('drop', handleDrop, false);
+                // function handleDrop(e) {
+                //   let dt = e.dataTransfer;
+                //   let files = dt.files;
+                //   console.log('Files dropped:', files);
+                // }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/robots.txt/route": "/robots.txt",
+  "/[locale]/blog/[slug]/page": "/[locale]/blog/[slug]",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/tools/s/[slug]/page": "/[locale]/tools/s/[slug]",
+  "/[locale]/blog/page": "/[locale]/blog",
+  "/[locale]/tools/[slug]/page": "/[locale]/tools/[slug]"
+}

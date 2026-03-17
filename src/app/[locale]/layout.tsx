@@ -18,9 +18,54 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'meta' });
+
+  const baseUrl = 'https://toolpic.me';
+  const url = `${baseUrl}/${locale}`;
+
+  // Build alternates for all locales
+  const languages: Record<string, string> = {};
+  for (const loc of locales) {
+    languages[loc] = `${baseUrl}/${loc}`;
+  }
+  languages['x-default'] = `${baseUrl}/en`;
+
   return {
+    metadataBase: new URL(baseUrl),
     title: t('homeTitle'),
     description: t('siteDescription'),
+    icons: {
+      icon: [
+        { url: '/favicon.svg', type: 'image/svg+xml' },
+        { url: '/icon-512.png', type: 'image/png', sizes: '512x512' },
+      ],
+      apple: '/apple-touch-icon.png',
+    },
+    alternates: {
+      canonical: url,
+      languages,
+    },
+    openGraph: {
+      title: t('homeTitle'),
+      description: t('siteDescription'),
+      url,
+      siteName: 'ToolPic',
+      type: 'website',
+      locale: locale,
+      images: [
+        {
+          url: 'https://toolpic.me/og-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'ToolPic - Free Online Image & Video Tools',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image' as const,
+      title: t('homeTitle'),
+      description: t('siteDescription'),
+      images: ['https://toolpic.me/og-image.jpg'],
+    },
   };
 }
 
@@ -40,10 +85,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} dir={dir}>
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#7c3aed" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
         <link

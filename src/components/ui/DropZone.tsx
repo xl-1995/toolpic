@@ -65,9 +65,7 @@ export default function DropZone({ accept, multiple = true, maxSize = 50, onFile
       onDragOver={handleDrag}
       onDrop={handleDrop}
       onClick={() => inputRef.current?.click()}
-      className={`drop-zone p-12 text-center cursor-pointer transition-all ${
-        isDragging ? 'active' : ''
-      }`}
+      className={`drop-zone p-16 text-center cursor-pointer ${isDragging ? 'active' : ''}`}
     >
       <input
         ref={inputRef}
@@ -77,15 +75,15 @@ export default function DropZone({ accept, multiple = true, maxSize = 50, onFile
         onChange={handleChange}
         className="hidden"
       />
-      <div className="flex flex-col items-center gap-4">
-        <div className="w-16 h-16 rounded-full bg-[var(--color-primary)]/10 flex items-center justify-center">
-          <i className="fas fa-cloud-arrow-up text-2xl text-[var(--color-primary)]"></i>
+      <div className="flex flex-col items-center gap-5">
+        <div className="text-5xl text-[var(--color-purple)]">
+          <i className="fas fa-cloud-arrow-up"></i>
         </div>
         <div>
-          <p className="text-lg font-medium">{t('upload')}</p>
-          <p className="text-sm text-[var(--color-text-muted)] mt-1">{t('uploadHint')}</p>
+          <p className="text-lg font-semibold">{t('upload')}</p>
+          <p className="text-[var(--color-text-muted)] mt-1">{t('uploadHint')}</p>
         </div>
-        <p className="text-xs text-[var(--color-text-muted)]">
+        <p className="text-sm text-[var(--color-text-dim)]">
           {t('maxFileSize', { size: maxSize })}
         </p>
       </div>
