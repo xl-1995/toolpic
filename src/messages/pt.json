@@ -25,7 +25,8 @@
     "fileCount": "{count} arquivo(s) selecionado(s)",
     "originalSize": "Original: {size}",
     "newSize": "Novo: {size}",
-    "savedPercent": "{percent}% economizado"
+    "savedPercent": "{percent}% economizado",
+    "relatedToolsTitle": "Você também pode gostar"
   },
   "nav": {
     "home": "Inicio",
@@ -420,6 +421,131 @@
     "readTime": "{minutes} min de leitura",
     "relatedTools": "Ferramentas relacionadas",
     "posts": {
+      "best-free-image-editors-2026": {
+        "title": "5 Melhores Editores de Imagens Gratuitos Online em 2026",
+        "metaTitle": "5 Melhores Editores de Imagens Gratuitos Online em 2026 | ToolPic Blog",
+        "metaDescription": "Compare os 5 melhores editores de imagens gratuitos online em 2026: ToolPic, Canva, Photopea, Pixlr e Fotor.",
+        "excerpt": "Comparação prática dos cinco melhores editores de imagens gratuitos online disponíveis em 2026.",
+        "content": [
+          {
+            "heading": "Por que editores online gratuitos importam em 2026",
+            "text": "A edição profissional de imagens não requer mais assinaturas caras de software ou hardware poderoso. Os editores de imagens gratuitos online amadureceram para lidar com a maioria das tarefas de edição do dia a dia, desde cortes rápidos e redimensionamentos até filtros avançados e processamento em lote.\n\nA mudança para ferramentas baseadas em navegador foi impulsionada por melhorias no WebAssembly, APIs de navegador e computação em nuvem. Estas tecnologias permitem processamento complexo de imagens diretamente no seu navegador.\n\nNeste guia, comparamos cinco dos melhores editores de imagens gratuitos online em 2026, avaliando funcionalidades, facilidade de uso, privacidade, suporte a formatos e desempenho."
+          },
+          {
+            "heading": "ToolPic e Canva comparados",
+            "text": "ToolPic é um kit de ferramentas de imagem e vídeo focado em privacidade que processa tudo diretamente no seu navegador. Seus arquivos nunca saem do seu dispositivo. Ele se destaca em compressão, conversão de formato, corte, marca d'água, remoção de fundo e fusão de imagens, tudo com suporte a lotes.\n\nCanva adota uma abordagem diferente como plataforma focada em design. Fornece milhares de modelos para posts em redes sociais, apresentações e materiais de marketing. No entanto, Canva envia seus arquivos para seus servidores.\n\nEscolha ToolPic para processamento de imagens rápido e privado. Escolha Canva para design visual baseado em modelos."
+          },
+          {
+            "heading": "Photopea, Pixlr e Fotor",
+            "text": "Photopea é o mais próximo do Photoshop disponível gratuitamente no navegador. Suporta arquivos PSD, XCF, Sketch e RAW, com camadas, máscaras, modos de mesclagem e ferramentas de seleção avançadas.\n\nPixlr oferece dois editores: Pixlr X para edições rápidas e Pixlr E para trabalho mais avançado. Ambos contam com ferramentas alimentadas por IA.\n\nFotor foca na melhoria de fotos com filtros de um clique, retoque de retratos e criação de colagens."
+          },
+          {
+            "heading": "Qual editor escolher?",
+            "text": "Para processamento de imagens com foco em privacidade, ToolPic é o vencedor claro. Para design gráfico baseado em modelos, Canva oferece a melhor experiência.\n\nPara edição avançada baseada em camadas, Photopea é incomparável. Para edições rápidas com IA, Pixlr e Fotor entregam resultados sólidos.\n\nMuitos profissionais usam múltiplas ferramentas em combinação para otimizar seus fluxos de trabalho."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-converter"
+      },
+      "how-to-make-youtube-thumbnail": {
+        "title": "Como Criar Miniaturas do YouTube que Geram Cliques",
+        "metaTitle": "Como Criar Miniaturas do YouTube que Geram Cliques | ToolPic Blog",
+        "metaDescription": "Aprenda a criar miniaturas do YouTube atraentes com dimensões, sobreposição de texto e cores corretas.",
+        "excerpt": "Dicas de design, dimensões e boas práticas para criar miniaturas do YouTube que se destaquem.",
+        "content": [
+          {
+            "heading": "Por que as miniaturas fazem ou desfazem seus vídeos",
+            "text": "Sua miniatura é o fator mais importante para alguém clicar no seu vídeo. A Academia de Criadores do YouTube confirma que 90% dos vídeos com melhor desempenho usam miniaturas personalizadas.\n\nMiniaturas funcionam como outdoors em uma rodovia. Você tem cerca de dois segundos para comunicar o conteúdo do seu vídeo.\n\nAs dimensões recomendadas são 1280 x 720 pixels com proporção 16:9. O arquivo deve ter menos de 2MB."
+          },
+          {
+            "heading": "Princípios de design que geram cliques",
+            "text": "Cores de alto contraste são essenciais para a visibilidade das miniaturas. Use cores brilhantes e saturadas. Amarelo, vermelho e laranja atraem o olhar mais efetivamente.\n\nRostos com emoções claras geram taxas de cliques mais altas. Miniaturas com rostos expressivos recebem significativamente mais cliques.\n\nMantenha o texto em no máximo três a cinco palavras. Use fontes sem serifa em negrito com contornos fortes."
+          },
+          {
+            "heading": "Psicologia das cores e composição",
+            "text": "Vermelho cria urgência e excitação. Azul transmite confiança e profissionalismo. Amarelo capta atenção e comunica energia. Verde sugere crescimento.\n\nUse a regra dos terços para posicionar elementos-chave. Coloque o sujeito principal ligeiramente fora do centro.\n\nCrie profundidade usando um fundo desfocado ou escurecido atrás do sujeito principal."
+          },
+          {
+            "heading": "Criando miniaturas com ToolPic",
+            "text": "Comece com uma captura de tela de alta qualidade do seu vídeo. Abra a ferramenta de Corte de Imagem no ToolPic e corte na proporção 16:9 a 1280 x 720 pixels.\n\nUse a ferramenta de Marca d'Água para adicionar sobreposições de texto à sua miniatura.\n\nExporte a miniatura final como JPG de alta qualidade para manter o arquivo abaixo de 2MB."
+          }
+        ],
+        "relatedToolIds": "image-crop,image-watermark"
+      },
+      "batch-compress-images-guide": {
+        "title": "Como Comprimir Várias Imagens de Uma Vez",
+        "metaTitle": "Como Comprimir Várias Imagens de Uma Vez | ToolPic Blog",
+        "metaDescription": "Aprenda a comprimir dezenas de imagens em lote sem perda de qualidade. Comparação de ferramentas e guia passo a passo.",
+        "excerpt": "Economize horas comprimindo todas as suas imagens de uma vez. Guia prático de ferramentas, configurações e fluxos de trabalho.",
+        "content": [
+          {
+            "heading": "Por que o processamento em lote economiza horas",
+            "text": "Comprimir imagens uma por uma é tedioso e impraticável quando você tem dezenas ou centenas de arquivos. O processamento em lote é a única abordagem eficiente.\n\nA compressão manual de uma imagem leva de 30 a 60 segundos. Para 100 imagens, isso soma mais de uma hora. Ferramentas de compressão em lote fazem o mesmo trabalho em minutos.\n\nO processamento em lote também garante consistência na aparência visual."
+          },
+          {
+            "heading": "Escolhendo a ferramenta certa",
+            "text": "Ferramentas baseadas em navegador como ToolPic oferecem a experiência mais conveniente. Arraste e solte sua pasta de imagens, defina a qualidade uma vez, e tudo é processado localmente.\n\nAplicativos desktop como ImageOptim (macOS) e FileOptimizer (Windows) são boas alternativas.\n\nFerramentas de linha de comando como Sharp e ImageMagick são ideais para desenvolvedores."
+          },
+          {
+            "heading": "Configurações ideais",
+            "text": "Para fotografias, JPEG ou WebP a 78-82% de qualidade oferece o melhor equilíbrio. Esta faixa alcança redução de 60-75%.\n\nPara gráficos com bordas nítidas, PNG com otimização sem perdas é melhor.\n\nSempre redimensione as imagens para suas dimensões máximas de exibição antes de comprimir."
+          },
+          {
+            "heading": "Passo a passo com ToolPic",
+            "text": "Abra o Compressor de Imagens no ToolPic. Arraste e solte todas as suas imagens. A ferramenta aceita JPEG, PNG, WebP e AVIF.\n\nAjuste o controle de qualidade para 80%, que é um excelente padrão.\n\nUse o botão Baixar Tudo para salvar todas as imagens comprimidas de uma vez. Tudo é processado localmente."
+          }
+        ],
+        "relatedToolIds": "image-compressor"
+      },
+      "avif-vs-webp-next-gen-formats": {
+        "title": "AVIF vs WebP: Formatos de Imagem de Nova Geração Comparados",
+        "metaTitle": "AVIF vs WebP: Formatos de Imagem de Nova Geração Comparados | ToolPic Blog",
+        "metaDescription": "Comparação detalhada AVIF vs WebP: eficiência de compressão, qualidade, suporte de navegadores e quando usar cada formato.",
+        "excerpt": "Comparação técnica detalhada dos formatos AVIF e WebP para escolher o melhor formato de nova geração.",
+        "content": [
+          {
+            "heading": "A nova geração de formatos de imagem",
+            "text": "A web dependeu do JPEG e PNG por décadas, mas esses formatos foram projetados quando a banda larga era cara. Formatos modernos como WebP e AVIF usam técnicas avançadas de compressão.\n\nWebP foi lançado pelo Google em 2010, baseado no codec de vídeo VP8.\n\nAVIF chegou em 2019, baseado no codec AV1, oferecendo compressão ainda melhor que o WebP."
+          },
+          {
+            "heading": "Comparação de qualidade de compressão",
+            "text": "AVIF supera consistentemente o WebP em eficiência de compressão. Com qualidade visual equivalente, arquivos AVIF são 20-30% menores que WebP e 50% menores que JPEG.\n\nAVIF preserva melhor texturas finas e gradientes. Fotografias de paisagens e retratos ficam visivelmente melhores em AVIF.\n\nWebP ainda tem vantagens em velocidade de codificação e no tratamento de bordas nítidas."
+          },
+          {
+            "heading": "Suporte de navegadores",
+            "text": "WebP tem suporte quase universal em 2026, cobrindo mais de 97% dos usuários. AVIF cobre cerca de 92%.\n\nPara máxima compatibilidade, sirva AVIF como formato principal com WebP como fallback via elemento HTML picture."
+          },
+          {
+            "heading": "Qual formato usar?",
+            "text": "Use AVIF quando priorizar compressão máxima em navegadores modernos. Use WebP como fallback confiável.\n\nO Conversor de Imagens do ToolPic suporta ambos os formatos para conversão instantânea no navegador."
+          }
+        ],
+        "relatedToolIds": "image-converter"
+      },
+      "ecommerce-product-image-optimization": {
+        "title": "Guia de Otimização de Imagens de Produtos para E-commerce",
+        "metaTitle": "Guia de Otimização de Imagens de Produtos para E-commerce | ToolPic Blog",
+        "metaDescription": "Otimize suas imagens de produtos para carregamento mais rápido, melhor SEO e mais conversões.",
+        "excerpt": "Guia completo para otimizar imagens de produtos em lojas online: formato, compressão, tamanho e SEO de imagens.",
+        "content": [
+          {
+            "heading": "Por que imagens de produtos impulsionam vendas",
+            "text": "No e-commerce, imagens de produtos são sua ferramenta de vendas mais poderosa. 75% dos compradores online dependem de fotos de produtos para decisões de compra.\n\nNo entanto, imagens de alta qualidade trazem um compromisso: o tamanho do arquivo. Fotos não otimizadas podem facilmente ter 2-5MB cada.\n\nA solução é otimizar suas imagens mantendo a qualidade visual enquanto reduz drasticamente o tamanho."
+          },
+          {
+            "heading": "Tamanhos e formatos recomendados",
+            "text": "Para imagens principais, use 1000 a 2000 pixels no lado mais longo. A maioria das plataformas recomenda 1200 x 1200 ou 1500 x 1500 pixels.\n\nWebP é o formato ideal para 2026. Oferece arquivos 25-35% menores que JPEG.\n\nMiniaturas de categorias devem ter 400-600 pixels de largura."
+          },
+          {
+            "heading": "SEO de imagens para e-commerce",
+            "text": "Motores de busca leem o texto associado às imagens. Nomes de arquivo descritivos e texto alternativo são cruciais para SEO.\n\nImplemente dados estruturados com Schema.org Product para melhor visibilidade em resultados de busca."
+          },
+          {
+            "heading": "Otimizando com ToolPic",
+            "text": "Corte suas fotos de produtos em proporção consistente com a ferramenta de Corte. Use o Compressor para processamento em lote com qualidade de 80%.\n\nTodo processamento é local no navegador, suas imagens nunca saem do dispositivo."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop"
+      },
       "how-to-compress-images-without-losing-quality": {
         "title": "Como comprimir imagens sem perder qualidade",
         "metaTitle": "Como comprimir imagens sem perder qualidade | Blog ToolPic",

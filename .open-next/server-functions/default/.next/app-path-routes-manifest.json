@@ -3,8 +3,8 @@
   "/robots.txt/route": "/robots.txt",
   "/sitemap.xml/route": "/sitemap.xml",
   "/[locale]/blog/page": "/[locale]/blog",
-  "/[locale]/tools/[slug]/page": "/[locale]/tools/[slug]",
   "/[locale]/page": "/[locale]",
-  "/[locale]/tools/s/[slug]/page": "/[locale]/tools/s/[slug]",
-  "/[locale]/blog/[slug]/page": "/[locale]/blog/[slug]"
+  "/[locale]/blog/[slug]/page": "/[locale]/blog/[slug]",
+  "/[locale]/tools/[slug]/page": "/[locale]/tools/[slug]",
+  "/[locale]/tools/s/[slug]/page": "/[locale]/tools/s/[slug]"
 }

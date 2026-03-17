@@ -25,7 +25,8 @@
     "fileCount": "{count} dosya secildi",
     "originalSize": "Orijinal: {size}",
     "newSize": "Yeni: {size}",
-    "savedPercent": "%{percent} tasarruf"
+    "savedPercent": "%{percent} tasarruf",
+    "relatedToolsTitle": "Bunları da beğenebilirsiniz"
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -420,6 +421,131 @@
     "readTime": "{minutes} dk okuma",
     "relatedTools": "İlgili Araçlar",
     "posts": {
+      "best-free-image-editors-2026": {
+        "title": "2026'da En İyi 5 Ücretsiz Çevrimiçi Görsel Düzenleyici",
+        "metaTitle": "2026'da En İyi 5 Ücretsiz Çevrimiçi Görsel Düzenleyici | ToolPic Blog",
+        "metaDescription": "2026'da en iyi 5 ücretsiz çevrimiçi görsel düzenleyiciyi karşılaştırın: ToolPic, Canva, Photopea, Pixlr ve Fotor.",
+        "excerpt": "2026'da mevcut en iyi beş ücretsiz çevrimiçi görsel düzenleyicinin pratik karşılaştırması.",
+        "content": [
+          {
+            "heading": "2026'da ücretsiz çevrimiçi düzenleyiciler neden önemli",
+            "text": "Profesyonel görsel düzenleme artık pahalı yazılım abonelikleri gerektirmiyor. Ücretsiz çevrimiçi düzenleyiciler günlük düzenleme görevlerinin çoğunu kolayca halledebilecek düzeye olgunlaştı.\n\nWebAssembly, tarayıcı API'leri ve bulut bilişimdeki gelişmeler tarayıcı tabanlı araçlara geçişi hızlandırdı.\n\nBu rehberde 2026'nın en iyi beş ücretsiz çevrimiçi görsel düzenleyicisini karşılaştırıyoruz."
+          },
+          {
+            "heading": "ToolPic ve Canva karşılaştırması",
+            "text": "ToolPic gizlilik odaklı bir araç setidir, her şeyi doğrudan tarayıcınızda işler. Dosyalarınız cihazınızdan asla çıkmaz.\n\nCanva tasarım odaklı bir platformdur. Ancak Canva dosyalarınızı sunucularına yükler.\n\nHızlı ve özel işleme için ToolPic, şablon tabanlı tasarım için Canva seçin."
+          },
+          {
+            "heading": "Photopea, Pixlr ve Fotor",
+            "text": "Photopea tarayıcıda mevcut en yakın ücretsiz Photoshop alternatifidir. PSD, XCF, RAW dosyalarını destekler.\n\nPixlr iki düzenleyici sunar. Fotor tek tıkla filtreler ve portre rötuşuna odaklanır."
+          },
+          {
+            "heading": "Hangi düzenleyiciyi seçmeli?",
+            "text": "Gizlilik: ToolPic. Grafik tasarım: Canva. Gelişmiş düzenleme: Photopea. Hızlı AI düzenleme: Pixlr ve Fotor.\n\nBirçok profesyonel birden fazla aracı birlikte kullanır."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-converter"
+      },
+      "how-to-make-youtube-thumbnail": {
+        "title": "Tıklama Alan YouTube Küçük Resimleri Nasıl Yapılır",
+        "metaTitle": "Tıklama Alan YouTube Küçük Resimleri Nasıl Yapılır | ToolPic Blog",
+        "metaDescription": "Doğru boyutlar, metin ve renklerle dikkat çekici YouTube küçük resimleri oluşturmayı öğrenin.",
+        "excerpt": "YouTube küçük resimleri için tasarım ipuçları ve en iyi uygulamalar.",
+        "content": [
+          {
+            "heading": "Küçük resimler neden videoların başarısını belirler",
+            "text": "Küçük resim, birinin videonuza tıklayıp tıklamayacağını belirleyen en önemli faktördür. En iyi videoların %90'ı özel küçük resim kullanır.\n\nÖnerilen boyutlar: 1280 x 720 piksel, 16:9 oran, 2MB'den küçük dosya."
+          },
+          {
+            "heading": "Tıklamaları artıran tasarım ilkeleri",
+            "text": "Yüksek kontrastlı renkler kullanın. Sarı, kırmızı ve turuncu en etkilidir.\n\nNet duygular taşıyan yüzler daha yüksek tıklama oranı sağlar.\n\nMetin en fazla 3-5 kelime olmalı. Kalın sans-serif fontlar kullanın."
+          },
+          {
+            "heading": "Renk psikolojisi ve kompozisyon",
+            "text": "Kırmızı aciliyet, mavi güven, sarı enerji, yeşil büyüme ifade eder.\n\nÜçler kuralını kullanın. Ana konuyu hafifçe merkezden kaydırın.\n\nArkada bulanık veya karartılmış arka plan kullanarak derinlik oluşturun."
+          },
+          {
+            "heading": "ToolPic ile küçük resim oluşturma",
+            "text": "ToolPic'in görsel kırpma aracıyla 16:9'da 1280 x 720 piksele kırpın. Filigran aracıyla metin ekleyin. Yüksek kaliteli JPG olarak dışa aktarın."
+          }
+        ],
+        "relatedToolIds": "image-crop,image-watermark"
+      },
+      "batch-compress-images-guide": {
+        "title": "Birden Fazla Görseli Toplu Olarak Sıkıştırma",
+        "metaTitle": "Birden Fazla Görseli Toplu Olarak Sıkıştırma | ToolPic Blog",
+        "metaDescription": "Düzinelerce görseli kalite kaybı olmadan toplu sıkıştırmayı öğrenin.",
+        "excerpt": "Tüm görsellerinizi tek seferde sıkıştırarak saatler kazanın.",
+        "content": [
+          {
+            "heading": "Toplu işleme neden saatler kazandırır",
+            "text": "Tek tek sıkıştırma düzinelerce dosyayla pratik değildir. Toplu işleme tek verimli yaklaşımdır.\n\nManuel sıkıştırma 30-60 saniye sürer. Toplu araçlar dakikalar içinde tamamlar.\n\nToplu işleme görsel tutarlılık da sağlar."
+          },
+          {
+            "heading": "Doğru aracı seçme",
+            "text": "ToolPic gibi tarayıcı araçları en kolay deneyimi sunar. Sürükle bırak, kaliteyi ayarla, her şey yerel olarak işlenir.\n\nMasaüstü uygulamaları ve komut satırı araçları da alternatiflerdir."
+          },
+          {
+            "heading": "Optimal ayarlar",
+            "text": "Fotoğraflar için JPEG veya WebP %78-82 kalite. %60-75 boyut azaltma.\n\nKeskin kenarlı grafikler için PNG. Sıkıştırmadan önce her zaman yeniden boyutlandırın."
+          },
+          {
+            "heading": "ToolPic ile adım adım",
+            "text": "ToolPic Görsel Sıkıştırıcıyı açın. Tüm görselleri sürükleyin. %80 kalite ayarlayın. Tümünü İndir ile kaydedin."
+          }
+        ],
+        "relatedToolIds": "image-compressor"
+      },
+      "avif-vs-webp-next-gen-formats": {
+        "title": "AVIF ve WebP: Yeni Nesil Görsel Formatları Karşılaştırması",
+        "metaTitle": "AVIF ve WebP: Yeni Nesil Görsel Formatları Karşılaştırması | ToolPic Blog",
+        "metaDescription": "AVIF ve WebP detaylı karşılaştırma: sıkıştırma, kalite, tarayıcı desteği.",
+        "excerpt": "AVIF ve WebP formatlarının teknik karşılaştırması.",
+        "content": [
+          {
+            "heading": "Yeni nesil görsel formatları",
+            "text": "Web onlarca yıldır JPEG ve PNG'ye güvendi. WebP ve AVIF gelişmiş sıkıştırma teknikleri kullanır.\n\nWebP: Google 2010, VP8 codec. AVIF: 2019, AV1 codec."
+          },
+          {
+            "heading": "Sıkıştırma kalitesi karşılaştırması",
+            "text": "AVIF, WebP'den %20-30 daha küçük, JPEG'den %50 daha küçük dosyalar üretir.\n\nAVIF doku ve gradyan korumada daha iyi. WebP kodlama hızında daha iyi."
+          },
+          {
+            "heading": "Tarayıcı desteği",
+            "text": "WebP: %97+. AVIF: ~%92. Maksimum uyumluluk için AVIF ana format, WebP yedek olarak HTML picture elementi kullanın."
+          },
+          {
+            "heading": "Hangi formatı kullanmalı?",
+            "text": "Maksimum sıkıştırma: AVIF. Güvenilir yedek: WebP. ToolPic her ikisini de destekler."
+          }
+        ],
+        "relatedToolIds": "image-converter"
+      },
+      "ecommerce-product-image-optimization": {
+        "title": "E-ticaret Ürün Görseli Optimizasyon Rehberi",
+        "metaTitle": "E-ticaret Ürün Görseli Optimizasyon Rehberi | ToolPic Blog",
+        "metaDescription": "Ürün görsellerinizi hızlı yükleme ve daha fazla dönüşüm için optimize edin.",
+        "excerpt": "E-ticaret mağazaları için ürün görseli optimizasyonu rehberi.",
+        "content": [
+          {
+            "heading": "Ürün görselleri neden satışları artırır",
+            "text": "Alıcıların %75'i ürün fotoğraflarına güvenir. Optimize edilmemiş fotoğraflar 2-5MB olabilir.\n\nOptimizasyon %70-90 boyut azaltması sağlar."
+          },
+          {
+            "heading": "Önerilen boyutlar ve formatlar",
+            "text": "Ana görseller: 1000-2000 piksel. Önerilen: 1200 x 1200. WebP 2026 için ideal formattır."
+          },
+          {
+            "heading": "E-ticaret görsel SEO",
+            "text": "Açıklayıcı dosya adları ve alt metin SEO için kritiktir. Schema.org Product kullanın."
+          },
+          {
+            "heading": "ToolPic ile optimize etme",
+            "text": "1:1 oranında kırpın. %80 kalitede toplu sıkıştırma yapın. Her şey tarayıcıda yerel olarak işlenir."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop"
+      },
       "how-to-compress-images-without-losing-quality": {
         "title": "Kalite Kaybetmeden Görseller Nasıl Sıkıştırılır",
         "metaTitle": "Kalite Kaybetmeden Görseller Nasıl Sıkıştırılır | ToolPic Blog",

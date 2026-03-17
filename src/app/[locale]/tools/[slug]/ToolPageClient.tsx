@@ -1,6 +1,8 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { Link } from '@/i18n/routing';
+import { tools, getToolSlug } from '@/data/tools';
 import ImageCompressor from '@/components/tools/ImageCompressor';
 import ImageConverter from '@/components/tools/ImageConverter';
 import ImageCrop from '@/components/tools/ImageCrop';
@@ -26,10 +28,24 @@ const toolComponents: Record<string, React.ComponentType> = {
   'video-extract-audio': VideoExtractAudio,
 };
 
+function getRelatedTools(currentToolId: string) {
+  const currentTool = tools.find(t => t.id === currentToolId);
+  if (!currentTool) return tools.slice(0, 6);
+
+  const sameCategory = tools.filter(t => t.id !== currentToolId && t.category === currentTool.category);
+  const otherCategory = tools.filter(t => t.category !== currentTool.category);
+
+  // Take all same-category tools, then fill with other-category tools up to 6
+  const related = [...sameCategory, ...otherCategory.slice(0, 2)];
+  return related.slice(0, 6);
+}
+
 export default function ToolPageClient({ toolId }: { toolId: string }) {
   const t = useTranslations();
+  const locale = useLocale();
   const toolT = t.raw(`tools.${toolId}`);
   const ToolComponent = toolComponents[toolId] || PlaceholderTool;
+  const relatedTools = getRelatedTools(toolId);
 
   return (
     <>
@@ -113,6 +129,30 @@ export default function ToolPageClient({ toolId }: { toolId: string }) {
         )}
       </div>
     )}
+
+    {/* Related Tools */}
+    <div className="max-w-[900px] mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+      <h2 className="text-2xl font-bold mb-8 gradient-text">{t('common.relatedToolsTitle')}</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {relatedTools.map((tool) => {
+          const slug = getToolSlug(tool.id, locale);
+          const relToolT = t.raw(`tools.${tool.id}`);
+          return (
+            <Link
+              key={tool.id}
+              href={`/tools/${slug}`}
+              className="tool-card glass-card p-6 block"
+            >
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[var(--color-purple)]/10 to-[var(--color-blue)]/10 flex items-center justify-center mb-4">
+                <i className={`fas fa-${tool.icon} text-lg text-[var(--color-text)]`}></i>
+              </div>
+              <h3 className="text-base font-semibold mb-1">{relToolT.title}</h3>
+              <p className="text-sm text-[var(--color-text-muted)] leading-relaxed line-clamp-2">{relToolT.description}</p>
+            </Link>
+          );
+        })}
+      </div>
+    </div>
     </>
   );
 }

@@ -25,7 +25,8 @@
     "fileCount": "เลือก {count} ไฟล์",
     "originalSize": "ต้นฉบับ: {size}",
     "newSize": "ใหม่: {size}",
-    "savedPercent": "ประหยัด {percent}%"
+    "savedPercent": "ประหยัด {percent}%",
+    "relatedToolsTitle": "คุณอาจชอบสิ่งเหล่านี้"
   },
   "nav": {
     "home": "หน้าแรก",
@@ -420,6 +421,131 @@
     "readTime": "อ่าน {minutes} นาที",
     "relatedTools": "เครื่องมือที่เกี่ยวข้อง",
     "posts": {
+      "best-free-image-editors-2026": {
+        "title": "5 โปรแกรมแก้ไขรูปภาพออนไลน์ฟรีที่ดีที่สุดในปี 2026",
+        "metaTitle": "5 โปรแกรมแก้ไขรูปภาพออนไลน์ฟรีที่ดีที่สุดในปี 2026 | ToolPic Blog",
+        "metaDescription": "Compare the top 5 free online image editors in 2026 including ToolPic, Canva, Photopea, Pixlr, and Fotor. Find the best tool for your needs.",
+        "excerpt": "A hands-on comparison of the five best free online image editors available in 2026, with pros, cons, and ideal use cases for each.",
+        "content": [
+          {
+            "heading": "Why Free Online Editors Matter in 2026",
+            "text": "Professional image editing no longer requires expensive software subscriptions or powerful desktop hardware. Free online image editors have matured to the point where they handle most everyday editing tasks with ease, from quick crops and resizes to advanced filters and batch processing.\n\nThe shift to browser-based tools has been driven by improvements in WebAssembly, browser APIs, and cloud computing. These technologies allow complex image processing to run directly in your browser or on lightweight servers, eliminating the need for heavy local installations. For freelancers, small business owners, students, and content creators on a budget, this means professional-quality results without any financial commitment.\n\nIn this guide, we compare five of the best free online image editors in 2026, evaluating them on features, ease of use, privacy, format support, and performance. Whether you need quick social media edits or serious batch processing, one of these tools will fit your workflow."
+          },
+          {
+            "heading": "ToolPic and Canva Compared",
+            "text": "ToolPic is a privacy-first image and video toolkit that processes everything directly in your browser. Your files never leave your device, which makes it ideal for sensitive or proprietary images. It excels at core tasks like compression, format conversion, cropping, watermarking, background removal, and image merging, all with batch support and no file count limits.\n\nCanva takes a different approach as a design-focused platform. It provides thousands of templates for social media posts, presentations, and marketing materials. Its drag-and-drop interface is beginner-friendly, and the free tier is generous. However, Canva uploads your files to its servers, and some premium features require a paid subscription. It is better suited for graphic design than for technical image processing tasks like compression or format conversion.\n\nChoose ToolPic when you need fast, private image processing without accounts or uploads. Choose Canva when you need to design visual content from templates with text, shapes, and branding elements."
+          },
+          {
+            "heading": "Photopea, Pixlr, and Fotor",
+            "text": "Photopea is the closest thing to Photoshop available for free in a browser. It supports PSD, XCF, Sketch, and RAW files, along with layers, masks, blend modes, and advanced selection tools. It is the best choice for users who need Photoshop-level capabilities without the cost. The interface is complex, which creates a learning curve for beginners, but experienced editors will feel right at home.\n\nPixlr offers two editors: Pixlr X for quick edits and Pixlr E for more advanced work. Both feature AI-powered tools for background removal, object removal, and image enhancement. The free version includes ads and limits export resolution, but it covers most basic to intermediate editing needs well.\n\nFotor focuses on photo enhancement with one-click filters, portrait retouching, and collage creation. Its batch processing feature is helpful for processing multiple photos with the same adjustments. The interface is clean and intuitive, making it a good starting point for beginners who want attractive results with minimal effort."
+          },
+          {
+            "heading": "Which Editor Should You Choose?",
+            "text": "Your ideal editor depends on your primary use case. For privacy-focused image processing, compression, and format conversion, ToolPic is the clear winner since nothing leaves your browser. For graphic design and template-based content creation, Canva offers the most polished experience.\n\nIf you need advanced layer-based editing comparable to Photoshop, Photopea is unmatched among free tools. For AI-enhanced quick edits and casual photo improvement, Pixlr and Fotor both deliver solid results with minimal learning required.\n\nMany professionals use multiple tools in combination. They might compress and convert images with ToolPic, design social media graphics in Canva, and handle complex compositing in Photopea. Since all five tools are free and browser-based, there is no cost to trying each one and building a workflow that leverages the strengths of each."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-converter"
+      },
+      "how-to-make-youtube-thumbnail": {
+        "title": "วิธีทำ Thumbnail YouTube ที่ดึงดูดคลิก",
+        "metaTitle": "วิธีทำ Thumbnail YouTube ที่ดึงดูดคลิก | ToolPic Blog",
+        "metaDescription": "Learn how to create eye-catching YouTube thumbnails with the right dimensions, text overlay, colors, and design tips to boost your click-through rate.",
+        "excerpt": "Design tips, dimensions, and best practices for creating YouTube thumbnails that stand out and drive more clicks to your videos.",
+        "content": [
+          {
+            "heading": "Why Thumbnails Make or Break Your Videos",
+            "text": "Your thumbnail is the single most important factor in whether someone clicks on your video. YouTube's own Creator Academy confirms that 90% of top-performing videos use custom thumbnails. Even with a compelling title, a weak thumbnail will cause viewers to scroll right past your content.\n\nThumbnails work like billboards on a highway. You have about two seconds to communicate what your video is about and why it is worth watching. In a feed filled with competing content, your thumbnail must be instantly readable, emotionally engaging, and visually distinct from everything around it.\n\nThe recommended dimensions for YouTube thumbnails are 1280 x 720 pixels with a minimum width of 640 pixels. The aspect ratio is 16:9, which matches most video players and device screens. File size should be under 2MB, and YouTube accepts JPG, GIF, and PNG formats."
+          },
+          {
+            "heading": "Design Principles That Drive Clicks",
+            "text": "High-contrast colors are essential for thumbnail visibility. Use bright, saturated colors that pop against both light and dark backgrounds. Yellow, red, and orange draw the eye most effectively. Avoid muted tones and pastels that blend into the feed.\n\nFaces with clear emotions generate higher click-through rates. Studies show that thumbnails featuring expressive human faces receive significantly more clicks than those without. If your content involves a person, include a close-up showing surprise, excitement, curiosity, or another strong emotion.\n\nKeep text to three to five words maximum. Thumbnails are displayed at small sizes on mobile devices, so long text becomes unreadable. Use bold, sans-serif fonts with strong outlines or drop shadows so text remains legible at any size. The text should complement your title, not repeat it."
+          },
+          {
+            "heading": "Color Psychology and Composition",
+            "text": "Color choices trigger specific psychological responses. Red creates urgency and excitement, making it effective for dramatic or time-sensitive content. Blue conveys trust and professionalism, suitable for educational content. Yellow grabs attention and communicates energy, while green suggests growth and money-related topics.\n\nUse the rule of thirds to position key elements. Place the main subject slightly off-center for a more dynamic composition. Leave space for text on one side and the subject on the other. Avoid cluttering the frame with too many elements, as simplicity reads better at small sizes.\n\nCreate depth by using a blurred or darkened background behind the main subject. This technique, borrowed from professional photography, makes the foreground subject pop and creates a three-dimensional effect that catches the eye in a flat feed of competing thumbnails."
+          },
+          {
+            "heading": "Creating Thumbnails with ToolPic",
+            "text": "Start with a high-quality screenshot or photo that captures the key moment of your video. Open the Image Crop tool on ToolPic and crop it to the 16:9 aspect ratio at 1280 x 720 pixels. This ensures your thumbnail matches YouTube's recommended dimensions perfectly.\n\nUse the Image Watermark tool to add text overlays to your thumbnail. Choose a bold, readable font and position the text where it does not cover important parts of the image. Adjust the opacity and add a background strip behind the text if needed for better legibility.\n\nExport the final thumbnail as a high-quality JPG to keep the file size under 2MB while maintaining sharp details. Test how your thumbnail looks at small sizes by viewing it on your phone screen. If the text and subject are clear at mobile thumbnail size, your design is ready to upload."
+          }
+        ],
+        "relatedToolIds": "image-crop,image-watermark"
+      },
+      "batch-compress-images-guide": {
+        "title": "วิธีบีบอัดรูปภาพหลายรูปพร้อมกัน",
+        "metaTitle": "วิธีบีบอัดรูปภาพหลายรูปพร้อมกัน | ToolPic Blog",
+        "metaDescription": "Learn how to batch compress dozens of images at once without losing quality. Compare tools, step-by-step guide, and tips for web optimization.",
+        "excerpt": "Save hours by batch compressing all your images at once. A practical guide to tools, settings, and workflows for efficient image optimization.",
+        "content": [
+          {
+            "heading": "Why Batch Processing Saves You Hours",
+            "text": "Compressing images one at a time is tedious and impractical when you have dozens or hundreds of files to process. Whether you are optimizing product photos for an e-commerce store, preparing images for a website migration, or reducing the size of a photo library, batch processing is the only efficient approach.\n\nManual compression of a single image typically takes 30 to 60 seconds including upload, adjustment, and download. For 100 images, that adds up to over an hour of repetitive work. Batch compression tools handle the same workload in minutes by applying your chosen settings to all files simultaneously.\n\nBatch processing also ensures consistency. When every image in a set is compressed with the same quality settings, the visual appearance remains uniform across your website or product catalog. This consistency is especially important for professional presentations and e-commerce listings where mismatched image quality looks unprofessional."
+          },
+          {
+            "heading": "Choosing the Right Batch Tool",
+            "text": "Browser-based tools like ToolPic offer the most convenient batch compression experience. You drag and drop your entire folder of images, set the quality level once, and the tool processes everything locally in your browser. There are no file count limits, no uploads to third-party servers, and no subscription fees.\n\nDesktop applications like ImageOptim (macOS) and FileOptimizer (Windows) are good alternatives for users who prefer native software. They integrate with your file system and can process folders directly, which is convenient for large batches. However, they require installation and are platform-specific.\n\nCommand-line tools like Sharp (Node.js) and ImageMagick are ideal for developers who want to integrate compression into automated build pipelines. They offer the most control and can process thousands of files, but they require technical knowledge to configure and run."
+          },
+          {
+            "heading": "Optimal Settings for Batch Compression",
+            "text": "For photographs and complex images, JPEG or WebP at 78-82% quality provides the best balance between file size and visual quality. This range typically achieves 60-75% size reduction while keeping images visually indistinguishable from the originals at normal viewing sizes.\n\nFor graphics, icons, and screenshots with sharp edges and text, PNG with lossless optimization is usually the better choice. If transparency is not needed, converting these to WebP lossless can reduce file sizes by an additional 20-30% compared to optimized PNG.\n\nAlways resize images to their maximum display dimensions before compressing. If your website displays product images at 800 pixels wide, there is no reason to compress and serve 3000-pixel-wide originals. Resizing first, then compressing, produces dramatically smaller files than compression alone. For a typical e-commerce store, this combination can reduce total image bandwidth by 80-90%."
+          },
+          {
+            "heading": "Step-by-Step Batch Compression with ToolPic",
+            "text": "Open the Image Compressor tool on ToolPic. Click the upload area or drag and drop your entire selection of images. The tool accepts JPEG, PNG, WebP, and AVIF files in any combination. There is no limit on the number of files you can process.\n\nSet the quality slider to your desired level. For most use cases, 80% is an excellent default. The tool applies this setting to all images in the batch. You can see the original and compressed size for each file in the processing list.\n\nOnce all images are processed, review the results. The tool displays the total size savings across all files. Use the Download All button to save every compressed image at once. The entire process runs locally in your browser, meaning your images are never uploaded to any server. For a batch of 50 product photos, the process typically completes in under a minute."
+          }
+        ],
+        "relatedToolIds": "image-compressor"
+      },
+      "avif-vs-webp-next-gen-formats": {
+        "title": "AVIF vs WebP: เปรียบเทียบฟอร์แมตภาพยุคใหม่",
+        "metaTitle": "AVIF vs WebP: เปรียบเทียบฟอร์แมตภาพยุคใหม่ | ToolPic Blog",
+        "metaDescription": "AVIF vs WebP in-depth comparison: compression efficiency, quality, browser support, and when to use each next-gen image format for web performance.",
+        "excerpt": "A detailed technical comparison of AVIF and WebP image formats to help you choose the best next-gen format for your project.",
+        "content": [
+          {
+            "heading": "The Next Generation of Image Formats",
+            "text": "The web has relied on JPEG and PNG for decades, but these formats were designed in an era when bandwidth was expensive and processing power was limited. Modern formats like WebP and AVIF use advanced compression techniques that deliver the same visual quality at a fraction of the file size.\n\nWebP was released by Google in 2010, based on the VP8 video codec. It supports both lossy and lossless compression, transparency, and animation. It has been widely adopted across the web and is supported by all major browsers since 2020.\n\nAVIF arrived in 2019, built on the AV1 video codec developed by the Alliance for Open Media. It represents the cutting edge of image compression, offering even better compression ratios than WebP. AVIF is gaining browser support rapidly and is becoming a serious contender for the default web image format. Understanding how these two formats compare helps you make informed decisions about which to adopt for your projects."
+          },
+          {
+            "heading": "Compression Quality Comparison",
+            "text": "In controlled comparisons, AVIF consistently outperforms WebP in compression efficiency. At equivalent visual quality, AVIF files are typically 20-30% smaller than WebP files and 50% smaller than JPEG. This advantage is most pronounced at lower bitrates, where AVIF maintains cleaner details and fewer artifacts.\n\nAVIF excels at preserving fine texture and gradient details that WebP sometimes smooths over. Photographs of natural scenes, portraits with skin texture, and images with subtle color gradations look noticeably better in AVIF at the same file size. For high-detail photographic content, AVIF is the superior format.\n\nWebP still holds advantages in specific scenarios. It encodes and decodes faster than AVIF, which matters for real-time applications and devices with limited processing power. WebP also handles sharp edges and text more predictably than AVIF at aggressive compression levels. For screenshots, UI elements, and graphics with crisp lines, WebP can produce more consistent results."
+          },
+          {
+            "heading": "Browser Support and Adoption",
+            "text": "WebP has near-universal browser support in 2026, covering over 97% of global web users. Chrome, Firefox, Safari, Edge, and all major mobile browsers handle WebP without issues. This mature support makes WebP a safe, production-ready choice for any web project.\n\nAVIF support has expanded significantly and now covers approximately 92% of global users. Chrome and Firefox added support early, and Safari joined with version 16 in 2022. The remaining gap comes from older browser versions and some niche platforms.\n\nFor maximum compatibility, the best approach is to serve AVIF as the primary format with WebP as a fallback, using the HTML picture element. This ensures every visitor gets the smallest possible file their browser can handle. Content delivery networks like Cloudflare and Fastly can automate this format negotiation based on the Accept header, simplifying implementation."
+          },
+          {
+            "heading": "Which Format Should You Use?",
+            "text": "Use AVIF as your primary format when targeting modern browsers and maximum compression is a priority. It is the best choice for photography-heavy websites, media galleries, and any project where bandwidth savings directly impact costs or user experience. The compression advantage over WebP translates into measurably faster page loads.\n\nUse WebP as your reliable fallback and as your primary format when encoding speed matters or when you need to support the broadest possible device range. WebP's faster encoding also makes it more practical for on-the-fly image processing in CDN pipelines.\n\nToolPic's Image Converter supports both AVIF and WebP, letting you convert images between formats instantly in your browser. You can compare the output quality and file size of both formats side by side to determine which works best for your specific images. Since conversion happens locally, you can experiment freely without uploading anything to external servers."
+          }
+        ],
+        "relatedToolIds": "image-converter"
+      },
+      "ecommerce-product-image-optimization": {
+        "title": "คู่มือการเพิ่มประสิทธิภาพรูปภาพสินค้าสำหรับอีคอมเมิร์ซ",
+        "metaTitle": "คู่มือการเพิ่มประสิทธิภาพรูปภาพสินค้าสำหรับอีคอมเมิร์ซ | ToolPic Blog",
+        "metaDescription": "Optimize your e-commerce product images for faster page loads, better SEO, and higher conversions. Format, size, and compression recommendations included.",
+        "excerpt": "A complete guide to optimizing product images for e-commerce stores, covering format selection, compression, sizing, and image SEO best practices.",
+        "content": [
+          {
+            "heading": "Why Product Images Drive Sales",
+            "text": "In e-commerce, product images are your most powerful sales tool. Studies show that 75% of online shoppers rely on product photos when making purchase decisions. High-quality images build trust, reduce return rates, and directly increase conversion rates. A product with multiple clear, well-lit images can convert at two to three times the rate of one with a single low-quality photo.\n\nHowever, high-quality images come with a trade-off: file size. Unoptimized product photos can easily weigh 2-5MB each, and a typical category page displaying 20 to 40 products can require over 100MB of image data. This creates catastrophically slow page loads that drive customers away before they even see your products.\n\nThe solution is optimizing your images to maintain visual quality while drastically reducing file size. With the right format, dimensions, and compression settings, you can reduce image file sizes by 70-90% without any perceptible quality loss. Faster-loading pages mean lower bounce rates, better search rankings, and ultimately more sales."
+          },
+          {
+            "heading": "Recommended Sizes and Formats",
+            "text": "For main product images, use dimensions between 1000 and 2000 pixels on the longest side. This provides enough resolution for zoom functionality without being excessively large. Most e-commerce platforms recommend 1200 x 1200 or 1500 x 1500 pixels for square product images.\n\nWebP is the ideal format for product images in 2026. It offers 25-35% smaller files than JPEG at the same quality and supports transparency for products photographed on transparent backgrounds. For stores that need to support older browsers, serve WebP with a JPEG fallback.\n\nThumbnails in category listings should be 400-600 pixels wide. At this display size, a well-compressed WebP or JPEG at 80% quality typically produces files between 20KB and 50KB. For hero banners and lifestyle shots, keep file sizes under 150KB by using WebP at 78-82% quality."
+          },
+          {
+            "heading": "Image SEO for E-commerce",
+            "text": "Search engines cannot see your images, but they read the text you associate with them. Descriptive file names like blue-cotton-t-shirt-front-view.jpg tell search engines exactly what the image shows, while generic names like IMG_4521.jpg provide no useful information.\n\nAlt text is critical for both accessibility and SEO. Write concise descriptions that include relevant keywords naturally. Instead of keyword-stuffing like best cheap blue shirt buy now, use descriptive text like Front view of men's blue cotton t-shirt with crew neck. This approach serves both screen reader users and search engine crawlers.\n\nImplement structured data markup for your product images using Schema.org Product type. This helps search engines display your products in rich results and image search. Include the image URL in your product schema along with other product details like price, availability, and reviews."
+          },
+          {
+            "heading": "Optimizing Product Images with ToolPic",
+            "text": "Start by cropping your product photos to a consistent aspect ratio using ToolPic's Image Crop tool. Square crops (1:1) work best for most e-commerce platforms and ensure a clean, uniform grid layout in category pages. Crop tightly around the product to maximize the visual impact at smaller display sizes.\n\nNext, use the Image Compressor to batch process your entire product catalog. Set the quality to 80% for the best balance of file size and visual clarity. The tool shows you the before-and-after file size for each image, so you can verify the savings. For a catalog of 200 products, batch compression typically saves 500MB or more in total image weight.\n\nAll processing happens locally in your browser, which means your proprietary product images never leave your device. This is especially valuable for stores that sell unique or unreleased products where image confidentiality matters. Export your optimized images and upload them to your store's media library for an immediate boost in page load performance."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop"
+      },
       "how-to-compress-images-without-losing-quality": {
         "title": "วิธีบีบอัดรูปภาพโดยไม่สูญเสียคุณภาพ",
         "metaTitle": "วิธีบีบอัดรูปภาพโดยไม่สูญเสียคุณภาพ | บล็อก ToolPic",

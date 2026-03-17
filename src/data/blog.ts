@@ -6,6 +6,11 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'ecommerce-product-image-optimization', date: '2026-03-17', readTime: 6, heroImage: '/blog/ecommerce-images-hero.jpg' },
+  { slug: 'avif-vs-webp-next-gen-formats', date: '2026-03-17', readTime: 5, heroImage: '/blog/avif-vs-webp-hero.jpg' },
+  { slug: 'batch-compress-images-guide', date: '2026-03-17', readTime: 4, heroImage: '/blog/batch-compress-hero.jpg' },
+  { slug: 'how-to-make-youtube-thumbnail', date: '2026-03-17', readTime: 5, heroImage: '/blog/youtube-thumbnail-hero.jpg' },
+  { slug: 'best-free-image-editors-2026', date: '2026-03-17', readTime: 6, heroImage: '/blog/best-editors-hero.jpg' },
   { slug: 'how-to-convert-heic-to-jpg', date: '2026-03-17', readTime: 4, heroImage: '/blog/heic-to-jpg-hero.jpg' },
   { slug: 'ai-image-tools-vs-traditional', date: '2026-03-16', readTime: 5, heroImage: '/blog/ai-vs-traditional-hero.jpg' },
   { slug: 'how-to-optimize-images-for-website-speed', date: '2026-03-16', readTime: 6, heroImage: '/blog/optimize-images-hero.jpg' },
