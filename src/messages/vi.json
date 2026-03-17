@@ -619,6 +619,81 @@
           }
         ],
         "relatedToolIds": "image-converter"
+      },
+      "how-to-convert-heic-to-jpg": {
+        "title": "Cách chuyển đổi HEIC sang JPG: Hướng dẫn đầy đủ",
+        "metaTitle": "Cách chuyển đổi HEIC sang JPG: Hướng dẫn đầy đủ | Blog ToolPic",
+        "metaDescription": "Tìm hiểu cách chuyển đổi tệp HEIC sang JPG dễ dàng. Hiểu định dạng HEIC của iPhone và chuyển đổi sang JPEG ngay lập tức với công cụ trực tuyến miễn phí.",
+        "excerpt": "Cách đơn giản nhất để chuyển ảnh HEIC từ iPhone sang JPG mà không cần cài đặt phần mềm nào.",
+        "content": [
+          {
+            "heading": "Định dạng HEIC là gì và tại sao iPhone sử dụng nó",
+            "text": "HEIC (High Efficiency Image Container) được Apple áp dụng làm định dạng ảnh mặc định từ iOS 11. Nó dựa trên tiêu chuẩn HEIF (High Efficiency Image Format) và sử dụng công nghệ nén của codec video H.265.\n\nƯu điểm lớn nhất của HEIC là cung cấp chất lượng tương đương hoặc tốt hơn JPEG với kích thước tệp nhỏ hơn khoảng 50%. Điều này có nghĩa bạn có thể lưu trữ nhiều ảnh hơn trên iPhone mà không hết dung lượng. Apple chọn định dạng này vì nó hỗ trợ độ sâu màu 10-bit, trong khi JPEG bị giới hạn ở 8-bit.\n\nTuy nhiên, vấn đề lớn nhất của HEIC là khả năng tương thích. Máy tính Windows, thiết bị Android cũ, nhiều trình duyệt web và hầu hết các trang web vẫn không thể mở trực tiếp tệp HEIC. Vì vậy việc chuyển đổi sang JPG thường trở nên cần thiết."
+          },
+          {
+            "heading": "Khi nào cần chuyển đổi HEIC sang JPG",
+            "text": "Tình huống phổ biến nhất xảy ra khi bạn muốn gửi ảnh iPhone cho người dùng Windows hoặc Android. Họ có thể gặp khó khăn khi mở tệp HEIC. Tương tự, nhiều ứng dụng email và nền tảng mạng xã hội không hiển thị HEIC đúng cách.\n\nCác trang thương mại điện tử thường yêu cầu tải ảnh sản phẩm ở định dạng JPG hoặc PNG. Nếu bạn chụp sản phẩm bằng iPhone, bạn cần chuyển đổi trước khi tải lên.\n\nDịch vụ in ấn cũng thường không chấp nhận HEIC. Trước khi in ảnh, tạo canvas hoặc đặt album ảnh, cần chuyển đổi sang JPG. Đối với nhà phát triển web, JPG thực tế hơn vì tất cả trình duyệt đều hỗ trợ mà không cần plugin bổ sung."
+          },
+          {
+            "heading": "Mẹo giữ chất lượng khi chuyển đổi",
+            "text": "Khi chuyển đổi từ HEIC sang JPG cần lưu ý một số điều. Trước hết, JPEG là định dạng lossy nên một chút mất chất lượng là không tránh khỏi. Tuy nhiên, ở cài đặt chất lượng 85-95%, sự khác biệt gần như không thể nhìn thấy bằng mắt thường.\n\nLưu ý rằng HEIC hỗ trợ độ sâu màu 10-bit trong khi JPG chỉ 8-bit. Điều này có nghĩa ở các gradient màu cực kỳ tinh tế có thể có chút khác biệt, nhưng trong sử dụng thông thường không đáng chú ý.\n\nĐối với chuyển đổi hàng loạt, một cài đặt chất lượng duy nhất hoạt động tốt cho tất cả ảnh. Chất lượng 90% là điểm khởi đầu tuyệt vời cân bằng hoàn hảo giữa kích thước tệp và chất lượng hình ảnh."
+          },
+          {
+            "heading": "Chuyển đổi HEIC sang JPG với ToolPic",
+            "text": "Mở Trình chuyển đổi hình ảnh của ToolPic và kéo thả tệp HEIC hoặc duyệt để tải lên. Bạn có thể tải nhiều tệp cùng lúc để chuyển đổi hàng loạt dễ dàng.\n\nChọn JPG làm định dạng đầu ra và điều chỉnh thanh trượt chất lượng. Cài đặt mặc định 80% phù hợp cho hầu hết mục đích sử dụng. Nếu cần chất lượng cao nhất, tăng thanh trượt lên 90-95%.\n\nKhi chuyển đổi hoàn tất, tải xuống từng tệp hoặc tất cả cùng lúc bằng nút 'Tải tất cả'. Toàn bộ quá trình diễn ra trong trình duyệt — không có tệp nào được tải lên máy chủ, giữ cho ảnh cá nhân của bạn hoàn toàn an toàn."
+          }
+        ],
+        "relatedToolIds": "image-converter"
+      },
+      "ai-image-tools-vs-traditional": {
+        "title": "Công cụ ảnh AI và chỉnh sửa truyền thống: Cái nào tốt hơn?",
+        "metaTitle": "Công cụ ảnh AI và chỉnh sửa truyền thống: So sánh | Blog ToolPic",
+        "metaDescription": "So sánh công cụ hình ảnh dựa trên AI với phần mềm chỉnh sửa ảnh truyền thống. Tìm hiểu khi nào AI tốt hơn và khi nào cần chỉnh sửa thủ công.",
+        "excerpt": "Khám phá sự khác biệt giữa xử lý ảnh AI và phần mềm chỉnh sửa truyền thống — về tốc độ, chất lượng và tính dễ sử dụng.",
+        "content": [
+          {
+            "heading": "Sự trỗi dậy của công cụ ảnh AI",
+            "text": "Trong vài năm qua, trí tuệ nhân tạo đã cách mạng hóa lĩnh vực xử lý hình ảnh. Những tác vụ trước đây mất hàng giờ và đòi hỏi kỹ năng chuyên môn giờ được hoàn thành tự động trong vài giây. Xóa nền là ví dụ rõ ràng nhất.\n\nVới phương pháp truyền thống, xóa nền của ảnh phức tạp đòi hỏi sử dụng công cụ pen, magic wand hoặc layer mask trong phần mềm như Photoshop. Với ảnh có tóc, vật thể trong suốt hoặc cạnh phức tạp, quá trình có thể mất 15-30 phút hoặc hơn.\n\nCông cụ dựa trên AI sử dụng mô hình deep learning được huấn luyện trên hàng triệu hình ảnh. Các mô hình này tự động nhận diện sự khác biệt giữa chủ thể và nền, và trong hầu hết trường hợp tạo ra kết quả chất lượng chuyên nghiệp."
+          },
+          {
+            "heading": "AI vượt trội ở đâu",
+            "text": "Lợi thế lớn nhất của công cụ AI là tốc độ và khả năng tiếp cận. Bất kỳ ai cũng có thể đạt kết quả chuyên nghiệp chỉ với vài cú nhấp chuột mà không cần đào tạo kỹ thuật. Điều này đặc biệt có giá trị cho doanh nghiệp nhỏ, quản lý mạng xã hội và người bán hàng thương mại điện tử.\n\nXử lý hàng loạt là một điểm mạnh khác của AI. Xử lý hàng chục hoặc hàng trăm ảnh theo cùng cách — như xóa nền tất cả ảnh sản phẩm — chỉ mất vài phút. Với phương pháp truyền thống, cùng công việc sẽ mất nhiều ngày.\n\nCông cụ AI không ngừng cải thiện. Với mỗi bản cập nhật mô hình, phát hiện cạnh chính xác hơn, tóc và vật thể trong suốt được xử lý tốt hơn, và chất lượng đầu ra tổng thể tiếp tục được nâng cao."
+          },
+          {
+            "heading": "Chỉnh sửa truyền thống vẫn cần thiết ở đâu",
+            "text": "Giới hạn của AI xuất hiện khi cần kiểm soát cực kỳ chính xác và tùy chỉnh. Trong nhiếp ảnh chuyên nghiệp, chiến dịch quảng cáo và phương tiện in ấn, chỉnh sửa hoàn hảo từng pixel là bắt buộc. AI đôi khi mắc lỗi ở các chi tiết tinh tế.\n\nVới các tác vụ như compositing sáng tạo, color grading, retouching và hiệu ứng nghệ thuật, phán đoán con người và tầm nhìn nghệ thuật vẫn không thể thay thế. AI có thể xác định chủ thể nhưng không biết tầm nhìn sáng tạo của bạn.\n\nThao tác ảnh phức tạp như thêm đối tượng mới vào cảnh, thay đổi ánh sáng hoặc tạo bóng chân thực vẫn đòi hỏi kỹ năng chuyên môn và phần mềm truyền thống."
+          },
+          {
+            "heading": "Sử dụng xóa nền AI của ToolPic",
+            "text": "Công cụ Xóa nền của ToolPic kết hợp sức mạnh AI với quyền riêng tư dựa trên trình duyệt. Tải ảnh lên và mô hình AI tự động nhận diện chủ thể để xóa nền. Toàn bộ quá trình diễn ra trong trình duyệt sử dụng WebAssembly.\n\nLần đầu sử dụng, mô hình AI mất vài giây để tải, nhưng các ảnh tiếp theo được xử lý gần như tức thì. Kết quả là tệp PNG trong suốt mà bạn có thể sử dụng trên bất kỳ nền nào.\n\nCông cụ AI không phải là sự thay thế hoàn toàn cho chỉnh sửa truyền thống mà là bổ sung mạnh mẽ. Dùng AI cho tác vụ nhanh và chuyển sang phần mềm truyền thống khi cần kiểm soát hoàn hảo từng pixel. Kết hợp cả hai tạo nên quy trình làm việc hiệu quả nhất."
+          }
+        ],
+        "relatedToolIds": "image-bg-remove"
+      },
+      "how-to-optimize-images-for-website-speed": {
+        "title": "Cách tối ưu hóa hình ảnh để tăng tốc website",
+        "metaTitle": "Cách tối ưu hóa hình ảnh để tăng tốc website | Blog ToolPic",
+        "metaDescription": "Tìm hiểu kỹ thuật tối ưu hóa hình ảnh để tăng tốc độ tải website. Hướng dẫn đầy đủ về chọn định dạng, nén và lazy loading.",
+        "excerpt": "Làm website nhanh hơn — các phương pháp tối ưu hóa hình ảnh tốt nhất cải thiện cả SEO và trải nghiệm người dùng.",
+        "content": [
+          {
+            "heading": "Tại sao tối ưu hóa hình ảnh quan trọng cho tốc độ website",
+            "text": "Một trang web trung bình nặng khoảng 2MB, trong đó hình ảnh chiếm hơn 50%. Nếu hình ảnh chưa được tối ưu, website sẽ tải chậm, tỷ lệ thoát tăng và xếp hạng SEO bị ảnh hưởng.\n\nCore Web Vitals của Google hiện đo trực tiếp tốc độ trang như yếu tố xếp hạng. Chỉ số Largest Contentful Paint (LCP) đặc biệt bị ảnh hưởng bởi tải hình ảnh. LCP dưới 2,5 giây được coi là tốt, và hình ảnh chưa tối ưu có thể dễ dàng khiến bạn trượt mục tiêu này.\n\nĐối với người dùng di động điều này còn quan trọng hơn. Trên kết nối mạng chậm, tệp hình ảnh lớn mất nhiều thời gian tải khiến người dùng rời trang. Tối ưu hóa hình ảnh không chỉ là cải tiến kỹ thuật mà còn là con đường đến trải nghiệm người dùng tốt hơn và nhiều chuyển đổi hơn."
+          },
+          {
+            "heading": "Chọn đúng định dạng hình ảnh",
+            "text": "Chọn định dạng là bước đầu tiên và có tác động lớn nhất của tối ưu hóa. Cho ảnh chụp và hình ảnh phức tạp, WebP là lựa chọn tốt nhất — tạo tệp nhỏ hơn JPEG 25-35% ở cùng chất lượng. Nếu không hỗ trợ WebP, dùng JPEG.\n\nCho logo, icon và đồ họa cạnh sắc, PNG hoặc SVG tốt hơn. SVG dựa trên vector nên luôn sắc nét ở mọi kích thước với tệp rất nhỏ. PNG hỗ trợ trong suốt nhưng quá lớn cho ảnh chụp.\n\nAVIF là định dạng mới cung cấp nén tốt hơn cả WebP. Hỗ trợ trình duyệt đang tăng nhanh và năm 2026 hầu hết trình duyệt hiện đại đều hỗ trợ. Để áp dụng dần, dùng phần tử picture với AVIF là chính và WebP hoặc JPEG là dự phòng."
+          },
+          {
+            "heading": "Phương pháp tốt nhất cho nén và thay đổi kích thước",
+            "text": "Đừng giữ hình ảnh lớn hơn kích thước hiển thị. Nếu ảnh hiển thị rộng 800px thì không có lý do phục vụ ảnh rộng 4000px. Thay đổi kích thước trước rồi nén là cách tiếp cận hiệu quả nhất.\n\nVới JPEG và WebP, cài đặt chất lượng 75-85% lý tưởng cho hầu hết ảnh web. Trong khoảng này, kích thước tệp giảm 60-80% mà chất lượng hình ảnh không có sự khác biệt đáng chú ý.\n\nCho hình ảnh responsive, dùng thuộc tính srcset để trình duyệt tải ảnh phù hợp theo kích thước màn hình thiết bị. Phục vụ ảnh lớn cho desktop và nhỏ cho di động giảm đáng kể thời gian tải cho người dùng di động."
+          },
+          {
+            "heading": "Tối ưu hóa ảnh website với ToolPic",
+            "text": "Trình nén hình ảnh của ToolPic là cách đơn giản nhất để tối ưu hóa ảnh website. Tải ảnh lên, đặt thanh trượt chất lượng và tải xuống phiên bản nén ngay lập tức. Xử lý hàng loạt tối ưu nhiều ảnh cùng lúc.\n\nĐể chuyển đổi định dạng, dùng Trình chuyển đổi hình ảnh. Chuyển tệp JPEG hoặc PNG sang WebP để tiết kiệm thêm 25-35% kích thước ngay lập tức. Công cụ giữ nguyên trong suốt.\n\nToàn bộ xử lý diễn ra cục bộ trong trình duyệt. Không có tệp nào được tải lên máy chủ, giữ nội dung website và dữ liệu khách hàng hoàn toàn riêng tư. ToolPic là công cụ miễn phí không có giới hạn tệp, watermark hay yêu cầu đăng ký."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-converter"
       }
     }
   }
