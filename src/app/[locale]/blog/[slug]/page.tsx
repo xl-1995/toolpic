@@ -60,11 +60,13 @@ export async function generateMetadata({ params }: Props) {
       type: 'article',
       locale,
       publishedTime: post.date,
+      images: [{ url: `${baseUrl}${post.heroImage}`, width: 1200, height: 630 }],
     },
     twitter: {
       card: 'summary_large_image' as const,
       title: metaTitle,
       description: metaDescription,
+      images: [`${baseUrl}${post.heroImage}`],
     },
   };
 }
@@ -172,6 +174,13 @@ export default async function BlogPostPage({ params }: Props) {
             </span>
           </div>
         </header>
+
+        {/* Hero image */}
+        {post.heroImage && (
+          <div className="mb-12 rounded-2xl overflow-hidden">
+            <img src={post.heroImage} alt={title} className="w-full h-auto" />
+          </div>
+        )}
 
         {/* Content sections */}
         <div className="space-y-10">

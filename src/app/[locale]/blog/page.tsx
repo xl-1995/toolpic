@@ -99,8 +99,14 @@ export default async function BlogListPage({ params }: Props) {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="glass-card p-6 sm:p-8 block hover:border-[var(--color-border-hover)] transition-all duration-300 group"
+                className="glass-card overflow-hidden block hover:border-[var(--color-border-hover)] transition-all duration-300 group"
               >
+                {post.heroImage && (
+                  <div className="w-full h-48 sm:h-56 overflow-hidden">
+                    <img src={post.heroImage} alt={postTitle} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  </div>
+                )}
+                <div className="p-6 sm:p-8">
                 <div className="flex items-center gap-3 text-sm text-[var(--color-text-muted)] mb-3">
                   <span className="flex items-center gap-1.5">
                     <i className="fas fa-calendar-alt text-xs"></i>
@@ -121,6 +127,7 @@ export default async function BlogListPage({ params }: Props) {
                 <span className="inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-[var(--color-purple)] group-hover:gap-2.5 transition-all duration-300">
                   Read more <i className="fas fa-arrow-right text-xs"></i>
                 </span>
+                </div>
               </Link>
             );
           })}
