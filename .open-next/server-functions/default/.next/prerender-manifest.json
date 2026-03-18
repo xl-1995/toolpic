@@ -5988,6 +5988,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ar/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ar/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ar/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -6003,6 +6027,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ar/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ar/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ar/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -6051,6 +6099,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ar/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ar/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ar/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -6180,6 +6252,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ar/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ar/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ar/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -6195,6 +6291,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ar/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ar/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ar/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -6372,6 +6492,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/de/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/de/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/de/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -6387,6 +6531,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/de/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/de/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/de/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -6435,6 +6603,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/de/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/de/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/de/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -6564,6 +6756,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/de/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/de/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/de/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -6579,6 +6795,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/de/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/de/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/de/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -6756,6 +6996,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/en/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/en/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/en/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -6771,6 +7035,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/en/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/en/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -6819,6 +7107,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/en/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/en/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -6948,6 +7260,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/en/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/en/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/en/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -6963,6 +7299,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/en/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/en/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -7140,6 +7500,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/es/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/es/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/es/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -7155,6 +7539,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/es/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/es/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/es/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -7203,6 +7611,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/es/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/es/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/es/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -7332,6 +7764,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/es/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/es/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/es/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -7347,6 +7803,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/es/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/es/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/es/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -7524,6 +8004,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/fr/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/fr/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/fr/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -7539,6 +8043,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/fr/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/fr/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/fr/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -7587,6 +8115,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/fr/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/fr/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/fr/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -7716,6 +8268,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/fr/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/fr/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/fr/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -7731,6 +8307,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/fr/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/fr/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/fr/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -7908,6 +8508,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/hi/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/hi/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/hi/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -7923,6 +8547,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/hi/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/hi/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -7971,6 +8619,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/hi/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/hi/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -8100,6 +8772,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/hi/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/hi/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/hi/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -8115,6 +8811,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/hi/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/hi/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/hi/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -8292,6 +9012,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/id/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/id/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/id/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -8307,6 +9051,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/id/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/id/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/id/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -8355,6 +9123,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/id/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/id/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/id/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -8484,6 +9276,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/id/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/id/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/id/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -8499,6 +9315,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/id/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/id/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/id/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -8676,6 +9516,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/it/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/it/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/it/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -8691,6 +9555,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/it/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/it/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/it/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -8739,6 +9627,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/it/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/it/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/it/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -8868,6 +9780,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/it/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/it/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/it/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -8883,6 +9819,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/it/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/it/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/it/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -9060,6 +10020,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ja/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ja/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ja/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -9075,6 +10059,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ja/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ja/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ja/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -9123,6 +10131,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ja/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ja/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ja/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -9252,6 +10284,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ja/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ja/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ja/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -9267,6 +10323,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ja/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ja/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ja/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -9444,6 +10524,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ko/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ko/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ko/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -9459,6 +10563,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ko/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ko/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ko/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -9507,6 +10635,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ko/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ko/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ko/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -9636,6 +10788,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ko/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ko/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ko/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -9651,6 +10827,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ko/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ko/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ko/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -9828,6 +11028,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ms/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ms/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ms/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -9843,6 +11067,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ms/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ms/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ms/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -9891,6 +11139,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ms/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ms/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ms/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -10020,6 +11292,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ms/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ms/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ms/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -10035,6 +11331,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ms/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ms/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ms/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -10212,6 +11532,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/nl/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/nl/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/nl/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -10227,6 +11571,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/nl/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/nl/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/nl/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -10275,6 +11643,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/nl/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/nl/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/nl/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -10404,6 +11796,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/nl/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/nl/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/nl/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -10419,6 +11835,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/nl/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/nl/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/nl/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -10596,6 +12036,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/pl/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pl/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/pl/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -10611,6 +12075,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/pl/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pl/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pl/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -10659,6 +12147,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/pl/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pl/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pl/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -10788,6 +12300,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/pl/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pl/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/pl/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -10803,6 +12339,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/pl/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pl/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pl/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -10980,6 +12540,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/pt/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pt/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/pt/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -10995,6 +12579,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/pt/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pt/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pt/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -11043,6 +12651,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/pt/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pt/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pt/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -11172,6 +12804,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/pt/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pt/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/pt/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -11187,6 +12843,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/pt/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pt/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/pt/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -11364,6 +13044,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ru/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ru/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ru/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -11379,6 +13083,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ru/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ru/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ru/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -11427,6 +13155,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ru/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ru/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ru/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -11556,6 +13308,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/ru/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ru/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/ru/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -11571,6 +13347,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/ru/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/ru/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/ru/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -11748,6 +13548,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/th/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/th/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/th/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -11763,6 +13587,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/th/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/th/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/th/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -11811,6 +13659,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/th/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/th/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/th/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -11940,6 +13812,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/th/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/th/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/th/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -11955,6 +13851,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/th/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/th/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/th/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -12132,6 +14052,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/tr/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/tr/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/tr/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -12147,6 +14091,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/tr/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tr/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/tr/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -12195,6 +14163,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/tr/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tr/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/tr/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -12324,6 +14316,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/tr/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/tr/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/tr/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -12339,6 +14355,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/tr/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tr/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/tr/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -12516,6 +14556,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/uk/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/uk/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/uk/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -12531,6 +14595,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/uk/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/uk/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/uk/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -12579,6 +14667,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/uk/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/uk/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/uk/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -12708,6 +14820,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/uk/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/uk/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/uk/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -12723,6 +14859,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/uk/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/uk/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/uk/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -12900,6 +15060,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/vi/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/vi/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/vi/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -12915,6 +15099,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/vi/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/vi/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/vi/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -12963,6 +15171,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/vi/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/vi/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/vi/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -13092,6 +15324,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/vi/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/vi/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/vi/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -13107,6 +15363,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/vi/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/vi/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/vi/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -13284,6 +15564,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/zh/blog/free-watermark-generator-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/zh/blog/free-watermark-generator-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/zh/blog/how-to-compress-images-without-losing-quality": {
       "experimentalBypassFor": [
         {
@@ -13299,6 +15603,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/zh/blog/how-to-compress-images-without-losing-quality.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/zh/blog/how-to-compress-video-for-whatsapp": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/zh/blog/how-to-compress-video-for-whatsapp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -13347,6 +15675,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/zh/blog/how-to-convert-video-to-gif.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/zh/blog/how-to-create-instagram-carousel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/zh/blog/how-to-create-instagram-carousel.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -13476,6 +15828,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/zh/blog/png-transparent-background-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/zh/blog/png-transparent-background-guide.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/zh/blog/reduce-video-file-size-for-email": {
       "experimentalBypassFor": [
         {
@@ -13491,6 +15867,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]/blog/[slug]",
       "dataRoute": "/zh/blog/reduce-video-file-size-for-email.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/zh/blog/tiktok-video-format-guide": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[locale]/blog/[slug]",
+      "dataRoute": "/zh/blog/tiktok-video-format-guide.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -25174,8 +27574,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "f1f8ebf829c9f2d9dd4a952353c5192e",
-    "previewModeSigningKey": "37a07a5c907bd0e9701d8816073bd8946fcfa07803c7bffa6ccb2e268f55d8fe",
-    "previewModeEncryptionKey": "ef45744448b7609f9997d62e52cb4cceaa1b6f8a323ff454933a1446f7de2709"
+    "previewModeId": "b889ca11fa8dc04c09f1de6995fef47b",
+    "previewModeSigningKey": "aeb6fa08287e534cb959b19ac64e2e916e193b96989308379ac382056b874d2d",
+    "previewModeEncryptionKey": "2fd955fbbefac7c51680090390e2d8e45a901ed6297cf78022c50d5698d63159"
   }
 }

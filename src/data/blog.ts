@@ -6,6 +6,11 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'how-to-create-instagram-carousel', date: '2026-03-18', readTime: 5, heroImage: '/blog/instagram-carousel-hero.jpg' },
+  { slug: 'png-transparent-background-guide', date: '2026-03-18', readTime: 4, heroImage: '/blog/png-transparent-hero.jpg' },
+  { slug: 'how-to-compress-video-for-whatsapp', date: '2026-03-18', readTime: 4, heroImage: '/blog/compress-whatsapp-hero.jpg' },
+  { slug: 'free-watermark-generator-guide', date: '2026-03-18', readTime: 5, heroImage: '/blog/watermark-guide-hero.jpg' },
+  { slug: 'tiktok-video-format-guide', date: '2026-03-18', readTime: 5, heroImage: '/blog/tiktok-format-hero.jpg' },
   { slug: 'ecommerce-product-image-optimization', date: '2026-03-17', readTime: 6, heroImage: '/blog/ecommerce-images-hero.jpg' },
   { slug: 'avif-vs-webp-next-gen-formats', date: '2026-03-17', readTime: 5, heroImage: '/blog/avif-vs-webp-hero.jpg' },
   { slug: 'batch-compress-images-guide', date: '2026-03-17', readTime: 4, heroImage: '/blog/batch-compress-hero.jpg' },

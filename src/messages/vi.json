@@ -821,6 +821,131 @@
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
+      },
+      "how-to-create-instagram-carousel": {
+        "title": "Cách tạo bài đăng carousel Instagram: Hướng dẫn đầy đủ",
+        "metaTitle": "Cách tạo carousel Instagram - Hướng dẫn miễn phí 2026 | ToolPic Blog",
+        "metaDescription": "Tìm hiểu cách tạo bài đăng carousel Instagram hoàn hảo. Kích thước đúng, mẹo thiết kế và công cụ miễn phí để tăng tương tác.",
+        "excerpt": "Hướng dẫn đầy đủ về cách tạo carousel Instagram: kích thước, thiết kế và công cụ miễn phí.",
+        "relatedToolIds": "image-crop,image-merge",
+        "content": [
+          {
+            "heading": "Tại sao carousel Instagram quan trọng",
+            "text": "Bài đăng carousel trên Instagram nhận được lượng tương tác gấp khoảng ba lần so với bài đăng chỉ có một hình ảnh. Với carousel, bạn có thể thêm tối đa 10 slide trong một bài đăng, cho phép bạn kể câu chuyện một cách chi tiết và hấp dẫn.\n\nĐịnh dạng này lý tưởng cho hướng dẫn, trưng bày sản phẩm, so sánh trước và sau, cũng như nội dung giáo dục. Thuật toán của Instagram ưu tiên carousel vì người dùng dành nhiều thời gian hơn cho chúng, giúp tăng khả năng hiển thị tự nhiên.\n\nSử dụng kích thước và tỷ lệ chính xác là điều quan trọng để hình ảnh của bạn hiển thị rõ nét và chuyên nghiệp trên Instagram."
+          },
+          {
+            "heading": "Kích thước và tỷ lệ đúng cho carousel",
+            "text": "Kích thước khuyến nghị cho carousel Instagram là 1080x1080 pixel (tỷ lệ 1:1) hoặc 1080x1350 pixel (tỷ lệ 4:5). Tỷ lệ 4:5 chiếm nhiều không gian hơn trong bảng tin, giúp thu hút sự chú ý dễ dàng hơn.\n\nTất cả các slide phải có cùng kích thước. Nếu slide đầu tiên là 1080x1350 thì tất cả các slide khác cũng phải cùng kích thước. Sử dụng công cụ Image Crop của ToolPic, bạn có thể dễ dàng cắt tất cả hình ảnh về cùng kích thước trong vài giây.\n\nVề định dạng file, sử dụng JPEG cho ảnh chụp và PNG cho đồ họa có nhiều chữ. Giữ kích thước file dưới 30MB cho mỗi slide."
+          },
+          {
+            "heading": "Mẹo thiết kế tăng tương tác",
+            "text": "Slide đầu tiên là quan trọng nhất - nó cần thu hút sự chú ý ngay lập tức. Sử dụng tiêu đề hấp dẫn hoặc hình ảnh thú vị để khuyến khích mọi người vuốt sang các slide tiếp theo.\n\nDuy trì bảng màu và phong cách chữ nhất quán. Sử dụng màu thương hiệu của bạn để xây dựng nhận diện. Không đặt quá nhiều chữ trên mỗi slide - giữ thiết kế gọn gàng và đơn giản.\n\nVới công cụ Image Merge của ToolPic, bạn có thể kết hợp nhiều hình ảnh thành collage hoặc tạo hiệu ứng trước và sau. Ở slide cuối cùng, luôn thêm lời kêu gọi hành động như lưu, chia sẻ hoặc bình luận."
+          },
+          {
+            "heading": "Cách tạo carousel với ToolPic",
+            "text": "Tạo carousel với các công cụ miễn phí của ToolPic rất đơn giản. Đầu tiên, chuẩn bị hình ảnh của bạn và mở công cụ Image Crop. Chọn tỷ lệ 1:1 hoặc 4:5 và cắt tất cả hình ảnh đồng nhất.\n\nNếu bạn cần kết hợp nhiều hình ảnh vào một slide, hãy sử dụng công cụ Image Merge. Tại đây bạn có thể chọn bố cục cạnh nhau hoặc bố cục lưới.\n\nMọi thứ diễn ra trong trình duyệt - không có file nào được tải lên máy chủ và không cần đăng ký. Tải xuống hình ảnh đã hoàn thành và tạo bài đăng carousel trong ứng dụng Instagram. Chỉ cần nhấn nút dấu cộng, chọn nhiều ảnh và chọn các hình ảnh đã cắt của bạn."
+          }
+        ]
+      },
+      "png-transparent-background-guide": {
+        "title": "Cách tạo nền trong suốt PNG: Hướng dẫn chi tiết",
+        "metaTitle": "Hướng dẫn nền trong suốt PNG - Miễn phí trực tuyến | ToolPic Blog",
+        "metaDescription": "Tìm hiểu cách tạo hình ảnh PNG nền trong suốt. Xóa nền và chuyển đổi sang PNG hoàn toàn miễn phí.",
+        "excerpt": "Hướng dẫn đầy đủ về tạo nền trong suốt PNG: xóa nền và chuyển đổi định dạng.",
+        "relatedToolIds": "image-bg-remove,image-converter",
+        "content": [
+          {
+            "heading": "Tại sao nền trong suốt quan trọng",
+            "text": "Hình ảnh có nền trong suốt là thiết yếu trong thiết kế web, thương mại điện tử, thiết kế logo và đồ họa mạng xã hội. Khi nền trong suốt, hình ảnh hòa hợp hoàn hảo trên bất kỳ màu sắc hay hoa văn nào.\n\nĐịnh dạng PNG hỗ trợ tính trong suốt (kênh alpha) trong khi JPEG thì không. Vì vậy PNG là định dạng phù hợp nhất cho logo, biểu tượng và các thành phần đồ họa cần đặt chồng lên nội dung khác.\n\nTrước đây, việc tạo nền trong suốt đòi hỏi phần mềm đắt tiền như Photoshop. Ngày nay, các công cụ trực tuyến miễn phí như ToolPic cho phép thực hiện việc này trong vài giây ngay trên trình duyệt."
+          },
+          {
+            "heading": "Quy trình xóa nền hình ảnh",
+            "text": "Công cụ Image Background Remove của ToolPic sử dụng công nghệ AI để tự động nhận diện và xóa nền. Chỉ cần tải hình ảnh lên và công cụ sẽ xóa nền trong vài giây.\n\nCông cụ có khả năng nhận diện người, sản phẩm, động vật và các đối tượng khác nhau. Nó xử lý chính xác cả những nền phức tạp như viền tóc hoặc vật thể bán trong suốt.\n\nToàn bộ quá trình xử lý diễn ra trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ được tải lên bất kỳ máy chủ nào, đảm bảo quyền riêng tư hoàn toàn."
+          },
+          {
+            "heading": "Lưu đúng định dạng",
+            "text": "Sau khi xóa nền, bước quan trọng nhất là lưu đúng định dạng. Để giữ tính trong suốt, hãy sử dụng định dạng PNG. Nếu hình ảnh gốc của bạn ở định dạng JPEG, hãy chuyển đổi sang PNG bằng công cụ Image Converter của ToolPic.\n\nĐịnh dạng WebP cũng hỗ trợ tính trong suốt và cho kích thước file nhỏ hơn PNG. Đối với việc sử dụng trên web, WebP có thể là lựa chọn tốt hơn.\n\nLưu ý rằng nếu lưu dưới dạng JPEG, tính trong suốt sẽ bị mất và được thay thế bằng nền trắng. Luôn chọn PNG hoặc WebP để giữ nền trong suốt."
+          },
+          {
+            "heading": "Mẹo sử dụng PNG trong suốt",
+            "text": "Trong thương mại điện tử, nền trong suốt là tiêu chuẩn cho ảnh sản phẩm. Các nền tảng như Amazon và Shopee yêu cầu nền trắng hoặc trong suốt. Xóa nền trước, sau đó thêm nền trắng nếu cần.\n\nKhi tạo logo, luôn lưu ở định dạng PNG với nền trong suốt. Điều này cho phép logo được sử dụng dễ dàng trên bất kỳ trang web, danh thiếp hay tài liệu tiếp thị nào.\n\nPNG trong suốt cũng rất hữu ích cho việc tạo sticker và overlay trên mạng xã hội. Với các công cụ miễn phí của ToolPic, bạn có thể tạo hình ảnh trong suốt chất lượng chuyên nghiệp hoàn toàn miễn phí."
+          }
+        ]
+      },
+      "how-to-compress-video-for-whatsapp": {
+        "title": "Cách nén video cho WhatsApp",
+        "metaTitle": "Nén video cho WhatsApp - Hướng dẫn miễn phí | ToolPic Blog",
+        "metaDescription": "Nén video để phù hợp giới hạn 16MB của WhatsApp. Giảm dung lượng file mà vẫn giữ chất lượng. Hướng dẫn đầy đủ.",
+        "excerpt": "Phương pháp và cài đặt tốt nhất để nén video trong giới hạn file của WhatsApp.",
+        "relatedToolIds": "video-compress",
+        "content": [
+          {
+            "heading": "Hiểu giới hạn video của WhatsApp",
+            "text": "WhatsApp có giới hạn dung lượng file tối đa 16MB cho việc gửi video. Đây thường là vấn đề vì điện thoại thông minh hiện đại quay video 4K hoặc 1080p có thể vượt quá 16MB chỉ sau vài giây ghi hình.\n\nĐối với WhatsApp Status, video không được dài quá 30 giây và dung lượng file cũng phải nằm trong giới hạn 16MB. Do đó, việc nén video trở nên cần thiết.\n\nWhatsApp tự động nén video được gửi nhưng chất lượng kết quả thường rất thấp. Tốt hơn là bạn tự nén video để kiểm soát chất lượng đầu ra."
+          },
+          {
+            "heading": "Cài đặt tối ưu cho nén video",
+            "text": "Khi nén video cho WhatsApp, đặt độ phân giải ở mức 720p (1280x720). Chất lượng hiển thị trên màn hình điện thoại hoàn toàn sắc nét và dung lượng file giảm đáng kể.\n\nGiữ bitrate trong khoảng 1-2 Mbps. Tốc độ khung hình 30fps là đủ. Codec H.264 cung cấp khả năng tương thích tốt nhất vì được hỗ trợ bởi hầu hết các thiết bị.\n\nĐịnh dạng container MP4 là phù hợp nhất. Sử dụng codec âm thanh AAC với bitrate âm thanh 128kbps. Với các cài đặt này, video một phút dễ dàng nằm dưới 10MB."
+          },
+          {
+            "heading": "Nén video với ToolPic",
+            "text": "Mở công cụ Video Compress của ToolPic và kéo thả video của bạn vào. Công cụ sẽ tự động hiển thị thông tin file bao gồm dung lượng gốc, thời lượng và độ phân giải.\n\nSử dụng thanh trượt chất lượng để chọn mức độ nén. Chất lượng trung bình cung cấp sự cân bằng lý tưởng cho WhatsApp. Bắt đầu xử lý và video sẽ được nén ngay trong trình duyệt của bạn.\n\nKhông có file nào được tải lên máy chủ. Nhờ công nghệ WebAssembly (FFmpeg WASM), toàn bộ quá trình xử lý diễn ra trên thiết bị của bạn. Sau khi hoàn tất, kiểm tra dung lượng file mới và tải xuống."
+          },
+          {
+            "heading": "Mẹo giữ chất lượng video",
+            "text": "Nếu video vẫn còn quá lớn, hãy chia thành các đoạn ngắn hơn. Gửi nhiều video ngắn trên WhatsApp tốt hơn là gửi một video dài chất lượng thấp.\n\nNếu video ít chuyển động như bài thuyết trình hoặc ghi màn hình, bạn có thể giảm tốc độ khung hình xuống 24fps. Dung lượng file sẽ giảm thêm mà không có sự khác biệt rõ ràng.\n\nCũng có tùy chọn gửi dưới dạng tài liệu. Khi gửi video dưới dạng tài liệu trên WhatsApp, giới hạn tăng lên 100MB và WhatsApp không áp dụng nén bổ sung. Tuy nhiên, người nhận sẽ cần tải file xuống trước khi xem."
+          }
+        ]
+      },
+      "free-watermark-generator-guide": {
+        "title": "Công cụ tạo watermark miễn phí: Hướng dẫn đầy đủ",
+        "metaTitle": "Tạo watermark miễn phí - Thêm watermark vào hình ảnh | ToolPic Blog",
+        "metaDescription": "Thêm watermark vào ảnh miễn phí. Dễ dàng thêm watermark chữ hoặc logo. Không cần đăng ký.",
+        "excerpt": "Cách bảo vệ hình ảnh của bạn bằng watermark miễn phí: phương pháp và thực hành tốt nhất.",
+        "relatedToolIds": "image-watermark",
+        "content": [
+          {
+            "heading": "Tại sao watermark quan trọng",
+            "text": "Trong thế giới số, việc đánh cắp hình ảnh và sử dụng trái phép là vấn đề nghiêm trọng. Watermark đặt dấu hiệu sở hữu lên ảnh và đồ họa của bạn, ngăn cản việc sử dụng trái phép.\n\nĐối với nhiếp ảnh gia, nhà thiết kế đồ họa, người bán hàng trực tuyến và nhà sáng tạo nội dung, watermark cực kỳ quan trọng. Nó không chỉ cung cấp bảo vệ mà còn xây dựng nhận diện thương hiệu.\n\nWatermark được áp dụng đúng cách sẽ bảo vệ hình ảnh mà không làm giảm vẻ đẹp hay tác động thị giác của nó."
+          },
+          {
+            "heading": "Các loại watermark",
+            "text": "Watermark chữ là đơn giản nhất. Bạn có thể thêm tên, tên thương hiệu hoặc thông báo bản quyền. Giữ độ trong suốt ở mức 30-50% để hình ảnh chính vẫn hiển thị rõ.\n\nWatermark logo trông chuyên nghiệp hơn. Chuẩn bị logo thương hiệu ở định dạng PNG với nền trong suốt. Bạn có thể đặt nó ở góc hoặc giữa hình ảnh.\n\nWatermark dạng lặp được lặp lại trên toàn bộ hình ảnh. Đây là loại bảo vệ mạnh nhất vì gần như không thể xóa bằng cách cắt ảnh. Các trang web ảnh stock thường sử dụng phương pháp này."
+          },
+          {
+            "heading": "Thêm watermark với ToolPic",
+            "text": "Công cụ Image Watermark của ToolPic cho phép bạn thêm cả watermark chữ và logo. Tải hình ảnh lên, chọn loại watermark và tùy chỉnh theo nhu cầu.\n\nVới watermark chữ, bạn có thể thay đổi phông chữ, kích thước, màu sắc và độ trong suốt. Với watermark logo, tải logo lên và điều chỉnh kích thước cùng vị trí.\n\nXử lý hàng loạt cho phép thêm watermark vào nhiều hình ảnh cùng lúc. Mọi thứ diễn ra trong trình duyệt nên hình ảnh của bạn hoàn toàn an toàn."
+          },
+          {
+            "heading": "Thực hành tốt nhất khi thêm watermark",
+            "text": "Vị trí watermark rất quan trọng. Nếu đặt ở góc, nó có thể dễ dàng bị xóa bằng cách cắt ảnh. Đặt ở giữa hoặc lệch tâm một chút sẽ bảo vệ hiệu quả hơn.\n\nCân bằng độ trong suốt phù hợp. Quá trong suốt thì watermark không hiển thị, quá đậm thì làm hỏng hình ảnh. Độ trong suốt từ 30% đến 50% là lý tưởng cho hầu hết trường hợp.\n\nLuôn thêm watermark trước khi chia sẻ trên mạng xã hội. Trên trang portfolio cũng nên có watermark nhỏ. Hãy nhớ rằng watermark không thay thế bảo vệ pháp lý, hãy đăng ký bản quyền cho tác phẩm của bạn."
+          }
+        ]
+      },
+      "tiktok-video-format-guide": {
+        "title": "Hướng dẫn định dạng video TikTok: Kích thước và cài đặt đúng",
+        "metaTitle": "Hướng dẫn định dạng video TikTok 2026 - Kích thước và chuyển đổi | ToolPic Blog",
+        "metaDescription": "Tìm hiểu định dạng video, kích thước và cài đặt đúng cho TikTok. Chuyển đổi và cắt video miễn phí.",
+        "excerpt": "Thông tin đầy đủ về định dạng, kích thước và cài đặt để tạo video TikTok hoàn hảo.",
+        "relatedToolIds": "video-convert,image-crop",
+        "content": [
+          {
+            "heading": "Yêu cầu kỹ thuật video TikTok",
+            "text": "Định dạng lý tưởng cho video TikTok là dọc 9:16 với độ phân giải 1080x1920 pixel. Tỷ lệ này phủ kín toàn bộ màn hình điện thoại và nhận được nhiều lượt xem nhất.\n\nCả MP4 và MOV đều được chấp nhận nhưng MP4 hoạt động tốt nhất. Định dạng MP4 với codec H.264 tương thích nhất với nền tảng.\n\nThời lượng tối đa là 10 phút nhưng video từ 15 đến 60 giây có hiệu suất tốt nhất. Dung lượng file không được vượt quá 287MB. Giữ tốc độ khung hình ở 30fps hoặc 60fps."
+          },
+          {
+            "heading": "Chuyển đổi định dạng video",
+            "text": "Nếu video của bạn ở định dạng AVI, MKV, WMV hoặc định dạng khác, hãy chuyển đổi sang MP4 bằng công cụ Video Convert của ToolPic. Quy trình cực kỳ đơn giản.\n\nTải video lên, chọn MP4 làm định dạng đầu ra và bắt đầu chuyển đổi. Nhờ công nghệ WebAssembly, toàn bộ quá trình xử lý diễn ra trong trình duyệt - không có file nào được tải lên máy chủ.\n\nTrong cài đặt chất lượng, giữ độ phân giải ở 1080x1920. Nếu video gốc là ngang, bạn sẽ cần cắt hoặc định khung lại để phù hợp với định dạng dọc."
+          },
+          {
+            "heading": "Chuyển video ngang thành video dọc",
+            "text": "Hầu hết máy ảnh và bản ghi màn hình tạo video ở định dạng ngang 16:9. Đối với TikTok, cần chuyển chúng sang định dạng dọc 9:16.\n\nSử dụng công cụ Image Crop của ToolPic để cắt hình thu nhỏ và ảnh bìa video theo tỷ lệ 9:16. Đây là ấn tượng đầu tiên của video bạn trên TikTok.\n\nKhi chuyển video sang dọc, giữ chủ thể chính ở giữa khung hình. Phần trên và dưới hiển thị tên người dùng TikTok và chú thích, vì vậy hãy đặt nội dung quan trọng ở vùng giữa."
+          },
+          {
+            "heading": "Mẹo tối ưu hóa video TikTok",
+            "text": "Tải lên video chất lượng cao. TikTok tự áp dụng nén nên bắt đầu với chất lượng cao sẽ cho kết quả cuối cùng tốt hơn. Tối thiểu cần độ phân giải 720p nhưng 1080p là lý tưởng.\n\n3 giây đầu tiên là quan trọng nhất. Người xem quyết định trong khoảng thời gian đó liệu có tiếp tục xem hay cuộn qua. Vì vậy hãy làm phần mở đầu thật hấp dẫn và thu hút ngay lập tức.\n\nĐối với SEO trên TikTok, sử dụng hashtag phù hợp, chú thích hiệu quả và âm thanh xu hướng. Chất lượng kỹ thuật và nội dung kết hợp cùng nhau để tăng cơ hội viral. Sử dụng các công cụ miễn phí của ToolPic để làm cho video của bạn hoàn hảo về mặt kỹ thuật."
+          }
+        ]
       }
     }
   }

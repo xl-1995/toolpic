@@ -821,6 +821,131 @@
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
+      },
+      "how-to-create-instagram-carousel": {
+        "title": "Come creare un carosello Instagram: guida completa",
+        "metaTitle": "Come creare un carosello Instagram - Guida gratuita 2026 | ToolPic Blog",
+        "metaDescription": "Scopri come creare caroselli Instagram perfetti. Dimensioni corrette, consigli di design e strumenti gratuiti per aumentare il tuo engagement.",
+        "excerpt": "Guida completa alla creazione di caroselli Instagram: dimensioni, design e strumenti gratuiti.",
+        "relatedToolIds": "image-crop,image-merge",
+        "content": [
+          {
+            "heading": "Perché i caroselli Instagram sono importanti",
+            "text": "I caroselli Instagram generano circa tre volte più engagement rispetto ai post con singola immagine. Con un carosello puoi inserire fino a 10 slide in un unico post, permettendoti di raccontare una storia completa e coinvolgente.\n\nQuesto formato è ideale per tutorial, vetrine di prodotti, confronti prima e dopo e contenuti educativi. L'algoritmo di Instagram favorisce i caroselli perché gli utenti trascorrono più tempo su di essi, aumentando la visibilità organica del tuo profilo.\n\nUtilizzare le dimensioni e le proporzioni corrette è fondamentale affinché le tue immagini appaiano nitide e professionali nel feed di Instagram."
+          },
+          {
+            "heading": "Dimensioni e proporzioni corrette per i caroselli",
+            "text": "Le dimensioni consigliate per un carosello Instagram sono 1080x1080 pixel (rapporto 1:1) oppure 1080x1350 pixel (rapporto 4:5). Il formato 4:5 occupa più spazio nel feed, attirando maggiormente l'attenzione degli utenti.\n\nTutte le slide devono avere le stesse dimensioni. Se la prima slide è 1080x1350, tutte le altre devono essere identiche. Con lo strumento Image Crop di ToolPic puoi ritagliare facilmente tutte le immagini alle stesse dimensioni in pochi secondi.\n\nPer il formato file, usa JPEG per le fotografie e PNG per grafiche con testo. Mantieni la dimensione del file sotto i 30MB per slide."
+          },
+          {
+            "heading": "Consigli di design per aumentare il coinvolgimento",
+            "text": "La prima slide è la più importante: deve catturare l'attenzione immediatamente. Usa un titolo accattivante o un'immagine intrigante che invogli le persone a scorrere.\n\nMantieni una palette di colori e uno stile tipografico coerenti. Utilizza i colori del tuo brand per costruire riconoscibilità. Non sovraccaricare ogni slide con troppo testo: mantieni il design pulito e semplice.\n\nCon lo strumento Image Merge di ToolPic puoi combinare più immagini in un collage o creare effetti prima e dopo. Nell'ultima slide inserisci sempre una call-to-action come salva, condividi o commenta."
+          },
+          {
+            "heading": "Come creare un carosello con ToolPic",
+            "text": "Creare un carosello con gli strumenti gratuiti di ToolPic è semplicissimo. Per prima cosa prepara le tue immagini e apri lo strumento Image Crop. Seleziona il rapporto 1:1 o 4:5 e ritaglia tutte le immagini in modo uniforme.\n\nSe devi combinare più immagini in una singola slide, usa lo strumento Image Merge. Qui puoi scegliere layout affiancati o a griglia per creare composizioni accattivanti.\n\nTutto avviene nel browser: nessun file viene caricato su server esterni e non serve registrarsi. Scarica le immagini pronte e crea il tuo carosello nell'app Instagram. Basta toccare il pulsante più, selezionare multiplo e scegliere le immagini ritagliate."
+          }
+        ]
+      },
+      "png-transparent-background-guide": {
+        "title": "Come creare uno sfondo trasparente PNG",
+        "metaTitle": "Guida sfondo trasparente PNG - Gratis online | ToolPic Blog",
+        "metaDescription": "Scopri come creare immagini PNG con sfondo trasparente. Rimuovi lo sfondo e converti in PNG gratuitamente online.",
+        "excerpt": "Guida completa per creare sfondi trasparenti in PNG: rimozione sfondo e conversione formato.",
+        "relatedToolIds": "image-bg-remove,image-converter",
+        "content": [
+          {
+            "heading": "Perché lo sfondo trasparente è essenziale",
+            "text": "Le immagini con sfondo trasparente sono indispensabili nel web design, nell'e-commerce, nella progettazione di loghi e nella grafica per i social media. Quando lo sfondo è trasparente, l'immagine si integra perfettamente su qualsiasi colore o pattern.\n\nIl formato PNG supporta la trasparenza (canale alpha), mentre il JPEG no. Per questo motivo il PNG è il formato ideale per loghi, icone ed elementi grafici che devono essere sovrapposti ad altri contenuti.\n\nIn passato servivano software costosi come Photoshop per creare sfondi trasparenti. Oggi, strumenti online gratuiti come ToolPic permettono di farlo in pochi secondi direttamente dal browser."
+          },
+          {
+            "heading": "Come rimuovere lo sfondo da un'immagine",
+            "text": "Lo strumento Image Background Remove di ToolPic utilizza la tecnologia AI per riconoscere e rimuovere automaticamente lo sfondo. Basta caricare l'immagine e in pochi secondi lo sfondo viene eliminato.\n\nLo strumento riconosce persone, prodotti, animali e oggetti diversi. Gestisce con precisione anche sfondi complessi come i bordi dei capelli o oggetti semitrasparenti.\n\nTutta l'elaborazione avviene nel tuo browser. Le tue immagini non vengono mai caricate su alcun server, garantendo la massima privacy e sicurezza dei tuoi file."
+          },
+          {
+            "heading": "Salvare nel formato corretto",
+            "text": "Dopo aver rimosso lo sfondo, il passaggio più importante è salvare nel formato giusto. Per mantenere la trasparenza, usa il formato PNG. Se la tua immagine originale è in JPEG, convertila in PNG con lo strumento Image Converter di ToolPic.\n\nAnche il formato WebP supporta la trasparenza e offre file di dimensioni inferiori rispetto al PNG. Per l'uso sul web, WebP può essere un'alternativa migliore.\n\nRicorda che salvando in JPEG la trasparenza andrà persa e verrà sostituita da uno sfondo bianco. Scegli sempre PNG o WebP per mantenere lo sfondo trasparente."
+          },
+          {
+            "heading": "Consigli per l'uso di PNG trasparenti",
+            "text": "Nell'e-commerce, lo sfondo trasparente è lo standard per le foto dei prodotti. Piattaforme come Amazon e eBay richiedono sfondi bianchi o trasparenti. Rimuovi prima lo sfondo, poi aggiungi uno sfondo bianco se necessario.\n\nQuando crei un logo, salvalo sempre in formato PNG con sfondo trasparente. In questo modo potrà essere utilizzato facilmente su siti web, biglietti da visita e materiale di marketing.\n\nI PNG trasparenti sono utilissimi anche per creare sticker e overlay per i social media. Con gli strumenti gratuiti di ToolPic puoi creare immagini trasparenti di qualità professionale senza alcun costo."
+          }
+        ]
+      },
+      "how-to-compress-video-for-whatsapp": {
+        "title": "Come comprimere video per WhatsApp",
+        "metaTitle": "Comprimere video per WhatsApp - Guida gratuita | ToolPic Blog",
+        "metaDescription": "Comprimi i video per il limite di 16MB di WhatsApp. Riduci le dimensioni mantenendo la qualità. Guida completa e gratuita.",
+        "excerpt": "I migliori metodi e impostazioni per comprimere video entro il limite di WhatsApp.",
+        "relatedToolIds": "video-compress",
+        "content": [
+          {
+            "heading": "Comprendere i limiti video di WhatsApp",
+            "text": "WhatsApp impone un limite massimo di 16MB per l'invio di video. Questo limite è spesso un problema perché gli smartphone moderni registrano video in 4K o 1080p che superano i 16MB in pochi secondi di registrazione.\n\nPer gli stati WhatsApp, il video non può durare più di 30 secondi e deve comunque rientrare nel limite di 16MB. La compressione diventa quindi una necessità quotidiana per chi condivide video regolarmente.\n\nWhatsApp comprime automaticamente i video inviati, ma la qualità risultante è spesso molto bassa. È meglio comprimere personalmente il video per mantenere il controllo sulla qualità finale."
+          },
+          {
+            "heading": "Impostazioni ottimali per la compressione video",
+            "text": "Per comprimere video per WhatsApp, imposta la risoluzione a 720p (1280x720). Su uno schermo mobile la qualità è perfettamente nitida e la dimensione del file si riduce notevolmente rispetto al Full HD.\n\nMantieni il bitrate tra 1-2 Mbps. Un frame rate di 30fps è più che sufficiente. Il codec H.264 offre la migliore compatibilità poiché è supportato praticamente da tutti i dispositivi.\n\nUsa il formato contenitore MP4 con codec audio AAC e bitrate audio di 128kbps. Con queste impostazioni, un video di un minuto rientra facilmente sotto i 10MB."
+          },
+          {
+            "heading": "Comprimere video con ToolPic",
+            "text": "Apri lo strumento Video Compress di ToolPic e trascina il tuo video nell'area di caricamento. Lo strumento mostrerà automaticamente le informazioni del file, incluse dimensione originale, durata e risoluzione.\n\nUsa il cursore della qualità per scegliere il livello di compressione. La qualità media offre il bilanciamento ideale per WhatsApp. Avvia l'elaborazione e il video verrà compresso direttamente nel tuo browser.\n\nNessun file viene caricato su server esterni. Grazie alla tecnologia WebAssembly (FFmpeg WASM), tutta l'elaborazione avviene sul tuo dispositivo. Al termine, verifica la nuova dimensione del file e scaricalo."
+          },
+          {
+            "heading": "Consigli per mantenere la qualità",
+            "text": "Se il video è ancora troppo grande, suddividilo in parti più brevi. Inviare più video brevi su WhatsApp è meglio che inviarne uno lungo di bassa qualità.\n\nSe il video ha poco movimento, come una presentazione o una registrazione dello schermo, puoi ridurre il frame rate a 24fps. La dimensione del file si ridurrà ulteriormente senza differenze visibili.\n\nEsiste anche l'opzione di inviare come documento. Inviando un video come documento su WhatsApp, il limite sale a 100MB e WhatsApp non applica compressione aggiuntiva. Tuttavia, il destinatario dovrà scaricare il file manualmente prima di poterlo visualizzare."
+          }
+        ]
+      },
+      "free-watermark-generator-guide": {
+        "title": "Generatore di filigrana gratuito: guida completa",
+        "metaTitle": "Generatore filigrana gratuito - Aggiungi watermark alle immagini | ToolPic Blog",
+        "metaDescription": "Aggiungi filigrane alle tue foto gratuitamente. Testo o logo watermark in modo semplice. Nessuna registrazione richiesta.",
+        "excerpt": "Come proteggere le tue immagini con filigrane gratuite: metodi e best practice.",
+        "relatedToolIds": "image-watermark",
+        "content": [
+          {
+            "heading": "Perché la filigrana è importante",
+            "text": "Nel mondo digitale, il furto di immagini e l'uso non autorizzato rappresentano un problema serio. La filigrana appone un segno di proprietà sulle tue foto e grafiche, scoraggiando l'uso non autorizzato e proteggendo il tuo lavoro creativo.\n\nPer fotografi, grafici, venditori e-commerce e content creator, la filigrana è uno strumento fondamentale. Non solo offre protezione, ma contribuisce anche a costruire il riconoscimento del brand.\n\nUna filigrana applicata correttamente protegge l'immagine senza comprometterne la bellezza o l'impatto visivo."
+          },
+          {
+            "heading": "Tipi di filigrana",
+            "text": "La filigrana testuale è la più semplice. Puoi aggiungere il tuo nome, il nome del brand o un avviso di copyright. Mantieni l'opacità tra il 30% e il 50% in modo che l'immagine principale resti ben visibile.\n\nLa filigrana con logo appare più professionale. Prepara il logo del tuo brand in formato PNG con sfondo trasparente. Puoi posizionarlo in un angolo o al centro dell'immagine.\n\nLa filigrana a pattern viene ripetuta su tutta l'immagine. Offre la protezione più forte perché è praticamente impossibile rimuoverla ritagliando. I siti di stock fotografico utilizzano spesso questo metodo."
+          },
+          {
+            "heading": "Aggiungere filigrane con ToolPic",
+            "text": "Lo strumento Image Watermark di ToolPic ti permette di aggiungere sia filigrane testuali che con logo. Carica la tua immagine, scegli il tipo di filigrana e personalizzala secondo le tue esigenze.\n\nPer le filigrane testuali puoi modificare font, dimensione, colore e opacità. Per le filigrane con logo, carica il tuo logo e regola dimensione e posizione come preferisci.\n\nCon l'elaborazione batch puoi applicare la filigrana a più immagini contemporaneamente. Tutto avviene nel browser, quindi le tue immagini rimangono completamente al sicuro."
+          },
+          {
+            "heading": "Best practice per le filigrane",
+            "text": "La posizione della filigrana è cruciale. Se posizionata in un angolo, può essere facilmente rimossa ritagliando l'immagine. È meglio posizionarla al centro o leggermente decentrata per una protezione efficace.\n\nTrova il giusto equilibrio di opacità. Se troppo trasparente, la filigrana non sarà visibile; se troppo opaca, rovinerà l'immagine. Un'opacità tra il 30% e il 50% è l'ideale nella maggior parte dei casi.\n\nApplica sempre la filigrana prima di condividere sui social media. Anche sul tuo sito portfolio, una piccola filigrana è una buona pratica. Ricorda che la filigrana non sostituisce la protezione legale: registra comunque il copyright delle tue opere."
+          }
+        ]
+      },
+      "tiktok-video-format-guide": {
+        "title": "Guida al formato video TikTok: dimensioni e impostazioni",
+        "metaTitle": "Guida formato video TikTok 2026 - Dimensioni e conversione | ToolPic Blog",
+        "metaDescription": "Scopri il formato video, le dimensioni e le impostazioni giuste per TikTok. Converti e ritaglia video gratuitamente.",
+        "excerpt": "Tutto quello che devi sapere su formato, dimensioni e impostazioni per creare video TikTok perfetti.",
+        "relatedToolIds": "video-convert,image-crop",
+        "content": [
+          {
+            "heading": "Requisiti tecnici dei video TikTok",
+            "text": "Il formato ideale per i video TikTok è il verticale 9:16 con risoluzione 1080x1920 pixel. Questo rapporto copre l'intero schermo del telefono e ottiene il maggior numero di visualizzazioni.\n\nSia MP4 che MOV sono formati accettati, ma MP4 funziona meglio. Il formato MP4 con codec H.264 è il più compatibile con la piattaforma.\n\nLa durata massima è di 10 minuti, ma i video da 15 a 60 secondi hanno le performance migliori. La dimensione del file non deve superare i 287MB. Mantieni il frame rate a 30fps o 60fps."
+          },
+          {
+            "heading": "Come convertire il formato video",
+            "text": "Se il tuo video è in formato AVI, MKV, WMV o altro, convertilo in MP4 con lo strumento Video Convert di ToolPic. Il processo è semplicissimo.\n\nCarica il video, seleziona MP4 come formato di output e avvia la conversione. Grazie alla tecnologia WebAssembly, tutta l'elaborazione avviene nel tuo browser senza caricare file su server esterni.\n\nNelle impostazioni di qualità, mantieni la risoluzione a 1080x1920. Se il video originale è orizzontale, dovrai ritagliarlo o riformattarlo per adattarlo al formato verticale."
+          },
+          {
+            "heading": "Convertire video orizzontali in verticali",
+            "text": "La maggior parte delle fotocamere e delle registrazioni schermo produce video in formato orizzontale 16:9. Per TikTok è necessario convertirli nel formato verticale 9:16.\n\nUsa lo strumento Image Crop di ToolPic per ritagliare le miniature e le immagini di copertina dei video nel rapporto 9:16. Questo crea la prima impressione del tuo video su TikTok.\n\nQuando converti un video in verticale, mantieni il soggetto principale al centro del fotogramma. Nelle zone superiore e inferiore TikTok mostra username e didascalie, quindi posiziona il contenuto importante nella parte centrale."
+          },
+          {
+            "heading": "Consigli per ottimizzare i video TikTok",
+            "text": "Carica video di alta qualità. TikTok applica la propria compressione, quindi partire con una qualità elevata garantisce un risultato finale migliore. La risoluzione minima è 720p, ma 1080p è l'ideale.\n\nI primi 3 secondi sono decisivi. Gli spettatori decidono in quel momento se guardare il video o scorrere oltre. Quindi rendi l'inizio immediatamente coinvolgente e accattivante.\n\nPer la SEO su TikTok, usa hashtag pertinenti, didascalie efficaci e suoni di tendenza. La qualità tecnica e il contenuto lavorano insieme per aumentare le possibilità di diventare virali. Usa gli strumenti gratuiti di ToolPic per rendere i tuoi video tecnicamente perfetti."
+          }
+        ]
       }
     }
   }

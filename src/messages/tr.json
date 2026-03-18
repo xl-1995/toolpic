@@ -821,6 +821,131 @@
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
+      },
+      "how-to-create-instagram-carousel": {
+        "title": "Instagram Carousel Nasıl Oluşturulur: Eksiksiz Rehber",
+        "metaTitle": "Instagram Carousel Nasıl Yapılır - Ücretsiz Rehber 2026 | ToolPic Blog",
+        "metaDescription": "Mükemmel Instagram carousel gönderileri oluşturmayı öğrenin. Doğru boyutlar, tasarım ipuçları ve ücretsiz araçlarla etkileşiminizi artırın.",
+        "excerpt": "Instagram carousel oluşturma rehberi: doğru boyutlar, tasarım ve ücretsiz araçlar.",
+        "relatedToolIds": "image-crop,image-merge",
+        "content": [
+          {
+            "heading": "Instagram Carousel Neden Önemlidir",
+            "text": "Instagram carousel gönderileri, tek görsel gönderilere kıyasla yaklaşık üç kat daha fazla etkileşim alır. Carousel ile tek bir gönderide 10 slayta kadar ekleyerek hikayenizi detaylı şekilde anlatabilirsiniz.\n\nBu format eğitimler, ürün vitrini, öncesi-sonrası karşılaştırmaları ve eğitici içerikler için mükemmeldir. Instagram algoritması carousel gönderilerini öne çıkarır çünkü kullanıcılar bunlarla daha fazla zaman geçirir.\n\nDoğru boyut ve oranları kullanmak, görsellerinizin Instagram'da net ve profesyonel görünmesi için kritik öneme sahiptir."
+          },
+          {
+            "heading": "Carousel İçin Doğru Boyutlar ve Oranlar",
+            "text": "Instagram carousel için önerilen boyut 1080x1080 piksel (1:1 oranı) veya 1080x1350 piksel (4:5 oranı) şeklindedir. 4:5 oranı akışta daha fazla yer kaplar ve dikkat çekmesi daha kolaydır.\n\nTüm slaytlar aynı boyutta olmalıdır. Bir slayt 1080x1350 ise diğerleri de aynı boyutta olmalıdır. ToolPic'in Image Crop aracıyla tüm görselleri kolayca aynı boyuta kırpabilirsiniz.\n\nDosya formatı olarak fotoğraflar için JPEG, metin ağırlıklı grafikler için PNG kullanın. Dosya boyutunu slayt başına 30MB'ın altında tutun."
+          },
+          {
+            "heading": "Etkileşimi Artıran Tasarım İpuçları",
+            "text": "İlk slayt en önemli olandır - hemen dikkat çekmelidir. İnsanları kaydırmaya teşvik edecek çarpıcı bir başlık veya ilgi çekici bir görsel kullanın.\n\nTutarlı bir renk paleti ve yazı tipi stili koruyun. Tanınırlık oluşturmak için marka renklerinizi kullanın. Her slayta çok fazla metin koymayın - sade ve temiz tutun.\n\nToolPic'in Image Merge aracıyla birden fazla görseli kolaj halinde birleştirebilir veya öncesi-sonrası efektleri oluşturabilirsiniz. Son slaytta kaydet, paylaş veya yorum yap gibi bir harekete geçirici mesaj ekleyin."
+          },
+          {
+            "heading": "ToolPic ile Carousel Oluşturma Adımları",
+            "text": "ToolPic'in ücretsiz araçlarıyla carousel oluşturmak çok kolaydır. Önce görsellerinizi hazırlayın ve Image Crop aracını açın. 1:1 veya 4:5 oranını seçin ve tüm görselleri aynı boyutta kırpın.\n\nBirden fazla görseli tek bir slaytta birleştirmeniz gerekiyorsa Image Merge aracını kullanın. Burada yan yana veya ızgara düzenini seçebilirsiniz.\n\nHer şey tarayıcınızda gerçekleşir - hiçbir dosya sunucuya yüklenmez ve kayıt gerekmez. Hazır görsellerinizi indirin ve Instagram uygulamasında carousel gönderinizi oluşturun. Artı düğmesine dokunun, çoklu seçim yapın ve kırpılmış görsellerinizi seçin."
+          }
+        ]
+      },
+      "png-transparent-background-guide": {
+        "title": "PNG Şeffaf Arka Plan Nasıl Oluşturulur",
+        "metaTitle": "PNG Şeffaf Arka Plan Rehberi - Ücretsiz Çevrimiçi | ToolPic Blog",
+        "metaDescription": "PNG görsellerinde şeffaf arka plan oluşturmayı öğrenin. Arka planı kaldırın ve PNG formatına dönüştürün, tamamen ücretsiz.",
+        "excerpt": "PNG şeffaf arka plan oluşturma rehberi: arka plan kaldırma ve format dönüştürme.",
+        "relatedToolIds": "image-bg-remove,image-converter",
+        "content": [
+          {
+            "heading": "Şeffaf Arka Plan Neden Gereklidir",
+            "text": "Şeffaf arka plana sahip görseller web tasarımı, e-ticaret, logo tasarımı ve sosyal medya grafiklerinde vazgeçilmezdir. Arka plan şeffaf olduğunda görsel herhangi bir renk veya desen üzerine sorunsuzca yerleşir.\n\nPNG formatı şeffaflığı (alpha kanalı) desteklerken JPEG desteklemez. Bu nedenle logolar, simgeler ve grafik öğeler için PNG en uygun formattır.\n\nEskiden şeffaf arka plan oluşturmak için Photoshop gibi pahalı yazılımlara ihtiyaç vardı. Bugün ToolPic gibi ücretsiz çevrimiçi araçlarla bu işlem saniyeler içinde yapılabilmektedir."
+          },
+          {
+            "heading": "Arka Plan Kaldırma İşlemi",
+            "text": "ToolPic'in Image Background Remove aracı, yapay zeka teknolojisi kullanarak arka planı otomatik olarak algılar ve kaldırır. Görselinizi yükleyin ve araç birkaç saniye içinde arka planı temizleyecektir.\n\nAraç insanları, ürünleri, hayvanları ve çeşitli nesneleri tanıyabilir. Saç kenarları veya yarı saydam nesneler gibi karmaşık arka planları da hassas şekilde işler.\n\nTüm işlemler tarayıcınızda gerçekleşir. Görselleriniz hiçbir zaman bir sunucuya yüklenmez, böylece gizliliğiniz tamamen korunur."
+          },
+          {
+            "heading": "Doğru Formatta Kaydetme",
+            "text": "Arka planı kaldırdıktan sonra en önemli adım doğru formatta kaydetmektir. Şeffaflığı korumak için PNG formatını kullanın. Görseliniz JPEG formatındaysa ToolPic'in Image Converter aracıyla PNG'ye dönüştürün.\n\nWebP formatı da şeffaflığı destekler ve PNG'den daha küçük dosya boyutları sunar. Web kullanımı için WebP daha iyi bir alternatif olabilir.\n\nJPEG olarak kaydederseniz şeffaflık kaybolacak ve yerini beyaz bir arka plan alacaktır. Şeffaf arka planı korumak için her zaman PNG veya WebP formatını tercih edin."
+          },
+          {
+            "heading": "Şeffaf PNG Kullanım İpuçları",
+            "text": "E-ticarette ürün fotoğrafları için şeffaf arka plan standarttır. Amazon ve Trendyol gibi platformlar beyaz veya şeffaf arka plan talep eder. Önce arka planı kaldırın, ardından gerekirse beyaz arka plan ekleyin.\n\nLogo oluştururken her zaman şeffaf arka planlı PNG formatında kaydedin. Böylece logo herhangi bir web sitesi, kartvizit veya pazarlama materyalinde kolayca kullanılabilir.\n\nSosyal medya çıkartmaları ve katmanlar oluşturmak için de şeffaf PNG çok faydalıdır. ToolPic'in ücretsiz araçlarıyla hiçbir maliyet olmadan profesyonel kalitede şeffaf görseller oluşturabilirsiniz."
+          }
+        ]
+      },
+      "how-to-compress-video-for-whatsapp": {
+        "title": "WhatsApp İçin Video Nasıl Sıkıştırılır",
+        "metaTitle": "WhatsApp İçin Video Sıkıştırma - Ücretsiz Rehber | ToolPic Blog",
+        "metaDescription": "WhatsApp'ın 16MB sınırı için videoları sıkıştırın. Kaliteyi koruyarak dosya boyutunu azaltın. Eksiksiz ücretsiz rehber.",
+        "excerpt": "WhatsApp dosya sınırı içinde video sıkıştırmanın en iyi yöntemleri ve ayarları.",
+        "relatedToolIds": "video-compress",
+        "content": [
+          {
+            "heading": "WhatsApp Video Sınırlarını Anlama",
+            "text": "WhatsApp'ta video gönderme dosya boyutu sınırı 16MB'dır. Modern akıllı telefonlar 4K veya 1080p video kaydettiğinden, birkaç saniyelik bir video bile 16MB'ı kolayca aşabilir.\n\nWhatsApp Durum için video 30 saniyeden uzun olamaz ve dosya boyutu da 16MB sınırı içinde kalmalıdır. Bu nedenle sıkıştırma kaçınılmaz hale gelir.\n\nWhatsApp gönderilen videoları otomatik olarak sıkıştırır ancak sonuç kalitesi genellikle çok düşüktür. Videoyu kendiniz sıkıştırarak kalite üzerinde kontrol sahibi olmanız çok daha iyidir."
+          },
+          {
+            "heading": "Video Sıkıştırma İçin En İyi Ayarlar",
+            "text": "WhatsApp için video sıkıştırırken çözünürlüğü 720p (1280x720) olarak ayarlayın. Mobil ekranda gayet net görünür ve dosya boyutu önemli ölçüde azalır.\n\nBit hızını 1-2 Mbps aralığında tutun. 30fps kare hızı yeterlidir. H.264 codec neredeyse tüm cihazlar tarafından desteklendiğinden en iyi uyumluluğu sunar.\n\nMP4 konteyner formatı en uygunudur. AAC ses codec ve 128kbps ses bit hızı kullanın. Bu ayarlarla bir dakikalık video kolayca 10MB'ın altına iner."
+          },
+          {
+            "heading": "ToolPic ile Video Sıkıştırma",
+            "text": "ToolPic'in Video Compress aracını açın ve videonuzu sürükleyip bırakın. Araç orijinal boyut, süre ve çözünürlük dahil dosya bilgilerini otomatik olarak gösterecektir.\n\nKalite kaydırıcısıyla sıkıştırma seviyesini seçin. Orta kalite WhatsApp için ideal dengeyi sunar. İşlemi başlatın ve video doğrudan tarayıcınızda sıkıştırılacaktır.\n\nHiçbir dosya herhangi bir sunucuya yüklenmez. WebAssembly (FFmpeg WASM) teknolojisi sayesinde tüm işlem cihazınızda gerçekleşir. İşlem tamamlandığında yeni dosya boyutunu kontrol edin ve indirin."
+          },
+          {
+            "heading": "Kaliteyi Koruma İpuçları",
+            "text": "Video hâlâ çok büyükse daha kısa parçalara bölün. WhatsApp'ta birden fazla kısa video göndermek, tek bir düşük kaliteli uzun video göndermekten daha iyidir.\n\nVideoda fazla hareket yoksa (sunum veya ekran kaydı gibi) kare hızını 24fps'e düşürebilirsiniz. Dosya boyutu gözle görülür bir fark olmadan daha da azalacaktır.\n\nBelge olarak gönderme seçeneği de vardır. WhatsApp'ta belge olarak gönderildiğinde sınır 100MB'a çıkar ve WhatsApp ek sıkıştırma uygulamaz. Ancak alıcının dosyayı izlemeden önce indirmesi gerekecektir."
+          }
+        ]
+      },
+      "free-watermark-generator-guide": {
+        "title": "Ücretsiz Filigran Oluşturucu: Eksiksiz Rehber",
+        "metaTitle": "Ücretsiz Filigran Oluşturucu - Görsellere Filigran Ekleyin | ToolPic Blog",
+        "metaDescription": "Fotoğraflarınıza ücretsiz filigran ekleyin. Metin veya logo filigranı kolayca uygulayın. Kayıt gerekmez.",
+        "excerpt": "Görsellerinizi ücretsiz filigranlarla koruma yöntemleri ve en iyi uygulamalar.",
+        "relatedToolIds": "image-watermark",
+        "content": [
+          {
+            "heading": "Filigran Neden Önemlidir",
+            "text": "Dijital dünyada görsel hırsızlığı ve izinsiz kullanım ciddi bir sorundur. Filigran, fotoğraflarınız ve grafikleriniz üzerine bir sahiplik işareti koyarak yetkisiz kullanımı caydırır.\n\nFotoğrafçılar, grafik tasarımcılar, e-ticaret satıcıları ve içerik üreticileri için filigran son derece önemlidir. Sadece koruma sağlamakla kalmaz, aynı zamanda marka bilinirliği oluşturur.\n\nDoğru şekilde uygulanan bir filigran, görselin güzelliğini bozmadan etkili koruma sağlar."
+          },
+          {
+            "heading": "Filigran Türleri",
+            "text": "Metin filigranı en basit türdür. Adınızı, marka adınızı veya telif hakkı bildiriminizi ekleyebilirsiniz. Ana görselin görünür kalması için opaklığı %30-50 arasında tutun.\n\nLogo filigranı daha profesyonel görünür. Marka logonuzu şeffaf arka planlı PNG formatında hazır bulundurun. Görselin köşesine veya ortasına yerleştirebilirsiniz.\n\nDöşeme filigranı tüm görsele tekrarlanır. Kırpılarak kaldırılması neredeyse imkansız olduğundan en güçlü korumayı sağlar. Stok fotoğraf siteleri genellikle bu yöntemi kullanır."
+          },
+          {
+            "heading": "ToolPic ile Filigran Ekleme",
+            "text": "ToolPic'in Image Watermark aracı hem metin hem de logo filigranı eklemenize olanak tanır. Görselinizi yükleyin, filigran türünü seçin ve ihtiyacınıza göre özelleştirin.\n\nMetin filigranında yazı tipi, boyut, renk ve opaklığı değiştirebilirsiniz. Logo filigranında logonuzu yükleyin ve boyut ile konumu ayarlayın.\n\nToplu işleme ile birden fazla görsele aynı anda filigran ekleyebilirsiniz. Her şey tarayıcınızda gerçekleştiğinden görselleriniz tamamen güvende kalır."
+          },
+          {
+            "heading": "Filigran Ekleme İçin En İyi Uygulamalar",
+            "text": "Filigranın konumu kritik öneme sahiptir. Köşeye yerleştirildiğinde kırpılarak kolayca kaldırılabilir. Ortaya veya hafif kaydırılmış şekilde yerleştirmek daha etkili koruma sağlar.\n\nOpaklık dengesini doğru kurun. Çok şeffaf olursa filigran görünmez, çok opak olursa görsel bozulur. Çoğu durumda %30 ile %50 arasındaki opaklık idealdir.\n\nSosyal medyada paylaşmadan önce mutlaka filigran ekleyin. Portfolyo sitenizde de küçük bir filigran kullanmak iyi bir alışkanlıktır. Filigranın yasal koruma yerine geçmediğini unutmayın, eserlerinizin telif hakkı tescilini de yaptırın."
+          }
+        ]
+      },
+      "tiktok-video-format-guide": {
+        "title": "TikTok Video Format Rehberi: Doğru Boyut ve Ayarlar",
+        "metaTitle": "TikTok Video Format Rehberi 2026 - Boyut ve Dönüştürme | ToolPic Blog",
+        "metaDescription": "TikTok için doğru video formatı, boyutu ve ayarları öğrenin. Videoları ücretsiz dönüştürün ve kırpın.",
+        "excerpt": "Mükemmel TikTok videoları oluşturmak için format, boyut ve ayar bilgilerinin tamamı.",
+        "relatedToolIds": "video-convert,image-crop",
+        "content": [
+          {
+            "heading": "TikTok Video Teknik Gereksinimleri",
+            "text": "TikTok videoları için en uygun format 9:16 dikey oran (1080x1920 piksel) şeklindedir. Bu oran telefon ekranının tamamını kaplar ve en fazla görüntülenmeyi alır.\n\nHem MP4 hem MOV kabul edilir ancak MP4 en iyi sonucu verir. H.264 codec ile MP4 formatı platformla en uyumlu seçenektir.\n\nMaksimum video süresi 10 dakikadır ancak 15-60 saniyelik videolar en iyi performansı gösterir. Dosya boyutu 287MB'ı geçmemelidir. Kare hızını 30fps veya 60fps olarak ayarlayın."
+          },
+          {
+            "heading": "Video Formatını Dönüştürme",
+            "text": "Videonuz AVI, MKV, WMV veya başka bir formattaysa ToolPic'in Video Convert aracıyla MP4'e dönüştürün. İşlem son derece basittir.\n\nVideoyu yükleyin, çıkış formatı olarak MP4'ü seçin ve dönüştürmeyi başlatın. WebAssembly teknolojisi sayesinde tüm işlem tarayıcınızda gerçekleşir - hiçbir dosya sunucuya yüklenmez.\n\nKalite ayarlarında çözünürlüğü 1080x1920 olarak tutun. Orijinal video yatay formattaysa dikey formata uyarlamak için kırpma veya yeniden çerçeveleme yapmanız gerekecektir."
+          },
+          {
+            "heading": "Yatay Videoyu Dikeye Dönüştürme",
+            "text": "Kameraların ve ekran kayıtlarının çoğu 16:9 yatay formatta üretilir. TikTok için bunları 9:16 dikey formata dönüştürmek gereklidir.\n\nToolPic'in Image Crop aracını kullanarak video küçük resimlerini ve kapak görsellerini 9:16 oranında kırpın. Bu, videonuzun TikTok'taki ilk izlenimini oluşturur.\n\nVideoyu dikey formata dönüştürürken ana konuyu karenin ortasında tutun. Üst ve alt bölgelerde TikTok kullanıcı adı ve altyazılar görüntülenir, bu nedenle önemli içeriği orta kısımda konumlandırın."
+          },
+          {
+            "heading": "TikTok Video Optimizasyon İpuçları",
+            "text": "Yüksek kaliteli video yükleyin. TikTok kendi sıkıştırmasını uygular, bu nedenle başlangıçta yüksek kalite ile başlamak daha iyi bir sonuç verir. Minimum 720p çözünürlük gereklidir ancak 1080p idealdir.\n\nİlk 3 saniye en kritik anlardır. İzleyiciler bu sürede videoyu izlemeye devam edip etmeyeceğine karar verir. Bu nedenle başlangıcı hemen dikkat çekici yapın.\n\nTikTok SEO için doğru hashtag, altyazı ve trend sesler kullanın. Teknik kalite ve içerik birlikte çalışarak viral olma şansını artırır. ToolPic'in ücretsiz araçlarıyla videolarınızı teknik açıdan kusursuz hale getirin."
+          }
+        ]
       }
     }
   }
