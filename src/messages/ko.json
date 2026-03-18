@@ -419,6 +419,7 @@
     "title": "블로그",
     "subtitle": "이미지 및 동영상 처리를 위한 팁, 가이드, 튜토리얼",
     "readTime": "{minutes}분 읽기",
+    "readMore": "더 읽기",
     "relatedTools": "관련 도구",
     "posts": {
       "best-free-image-editors-2026": {

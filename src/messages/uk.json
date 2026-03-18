@@ -419,6 +419,7 @@
     "title": "Блог",
     "subtitle": "Поради, посібники та статті про обробку зображень та відео",
     "readTime": "{minutes} хв читання",
+    "readMore": "Читати далі",
     "relatedTools": "Пов'язані інструменти",
     "posts": {
       "best-free-image-editors-2026": {

@@ -419,6 +419,7 @@
     "title": "Блог",
     "subtitle": "Советы, руководства и инструкции по обработке изображений и видео",
     "readTime": "{minutes} мин чтения",
+    "readMore": "Читать далее",
     "relatedTools": "Связанные инструменты",
     "posts": {
       "best-free-image-editors-2026": {

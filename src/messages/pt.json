@@ -419,6 +419,7 @@
     "title": "Blog",
     "subtitle": "Dicas, guias e tutoriais para processamento de imagens e vídeos",
     "readTime": "{minutes} min de leitura",
+    "readMore": "Ler mais",
     "relatedTools": "Ferramentas relacionadas",
     "posts": {
       "best-free-image-editors-2026": {

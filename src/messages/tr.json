@@ -419,6 +419,7 @@
     "title": "Blog",
     "subtitle": "Görsel ve video işleme için ipuçları, rehberler ve eğitimler",
     "readTime": "{minutes} dk okuma",
+    "readMore": "Devamını oku",
     "relatedTools": "İlgili Araçlar",
     "posts": {
       "best-free-image-editors-2026": {

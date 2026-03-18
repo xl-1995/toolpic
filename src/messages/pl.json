@@ -419,6 +419,7 @@
     "title": "Blog",
     "subtitle": "Porady, przewodniki i poradniki dotyczące obróbki obrazów i wideo",
     "readTime": "{minutes} min czytania",
+    "readMore": "Czytaj więcej",
     "relatedTools": "Powiązane narzędzia",
     "posts": {
       "best-free-image-editors-2026": {

@@ -39,6 +39,7 @@ export async function generateMetadata({ params }: Props) {
       siteName: 'ToolPic',
       type: 'website',
       locale,
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
     },
   };
 }
@@ -125,7 +126,7 @@ export default async function BlogListPage({ params }: Props) {
                   {postExcerpt}
                 </p>
                 <span className="inline-flex items-center gap-1.5 mt-4 text-sm font-semibold text-[var(--color-purple)] group-hover:gap-2.5 transition-all duration-300">
-                  Read more <i className="fas fa-arrow-right text-xs"></i>
+                  {t('readMore')} <i className="fas fa-arrow-right text-xs"></i>
                 </span>
                 </div>
               </Link>
