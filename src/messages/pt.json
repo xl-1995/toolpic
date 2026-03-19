@@ -946,6 +946,131 @@
           }
         ],
         "relatedToolIds": "video-convert,image-crop"
+      },
+      "how-to-resize-image-without-losing-quality": {
+        "title": "Como redimensionar imagens sem perder qualidade",
+        "metaTitle": "Como redimensionar imagens sem perder qualidade | Blog ToolPic",
+        "metaDescription": "Aprenda a redimensionar suas imagens sem perda de qualidade. Guia completo com as melhores tecnicas, ferramentas gratuitas e dicas para manter a nitidez.",
+        "excerpt": "Descubra os melhores metodos para redimensionar suas imagens mantendo a qualidade original, com ferramentas gratuitas diretamente no seu navegador.",
+        "content": [
+          {
+            "heading": "Por que o redimensionamento degrada a qualidade",
+            "text": "Quando voce amplia uma imagem, o software precisa criar novos pixels que nao existiam no original. Esse processo, chamado interpolacao, estima as cores dos pixels ausentes com base nos pixels vizinhos. O resultado e frequentemente uma imagem borrada ou pixelizada, especialmente quando a ampliacao e significativa.\n\nReduzir uma imagem causa menos problemas, pois trata-se de remover pixels em vez de inventa-los. No entanto, uma reducao mal executada tambem pode produzir artefatos visuais, como efeitos de escada nas bordas ou perda de detalhes finos. A escolha do algoritmo de interpolacao e crucial em ambos os casos.\n\nFormatos com compressao com perdas como JPEG agravam o problema. Cada vez que voce redimensiona e salva novamente um JPEG, uma nova compressao e aplicada, degradando progressivamente a qualidade. Isso e chamado de degradacao geracional. Para evitar isso, trabalhe sempre que possivel com formatos sem perdas como PNG durante a edicao."
+          },
+          {
+            "heading": "As melhores tecnicas de redimensionamento",
+            "text": "A interpolacao bicubica e o metodo padrao para redimensionamento de fotos. Ela analisa uma vizinhanca de 16 pixels ao redor de cada ponto para calcular o novo valor, produzindo transicoes suaves e detalhes bem preservados. A maioria das ferramentas modernas usa esse metodo por padrao.\n\nPara graficos, logotipos e capturas de tela contendo texto e bordas nitidas, a interpolacao pelo vizinho mais proximo e preferida. Esse metodo nao mistura cores de pixels adjacentes, preservando contornos nitidos e evitando borroes. E particularmente adequada para pixel art e icones.\n\nUma abordagem profissional consiste em redimensionar em etapas em vez de uma unica operacao. Em vez de reduzir uma imagem de 4000 para 800 pixels de uma vez, faca isso em duas ou tres etapas intermediarias. Essa tecnica pode produzir resultados ligeiramente mais nitidos, pois cada etapa envolve menos transformacao.\n\nO recorte inteligente e frequentemente uma alternativa melhor ao redimensionamento. Em vez de reduzir toda a imagem, recorte a area de interesse no tamanho desejado. Assim voce mantem a resolucao original dos pixels na area selecionada, sem qualquer perda de qualidade."
+          },
+          {
+            "heading": "Dimensoes ideais de acordo com o uso",
+            "text": "Para a web, as dimensoes devem corresponder ao tamanho real de exibicao multiplicado por dois para telas Retina. Se sua imagem e exibida com 600 pixels de largura no seu site, exporte-a com 1200 pixels. Isso garante uma aparencia nitida em telas de alta densidade sem sobrecarregar a largura de banda.\n\nPara redes sociais, cada plataforma tem suas dimensoes recomendadas. O Instagram prefere 1080 x 1080 pixels para posts quadrados, 1080 x 1350 para formato retrato. O Facebook recomenda 1200 x 630 pixels para links compartilhados. O Twitter exibe imagens em 1200 x 675 pixels. Respeitar essas dimensoes evita compressao e recorte automaticos pela plataforma.\n\nPara impressao, a resolucao deve ser de no minimo 300 DPI. Uma foto destinada a uma impressao 10 x 15 cm necessita portanto de no minimo 1181 x 1772 pixels. Se sua imagem fonte nao atinge essa resolucao, e melhor imprimir em tamanho menor do que ampliar artificialmente. A ampliacao alem da resolucao nativa sempre produz perda de nitidez visivel na impressao."
+          },
+          {
+            "heading": "Redimensionar imagens com o ToolPic",
+            "text": "Abra a ferramenta de recorte de imagens do ToolPic e carregue sua imagem. Selecione as dimensoes desejadas ou escolha uma proporcao predefinida como 16:9, 4:3 ou 1:1. A ferramenta permite definir a area exata a ser mantida, combinando recorte e redimensionamento em uma unica operacao.\n\nPara obter os melhores resultados, comece sempre com a maior imagem disponivel. Recorte primeiro para isolar a area de interesse e depois ajuste as dimensoes finais. Essa abordagem preserva o maximo de detalhes, ja que voce trabalha com os pixels originais da area selecionada.\n\nAntes de baixar o resultado, comprima a imagem com a ferramenta de compressao do ToolPic para otimizar o tamanho do arquivo sem perda visivel de qualidade. Ajuste a qualidade entre 80 e 90 por cento para o melhor equilibrio entre nitidez e peso do arquivo. Todo o processamento e feito localmente no seu navegador, garantindo que suas imagens nunca saiam do seu dispositivo."
+          }
+        ],
+        "relatedToolIds": "image-crop"
+      },
+      "linkedin-image-sizes-guide": {
+        "title": "Guia de tamanhos de imagens do LinkedIn: dimensoes ideais em 2026",
+        "metaTitle": "Guia de tamanhos de imagens do LinkedIn: todas as dimensoes em 2026 | Blog ToolPic",
+        "metaDescription": "Todos os tamanhos de imagens do LinkedIn para 2026: foto de perfil, banner, publicacoes, artigos. Guia completo com tamanhos exatos em pixels.",
+        "excerpt": "Encontre todas as dimensoes de imagens recomendadas para o LinkedIn em 2026, da foto de perfil ao banner, passando pelas publicacoes e artigos.",
+        "content": [
+          {
+            "heading": "Por que as dimensoes corretas importam no LinkedIn",
+            "text": "O LinkedIn exibe imagens de formas diferentes dependendo do formato e tamanho que voce envia. Uma imagem muito pequena sera esticada e borrada, enquanto uma imagem com proporcoes erradas sera recortada automaticamente, cortando potencialmente elementos importantes. Usar as dimensoes exatas recomendadas garante uma exibicao otima em todos os dispositivos.\n\nO LinkedIn e uma plataforma profissional onde a qualidade visual do seu conteudo reflete diretamente a sua imagem de marca. Imagens borradas, mal recortadas ou pixelizadas transmitem uma impressao de descuido. Por outro lado, visuais nitidos e bem dimensionados reforcam sua credibilidade e profissionalismo.\n\nA plataforma tambem aplica compressao as imagens enviadas. Ao fornecer imagens nas dimensoes exatas e de alta qualidade, voce minimiza o impacto dessa compressao adicional. O resultado final sera mais nitido porque o LinkedIn nao precisa redimensionar sua imagem antes de comprimi-la."
+          },
+          {
+            "heading": "Foto de perfil e banner",
+            "text": "A foto de perfil do LinkedIn deve ter no minimo 400 x 400 pixels, no formato quadrado 1:1. O LinkedIn a exibe em circulo, entao certifique-se de que seu rosto esta bem centralizado e que nenhum elemento importante esta nos cantos que serao cortados. O arquivo nao deve ultrapassar 8 MB.\n\nO banner (imagem de fundo) deve medir 1584 x 396 pixels. E um formato muito panoramico que e frequentemente mal aproveitado. No celular, a parte central e a mais visivel, entao coloque seus elementos-chave no centro. Evite colocar texto importante nas bordas laterais, pois sera cortado em telas menores.\n\nA foto de perfil da sua pagina empresarial segue as mesmas especificacoes da foto pessoal: 400 x 400 pixels em quadrado. O logotipo da empresa e a escolha mais comum. Para o banner empresarial, use 1128 x 191 pixels. Essas dimensoes sao diferentes do banner pessoal, entao nao reutilize o mesmo visual."
+          },
+          {
+            "heading": "Publicacoes e artigos",
+            "text": "Para publicacoes no feed de noticias, o tamanho recomendado e 1200 x 627 pixels para imagens em paisagem. Essa proporcao de 1.91:1 e a mesma usada pelo Facebook para links compartilhados, o que facilita o compartilhamento multiplataforma. Imagens quadradas de 1080 x 1080 pixels tambem funcionam muito bem e ocupam mais espaco vertical no feed.\n\nPublicacoes com varias imagens (carrosseis) usam dimensoes de 1080 x 1080 ou 1080 x 1350 pixels por slide. O formato retrato 4:5 (1080 x 1350) ocupa mais espaco no feed e e portanto recomendado para maximizar a visibilidade. O LinkedIn suporta ate 20 imagens por carrossel em formato de documento PDF.\n\nOs artigos do LinkedIn exibem uma imagem de capa de 1200 x 644 pixels. Essa imagem aparece no topo do artigo e nas previas do feed. Escolha uma imagem atraente que resuma visualmente o tema do seu artigo. Artigos com imagens de capa relevantes obtem significativamente mais cliques do que aqueles sem imagem."
+          },
+          {
+            "heading": "Otimizar suas imagens do LinkedIn com o ToolPic",
+            "text": "Use a ferramenta de recorte de imagens do ToolPic para ajustar seus visuais as dimensoes exatas do LinkedIn. Importe sua imagem, selecione uma proporcao personalizada e insira as dimensoes necessarias. A ferramenta permite posicionar precisamente a area de recorte para manter os elementos essenciais da sua imagem.\n\nPara a foto de perfil, recorte em 400 x 400 pixels garantindo que seu rosto esteja perfeitamente centralizado. Para o banner, recorte em 1584 x 396 pixels colocando elementos importantes no centro para visibilidade otima no celular.\n\nAntes de publicar, passe suas imagens pelo compressor de imagens do ToolPic para reduzir o tamanho do arquivo sem degradar a qualidade visivel. Ajuste a qualidade entre 85 e 92 por cento para um equilibrio ideal. O LinkedIn comprimira suas imagens ao enviar, mas fornecer arquivos ja otimizados garante o melhor resultado final. Todo o processamento e feito no seu navegador para preservar a privacidade dos seus conteudos."
+          }
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
+      "how-to-remove-watermark-from-photo": {
+        "title": "Como remover marca d'agua de fotos: metodos e alternativas",
+        "metaTitle": "Como remover marca d'agua de fotos: guia completo | Blog ToolPic",
+        "metaDescription": "Descubra os metodos para lidar com marcas d'agua nas suas fotos. Aspectos legais, alternativas gratuitas e como proteger suas proprias imagens com marcas d'agua profissionais.",
+        "excerpt": "Um guia completo sobre marcas d'agua: aspectos juridicos, alternativas legais e como proteger suas proprias imagens com marcas d'agua profissionais.",
+        "content": [
+          {
+            "heading": "Entendendo marcas d'agua e sua funcao",
+            "text": "Marcas d'agua sao marcacoes visuais colocadas em imagens para identificar seu criador ou proprietario. Servem principalmente para proteger a propriedade intelectual de fotografos, designers e criadores de conteudo. Uma marca d'agua tipica pode ser um texto (nome, site, copyright) ou um logotipo colocado em sobreposicao na imagem.\n\nFotografos profissionais usam marcas d'agua para compartilhar previas do seu trabalho sem arriscar uso nao autorizado. Bancos de imagens aplicam marcas d'agua proeminentes em suas fotos de previa, reservando as versoes limpas para compradores. Estudios de fotografia de casamentos e eventos usam galerias com marcas d'agua para que os clientes possam escolher suas fotos antes da compra.\n\nE importante entender que marcas d'agua representam uma escolha deliberada do proprietario da imagem para proteger seu trabalho. Elas sinalizam que a imagem e protegida por direitos autorais e que seu uso esta sujeito a condicoes especificas."
+          },
+          {
+            "heading": "Aspectos legais e eticos",
+            "text": "Remover a marca d'agua de uma imagem protegida por direitos autorais e ilegal na maioria das jurisdicoes. No Brasil, a Lei de Direitos Autorais protege os direitos dos autores, e remover uma marca de identificacao constitui uma violacao desses direitos. Nos Estados Unidos, o Digital Millennium Copyright Act (DMCA) proibe especificamente a remocao de informacoes de gerenciamento de direitos.\n\nMesmo que ferramentas tecnicas permitam remover marcas d'agua, usa-las em imagens das quais voce nao e o proprietario expoe voce a processos judiciais, multas e indenizacoes. Proprietarios de imagens podem usar busca reversa e tecnologias de rastreamento para identificar usos nao autorizados de suas obras.\n\nA melhor abordagem e sempre obter uma licenca legitima para as imagens que deseja usar. Muitos bancos de imagens oferecem licencas acessiveis, e existem milhoes de fotos gratuitas sob licenca Creative Commons ou em dominio publico que voce pode usar legalmente."
+          },
+          {
+            "heading": "Alternativas legais a imagens com marca d'agua",
+            "text": "Bancos de imagens gratuitos como Unsplash, Pexels e Pixabay oferecem milhoes de fotos de alta qualidade sem marca d'agua, utilizaveis gratuitamente para projetos pessoais e comerciais. Essas plataformas sao alimentadas por fotografos que compartilham voluntariamente seu trabalho sob licencas permissivas.\n\nPara necessidades especificas, bancos de imagens pagos como Shutterstock, Adobe Stock e Getty Images oferecem licencas a partir de poucos reais por imagem. Assinaturas mensais tornam esses servicos ainda mais acessiveis para necessidades regulares. O investimento e minimo comparado aos riscos juridicos do uso nao autorizado de imagens.\n\nSe voce precisa de uma imagem especifica com marca d'agua que encontrou online, entre em contato diretamente com o fotografo ou a agencia. Muitos estao abertos a negociar licencas individuais, especialmente para pequenas empresas e projetos criativos. Um email profissional explicando seu projeto pode frequentemente resultar em um acordo vantajoso para ambas as partes."
+          },
+          {
+            "heading": "Proteger suas proprias imagens com o ToolPic",
+            "text": "Se voce e criador de conteudo e deseja proteger suas proprias imagens, a ferramenta de marca d'agua do ToolPic permite adicionar facilmente marcacoes profissionais. Importe suas fotos e escolha entre marca d'agua de texto ou logotipo.\n\nPara marca d'agua de texto, digite seu texto desejado, selecione uma fonte, ajuste o tamanho e a opacidade. Posicione-a estrategicamente para que nao possa ser facilmente recortada.\n\nPara marca d'agua de logotipo, importe seu logotipo e coloque-o sobre suas imagens. Ajuste a opacidade entre 30 e 50 por cento para um resultado profissional que nao distraia do conteudo da imagem. O ToolPic processa tudo localmente no seu navegador, o que significa que suas imagens originais sem marca d'agua nunca sao enviadas a um servidor externo. So voce mantem acesso as versoes nao marcadas das suas fotos."
+          }
+        ],
+        "relatedToolIds": "image-watermark"
+      },
+      "gif-vs-video-which-to-use": {
+        "title": "GIF ou video: qual formato escolher para seu conteudo",
+        "metaTitle": "GIF vs video: comparacao completa e guia de escolha | Blog ToolPic",
+        "metaDescription": "GIF ou video MP4? Compare as vantagens e desvantagens de cada formato. Descubra quando usar GIF e quando preferir video para seu conteudo.",
+        "excerpt": "Comparacao detalhada entre os formatos GIF e video para ajuda-lo a escolher o formato certo de acordo com seu uso, com dicas praticas de otimizacao.",
+        "content": [
+          {
+            "heading": "Entendendo as diferencas fundamentais",
+            "text": "O formato GIF existe desde 1987 e continua popular gracas a sua simplicidade e compatibilidade universal. Um GIF e essencialmente uma sequencia de imagens estaticas reproduzidas em loop, sem som. Utiliza uma paleta limitada a 256 cores por imagem, o que o torna ideal para animacoes simples, icones animados e reacoes humoristicas.\n\nOs formatos de video como MP4 (H.264/H.265) e WebM (VP9/AV1) utilizam tecnicas sofisticadas de compressao entre quadros. Em vez de armazenar cada imagem completamente, registram apenas as diferencas entre imagens consecutivas. Essa abordagem produz arquivos consideravelmente menores com qualidade muito superior, com milhoes de cores e suporte a som.\n\nA diferenca de tamanho e impressionante. Um GIF de 5 segundos em 720p pode facilmente pesar de 10 a 20 MB, enquanto a mesma sequencia em MP4 pesara apenas de 500 KB a 1 MB com qualidade visual superior. Essa disparidade se explica pela ausencia de compressao entre quadros no formato GIF."
+          },
+          {
+            "heading": "Quando usar um GIF",
+            "text": "GIFs continuam sendo a melhor escolha para curtas animacoes de poucos segundos destinadas a mensageiros e redes sociais. Sua reproducao automatica em loop e compatibilidade universal os tornam perfeitos para reacoes, memes e curtas demonstracoes visuais. Praticamente todos os aplicativos de mensagens e plataformas web suportam GIFs nativamente.\n\nPara tutoriais curtos mostrando um clique ou gesto especifico, GIFs sao muito eficazes. Um GIF de 2-3 segundos mostrando uma acao precisa em uma interface e mais expressivo que uma captura de tela estatica e mais acessivel que um video completo. Documentacoes tecnicas e READMEs de projetos no GitHub usam frequentemente esse formato.\n\nEmails sao outro caso de uso privilegiado para GIFs. A maioria dos clientes de email suporta GIFs animados, mas nao a reproducao de video. Se voce cria newsletters ou campanhas de email marketing, GIFs permitem adicionar movimento e atencao visual onde o video seria impossivel.\n\nNo entanto, mantenha seus GIFs curtos (menos de 5 segundos) e pequenos (idealmente menos de 500 KB, maximo de 2 MB). Alem disso, as vantagens do video se tornam esmagadoras."
+          },
+          {
+            "heading": "Quando preferir video",
+            "text": "Para qualquer conteudo que ultrapasse 5 segundos, o video e sistematicamente a melhor escolha. A compressao de video moderna produz arquivos menores com qualidade incomparavelmente superior. Um video MP4 de 30 segundos em 1080p pode pesar menos de 5 MB, enquanto um GIF equivalente seria praticamente inutilizavel com mais de 100 MB.\n\nAs redes sociais favorecem nitidamente o conteudo em video. Instagram, TikTok, LinkedIn e Twitter exibem videos com mais destaque que GIFs. Os algoritmos dessas plataformas privilegiam conteudo de video nativo porque gera mais engajamento e tempo de atencao.\n\nSe seu conteudo necessita de som, o video e sua unica opcao. GIFs nao suportam audio. Para apresentacoes, demonstracoes de produtos, treinamentos e qualquer conteudo narrativo, o video com som oferece uma experiencia completa que o GIF nao pode igualar.\n\nO video tambem oferece melhor controle para o usuario: reproducao, pausa, retrocesso, controle de volume e tela cheia. Essas funcionalidades de interacao estao ausentes nos GIFs, que se limitam a repetir indefinidamente."
+          },
+          {
+            "heading": "Converter e otimizar com o ToolPic",
+            "text": "O ToolPic oferece ferramentas para ambos os formatos. A ferramenta Video para GIF permite converter qualquer video em GIF animado. Importe seu video, selecione a porcao a converter, ajuste a resolucao e o numero de quadros por segundo, e gere seu GIF. Reduzir a resolucao para 480p ou menos e o framerate para 10-15 FPS produz GIFs de tamanho razoavel.\n\nSe voce precisa reduzir o tamanho de um video para compartilhamento online, use o compressor de video do ToolPic. Ajuste a resolucao, o bitrate e o formato de saida para obter o melhor equilibrio entre qualidade e peso do arquivo. O compressor aceita todos os formatos de video comuns e produz arquivos MP4 otimizados.\n\nPara os casos em que voce hesita entre GIF e video, crie ambas as versoes com o ToolPic e compare. Frequentemente, um video MP4 curto sera mais leve e de melhor qualidade que o GIF equivalente. Ambas as ferramentas funcionam inteiramente no seu navegador via WebAssembly, sem envio de arquivos a um servidor externo."
+          }
+        ],
+        "relatedToolIds": "video-to-gif,video-compress"
+      },
+      "how-to-extract-audio-from-youtube-video": {
+        "title": "Como extrair audio de um video do YouTube: guia completo",
+        "metaTitle": "Como extrair audio de um video do YouTube | Blog ToolPic",
+        "metaDescription": "Aprenda a extrair a faixa de audio dos seus videos do YouTube e outros. Guia de metodos legais, formatos de audio e ferramentas gratuitas para extracao de audio.",
+        "excerpt": "Guia pratico para extrair audio de videos do YouTube e outras fontes de video, com os melhores metodos, aspectos legais e ferramentas recomendadas.",
+        "content": [
+          {
+            "heading": "Por que extrair audio de um video",
+            "text": "A extracao de audio de videos e uma pratica comum para muitos usos legitimos. Criadores de conteudo frequentemente extraem o audio de seus proprios videos para criar podcasts, clipes de audio ou conteudo para plataformas de audio. Musicos podem isolar faixas de audio de suas apresentacoes filmadas para retrabalha-las em estudio.\n\nProfessores e instrutores extraem o audio de seus cursos em video para criar versoes em podcast que os alunos podem ouvir em deslocamento. Jornalistas e pesquisadores extraem o audio de entrevistas filmadas para transcricao. Editores de video separam as faixas de audio para trabalha-las independentemente do video.\n\nO audio isolado oferece vantagens praticas importantes em relacao ao video. Arquivos de audio sao muito menores que videos, o que facilita o armazenamento e o compartilhamento. A escuta de audio permite multitarefa, como ouvir enquanto dirige, pratica esportes ou realiza tarefas domesticas. Podcasts e audiolivros experimentaram um crescimento explosivo precisamente por essa razao."
+          },
+          {
+            "heading": "Aspectos legais da extracao de audio",
+            "text": "A extracao de audio de conteudo protegido por direitos autorais esta sujeita a restricoes legais importantes. Os videos do YouTube sao protegidos pelos direitos autorais de seus criadores. Baixar ou extrair audio de videos dos quais voce nao e o proprietario pode violar os termos de uso do YouTube e as leis de direitos autorais.\n\nExistem, no entanto, situacoes em que a extracao de audio e perfeitamente legal. Voce pode extrair o audio de seus proprios videos sem qualquer restricao. Conteudo sob licenca Creative Commons frequentemente permite a reutilizacao, incluindo a extracao de audio, sob certas condicoes. Conteudo em dominio publico e livre de qualquer restricao.\n\nMuitos criadores do YouTube tambem oferecem seu conteudo em plataformas de podcast ou como download direto. Antes de extrair o audio de um video, verifique se o criador ja nao oferece uma versao de audio oficial. Isso apoia o criador e lhe da uma versao de melhor qualidade do que a extracao poderia produzir."
+          },
+          {
+            "heading": "Formatos de audio e qualidade",
+            "text": "O MP3 continua sendo o formato de audio mais universal, compativel com praticamente todos os dispositivos e reprodutores. Para fala (podcasts, cursos, entrevistas), uma taxa de bits de 128 kbps e suficiente. Para musica, mire em 256 a 320 kbps para qualidade proxima de CD. Arquivos MP3 oferecem o melhor equilibrio entre qualidade e tamanho de arquivo.\n\nO formato AAC (M4A) oferece melhor qualidade que o MP3 com a mesma taxa de bits. E o formato preferido da Apple e usado internamente pelo YouTube. Se seu fluxo de trabalho e centrado no ecossistema Apple, AAC e uma excelente escolha. A maioria dos dispositivos modernos tambem o suporta.\n\nO formato WAV fornece audio nao comprimido de qualidade maxima, mas produz arquivos volumosos. Um arquivo WAV tipico pesa aproximadamente 10 MB por minuto, contra 1 MB por minuto para MP3 a 128 kbps. Use WAV apenas se planejar processamento de audio adicional em pos-producao, como mixagem ou masterizacao.\n\nO formato OGG Vorbis e uma alternativa livre ao MP3 com qualidade sonora comparavel ou superior. E amplamente suportado em sistemas Linux e Android, mas a compatibilidade no iOS e dispositivos Apple permanece limitada."
+          },
+          {
+            "heading": "Extrair audio com o ToolPic",
+            "text": "A ferramenta de extracao de audio do ToolPic permite extrair a faixa de audio de qualquer arquivo de video armazenado no seu dispositivo. Importe seu arquivo de video no formato MP4, WebM, MOV, AVI ou qualquer outro formato comum. A ferramenta extrai a faixa de audio e permite baixa-la no formato de sua escolha.\n\nO processo e simples: selecione seu arquivo de video, escolha o formato de audio de saida desejado e inicie a extracao. A ferramenta usa WebAssembly e FFmpeg para processar o arquivo diretamente no seu navegador. Nenhum arquivo e enviado a um servidor, garantindo a total privacidade do seu conteudo.\n\nPara obter a melhor qualidade, escolha um formato e uma taxa de bits adequados ao seu uso. Para podcasts e fala, MP3 a 128-192 kbps e ideal. Para musica, prefira MP3 a 320 kbps ou o formato WAV se planejar pos-processamento. A ferramenta exibe as informacoes do arquivo fonte para ajuda-lo a escolher as configuracoes ideais."
+          }
+        ],
+        "relatedToolIds": "video-extract-audio"
       }
     }
   }

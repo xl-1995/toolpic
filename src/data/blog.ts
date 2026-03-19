@@ -6,6 +6,11 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'how-to-resize-image-without-losing-quality', date: '2026-03-19', readTime: 5, heroImage: '/blog/resize-quality-hero.jpg' },
+  { slug: 'linkedin-image-sizes-guide', date: '2026-03-19', readTime: 4, heroImage: '/blog/linkedin-sizes-hero.jpg' },
+  { slug: 'how-to-remove-watermark-from-photo', date: '2026-03-19', readTime: 5, heroImage: '/blog/watermark-ethics-hero.jpg' },
+  { slug: 'gif-vs-video-which-to-use', date: '2026-03-19', readTime: 5, heroImage: '/blog/gif-vs-video-hero.jpg' },
+  { slug: 'how-to-extract-audio-from-youtube-video', date: '2026-03-19', readTime: 4, heroImage: '/blog/extract-audio-guide-hero.jpg' },
   { slug: 'how-to-create-instagram-carousel', date: '2026-03-18', readTime: 5, heroImage: '/blog/instagram-carousel-hero.jpg' },
   { slug: 'png-transparent-background-guide', date: '2026-03-18', readTime: 4, heroImage: '/blog/png-transparent-hero.jpg' },
   { slug: 'how-to-compress-video-for-whatsapp', date: '2026-03-18', readTime: 4, heroImage: '/blog/compress-whatsapp-hero.jpg' },

@@ -946,6 +946,131 @@
           }
         ],
         "relatedToolIds": "video-convert,image-crop"
+      },
+      "how-to-resize-image-without-losing-quality": {
+        "title": "Cara Mengubah Ukuran Gambar Tanpa Kehilangan Kualitas",
+        "metaTitle": "Cara Mengubah Ukuran Gambar Tanpa Kehilangan Kualitas | ToolPic Blog",
+        "metaDescription": "Pelajari cara mengubah ukuran gambar tanpa kehilangan kualitas. Panduan lengkap teknik resize, format terbaik, dan alat gratis untuk hasil tajam.",
+        "excerpt": "Panduan praktis untuk mengubah ukuran gambar sambil mempertahankan ketajaman dan detail, menggunakan teknik dan alat yang tepat.",
+        "content": [
+          {
+            "heading": "Mengapa Gambar Kehilangan Kualitas Saat Diubah Ukurannya",
+            "text": "Ketika Anda memperbesar gambar raster seperti JPG atau PNG, perangkat lunak harus membuat piksel baru yang tidak ada dalam file asli. Proses ini disebut interpolasi, dan hasilnya sering kali berupa gambar yang buram atau berpiksel. Semakin besar Anda memperbesar gambar, semakin jelas degradasinya karena semakin banyak piksel yang perlu ditebak oleh algoritma.\n\nSebaliknya, mengecilkan gambar biasanya lebih aman karena perangkat lunak menggabungkan piksel yang ada daripada membuat yang baru. Namun, pengecilan yang berlebihan juga bisa menghilangkan detail halus. Kuncinya adalah menemukan keseimbangan antara ukuran yang diinginkan dan kualitas yang dapat diterima.\n\nFormat gambar juga berpengaruh besar. Format lossy seperti JPG mengompresi data setiap kali file disimpan, sehingga resize berulang pada JPG menyebabkan degradasi kumulatif. Format lossless seperti PNG mempertahankan semua data asli, menjadikannya pilihan lebih baik untuk gambar yang perlu diubah ukurannya beberapa kali."
+          },
+          {
+            "heading": "Teknik Terbaik untuk Resize Tanpa Kehilangan Kualitas",
+            "text": "Selalu mulai dari gambar resolusi tertinggi yang tersedia. Jika Anda mengambil foto dengan kamera atau smartphone, gunakan pengaturan resolusi maksimal. Memulai dengan sumber berkualitas tinggi memberikan lebih banyak ruang untuk resize tanpa degradasi yang terlihat.\n\nGunakan algoritma interpolasi yang tepat untuk kebutuhan Anda. Interpolasi bilinear cocok untuk pengecilan sederhana, sementara interpolasi Lanczos menghasilkan hasil terbaik untuk pembesaran karena mempertahankan ketajaman tepi lebih baik. Kebanyakan alat editing modern menggunakan algoritma canggih secara otomatis.\n\nJika Anda perlu memperbesar gambar secara signifikan, lakukan secara bertahap. Memperbesar 10-20% per langkah menghasilkan hasil yang lebih baik daripada langsung memperbesar 200% sekaligus. Setiap langkah kecil memungkinkan algoritma bekerja dengan lebih banyak data asli, menghasilkan hasil akhir yang lebih tajam dan lebih natural."
+          },
+          {
+            "heading": "Format dan Pengaturan yang Direkomendasikan",
+            "text": "Untuk gambar yang perlu diubah ukurannya, PNG adalah pilihan terbaik karena bersifat lossless. Setiap kali Anda menyimpan PNG, tidak ada data yang hilang, sehingga Anda bisa resize berkali-kali tanpa degradasi tambahan. Kelemahannya adalah ukuran file yang lebih besar, tetapi untuk alur kerja editing, ini adalah trade-off yang wajar.\n\nWebP lossless adalah alternatif modern yang menawarkan kompresi lebih baik daripada PNG sambil tetap mempertahankan semua data gambar. Jika alat dan platform yang Anda gunakan mendukung WebP, format ini bisa menghemat ruang penyimpanan tanpa mengorbankan kualitas.\n\nUntuk output akhir yang akan ditampilkan di web, JPG pada kualitas 85-92% memberikan keseimbangan terbaik antara ukuran file dan kualitas visual. Resize gambar ke dimensi tampilan yang tepat sebelum mengonversi ke JPG, sehingga kompresi lossy hanya diterapkan satu kali pada ukuran final. Hindari resize gambar JPG yang sudah dikompresi karena setiap siklus kompresi mengurangi kualitas."
+          },
+          {
+            "heading": "Mengubah Ukuran Gambar dengan ToolPic",
+            "text": "Buka alat Potong Gambar ToolPic dan unggah gambar yang ingin Anda ubah ukurannya. Alat ini memungkinkan Anda mengatur dimensi yang tepat dalam piksel atau memilih rasio aspek preset seperti 16:9, 4:3, atau 1:1. Masukkan dimensi target dan alat akan memotong serta mengubah ukuran gambar Anda dengan presisi.\n\nUntuk hasil terbaik, potong area yang tidak diperlukan terlebih dahulu sebelum mengubah ukuran. Ini mengurangi jumlah resize yang diperlukan karena Anda menghilangkan bagian gambar yang tidak relevan. Semakin sedikit perubahan ukuran yang diperlukan, semakin baik kualitas akhirnya.\n\nSetelah resize, gunakan Kompresor Gambar ToolPic untuk mengoptimalkan ukuran file tanpa mengurangi kualitas visual. Atur kualitas ke 90% untuk keseimbangan optimal. Semua pemrosesan dilakukan secara lokal di browser Anda, sehingga gambar asli Anda tidak pernah diunggah ke server mana pun, menjaga privasi dan keamanan file Anda."
+          }
+        ],
+        "relatedToolIds": "image-crop"
+      },
+      "linkedin-image-sizes-guide": {
+        "title": "Panduan Ukuran Gambar LinkedIn: Dimensi Lengkap untuk Setiap Jenis Postingan",
+        "metaTitle": "Panduan Ukuran Gambar LinkedIn: Dimensi Lengkap 2026 | ToolPic Blog",
+        "metaDescription": "Referensi lengkap ukuran gambar LinkedIn termasuk foto profil, banner, postingan, dan artikel. Optimalkan gambar Anda untuk tampilan terbaik.",
+        "excerpt": "Semua dimensi gambar LinkedIn yang perlu Anda ketahui, dari foto profil hingga banner perusahaan, dengan tips optimasi untuk setiap format.",
+        "content": [
+          {
+            "heading": "Mengapa Ukuran Gambar LinkedIn Penting",
+            "text": "LinkedIn adalah platform profesional di mana kesan pertama sangat penting. Gambar yang buram, terpotong, atau berukuran salah langsung mengurangi kredibilitas profesional Anda. Profil dengan foto berkualitas tinggi dan banner yang pas mendapat 21 kali lebih banyak kunjungan dan 9 kali lebih banyak permintaan koneksi.\n\nLinkedIn mengompresi dan memotong gambar yang tidak sesuai dengan dimensi yang direkomendasikan. Jika Anda mengunggah gambar yang terlalu besar atau rasio aspeknya salah, platform akan secara otomatis memotong bagian-bagian penting. Ini bisa mengakibatkan teks terpotong, wajah terpangkas, atau elemen desain penting yang hilang.\n\nMengetahui dimensi yang tepat untuk setiap jenis konten LinkedIn memastikan gambar Anda selalu tampil sempurna di semua perangkat. Ukuran berbeda berlaku untuk feed desktop, aplikasi mobile, dan tampilan profil, sehingga gambar yang dioptimalkan dengan benar terlihat konsisten di mana pun dilihat."
+          },
+          {
+            "heading": "Dimensi Profil dan Banner LinkedIn",
+            "text": "Foto profil LinkedIn harus berukuran 400 x 400 piksel dengan rasio aspek 1:1 (persegi). File maksimal 8MB dalam format JPG atau PNG. Meskipun ditampilkan dalam bentuk lingkaran, unggah gambar persegi dan pastikan wajah Anda berada di tengah agar tidak terpotong oleh masking lingkaran.\n\nBanner profil atau gambar latar belakang memiliki dimensi 1584 x 396 piksel dengan rasio aspek 4:1. Ini adalah salah satu dimensi paling unik di media sosial dan sering kali membingungkan pengguna. Pastikan elemen penting seperti teks dan logo berada di area tengah karena tepi kiri bawah akan tertutup oleh foto profil Anda.\n\nHalaman perusahaan menggunakan logo berukuran 300 x 300 piksel dan gambar sampul 1128 x 191 piksel. Gambar sampul perusahaan lebih lebar dan pendek dibandingkan banner profil personal, jadi jangan gunakan gambar yang sama untuk keduanya tanpa penyesuaian."
+          },
+          {
+            "heading": "Ukuran Gambar untuk Postingan dan Artikel",
+            "text": "Postingan feed LinkedIn mendukung gambar dengan lebar 1200 piksel. Untuk gambar landscape, gunakan 1200 x 627 piksel (rasio 1.91:1). Untuk gambar persegi, gunakan 1200 x 1200 piksel. Gambar potret berukuran 1200 x 1500 piksel (rasio 4:5) dan menempati ruang paling banyak di feed, mirip dengan strategi Instagram.\n\nArtikel LinkedIn menggunakan gambar sampul berukuran 1200 x 644 piksel. Gambar dalam isi artikel sebaiknya lebar 1200 piksel untuk memastikan tampilan tajam di desktop. Gambar yang lebih kecil akan di-stretch dan terlihat buram pada layar resolusi tinggi.\n\nCarousel LinkedIn atau dokumen PDF menggunakan dimensi 1080 x 1080 piksel (persegi) atau 1080 x 1350 piksel (potret) per halaman. Format potret lebih populer karena menempati lebih banyak ruang feed dan mendorong pengguna untuk menggeser. Setiap halaman carousel adalah satu halaman PDF, jadi persiapkan setiap slide dengan dimensi yang konsisten."
+          },
+          {
+            "heading": "Mengoptimalkan Gambar LinkedIn dengan ToolPic",
+            "text": "Gunakan alat Potong Gambar ToolPic untuk memotong gambar Anda ke dimensi LinkedIn yang tepat. Pilih rasio aspek yang sesuai atau masukkan dimensi piksel secara manual. Untuk foto profil, potong ke 1:1 dan pastikan wajah Anda terpusat. Untuk banner, gunakan rasio 4:1 dan tempatkan elemen penting di tengah.\n\nSetelah memotong, jalankan gambar melalui Kompresor Gambar ToolPic untuk mengoptimalkan ukuran file. LinkedIn merekomendasikan file di bawah 8MB, tetapi file yang lebih kecil memuat lebih cepat dan terhindar dari kompresi tambahan oleh platform. Atur kualitas ke 85-90% untuk hasil optimal.\n\nUntuk carousel, siapkan setiap slide sebagai gambar terpisah dengan dimensi yang konsisten, lalu gabungkan menjadi PDF. Potong setiap slide menggunakan alat Potong Gambar dengan dimensi 1080 x 1350 untuk format potret. Semua pemrosesan terjadi di browser Anda, menjaga konten profesional Anda tetap aman dan pribadi."
+          }
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
+      "how-to-remove-watermark-from-photo": {
+        "title": "Cara Menghapus Watermark dari Foto: Panduan Lengkap",
+        "metaTitle": "Cara Menghapus Watermark dari Foto: Metode dan Tips | ToolPic Blog",
+        "metaDescription": "Pelajari berbagai metode untuk menghapus watermark dari foto termasuk cropping, cloning, dan alat AI. Pahami kapan penghapusan watermark diperbolehkan.",
+        "excerpt": "Panduan komprehensif tentang metode menghapus watermark dari foto, termasuk pertimbangan etis dan hukum yang perlu diketahui.",
+        "content": [
+          {
+            "heading": "Memahami Watermark dan Aspek Hukumnya",
+            "text": "Watermark adalah tanda yang ditempatkan pada gambar untuk menunjukkan kepemilikan atau melindungi hak cipta. Sebelum mencoba menghapus watermark, penting untuk memahami implikasi hukum dan etisnya. Menghapus watermark dari gambar milik orang lain tanpa izin bisa melanggar hukum hak cipta di banyak negara.\n\nAda situasi di mana penghapusan watermark sepenuhnya sah. Jika Anda adalah pemilik asli gambar dan menambahkan watermark sendiri, Anda tentu berhak menghapusnya. Jika Anda telah membeli lisensi gambar dari fotografer atau agensi stok, Anda mendapat versi tanpa watermark sebagai bagian dari pembelian.\n\nKasus umum lainnya adalah ketika watermark ditambahkan secara tidak sengaja oleh aplikasi kamera atau alat editing gratis yang menambahkan branding mereka. Dalam kasus ini, Anda memiliki hak penuh atas foto tersebut dan menghapus watermark pihak ketiga sepenuhnya wajar. Selalu pastikan Anda memiliki hak atas gambar sebelum menghapus watermark apa pun."
+          },
+          {
+            "heading": "Metode Cropping untuk Menghapus Watermark",
+            "text": "Metode paling sederhana dan non-destruktif untuk menghilangkan watermark adalah memotong gambar sehingga watermark berada di luar bingkai. Ini bekerja dengan baik ketika watermark ditempatkan di sudut atau tepi gambar dan subjek utama memiliki ruang yang cukup untuk tetap terlihat setelah dipotong.\n\nKeuntungan cropping adalah tidak ada manipulasi piksel yang terjadi, sehingga area yang tersisa mempertahankan kualitas aslinya sepenuhnya. Tidak ada bekas editing yang terlihat karena Anda hanya menghilangkan area gambar, bukan mengubahnya.\n\nKelemahannya adalah Anda kehilangan sebagian komposisi gambar. Jika watermark berada di tengah atau menutupi area penting dari subjek, cropping bukan solusi yang layak. Dalam kasus tersebut, Anda mungkin perlu menggunakan teknik lain atau memperoleh versi gambar tanpa watermark dari sumber aslinya."
+          },
+          {
+            "heading": "Teknik Lanjutan: Clone dan AI Inpainting",
+            "text": "Clone stamp atau clone brush adalah teknik editing klasik di mana Anda menyalin piksel dari area bersih gambar dan menempelkannya di atas watermark. Teknik ini memerlukan keterampilan dan kesabaran tetapi bisa menghasilkan hasil yang sempurna pada latar belakang yang seragam seperti langit, dinding, atau permukaan bertekstur sederhana.\n\nAI inpainting adalah teknologi lebih modern yang menggunakan kecerdasan buatan untuk mengisi area watermark dengan konten yang dihasilkan secara algoritmik. Alat AI menganalisis area sekitar watermark dan menghasilkan piksel baru yang cocok dengan pola, tekstur, dan warna di sekitarnya. Hasilnya sering kali lebih natural dibandingkan clone manual.\n\nKedua teknik ini memiliki keterbatasan pada watermark yang menutupi area detail tinggi seperti wajah, teks, atau pola kompleks. Semakin besar dan kompleks watermark, semakin sulit untuk menghapusnya tanpa meninggalkan artefak. Dalam kasus tersebut, solusi terbaik tetap mendapatkan gambar asli tanpa watermark."
+          },
+          {
+            "heading": "Menghapus Watermark Menggunakan ToolPic",
+            "text": "Untuk watermark yang terletak di tepi gambar, gunakan alat Watermark Gambar ToolPic yang memungkinkan Anda bekerja dengan layer watermark. Namun cara paling efektif untuk menghapus watermark di sudut adalah menggunakan alat Potong Gambar. Unggah gambar Anda dan atur area potong untuk mengecualikan watermark sambil mempertahankan komposisi utama.\n\nPilih rasio aspek yang sesuai dengan kebutuhan output Anda. Jika watermark berada di sudut kanan bawah, sesuaikan bingkai potong untuk memotong area tersebut sambil mempertahankan subjek utama. Preview hasil sebelum menerapkan untuk memastikan komposisi masih memuaskan.\n\nUntuk hasil terbaik, mulailah dengan gambar resolusi tertinggi yang tersedia. Gambar resolusi tinggi memberikan lebih banyak ruang untuk cropping karena bahkan setelah memotong area watermark, resolusi yang tersisa masih cukup untuk penggunaan yang dimaksud. Semua pemrosesan dilakukan secara lokal di browser Anda, memastikan privasi gambar Anda sepenuhnya terjaga."
+          }
+        ],
+        "relatedToolIds": "image-watermark"
+      },
+      "gif-vs-video-which-to-use": {
+        "title": "GIF vs Video: Mana yang Harus Anda Gunakan?",
+        "metaTitle": "GIF vs Video: Perbandingan Lengkap dan Kapan Menggunakannya | ToolPic Blog",
+        "metaDescription": "Bandingkan GIF dan video untuk memahami kelebihan dan kekurangan masing-masing. Pelajari kapan harus menggunakan GIF dan kapan video lebih tepat.",
+        "excerpt": "Perbandingan mendetail antara GIF dan video termasuk ukuran file, kualitas, kompatibilitas, dan kasus penggunaan terbaik untuk masing-masing format.",
+        "content": [
+          {
+            "heading": "Memahami Perbedaan Dasar GIF dan Video",
+            "text": "GIF (Graphics Interchange Format) adalah format gambar animasi yang telah ada sejak 1987. GIF memutar loop animasi pendek tanpa suara dan didukung oleh hampir semua platform digital. Meskipun secara teknis adalah format gambar, GIF sering digunakan sebagai pengganti video pendek untuk reaksi, tutorial singkat, dan demonstrasi produk.\n\nVideo modern menggunakan codec canggih seperti H.264 dan H.265 yang mengompresi gerakan secara efisien. Tidak seperti GIF yang menyimpan setiap frame secara individual, video codec hanya menyimpan perbedaan antar frame, menghasilkan file yang jauh lebih kecil untuk durasi dan kualitas yang sama.\n\nPerbedaan teknis utama adalah bahwa GIF terbatas pada 256 warna per frame, tidak mendukung audio, dan menghasilkan file yang relatif besar untuk animasi panjang. Video mendukung jutaan warna, audio stereo, dan kompresi canggih yang menjaga kualitas tinggi dalam ukuran file yang kompak. Namun, GIF memiliki keunggulan unik dalam kemudahan berbagi dan kompatibilitas universal."
+          },
+          {
+            "heading": "Kapan Menggunakan GIF",
+            "text": "GIF ideal untuk animasi pendek di bawah 10 detik yang perlu memutar berulang secara otomatis. Reaksi dan meme adalah kasus penggunaan paling populer karena GIF dimuat langsung dalam chat, email, dan media sosial tanpa memerlukan pemutar video. Pengguna tidak perlu menekan tombol play, membuat GIF lebih menarik perhatian.\n\nTutorial langkah-demi-langkah singkat juga cocok dalam format GIF. Menunjukkan cara mengklik menu, menggeser slider, atau melakukan tindakan sederhana di antarmuka software lebih efektif sebagai GIF yang berulang daripada video yang harus di-play secara manual. Pembaca bisa melihat langkah-langkah berulang kali tanpa interaksi.\n\nUntuk email marketing, GIF adalah satu-satunya format animasi yang didukung secara luas oleh klien email. Video embed dalam email memiliki dukungan yang sangat terbatas, sementara GIF ditampilkan dengan benar di Gmail, Outlook, Apple Mail, dan sebagian besar klien lainnya. Banner animasi dan demonstrasi produk dalam email pemasaran hampir selalu menggunakan GIF."
+          },
+          {
+            "heading": "Kapan Video Lebih Tepat",
+            "text": "Video adalah pilihan yang lebih baik untuk konten berdurasi lebih dari 10 detik. Pada durasi ini, ukuran file GIF menjadi tidak praktis. GIF 30 detik bisa berukuran 20-50MB, sementara video MP4 dengan kualitas jauh lebih tinggi hanya 2-5MB. Untuk konten panjang, video menawarkan kualitas yang jauh lebih baik dengan ukuran file yang jauh lebih kecil.\n\nKonten yang membutuhkan audio harus selalu menggunakan format video. Musik, narasi, efek suara, dan dialog tidak bisa disertakan dalam GIF. Jika audio merupakan bagian penting dari pesan Anda, video adalah satu-satunya pilihan yang logis.\n\nUntuk konten yang membutuhkan kualitas visual tinggi seperti cinematografi, fotografi produk, atau presentasi profesional, video memberikan reproduksi warna dan detail yang jauh lebih baik. Batasan 256 warna GIF menyebabkan banding warna yang terlihat jelas pada gradien dan foto, sementara video mempertahankan kedalaman warna penuh."
+          },
+          {
+            "heading": "Membuat GIF dan Mengompresi Video dengan ToolPic",
+            "text": "ToolPic menyediakan alat untuk kedua format. Gunakan alat Video ke GIF untuk mengonversi klip video pendek menjadi GIF animasi. Unggah video Anda, pilih segmen yang ingin dikonversi, atur frame rate dan resolusi, lalu unduh GIF yang dihasilkan. Menurunkan frame rate ke 10-15 FPS dan resolusi ke 480p secara signifikan mengurangi ukuran file GIF.\n\nJika Anda memutuskan bahwa video adalah pilihan yang lebih baik, gunakan Kompresor Video untuk mengoptimalkan file video Anda. Alat ini memungkinkan Anda mengurangi resolusi, bitrate, dan ukuran file sambil mempertahankan kualitas visual yang baik. Untuk sharing di media sosial, kompresi ke 720p dengan bitrate sedang biasanya memberikan hasil optimal.\n\nKedua alat memproses file sepenuhnya di browser Anda tanpa mengunggah ke server. Ini berarti konten Anda tetap pribadi dan pemrosesan terjadi secara instan tanpa menunggu antrian server. Coba konversi video yang sama ke GIF dan MP4 terkompresi untuk membandingkan ukuran file dan kualitas, lalu pilih format yang paling sesuai."
+          }
+        ],
+        "relatedToolIds": "video-to-gif,video-compress"
+      },
+      "how-to-extract-audio-from-youtube-video": {
+        "title": "Cara Mengekstrak Audio dari Video YouTube",
+        "metaTitle": "Cara Mengekstrak Audio dari Video YouTube: Panduan Lengkap | ToolPic Blog",
+        "metaDescription": "Pelajari cara mengekstrak audio dari video YouTube dengan berbagai metode legal. Panduan format audio, pengaturan kualitas, dan alat terbaik.",
+        "excerpt": "Panduan lengkap tentang cara mengekstrak audio dari video, termasuk format terbaik, pengaturan kualitas, dan pertimbangan hak cipta.",
+        "content": [
+          {
+            "heading": "Mengapa Mengekstrak Audio dari Video",
+            "text": "Ada banyak alasan sah untuk mengekstrak audio dari video. Podcaster sering merekam sesi mereka dalam format video untuk konten YouTube, lalu mengekstrak audionya untuk distribusi podcast di Spotify, Apple Podcasts, dan platform audio lainnya. Ini memungkinkan satu sesi rekaman menghasilkan konten untuk multiple platform.\n\nMusisi dan produser audio mengekstrak audio dari video pertunjukan langsung, sesi latihan, atau kolaborasi yang direkam di video. Materi mentah audio ini kemudian bisa dimix, diedit, atau digunakan sebagai sampel dalam produksi musik baru.\n\nPelajar dan profesional sering mengekstrak audio dari presentasi, kuliah, atau webinar untuk didengarkan saat bepergian. Mengonversi video kuliah menjadi file audio memungkinkan belajar sambil berkendara, berolahraga, atau melakukan aktivitas lain di mana menonton video tidak praktis. Pastikan Anda memiliki izin atau konten tersebut berlisensi untuk penggunaan semacam ini."
+          },
+          {
+            "heading": "Format Audio Terbaik untuk Berbagai Kebutuhan",
+            "text": "MP3 adalah format audio paling universal yang didukung oleh setiap perangkat dan platform. Pada bitrate 192-320 kbps, MP3 menawarkan kualitas yang sangat baik dengan ukuran file yang masuk akal. Untuk podcast dan konten bicara, 128 kbps sudah memadai karena suara manusia tidak memerlukan bitrate setinggi musik.\n\nAAC (Advanced Audio Coding) menawarkan kualitas yang lebih baik daripada MP3 pada bitrate yang sama. Format ini adalah standar untuk Apple Music, YouTube, dan banyak platform streaming. Jika target utama Anda adalah perangkat Apple atau streaming online, AAC pada 256 kbps memberikan kualitas yang setara dengan MP3 320 kbps.\n\nWAV dan FLAC adalah format lossless yang mempertahankan kualitas audio asli tanpa kompresi apa pun. WAV menghasilkan file yang sangat besar tetapi kompatibel secara universal. FLAC mengompresi tanpa kehilangan kualitas, menghasilkan file sekitar 50-60% ukuran WAV. Gunakan format lossless jika Anda berencana mengedit audio lebih lanjut atau membutuhkan kualitas arsip tertinggi."
+          },
+          {
+            "heading": "Pertimbangan Hak Cipta dan Penggunaan Legal",
+            "text": "Mengekstrak audio dari video yang Anda miliki atau buat sendiri sepenuhnya legal. Ini termasuk video yang Anda rekam sendiri, konten yang Anda produksi, atau video di mana Anda memiliki hak cipta penuh.\n\nUntuk konten YouTube, perhatikan bahwa sebagian besar video dilindungi hak cipta. Mengunduh dan mengekstrak audio dari video YouTube milik orang lain untuk distribusi ulang melanggar ketentuan layanan YouTube dan berpotensi melanggar hukum hak cipta. Namun, beberapa konten dilisensikan di bawah Creative Commons yang mengizinkan penggunaan ulang dengan atribusi.\n\nKonten domain publik, materi berlisensi Creative Commons, dan konten yang Anda memiliki izin tertulis untuk menggunakan adalah pengecualian yang sah. Selalu periksa lisensi sebelum mengekstrak dan menggunakan ulang audio dari sumber mana pun. Ketika ragu, hubungi pemilik konten untuk mendapatkan izin eksplisit."
+          },
+          {
+            "heading": "Mengekstrak Audio dari Video dengan ToolPic",
+            "text": "Buka alat Ekstrak Audio dari Video ToolPic dan unggah file video Anda. Alat ini mendukung format video populer termasuk MP4, WebM, MOV, dan AVI. Video diproses sepenuhnya di browser Anda menggunakan teknologi WebAssembly, sehingga file tidak pernah meninggalkan perangkat Anda.\n\nPilih format output audio yang diinginkan. MP3 cocok untuk sebagian besar kebutuhan umum termasuk podcast dan mendengarkan kasual. Pilih AAC untuk kualitas lebih baik pada ukuran file yang sama, atau WAV untuk kualitas lossless tanpa kompresi.\n\nKlik ekstrak dan tunggu pemrosesan selesai. Durasi pemrosesan tergantung pada panjang video dan kecepatan perangkat Anda. Setelah selesai, unduh file audio yang dihasilkan. Alat ini mengekstrak track audio asli dari video tanpa re-encoding jika memungkinkan, mempertahankan kualitas audio maksimal. Untuk video panjang, pemrosesan mungkin memerlukan beberapa menit karena semua kalkulasi dilakukan secara lokal di browser."
+          }
+        ],
+        "relatedToolIds": "video-extract-audio"
       }
     }
   }

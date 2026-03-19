@@ -946,6 +946,131 @@
             "text": "Carica video di alta qualità. TikTok applica la propria compressione, quindi partire con una qualità elevata garantisce un risultato finale migliore. La risoluzione minima è 720p, ma 1080p è l'ideale.\n\nI primi 3 secondi sono decisivi. Gli spettatori decidono in quel momento se guardare il video o scorrere oltre. Quindi rendi l'inizio immediatamente coinvolgente e accattivante.\n\nPer la SEO su TikTok, usa hashtag pertinenti, didascalie efficaci e suoni di tendenza. La qualità tecnica e il contenuto lavorano insieme per aumentare le possibilità di diventare virali. Usa gli strumenti gratuiti di ToolPic per rendere i tuoi video tecnicamente perfetti."
           }
         ]
+      },
+      "how-to-resize-image-without-losing-quality": {
+        "title": "Come ridimensionare le immagini senza perdere qualità",
+        "metaTitle": "Ridimensionare immagini senza perdere qualità - Guida gratuita | ToolPic Blog",
+        "metaDescription": "Scopri le migliori tecniche per ridimensionare le immagini mantenendo la qualità. Guida pratica per web, social media e stampa.",
+        "excerpt": "Guida completa agli strumenti e alle tecniche per ridimensionare le immagini preservando la qualità originale.",
+        "relatedToolIds": "image-crop",
+        "content": [
+          {
+            "heading": "Perché il ridimensionamento delle immagini è importante",
+            "text": "Nel mondo digitale, avere immagini della dimensione giusta è fondamentale. Immagini troppo grandi rallentano il caricamento delle pagine web, facendo abbandonare i visitatori prima ancora di vedere il contenuto. Le piattaforme social hanno dimensioni specifiche e caricare immagini di dimensioni errate porta a ritagli automatici o stretching che rovinano la qualità.\n\nPer gli e-commerce, avere immagini prodotto di dimensioni uniformi è essenziale per un aspetto professionale. Nell'email marketing, file immagine troppo pesanti possono influire sulla consegna delle email e sull'esperienza utente.\n\nRidimensionare non significa solo rimpicciolire. A volte è necessario ingrandire immagini piccole per la stampa o per display di grandi dimensioni. In entrambi i casi, utilizzare la tecnica corretta è fondamentale per mantenere nitidezza e chiarezza dell'immagine."
+          },
+          {
+            "heading": "Perché si perde qualità e come evitarlo",
+            "text": "Quando ingrandisci un'immagine oltre le sue dimensioni originali, il software deve creare nuovi pixel. Questo processo, chiamato interpolazione, può rendere l'immagine sfocata o pixelata. La soluzione migliore è partire sempre dalla risoluzione più alta disponibile e ridimensionare verso il basso.\n\nAnche rimpicciolendo si può perdere qualità se non si usa l'algoritmo corretto. L'interpolazione bilineare e bicubica sono i metodi più comuni che producono risultati fluidi. L'algoritmo Lanczos offre una nitidezza ancora migliore ed è preferito dai professionisti.\n\nMantenere le proporzioni dell'immagine è fondamentale. Se modifichi larghezza e altezza con proporzioni diverse, l'immagine risulterà stirata o compressa. Usa sempre l'opzione di blocco proporzioni o ritaglia con un rapporto predefinito per evitare distorsioni."
+          },
+          {
+            "heading": "Dimensioni corrette per ogni utilizzo",
+            "text": "Per le immagini hero dei siti web, 1920x1080 pixel è l'ideale. Le immagini dei blog post dovrebbero essere 1200x800 pixel. I thumbnail a 400x300 pixel sono sufficienti. Ridimensionare a queste misure migliora significativamente la velocità di caricamento.\n\nPer i social media, ogni piattaforma ha i propri requisiti. I post Instagram richiedono 1080x1080 pixel quadrati, le copertine Facebook 820x312, gli header Twitter 1500x500 e i banner LinkedIn 1584x396 pixel.\n\nPer la stampa, la risoluzione deve essere di 300 DPI. Una stampa 10x15 cm richiede un'immagine di circa 1200x1800 pixel. Poster e banner di grandi dimensioni richiedono risoluzioni ancora più alte. Considera sempre l'utilizzo finale prima di ridimensionare."
+          },
+          {
+            "heading": "Ridimensionare le immagini con ToolPic",
+            "text": "Lo strumento Image Crop di ToolPic è la soluzione più semplice per il ridimensionamento. Carica la tua immagine e seleziona il rapporto d'aspetto desiderato: 1:1 quadrato, 16:9 widescreen, 4:5 ritratto o dimensioni personalizzate. Lo strumento blocca le proporzioni per evitare qualsiasi distorsione.\n\nRegola l'area di ritaglio trascinandola e verifica il risultato finale nell'anteprima. Quando sei soddisfatto, applica le modifiche e scarica in alta qualità. Lo strumento preserva la massima nitidezza possibile durante il processo.\n\nTutta l'elaborazione avviene nel tuo browser, quindi le tue immagini non vengono mai caricate su alcun server. Questo garantisce la massima privacy. Con l'elaborazione batch puoi ridimensionare più immagini contemporaneamente alla stessa dimensione, risparmiando ore di lavoro manuale."
+          }
+        ]
+      },
+      "linkedin-image-sizes-guide": {
+        "title": "Guida alle dimensioni immagini LinkedIn: misure giuste per ogni post",
+        "metaTitle": "Dimensioni immagini LinkedIn 2026 - Tutte le misure e i consigli | ToolPic Blog",
+        "metaDescription": "Scopri le dimensioni corrette per foto profilo, banner, post e articoli LinkedIn. Ritaglia e comprimi le immagini gratuitamente.",
+        "excerpt": "Guida completa alle dimensioni immagini corrette e ai consigli di ottimizzazione per ogni sezione di LinkedIn.",
+        "relatedToolIds": "image-crop,image-compressor",
+        "content": [
+          {
+            "heading": "Perché i contenuti visivi su LinkedIn sono importanti",
+            "text": "LinkedIn è la più grande rete professionale al mondo con oltre 900 milioni di utenti. I post con immagini ricevono più del doppio dell'engagement rispetto ai post di solo testo. Immagini delle dimensioni corrette appaiono professionali e aumentano la tua credibilità nel network.\n\nCaricare immagini di dimensioni errate porta LinkedIn a ritagliarle o ridimensionarle automaticamente, rischiando di tagliare parti importanti o rendere l'immagine sfocata. Questo appare poco professionale e può danneggiare la tua immagine di brand.\n\nLinkedIn richiede dimensioni diverse per ogni sezione: foto profilo, banner di sfondo, immagini dei post, copertine degli articoli e pagina aziendale. Conoscere le misure corrette per ciascuna è essenziale per una presenza professionale."
+          },
+          {
+            "heading": "Dimensioni profilo e banner LinkedIn",
+            "text": "La foto profilo deve essere di 400x400 pixel. LinkedIn la ritaglia in forma circolare, quindi posiziona il viso al centro e lascia un po' di margine ai bordi. Carica in formato JPG o PNG con dimensione file inferiore a 8MB.\n\nL'immagine di sfondo del banner deve essere di 1584x396 pixel con rapporto d'aspetto 4:1. Su mobile, alcune parti del banner vengono tagliate, quindi posiziona testo e grafiche importanti nella zona centrale.\n\nIl logo della pagina aziendale deve essere di 300x300 pixel e la copertina aziendale di 1128x191 pixel. Rispettare queste dimensioni garantisce che il tuo profilo e la pagina aziendale appaiano nitidi e professionali su tutti i dispositivi."
+          },
+          {
+            "heading": "Dimensioni immagini per post e articoli LinkedIn",
+            "text": "Per le immagini dei post nel feed, 1200x627 pixel (rapporto 1.91:1) è il formato ottimale. Le immagini quadrate 1200x1200 funzionano bene e occupano più spazio su mobile. Le immagini verticali 1200x1500 (rapporto 4:5) coprono la massima area dello schermo.\n\nLe copertine degli articoli LinkedIn dovrebbero essere di 1200x644 pixel. Le immagini all'interno degli articoli dovrebbero essere larghe 1200 pixel per apparire nitide su tutti gli schermi.\n\nPer i documenti carosello (slide PDF), usa 1080x1080 o 1080x1350 pixel. Questi formati ottengono un engagement molto elevato su LinkedIn. Il testo di ogni slide deve essere grande e facilmente leggibile, poiché la maggior parte delle persone visualizza da mobile."
+          },
+          {
+            "heading": "Preparare immagini per LinkedIn con ToolPic",
+            "text": "Con lo strumento Image Crop di ToolPic, ritaglia le tue immagini alle dimensioni LinkedIn corrette. Imposta il rapporto d'aspetto personalizzato: 1:1 per la foto profilo, 4:1 per il banner o 1.91:1 per le immagini dei post. Lo strumento mostra le dimensioni esatte in pixel per ottenere la misura perfetta.\n\nCon Image Compressor riduci le dimensioni del file senza perdita di qualità visibile. Un'impostazione di qualità dell'80-85% è ideale per le immagini LinkedIn. File più piccoli si caricano più velocemente e LinkedIn applica meno compressione aggiuntiva.\n\nEntrambi gli strumenti funzionano interamente nel browser. Nessuna registrazione, nessun upload, nessun limite. Prepara tutte le tue immagini LinkedIn in dimensioni professionali in pochi minuti."
+          }
+        ]
+      },
+      "how-to-remove-watermark-from-photo": {
+        "title": "Come rimuovere filigrane dalle foto: metodi legali e alternative",
+        "metaTitle": "Rimuovere filigrane dalle foto: metodi legali | ToolPic Blog",
+        "metaDescription": "Scopri i metodi legali per ottenere immagini senza filigrana. Guida a licenze stock, alternative gratuite e creazione di immagini originali.",
+        "excerpt": "Alternative legali alle foto con filigrana e come creare le proprie immagini professionali senza watermark.",
+        "relatedToolIds": "image-watermark",
+        "content": [
+          {
+            "heading": "Perché le filigrane esistono",
+            "text": "Le filigrane sono uno strumento fondamentale per proteggere la proprietà intellettuale di fotografi e creatori di contenuti. I siti di foto stock applicano filigrane sulle immagini di anteprima per impedire l'uso senza pagamento. I fotografi le usano per mostrare prove ai clienti prima del pagamento finale.\n\nRimuovere la filigrana dalla foto di un'altra persona è illegale nella maggior parte dei paesi. Costituisce una violazione del copyright e può avere serie conseguenze legali. Il Digital Millennium Copyright Act (DMCA) e le leggi europee sul diritto d'autore considerano la rimozione delle filigrane un reato punibile.\n\nInvece di rimuovere filigrane altrui, è molto meglio considerare le alternative legali disponibili. Esistono numerosi modi per ottenere immagini di alta qualità senza filigrana e senza problemi legali."
+          },
+          {
+            "heading": "Modi legali per ottenere immagini senza filigrana",
+            "text": "Il modo più diretto è acquistare una licenza. Siti come Shutterstock, Adobe Stock e Getty Images offrono immagini pulite e ad alta risoluzione dopo l'acquisto della licenza. I prezzi partono da pochi euro per immagine e sono ancora più convenienti con gli abbonamenti.\n\nI siti di foto stock gratuite sono un'ottima alternativa. Unsplash, Pexels e Pixabay offrono milioni di immagini di alta qualità senza filigrana e senza costi. La maggior parte è utilizzabile anche per scopi commerciali senza restrizioni.\n\nLe immagini con licenza Creative Commons sono un'altra opzione. Su Flickr e Wikimedia Commons molte immagini sono disponibili sotto licenze CC che permettono l'uso gratuito, a condizione di attribuire il credito all'autore originale."
+          },
+          {
+            "heading": "Creare le proprie immagini professionali",
+            "text": "Le fotocamere degli smartphone sono diventate così avanzate che puoi scattare foto di qualità professionale da solo. Con una buona illuminazione, mano ferma e composizione corretta, il tuo telefono può produrre immagini paragonabili alle foto stock.\n\nI generatori di immagini AI come DALL-E, Midjourney e Stable Diffusion permettono di creare immagini uniche da prompt testuali. Queste immagini sono completamente originali e non presentano problemi di copyright o filigrana.\n\nStrumenti di design come Canva e Figma permettono di creare grafiche e illustrazioni personalizzate. Offrono template ed elementi gratuiti con cui creare grafiche professionali per qualsiasi esigenza comunicativa."
+          },
+          {
+            "heading": "Rendere professionali le tue immagini con ToolPic",
+            "text": "Se scatti le tue foto, usa lo strumento Image Watermark di ToolPic per apporre la tua filigrana. Aggiungi il tuo nome, brand o logo come watermark per proteggere le tue immagini e mantenere la tua identità visiva.\n\nPrima di applicare la filigrana, usa Image Crop per ritagliare l'immagine nelle dimensioni e proporzioni corrette. Scegli le misure giuste per social media, sito web o presentazioni.\n\nTutti gli strumenti ToolPic funzionano nel browser e sono completamente gratuiti. Le tue immagini non vengono mai caricate su alcun server esterno. Questo ti garantisce privacy e sicurezza totali. Crea le tue immagini originali e proteggile professionalmente."
+          }
+        ]
+      },
+      "gif-vs-video-which-to-use": {
+        "title": "GIF vs Video: quando usare quale formato",
+        "metaTitle": "GIF vs Video: quale formato è migliore? | ToolPic Blog",
+        "metaDescription": "Confronto tra GIF e video: dimensioni file, qualità, utilizzi e conversione. Scopri quando la GIF è meglio e quando il video è la scelta giusta.",
+        "excerpt": "Guida completa alle differenze tra GIF e video, vantaggi e svantaggi di ciascun formato e come scegliere quello giusto.",
+        "relatedToolIds": "video-to-gif,video-compress",
+        "content": [
+          {
+            "heading": "Differenze tra GIF e video",
+            "text": "Il GIF (Graphics Interchange Format) è un formato di immagine animata che esiste dal 1987. Si riproduce automaticamente in loop, non ha audio e supporta un massimo di 256 colori. Il punto di forza del GIF è che funziona praticamente su qualsiasi piattaforma senza bisogno di un player dedicato.\n\nI formati video come MP4 e WebM supportano milioni di colori, offrono una compressione molto migliore e possono includere audio. Il formato MP4 con codec H.264 è il formato video più ampiamente supportato al mondo.\n\nLa differenza nelle dimensioni dei file è enorme. Una clip di 5 secondi a 720p in formato GIF può pesare 10-20MB, mentre lo stesso contenuto in MP4 occupa solo 500KB-1MB. Questa differenza di 10-20 volte ha un impatto significativo sulla velocità di caricamento e sul consumo di banda."
+          },
+          {
+            "heading": "Quando il GIF è la scelta migliore",
+            "text": "Per reazioni sui social media e meme, il GIF è perfetto. Condividere GIF su WhatsApp, Telegram, Slack e Discord è facilissimo e si riproducono istantaneamente. Piccoli sticker animati e animazioni in stile emoji funzionano al meglio in formato GIF.\n\nNell'email marketing, i GIF sono molto efficaci. La maggior parte dei client email non supporta i video ma supporta i GIF. Aggiungere un GIF nell'email come demo prodotto o elemento di attenzione può aumentare significativamente il click-through rate.\n\nNei tutorial UI/UX e nelle demo software, brevi GIF sono molto efficaci. Inserire GIF nei file README di GitHub, nella documentazione e negli articoli di supporto è il modo più semplice per mostrare processi senza bisogno di un player video separato."
+          },
+          {
+            "heading": "Quando il video è la scelta migliore",
+            "text": "Per contenuti lunghi, il video è sempre superiore. Per qualsiasi clip oltre i 10 secondi, il formato video è la scelta corretta perché le dimensioni del GIF diventerebbero impraticabili.\n\nPer le prestazioni del sito web, il video è molto migliore. L'elemento video HTML5 con gli attributi autoplay, loop e muted si comporta come un GIF ma con dimensioni file ridotte del 90%. Questo migliora drasticamente la velocità di caricamento della pagina.\n\nDove l'audio è necessario, il video è l'unica opzione. Per tutorial, recensioni prodotto, interviste e qualsiasi contenuto che include voce, scegli il video. Anche per contenuti visivi di alta qualità come showcase fotografici o clip cinematografiche il video è superiore."
+          },
+          {
+            "heading": "Convertire tra GIF e video con ToolPic",
+            "text": "Lo strumento Video to GIF di ToolPic converte facilmente i tuoi video in GIF. Carica il video, seleziona il punto di inizio e fine, regola frame rate e dimensioni e converti. Lo strumento crea GIF ottimizzate con il giusto equilibrio tra qualità e dimensione file.\n\nCon Video Compress riduci le dimensioni dei tuoi video senza perdere qualità. Regola risoluzione e bitrate per ottimizzare i video per social media o app di messaggistica istantanea.\n\nEntrambi gli strumenti sono basati su tecnologia WebAssembly (FFmpeg) e funzionano interamente nel tuo browser. Nessun file viene caricato su server, nessun limite di dimensione e nessuna registrazione necessaria. Crea GIF o comprimi video, tutto gratuitamente e in totale privacy."
+          }
+        ]
+      },
+      "how-to-extract-audio-from-youtube-video": {
+        "title": "Come estrarre l'audio dai video: guida completa",
+        "metaTitle": "Estrarre audio dai video - Metodi gratuiti | ToolPic Blog",
+        "metaDescription": "Scopri i modi più semplici e gratuiti per estrarre l'audio dai file video. Guida completa alla conversione da MP4 a MP3 e all'estrazione audio.",
+        "excerpt": "I modi più semplici e sicuri per estrarre tracce audio dai file video.",
+        "relatedToolIds": "video-extract-audio",
+        "content": [
+          {
+            "heading": "Perché estrarre l'audio dai video",
+            "text": "Ci sono molte situazioni in cui serve solo la parte audio di un video. I podcaster estraggono l'audio dalle video interviste per creare episodi solo audio. I musicisti separano le tracce audio dalle registrazioni video di performance dal vivo. Gli studenti estraggono l'audio dalle lezioni video per ascoltarle in mobilità.\n\nI file audio sono molto più piccoli dei video. Un video di 10 minuti a 1080p può pesare 200MB, mentre il suo audio MP3 è solo 10MB. Questo risparmia spazio di archiviazione e riduce il consumo di dati mobili.\n\nL'estrazione audio è utile anche nel montaggio video. Per editare separatamente musica di sottofondo, voiceover o effetti sonori, è necessario prima estrarli dal video originale."
+          },
+          {
+            "heading": "Comprendere i formati audio",
+            "text": "MP3 è il formato audio più popolare. Utilizza compressione lossy e offre buona qualità a bitrate tra 128 e 320 kbps. Praticamente ogni dispositivo e applicazione supporta MP3, rendendolo la scelta più universale.\n\nAAC (Advanced Audio Coding) offre qualità migliore rispetto all'MP3, specialmente a bitrate bassi. È il formato predefinito sui dispositivi Apple e anche YouTube utilizza audio AAC per i suoi video.\n\nWAV e FLAC sono formati lossless che non riducono la qualità audio in alcun modo. Sono preferiti nella produzione audio professionale ma le dimensioni dei file sono 5-10 volte superiori all'MP3. OGG Vorbis è un'alternativa open source che offre un buon equilibrio tra qualità e dimensioni del file."
+          },
+          {
+            "heading": "Estrarre audio in modo legale",
+            "text": "Estrarre l'audio dai propri file video è perfettamente legale. Se hai registrato il video o possiedi la licenza, puoi utilizzare l'audio in qualsiasi modo desideri senza alcuna restrizione.\n\nScaricare contenuti da piattaforme come YouTube può violare i loro termini di servizio. Scaricare contenuti protetti da copyright senza autorizzazione può causare problemi legali seri. Chiedi sempre il permesso al proprietario del contenuto o utilizza contenuti con licenza Creative Commons.\n\nIl modo più sicuro è estrarre l'audio dai file video già presenti sul tuo dispositivo. Registrazioni dello schermo, video personali, contenuti con licenza o video creati da te sono tutti fonti perfettamente legittime per l'estrazione audio."
+          },
+          {
+            "heading": "Estrarre audio con ToolPic",
+            "text": "Lo strumento Video Extract Audio di ToolPic è il modo più semplice per estrarre l'audio dai video. Carica il tuo file video (MP4, WebM, MOV, AVI ecc.) e seleziona il formato di output. Lo strumento separa la traccia audio dal video e la salva nel formato scelto.\n\nL'elaborazione avviene interamente nel tuo browser tramite tecnologia WebAssembly (FFmpeg). Il tuo file video non viene mai caricato su alcun server. Questo è il metodo migliore per privacy e sicurezza dei tuoi contenuti.\n\nLo strumento può esportare in MP3, AAC, WAV e altri formati audio. Regola bitrate e impostazioni di qualità secondo le tue esigenze. Al termine dell'elaborazione, il file audio è disponibile per il download immediato. Nessuna registrazione, nessun limite, completamente gratuito."
+          }
+        ]
       }
     }
   }

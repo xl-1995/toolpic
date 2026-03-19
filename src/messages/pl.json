@@ -946,6 +946,131 @@
           }
         ],
         "relatedToolIds": "video-convert,image-crop"
+      },
+      "how-to-resize-image-without-losing-quality": {
+        "title": "Jak zmienić rozmiar obrazu bez utraty jakości",
+        "metaTitle": "Jak zmienić rozmiar obrazu bez utraty jakości | ToolPic Blog",
+        "metaDescription": "Dowiedz się, jak zmieniać rozmiar obrazów bez utraty jakości. Kompletny przewodnik po technikach, najlepszych formatach i darmowych narzędziach.",
+        "excerpt": "Praktyczny przewodnik po zmianie rozmiaru obrazów z zachowaniem ostrości i detali, z użyciem odpowiednich technik i narzędzi.",
+        "content": [
+          {
+            "heading": "Dlaczego obrazy tracą jakość przy zmianie rozmiaru",
+            "text": "Kiedy powiększasz obraz rastrowy, taki jak JPG lub PNG, oprogramowanie musi tworzyć nowe piksele, które nie istniały w oryginalnym pliku. Ten proces nazywa się interpolacją, a jego wynikiem jest często rozmazany lub pikselowany obraz. Im bardziej powiększysz obraz, tym wyraźniejsza jest degradacja, ponieważ algorytm musi odgadywać coraz więcej pikseli.\n\nZmniejszanie obrazów jest ogólnie bezpieczniejsze, ponieważ oprogramowanie łączy istniejące piksele zamiast tworzyć nowe. Jednak zbyt duże zmniejszenie może również usunąć drobne szczegóły. Kluczem jest znalezienie równowagi między pożądanym rozmiarem a akceptowalną jakością.\n\nFormat obrazu również odgrywa dużą rolę. Formaty stratne, takie jak JPG, kompresują dane za każdym razem, gdy plik jest zapisywany, więc wielokrotna zmiana rozmiaru JPG powoduje kumulacyjną degradację. Formaty bezstratne, takie jak PNG, zachowują wszystkie oryginalne dane, co czyni je lepszym wyborem dla obrazów, których rozmiar musi być zmieniany wielokrotnie."
+          },
+          {
+            "heading": "Najlepsze techniki zmiany rozmiaru bez utraty jakości",
+            "text": "Zawsze zaczynaj od obrazu o najwyższej dostępnej rozdzielczości. Jeśli robisz zdjęcia aparatem lub smartfonem, użyj ustawienia maksymalnej rozdzielczości. Rozpoczęcie od źródła wysokiej jakości daje więcej przestrzeni do zmiany rozmiaru bez widocznej degradacji.\n\nUżyj odpowiedniego algorytmu interpolacji do swoich potrzeb. Interpolacja dwuliniowa jest odpowiednia do prostego zmniejszania, podczas gdy interpolacja Lanczos daje najlepsze wyniki przy powiększaniu, ponieważ lepiej zachowuje ostrość krawędzi. Większość nowoczesnych narzędzi edycyjnych automatycznie używa zaawansowanych algorytmów.\n\nJeśli musisz znacząco powiększyć obraz, rób to stopniowo. Powiększanie o 10-20% na krok daje lepsze wyniki niż bezpośrednie powiększenie o 200% na raz. Każdy mały krok pozwala algorytmowi pracować z większą ilością oryginalnych danych, dając ostrzejszy i bardziej naturalny efekt końcowy."
+          },
+          {
+            "heading": "Zalecane formaty i ustawienia",
+            "text": "Dla obrazów, których rozmiar musi być zmieniany, PNG jest najlepszym wyborem, ponieważ jest bezstratny. Za każdym razem, gdy zapisujesz PNG, żadne dane nie są tracone, więc możesz zmieniać rozmiar wielokrotnie bez dodatkowej degradacji. Wadą jest większy rozmiar pliku, ale w procesach edycyjnych jest to akceptowalny kompromis.\n\nBezstratny WebP jest nowoczesną alternatywą oferującą lepszą kompresję niż PNG przy zachowaniu wszystkich danych obrazu. Jeśli narzędzia i platformy, których używasz, obsługują WebP, ten format może zaoszczędzić miejsce bez utraty jakości.\n\nDla finalnego wyjścia wyświetlanego w sieci, JPG przy jakości 85-92% oferuje najlepszą równowagę między rozmiarem pliku a jakością wizualną. Zmień rozmiar obrazu do dokładnych wymiarów wyświetlania przed konwersją do JPG, aby stratna kompresja była stosowana tylko raz na finalny rozmiar. Unikaj zmiany rozmiaru JPG, które są już skompresowane, ponieważ każdy cykl kompresji zmniejsza jakość."
+          },
+          {
+            "heading": "Zmiana rozmiaru obrazów za pomocą ToolPic",
+            "text": "Otwórz narzędzie Przytnij Obraz ToolPic i prześlij obraz, którego rozmiar chcesz zmienić. Narzędzie pozwala ustawić dokładne wymiary w pikselach lub wybrać predefiniowane proporcje, takie jak 16:9, 4:3 lub 1:1. Wprowadź wymiary docelowe, a narzędzie przyciągnie i zmieni rozmiar obrazu z precyzją.\n\nDla najlepszych wyników, najpierw przytnij zbędne obszary przed zmianą rozmiaru. To zmniejsza ilość potrzebnej zmiany rozmiaru, ponieważ usuwasz nieistotne części obrazu. Im mniejsza zmiana rozmiaru jest potrzebna, tym lepsza jakość końcowa.\n\nPo zmianie rozmiaru użyj Kompresora Obrazów ToolPic, aby zoptymalizować rozmiar pliku bez zmniejszania jakości wizualnej. Ustaw jakość na 90% dla optymalnej równowagi. Całe przetwarzanie odbywa się lokalnie w przeglądarce, więc oryginalne obrazy nigdy nie są przesyłane na żaden serwer, zapewniając prywatność i bezpieczeństwo plików."
+          }
+        ],
+        "relatedToolIds": "image-crop"
+      },
+      "linkedin-image-sizes-guide": {
+        "title": "Przewodnik po rozmiarach obrazów LinkedIn: Kompletne wymiary dla każdego typu postu",
+        "metaTitle": "Przewodnik po rozmiarach obrazów LinkedIn: Kompletne wymiary 2026 | ToolPic Blog",
+        "metaDescription": "Kompletna referecja rozmiarów obrazów LinkedIn, w tym zdjęcie profilowe, baner, posty i artykuły. Zoptymalizuj obrazy dla najlepszego wyświetlania.",
+        "excerpt": "Wszystkie wymiary obrazów LinkedIn, które musisz znać, od zdjęcia profilowego po baner firmowy, z poradami optymalizacji dla każdego formatu.",
+        "content": [
+          {
+            "heading": "Dlaczego rozmiary obrazów LinkedIn mają znaczenie",
+            "text": "LinkedIn to platforma profesjonalna, gdzie pierwsze wrażenie jest kluczowe. Rozmyte, przycięte lub źle sformatowane obrazy natychmiast obniżają Twoją wiarygodność zawodową. Profile z wysokiej jakości zdjęciami i dopasowanymi banerami otrzymują 21 razy więcej wyświetleń profilu i 9 razy więcej zaproszeń do kontaktów.\n\nLinkedIn kompresuje i przycina obrazy, które nie spełniają zalecanych wymiarów. Jeśli prześlesz obraz, który jest za duży lub ma niewłaściwe proporcje, platforma automatycznie przytnie ważne części. Może to skutkować obciętym tekstem, przyciętymi twarzami lub brakującymi istotnymi elementami projektu.\n\nZnajomość dokładnych wymiarów dla każdego typu treści LinkedIn zapewnia, że Twoje obrazy zawsze wyglądają idealnie na wszystkich urządzeniach. Różne rozmiary obowiązują dla feeda desktopowego, aplikacji mobilnej i widoku profilu, więc prawidłowo zoptymalizowane obrazy wyglądają spójnie niezależnie od tego, gdzie są przeglądane."
+          },
+          {
+            "heading": "Wymiary profilu i banera LinkedIn",
+            "text": "Zdjęcie profilowe LinkedIn powinno mieć 400 x 400 pikseli z proporcjami 1:1 (kwadrat). Maksymalny plik to 8MB w formacie JPG lub PNG. Chociaż wyświetlane jest w kształcie koła, prześlij kwadratowy obraz i upewnij się, że twarz jest wycentrowana, aby nie została obcięta przez okrągłą maskę.\n\nBaner profilowy lub obraz tła ma wymiary 1584 x 396 pikseli z proporcjami 4:1. To jeden z najbardziej unikalnych wymiarów w mediach społecznościowych i często myli użytkowników. Upewnij się, że ważne elementy, takie jak tekst i logo, znajdują się w centralnym obszarze, ponieważ lewy dolny róg będzie zasłonięty przez zdjęcie profilowe.\n\nStrony firmowe używają logo o wymiarach 300 x 300 pikseli i obrazu okładki 1128 x 191 pikseli. Okładka firmowa jest szersza i niższa niż osobisty baner profilowy, więc nie używaj tego samego obrazu do obu bez dostosowań."
+          },
+          {
+            "heading": "Rozmiary obrazów dla postów i artykułów",
+            "text": "Posty w feedzie LinkedIn obsługują obrazy o szerokości 1200 pikseli. Dla obrazów poziomych użyj 1200 x 627 pikseli (proporcje 1,91:1). Dla kwadratowych użyj 1200 x 1200 pikseli. Obrazy pionowe mają 1200 x 1500 pikseli (proporcje 4:5) i zajmują najwięcej miejsca w feedzie, podobnie jak strategia na Instagramie.\n\nArtykuły LinkedIn używają obrazów okładki o wymiarach 1200 x 644 pikseli. Obrazy w treści artykułów powinny mieć szerokość 1200 pikseli, aby zapewnić ostry wygląd na desktopie. Mniejsze obrazy będą rozciągane i wyglądają rozmycie na ekranach o wysokiej rozdzielczości.\n\nKaruzele LinkedIn lub dokumenty PDF używają wymiarów 1080 x 1080 pikseli (kwadrat) lub 1080 x 1350 pikseli (pionowe) na stronę. Format pionowy jest bardziej popularny, ponieważ zajmuje więcej miejsca w feedzie i zachęca użytkowników do przesuwania. Każda strona karuzeli to jedna strona PDF, więc przygotuj każdy slajd z konsekwentnymi wymiarami."
+          },
+          {
+            "heading": "Optymalizacja obrazów LinkedIn za pomocą ToolPic",
+            "text": "Użyj narzędzia Przytnij Obraz ToolPic, aby przyciąć obrazy do dokładnych wymiarów LinkedIn. Wybierz odpowiednie proporcje lub wprowadź wymiary pikselowe ręcznie. Dla zdjęć profilowych przytnij do 1:1 i upewnij się, że twarz jest wycentrowana. Dla banerów użyj proporcji 4:1 i umieść ważne elementy w centrum.\n\nPo przycięciu przepuść obrazy przez Kompresor Obrazów ToolPic, aby zoptymalizować rozmiar pliku. LinkedIn zaleca pliki poniżej 8MB, ale mniejsze pliki ładują się szybciej i unikają dodatkowej kompresji przez platformę. Ustaw jakość na 85-90% dla optymalnych wyników.\n\nDla karuzeli przygotuj każdy slajd jako osobny obraz z konsekwentnymi wymiarami, a następnie połącz je w PDF. Przytnij każdy slajd za pomocą narzędzia Przytnij Obraz z wymiarami 1080 x 1350 dla formatu pionowego. Całe przetwarzanie odbywa się w przeglądarce, zapewniając bezpieczeństwo i prywatność Twoich profesjonalnych treści."
+          }
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
+      "how-to-remove-watermark-from-photo": {
+        "title": "Jak usunąć znak wodny ze zdjęcia: Kompletny przewodnik",
+        "metaTitle": "Jak usunąć znak wodny ze zdjęcia: Metody i wskazówki | ToolPic Blog",
+        "metaDescription": "Poznaj różne metody usuwania znaków wodnych ze zdjęć, w tym przycinanie, klonowanie i narzędzia AI. Dowiedz się, kiedy usuwanie jest dozwolone.",
+        "excerpt": "Kompleksowy przewodnik po metodach usuwania znaków wodnych ze zdjęć, w tym kwestie etyczne i prawne, które musisz znać.",
+        "content": [
+          {
+            "heading": "Zrozumienie znaków wodnych i aspektów prawnych",
+            "text": "Znak wodny to oznaczenie umieszczone na obrazie w celu wskazania własności lub ochrony praw autorskich. Przed próbą usunięcia znaku wodnego ważne jest zrozumienie implikacji prawnych i etycznych. Usunięcie znaku wodnego z obrazów należących do innych osób bez pozwolenia może naruszać prawo autorskie w wielu krajach.\n\nSą sytuacje, w których usunięcie znaku wodnego jest w pełni legalne. Jeśli jesteś oryginalnym właścicielem obrazu i sam dodałeś znak wodny, oczywiście masz prawo go usunąć. Jeśli zakupiłeś licencję na obraz od fotografa lub agencji stockowej, otrzymujesz wersję bez znaku wodnego jako część zakupu.\n\nInnym częstym przypadkiem jest sytuacja, gdy znak wodny został dodany przypadkowo przez aplikację aparatu lub darmowe narzędzie edycyjne, które dodaje swój branding. W takich przypadkach masz pełne prawa do zdjęcia i usunięcie znaku wodnego strony trzeciej jest całkowicie uzasadnione. Zawsze upewnij się, że masz prawa do obrazu przed usunięciem jakiegokolwiek znaku wodnego."
+          },
+          {
+            "heading": "Metoda przycinania do usuwania znaków wodnych",
+            "text": "Najprostszą i niedestrukcyjną metodą usunięcia znaku wodnego jest przycięcie obrazu tak, aby znak wodny znalazł się poza kadrem. Działa to dobrze, gdy znak wodny jest umieszczony w rogu lub na krawędzi obrazu, a główny temat ma wystarczająco dużo miejsca, aby nadal być widoczny po przycięciu.\n\nZaletą przycinania jest brak manipulacji pikselami, dzięki czemu pozostały obszar zachowuje oryginalną jakość w pełni. Nie ma widocznych śladów edycji, ponieważ usuwasz jedynie fragment obrazu, a nie go modyfikujesz.\n\nWadą jest utrata części kompozycji obrazu. Jeśli znak wodny znajduje się w centrum lub pokrywa ważną część tematu, przycinanie nie jest realnym rozwiązaniem. W takim przypadku może być konieczne użycie innych technik lub uzyskanie wersji obrazu bez znaku wodnego z oryginalnego źródła."
+          },
+          {
+            "heading": "Zaawansowane techniki: klonowanie i AI inpainting",
+            "text": "Clone stamp lub clone brush to klasyczna technika edycji, w której kopiujesz piksele z czystego obszaru obrazu i nakładasz je na znak wodny. Technika ta wymaga umiejętności i cierpliwości, ale może dawać doskonałe wyniki na jednolitych tłach, takich jak niebo, ściany lub proste teksturowane powierzchnie.\n\nAI inpainting to nowocześniejsza technologia wykorzystująca sztuczną inteligencję do wypełniania obszaru znaku wodnego algorytmicznie wygenerowaną treścią. Narzędzia AI analizują obszar wokół znaku wodnego i generują nowe piksele pasujące do otaczających wzorów, tekstur i kolorów. Wynik jest często bardziej naturalny niż ręczne klonowanie.\n\nObie techniki mają ograniczenia w przypadku znaków wodnych pokrywających obszary o wysokim poziomie detali, takie jak twarze, tekst lub złożone wzory. Im większy i bardziej złożony jest znak wodny, tym trudniej go usunąć bez pozostawienia artefaktów. W takich przypadkach najlepszym rozwiązaniem pozostaje uzyskanie oryginalnego obrazu bez znaku wodnego."
+          },
+          {
+            "heading": "Usuwanie znaków wodnych za pomocą ToolPic",
+            "text": "Dla znaków wodnych umieszczonych na krawędzi obrazu użyj narzędzia Znak Wodny ToolPic, które pozwala pracować z warstwami znaków wodnych. Jednak najskuteczniejszym sposobem usunięcia znaku wodnego w rogu jest użycie narzędzia Przytnij Obraz. Prześlij obraz i ustaw obszar przycinania, aby wykluczyć znak wodny, zachowując główną kompozycję.\n\nWybierz proporcje odpowiednie do Twoich potrzeb wyjściowych. Jeśli znak wodny jest w prawym dolnym rogu, dostosuj ramkę przycinania, aby wyciąć ten obszar, zachowując główny temat. Podgląd wyniku przed zastosowaniem, aby upewnić się, że kompozycja jest nadal satysfakcjonująca.\n\nDla najlepszych wyników zacznij od obrazu o najwyższej dostępnej rozdzielczości. Obrazy o wysokiej rozdzielczości dają więcej przestrzeni do przycinania, ponieważ nawet po wycięciu obszaru ze znakiem wodnym pozostała rozdzielczość jest nadal wystarczająca do zamierzonego użytku. Całe przetwarzanie odbywa się lokalnie w przeglądarce, zapewniając pełną prywatność Twoich obrazów."
+          }
+        ],
+        "relatedToolIds": "image-watermark"
+      },
+      "gif-vs-video-which-to-use": {
+        "title": "GIF vs wideo: którego formatu użyć?",
+        "metaTitle": "GIF vs wideo: Pełne porównanie i kiedy którego używać | ToolPic Blog",
+        "metaDescription": "Porównaj GIF i wideo, aby zrozumieć zalety i wady każdego formatu. Dowiedz się, kiedy używać GIF, a kiedy wideo jest lepszym wyborem.",
+        "excerpt": "Szczegółowe porównanie GIF i wideo, w tym rozmiar pliku, jakość, kompatybilność i najlepsze przypadki użycia dla każdego formatu.",
+        "content": [
+          {
+            "heading": "Zrozumienie podstawowych różnic między GIF a wideo",
+            "text": "GIF (Graphics Interchange Format) to format animowanego obrazu, który istnieje od 1987 roku. GIF odtwarza krótkie pętle animacji bez dźwięku i jest obsługiwany przez praktycznie wszystkie platformy cyfrowe. Chociaż technicznie jest formatem obrazu, GIF jest często używany jako zamiennik krótkich filmów do reakcji, krótkich tutoriali i prezentacji produktów.\n\nNowoczesne wideo używa zaawansowanych kodeków, takich jak H.264 i H.265, które efektywnie kompresują ruch. W przeciwieństwie do GIF, który przechowuje każdą klatkę indywidualnie, kodeki wideo przechowują tylko różnice między klatkami, co daje znacznie mniejsze pliki przy tej samej długości i jakości.\n\nGłówna różnica techniczna polega na tym, że GIF jest ograniczony do 256 kolorów na klatkę, nie obsługuje audio i generuje relatywnie duże pliki dla dłuższych animacji. Wideo obsługuje miliony kolorów, dźwięk stereo i zaawansowaną kompresję zachowującą wysoką jakość w kompaktowym rozmiarze pliku. Mimo to GIF ma unikalne zalety w łatwości udostępniania i uniwersalnej kompatybilności."
+          },
+          {
+            "heading": "Kiedy używać GIF",
+            "text": "GIF jest idealny dla krótkich animacji poniżej 10 sekund, które muszą automatycznie się zapętlać. Reakcje i memy to najpopularniejsze zastosowania, ponieważ GIF-y ładują się bezpośrednio w czatach, e-mailach i mediach społecznościowych bez potrzeby odtwarzacza wideo. Użytkownicy nie muszą naciskać przycisku odtwarzania, co sprawia, że GIF-y bardziej przyciągają uwagę.\n\nKrótkie tutoriale krok po kroku również dobrze sprawdzają się w formacie GIF. Pokazywanie, jak kliknąć menu, przesunąć suwak lub wykonać prostą czynność w interfejsie oprogramowania, jest skuteczniejsze jako zapętlony GIF niż wideo, które trzeba ręcznie odtworzyć. Czytelnicy mogą oglądać kroki wielokrotnie bez interakcji.\n\nW e-mail marketingu GIF jest jedynym formatem animacji szeroko obsługiwanym przez klientów pocztowych. Osadzone wideo w e-mailach ma bardzo ograniczone wsparcie, podczas gdy GIF jest wyświetlany poprawnie w Gmailu, Outlooku, Apple Mail i większości innych klientów. Animowane banery i demonstracje produktów w e-mailach marketingowych prawie zawsze używają GIF."
+          },
+          {
+            "heading": "Kiedy wideo jest lepszym wyborem",
+            "text": "Wideo jest lepszym wyborem dla treści dłuższych niż 10 sekund. Przy tej długości rozmiary plików GIF stają się niepraktyczne. GIF o długości 30 sekund może ważyć 20-50MB, podczas gdy wideo MP4 o znacznie wyższej jakości zajmuje tylko 2-5MB. Dla dłuższych treści wideo oferuje znacznie lepszą jakość przy znacznie mniejszych rozmiarach plików.\n\nTreści wymagające audio powinny zawsze używać formatu wideo. Muzyka, narracja, efekty dźwiękowe i dialogi nie mogą być zawarte w GIF. Jeśli audio jest istotną częścią Twojego przekazu, wideo jest jedynym logicznym wyborem.\n\nDla treści wymagających wysokiej jakości wizualnej, takich jak kinematografia, fotografia produktowa lub prezentacje profesjonalne, wideo zapewnia znacznie lepszą reprodukcję kolorów i detali. Ograniczenie GIF do 256 kolorów powoduje widoczne pasmowanie kolorów w gradientach i zdjęciach, podczas gdy wideo zachowuje pełną głębię kolorów."
+          },
+          {
+            "heading": "Tworzenie GIF-ów i kompresja wideo za pomocą ToolPic",
+            "text": "ToolPic oferuje narzędzia dla obu formatów. Użyj narzędzia Wideo do GIF, aby przekonwertować krótkie klipy wideo na animowane GIF-y. Prześlij swoje wideo, wybierz segment do konwersji, ustaw liczbę klatek na sekundę i rozdzielczość, a następnie pobierz wygenerowany GIF. Obniżenie liczby klatek do 10-15 FPS i rozdzielczości do 480p znacząco zmniejsza rozmiar pliku GIF.\n\nJeśli zdecydujesz, że wideo jest lepszym wyborem, użyj Kompresora Wideo, aby zoptymalizować plik wideo. Narzędzie pozwala zmniejszyć rozdzielczość, bitrate i rozmiar pliku, zachowując dobrą jakość wizualną. Do udostępniania w mediach społecznościowych kompresja do 720p ze średnim bitrate zazwyczaj daje optymalne wyniki.\n\nOba narzędzia przetwarzają pliki całkowicie w przeglądarce bez przesyłania na serwer. Oznacza to, że Twoja treść pozostaje prywatna, a przetwarzanie odbywa się natychmiast bez czekania w kolejce serwera. Spróbuj przekonwertować to samo wideo zarówno na GIF, jak i skompresowane MP4, aby porównać rozmiar pliku i jakość, a następnie wybierz format, który najlepiej pasuje."
+          }
+        ],
+        "relatedToolIds": "video-to-gif,video-compress"
+      },
+      "how-to-extract-audio-from-youtube-video": {
+        "title": "Jak wyodrębnić audio z wideo YouTube",
+        "metaTitle": "Jak wyodrębnić audio z wideo YouTube: Kompletny przewodnik | ToolPic Blog",
+        "metaDescription": "Dowiedz się, jak wyodrębniać audio z filmów YouTube różnymi legalnymi metodami. Przewodnik po formatach audio, ustawieniach jakości i najlepszych narzędziach.",
+        "excerpt": "Kompletny przewodnik o wyodrębnianiu audio z wideo, w tym najlepsze formaty, ustawienia jakości i kwestie praw autorskich.",
+        "content": [
+          {
+            "heading": "Dlaczego warto wyodrębniać audio z wideo",
+            "text": "Istnieje wiele uzasadnionych powodów do wyodrębniania audio z wideo. Podcasterzy często nagrywają swoje sesje w formacie wideo dla treści YouTube, a następnie wyodrębniają audio do dystrybucji podcastów na Spotify, Apple Podcasts i innych platformach audio. Pozwala to jednej sesji nagraniowej generować treści dla wielu platform.\n\nMuzycy i producenci audio wyodrębniają audio z filmów z występów na żywo, sesji ćwiczeniowych lub współprac nagranych na wideo. Ten surowy materiał audio może być następnie miksowany, edytowany lub używany jako sample w nowych produkcjach muzycznych.\n\nStudenci i profesjonaliści często wyodrębniają audio z prezentacji, wykładów lub webinarów, aby słuchać w podróży. Konwersja wykładów wideo na pliki audio umożliwia naukę podczas jazdy, ćwiczeń lub innych aktywności, w których oglądanie wideo jest niepraktyczne. Upewnij się, że masz pozwolenie lub treść jest licencjonowana na takie użycie."
+          },
+          {
+            "heading": "Najlepsze formaty audio do różnych zastosowań",
+            "text": "MP3 to najbardziej uniwersalny format audio obsługiwany przez każde urządzenie i platformę. Przy bitrate 192-320 kbps MP3 oferuje doskonałą jakość przy rozsądnym rozmiarze pliku. Do podcastów i treści mówionej 128 kbps jest wystarczające, ponieważ głos ludzki nie wymaga bitrate tak wysokiego jak muzyka.\n\nAAC (Advanced Audio Coding) oferuje lepszą jakość niż MP3 przy tym samym bitrate. Ten format jest standardem dla Apple Music, YouTube i wielu platform streamingowych. Jeśli Twoim głównym celem są urządzenia Apple lub streaming online, AAC przy 256 kbps zapewnia jakość porównywalną z MP3 przy 320 kbps.\n\nWAV i FLAC to formaty bezstratne, które zachowują oryginalną jakość audio bez jakiejkolwiek kompresji. WAV generuje bardzo duże pliki, ale jest uniwersalnie kompatybilny. FLAC kompresuje bez utraty jakości, generując pliki o rozmiarze około 50-60% rozmiaru WAV. Używaj formatów bezstratnych, jeśli planujesz dalszą edycję audio lub potrzebujesz najwyższej jakości archiwalnej."
+          },
+          {
+            "heading": "Kwestie praw autorskich i legalne użycie",
+            "text": "Wyodrębnianie audio z filmów, które posiadasz lub sam stworzyłeś, jest w pełni legalne. Obejmuje to filmy, które sam nagrałeś, treści, które wyprodukowałeś, lub filmy, do których masz pełne prawa autorskie.\n\nW przypadku treści YouTube należy pamiętać, że większość filmów jest chroniona prawem autorskim. Pobieranie i wyodrębnianie audio z filmów YouTube należących do innych osób w celu redystrybucji narusza warunki korzystania z YouTube i potencjalnie łamie prawo autorskie. Jednakże niektóre treści są licencjonowane na Creative Commons, co pozwala na ponowne wykorzystanie z atrybucją.\n\nTreści z domeny publicznej, materiały licencjonowane na Creative Commons i treści, na których używanie masz pisemną zgodę, stanowią uzasadnione wyjątki. Zawsze sprawdzaj licencję przed wyodrębnieniem i ponownym użyciem audio z jakiegokolwiek źródła. W razie wątpliwości skontaktuj się z właścicielem treści, aby uzyskać wyraźną zgodę."
+          },
+          {
+            "heading": "Wyodrębnianie audio z wideo za pomocą ToolPic",
+            "text": "Otwórz narzędzie Wyodrębnij Audio z Wideo ToolPic i prześlij swój plik wideo. Narzędzie obsługuje popularne formaty wideo, w tym MP4, WebM, MOV i AVI. Wideo jest przetwarzane całkowicie w przeglądarce przy użyciu technologii WebAssembly, więc plik nigdy nie opuszcza Twojego urządzenia.\n\nWybierz pożądany format wyjściowy audio. MP3 jest odpowiedni do większości ogólnych potrzeb, w tym podcastów i swobodnego słuchania. Wybierz AAC dla lepszej jakości przy tym samym rozmiarze pliku lub WAV dla bezstratnej jakości bez kompresji.\n\nKliknij wyodrębnij i poczekaj na zakończenie przetwarzania. Czas przetwarzania zależy od długości wideo i szybkości Twojego urządzenia. Po zakończeniu pobierz wygenerowany plik audio. Narzędzie wyodrębnia oryginalną ścieżkę audio z wideo bez ponownego kodowania, gdy jest to możliwe, zachowując maksymalną jakość audio. Dla dłuższych filmów przetwarzanie może zająć kilka minut, ponieważ wszystkie obliczenia są wykonywane lokalnie w przeglądarce."
+          }
+        ],
+        "relatedToolIds": "video-extract-audio"
       }
     }
   }

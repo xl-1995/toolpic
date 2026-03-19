@@ -946,6 +946,131 @@
             "text": "Tải lên video chất lượng cao. TikTok tự áp dụng nén nên bắt đầu với chất lượng cao sẽ cho kết quả cuối cùng tốt hơn. Tối thiểu cần độ phân giải 720p nhưng 1080p là lý tưởng.\n\n3 giây đầu tiên là quan trọng nhất. Người xem quyết định trong khoảng thời gian đó liệu có tiếp tục xem hay cuộn qua. Vì vậy hãy làm phần mở đầu thật hấp dẫn và thu hút ngay lập tức.\n\nĐối với SEO trên TikTok, sử dụng hashtag phù hợp, chú thích hiệu quả và âm thanh xu hướng. Chất lượng kỹ thuật và nội dung kết hợp cùng nhau để tăng cơ hội viral. Sử dụng các công cụ miễn phí của ToolPic để làm cho video của bạn hoàn hảo về mặt kỹ thuật."
           }
         ]
+      },
+      "how-to-resize-image-without-losing-quality": {
+        "title": "Cách thay đổi kích thước ảnh mà không mất chất lượng",
+        "metaTitle": "Thay đổi kích thước ảnh không mất chất lượng - Hướng dẫn miễn phí | ToolPic Blog",
+        "metaDescription": "Tìm hiểu các kỹ thuật tốt nhất để thay đổi kích thước ảnh mà vẫn giữ chất lượng. Hướng dẫn thực tế cho web, mạng xã hội và in ấn.",
+        "excerpt": "Hướng dẫn đầy đủ về công cụ và kỹ thuật để thay đổi kích thước ảnh mà vẫn giữ được chất lượng gốc.",
+        "relatedToolIds": "image-crop",
+        "content": [
+          {
+            "heading": "Tại sao việc thay đổi kích thước ảnh quan trọng",
+            "text": "Trong thế giới số, việc có ảnh đúng kích thước là vô cùng quan trọng. Ảnh quá lớn trên website làm chậm tốc độ tải trang, khiến khách truy cập rời đi trước khi xem được nội dung. Các nền tảng mạng xã hội có kích thước riêng và việc tải ảnh sai kích thước khiến nền tảng tự động cắt hoặc kéo giãn, làm giảm chất lượng.\n\nĐối với cửa hàng thương mại điện tử, ảnh sản phẩm có kích thước đồng nhất là điều bắt buộc để trông chuyên nghiệp. Trong email marketing, file ảnh quá nặng ảnh hưởng đến việc gửi email và trải nghiệm người dùng.\n\nThay đổi kích thước không chỉ là thu nhỏ. Đôi khi bạn cần phóng to ảnh nhỏ để in ấn hoặc hiển thị trên màn hình lớn. Trong cả hai trường hợp, sử dụng kỹ thuật đúng là cần thiết để ảnh luôn sắc nét và rõ ràng."
+          },
+          {
+            "heading": "Tại sao mất chất lượng và cách ngăn chặn",
+            "text": "Khi bạn phóng to ảnh vượt quá kích thước gốc, phần mềm phải tạo ra các pixel mới. Quá trình này gọi là nội suy và có thể làm ảnh bị mờ hoặc bị vỡ hạt. Cách tốt nhất là luôn bắt đầu từ độ phân giải cao nhất có sẵn và thu nhỏ xuống.\n\nNgay cả khi thu nhỏ cũng có thể mất chất lượng nếu không dùng thuật toán đúng. Nội suy song tuyến và song khối là các phương pháp phổ biến nhất cho kết quả mượt mà. Thuật toán Lanczos cho độ sắc nét tốt hơn và được các chuyên gia ưa chuộng.\n\nGiữ nguyên tỷ lệ khung hình là cực kỳ quan trọng. Nếu bạn thay đổi chiều rộng và chiều cao với tỷ lệ khác nhau, ảnh sẽ bị kéo giãn hoặc bóp méo. Luôn sử dụng tùy chọn khóa tỷ lệ hoặc cắt theo tỷ lệ định sẵn."
+          },
+          {
+            "heading": "Kích thước đúng cho từng mục đích sử dụng",
+            "text": "Ảnh hero trên website nên là 1920x1080 pixel. Ảnh bài blog nên là 1200x800 pixel. Ảnh thumbnail 400x300 pixel là đủ. Thay đổi kích thước theo các kích cỡ này giúp cải thiện đáng kể tốc độ tải trang.\n\nĐối với mạng xã hội, mỗi nền tảng có yêu cầu riêng. Bài đăng Instagram 1080x1080 pixel vuông, ảnh bìa Facebook 820x312, header Twitter 1500x500 và banner LinkedIn 1584x396 pixel.\n\nĐối với in ấn, độ phân giải cần đạt 300 DPI. Bản in 10x15 cm cần ảnh khoảng 1200x1800 pixel. Poster và banner lớn cần độ phân giải cao hơn nữa. Luôn xem xét mục đích sử dụng cuối cùng trước khi thay đổi kích thước."
+          },
+          {
+            "heading": "Thay đổi kích thước ảnh với ToolPic",
+            "text": "Công cụ Image Crop của ToolPic là giải pháp đơn giản nhất để thay đổi kích thước ảnh. Tải ảnh lên và chọn tỷ lệ khung hình mong muốn: 1:1 vuông, 16:9 rộng, 4:5 dọc hoặc kích thước tùy chỉnh. Công cụ khóa tỷ lệ khung hình để tránh bất kỳ biến dạng nào.\n\nKéo để điều chỉnh vùng cắt và kiểm tra kết quả cuối cùng trong bản xem trước. Khi hài lòng, áp dụng và tải xuống ở chất lượng cao.\n\nToàn bộ xử lý diễn ra trong trình duyệt, nên ảnh của bạn không bao giờ được tải lên bất kỳ máy chủ nào. Điều này đảm bảo quyền riêng tư tuyệt đối. Với xử lý hàng loạt, bạn có thể thay đổi kích thước nhiều ảnh cùng lúc về cùng một kích cỡ, tiết kiệm hàng giờ làm việc thủ công."
+          }
+        ]
+      },
+      "linkedin-image-sizes-guide": {
+        "title": "Hướng dẫn kích thước ảnh LinkedIn: Đúng kích cỡ cho mọi bài đăng",
+        "metaTitle": "Hướng dẫn kích thước ảnh LinkedIn 2026 - Mọi kích cỡ và mẹo | ToolPic Blog",
+        "metaDescription": "Tìm hiểu kích thước đúng cho ảnh hồ sơ, banner, bài đăng và bài viết LinkedIn. Cắt và nén ảnh miễn phí.",
+        "excerpt": "Hướng dẫn đầy đủ về kích thước ảnh đúng và mẹo tối ưu hóa cho mọi phần trên LinkedIn.",
+        "relatedToolIds": "image-crop,image-compressor",
+        "content": [
+          {
+            "heading": "Tại sao nội dung hình ảnh trên LinkedIn quan trọng",
+            "text": "LinkedIn là mạng lưới chuyên nghiệp lớn nhất thế giới với hơn 900 triệu người dùng. Bài đăng có hình ảnh nhận được gấp đôi tương tác so với bài chỉ có văn bản. Ảnh đúng kích thước trông chuyên nghiệp và tăng uy tín của bạn trong mạng lưới.\n\nTải ảnh sai kích thước khiến LinkedIn tự động cắt hoặc thay đổi kích thước, có thể cắt mất phần quan trọng hoặc làm ảnh bị mờ. Điều này trông thiếu chuyên nghiệp và có thể ảnh hưởng đến hình ảnh thương hiệu của bạn.\n\nLinkedIn yêu cầu kích thước khác nhau cho các phần khác nhau: ảnh hồ sơ, banner nền, ảnh bài đăng, ảnh bìa bài viết và trang công ty. Biết kích thước đúng cho từng phần là điều cần thiết."
+          },
+          {
+            "heading": "Kích thước hồ sơ và banner LinkedIn",
+            "text": "Ảnh hồ sơ nên là 400x400 pixel. LinkedIn cắt nó thành hình tròn nên hãy đặt khuôn mặt ở giữa và chừa khoảng trống ở viền. Tải lên dưới định dạng JPG hoặc PNG, dung lượng dưới 8MB.\n\nẢnh banner nền nên là 1584x396 pixel với tỷ lệ 4:1. Trên điện thoại, một số phần banner bị cắt nên hãy đặt văn bản và đồ họa quan trọng ở vùng trung tâm.\n\nLogo trang công ty nên là 300x300 pixel và ảnh bìa công ty là 1128x191 pixel. Tuân thủ các kích thước này đảm bảo hồ sơ và trang công ty của bạn luôn sắc nét và chuyên nghiệp trên mọi thiết bị."
+          },
+          {
+            "heading": "Kích thước ảnh bài đăng và bài viết LinkedIn",
+            "text": "Ảnh bài đăng trên feed nên là 1200x627 pixel (tỷ lệ 1.91:1). Ảnh vuông 1200x1200 cũng hoạt động tốt và chiếm nhiều không gian màn hình hơn trên điện thoại. Ảnh dọc 1200x1500 (tỷ lệ 4:5) chiếm nhiều diện tích màn hình nhất.\n\nẢnh bìa bài viết LinkedIn nên là 1200x644 pixel. Ảnh trong bài viết nên rộng 1200 pixel để hiển thị sắc nét.\n\nĐối với tài liệu carousel (slide PDF), sử dụng 1080x1080 hoặc 1080x1350 pixel. Những định dạng này nhận được tương tác rất cao trên LinkedIn. Văn bản trên mỗi slide phải lớn và dễ đọc vì hầu hết mọi người xem trên điện thoại."
+          },
+          {
+            "heading": "Chuẩn bị ảnh LinkedIn với ToolPic",
+            "text": "Dùng công cụ Image Crop của ToolPic để cắt ảnh theo kích thước LinkedIn chính xác. Đặt tỷ lệ khung hình tùy chỉnh: 1:1 cho ảnh hồ sơ, 4:1 cho banner hoặc 1.91:1 cho ảnh bài đăng. Công cụ hiển thị kích thước pixel chính xác để bạn có được kích cỡ hoàn hảo.\n\nDùng Image Compressor để giảm dung lượng file mà không mất chất lượng nhìn thấy được. Cài đặt chất lượng 80-85% là lý tưởng cho ảnh LinkedIn. File nhỏ hơn tải lên nhanh hơn và LinkedIn áp dụng ít nén bổ sung hơn.\n\nCả hai công cụ đều hoạt động hoàn toàn trong trình duyệt. Không cần đăng ký, không cần tải lên, không giới hạn. Chuẩn bị tất cả ảnh LinkedIn của bạn ở kích thước chuyên nghiệp chỉ trong vài phút."
+          }
+        ]
+      },
+      "how-to-remove-watermark-from-photo": {
+        "title": "Cách xóa watermark khỏi ảnh: Phương pháp hợp pháp và lựa chọn thay thế",
+        "metaTitle": "Cách xóa watermark khỏi ảnh hợp pháp | ToolPic Blog",
+        "metaDescription": "Tìm hiểu các cách hợp pháp để có ảnh không watermark. Hướng dẫn về giấy phép ảnh stock, lựa chọn miễn phí và tạo ảnh gốc.",
+        "excerpt": "Các lựa chọn thay thế hợp pháp cho ảnh có watermark và cách tạo ảnh chuyên nghiệp không watermark của riêng bạn.",
+        "relatedToolIds": "image-watermark",
+        "content": [
+          {
+            "heading": "Tại sao watermark tồn tại",
+            "text": "Watermark là công cụ quan trọng để bảo vệ tài sản trí tuệ của nhiếp ảnh gia và nhà sáng tạo nội dung. Các trang web ảnh stock đặt watermark trên ảnh xem trước để ngăn việc sử dụng mà không trả phí. Nhiếp ảnh gia dùng watermark để cho khách hàng xem trước khi thanh toán.\n\nXóa watermark khỏi ảnh của người khác là bất hợp pháp ở hầu hết các quốc gia. Đây được coi là vi phạm bản quyền và có thể dẫn đến hậu quả pháp lý nghiêm trọng. Theo DMCA và luật bản quyền, việc xóa watermark là hành vi phạm pháp có thể bị truy tố.\n\nVì vậy, thay vì xóa watermark, hãy cân nhắc các phương án thay thế hợp pháp. Có nhiều cách để có được ảnh chất lượng cao không watermark mà không gặp bất kỳ vấn đề pháp lý nào."
+          },
+          {
+            "heading": "Cách hợp pháp để có ảnh không watermark",
+            "text": "Cách trực tiếp nhất là mua giấy phép. Các trang như Shutterstock, Adobe Stock, Getty Images cung cấp ảnh sạch, độ phân giải cao sau khi mua giấy phép. Giá bắt đầu từ vài đô la mỗi ảnh và rẻ hơn nhiều với gói đăng ký.\n\nCác trang ảnh stock miễn phí là lựa chọn tuyệt vời. Unsplash, Pexels, Pixabay cung cấp hàng triệu ảnh chất lượng cao không watermark và miễn phí. Hầu hết đều được phép sử dụng cho mục đích thương mại.\n\nẢnh có giấy phép Creative Commons cũng là một lựa chọn. Trên Flickr và Wikimedia Commons, nhiều ảnh có sẵn dưới giấy phép CC cho phép sử dụng miễn phí, miễn là bạn ghi nguồn tác giả gốc."
+          },
+          {
+            "heading": "Tạo ảnh chuyên nghiệp của riêng bạn",
+            "text": "Camera điện thoại thông minh đã tiên tiến đến mức bạn có thể tự chụp ảnh chất lượng chuyên nghiệp. Với ánh sáng tốt, tay vững và bố cục đúng, điện thoại của bạn có thể tạo ra ảnh ngang tầm ảnh stock.\n\nCác công cụ tạo ảnh AI như DALL-E, Midjourney và Stable Diffusion cho phép bạn tạo ảnh độc đáo từ mô tả văn bản. Những ảnh này hoàn toàn gốc và không có vấn đề bản quyền hay watermark.\n\nCông cụ thiết kế như Canva, Figma cho phép tạo đồ họa và minh họa tùy chỉnh. Chúng cung cấp mẫu và phần tử miễn phí để tạo đồ họa chuyên nghiệp cho mọi nhu cầu."
+          },
+          {
+            "heading": "Làm chuyên nghiệp ảnh của bạn với ToolPic",
+            "text": "Nếu bạn tự chụp ảnh, hãy dùng công cụ Image Watermark của ToolPic để thêm watermark của riêng bạn. Thêm tên, thương hiệu hoặc logo làm watermark để bảo vệ ảnh và duy trì bản sắc của bạn.\n\nTrước khi thêm watermark, dùng Image Crop để cắt ảnh đúng kích thước và tỷ lệ. Chọn kích cỡ phù hợp cho mạng xã hội, website hoặc bài thuyết trình.\n\nTất cả công cụ ToolPic hoạt động trong trình duyệt và hoàn toàn miễn phí. Ảnh của bạn không bao giờ được tải lên bất kỳ máy chủ bên ngoài nào. Điều này đảm bảo quyền riêng tư và bảo mật hoàn toàn. Tạo ảnh gốc của riêng bạn và bảo vệ chúng một cách chuyên nghiệp."
+          }
+        ]
+      },
+      "gif-vs-video-which-to-use": {
+        "title": "GIF và Video: Khi nào dùng định dạng nào",
+        "metaTitle": "GIF và Video: Định dạng nào tốt hơn? | ToolPic Blog",
+        "metaDescription": "So sánh GIF và video: dung lượng, chất lượng, ứng dụng và chuyển đổi. Tìm hiểu khi nào GIF tốt hơn và khi nào video là lựa chọn đúng.",
+        "excerpt": "Hướng dẫn đầy đủ về sự khác biệt giữa GIF và video, ưu nhược điểm và cách chọn đúng định dạng.",
+        "relatedToolIds": "video-to-gif,video-compress",
+        "content": [
+          {
+            "heading": "Sự khác biệt giữa GIF và video",
+            "text": "GIF (Graphics Interchange Format) là định dạng ảnh động tồn tại từ năm 1987. Nó tự động lặp lại, không có âm thanh và hỗ trợ tối đa 256 màu. Ưu điểm lớn nhất của GIF là hoạt động trên hầu hết mọi nền tảng mà không cần trình phát riêng.\n\nCác định dạng video như MP4, WebM hỗ trợ hàng triệu màu, nén tốt hơn nhiều và có thể bao gồm âm thanh. Định dạng MP4 với codec H.264 là định dạng video được hỗ trợ rộng rãi nhất.\n\nSự khác biệt về dung lượng file rất lớn. Một clip 5 giây ở 720p dạng GIF có thể nặng 10-20MB trong khi cùng nội dung ở MP4 chỉ 500KB-1MB. Sự chênh lệch 10-20 lần này có tác động lớn đến tốc độ tải và băng thông."
+          },
+          {
+            "heading": "Khi nào GIF tốt hơn",
+            "text": "GIF hoàn hảo cho phản ứng trên mạng xã hội và meme. Chia sẻ GIF trên WhatsApp, Telegram, Slack và Discord cực kỳ dễ dàng và chúng phát ngay lập tức. Sticker động nhỏ và hoạt ảnh kiểu emoji hoạt động tốt nhất ở định dạng GIF.\n\nTrong email marketing, GIF rất hiệu quả. Hầu hết ứng dụng email không hỗ trợ video nhưng hỗ trợ GIF. Thêm GIF vào email như demo sản phẩm hoặc yếu tố thu hút sự chú ý có thể tăng đáng kể tỷ lệ click.\n\nTrong hướng dẫn UI/UX và demo phần mềm, GIF ngắn rất hiệu quả. Chèn GIF vào file README GitHub, tài liệu và bài hỗ trợ là cách đơn giản nhất để minh họa quy trình mà không cần trình phát video riêng."
+          },
+          {
+            "heading": "Khi nào video tốt hơn",
+            "text": "Đối với nội dung dài, video luôn tốt hơn. Bất kỳ clip nào dài hơn 10 giây đều nên dùng định dạng video vì dung lượng GIF sẽ trở nên quá lớn không thực tế.\n\nVề hiệu suất website, video tốt hơn nhiều. Phần tử video HTML5 với các thuộc tính autoplay, loop và muted hoạt động như GIF nhưng dung lượng file nhỏ hơn 90%. Điều này cải thiện đáng kể tốc độ tải trang.\n\nỞ những nơi cần âm thanh, video là lựa chọn duy nhất. Đối với hướng dẫn, đánh giá sản phẩm, phỏng vấn và bất kỳ nội dung nào có giọng nói, hãy chọn video. Nội dung hình ảnh chất lượng cao như trưng bày ảnh hoặc clip điện ảnh cũng nên dùng video."
+          },
+          {
+            "heading": "Chuyển đổi giữa GIF và video với ToolPic",
+            "text": "Công cụ Video to GIF của ToolPic dễ dàng chuyển video thành GIF. Tải video lên, chọn thời điểm bắt đầu và kết thúc, điều chỉnh tốc độ khung hình và kích thước rồi chuyển đổi. Công cụ tạo GIF tối ưu với sự cân bằng đúng giữa chất lượng và dung lượng file.\n\nDùng Video Compress để giảm dung lượng video mà không mất chất lượng. Điều chỉnh độ phân giải và bitrate để tối ưu video cho mạng xã hội hoặc ứng dụng nhắn tin.\n\nCả hai công cụ đều dựa trên công nghệ WebAssembly (FFmpeg) và hoạt động hoàn toàn trong trình duyệt. Không file nào được tải lên máy chủ, không giới hạn dung lượng và không cần đăng ký. Tạo GIF hoặc nén video, tất cả miễn phí và hoàn toàn riêng tư."
+          }
+        ]
+      },
+      "how-to-extract-audio-from-youtube-video": {
+        "title": "Cách trích xuất âm thanh từ video: Hướng dẫn đầy đủ",
+        "metaTitle": "Trích xuất âm thanh từ video - Phương pháp miễn phí | ToolPic Blog",
+        "metaDescription": "Tìm hiểu cách đơn giản và miễn phí nhất để trích xuất âm thanh từ file video. Hướng dẫn chuyển đổi MP4 sang MP3 và trích xuất audio.",
+        "excerpt": "Những cách đơn giản và an toàn nhất để trích xuất track âm thanh từ file video.",
+        "relatedToolIds": "video-extract-audio",
+        "content": [
+          {
+            "heading": "Tại sao cần trích xuất âm thanh từ video",
+            "text": "Có nhiều tình huống bạn chỉ cần phần âm thanh của video. Người làm podcast trích xuất âm thanh từ phỏng vấn video để tạo tập chỉ có audio. Nhạc sĩ tách track âm thanh từ bản ghi video biểu diễn trực tiếp. Sinh viên trích xuất âm thanh từ video bài giảng để nghe khi di chuyển.\n\nFile âm thanh nhỏ hơn video rất nhiều. Video 10 phút ở 1080p có thể nặng 200MB trong khi âm thanh MP3 của nó chỉ 10MB. Điều này tiết kiệm không gian lưu trữ và giảm tiêu thụ dữ liệu di động.\n\nTrích xuất âm thanh cũng hữu ích trong biên tập video. Để chỉnh sửa riêng nhạc nền, lời thoại hoặc hiệu ứng âm thanh, trước tiên cần tách chúng ra từ video gốc."
+          },
+          {
+            "heading": "Hiểu về các định dạng âm thanh",
+            "text": "MP3 là định dạng âm thanh phổ biến nhất. Nó sử dụng nén có mất dữ liệu và cho chất lượng tốt ở bitrate 128-320 kbps. Hầu như mọi thiết bị và ứng dụng đều hỗ trợ MP3, khiến nó trở thành lựa chọn phổ quát nhất.\n\nAAC (Advanced Audio Coding) cho chất lượng tốt hơn MP3, đặc biệt ở bitrate thấp. Đây là định dạng mặc định trên thiết bị Apple và YouTube cũng sử dụng audio AAC.\n\nWAV và FLAC là định dạng không mất dữ liệu, không giảm chất lượng âm thanh. Được ưa chuộng trong sản xuất âm thanh chuyên nghiệp nhưng dung lượng file gấp 5-10 lần MP3. OGG Vorbis là lựa chọn mã nguồn mở cung cấp sự cân bằng tốt giữa chất lượng và dung lượng."
+          },
+          {
+            "heading": "Trích xuất âm thanh hợp pháp",
+            "text": "Trích xuất âm thanh từ file video của chính bạn là hoàn toàn hợp pháp. Nếu bạn đã ghi video hoặc có giấy phép sử dụng, bạn có thể dùng âm thanh theo bất kỳ cách nào bạn muốn.\n\nTải nội dung từ các nền tảng như YouTube có thể vi phạm điều khoản dịch vụ của họ. Tải nội dung có bản quyền mà không được phép có thể gây ra vấn đề pháp lý nghiêm trọng. Luôn xin phép chủ sở hữu nội dung hoặc sử dụng nội dung có giấy phép Creative Commons.\n\nCách an toàn nhất là trích xuất âm thanh từ file video đã có sẵn trên thiết bị. Bản ghi màn hình, video cá nhân, nội dung có giấy phép hoặc video do bạn tạo đều là nguồn hoàn toàn hợp pháp."
+          },
+          {
+            "heading": "Trích xuất âm thanh với ToolPic",
+            "text": "Công cụ Video Extract Audio của ToolPic là cách đơn giản nhất để trích xuất âm thanh từ video. Tải file video (MP4, WebM, MOV, AVI v.v.) lên và chọn định dạng đầu ra. Công cụ tách track âm thanh từ video và lưu ở định dạng đã chọn.\n\nXử lý diễn ra hoàn toàn trong trình duyệt qua công nghệ WebAssembly (FFmpeg). File video của bạn không bao giờ được tải lên bất kỳ máy chủ nào. Đây là phương pháp tốt nhất cho quyền riêng tư và bảo mật.\n\nCông cụ có thể xuất sang MP3, AAC, WAV và các định dạng âm thanh khác. Điều chỉnh bitrate và cài đặt chất lượng theo nhu cầu. Khi xử lý hoàn tất, file âm thanh có sẵn để tải xuống ngay. Không cần đăng ký, không giới hạn, hoàn toàn miễn phí."
+          }
+        ]
       }
     }
   }

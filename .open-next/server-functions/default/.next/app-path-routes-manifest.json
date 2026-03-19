@@ -1,10 +1,10 @@
 {
-  "/robots.txt/route": "/robots.txt",
   "/sitemap.xml/route": "/sitemap.xml",
+  "/robots.txt/route": "/robots.txt",
   "/_not-found/page": "/_not-found",
-  "/[locale]/page": "/[locale]",
-  "/[locale]/tools/[slug]/page": "/[locale]/tools/[slug]",
-  "/[locale]/tools/s/[slug]/page": "/[locale]/tools/s/[slug]",
   "/[locale]/blog/page": "/[locale]/blog",
-  "/[locale]/blog/[slug]/page": "/[locale]/blog/[slug]"
+  "/[locale]/blog/[slug]/page": "/[locale]/blog/[slug]",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/tools/s/[slug]/page": "/[locale]/tools/s/[slug]",
+  "/[locale]/tools/[slug]/page": "/[locale]/tools/[slug]"
 }

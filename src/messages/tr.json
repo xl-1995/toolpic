@@ -946,6 +946,131 @@
             "text": "Yüksek kaliteli video yükleyin. TikTok kendi sıkıştırmasını uygular, bu nedenle başlangıçta yüksek kalite ile başlamak daha iyi bir sonuç verir. Minimum 720p çözünürlük gereklidir ancak 1080p idealdir.\n\nİlk 3 saniye en kritik anlardır. İzleyiciler bu sürede videoyu izlemeye devam edip etmeyeceğine karar verir. Bu nedenle başlangıcı hemen dikkat çekici yapın.\n\nTikTok SEO için doğru hashtag, altyazı ve trend sesler kullanın. Teknik kalite ve içerik birlikte çalışarak viral olma şansını artırır. ToolPic'in ücretsiz araçlarıyla videolarınızı teknik açıdan kusursuz hale getirin."
           }
         ]
+      },
+      "how-to-resize-image-without-losing-quality": {
+        "title": "Kalite Kaybetmeden Görsel Boyutu Nasıl Değiştirilir",
+        "metaTitle": "Kalite Kaybetmeden Görsel Boyutlandırma - Ücretsiz Rehber | ToolPic Blog",
+        "metaDescription": "Kaliteyi koruyarak görsel boyutunu değiştirmenin en iyi yöntemlerini öğrenin. Web, sosyal medya ve baskı için doğru boyutlandırma teknikleri.",
+        "excerpt": "Görselleri boyutlandırırken kaliteyi korumanın doğru araçları ve teknikleri hakkında kapsamlı rehber.",
+        "relatedToolIds": "image-crop",
+        "content": [
+          {
+            "heading": "Görsel Boyutlandırma Neden Önemlidir",
+            "text": "Dijital dünyada görsellerin doğru boyutta olması son derece önemlidir. Web sitelerinde büyük görseller sayfa yüklenmesini yavaşlatır ve ziyaretçilerin siteyi terk etmesine neden olur. Sosyal medya platformlarının kendine özgü boyut gereksinimleri vardır ve yanlış boyutta görsel yüklendiğinde platform otomatik olarak kırpar veya gerer, bu da kaliteyi bozar.\n\nE-ticaret mağazaları için ürün görsellerinin tek tip boyutta olması profesyonel görünüm açısından zorunludur. E-posta pazarlamada büyük görsel dosyaları e-posta teslimini olumsuz etkiler.\n\nBoyutlandırma sadece küçültme değildir. Bazen küçük görselleri baskı veya büyük ekranlarda gösterim için büyütmeniz gerekir. Her iki durumda da doğru tekniği kullanmak görselin keskin ve net kalması için şarttır."
+          },
+          {
+            "heading": "Kalite Kaybı Neden Olur ve Nasıl Önlenir",
+            "text": "Bir görseli orijinal boyutunun üzerine büyüttüğünüzde yazılımın yeni pikseller oluşturması gerekir. İnterpolasyon adı verilen bu süreç görseli bulanıklaştırabilir veya pikselleştirebilir. En iyi yaklaşım her zaman en yüksek çözünürlükten başlayıp aşağı doğru boyutlandırmaktır.\n\nKüçültürken de doğru algoritma kullanılmazsa kalite kaybı yaşanabilir. Bilineer ve bikübik interpolasyon en yaygın yöntemlerdir ve pürüzsüz sonuçlar üretir. Lanczos algoritması daha iyi keskinlik sağlar ve profesyoneller tarafından tercih edilir.\n\nGörselin en-boy oranını korumak kritik öneme sahiptir. Genişlik ve yüksekliği farklı oranlarla değiştirirseniz görsel gerilir veya sıkışır. Her zaman en-boy oranı kilitleme seçeneğini kullanın veya önceden belirlenmiş oranlarla kırpma yapın."
+          },
+          {
+            "heading": "Farklı Kullanımlar İçin Doğru Boyutlar",
+            "text": "Web sitesi hero görselleri için 1920x1080 piksel idealdir. Blog yazısı görselleri 1200x800 piksel, küçük resimler 400x300 piksel yeterlidir. Bu boyutlara uygun boyutlandırma sayfa hızını önemli ölçüde artırır.\n\nSosyal medya için her platformun kendine özgü gereksinimleri vardır. Instagram gönderileri 1080x1080 kare, Facebook kapak 820x312, Twitter başlık 1500x500 ve LinkedIn banner 1584x396 piksel olmalıdır.\n\nBaskı için çözünürlük 300 DPI olmalıdır. 10x15 cm baskı için yaklaşık 1200x1800 piksellik görsel gerekir. Büyük poster ve banner'lar için daha yüksek çözünürlük gerekir. Boyutlandırmadan önce her zaman nihai kullanım amacını göz önünde bulundurun."
+          },
+          {
+            "heading": "ToolPic ile Görselleri Boyutlandırma",
+            "text": "ToolPic'in Image Crop aracı görsel boyutlandırma için en kolay çözümdür. Görselinizi yükleyin ve istediğiniz en-boy oranını seçin: 1:1 kare, 16:9 geniş ekran, 4:5 dikey veya özel boyutlar. Araç en-boy oranını kilitleyerek herhangi bir bozulmayı önler.\n\nKırpma alanını sürükleyerek ayarlayın ve önizlemede son sonucun nasıl görüneceğini kontrol edin. Memnun olduğunuzda uygulayın ve yüksek kalitede indirin.\n\nTüm işlemler tarayıcınızda gerçekleşir, bu nedenle görselleriniz hiçbir zaman bir sunucuya yüklenmez. Bu gizlilik açısından mükemmeldir. Toplu işleme ile birden fazla görseli aynı anda aynı boyuta getirebilir, saatlerce sürecek manuel işten tasarruf edebilirsiniz."
+          }
+        ]
+      },
+      "linkedin-image-sizes-guide": {
+        "title": "LinkedIn Görsel Boyutları Rehberi: Her Gönderi İçin Doğru Ölçüler",
+        "metaTitle": "LinkedIn Görsel Boyutları Rehberi 2026 - Tüm Ölçüler ve İpuçları | ToolPic Blog",
+        "metaDescription": "LinkedIn profil fotoğrafı, banner, gönderi ve makale için doğru görsel boyutlarını öğrenin. Görselleri ücretsiz kırpın ve sıkıştırın.",
+        "excerpt": "LinkedIn'in her bölümü için doğru görsel boyutları ve optimizasyon ipuçlarının kapsamlı rehberi.",
+        "relatedToolIds": "image-crop,image-compressor",
+        "content": [
+          {
+            "heading": "LinkedIn'de Görsel İçerik Neden Önemlidir",
+            "text": "LinkedIn, 900 milyondan fazla kullanıcıya sahip dünyanın en büyük profesyonel ağıdır. Görsel içeren gönderiler yalnızca metin içeren gönderilere kıyasla iki kattan fazla etkileşim alır. Doğru boyutta görseller profesyonel görünür ve ağdaki güvenilirliğinizi artırır.\n\nYanlış boyutta görsel yüklendiğinde LinkedIn otomatik olarak kırpar veya boyutlandırır, bu da önemli bölümlerin kesilmesine veya görselin bulanıklaşmasına yol açabilir. Bu profesyonel olmayan bir görünüm yaratır.\n\nLinkedIn'de profil fotoğrafı, arka plan banner'ı, gönderi görseli, makale kapağı ve şirket sayfası gibi farklı bölümler için farklı boyutlar gerekir. Her birinin doğru ölçülerini bilmek profesyonel varlık için şarttır."
+          },
+          {
+            "heading": "LinkedIn Profil ve Banner Boyutları",
+            "text": "Profil fotoğrafı 400x400 piksel olmalıdır. LinkedIn bunu dairesel şekilde kırpar, bu yüzden yüzünüzü ortada tutun ve kenarlarda biraz boşluk bırakın. JPG veya PNG formatında yükleyin, dosya boyutu 8MB'ın altında olsun.\n\nArka plan banner görseli 1584x396 piksel olmalıdır ve 4:1 en-boy oranındadır. Mobilde banner'ın bazı kısımları kesilir, bu nedenle önemli metin ve grafikleri ortada konumlandırın.\n\nŞirket sayfası logosu 300x300 piksel, şirket kapak görseli ise 1128x191 piksel olmalıdır. Bu ölçülere uymak profilinizin ve şirket sayfanızın tüm cihazlarda keskin ve profesyonel görünmesini sağlar."
+          },
+          {
+            "heading": "LinkedIn Gönderi ve Makale Görsel Boyutları",
+            "text": "Akış gönderisi görselleri için 1200x627 piksel (1.91:1 oranı) en uygunudur. Kare görseller 1200x1200 de iyi çalışır ve mobilde daha fazla ekran alanı kaplar. Dikey görseller 1200x1500 (4:5 oranı) en fazla ekran alanını kaplar.\n\nLinkedIn makale kapak görseli 1200x644 piksel olmalıdır. Makale içindeki görseller net görünmeleri için 1200 piksel genişliğinde tutulmalıdır.\n\nKarusel belgeleri (PDF slaytlar) için 1080x1080 veya 1080x1350 piksel kullanın. Bunlar LinkedIn'de çok yüksek etkileşim alır. Her slaydın metni büyük ve kolay okunabilir olmalıdır çünkü çoğu kişi mobil cihazdan görüntüler."
+          },
+          {
+            "heading": "ToolPic ile LinkedIn Görselleri Hazırlama",
+            "text": "ToolPic'in Image Crop aracıyla görsellerinizi LinkedIn'in doğru ölçülerine kırpın. Özel en-boy oranı ayarlayın: profil fotoğrafı için 1:1, banner için 4:1 veya gönderi görseli için 1.91:1. Araç mükemmel boyutu elde etmeniz için tam piksel ölçülerini gösterir.\n\nImage Compressor ile görünür kalite kaybı olmadan dosya boyutunu küçültün. %80-85 kalite ayarı LinkedIn görselleri için idealdir. Küçük dosyalar daha hızlı yüklenir ve LinkedIn daha az ek sıkıştırma uygular.\n\nHer iki araç da tamamen tarayıcıda çalışır. Kayıt yok, yükleme yok, sınır yok. Tüm LinkedIn görsellerinizi dakikalar içinde profesyonel boyutlarda hazırlayın."
+          }
+        ]
+      },
+      "how-to-remove-watermark-from-photo": {
+        "title": "Fotoğraftan Filigran Nasıl Kaldırılır: Yasal Yöntemler ve Alternatifler",
+        "metaTitle": "Fotoğraftan Filigran Kaldırmanın Yasal Yolları | ToolPic Blog",
+        "metaDescription": "Filigransız görsel elde etmenin yasal yollarını öğrenin. Stok fotoğraf lisansları, ücretsiz alternatifler ve kendi görsellerinizi oluşturma rehberi.",
+        "excerpt": "Filigranlı fotoğraflara yasal alternatifler ve kendi profesyonel filigransız görsellerinizi oluşturma yolları.",
+        "relatedToolIds": "image-watermark",
+        "content": [
+          {
+            "heading": "Filigranlar Neden Var",
+            "text": "Filigranlar, fotoğrafçıların ve içerik üreticilerinin fikri mülkiyetini korumak için temel bir araçtır. Stok fotoğraf siteleri ödemesiz kullanımı engellemek için önizleme görsellerine filigran uygular. Fotoğrafçılar ödeme öncesi müşterilere kanıt göstermek için filigran kullanır.\n\nBaşka birinin fotoğrafından filigran kaldırmak çoğu ülkede yasadışıdır. Bu telif hakkı ihlali sayılır ve ciddi hukuki sonuçları olabilir. DMCA ve Avrupa telif hakkı yasaları kapsamında filigran kaldırma cezai bir suçtur.\n\nBu nedenle filigran kaldırmak yerine yasal alternatifleri değerlendirmek çok daha mantıklıdır. Hiçbir hukuki sorun yaşamadan yüksek kaliteli filigransız görseller elde etmenin birçok yolu bulunmaktadır."
+          },
+          {
+            "heading": "Filigransız Görsel Elde Etmenin Yasal Yolları",
+            "text": "En doğrudan yol lisans satın almaktır. Shutterstock, Adobe Stock, Getty Images gibi sitelerden lisans alındığında temiz, yüksek çözünürlüklü görseller elde edilir. Fiyatlar görsel başına birkaç dolardan başlar ve abonelik planlarıyla daha da uygun fiyatlı olur.\n\nÜcretsiz stok fotoğraf siteleri mükemmel bir alternatiftir. Unsplash, Pexels, Pixabay gibi siteler milyonlarca yüksek kaliteli görseli filigransız ve ücretsiz sunar. Çoğu ticari kullanım için de serbesttir.\n\nCreative Commons lisanslı görseller de bir seçenektir. Flickr ve Wikimedia Commons'ta birçok görsel CC lisansı altında mevcuttur ve orijinal sanatçıya kredi verilmesi koşuluyla ücretsiz kullanıma izin verir."
+          },
+          {
+            "heading": "Kendi Profesyonel Görsellerinizi Oluşturun",
+            "text": "Akıllı telefon kameraları o kadar gelişti ki kendi başınıza profesyonel kalitede fotoğraflar çekebilirsiniz. İyi aydınlatma, sabit el ve doğru kompozisyonla telefonunuz stok fotoğraflara eşdeğer görseller üretebilir.\n\nDALL-E, Midjourney ve Stable Diffusion gibi AI görsel oluşturucular metin istemlerinden benzersiz görseller yaratmanıza olanak tanır. Bu görseller tamamen orijinaldir ve herhangi bir telif hakkı veya filigran sorunu taşımaz.\n\nCanva, Figma gibi tasarım araçlarıyla özel grafikler ve illüstrasyonlar oluşturmak da bir seçenektir. Bu araçlarda ücretsiz şablonlar ve öğeler mevcuttur ve bunlarla her türlü ihtiyaç için profesyonel grafikler tasarlanabilir."
+          },
+          {
+            "heading": "ToolPic ile Görsellerinizi Profesyonelleştirin",
+            "text": "Kendi fotoğraflarınızı çekiyorsanız ToolPic'in Image Watermark aracıyla üzerlerine kendi filigranınızı ekleyin. Adınızı, markanızı veya logonuzu watermark olarak ekleyerek görsellerinizi koruyun ve kimliğinizi sürdürün.\n\nFiligran eklemeden önce Image Crop aracıyla görseli doğru boyut ve en-boy oranına kırpın. Sosyal medya, web sitesi veya sunum için doğru ölçüleri seçin.\n\nToolPic'in tüm araçları tarayıcıda çalışır ve tamamen ücretsizdir. Görselleriniz hiçbir zaman harici bir sunucuya yüklenmez. Bu size tam gizlilik ve güvenlik sağlar. Kendi orijinal görsellerinizi oluşturun ve profesyonelce koruyun."
+          }
+        ]
+      },
+      "gif-vs-video-which-to-use": {
+        "title": "GIF vs Video: Hangisini Ne Zaman Kullanmalı",
+        "metaTitle": "GIF vs Video: Hangi Format Daha İyi? | ToolPic Blog",
+        "metaDescription": "GIF ve video karşılaştırması: dosya boyutu, kalite, kullanım alanları ve dönüştürme. GIF'in ne zaman, videonun ne zaman daha iyi olduğunu öğrenin.",
+        "excerpt": "GIF ve video formatları arasındaki farklar, avantajlar-dezavantajlar ve doğru seçimi yapma rehberi.",
+        "relatedToolIds": "video-to-gif,video-compress",
+        "content": [
+          {
+            "heading": "GIF ve Video Arasındaki Farklar",
+            "text": "GIF (Graphics Interchange Format) 1987'den beri var olan hareketli bir görsel formatıdır. Otomatik olarak döngüye girer, ses içermez ve maksimum 256 renk destekler. GIF'in en büyük avantajı hemen hemen her platformda oynatıcı gerektirmeden çalışmasıdır.\n\nMP4, WebM gibi video formatları milyonlarca renk destekler, çok daha iyi sıkıştırma sunar ve ses içerebilir. H.264 codec'li MP4 formatı en yaygın desteklenen video formatıdır.\n\nDosya boyutu farkı çok büyüktür. 5 saniyelik 720p bir klip GIF'te 10-20MB olabilirken aynı içerik MP4'te sadece 500KB-1MB tutar. Bu 10-20 kat fark, yükleme hızı ve bant genişliği üzerinde büyük etki yapar."
+          },
+          {
+            "heading": "GIF Ne Zaman Daha İyidir",
+            "text": "Sosyal medya tepkileri ve memeler için GIF mükemmeldir. WhatsApp, Telegram, Slack ve Discord'da GIF paylaşmak son derece kolaydır ve anında oynatılmaya başlar. Küçük hareketli çıkartmalar ve emoji tarzı animasyonlar GIF formatında en iyi şekilde çalışır.\n\nE-posta pazarlamada GIF çok etkilidir. Çoğu e-posta istemcisi videoyu desteklemez ancak GIF'i destekler. Ürün demosu veya dikkat çekici öğe olarak e-postaya GIF eklemek tıklama oranını önemli ölçüde artırabilir.\n\nUI/UX eğitimleri ve yazılım demolarında kısa GIF'ler çok etkilidir. GitHub README dosyalarına, dokümantasyona ve destek makalelerine GIF eklemek, ayrı bir video oynatıcıya ihtiyaç duymadan süreçleri göstermenin en kolay yoludur."
+          },
+          {
+            "heading": "Video Ne Zaman Daha İyidir",
+            "text": "Uzun içerikler için video her zaman üstündür. 10 saniyeden uzun herhangi bir klip için video formatı doğru tercihtir çünkü GIF'in dosya boyutu pratik olmayan düzeyde büyür.\n\nWeb sitesi performansı açısından video çok daha iyidir. HTML5 video öğesini autoplay, loop ve muted öznitelikleriyle kullanıldığında GIF gibi davranır ancak dosya boyutu %90 daha küçüktür. Bu sayfa yükleme hızını dramatik şekilde iyileştirir.\n\nSesin gerekli olduğu yerlerde video tek seçenektir. Eğitimler, ürün incelemeleri, röportajlar ve ses içeren tüm içerikler için videoyu tercih edin. Yüksek kaliteli görsel içerikler, fotoğrafçılık vitrinleri veya sinematik klipler için de video üstündür."
+          },
+          {
+            "heading": "ToolPic ile GIF ve Video Dönüştürme",
+            "text": "ToolPic'in Video to GIF aracı videolarınızı kolayca GIF'e dönüştürür. Videoyu yükleyin, başlangıç ve bitiş zamanını seçin, kare hızı ve boyutu ayarlayın ve dönüştürün. Araç kalite ve dosya boyutu arasında doğru dengeyi koruyan optimize edilmiş GIF'ler oluşturur.\n\nVideo Compress aracıyla kalite kaybetmeden videolarınızın dosya boyutunu küçültün. Çözünürlük ve bit hızını ayarlayarak videoları sosyal medya veya mesajlaşma uygulamaları için optimize edin.\n\nHer iki araç da WebAssembly (FFmpeg) teknolojisine dayanır ve tamamen tarayıcınızda çalışır. Hiçbir dosya sunucuya yüklenmez, boyut sınırı yoktur ve kayıt gerekmez. GIF oluşturun veya video sıkıştırın, her şey ücretsiz ve tamamen gizlidir."
+          }
+        ]
+      },
+      "how-to-extract-audio-from-youtube-video": {
+        "title": "Videodan Ses Nasıl Çıkarılır: Kapsamlı Rehber",
+        "metaTitle": "Videodan Ses Çıkarma - Ücretsiz Yöntemler | ToolPic Blog",
+        "metaDescription": "Video dosyalarından ses çıkarmanın en kolay ve ücretsiz yollarını öğrenin. MP4'ten MP3'e dönüştürme ve ses çıkarma rehberi.",
+        "excerpt": "Video dosyalarından ses parçalarını çıkarmanın en kolay ve güvenli yolları.",
+        "relatedToolIds": "video-extract-audio",
+        "content": [
+          {
+            "heading": "Videodan Ses Çıkarmak Neden Gereklidir",
+            "text": "Birçok durumda videonun yalnızca ses kısmına ihtiyaç duyulur. Podcast yapımcıları video röportajlardan ses çıkararak yalnızca sesli bölümler oluşturur. Müzisyenler canlı performans video kayıtlarından ses parçalarını ayırır. Öğrenciler ders videolarından ses çıkararak hareket halindeyken dinleyebilir.\n\nSes dosyaları videoya kıyasla çok daha küçüktür. 10 dakikalık 1080p bir video 200MB olabilirken aynı videonun MP3 sesi yalnızca 10MB tutar. Bu depolama alanı tasarrufu sağlar ve mobil veri tüketimini azaltır.\n\nVideo düzenlemede de ses çıkarma kullanışlıdır. Arka plan müziği, seslendirme veya ses efektlerini ayrı ayrı düzenlemek için önce bunların videodan ayrılması gerekir."
+          },
+          {
+            "heading": "Ses Formatlarını Anlamak",
+            "text": "MP3 en popüler ses formatıdır. Kayıplı sıkıştırma kullanır ve 128-320 kbps bit hızında iyi kalite sunar. Neredeyse her cihaz ve uygulama MP3'ü destekler, bu da onu en evrensel seçenek yapar.\n\nAAC (Advanced Audio Coding) özellikle düşük bit hızlarında MP3'ten daha iyi kalite sunar. Apple cihazlarında varsayılan formattır ve YouTube da videolarında AAC ses kullanır.\n\nWAV ve FLAC ses kalitesini hiçbir şekilde düşürmeyen kayıpsız formatlardır. Profesyonel ses üretiminde tercih edilir ancak dosya boyutları MP3'ün 5-10 katıdır. OGG Vorbis kalite ve dosya boyutu arasında iyi bir denge sunan açık kaynaklı bir alternatiftir."
+          },
+          {
+            "heading": "Yasal Olarak Ses Çıkarma",
+            "text": "Kendi video dosyalarınızdan ses çıkarmak tamamen yasaldır. Videoyu siz kaydettiyseniz veya lisansına sahipseniz sesini istediğiniz şekilde kullanabilirsiniz.\n\nYouTube gibi platformlardan içerik indirmek hizmet şartlarını ihlal edebilir. Telif hakkıyla korunan içerikleri izinsiz indirmek ciddi hukuki sorunlara yol açabilir. Her zaman içerik sahibinden izin alın veya Creative Commons lisanslı içerikler kullanın.\n\nEn güvenli yol cihazınızda zaten mevcut olan video dosyalarından ses çıkarmaktır. Ekran kayıtları, kişisel videolar, lisanslı içerikler veya kendiniz oluşturduğunuz videolar ses çıkarma için tamamen meşru kaynaklardır."
+          },
+          {
+            "heading": "ToolPic ile Ses Çıkarma",
+            "text": "ToolPic'in Video Extract Audio aracı videolardan ses çıkarmanın en kolay yoludur. Video dosyanızı (MP4, WebM, MOV, AVI vb.) yükleyin ve çıkış formatını seçin. Araç ses parçasını videodan ayırır ve seçtiğiniz formatta kaydeder.\n\nİşlem tamamen tarayıcınızda WebAssembly (FFmpeg) teknolojisiyle gerçekleşir. Video dosyanız hiçbir zaman herhangi bir sunucuya yüklenmez. Bu gizlilik ve güvenlik açısından en iyi yöntemdir.\n\nAraç MP3, AAC, WAV ve diğer ses formatlarında dışa aktarabilir. Bit hızı ve kalite ayarlarını ihtiyacınıza göre düzenleyin. İşlem tamamlandığında ses dosyası anında indirilebilir. Kayıt yok, sınır yok, tamamen ücretsiz."
+          }
+        ]
       }
     }
   }

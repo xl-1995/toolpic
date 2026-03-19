@@ -946,6 +946,131 @@
           }
         ],
         "relatedToolIds": "video-convert,image-crop"
+      },
+      "how-to-resize-image-without-losing-quality": {
+        "title": "Cara Mengubah Saiz Imej Tanpa Kehilangan Kualiti",
+        "metaTitle": "Cara Mengubah Saiz Imej Tanpa Kehilangan Kualiti | ToolPic Blog",
+        "metaDescription": "Ketahui cara mengubah saiz imej tanpa kehilangan kualiti. Panduan lengkap teknik resize, format terbaik dan alat percuma untuk hasil yang tajam.",
+        "excerpt": "Panduan praktikal untuk mengubah saiz imej sambil mengekalkan ketajaman dan perincian, menggunakan teknik dan alat yang betul.",
+        "content": [
+          {
+            "heading": "Mengapa Imej Kehilangan Kualiti Apabila Diubah Saiz",
+            "text": "Apabila anda membesarkan imej raster seperti JPG atau PNG, perisian perlu mencipta piksel baharu yang tidak wujud dalam fail asal. Proses ini dipanggil interpolasi, dan hasilnya sering kali imej yang kabur atau berpiksel. Semakin besar anda membesarkan imej, semakin jelas degradasinya kerana algoritma perlu meneka semakin banyak piksel.\n\nSebaliknya, mengecilkan imej secara amnya lebih selamat kerana perisian menggabungkan piksel sedia ada dan bukannya mencipta yang baharu. Walau bagaimanapun, pengecilan yang berlebihan juga boleh menghilangkan perincian halus. Kuncinya ialah mencari keseimbangan antara saiz yang dikehendaki dan kualiti yang boleh diterima.\n\nFormat imej juga memainkan peranan besar. Format lossy seperti JPG memampatkan data setiap kali fail disimpan, jadi mengubah saiz JPG berulang kali menyebabkan degradasi kumulatif. Format lossless seperti PNG mengekalkan semua data asal, menjadikannya pilihan yang lebih baik untuk imej yang perlu diubah saiznya beberapa kali."
+          },
+          {
+            "heading": "Teknik Terbaik untuk Resize Tanpa Kehilangan Kualiti",
+            "text": "Sentiasa bermula dengan imej resolusi tertinggi yang tersedia. Jika anda mengambil gambar dengan kamera atau telefon pintar, gunakan tetapan resolusi maksimum. Bermula dengan sumber berkualiti tinggi memberikan lebih banyak ruang untuk resize tanpa degradasi yang kelihatan.\n\nGunakan algoritma interpolasi yang betul untuk keperluan anda. Interpolasi bilinear sesuai untuk pengecilan mudah, manakala interpolasi Lanczos menghasilkan keputusan terbaik untuk pembesaran kerana ia mengekalkan ketajaman tepi dengan lebih baik. Kebanyakan alat penyuntingan moden menggunakan algoritma canggih secara automatik.\n\nJika anda perlu membesarkan imej dengan ketara, lakukan secara berperingkat. Membesarkan 10-20% setiap langkah menghasilkan keputusan yang lebih baik daripada terus membesarkan 200% sekaligus. Setiap langkah kecil membolehkan algoritma bekerja dengan lebih banyak data asal, menghasilkan keputusan akhir yang lebih tajam dan lebih semula jadi."
+          },
+          {
+            "heading": "Format dan Tetapan yang Disyorkan",
+            "text": "Untuk imej yang perlu diubah saiznya, PNG adalah pilihan terbaik kerana ia lossless. Setiap kali anda menyimpan PNG, tiada data hilang, jadi anda boleh mengubah saiz berkali-kali tanpa degradasi tambahan. Kelemahannya ialah saiz fail yang lebih besar, tetapi untuk aliran kerja penyuntingan, ini adalah kompromi yang wajar.\n\nWebP lossless adalah alternatif moden yang menawarkan pemampatan lebih baik daripada PNG sambil mengekalkan semua data imej. Jika alat dan platform yang anda gunakan menyokong WebP, format ini boleh menjimatkan ruang storan tanpa mengorbankan kualiti.\n\nUntuk output akhir yang akan dipaparkan di web, JPG pada kualiti 85-92% memberikan keseimbangan terbaik antara saiz fail dan kualiti visual. Ubah saiz imej kepada dimensi paparan yang tepat sebelum menukar kepada JPG, supaya pemampatan lossy hanya digunakan sekali pada saiz akhir. Elakkan mengubah saiz JPG yang sudah dimampatkan kerana setiap kitaran pemampatan mengurangkan kualiti."
+          },
+          {
+            "heading": "Mengubah Saiz Imej dengan ToolPic",
+            "text": "Buka alat Pangkas Imej ToolPic dan muat naik imej yang anda ingin ubah saiznya. Alat ini membolehkan anda menetapkan dimensi tepat dalam piksel atau memilih nisbah aspek pratetap seperti 16:9, 4:3 atau 1:1. Masukkan dimensi sasaran dan alat akan memangkas serta mengubah saiz imej anda dengan ketepatan.\n\nUntuk keputusan terbaik, pangkas kawasan yang tidak diperlukan terlebih dahulu sebelum mengubah saiz. Ini mengurangkan jumlah resize yang diperlukan kerana anda menghilangkan bahagian imej yang tidak berkaitan. Semakin sedikit perubahan saiz yang diperlukan, semakin baik kualiti akhirnya.\n\nSelepas resize, gunakan Pemampat Imej ToolPic untuk mengoptimumkan saiz fail tanpa mengurangkan kualiti visual. Tetapkan kualiti kepada 90% untuk keseimbangan optimum. Semua pemprosesan dilakukan secara tempatan dalam pelayar anda, jadi imej asal anda tidak pernah dimuat naik ke mana-mana pelayan, memastikan privasi dan keselamatan fail anda."
+          }
+        ],
+        "relatedToolIds": "image-crop"
+      },
+      "linkedin-image-sizes-guide": {
+        "title": "Panduan Saiz Imej LinkedIn: Dimensi Lengkap untuk Setiap Jenis Siaran",
+        "metaTitle": "Panduan Saiz Imej LinkedIn: Dimensi Lengkap 2026 | ToolPic Blog",
+        "metaDescription": "Rujukan lengkap saiz imej LinkedIn termasuk foto profil, sepanduk, siaran dan artikel. Optimumkan imej anda untuk paparan terbaik.",
+        "excerpt": "Semua dimensi imej LinkedIn yang perlu anda ketahui, dari foto profil hingga sepanduk syarikat, dengan petua pengoptimuman untuk setiap format.",
+        "content": [
+          {
+            "heading": "Mengapa Saiz Imej LinkedIn Penting",
+            "text": "LinkedIn adalah platform profesional di mana tanggapan pertama sangat penting. Imej yang kabur, terpangkas atau bersaiz salah serta-merta mengurangkan kredibiliti profesional anda. Profil dengan foto berkualiti tinggi dan sepanduk yang sesuai mendapat 21 kali lebih banyak lawatan dan 9 kali lebih banyak permintaan sambungan.\n\nLinkedIn memampatkan dan memangkas imej yang tidak memenuhi dimensi yang disyorkan. Jika anda memuat naik imej yang terlalu besar atau nisbah aspeknya salah, platform akan secara automatik memangkas bahagian penting. Ini boleh menyebabkan teks terpotong, wajah terpangkas atau elemen reka bentuk penting yang hilang.\n\nMengetahui dimensi tepat untuk setiap jenis kandungan LinkedIn memastikan imej anda sentiasa kelihatan sempurna pada semua peranti. Saiz yang berbeza digunakan untuk suapan desktop, aplikasi mudah alih dan paparan profil, jadi imej yang dioptimumkan dengan betul kelihatan konsisten di mana sahaja ia dilihat."
+          },
+          {
+            "heading": "Dimensi Profil dan Sepanduk LinkedIn",
+            "text": "Foto profil LinkedIn harus berukuran 400 x 400 piksel dengan nisbah aspek 1:1 (segi empat sama). Fail maksimum 8MB dalam format JPG atau PNG. Walaupun dipaparkan dalam bentuk bulatan, muat naik imej segi empat sama dan pastikan wajah anda berada di tengah supaya tidak terpangkas oleh masking bulatan.\n\nSepanduk profil atau imej latar belakang mempunyai dimensi 1584 x 396 piksel dengan nisbah aspek 4:1. Ini adalah salah satu dimensi paling unik dalam media sosial dan sering mengelirukan pengguna. Pastikan elemen penting seperti teks dan logo berada di kawasan tengah kerana sudut kiri bawah akan diliputi oleh foto profil anda.\n\nHalaman syarikat menggunakan logo berukuran 300 x 300 piksel dan imej muka depan 1128 x 191 piksel. Imej muka depan syarikat lebih lebar dan pendek berbanding sepanduk profil peribadi, jadi jangan gunakan imej yang sama untuk kedua-duanya tanpa penyesuaian."
+          },
+          {
+            "heading": "Saiz Imej untuk Siaran dan Artikel",
+            "text": "Siaran suapan LinkedIn menyokong imej dengan lebar 1200 piksel. Untuk imej landskap, gunakan 1200 x 627 piksel (nisbah 1.91:1). Untuk imej segi empat sama, gunakan 1200 x 1200 piksel. Imej potret berukuran 1200 x 1500 piksel (nisbah 4:5) dan menduduki ruang paling banyak dalam suapan, serupa dengan strategi Instagram.\n\nArtikel LinkedIn menggunakan imej muka depan berukuran 1200 x 644 piksel. Imej dalam kandungan artikel sebaiknya lebar 1200 piksel untuk memastikan paparan tajam pada desktop. Imej yang lebih kecil akan diregangkan dan kelihatan kabur pada skrin resolusi tinggi.\n\nKarousel LinkedIn atau dokumen PDF menggunakan dimensi 1080 x 1080 piksel (segi empat sama) atau 1080 x 1350 piksel (potret) setiap halaman. Format potret lebih popular kerana menduduki lebih banyak ruang suapan dan menggalakkan pengguna untuk meleret. Setiap halaman karousel adalah satu halaman PDF, jadi sediakan setiap slaid dengan dimensi yang konsisten."
+          },
+          {
+            "heading": "Mengoptimumkan Imej LinkedIn dengan ToolPic",
+            "text": "Gunakan alat Pangkas Imej ToolPic untuk memangkas imej anda kepada dimensi LinkedIn yang tepat. Pilih nisbah aspek yang sesuai atau masukkan dimensi piksel secara manual. Untuk foto profil, pangkas kepada 1:1 dan pastikan wajah anda berpusat. Untuk sepanduk, gunakan nisbah 4:1 dan letakkan elemen penting di tengah.\n\nSelepas memangkas, jalankan imej melalui Pemampat Imej ToolPic untuk mengoptimumkan saiz fail. LinkedIn mengesyorkan fail di bawah 8MB, tetapi fail yang lebih kecil dimuat lebih cepat dan terhindar daripada pemampatan tambahan oleh platform. Tetapkan kualiti kepada 85-90% untuk keputusan optimum.\n\nUntuk karousel, sediakan setiap slaid sebagai imej berasingan dengan dimensi yang konsisten, kemudian gabungkan menjadi PDF. Pangkas setiap slaid menggunakan alat Pangkas Imej dengan dimensi 1080 x 1350 untuk format potret. Semua pemprosesan berlaku dalam pelayar anda, memastikan kandungan profesional anda kekal selamat dan peribadi."
+          }
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
+      "how-to-remove-watermark-from-photo": {
+        "title": "Cara Menghapus Tera Air dari Foto: Panduan Lengkap",
+        "metaTitle": "Cara Menghapus Tera Air dari Foto: Kaedah dan Petua | ToolPic Blog",
+        "metaDescription": "Ketahui pelbagai kaedah untuk menghapus tera air daripada foto termasuk pemangkasan, pengklonan dan alat AI. Fahami bila penghapusan tera air dibenarkan.",
+        "excerpt": "Panduan komprehensif tentang kaedah menghapus tera air daripada foto, termasuk pertimbangan etika dan undang-undang yang perlu diketahui.",
+        "content": [
+          {
+            "heading": "Memahami Tera Air dan Aspek Undang-Undang",
+            "text": "Tera air adalah tanda yang diletakkan pada imej untuk menunjukkan pemilikan atau melindungi hak cipta. Sebelum cuba menghapus tera air, penting untuk memahami implikasi undang-undang dan etikanya. Menghapus tera air daripada imej milik orang lain tanpa kebenaran boleh melanggar undang-undang hak cipta di banyak negara.\n\nTerdapat situasi di mana penghapusan tera air sepenuhnya sah. Jika anda adalah pemilik asal imej dan menambah tera air sendiri, anda sudah tentu berhak menghapusnya. Jika anda telah membeli lesen imej daripada jurugambar atau agensi stok, anda mendapat versi tanpa tera air sebagai sebahagian daripada pembelian.\n\nKes biasa lain ialah apabila tera air ditambah secara tidak sengaja oleh aplikasi kamera atau alat penyuntingan percuma yang menambah penjenamaan mereka. Dalam kes ini, anda mempunyai hak penuh ke atas foto tersebut dan menghapus tera air pihak ketiga sepenuhnya wajar. Sentiasa pastikan anda mempunyai hak ke atas imej sebelum menghapus sebarang tera air."
+          },
+          {
+            "heading": "Kaedah Pemangkasan untuk Menghapus Tera Air",
+            "text": "Kaedah paling mudah dan tidak merosakkan untuk menghilangkan tera air ialah memangkas imej supaya tera air berada di luar bingkai. Ini berfungsi dengan baik apabila tera air diletakkan di sudut atau tepi imej dan subjek utama mempunyai ruang yang cukup untuk tetap kelihatan selepas dipangkas.\n\nKelebihan pemangkasan ialah tiada manipulasi piksel berlaku, jadi kawasan yang tinggal mengekalkan kualiti asalnya sepenuhnya. Tiada kesan penyuntingan yang kelihatan kerana anda hanya menghilangkan kawasan imej, bukan mengubahnya.\n\nKelemahannya ialah anda kehilangan sebahagian komposisi imej. Jika tera air berada di tengah atau meliputi kawasan penting subjek, pemangkasan bukan penyelesaian yang sesuai. Dalam kes tersebut, anda mungkin perlu menggunakan teknik lain atau mendapatkan versi imej tanpa tera air daripada sumber asal."
+          },
+          {
+            "heading": "Teknik Lanjutan: Klon dan AI Inpainting",
+            "text": "Clone stamp atau clone brush adalah teknik penyuntingan klasik di mana anda menyalin piksel dari kawasan bersih imej dan menindihnya ke atas tera air. Teknik ini memerlukan kemahiran dan kesabaran tetapi boleh menghasilkan keputusan yang sempurna pada latar belakang yang seragam seperti langit, dinding atau permukaan bertekstur mudah.\n\nAI inpainting adalah teknologi lebih moden yang menggunakan kecerdasan buatan untuk mengisi kawasan tera air dengan kandungan yang dijana secara algoritma. Alat AI menganalisis kawasan sekitar tera air dan menjana piksel baharu yang sepadan dengan corak, tekstur dan warna di sekelilingnya. Hasilnya sering kali lebih semula jadi berbanding pengklonan manual.\n\nKedua-dua teknik mempunyai keterbatasan pada tera air yang meliputi kawasan dengan perincian tinggi seperti wajah, teks atau corak kompleks. Semakin besar dan kompleks tera air, semakin sukar untuk menghapusnya tanpa meninggalkan artifak. Dalam kes tersebut, penyelesaian terbaik tetap mendapatkan imej asal tanpa tera air."
+          },
+          {
+            "heading": "Menghapus Tera Air Menggunakan ToolPic",
+            "text": "Untuk tera air yang terletak di tepi imej, gunakan alat Tera Air Imej ToolPic yang membolehkan anda bekerja dengan lapisan tera air. Namun cara paling berkesan untuk menghapus tera air di sudut ialah menggunakan alat Pangkas Imej. Muat naik imej anda dan tetapkan kawasan pangkas untuk mengecualikan tera air sambil mengekalkan komposisi utama.\n\nPilih nisbah aspek yang sesuai dengan keperluan output anda. Jika tera air berada di sudut kanan bawah, laraskan bingkai pangkas untuk memotong kawasan tersebut sambil mengekalkan subjek utama. Pratonton keputusan sebelum menggunakan untuk memastikan komposisi masih memuaskan.\n\nUntuk keputusan terbaik, mulakan dengan imej resolusi tertinggi yang tersedia. Imej resolusi tinggi memberikan lebih banyak ruang untuk pemangkasan kerana walaupun selepas memotong kawasan tera air, resolusi yang tinggal masih cukup untuk kegunaan yang dimaksudkan. Semua pemprosesan dilakukan secara tempatan dalam pelayar anda, memastikan privasi imej anda sepenuhnya terjamin."
+          }
+        ],
+        "relatedToolIds": "image-watermark"
+      },
+      "gif-vs-video-which-to-use": {
+        "title": "GIF vs Video: Mana yang Harus Anda Gunakan?",
+        "metaTitle": "GIF vs Video: Perbandingan Lengkap dan Bila Menggunakannya | ToolPic Blog",
+        "metaDescription": "Bandingkan GIF dan video untuk memahami kelebihan dan kekurangan setiap satu. Ketahui bila menggunakan GIF dan bila video lebih sesuai.",
+        "excerpt": "Perbandingan terperinci antara GIF dan video termasuk saiz fail, kualiti, keserasian dan kes penggunaan terbaik untuk setiap format.",
+        "content": [
+          {
+            "heading": "Memahami Perbezaan Asas GIF dan Video",
+            "text": "GIF (Graphics Interchange Format) ialah format imej animasi yang telah wujud sejak 1987. GIF memainkan gelung animasi pendek tanpa bunyi dan disokong oleh hampir semua platform digital. Walaupun secara teknikal ia adalah format imej, GIF sering digunakan sebagai pengganti video pendek untuk reaksi, tutorial ringkas dan demonstrasi produk.\n\nVideo moden menggunakan codec canggih seperti H.264 dan H.265 yang memampatkan gerakan dengan cekap. Tidak seperti GIF yang menyimpan setiap bingkai secara individu, codec video hanya menyimpan perbezaan antara bingkai, menghasilkan fail yang jauh lebih kecil untuk tempoh dan kualiti yang sama.\n\nPerbezaan teknikal utama ialah GIF terhad kepada 256 warna setiap bingkai, tidak menyokong audio dan menghasilkan fail yang agak besar untuk animasi panjang. Video menyokong berjuta-juta warna, audio stereo dan pemampatan canggih yang mengekalkan kualiti tinggi dalam saiz fail yang padat. Namun, GIF mempunyai kelebihan unik dalam kemudahan perkongsian dan keserasian universal."
+          },
+          {
+            "heading": "Bila Menggunakan GIF",
+            "text": "GIF ideal untuk animasi pendek di bawah 10 saat yang perlu berulang secara automatik. Reaksi dan meme adalah kes penggunaan paling popular kerana GIF dimuat secara langsung dalam sembang, e-mel dan media sosial tanpa memerlukan pemain video. Pengguna tidak perlu menekan butang main, menjadikan GIF lebih menarik perhatian.\n\nTutorial langkah demi langkah yang ringkas juga sesuai dalam format GIF. Menunjukkan cara mengklik menu, menggeser gelangsar atau melakukan tindakan mudah dalam antara muka perisian lebih berkesan sebagai GIF yang berulang daripada video yang perlu dimainkan secara manual. Pembaca boleh melihat langkah-langkah berulang kali tanpa interaksi.\n\nUntuk pemasaran e-mel, GIF adalah satu-satunya format animasi yang disokong secara meluas oleh klien e-mel. Video terbenam dalam e-mel mempunyai sokongan yang sangat terhad, manakala GIF dipaparkan dengan betul dalam Gmail, Outlook, Apple Mail dan kebanyakan klien lain. Sepanduk animasi dan demonstrasi produk dalam e-mel pemasaran hampir selalu menggunakan GIF."
+          },
+          {
+            "heading": "Bila Video Lebih Sesuai",
+            "text": "Video adalah pilihan yang lebih baik untuk kandungan berdurasi lebih daripada 10 saat. Pada tempoh ini, saiz fail GIF menjadi tidak praktikal. GIF 30 saat boleh berukuran 20-50MB, manakala video MP4 dengan kualiti jauh lebih tinggi hanya 2-5MB. Untuk kandungan yang lebih panjang, video menawarkan kualiti yang jauh lebih baik dengan saiz fail yang jauh lebih kecil.\n\nKandungan yang memerlukan audio mesti sentiasa menggunakan format video. Muzik, narasi, kesan bunyi dan dialog tidak boleh disertakan dalam GIF. Jika audio merupakan bahagian penting mesej anda, video adalah satu-satunya pilihan yang logik.\n\nUntuk kandungan yang memerlukan kualiti visual tinggi seperti sinematografi, fotografi produk atau pembentangan profesional, video memberikan pengeluaran semula warna dan perincian yang jauh lebih baik. Had 256 warna GIF menyebabkan jalur warna yang jelas kelihatan pada kecerunan dan foto, manakala video mengekalkan kedalaman warna penuh."
+          },
+          {
+            "heading": "Membuat GIF dan Memampatkan Video dengan ToolPic",
+            "text": "ToolPic menyediakan alat untuk kedua-dua format. Gunakan alat Video ke GIF untuk menukar klip video pendek menjadi GIF animasi. Muat naik video anda, pilih segmen yang ingin ditukar, tetapkan kadar bingkai dan resolusi, kemudian muat turun GIF yang dijana. Menurunkan kadar bingkai kepada 10-15 FPS dan resolusi kepada 480p mengurangkan saiz fail GIF dengan ketara.\n\nJika anda memutuskan bahawa video adalah pilihan yang lebih baik, gunakan Pemampat Video untuk mengoptimumkan fail video anda. Alat ini membolehkan anda mengurangkan resolusi, kadar bit dan saiz fail sambil mengekalkan kualiti visual yang baik. Untuk perkongsian di media sosial, pemampatan kepada 720p dengan kadar bit sederhana biasanya memberikan keputusan optimum.\n\nKedua-dua alat memproses fail sepenuhnya dalam pelayar anda tanpa memuat naik ke pelayan. Ini bermakna kandungan anda kekal peribadi dan pemprosesan berlaku serta-merta tanpa menunggu giliran pelayan. Cuba tukar video yang sama kepada GIF dan MP4 termampat untuk membandingkan saiz fail dan kualiti, kemudian pilih format yang paling sesuai."
+          }
+        ],
+        "relatedToolIds": "video-to-gif,video-compress"
+      },
+      "how-to-extract-audio-from-youtube-video": {
+        "title": "Cara Mengekstrak Audio dari Video YouTube",
+        "metaTitle": "Cara Mengekstrak Audio dari Video YouTube: Panduan Lengkap | ToolPic Blog",
+        "metaDescription": "Ketahui cara mengekstrak audio daripada video YouTube dengan pelbagai kaedah yang sah. Panduan format audio, tetapan kualiti dan alat terbaik.",
+        "excerpt": "Panduan lengkap tentang cara mengekstrak audio daripada video, termasuk format terbaik, tetapan kualiti dan pertimbangan hak cipta.",
+        "content": [
+          {
+            "heading": "Mengapa Mengekstrak Audio dari Video",
+            "text": "Terdapat banyak alasan yang sah untuk mengekstrak audio daripada video. Podcaster sering merakam sesi mereka dalam format video untuk kandungan YouTube, kemudian mengekstrak audionya untuk pengedaran podcast di Spotify, Apple Podcasts dan platform audio lain. Ini membolehkan satu sesi rakaman menghasilkan kandungan untuk pelbagai platform.\n\nPemuzik dan penerbit audio mengekstrak audio daripada video persembahan langsung, sesi latihan atau kerjasama yang dirakam dalam video. Bahan mentah audio ini kemudian boleh dimix, disunting atau digunakan sebagai sampel dalam penerbitan muzik baharu.\n\nPelajar dan profesional sering mengekstrak audio daripada pembentangan, kuliah atau webinar untuk didengari semasa dalam perjalanan. Menukar kuliah video kepada fail audio membolehkan pembelajaran sambil memandu, bersenam atau melakukan aktiviti lain di mana menonton video tidak praktikal. Pastikan anda mempunyai kebenaran atau kandungan tersebut dilesenkan untuk penggunaan sedemikian."
+          },
+          {
+            "heading": "Format Audio Terbaik untuk Pelbagai Keperluan",
+            "text": "MP3 ialah format audio paling universal yang disokong oleh setiap peranti dan platform. Pada kadar bit 192-320 kbps, MP3 menawarkan kualiti yang sangat baik dengan saiz fail yang munasabah. Untuk podcast dan kandungan pertuturan, 128 kbps sudah memadai kerana suara manusia tidak memerlukan kadar bit setinggi muzik.\n\nAAC (Advanced Audio Coding) menawarkan kualiti yang lebih baik daripada MP3 pada kadar bit yang sama. Format ini adalah standard untuk Apple Music, YouTube dan banyak platform penstriman. Jika sasaran utama anda ialah peranti Apple atau penstriman dalam talian, AAC pada 256 kbps memberikan kualiti yang setara dengan MP3 320 kbps.\n\nWAV dan FLAC ialah format lossless yang mengekalkan kualiti audio asal tanpa sebarang pemampatan. WAV menghasilkan fail yang sangat besar tetapi serasi secara universal. FLAC memampatkan tanpa kehilangan kualiti, menghasilkan fail kira-kira 50-60% saiz WAV. Gunakan format lossless jika anda bercadang menyunting audio selanjutnya atau memerlukan kualiti arkib tertinggi."
+          },
+          {
+            "heading": "Pertimbangan Hak Cipta dan Penggunaan Sah",
+            "text": "Mengekstrak audio daripada video yang anda miliki atau cipta sendiri adalah sepenuhnya sah. Ini termasuk video yang anda rakam sendiri, kandungan yang anda hasilkan atau video yang anda memiliki hak cipta penuh.\n\nUntuk kandungan YouTube, ambil perhatian bahawa kebanyakan video dilindungi hak cipta. Memuat turun dan mengekstrak audio daripada video YouTube milik orang lain untuk pengedaran semula melanggar terma perkhidmatan YouTube dan berpotensi melanggar undang-undang hak cipta. Walau bagaimanapun, sesetengah kandungan dilesenkan di bawah Creative Commons yang membenarkan penggunaan semula dengan atribusi.\n\nKandungan domain awam, bahan berlesen Creative Commons dan kandungan yang anda mempunyai kebenaran bertulis untuk menggunakan adalah pengecualian yang sah. Sentiasa semak lesen sebelum mengekstrak dan menggunakan semula audio daripada mana-mana sumber. Apabila ragu, hubungi pemilik kandungan untuk mendapatkan kebenaran yang jelas."
+          },
+          {
+            "heading": "Mengekstrak Audio dari Video dengan ToolPic",
+            "text": "Buka alat Ekstrak Audio dari Video ToolPic dan muat naik fail video anda. Alat ini menyokong format video popular termasuk MP4, WebM, MOV dan AVI. Video diproses sepenuhnya dalam pelayar anda menggunakan teknologi WebAssembly, jadi fail tidak pernah meninggalkan peranti anda.\n\nPilih format output audio yang dikehendaki. MP3 sesuai untuk kebanyakan keperluan umum termasuk podcast dan pendengaran kasual. Pilih AAC untuk kualiti lebih baik pada saiz fail yang sama, atau WAV untuk kualiti lossless tanpa pemampatan.\n\nKlik ekstrak dan tunggu pemprosesan selesai. Tempoh pemprosesan bergantung pada panjang video dan kelajuan peranti anda. Selepas selesai, muat turun fail audio yang dihasilkan. Alat ini mengekstrak trek audio asal daripada video tanpa pengekodan semula jika boleh, mengekalkan kualiti audio maksimum. Untuk video yang panjang, pemprosesan mungkin mengambil beberapa minit kerana semua pengiraan dilakukan secara tempatan dalam pelayar."
+          }
+        ],
+        "relatedToolIds": "video-extract-audio"
       }
     }
   }

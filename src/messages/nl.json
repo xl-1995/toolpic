@@ -946,6 +946,131 @@
           }
         ],
         "relatedToolIds": "video-convert,image-crop"
+      },
+      "how-to-resize-image-without-losing-quality": {
+        "title": "Hoe een afbeelding verkleinen zonder kwaliteitsverlies",
+        "metaTitle": "Hoe een afbeelding verkleinen zonder kwaliteitsverlies | ToolPic Blog",
+        "metaDescription": "Leer hoe je afbeeldingen kunt verkleinen zonder kwaliteitsverlies. Complete gids met technieken, beste formaten en gratis tools voor scherpe resultaten.",
+        "excerpt": "Praktische gids voor het aanpassen van afbeeldingsformaten met behoud van scherpte en detail, met de juiste technieken en tools.",
+        "content": [
+          {
+            "heading": "Waarom afbeeldingen kwaliteit verliezen bij het vergroten of verkleinen",
+            "text": "Wanneer je een rasterafbeelding zoals JPG of PNG vergroot, moet de software nieuwe pixels creëren die niet in het originele bestand bestonden. Dit proces heet interpolatie en het resultaat is vaak een wazige of geblokte afbeelding. Hoe meer je de afbeelding vergroot, hoe duidelijker de degradatie wordt omdat het algoritme steeds meer pixels moet raden.\n\nHet verkleinen van afbeeldingen is over het algemeen veiliger omdat de software bestaande pixels combineert in plaats van nieuwe te creëren. Echter, te veel verkleinen kan ook fijne details verwijderen. De sleutel is het vinden van de juiste balans tussen het gewenste formaat en acceptabele kwaliteit.\n\nHet afbeeldingsformaat speelt ook een grote rol. Lossy formaten zoals JPG comprimeren data elke keer dat het bestand wordt opgeslagen, waardoor herhaald resizen van JPG's cumulatieve degradatie veroorzaakt. Lossless formaten zoals PNG behouden alle originele data, waardoor ze een betere keuze zijn voor afbeeldingen die meerdere keren van formaat moeten worden gewijzigd."
+          },
+          {
+            "heading": "Beste technieken voor resizen zonder kwaliteitsverlies",
+            "text": "Begin altijd met de hoogst beschikbare resolutie-afbeelding. Als je foto's maakt met een camera of smartphone, gebruik dan de maximale resolutie-instelling. Beginnen met een bron van hoge kwaliteit geeft meer ruimte om te resizen zonder zichtbare degradatie.\n\nGebruik het juiste interpolatie-algoritme voor je behoefte. Bilineaire interpolatie is geschikt voor eenvoudige verkleiningen, terwijl Lanczos-interpolatie de beste resultaten oplevert bij vergroting omdat het randscherpte beter behoudt. De meeste moderne bewerkingstools gebruiken automatisch geavanceerde algoritmen.\n\nAls je een afbeelding aanzienlijk moet vergroten, doe dit dan geleidelijk. Vergroten met 10-20% per stap levert betere resultaten op dan direct 200% vergroten in één keer. Elke kleine stap stelt het algoritme in staat om met meer originele data te werken, wat resulteert in een scherper en natuurlijker eindresultaat."
+          },
+          {
+            "heading": "Aanbevolen formaten en instellingen",
+            "text": "Voor afbeeldingen die van formaat moeten worden gewijzigd, is PNG de beste keuze omdat het lossless is. Elke keer dat je een PNG opslaat, gaat er geen data verloren, zodat je meerdere keren kunt resizen zonder extra degradatie. Het nadeel is een grotere bestandsgrootte, maar voor bewerkingsworkflows is dit een acceptabele trade-off.\n\nLossless WebP is een modern alternatief dat betere compressie biedt dan PNG terwijl alle afbeeldingsdata behouden blijft. Als de tools en platforms die je gebruikt WebP ondersteunen, kan dit formaat opslagruimte besparen zonder kwaliteitsverlies.\n\nVoor de uiteindelijke output die op het web wordt weergegeven, biedt JPG op 85-92% kwaliteit de beste balans tussen bestandsgrootte en visuele kwaliteit. Resize de afbeelding naar de exacte weergavedimensies voordat je naar JPG converteert, zodat lossy compressie slechts één keer wordt toegepast op het uiteindelijke formaat. Vermijd het resizen van JPG's die al gecomprimeerd zijn, want elke compressiecyclus vermindert de kwaliteit."
+          },
+          {
+            "heading": "Afbeeldingen resizen met ToolPic",
+            "text": "Open de Afbeelding Bijsnijden-tool van ToolPic en upload de afbeelding die je wilt resizen. De tool stelt je in staat om exacte dimensies in pixels in te stellen of een vooraf ingestelde beeldverhouding te kiezen zoals 16:9, 4:3 of 1:1. Voer de doeldimensies in en de tool zal je afbeelding met precisie bijsnijden en resizen.\n\nVoor de beste resultaten, snij onnodige gebieden eerst bij voordat je resized. Dit vermindert de hoeveelheid resize die nodig is omdat je irrelevante delen van de afbeelding verwijdert. Hoe minder formaatwijziging nodig is, hoe beter de uiteindelijke kwaliteit.\n\nNa het resizen, gebruik de Afbeeldingscompressor van ToolPic om de bestandsgrootte te optimaliseren zonder visuele kwaliteit te verminderen. Stel de kwaliteit in op 90% voor de optimale balans. Alle verwerking wordt lokaal in je browser uitgevoerd, dus je originele afbeeldingen worden nooit naar een server geüpload, waardoor de privacy en veiligheid van je bestanden gewaarborgd blijven."
+          }
+        ],
+        "relatedToolIds": "image-crop"
+      },
+      "linkedin-image-sizes-guide": {
+        "title": "LinkedIn-afbeeldingsformaten gids: Complete dimensies voor elk type bericht",
+        "metaTitle": "LinkedIn-afbeeldingsformaten gids: Complete dimensies 2026 | ToolPic Blog",
+        "metaDescription": "Complete referentie voor LinkedIn-afbeeldingsformaten inclusief profielfoto, banner, berichten en artikelen. Optimaliseer je afbeeldingen voor de beste weergave.",
+        "excerpt": "Alle LinkedIn-afbeeldingsdimensies die je moet weten, van profielfoto tot bedrijfsbanner, met optimalisatietips voor elk formaat.",
+        "content": [
+          {
+            "heading": "Waarom LinkedIn-afbeeldingsformaten ertoe doen",
+            "text": "LinkedIn is een professioneel platform waar eerste indrukken cruciaal zijn. Wazige, bijgesneden of verkeerd geformateerde afbeeldingen verminderen direct je professionele geloofwaardigheid. Profielen met hoogwaardige foto's en passende banners krijgen 21 keer meer profielweergaven en 9 keer meer verbindingsverzoeken.\n\nLinkedIn comprimeert en snijdt afbeeldingen bij die niet voldoen aan de aanbevolen dimensies. Als je een te grote afbeelding uploadt of de beeldverhouding niet klopt, zal het platform automatisch belangrijke delen bijsnijden. Dit kan resulteren in afgesneden tekst, bijgesneden gezichten of ontbrekende belangrijke ontwerpelementen.\n\nHet kennen van de exacte dimensies voor elk type LinkedIn-content zorgt ervoor dat je afbeeldingen er altijd perfect uitzien op alle apparaten. Verschillende formaten gelden voor de desktop-feed, de mobiele app en de profielweergave, dus correct geoptimaliseerde afbeeldingen zien er consistent uit, waar ze ook worden bekeken."
+          },
+          {
+            "heading": "LinkedIn profiel- en bannerdimensies",
+            "text": "De LinkedIn-profielfoto moet 400 x 400 pixels zijn met een 1:1 beeldverhouding (vierkant). Het maximale bestand is 8MB in JPG- of PNG-formaat. Hoewel het als cirkel wordt weergegeven, upload je een vierkante afbeelding en zorg je ervoor dat je gezicht gecentreerd is zodat het niet wordt afgesneden door het cirkelvormige masker.\n\nDe profielbanner of achtergrondafbeelding heeft dimensies van 1584 x 396 pixels met een 4:1 beeldverhouding. Dit is een van de meest unieke dimensies op sociale media en verwart gebruikers vaak. Zorg ervoor dat belangrijke elementen zoals tekst en logo's in het middengebied staan, want de linkeronderhoek wordt bedekt door je profielfoto.\n\nBedrijfspagina's gebruiken een logo van 300 x 300 pixels en een omslagafbeelding van 1128 x 191 pixels. De bedrijfsomslagafbeelding is breder en korter dan de persoonlijke profielbanner, dus gebruik niet dezelfde afbeelding voor beide zonder aanpassingen."
+          },
+          {
+            "heading": "Afbeeldingsformaten voor berichten en artikelen",
+            "text": "LinkedIn-feedberichten ondersteunen afbeeldingen met een breedte van 1200 pixels. Voor landschapsafbeeldingen gebruik je 1200 x 627 pixels (1.91:1 verhouding). Voor vierkante afbeeldingen gebruik je 1200 x 1200 pixels. Portretafbeeldingen zijn 1200 x 1500 pixels (4:5 verhouding) en nemen de meeste ruimte in de feed in, vergelijkbaar met de Instagram-strategie.\n\nLinkedIn-artikelen gebruiken omslagafbeeldingen van 1200 x 644 pixels. Afbeeldingen in de artikeltekst moeten bij voorkeur 1200 pixels breed zijn voor een scherpe weergave op desktop. Kleinere afbeeldingen worden opgerekt en zien er wazig uit op schermen met hoge resolutie.\n\nLinkedIn-carrousels of PDF-documenten gebruiken dimensies van 1080 x 1080 pixels (vierkant) of 1080 x 1350 pixels (portret) per pagina. Het portretformaat is populairder omdat het meer feedruimte inneemt en gebruikers aanmoedigt om te swipen. Elke carrouselpagina is één PDF-pagina, dus bereid elke slide voor met consistente dimensies."
+          },
+          {
+            "heading": "LinkedIn-afbeeldingen optimaliseren met ToolPic",
+            "text": "Gebruik de Afbeelding Bijsnijden-tool van ToolPic om je afbeeldingen bij te snijden naar de exacte LinkedIn-dimensies. Kies de juiste beeldverhouding of voer de pixeldimensies handmatig in. Voor profielfoto's snij je bij op 1:1 en zorg je dat je gezicht gecentreerd is. Voor banners gebruik je de 4:1 verhouding en plaats je belangrijke elementen in het midden.\n\nNa het bijsnijden, laat je de afbeeldingen door de Afbeeldingscompressor van ToolPic om de bestandsgrootte te optimaliseren. LinkedIn beveelt bestanden aan onder de 8MB, maar kleinere bestanden laden sneller en vermijden extra compressie door het platform. Stel de kwaliteit in op 85-90% voor optimale resultaten.\n\nVoor carrousels bereid je elke slide voor als een aparte afbeelding met consistente dimensies, die je vervolgens combineert tot een PDF. Snij elke slide bij met de Afbeelding Bijsnijden-tool op 1080 x 1350 voor portretformaat. Alle verwerking vindt plaats in je browser, waardoor je professionele content veilig en privé blijft."
+          }
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
+      "how-to-remove-watermark-from-photo": {
+        "title": "Hoe een watermerk van een foto verwijderen: Complete gids",
+        "metaTitle": "Hoe een watermerk van een foto verwijderen: Methoden en tips | ToolPic Blog",
+        "metaDescription": "Leer verschillende methoden om watermerken van foto's te verwijderen, inclusief bijsnijden, klonen en AI-tools. Begrijp wanneer het verwijderen is toegestaan.",
+        "excerpt": "Uitgebreide gids over methoden om watermerken van foto's te verwijderen, inclusief ethische en juridische overwegingen die je moet kennen.",
+        "content": [
+          {
+            "heading": "Watermerken begrijpen en de juridische aspecten",
+            "text": "Een watermerk is een markering die op een afbeelding wordt geplaatst om eigendom aan te geven of auteursrecht te beschermen. Voordat je probeert een watermerk te verwijderen, is het belangrijk om de juridische en ethische implicaties te begrijpen. Het verwijderen van watermerken van andermans afbeeldingen zonder toestemming kan in veel landen de auteursrechtwetgeving schenden.\n\nEr zijn situaties waarin het verwijderen van watermerken volledig legaal is. Als je de oorspronkelijke eigenaar van de afbeelding bent en het watermerk zelf hebt toegevoegd, heb je uiteraard het recht om het te verwijderen. Als je een licentie voor de afbeelding hebt gekocht van een fotograaf of stockbureau, ontvang je de versie zonder watermerk als onderdeel van de aankoop.\n\nEen ander veelvoorkomend geval is wanneer een watermerk per ongeluk is toegevoegd door een camera-app of gratis bewerkingstool die hun branding toevoegt. In deze gevallen heb je het volledige recht op de foto en is het verwijderen van het watermerk van een derde partij volledig gerechtvaardigd. Zorg er altijd voor dat je de rechten op de afbeelding hebt voordat je een watermerk verwijdert."
+          },
+          {
+            "heading": "De bijsnijdmethode voor het verwijderen van watermerken",
+            "text": "De eenvoudigste en niet-destructieve methode om een watermerk te verwijderen is de afbeelding bijsnijden zodat het watermerk buiten het kader valt. Dit werkt goed wanneer het watermerk in een hoek of aan de rand van de afbeelding is geplaatst en het hoofdonderwerp voldoende ruimte heeft om na het bijsnijden nog steeds zichtbaar te zijn.\n\nHet voordeel van bijsnijden is dat er geen pixelmanipulatie plaatsvindt, waardoor het resterende gebied de originele kwaliteit volledig behoudt. Er zijn geen zichtbare bewerkingssporen omdat je alleen een gedeelte van de afbeelding verwijdert, niet wijzigt.\n\nHet nadeel is dat je een deel van de beeldcompositie verliest. Als het watermerk in het midden staat of een belangrijk deel van het onderwerp bedekt, is bijsnijden geen haalbare oplossing. In dat geval moet je mogelijk andere technieken gebruiken of de versie zonder watermerk verkrijgen van de oorspronkelijke bron."
+          },
+          {
+            "heading": "Geavanceerde technieken: klonen en AI-inpainting",
+            "text": "Clone stamp of clone brush is een klassieke bewerkingstechniek waarbij je pixels kopieert van een schoon gebied van de afbeelding en over het watermerk plakt. Deze techniek vereist vaardigheid en geduld maar kan perfecte resultaten opleveren op uniforme achtergronden zoals lucht, muren of eenvoudig getextureerde oppervlakken.\n\nAI-inpainting is een modernere technologie die kunstmatige intelligentie gebruikt om het watermerkgebied te vullen met algoritmisch gegenereerde content. AI-tools analyseren het gebied rond het watermerk en genereren nieuwe pixels die overeenkomen met de omringende patronen, texturen en kleuren. Het resultaat is vaak natuurlijker dan handmatig klonen.\n\nBeide technieken hebben beperkingen bij watermerken die gebieden met veel detail bedekken, zoals gezichten, tekst of complexe patronen. Hoe groter en complexer het watermerk, hoe moeilijker het is om het te verwijderen zonder artefacten achter te laten. In dergelijke gevallen blijft de beste oplossing het verkrijgen van het origineel zonder watermerk."
+          },
+          {
+            "heading": "Watermerken verwijderen met ToolPic",
+            "text": "Voor watermerken aan de rand van de afbeelding gebruik je de Afbeelding Watermerk-tool van ToolPic waarmee je met watermerklagen kunt werken. Maar de meest effectieve manier om watermerken in hoeken te verwijderen is met de Afbeelding Bijsnijden-tool. Upload je afbeelding en stel het bijsnijdgebied in om het watermerk uit te sluiten terwijl je de hoofdcompositie behoudt.\n\nKies de beeldverhouding die past bij je outputbehoeften. Als het watermerk in de rechterbenedenhoek staat, pas je het bijsnijdkader aan om dat gebied weg te snijden terwijl je het hoofdonderwerp behoudt. Bekijk het resultaat voordat je het toepast om er zeker van te zijn dat de compositie nog steeds bevredigend is.\n\nVoor de beste resultaten begin je met de hoogst beschikbare resolutie-afbeelding. Afbeeldingen met hoge resolutie bieden meer ruimte voor bijsnijden, want zelfs na het wegsnijden van het watermerkgebied is de resterende resolutie nog voldoende voor het beoogde gebruik. Alle verwerking wordt lokaal in je browser uitgevoerd, waardoor de privacy van je afbeeldingen volledig gewaarborgd blijft."
+          }
+        ],
+        "relatedToolIds": "image-watermark"
+      },
+      "gif-vs-video-which-to-use": {
+        "title": "GIF vs video: welke moet je gebruiken?",
+        "metaTitle": "GIF vs video: Complete vergelijking en wanneer welke gebruiken | ToolPic Blog",
+        "metaDescription": "Vergelijk GIF en video om de voor- en nadelen te begrijpen. Leer wanneer je GIF moet gebruiken en wanneer video geschikter is.",
+        "excerpt": "Gedetailleerde vergelijking tussen GIF en video inclusief bestandsgrootte, kwaliteit, compatibiliteit en de beste use cases voor elk formaat.",
+        "content": [
+          {
+            "heading": "De fundamentele verschillen tussen GIF en video begrijpen",
+            "text": "GIF (Graphics Interchange Format) is een geanimeerd afbeeldingsformaat dat al sinds 1987 bestaat. GIF speelt korte animatielussen af zonder geluid en wordt ondersteund door vrijwel alle digitale platforms. Hoewel het technisch gezien een afbeeldingsformaat is, wordt GIF vaak gebruikt als vervanging voor korte video's voor reacties, korte tutorials en productdemonstraties.\n\nModerne video's gebruiken geavanceerde codecs zoals H.264 en H.265 die beweging efficiënt comprimeren. In tegenstelling tot GIF, dat elk frame individueel opslaat, slaan videocodecs alleen de verschillen tussen frames op, wat resulteert in veel kleinere bestanden voor dezelfde duur en kwaliteit.\n\nHet belangrijkste technische verschil is dat GIF beperkt is tot 256 kleuren per frame, geen audio ondersteunt en relatief grote bestanden produceert voor langere animaties. Video ondersteunt miljoenen kleuren, stereo-audio en geavanceerde compressie die hoge kwaliteit behoudt in een compact bestandsformaat. Toch heeft GIF unieke voordelen in het gemak van delen en universele compatibiliteit."
+          },
+          {
+            "heading": "Wanneer GIF gebruiken",
+            "text": "GIF is ideaal voor korte animaties onder de 10 seconden die automatisch moeten herhalen. Reacties en memes zijn de populairste use cases omdat GIF's direct laden in chats, e-mails en sociale media zonder een videospeler nodig te hebben. Gebruikers hoeven niet op play te drukken, waardoor GIF's meer aandacht trekken.\n\nKorte stapsgewijze tutorials zijn ook geschikt in GIF-formaat. Het tonen van hoe je op een menu klikt, een schuifregelaar versleept of een eenvoudige actie uitvoert in software-interfaces is effectiever als herhalende GIF dan als video die handmatig moet worden afgespeeld. Lezers kunnen de stappen herhaaldelijk zien zonder interactie.\n\nVoor e-mailmarketing is GIF het enige animatieformaat dat breed wordt ondersteund door e-mailclients. Ingesloten video in e-mails heeft zeer beperkte ondersteuning, terwijl GIF correct wordt weergegeven in Gmail, Outlook, Apple Mail en de meeste andere clients. Geanimeerde banners en productdemonstraties in marketing-e-mails gebruiken vrijwel altijd GIF."
+          },
+          {
+            "heading": "Wanneer video geschikter is",
+            "text": "Video is de betere keuze voor content langer dan 10 seconden. Op deze duur worden GIF-bestandsgroottes onpraktisch. Een GIF van 30 seconden kan 20-50MB groot zijn, terwijl een MP4-video met veel hogere kwaliteit slechts 2-5MB is. Voor langere content biedt video veel betere kwaliteit met veel kleinere bestandsgroottes.\n\nContent die audio vereist moet altijd videoformaat gebruiken. Muziek, vertelling, geluidseffecten en dialogen kunnen niet in GIF worden opgenomen. Als audio een essentieel onderdeel van je boodschap is, is video de enige logische optie.\n\nVoor content die hoge visuele kwaliteit vereist, zoals cinematografie, productfotografie of professionele presentaties, biedt video veel betere kleurweergave en detail. De 256-kleurenbeperking van GIF veroorzaakt zichtbare kleurbanding in gradiënten en foto's, terwijl video de volledige kleurdiepte behoudt."
+          },
+          {
+            "heading": "GIF's maken en video's comprimeren met ToolPic",
+            "text": "ToolPic biedt tools voor beide formaten. Gebruik de Video naar GIF-tool om korte videoclips om te zetten naar geanimeerde GIF's. Upload je video, selecteer het segment dat je wilt converteren, stel de framerate en resolutie in, en download de gegenereerde GIF. Het verlagen van de framerate naar 10-15 FPS en de resolutie naar 480p verkleint de GIF-bestandsgrootte aanzienlijk.\n\nAls je besluit dat video de betere keuze is, gebruik dan de Videocompressor om je videobestand te optimaliseren. De tool stelt je in staat om resolutie, bitrate en bestandsgrootte te verminderen met behoud van goede visuele kwaliteit. Voor het delen op sociale media levert compressie naar 720p met een gemiddelde bitrate meestal optimale resultaten.\n\nBeide tools verwerken bestanden volledig in je browser zonder upload naar een server. Dit betekent dat je content privé blijft en de verwerking direct plaatsvindt zonder te wachten op een serverwachtrij. Probeer dezelfde video te converteren naar zowel GIF als gecomprimeerde MP4 om bestandsgrootte en kwaliteit te vergelijken, en kies dan het formaat dat het beste past."
+          }
+        ],
+        "relatedToolIds": "video-to-gif,video-compress"
+      },
+      "how-to-extract-audio-from-youtube-video": {
+        "title": "Hoe audio uit een YouTube-video extraheren",
+        "metaTitle": "Hoe audio uit een YouTube-video extraheren: Complete gids | ToolPic Blog",
+        "metaDescription": "Leer hoe je audio uit YouTube-video's extraheert met verschillende legale methoden. Gids voor audioformaten, kwaliteitsinstellingen en de beste tools.",
+        "excerpt": "Complete gids over hoe je audio uit video's extraheert, inclusief de beste formaten, kwaliteitsinstellingen en auteursrechtoverwegingen.",
+        "content": [
+          {
+            "heading": "Waarom audio uit video extraheren",
+            "text": "Er zijn veel legitieme redenen om audio uit video te extraheren. Podcasters nemen hun sessies vaak op in videoformaat voor YouTube-content en extraheren vervolgens de audio voor podcastdistributie op Spotify, Apple Podcasts en andere audioplatforms. Dit stelt één opnamesessie in staat om content te produceren voor meerdere platforms.\n\nMuzikanten en audioproducenten extraheren audio uit video's van live optredens, oefensessies of samenwerkingen die op video zijn vastgelegd. Dit ruwe audiomateriaal kan vervolgens worden gemixt, bewerkt of gebruikt als samples in nieuwe muziekproducties.\n\nStudenten en professionals extraheren vaak audio uit presentaties, colleges of webinars om onderweg te beluisteren. Het converteren van videocolleges naar audiobestanden maakt het mogelijk om te studeren tijdens het rijden, sporten of andere activiteiten waarbij het bekijken van video niet praktisch is. Zorg ervoor dat je toestemming hebt of dat de content gelicentieerd is voor dergelijk gebruik."
+          },
+          {
+            "heading": "Beste audioformaten voor verschillende behoeften",
+            "text": "MP3 is het meest universele audioformaat dat door elk apparaat en platform wordt ondersteund. Bij een bitrate van 192-320 kbps biedt MP3 uitstekende kwaliteit met een redelijke bestandsgrootte. Voor podcasts en spraakcontent is 128 kbps al voldoende omdat de menselijke stem geen bitrate zo hoog als muziek vereist.\n\nAAC (Advanced Audio Coding) biedt betere kwaliteit dan MP3 bij dezelfde bitrate. Dit formaat is de standaard voor Apple Music, YouTube en veel streamingplatforms. Als je primaire doelgroep Apple-apparaten gebruikt of online streaming, biedt AAC op 256 kbps kwaliteit vergelijkbaar met MP3 op 320 kbps.\n\nWAV en FLAC zijn lossless formaten die de originele audiokwaliteit behouden zonder enige compressie. WAV produceert zeer grote bestanden maar is universeel compatibel. FLAC comprimeert zonder kwaliteitsverlies en produceert bestanden van ongeveer 50-60% van de WAV-grootte. Gebruik lossless formaten als je van plan bent de audio verder te bewerken of de hoogste archiefkwaliteit nodig hebt."
+          },
+          {
+            "heading": "Auteursrechtoverwegingen en legaal gebruik",
+            "text": "Het extraheren van audio uit video's die je bezit of zelf hebt gemaakt is volledig legaal. Dit omvat video's die je zelf hebt opgenomen, content die je hebt geproduceerd of video's waarop je het volledige auteursrecht hebt.\n\nVoor YouTube-content moet je er rekening mee houden dat de meeste video's auteursrechtelijk beschermd zijn. Het downloaden en extraheren van audio uit andermans YouTube-video's voor herdistributie schendt de servicevoorwaarden van YouTube en schendt mogelijk de auteursrechtwetgeving. Sommige content is echter gelicentieerd onder Creative Commons, wat hergebruik met naamsvermelding toestaat.\n\nPubliek domein-content, Creative Commons-gelicentieerd materiaal en content waarvoor je schriftelijke toestemming hebt om te gebruiken zijn legitieme uitzonderingen. Controleer altijd de licentie voordat je audio extraheert en hergebruikt van welke bron dan ook. Bij twijfel, neem contact op met de contenteigenaar voor expliciete toestemming."
+          },
+          {
+            "heading": "Audio uit video extraheren met ToolPic",
+            "text": "Open de Audio uit Video Extraheren-tool van ToolPic en upload je videobestand. De tool ondersteunt populaire videoformaten waaronder MP4, WebM, MOV en AVI. De video wordt volledig in je browser verwerkt met WebAssembly-technologie, zodat het bestand je apparaat nooit verlaat.\n\nKies het gewenste audio-outputformaat. MP3 is geschikt voor de meeste algemene behoeften, waaronder podcasts en casual luisteren. Kies AAC voor betere kwaliteit bij dezelfde bestandsgrootte, of WAV voor lossless kwaliteit zonder compressie.\n\nKlik op extraheren en wacht tot de verwerking is voltooid. De verwerkingsduur hangt af van de videolengte en de snelheid van je apparaat. Na voltooiing download je het gegenereerde audiobestand. De tool extraheert de originele audiotrack uit de video zonder hercodering indien mogelijk, waardoor de maximale audiokwaliteit behouden blijft. Voor langere video's kan de verwerking enkele minuten duren omdat alle berekeningen lokaal in de browser worden uitgevoerd."
+          }
+        ],
+        "relatedToolIds": "video-extract-audio"
       }
     }
   }
