@@ -356,55 +356,391 @@
     }
   },
   "seoPages": {
-    "privacy": "Your files are processed locally in your browser. Nothing is uploaded to any server.",
-    "convertJpgToPng": "Convert JPG to PNG Online - Free",
-    "convertJpgToPngDesc": "Convert JPG/JPEG images to PNG format online for free. Preserve transparency and quality. No upload needed, 100% browser-based.",
-    "convertJpgToWebp": "Convert JPG to WebP Online - Free",
-    "convertJpgToWebpDesc": "Convert JPG images to WebP format for smaller file sizes with the same quality. Perfect for web optimization.",
-    "convertPngToJpg": "Convert PNG to JPG Online - Free",
-    "convertPngToJpgDesc": "Convert PNG images to JPG format online for free. Reduce file size while maintaining visual quality. No software needed.",
-    "convertPngToWebp": "Convert PNG to WebP Online - Free",
-    "convertPngToWebpDesc": "Convert PNG images to WebP format for significantly smaller file sizes. Ideal for faster website loading.",
-    "convertWebpToJpg": "Convert WebP to JPG Online - Free",
-    "convertWebpToJpgDesc": "Convert WebP images to JPG format online for free. Make your images compatible with all devices and software.",
-    "convertWebpToPng": "Convert WebP to PNG Online - Free",
-    "convertWebpToPngDesc": "Convert WebP images to PNG format online for free. Get lossless quality with full transparency support.",
-    "convertHeicToJpg": "Convert HEIC to JPG Online - Free",
-    "convertHeicToJpgDesc": "Convert iPhone HEIC/HEIF photos to JPG format online for free. Make your Apple photos universally compatible.",
-    "convertBmpToJpg": "Convert BMP to JPG Online - Free",
-    "convertBmpToJpgDesc": "Convert BMP bitmap images to JPG format online for free. Dramatically reduce file size from uncompressed BMP files.",
-    "convertMp4ToWebm": "Convert MP4 to WebM Online - Free",
-    "convertMp4ToWebmDesc": "Convert MP4 videos to WebM format online for free. WebM offers smaller file sizes ideal for web embedding.",
-    "convertMp4ToAvi": "Convert MP4 to AVI Online - Free",
-    "convertMp4ToAviDesc": "Convert MP4 videos to AVI format online for free. AVI provides wide compatibility with older media players and editors.",
-    "convertWebmToMp4": "Convert WebM to MP4 Online - Free",
-    "convertWebmToMp4Desc": "Convert WebM videos to MP4 format online for free. MP4 is the most universally compatible video format.",
-    "convertMp4ToGif": "Convert MP4 to GIF Online - Free",
-    "convertMp4ToGifDesc": "Convert MP4 video clips to animated GIF online for free. Create shareable GIFs from any video. Custom frame rate and size.",
-    "compressJpg": "Compress JPG Images Online - Free",
-    "compressJpgDesc": "Compress JPG/JPEG images online for free. Reduce file size up to 80% without visible quality loss. No upload required.",
-    "compressPng": "Compress PNG Images Online - Free",
-    "compressPngDesc": "Compress PNG images online for free. Reduce PNG file size while preserving transparency and quality. 100% browser-based.",
-    "compressWebp": "Compress WebP Images Online - Free",
-    "compressWebpDesc": "Compress WebP images online for free. Optimize WebP file size for faster web performance without sacrificing quality.",
-    "compressMp4": "Compress MP4 Videos Online - Free",
-    "compressMp4Desc": "Compress MP4 video files online for free. Reduce video size by up to 70% while maintaining watchable quality. No server upload.",
-    "resizeInstagram": "Resize Image for Instagram - Free Online Tool",
-    "resizeInstagramDesc": "Resize and crop images to perfect Instagram dimensions online for free. Supports posts (1080x1080), stories (1080x1920), and reels.",
-    "resizeFacebook": "Resize Image for Facebook - Free Online Tool",
-    "resizeFacebookDesc": "Resize images for Facebook cover photos, profile pictures, and posts online for free. Get the perfect dimensions every time.",
-    "resizeTwitter": "Resize Image for Twitter/X - Free Online Tool",
-    "resizeTwitterDesc": "Resize images for Twitter/X headers (1500x500), posts, and profile pictures online for free. Optimized for the platform.",
-    "resizeYoutube": "Resize Image for YouTube Thumbnail - Free",
-    "resizeYoutubeDesc": "Create perfect YouTube thumbnails at 1280x720 pixels online for free. Crop and resize images to the ideal thumbnail size.",
-    "removeBg": "Remove Image Background Online - Free AI Tool",
-    "removeBgDesc": "Remove backgrounds from images online for free using AI. Get transparent PNG in seconds. Works with people, products, and objects.",
-    "addWatermark": "Add Watermark to Photos Online - Free",
-    "addWatermarkDesc": "Add text or logo watermarks to your photos online for free. Protect your images with custom watermarks. Batch processing supported.",
-    "mergePhotos": "Merge Photos Online - Free Image Combiner",
-    "mergePhotosDesc": "Combine and merge multiple photos into one image online for free. Create collages, side-by-side comparisons, and long images.",
-    "extractMp3": "Extract MP3 from Video Online - Free",
-    "extractMp3Desc": "Extract audio from video files and save as MP3 online for free. Works with MP4, WebM, AVI, and other video formats."
+    "privacy": "تتم معالجة ملفاتك محلياً في متصفحك. لا يتم رفع أي شيء إلى أي خادم.",
+    "convertJpgToPng": "تحويل JPG إلى PNG عبر الإنترنت - مجاني",
+    "convertJpgToPngDesc": "حوّل صور JPG/JPEG إلى صيغة PNG عبر الإنترنت مجاناً. حافظ على الشفافية والجودة. لا حاجة للرفع، 100% في المتصفح.",
+    "convertJpgToWebp": "تحويل JPG إلى WebP عبر الإنترنت - مجاني",
+    "convertJpgToWebpDesc": "حوّل صور JPG إلى صيغة WebP لأحجام ملفات أصغر بنفس الجودة. مثالي لتحسين أداء الويب.",
+    "convertPngToJpg": "تحويل PNG إلى JPG عبر الإنترنت - مجاني",
+    "convertPngToJpgDesc": "حوّل صور PNG إلى صيغة JPG عبر الإنترنت مجاناً. قلّل حجم الملف مع الحفاظ على الجودة البصرية. لا حاجة لبرامج.",
+    "convertPngToWebp": "تحويل PNG إلى WebP عبر الإنترنت - مجاني",
+    "convertPngToWebpDesc": "حوّل صور PNG إلى صيغة WebP لأحجام ملفات أصغر بشكل ملحوظ. مثالي لتحميل أسرع للمواقع.",
+    "convertWebpToJpg": "تحويل WebP إلى JPG عبر الإنترنت - مجاني",
+    "convertWebpToJpgDesc": "حوّل صور WebP إلى صيغة JPG عبر الإنترنت مجاناً. اجعل صورك متوافقة مع جميع الأجهزة والبرامج.",
+    "convertWebpToPng": "تحويل WebP إلى PNG عبر الإنترنت - مجاني",
+    "convertWebpToPngDesc": "حوّل صور WebP إلى صيغة PNG عبر الإنترنت مجاناً. احصل على جودة بدون فقدان مع دعم كامل للشفافية.",
+    "convertHeicToJpg": "تحويل HEIC إلى JPG عبر الإنترنت - مجاني",
+    "convertHeicToJpgDesc": "حوّل صور HEIC/HEIF من iPhone إلى صيغة JPG عبر الإنترنت مجاناً. اجعل صور Apple متوافقة عالمياً.",
+    "convertBmpToJpg": "تحويل BMP إلى JPG عبر الإنترنت - مجاني",
+    "convertBmpToJpgDesc": "حوّل صور BMP النقطية إلى صيغة JPG عبر الإنترنت مجاناً. قلّل حجم الملف بشكل كبير من ملفات BMP غير المضغوطة.",
+    "convertMp4ToWebm": "تحويل MP4 إلى WebM عبر الإنترنت - مجاني",
+    "convertMp4ToWebmDesc": "حوّل مقاطع فيديو MP4 إلى صيغة WebM عبر الإنترنت مجاناً. يوفر WebM أحجام ملفات أصغر مثالية للتضمين في الويب.",
+    "convertMp4ToAvi": "تحويل MP4 إلى AVI عبر الإنترنت - مجاني",
+    "convertMp4ToAviDesc": "حوّل مقاطع فيديو MP4 إلى صيغة AVI عبر الإنترنت مجاناً. يوفر AVI توافقاً واسعاً مع مشغلات الوسائط والمحررات القديمة.",
+    "convertWebmToMp4": "تحويل WebM إلى MP4 عبر الإنترنت - مجاني",
+    "convertWebmToMp4Desc": "حوّل مقاطع فيديو WebM إلى صيغة MP4 عبر الإنترنت مجاناً. MP4 هو صيغة الفيديو الأكثر توافقاً عالمياً.",
+    "convertMp4ToGif": "تحويل MP4 إلى GIF عبر الإنترنت - مجاني",
+    "convertMp4ToGifDesc": "حوّل مقاطع فيديو MP4 إلى صور GIF متحركة عبر الإنترنت مجاناً. أنشئ صور GIF قابلة للمشاركة من أي فيديو. معدل إطارات وحجم قابل للتخصيص.",
+    "compressJpg": "ضغط صور JPG عبر الإنترنت - مجاني",
+    "compressJpgDesc": "اضغط صور JPG/JPEG عبر الإنترنت مجاناً. قلّل حجم الملف حتى 80% دون فقدان مرئي للجودة. لا حاجة للرفع.",
+    "compressPng": "ضغط صور PNG عبر الإنترنت - مجاني",
+    "compressPngDesc": "اضغط صور PNG عبر الإنترنت مجاناً. قلّل حجم ملف PNG مع الحفاظ على الشفافية والجودة. 100% في المتصفح.",
+    "compressWebp": "ضغط صور WebP عبر الإنترنت - مجاني",
+    "compressWebpDesc": "اضغط صور WebP عبر الإنترنت مجاناً. حسّن حجم ملفات WebP لأداء ويب أسرع دون التضحية بالجودة.",
+    "compressMp4": "ضغط مقاطع فيديو MP4 عبر الإنترنت - مجاني",
+    "compressMp4Desc": "اضغط ملفات فيديو MP4 عبر الإنترنت مجاناً. قلّل حجم الفيديو حتى 70% مع الحفاظ على جودة مشاهدة جيدة. لا رفع للخادم.",
+    "resizeInstagram": "تغيير حجم الصورة لإنستغرام - أداة مجانية عبر الإنترنت",
+    "resizeInstagramDesc": "غيّر حجم الصور واقتصها لأبعاد إنستغرام المثالية عبر الإنترنت مجاناً. يدعم المنشورات (1080x1080) والقصص (1080x1920) والريلز.",
+    "resizeFacebook": "تغيير حجم الصورة لفيسبوك - أداة مجانية عبر الإنترنت",
+    "resizeFacebookDesc": "غيّر حجم الصور لصور غلاف فيسبوك وصور الملف الشخصي والمنشورات عبر الإنترنت مجاناً. احصل على الأبعاد المثالية في كل مرة.",
+    "resizeTwitter": "تغيير حجم الصورة لتويتر/X - أداة مجانية عبر الإنترنت",
+    "resizeTwitterDesc": "غيّر حجم الصور لرؤوس تويتر/X (1500x500) والمنشورات وصور الملف الشخصي عبر الإنترنت مجاناً. محسّن للمنصة.",
+    "resizeYoutube": "تغيير حجم الصورة لصورة يوتيوب المصغرة - مجاني",
+    "resizeYoutubeDesc": "أنشئ صور يوتيوب مصغرة مثالية بحجم 1280×720 بكسل عبر الإنترنت مجاناً. اقتص وغيّر حجم الصور للحجم المثالي للصورة المصغرة.",
+    "removeBg": "إزالة خلفية الصورة عبر الإنترنت - أداة ذكاء اصطناعي مجانية",
+    "removeBgDesc": "أزل خلفيات الصور عبر الإنترنت مجاناً باستخدام الذكاء الاصطناعي. احصل على PNG شفاف في ثوانٍ. يعمل مع الأشخاص والمنتجات والأشياء.",
+    "addWatermark": "إضافة علامة مائية للصور عبر الإنترنت - مجاني",
+    "addWatermarkDesc": "أضف علامات مائية نصية أو شعار لصورك عبر الإنترنت مجاناً. احمِ صورك بعلامات مائية مخصصة. يدعم المعالجة الدُفعية.",
+    "mergePhotos": "دمج الصور عبر الإنترنت - أداة دمج صور مجانية",
+    "mergePhotosDesc": "ادمج وأجمع عدة صور في صورة واحدة عبر الإنترنت مجاناً. أنشئ صور مجمعة ومقارنات جنباً إلى جنب وصور طويلة.",
+    "extractMp3": "استخراج MP3 من فيديو عبر الإنترنت - مجاني",
+    "extractMp3Desc": "استخرج الصوت من ملفات الفيديو واحفظه كـ MP3 عبر الإنترنت مجاناً. يعمل مع MP4 و WebM و AVI وصيغ فيديو أخرى.",
+    "convertJpgToPngHowTo": "كيفية تحويل JPG إلى PNG",
+    "convertJpgToPngStep1": "رفع صورة JPG",
+    "convertJpgToPngStep1Desc": "اسحب وأفلت أو انقر لاختيار ملف صورة JPG/JPEG من جهازك.",
+    "convertJpgToPngStep2": "التحويل إلى PNG",
+    "convertJpgToPngStep2Desc": "اختر PNG كصيغة الإخراج وانقر على ابدأ لبدء عملية التحويل.",
+    "convertJpgToPngStep3": "تحميل ملف PNG",
+    "convertJpgToPngStep3Desc": "ملف PNG المحوّل جاهز. حمّله فوراً إلى جهازك.",
+    "convertJpgToPngFaqTitle": "الأسئلة الشائعة",
+    "convertJpgToPngFaq1Q": "هل تحويل JPG إلى PNG يحسّن جودة الصورة؟",
+    "convertJpgToPngFaq1A": "تحويل JPG إلى PNG لا يستعيد الجودة المفقودة أثناء ضغط JPG. لكن PNG يستخدم ضغطاً بدون فقدان، لذا لن تفقد صورتك أي جودة إضافية عند الحفظ مستقبلاً. هذا يجعل PNG مثالياً للصور التي تخطط لتعديلها بشكل متكرر.",
+    "convertJpgToPngFaq2Q": "لماذا ملف PNG أكبر من ملف JPG الأصلي؟",
+    "convertJpgToPngFaq2A": "يستخدم PNG ضغطاً بدون فقدان يحافظ على كل بكسل بدقة، مما ينتج أحجام ملفات أكبر. يحقق JPG ملفات أصغر بإلغاء بيانات الصورة عبر الضغط مع فقدان. المقايضة هي أن PNG يقدم جودة مثالية لكل بكسل مع دعم الشفافية.",
+    "convertJpgToPngFaq3Q": "متى يجب استخدام PNG بدلاً من JPG؟",
+    "convertJpgToPngFaq3A": "استخدم PNG للصور التي تحتاج شفافية، والشعارات، ولقطات الشاشة، والنصوص المتراكبة، أو الرسومات التي ستُعدَّل عدة مرات. JPG أنسب للصور الفوتوغرافية والصور الكبيرة حيث يكون حجم الملف الأصغر أهم من الحفاظ المثالي على كل بكسل.",
+    "convertJpgToWebpHowTo": "كيفية تحويل JPG إلى WebP",
+    "convertJpgToWebpStep1": "رفع ملف JPG الخاص بك",
+    "convertJpgToWebpStep1Desc": "اسحب وأفلت أو تصفح لاختيار صورة JPG التي تريد تحويلها إلى صيغة WebP.",
+    "convertJpgToWebpStep2": "اختيار إخراج WebP",
+    "convertJpgToWebpStep2Desc": "اختر WebP كصيغة الهدف. اضبط إعدادات الجودة حسب الحاجة لتقليل حجم الملف بشكل مثالي.",
+    "convertJpgToWebpStep3": "تحميل صورة WebP",
+    "convertJpgToWebpStep3Desc": "ملف WebP المحسّن جاهز. حمّله واستمتع بأحجام ملفات أصغر بشكل ملحوظ للاستخدام على الويب.",
+    "convertJpgToWebpFaqTitle": "الأسئلة الشائعة",
+    "convertJpgToWebpFaq1Q": "ما مدى صغر WebP مقارنة بـ JPG؟",
+    "convertJpgToWebpFaq1A": "صور WebP عادةً أصغر بنسبة 25-35% من ملفات JPG المكافئة بنفس الجودة البصرية. هذا التقليل يأتي من خوارزمية ضغط WebP الأكثر كفاءة، مما يجعله مثالياً لتحسين المواقع حيث أوقات التحميل الأسرع تحسّن تحسين محركات البحث وتجربة المستخدم.",
+    "convertJpgToWebpFaq2Q": "هل تدعم جميع المتصفحات صيغة WebP؟",
+    "convertJpgToWebpFaq2A": "جميع المتصفحات الحديثة بما في ذلك Chrome و Firefox و Safari و Edge و Opera تدعم WebP بالكامل. المتصفحات القديمة مثل Internet Explorer لا تدعمه. للمواقع، يمكنك تقديم WebP مع بديل JPG باستخدام عنصر HTML picture لضمان التوافق الشامل.",
+    "convertJpgToWebpFaq3Q": "هل تحويل JPG إلى WebP يفقد الجودة؟",
+    "convertJpgToWebpFaq3A": "يدعم WebP الضغط مع فقدان وبدون فقدان. مع WebP مع فقدان بإعدادات جودة مكافئة، الفرق البصري عن JPG غير محسوس للعين البشرية مع توفير أحجام ملفات أصغر. WebP بدون فقدان يحافظ على كل بكسل لكن ينتج ملفات أكبر من وضع الفقدان.",
+    "convertPngToJpgHowTo": "كيفية تحويل PNG إلى JPG",
+    "convertPngToJpgStep1": "اختيار صورة PNG",
+    "convertPngToJpgStep1Desc": "ارفع ملف PNG بسحبه إلى منطقة الإفلات أو بالنقر لتصفح ملفاتك.",
+    "convertPngToJpgStep2": "التحويل إلى صيغة JPG",
+    "convertPngToJpgStep2Desc": "اختر JPG كصيغة الإخراج واضبط شريط الجودة لتحقيق التوازن بين حجم الملف ووضوح الصورة.",
+    "convertPngToJpgStep3": "حفظ ملف JPG الخاص بك",
+    "convertPngToJpgStep3Desc": "حمّل صورة JPG المحوّلة. أحجام الملفات عادةً أصغر بنسبة 50-80% من PNG الأصلي.",
+    "convertPngToJpgFaqTitle": "الأسئلة الشائعة",
+    "convertPngToJpgFaq1Q": "ماذا يحدث للشفافية عند تحويل PNG إلى JPG؟",
+    "convertPngToJpgFaq1A": "JPG لا يدعم الشفافية، لذا أي مناطق شفافة في PNG الخاص بك ستُملأ بلون خلفية صلب، عادةً أبيض. إذا كنت بحاجة للحفاظ على الشفافية، فكّر في التحويل إلى WebP بدلاً من ذلك، الذي يدعم الشفافية وأحجام ملفات أصغر.",
+    "convertPngToJpgFaq2Q": "كم يمكنني تقليل حجم الملف بتحويل PNG إلى JPG؟",
+    "convertPngToJpgFaq2A": "تحويل PNG إلى JPG عادةً يقلّل حجم الملف بنسبة 50-90%، حسب تعقيد الصورة وإعدادات جودة JPG. الصور الفوتوغرافية تشهد أكبر التخفيضات لأن ضغط JPG مع فقدان يتفوق في ترميز المحتوى الفوتوغرافي مع انتقالات لونية تدريجية.",
+    "convertPngToJpgFaq3Q": "ما إعداد جودة JPG الذي يجب استخدامه؟",
+    "convertPngToJpgFaq3A": "لصور الويب، جودة 80-85% تقدم أفضل توازن بين الدقة البصرية وحجم الملف. للطباعة أو الأرشفة، اختر 95-100%. تحت 70%، تصبح عيوب الضغط ملحوظة، خاصة حول الحواف الحادة والنص، لذا تجنب الجودة المنخفضة للصور ذات التفاصيل الدقيقة.",
+    "convertPngToWebpHowTo": "كيفية تحويل PNG إلى WebP",
+    "convertPngToWebpStep1": "رفع ملف PNG",
+    "convertPngToWebpStep1Desc": "اسحب وأفلت صورة PNG أو انقر للتصفح. يدعم جميع ملفات PNG بما في ذلك تلك التي تحتوي على شفافية.",
+    "convertPngToWebpStep2": "اختيار صيغة WebP",
+    "convertPngToWebpStep2Desc": "اختر WebP كإخراج. WebP يحافظ على شفافية PNG مع تقديم أحجام ملفات أصغر بشكل كبير.",
+    "convertPngToWebpStep3": "تحميل نتيجة WebP",
+    "convertPngToWebpStep3Desc": "احفظ صورة WebP المحوّلة. استمتع بملفات أصغر بنسبة تصل إلى 45% مع جودة بصرية متطابقة.",
+    "convertPngToWebpFaqTitle": "الأسئلة الشائعة",
+    "convertPngToWebpFaq1Q": "هل يدعم WebP الشفافية مثل PNG؟",
+    "convertPngToWebpFaq1A": "نعم، WebP يدعم بالكامل شفافية قناة ألفا مثل PNG. الميزة الرئيسية هي أن صور WebP الشفافة أصغر بشكل ملحوظ من ملفات PNG الشفافة المكافئة، غالباً أصغر بنسبة 40-50%، مما يجعلها مثالية لشعارات وأيقونات ورسومات المواقع المتراكبة.",
+    "convertPngToWebpFaq2Q": "هل تحويل PNG إلى WebP بدون فقدان؟",
+    "convertPngToWebpFaq2A": "يدعم WebP الأوضاع مع فقدان وبدون فقدان. WebP بدون فقدان يحافظ على كل بكسل بشكل مطابق لـ PNG الأصلي لكن يحقق ملفات أصغر بنسبة 20-30%. WebP مع فقدان يقلّل الحجم أكثر مع تأثير بصري ضئيل، مما يجعله مثالياً لتحسين أداء الويب.",
+    "convertPngToWebpFaq3Q": "هل يجب استبدال جميع صور PNG في موقعي بـ WebP؟",
+    "convertPngToWebpFaq3A": "لمعظم المواقع، تحويل PNG إلى WebP يحسّن بشكل ملحوظ سرعة تحميل الصفحة ودرجات Core Web Vitals. استخدم عنصر HTML picture لتقديم WebP للمتصفحات الحديثة مع PNG كبديل. هذا النهج يضمن التوافق مع تعظيم فوائد الأداء.",
+    "convertWebpToJpgHowTo": "كيفية تحويل WebP إلى JPG",
+    "convertWebpToJpgStep1": "رفع صورة WebP",
+    "convertWebpToJpgStep1Desc": "اختر ملف WebP بسحبه أو تصفح جهازك. جميع ملفات WebP مدعومة.",
+    "convertWebpToJpgStep2": "التحويل إلى JPG",
+    "convertWebpToJpgStep2Desc": "اختر JPG كصيغة الهدف وابدأ التحويل. تتم المعالجة فوراً في متصفحك.",
+    "convertWebpToJpgStep3": "تحميل ملف JPG",
+    "convertWebpToJpgStep3Desc": "احفظ ملف JPG المحوّل. أصبح الآن متوافقاً مع كل عارض صور ومحرر ومنصة.",
+    "convertWebpToJpgFaqTitle": "الأسئلة الشائعة",
+    "convertWebpToJpgFaq1Q": "لماذا أرغب في تحويل WebP إلى JPG؟",
+    "convertWebpToJpgFaq1A": "بعض البرامج القديمة وعملاء البريد الإلكتروني ومنصات التواصل الاجتماعي لا تدعم WebP بالكامل. التحويل إلى JPG يضمن أن صورتك متوافقة عالمياً مع كل جهاز ونظام تشغيل وتطبيق. JPG هو صيغة الصور الأكثر دعماً على نطاق واسع اليوم.",
+    "convertWebpToJpgFaq2Q": "هل سيكون JPG أكبر من ملف WebP؟",
+    "convertWebpToJpgFaq2A": "عادةً نعم، لأن WebP يستخدم خوارزمية ضغط أكثر كفاءة من JPG. بجودة بصرية مكافئة، ملفات JPG عادةً أكبر بنسبة 25-35%. يمكنك تقليل حجم ملف JPG بخفض شريط الجودة، رغم أن هذا يُدخل المزيد من عيوب الضغط المرئية.",
+    "convertWebpToJpgFaq3Q": "هل يمكنني تحويل عدة ملفات WebP إلى JPG دفعة واحدة؟",
+    "convertWebpToJpgFaq3A": "نعم، يمكنك رفع عدة ملفات WebP وتحويلها جميعاً إلى JPG في جلسة واحدة. يُعالَج كل ملف على حدة في متصفحك دون الحاجة للرفع إلى خادم. هذا يجعل التحويل الدُفعي سريعاً وخاصاً ومجانياً بغض النظر عن عدد الصور التي تحتاج لتحويلها.",
+    "convertWebpToPngHowTo": "كيفية تحويل WebP إلى PNG",
+    "convertWebpToPngStep1": "إضافة ملف WebP الخاص بك",
+    "convertWebpToPngStep1Desc": "ارفع صورة WebP التي تريد تحويلها. يدعم ملفات WebP مع فقدان وبدون فقدان.",
+    "convertWebpToPngStep2": "التحويل إلى صيغة PNG",
+    "convertWebpToPngStep2Desc": "اختر PNG كصيغة الإخراج. أي شفافية في ملف WebP الخاص بك تُحفظ بالكامل في نتيجة PNG.",
+    "convertWebpToPngStep3": "تحميل صورة PNG",
+    "convertWebpToPngStep3Desc": "ملف PNG بدون فقدان جاهز للتحميل. استخدمه في أي محرر صور أو منصة دون مخاوف التوافق.",
+    "convertWebpToPngFaqTitle": "الأسئلة الشائعة",
+    "convertWebpToPngFaq1Q": "هل تحويل WebP إلى PNG يحافظ على الشفافية؟",
+    "convertWebpToPngFaq1A": "نعم، جميع بيانات الشفافية وقناة ألفا من ملف WebP الأصلي تُحفظ بالكامل أثناء تحويل PNG. يدعم PNG الناتج نفس مستويات الشفافية، مما يجعله آمناً لتحويل الشعارات والأيقونات والرسومات المتراكبة دون فقدان المناطق الشفافة.",
+    "convertWebpToPngFaq2Q": "لماذا PNG أفضل من WebP للتحرير؟",
+    "convertWebpToPngFaq2A": "يستخدم PNG ضغطاً بدون فقدان، لذا فتح وحفظ ملف PNG بشكل متكرر لا يُضعف الجودة أبداً. بعض محررات الصور لديها أيضاً دعم محدود لـ WebP. التحويل إلى PNG يمنحك أقصى توافق مع الأدوات الاحترافية مثل Photoshop و GIMP و Illustrator.",
+    "convertWebpToPngFaq3Q": "هل ملف PNG أكبر من WebP الأصلي؟",
+    "convertWebpToPngFaq3A": "نعم، ملفات PNG عادةً أكبر لأن ضغط PNG أقل كفاءة من WebP. لكن المقايضة هي التوافق الشامل والجودة بدون فقدان. إذا كان حجم الملف حرجاً، احتفظ بنسخة WebP للاستخدام على الويب ونسخة PNG للتحرير والأرشفة.",
+    "convertHeicToJpgHowTo": "كيفية تحويل HEIC إلى JPG",
+    "convertHeicToJpgStep1": "رفع صورة HEIC",
+    "convertHeicToJpgStep1Desc": "اختر ملف صورة HEIC/HEIF من iPhone أو iPad. يمكنك الرفع مباشرة من جهازك أو التخزين السحابي.",
+    "convertHeicToJpgStep2": "التحويل إلى JPG",
+    "convertHeicToJpgStep2Desc": "تحوّل الأداة تلقائياً ملف HEIC إلى صيغة JPG المتوافقة عالمياً في متصفحك.",
+    "convertHeicToJpgStep3": "تحميل صورة JPG",
+    "convertHeicToJpgStep3Desc": "احفظ صورة JPG المحوّلة. يمكن فتحها الآن على أي جهاز أو مشاركتها عبر البريد الإلكتروني أو رفعها في أي مكان.",
+    "convertHeicToJpgFaqTitle": "الأسئلة الشائعة",
+    "convertHeicToJpgFaq1Q": "ما هي صيغة HEIC ولماذا تستخدمها Apple؟",
+    "convertHeicToJpgFaq1A": "HEIC (حاوية صور عالية الكفاءة) هي صيغة الصور الافتراضية في Apple منذ iOS 11. تنتج ملفات أصغر بحوالي 50% من JPG بجودة مكافئة باستخدام ضغط HEVC. اعتمدتها Apple لتوفير مساحة التخزين على أجهزة iPhone مع الحفاظ على جودة صور ممتازة.",
+    "convertHeicToJpgFaq2Q": "لماذا لا يستطيع Windows فتح ملفات HEIC؟",
+    "convertHeicToJpgFaq2A": "يحتاج Windows إلى إضافة ترميز HEVC منفصلة لفتح ملفات HEIC، والتي تفرض Microsoft رسوماً عليها في متجر Microsoft. تحويل HEIC إلى JPG يلغي مشكلة التوافق هذه تماماً، مما يتيح لك عرض ومشاركة صور iPhone على أي كمبيوتر Windows دون تثبيت برامج إضافية.",
+    "convertHeicToJpgFaq3Q": "هل تحويل HEIC إلى JPG يقلّل جودة الصورة؟",
+    "convertHeicToJpgFaq3A": "هناك تقليل طفيف في الجودة لأن JPG يستخدم ضغطاً مع فقدان. بإعدادات جودة عالية مثل 90-95%، الفرق البصري غير محسوس لمعظم الصور الفوتوغرافية. يستبدل التحويل فقداناً طفيفاً في الجودة بتوافق شامل عبر جميع الأجهزة والمنصات والتطبيقات.",
+    "convertBmpToJpgHowTo": "كيفية تحويل BMP إلى JPG",
+    "convertBmpToJpgStep1": "رفع ملف BMP",
+    "convertBmpToJpgStep1Desc": "اختر صورة BMP النقطية. ملفات BMP غالباً كبيرة جداً لأنها تخزن بيانات بكسل غير مضغوطة.",
+    "convertBmpToJpgStep2": "التحويل إلى JPG",
+    "convertBmpToJpgStep2Desc": "اختر إخراج JPG واضبط الجودة. حتى بأقصى جودة، سيكون JPG أصغر بكثير من BMP.",
+    "convertBmpToJpgStep3": "تحميل JPG المضغوط",
+    "convertBmpToJpgStep3Desc": "احفظ ملف JPG. توقع تقليل حجم الملف بنسبة 90-95% مقارنة بصورة BMP الأصلية غير المضغوطة.",
+    "convertBmpToJpgFaqTitle": "الأسئلة الشائعة",
+    "convertBmpToJpgFaq1Q": "لماذا ملفات BMP أكبر بكثير من JPG؟",
+    "convertBmpToJpgFaq1A": "يخزن BMP كل بكسل كبيانات خام غير مضغوطة دون تطبيق أي خوارزمية ضغط. صورة BMP بحجم 1920×1080 تأخذ حوالي 6 ميغابايت. يطبق JPG ضغطاً مع فقدان لتقليل هذا بشكل كبير، غالباً إلى 200-500 كيلوبايت، بإلغاء المعلومات البصرية التي لا يمكن للبشر إدراكها بذكاء.",
+    "convertBmpToJpgFaq2Q": "متى يُستخدم تنسيق BMP؟",
+    "convertBmpToJpgFaq2A": "يُستخدم BMP أحياناً في تطبيقات Windows القديمة والأنظمة المدمجة والتصوير الطبي حيث تكون البيانات غير المضغوطة مطلوبة. بعض برامج الماسح الضوئي القديمة تُخرج BMP بشكل افتراضي أيضاً. للاستخدام اليومي مثل المشاركة والنشر على الويب أو البريد الإلكتروني، يُنصح بشدة بتحويل BMP إلى JPG.",
+    "convertBmpToJpgFaq3Q": "هل يمكنني تحويل BMP إلى JPG بدون فقدان الجودة؟",
+    "convertBmpToJpgFaq3A": "JPG بطبيعته مع فقدان، لذا تُلغى بعض البيانات أثناء التحويل. لكن بجودة 95-100%، الفرق البصري غير قابل للاكتشاف تقريباً. إذا كنت بحاجة لتحويل بدون فقدان حقيقي، فكّر في PNG بدلاً من JPG، رغم أن تقليل حجم الملف سيكون أقل درامية.",
+    "convertMp4ToWebmHowTo": "كيفية تحويل MP4 إلى WebM",
+    "convertMp4ToWebmStep1": "رفع فيديو MP4",
+    "convertMp4ToWebmStep1Desc": "اختر ملف فيديو MP4. تتم كل المعالجة محلياً في متصفحك باستخدام FFmpeg المدعوم بـ WebAssembly.",
+    "convertMp4ToWebmStep2": "التحويل إلى WebM",
+    "convertMp4ToWebmStep2Desc": "اختر WebM كصيغة الإخراج. اضبط الدقة وإعدادات الجودة لتحسين احتياجات التضمين في الويب.",
+    "convertMp4ToWebmStep3": "تحميل ملف WebM",
+    "convertMp4ToWebmStep3Desc": "احفظ فيديو WebM المحوّل. محسّن لتشغيل فيديو HTML5 والتضمين في صفحات الويب.",
+    "convertMp4ToWebmFaqTitle": "الأسئلة الشائعة",
+    "convertMp4ToWebmFaq1Q": "ما مزايا WebM على MP4؟",
+    "convertMp4ToWebmFaq1A": "WebM هو صيغة مفتوحة وخالية من حقوق الملكية طوّرتها Google، مما يجعلها مثالية للاستخدام على الويب بدون مخاوف الترخيص. ملفات WebM باستخدام ترميز VP9 تقدم جودة مماثلة لـ MP4 H.264 بأحجام ملفات أصغر، مما يحسّن أوقات التحميل ويقلّل تكاليف النطاق الترددي للمواقع.",
+    "convertMp4ToWebmFaq2Q": "هل تستطيع جميع المتصفحات تشغيل فيديوهات WebM؟",
+    "convertMp4ToWebmFaq2A": "Chrome و Firefox و Edge و Opera تدعم بالكامل تشغيل WebM. أضاف Safari دعم WebM في الإصدار 14.1. لأقصى توافق، تقدم العديد من المواقع كلاً من WebM و MP4 باستخدام عنصر فيديو HTML5 مع عدة علامات source، مما يتيح للمتصفحات اختيار الصيغة التي تدعمها بشكل أفضل.",
+    "convertMp4ToWebmFaq3Q": "هل يستغرق تحويل MP4 إلى WebM وقتاً طويلاً؟",
+    "convertMp4ToWebmFaq3A": "يعتمد وقت التحويل على مدة الفيديو والدقة وأداء جهازك. المقاطع القصيرة أقل من دقيقتين تُحوَّل عادةً في 30-60 ثانية. بما أن المعالجة تعمل بالكامل في متصفحك عبر WebAssembly، المعالجات الأسرع تنتج نتائج أسرع. لا يُرفع أي بيانات فيديو إلى أي خادم.",
+    "convertMp4ToAviHowTo": "كيفية تحويل MP4 إلى AVI",
+    "convertMp4ToAviStep1": "رفع ملف MP4",
+    "convertMp4ToAviStep1Desc": "اختر فيديو MP4 الذي تريد تحويله إلى صيغة AVI. يدعم جميع ملفات MP4 بأي ترميز.",
+    "convertMp4ToAviStep2": "التحويل إلى صيغة AVI",
+    "convertMp4ToAviStep2Desc": "اختر AVI كصيغة الإخراج. يتعامل المحوّل مع تحويل الترميز تلقائياً في متصفحك.",
+    "convertMp4ToAviStep3": "تحميل فيديو AVI",
+    "convertMp4ToAviStep3Desc": "احفظ ملف AVI المحوّل. أصبح الآن متوافقاً مع مشغلات الوسائط القديمة وبرامج تحرير الفيديو التراثية.",
+    "convertMp4ToAviFaqTitle": "الأسئلة الشائعة",
+    "convertMp4ToAviFaq1Q": "لماذا أرغب في تحويل MP4 إلى AVI؟",
+    "convertMp4ToAviFaq1A": "AVI مطلوب للتوافق مع بعض برامج تحرير الفيديو القديمة ومشغلات الوسائط التراثية وأجهزة معينة لا تدعم MP4. بعض سير العمل الاحترافي للفيديو وأدوات تأليف DVD القديمة تتطلب أيضاً صيغة إدخال AVI للمعالجة الصحيحة.",
+    "convertMp4ToAviFaq2Q": "هل AVI أفضل جودة من MP4؟",
+    "convertMp4ToAviFaq2A": "AVI هو صيغة حاوية وليس ترميزاً، لذا تعتمد الجودة على الترميز المستخدم بداخله. MP4 الحديث مع H.264 عادةً يقدم كفاءة ضغط أفضل من ترميزات AVI الشائعة. ملفات AVI عادةً أكبر بجودة مكافئة لأنها غالباً تستخدم طرق ضغط أقل كفاءة.",
+    "convertMp4ToAviFaq3Q": "هل سيكون ملف AVI أكبر من MP4؟",
+    "convertMp4ToAviFaq3A": "نعم، ملفات AVI عادةً أكبر من MP4 لأن حاوية AVI وترميزاتها النموذجية أقل كفاءة في الضغط. توقع أن يكون إخراج AVI أكبر بنسبة 50-200% حسب الترميز والإعدادات المستخدمة. هذه المقايضة مقابل توافق أوسع مع الأنظمة القديمة.",
+    "convertWebmToMp4HowTo": "كيفية تحويل WebM إلى MP4",
+    "convertWebmToMp4Step1": "رفع فيديو WebM",
+    "convertWebmToMp4Step1Desc": "اختر ملف فيديو WebM. شائع للفيديوهات المحمّلة من الويب أو المسجلة بواسطة المتصفحات.",
+    "convertWebmToMp4Step2": "التحويل إلى MP4",
+    "convertWebmToMp4Step2Desc": "اختر MP4 كصيغة الإخراج مع ترميز H.264 لأقصى توافق مع الأجهزة والمنصات.",
+    "convertWebmToMp4Step3": "تحميل ملف MP4",
+    "convertWebmToMp4Step3Desc": "احفظ فيديو MP4. يمكن تشغيله الآن على كل جهاز وتلفزيون وهاتف ومشغل وسائط تقريباً.",
+    "convertWebmToMp4FaqTitle": "الأسئلة الشائعة",
+    "convertWebmToMp4Faq1Q": "لماذا تحويل WebM إلى MP4؟",
+    "convertWebmToMp4Faq1A": "MP4 هو صيغة الفيديو الأكثر توافقاً عالمياً، مدعوم من جميع الهواتف الذكية والتلفزيونات الذكية ومشغلات الوسائط ومنصات التواصل الاجتماعي. WebM له دعم محدود على أجهزة Apple وبعض الأنظمة القديمة. التحويل إلى MP4 يضمن تشغيل الفيديو في كل مكان دون مشاكل توافق.",
+    "convertWebmToMp4Faq2Q": "هل يمكنني تشغيل MP4 المحوّل على iPhone؟",
+    "convertWebmToMp4Faq2A": "نعم، MP4 بترميز H.264 مدعوم أصلاً على جميع أجهزة iPhone و iPad وأجهزة Apple. بعد التحويل، يمكنك تشغيل الفيديو مباشرة في تطبيق الصور ومشاركته عبر iMessage أو AirDrop ورفعه على أي منصة تواصل اجتماعي بدون تطبيقات إضافية.",
+    "convertWebmToMp4Faq3Q": "هل هناك فقدان جودة عند تحويل WebM إلى MP4؟",
+    "convertWebmToMp4Faq3A": "هناك تقليل طفيف في الجودة لأن الفيديو يُعاد ترميزه من ترميز مع فقدان إلى آخر. بإعدادات جودة عالية، هذا الفرق بالكاد ملحوظ. للحصول على أفضل النتائج، حافظ على دقة الإخراج ومعدل البت قريبين من مواصفات ملف WebM الأصلي.",
+    "convertMp4ToGifHowTo": "كيفية تحويل MP4 إلى GIF",
+    "convertMp4ToGifStep1": "رفع فيديو MP4",
+    "convertMp4ToGifStep1Desc": "اختر مقطع فيديو MP4 الذي تريد تحويله إلى GIF متحرك. المقاطع الأقصر تنتج نتائج أفضل.",
+    "convertMp4ToGifStep2": "تخصيص إعدادات GIF",
+    "convertMp4ToGifStep2Desc": "اضبط معدل الإطارات والدقة وقص مدة المقطع. معدلات إطارات أقل وأبعاد أصغر تنشئ ملفات GIF أصغر.",
+    "convertMp4ToGifStep3": "تحميل GIF المتحرك",
+    "convertMp4ToGifStep3Desc": "احفظ GIF المتحرك. شاركه على وسائل التواصل الاجتماعي وتطبيقات المراسلة والمنتديات أو أدرجه في المواقع والبريد الإلكتروني.",
+    "convertMp4ToGifFaqTitle": "الأسئلة الشائعة",
+    "convertMp4ToGifFaq1Q": "ما المدة المثالية لـ GIF؟",
+    "convertMp4ToGifFaq1A": "أكثر صور GIF فعالية تدوم 3-6 ثوانٍ. تنمو ملفات GIF بسرعة مع المدة لأن كل إطار يُخزَّن كصورة كاملة. GIF مدته 10 ثوانٍ بمعدل 15 إطاراً في الثانية يمكن أن يتجاوز 10 ميغابايت بسهولة. حافظ على GIF قصيراً ومركّزاً على اللحظة الرئيسية لأفضل توازن بين الجودة والحجم.",
+    "convertMp4ToGifFaq2Q": "لماذا ملف GIF كبير جداً؟",
+    "convertMp4ToGifFaq2A": "صيغة GIF تستخدم تخزيناً بدون فقدان إطاراً بإطار مع لوحة 256 لوناً، وهو غير فعال بطبيعته لمحتوى الفيديو. قلّل الحجم بخفض الدقة إلى 480 بكسل عرض أو أقل، وتقليل معدل الإطارات إلى 10-12 إطاراً في الثانية، وقص المقطع لأقصر مدة ممكنة.",
+    "convertMp4ToGifFaq3Q": "كيف أصنع GIF بجودة أعلى؟",
+    "convertMp4ToGifFaq3A": "ابدأ بفيديو مصدر عالي الجودة مع إضاءة جيدة ولقطات مستقرة. استخدم معدل إطارات أعلى مثل 15-20 إطاراً في الثانية لحركة أكثر سلاسة. حافظ على الدقة معقولة بحد أقصى 640 بكسل عرض. المقاطع الأقصر تسمح بمزيد من الإطارات في الثانية ضمن حد حجم ملف معقول.",
+    "compressJpgHowTo": "كيفية ضغط صور JPG",
+    "compressJpgStep1": "رفع صور JPG",
+    "compressJpgStep1Desc": "اسحب وأفلت أو اختر صورة JPG/JPEG واحدة أو أكثر. يُدعم الضغط الدُفعي لعدة ملفات في وقت واحد.",
+    "compressJpgStep2": "ضبط مستوى الضغط",
+    "compressJpgStep2Desc": "اضبط مستوى الجودة المطلوب. جودة أقل تعني أحجام ملفات أصغر. عاين النتيجة قبل التحميل.",
+    "compressJpgStep3": "تحميل الملفات المضغوطة",
+    "compressJpgStep3Desc": "احفظ صور JPG المحسّنة مع أحجام ملفات مخفّضة بشكل كبير مع الحفاظ على الجودة البصرية.",
+    "compressJpgFaqTitle": "الأسئلة الشائعة",
+    "compressJpgFaq1Q": "كم يمكن لضغط JPG تقليل حجم الملف؟",
+    "compressJpgFaq1A": "يمكن لضغط JPG تقليل أحجام الملفات بنسبة 50-80% حسب إعدادات الجودة ومحتوى الصورة. يمكن عادةً ضغط صورة بحجم 5 ميغابايت إلى 500 كيلوبايت-1 ميغابايت دون فقدان جودة ملحوظ. الصور ذات المناطق المنتظمة الكبيرة تُضغط بكفاءة أكبر من القوام شديد التفصيل.",
+    "compressJpgFaq2Q": "هل ضغط JPG يقلّل أبعاد الصورة؟",
+    "compressJpgFaq2A": "لا، الضغط يضبط فقط جودة الترميز دون تغيير أبعاد البكسل. صورتك بحجم 4000×3000 تبقى 4000×3000 بكسل بعد الضغط. يأتي تقليل حجم الملف من كيفية تخزين بيانات الألوان، وليس من تقليل الدقة. تغيير الأبعاد عملية منفصلة.",
+    "compressJpgFaq3Q": "هل يمكنني ضغط JPG عدة مرات؟",
+    "compressJpgFaq3A": "يمكنك ذلك، لكن كل جولة ضغط JPG تُدخل فقداناً إضافياً في الجودة لأن JPG مع فقدان. إعادة ضغط JPG مضغوط بالفعل يُضعف الجودة أكثر مع تقليصات حجم متناقصة. للحصول على أفضل النتائج، اضغط دائماً من الملف المصدر الأصلي عالي الجودة.",
+    "compressPngHowTo": "كيفية ضغط صور PNG",
+    "compressPngStep1": "رفع ملفات PNG",
+    "compressPngStep1Desc": "اختر صور PNG بسحبها أو التصفح. يعمل مع جميع ملفات PNG بما في ذلك الشفافة.",
+    "compressPngStep2": "تعيين إعدادات الضغط",
+    "compressPngStep2Desc": "اختر مستوى الضغط. تحسّن الأداة ترميز PNG مع الحفاظ على الشفافية والجودة البصرية.",
+    "compressPngStep3": "تحميل ملفات PNG المحسّنة",
+    "compressPngStep3Desc": "احفظ ملفات PNG المضغوطة. تُحفظ الشفافية بالكامل مع أحجام ملفات مخفّضة بشكل ملحوظ.",
+    "compressPngFaqTitle": "الأسئلة الشائعة",
+    "compressPngFaq1Q": "هل يمكن لضغط PNG الحفاظ على الشفافية؟",
+    "compressPngFaq1A": "نعم، ضغط PNG يحافظ بالكامل على قناة ألفا وجميع بيانات الشفافية. يعمل الضغط بتحسين كيفية ترميز وتصفية بيانات البكسل دون إزالة معلومات الشفافية. ستحافظ شعاراتك وأيقوناتك ورسوماتك المتراكبة على خلفياتها الشفافة بشكل مثالي.",
+    "compressPngFaq2Q": "كيف يختلف ضغط PNG عن ضغط JPG؟",
+    "compressPngFaq2A": "يستخدم PNG ضغطاً بدون فقدان بشكل افتراضي، مما يعني عدم إلغاء أي بيانات بكسل. يستخدم JPG ضغطاً مع فقدان يزيل البيانات بشكل دائم لتحقيق أحجام أصغر. يعمل ضغط PNG بإيجاد طرق أكثر كفاءة لترميز نفس البيانات، بينما يعمل ضغط JPG بإلغاء التفاصيل البصرية.",
+    "compressPngFaq3Q": "لماذا ملفات PNG أكبر من ملفات JPG؟",
+    "compressPngFaq3A": "يحافظ PNG على كل بكسل بالضبط عبر ضغط بدون فقدان، مما يحد من مدى صغر الملفات. يحقق JPG أحجاماً أصغر بإلغاء معلومات بصرية لا يمكن للبشر ملاحظتها عادةً. للصور الفوتوغرافية، JPG أكثر كفاءة. للرسومات والشعارات ولقطات الشاشة ذات الحواف الحادة، يُفضّل PNG.",
+    "compressWebpHowTo": "كيفية ضغط صور WebP",
+    "compressWebpStep1": "رفع صور WebP",
+    "compressWebpStep1Desc": "اختر ملفات WebP بالسحب والإفلات أو التصفح. يُدعم ملفات WebP مع فقدان وبدون فقدان.",
+    "compressWebpStep2": "ضبط إعدادات الجودة",
+    "compressWebpStep2Desc": "اضبط مستوى الضغط بدقة لتحقيق التوازن بين حجم الملف والجودة البصرية لحالة استخدامك المحددة.",
+    "compressWebpStep3": "تحميل WebP المحسّن",
+    "compressWebpStep3Desc": "احفظ صور WebP المضغوطة. قلّل أكثر ملفات WebP الفعالة بالفعل لأقصى أداء ويب.",
+    "compressWebpFaqTitle": "الأسئلة الشائعة",
+    "compressWebpFaq1Q": "هل يمكن ضغط ملفات WebP أكثر؟",
+    "compressWebpFaq1A": "نعم، خاصة ملفات WebP المُصدَّرة بإعدادات جودة عالية. إعادة الضغط بمستوى جودة أقل قليلاً يمكن أن يقلّل حجم الملف بنسبة 20-50% مع تأثير بصري ضئيل. هذا مفيد لتحسين صور WebP المُصدَّرة من أدوات التصميم بإعدادات جودة عالية غير ضرورية.",
+    "compressWebpFaq2Q": "ما إعداد الجودة الأفضل لصور الويب؟",
+    "compressWebpFaq2A": "لمعظم صور الويب، إعداد جودة WebP بنسبة 75-85% يوفر جودة بصرية ممتازة مع حجم ملف مثالي. صور البطل وصور المنتجات قد تستفيد من 85-90%. الصور المصغرة والعناصر الزخرفية يمكنها استخدام 60-75%. عاين دائماً النتائج المضغوطة للتحقق من جودة مقبولة.",
+    "compressWebpFaq3Q": "هل WebP أفضل من JPG لأداء الموقع؟",
+    "compressWebpFaq3A": "يقدم WebP باستمرار ملفات أصغر بنسبة 25-35% من JPG بجودة بصرية مكافئة، مما يحسّن مباشرة سرعة تحميل الصفحة ودرجات Core Web Vitals. توصي Google بـ WebP لصور الويب، وجميع المتصفحات الرئيسية تدعمه الآن. الملفات الأصغر تقلّل أيضاً تكاليف نطاق الاستضافة بشكل ملحوظ.",
+    "compressMp4HowTo": "كيفية ضغط مقاطع فيديو MP4",
+    "compressMp4Step1": "رفع فيديو MP4",
+    "compressMp4Step1Desc": "اختر ملف فيديو MP4. تعمل الأداة بالكامل في متصفحك، لذا لا يُرفع أي بيانات فيديو إلى أي خادم.",
+    "compressMp4Step2": "اختيار إعدادات الضغط",
+    "compressMp4Step2Desc": "اضبط الدقة ومعدل البت والجودة. دقة ومعدل بت أقل ينتجان ملفات أصغر. عاين حجم الإخراج المقدّر.",
+    "compressMp4Step3": "تحميل الفيديو المضغوط",
+    "compressMp4Step3Desc": "احفظ MP4 المضغوط بحجم ملف مخفّض. شاركه عبر البريد الإلكتروني أو تطبيقات المراسلة أو ارفعه على وسائل التواصل الاجتماعي.",
+    "compressMp4FaqTitle": "الأسئلة الشائعة",
+    "compressMp4Faq1Q": "كم يمكن ضغط فيديو MP4؟",
+    "compressMp4Faq1A": "يمكن لضغط MP4 تقليل حجم ملف الفيديو بنسبة 40-70% حسب الترميز الأصلي والدقة وجودة الهدف. فيديو بحجم 100 ميغابايت يمكن غالباً تقليله إلى 30-50 ميغابايت مع الحفاظ على جودة مشاهدة جيدة. الفيديوهات المسجلة أصلاً بمعدلات بت عالية جداً تشهد أكبر التخفيضات.",
+    "compressMp4Faq2Q": "هل ضغط الفيديو يقلّل الدقة؟",
+    "compressMp4Faq2A": "ليس بالضرورة. يمكنك ضغط الفيديو بتقليل معدل البت فقط مع الحفاظ على الدقة الأصلية. لكن تقليل الدقة من 1080p إلى 720p طريقة فعالة لتقليل حجم الملف بشكل كبير. على شاشات الهاتف، الفرق البصري بين 720p و 1080p غالباً غير محسوس.",
+    "compressMp4Faq3Q": "ما أفضل دقة لمشاركة الفيديوهات عبر الإنترنت؟",
+    "compressMp4Faq3A": "720p (1280×720) هو النقطة المثالية للمشاركة عبر البريد الإلكتروني وتطبيقات المراسلة، مع تقديم جودة جيدة بأحجام ملفات يمكن إدارتها. لرفع على وسائل التواصل الاجتماعي، يُوصى بـ 1080p لأن المنصات تطبق ضغطها الخاص. لواتساب وتطبيقات مماثلة مع حدود حجم، 480p يحافظ على الملفات تحت 16 ميغابايت.",
+    "resizeInstagramHowTo": "كيفية تغيير حجم الصور لإنستغرام",
+    "resizeInstagramStep1": "رفع صورتك",
+    "resizeInstagramStep1Desc": "اختر الصورة التي تريد تغيير حجمها لإنستغرام. يدعم JPG و PNG و WebP وصيغ شائعة أخرى.",
+    "resizeInstagramStep2": "اختيار أبعاد إنستغرام",
+    "resizeInstagramStep2Desc": "اختر الحجم المستهدف: 1080×1080 للمنشورات، 1080×1350 للعمودي، أو 1080×1920 للقصص والريلز.",
+    "resizeInstagramStep3": "تحميل الصورة بالحجم الجديد",
+    "resizeInstagramStep3Desc": "احفظ صورة إنستغرام بالحجم المثالي. ارفعها مباشرة على إنستغرام بدون مشاكل اقتصاص المنصة.",
+    "resizeInstagramFaqTitle": "الأسئلة الشائعة",
+    "resizeInstagramFaq1Q": "ما أفضل حجم صورة لمنشورات إنستغرام؟",
+    "resizeInstagramFaq1A": "يدعم إنستغرام 1080×1080 (مربع)، 1080×1350 (عمودي 4:5)، و 1080×566 (أفقي). العمودي 1080×1350 يأخذ مساحة أكبر في الخلاصة ويحصل على أعلى تفاعل. ارفع دائماً بعرض أدنى 1080 بكسل لمنع إنستغرام من عرض نسخة مشوشة ومكبّرة.",
+    "resizeInstagramFaq2Q": "ما حجم قصص إنستغرام؟",
+    "resizeInstagramFaq2A": "يجب أن تكون القصص والريلز بحجم 1080×1920 بكسل بنسبة عرض إلى ارتفاع 9:16 للعرض بملء الشاشة. اترك 250 بكسل هامش أمان في الأعلى والأسفل لتجنب تغطية محتواك بشريط اسم المستخدم ومنطقة الرد على شاشات المشاهدين.",
+    "resizeInstagramFaq3Q": "هل يضغط إنستغرام الصور المرفوعة؟",
+    "resizeInstagramFaq3A": "نعم، يضغط إنستغرام جميع الصور المرفوعة لتقليل تكاليف الخادم. لتقليل فقدان الجودة، ارفع صوراً بالأبعاد الموصى بها بالضبط بصيغة JPG بجودة 95%. الصور كبيرة الحجم تخضع لضغط أكثر قوة، لذا مطابقة الدقة المستهدفة بالضبط تنتج أوضح النتائج.",
+    "resizeFacebookHowTo": "كيفية تغيير حجم الصور لفيسبوك",
+    "resizeFacebookStep1": "رفع صورتك",
+    "resizeFacebookStep1Desc": "اختر الصورة التي تريد تغيير حجمها لفيسبوك. يعمل مع جميع صيغ الصور الشائعة.",
+    "resizeFacebookStep2": "اختيار أبعاد فيسبوك",
+    "resizeFacebookStep2Desc": "اختر الهدف: 820×312 لصورة الغلاف، 1200×630 للمنشورات المشاركة، أو 170×170 لصورة الملف الشخصي.",
+    "resizeFacebookStep3": "تحميل صورة جاهزة لفيسبوك",
+    "resizeFacebookStep3Desc": "احفظ صورتك بالحجم الجديد بأبعاد فيسبوك الدقيقة. ارفع بدون اقتصاص أو تدهور جودة.",
+    "resizeFacebookFaqTitle": "الأسئلة الشائعة",
+    "resizeFacebookFaq1Q": "ما أفضل حجم لصور غلاف فيسبوك؟",
+    "resizeFacebookFaq1A": "تُعرض صور غلاف فيسبوك بحجم 820×312 بكسل على سطح المكتب و 640×360 بكسل على الهاتف. صمّم بحجم 820×462 لتناسب كلتا العرضين، مع تركيز المحتوى المهم في المنطقة الوسطى. استخدم صيغة PNG للأغلفة ذات النص أو الشعارات، و JPG للأغلفة الفوتوغرافية.",
+    "resizeFacebookFaq2Q": "ما الأبعاد الأفضل للصور المشاركة على فيسبوك؟",
+    "resizeFacebookFaq2A": "لصور معاينة الروابط والمنشورات المشاركة، استخدم 1200×630 بكسل (نسبة 1.91:1). هذا أيضاً معيار Open Graph الذي يُعرض بشكل صحيح عند مشاركة صفحتك. لرفع الصور، تُدعم دقة قصوى 2048×2048 بكسل، لكن 1200 بكسل عرض مثالي للعرض في الخلاصة.",
+    "resizeFacebookFaq3Q": "هل يقلّل فيسبوك جودة الصورة عند الرفع؟",
+    "resizeFacebookFaq3A": "نعم، يضغط فيسبوك الصور المرفوعة بشكل كبير. لتقليل فقدان الجودة، ارفع ملفات JPG أقل من 100 كيلوبايت لصور الملف الشخصي وأقل من 1 ميغابايت للمنشورات. استخدم مساحة اللون sRGB وطابق الأبعاد الموصى بها بالضبط. يطبق فيسبوك ضغطاً أقل على الصور التي تلبي مواصفاته المستهدفة بالفعل.",
+    "resizeTwitterHowTo": "كيفية تغيير حجم الصور لتويتر/X",
+    "resizeTwitterStep1": "رفع صورتك",
+    "resizeTwitterStep1Desc": "اختر الصورة التي تريد تحسينها لتويتر/X. جميع صيغ الصور الشائعة مدعومة.",
+    "resizeTwitterStep2": "اختيار أبعاد تويتر",
+    "resizeTwitterStep2Desc": "اختر الهدف: 1500×500 للرأسية، 1600×900 للصور في الخلاصة، أو 400×400 لصورة الملف الشخصي.",
+    "resizeTwitterStep3": "تحميل صورة محسّنة",
+    "resizeTwitterStep3Desc": "احفظ صورتك المحسّنة لتويتر. ستُعرض بشكل مثالي في الخلاصات بدون اقتصاص غير متوقع.",
+    "resizeTwitterFaqTitle": "الأسئلة الشائعة",
+    "resizeTwitterFaq1Q": "ما أفضل حجم صورة لمنشورات تويتر/X؟",
+    "resizeTwitterFaq1A": "يوصي تويتر بـ 1600×900 بكسل (نسبة 16:9) للتغريدات ذات الصورة الواحدة التي تُعرض بالكامل بدون اقتصاص. لصورتين، استخدم 700×800 لكل منهما. يدعم تويتر حتى 5 ميغابايت للصور و 15 ميغابايت لـ GIF. الصور الأعرض من 4096 بكسل تُصغَّر تلقائياً بواسطة المنصة.",
+    "resizeTwitterFaq2Q": "ما أبعاد رأسية تويتر/X؟",
+    "resizeTwitterFaq2A": "يجب أن تكون رأسيات تويتر 1500×500 بكسل (نسبة 3:1). حافظ على المحتوى المهم مركّزاً لأن الحواف قد تُقتص على أجهزة وأحجام شاشات مختلفة. صورة الملف الشخصي تتداخل مع المنطقة السفلية اليسرى من الرأسية على سطح المكتب، لذا تجنب وضع عناصر رئيسية هناك.",
+    "resizeTwitterFaq3Q": "كيف يقتص تويتر الصور في الخلاصة؟",
+    "resizeTwitterFaq3A": "يستخدم تويتر خوارزمية اقتصاص ذكية قائمة على الذكاء الاصطناعي تحاول إيجاد النقطة البؤرية الأكثر جاذبية بصرياً. لتجنب الاقتصاص غير المتوقع، استخدم نسبة العرض إلى الارتفاع 16:9 الموصى بها للصور الفردية. ركّز موضوعك وأبعد العناصر المهمة عن الحواف لضمان بقائها مرئية بعد الاقتصاص التلقائي.",
+    "resizeYoutubeHowTo": "كيفية إنشاء صور يوتيوب المصغرة",
+    "resizeYoutubeStep1": "رفع صورتك",
+    "resizeYoutubeStep1Desc": "اختر الصورة التي تريد استخدامها كصورة يوتيوب مصغرة. الصور المصدرية عالية الدقة تنتج أفضل النتائج.",
+    "resizeYoutubeStep2": "اقتصاص إلى 1280×720",
+    "resizeYoutubeStep2Desc": "غيّر حجم صورتك واقتصها لأبعاد صورة يوتيوب المصغرة بالضبط 1280×720 بكسل بنسبة عرض إلى ارتفاع 16:9.",
+    "resizeYoutubeStep3": "تحميل الصورة المصغرة",
+    "resizeYoutubeStep3Desc": "احفظ صورتك المصغرة الجاهزة ليوتيوب. ارفعها مباشرة في YouTube Studio عند نشر أو تعديل فيديوك.",
+    "resizeYoutubeFaqTitle": "الأسئلة الشائعة",
+    "resizeYoutubeFaq1Q": "ما الحجم المثالي لصورة يوتيوب المصغرة؟",
+    "resizeYoutubeFaq1A": "يجب أن تكون صور يوتيوب المصغرة بالضبط 1280×720 بكسل بنسبة عرض إلى ارتفاع 16:9. الحد الأدنى للعرض 640 بكسل والحد الأقصى لحجم الملف 2 ميغابايت. تُقبل صيغ JPG و PNG و GIF. صمّم دائماً بالدقة الكاملة 1280×720 لأوضح عرض على جميع الأجهزة.",
+    "resizeYoutubeFaq2Q": "ما الذي يجعل صورة يوتيوب المصغرة تحصل على نقرات أكثر؟",
+    "resizeYoutubeFaq2A": "الصور المصغرة ذات معدل النقر العالي تستخدم ألواناً ساطعة متباينة ونصاً كبيراً ومقروءاً (3-5 كلمات كحد أقصى) ووجوهاً بشرية معبّرة ونقطة بؤرية واضحة. تجنب الفوضى والتفاصيل الصغيرة التي تصبح غير مرئية بأحجام صغيرة. اختبر صورتك المصغرة بحجم 120×67 بكسل للتحقق من أنها تظل مقنعة ومقروءة.",
+    "resizeYoutubeFaq3Q": "هل يجب أن تكون صور يوتيوب المصغرة JPG أم PNG؟",
+    "resizeYoutubeFaq3A": "يُفضّل JPG للصور المصغرة الفوتوغرافية لأنه يحافظ على الملفات تحت حد 2 ميغابايت. PNG أفضل للصور المصغرة مع نص متراكب وشعارات وعناصر رسومية حيث الحواف الحادة مهمة. إذا تجاوز PNG حجم 2 ميغابايت، اضغطه أو انتقل إلى JPG بجودة 90-95%.",
+    "removeBgHowTo": "كيفية إزالة خلفية الصورة",
+    "removeBgStep1": "رفع صورتك",
+    "removeBgStep1Desc": "اختر الصورة التي تريد إزالة خلفيتها. يعمل بشكل أفضل مع مواضيع واضحة وتباين جيد.",
+    "removeBgStep2": "إزالة الخلفية بالذكاء الاصطناعي",
+    "removeBgStep2Desc": "يكتشف الذكاء الاصطناعي تلقائياً الموضوع ويزيل الخلفية. تتم المعالجة بالكامل في متصفحك.",
+    "removeBgStep3": "تحميل PNG شفاف",
+    "removeBgStep3Desc": "احفظ صورتك بخلفية شفافة كملف PNG. جاهزة للتركيب والعروض التقديمية أو قوائم المنتجات.",
+    "removeBgFaqTitle": "الأسئلة الشائعة",
+    "removeBgFaq1Q": "كيف تعمل إزالة الخلفية بالذكاء الاصطناعي؟",
+    "removeBgFaq1A": "يحلل نموذج الذكاء الاصطناعي صورتك لتحديد الموضوع الرئيسي باستخدام التجزئة الدلالية. يصنّف كل بكسل كمقدمة أو خلفية، ثم يزيل بكسلات الخلفية لإنشاء الشفافية. نماذج الذكاء الاصطناعي الحديثة تتعامل مع الحواف المعقدة مثل الشعر والفراء بدقة مثيرة للإعجاب.",
+    "removeBgFaq2Q": "ما أنواع الصور الأفضل لإزالة الخلفية؟",
+    "removeBgFaq2A": "الصور ذات التباين الواضح بين الموضوع والخلفية تنتج أفضل النتائج. الصور جيدة الإضاءة بموضوع رئيسي واحد تعمل بشكل مثالي. المشاهد المعقدة بمواضيع متداخلة متعددة وألوان متشابهة جداً بين المقدمة والخلفية أو أجسام شفافة مثل الزجاج قد تحتاج لتعديل يدوي.",
+    "removeBgFaq3Q": "هل تُرفع صورتي إلى خادم للمعالجة؟",
+    "removeBgFaq3A": "لا، تعمل عملية إزالة الخلفية بالكامل محلياً في متصفحك باستخدام نموذج ذكاء اصطناعي WebAssembly. لا تغادر صورك جهازك أبداً، مما يضمن خصوصية كاملة. هذا مهم بشكل خاص للصور الحساسة مثل صور المنتجات السرية أو الصور الشخصية.",
+    "addWatermarkHowTo": "كيفية إضافة علامة مائية للصور",
+    "addWatermarkStep1": "رفع صورك",
+    "addWatermarkStep1Desc": "اختر صورة واحدة أو أكثر تريد إضافة علامة مائية لها. المعالجة الدُفعية تتيح لك وضع علامات مائية على عدة صور في وقت واحد.",
+    "addWatermarkStep2": "تخصيص العلامة المائية",
+    "addWatermarkStep2Desc": "أضف نصاً أو ارفع شعاراً. اضبط الموضع والحجم والشفافية والتدوير لإنشاء وضع مثالي لعلامتك المائية.",
+    "addWatermarkStep3": "تحميل الصور بالعلامة المائية",
+    "addWatermarkStep3Desc": "احفظ صورك المحمية مع العلامة المائية المُطبّقة. الملفات الأصلية بدون علامة مائية تبقى خاصة على جهازك.",
+    "addWatermarkFaqTitle": "الأسئلة الشائعة",
+    "addWatermarkFaq1Q": "ما أفضل إعداد شفافية للعلامة المائية؟",
+    "addWatermarkFaq1A": "شفافية 30-50% تحقق التوازن المثالي بين الرؤية والخفاء. عند 30%، العلامة المائية ملحوظة دون تشتيت عن محتوى الصورة. عند 50%، توفر حماية أقوى ضد الاستخدام غير المصرح به. جرّب مستويات مختلفة لإيجاد ما يناسب صورك واحتياجات علامتك التجارية.",
+    "addWatermarkFaq2Q": "أين يجب وضع العلامة المائية على الصورة؟",
+    "addWatermarkFaq2A": "الزاوية السفلية اليمنى هي الموضع الأكثر شيوعاً، لكنها أيضاً الأسهل للاقتصاص. لحماية أفضل، ضع العلامات المائية في المنتصف أو استخدم نمطاً قطرياً متكرراً عبر الصورة بأكملها. الموضع المثالي يغطي مناطق المحتوى المهمة التي ستتلف إذا أُزيلت العلامة المائية.",
+    "addWatermarkFaq3Q": "هل يمكن إزالة العلامات المائية من الصور؟",
+    "addWatermarkFaq3A": "يمكن إزالة العلامات المائية شبه الشفافة جزئياً باستخدام أدوات الذكاء الاصطناعي، لكن علامة مائية موضوعة بشكل جيد فوق مناطق مفصّلة تجعل الإزالة النظيفة صعبة جداً. استخدم أنماط بلاط متكررة وضع العلامات المائية فوق التفاصيل الرئيسية ودمج النص مع عناصر الشعار لإنشاء علامات مائية تقاوم محاولات الإزالة الآلية.",
+    "mergePhotosHowTo": "كيفية دمج الصور عبر الإنترنت",
+    "mergePhotosStep1": "رفع عدة صور",
+    "mergePhotosStep1Desc": "اختر صورتين أو أكثر تريد دمجها. يدعم JPG و PNG و WebP وصيغ صور شائعة أخرى.",
+    "mergePhotosStep2": "ترتيب التخطيط",
+    "mergePhotosStep2Desc": "اختر تخطيطاً أفقياً أو عمودياً أو شبكياً. اضبط التباعد والمحاذاة وترتيب الصور بالسحب لإعادة الترتيب.",
+    "mergePhotosStep3": "تحميل الصورة المدمجة",
+    "mergePhotosStep3Desc": "احفظ صورتك المدمجة كملف صورة واحد. مثالي للمقارنات والصور المجمعة والمنشورات على وسائل التواصل الاجتماعي.",
+    "mergePhotosFaqTitle": "الأسئلة الشائعة",
+    "mergePhotosFaq1Q": "كم عدد الصور التي يمكنني دمجها في وقت واحد؟",
+    "mergePhotosFaq1A": "يمكنك دمج أي عدد من الصور حسب ما تسمح به ذاكرة متصفحك، عادةً 10-20 صورة عالية الدقة بدون مشاكل. للدُفعات الكبيرة جداً، قد تتباطأ الأداة حسب قدرات جهازك. أبعاد صورة الإخراج تنمو مع كل صورة مضافة، لذا ضع في اعتبارك حالة الاستخدام النهائية عند إضافة صور كثيرة.",
+    "mergePhotosFaq2Q": "هل يمكنني دمج صور بأحجام مختلفة؟",
+    "mergePhotosFaq2A": "نعم، تتعامل الأداة تلقائياً مع الصور ذات الأبعاد المختلفة. يمكنك اختيار تغيير حجم جميع الصور لتتناسب مع البعد الأكبر أو الأصغر، أو الحفاظ على النسب الأصلية مع الحشو. التخطيطات الأفقية تمحاذي الصور عمودياً، بينما التخطيطات العمودية تمحاذيها أفقياً لنتيجة نظيفة.",
+    "mergePhotosFaq3Q": "ما أفضل تخطيط لمقارنات قبل وبعد؟",
+    "mergePhotosFaq3A": "التخطيط الأفقي جنباً إلى جنب يعمل بشكل أفضل لمقارنات قبل وبعد، مع وضع الأصل على اليسار والنتيجة على اليمين. تأكد من أن كلتا الصورتين بنفس الارتفاع لاتصال نظيف. أضف تباعداً ضئيلاً بين الصور ليتمكن المشاهدون من مقارنة التفاصيل بسهولة عبر الحد.",
+    "extractMp3HowTo": "كيفية استخراج MP3 من فيديو",
+    "extractMp3Step1": "رفع ملف فيديو",
+    "extractMp3Step1Desc": "اختر ملف فيديو بصيغة MP4 أو WebM أو AVI أو MOV أو صيغة شائعة أخرى. سيتم استخراج مسار الصوت.",
+    "extractMp3Step2": "استخراج مسار الصوت",
+    "extractMp3Step2Desc": "تستخرج الأداة تدفق الصوت من فيديوك وتحوّله إلى صيغة MP3 باستخدام FFmpeg في المتصفح.",
+    "extractMp3Step3": "تحميل ملف MP3",
+    "extractMp3Step3Desc": "احفظ ملف صوت MP3 المستخرج. استخدمه كبودكاست أو مقطع موسيقي أو تسجيل صوتي أو نسخة احتياطية صوتية.",
+    "extractMp3FaqTitle": "الأسئلة الشائعة",
+    "extractMp3Faq1Q": "ما جودة الصوت المتوقعة من MP3 المستخرج؟",
+    "extractMp3Faq1A": "تعتمد جودة MP3 على مسار صوت الفيديو الأصلي. معظم الفيديوهات تحتوي على صوت بمعدل 128-256 كيلوبت في الثانية. يحافظ الاستخراج على هذه الجودة ويُعيد ترميزها كـ MP3 بمعدل البت الذي تختاره. للموسيقى، استخدم 256-320 كيلوبت. للكلام والبودكاست، 128 كيلوبت يوفر جودة واضحة بأحجام ملفات أصغر.",
+    "extractMp3Faq2Q": "هل يمكنني استخراج الصوت من فيديوهات يوتيوب؟",
+    "extractMp3Faq2A": "تستخرج هذه الأداة الصوت من ملفات الفيديو المخزنة على جهازك. ستحتاج أولاً أن يكون ملف الفيديو محفوظاً محلياً. لا تقوم الأداة بتحميل فيديوهات من عناوين URL أو منصات البث. بمجرد أن يكون لديك ملف فيديو محلي، يمكنك استخراج مسار الصوت إلى MP3 فوراً.",
+    "extractMp3Faq3Q": "هل يُرفع الفيديو إلى خادم أثناء الاستخراج؟",
+    "extractMp3Faq3A": "لا، تعمل عملية الاستخراج بالكامل محلياً في متصفحك باستخدام FFmpeg المدعوم بـ WebAssembly. لا يغادر ملف الفيديو جهازك أبداً، مما يضمن خصوصية كاملة. هذا مهم بشكل خاص لاستخراج الصوت من تسجيلات خاصة واجتماعات سرية أو محتوى فيديو شخصي."
   },
   "footer": {
     "tagline": "أدوات مجانية عبر الإنترنت للصور والفيديو. 100% في المتصفح، لا تغادر ملفاتك جهازك أبداً.",
@@ -430,19 +766,19 @@
         "content": [
           {
             "heading": "لماذا تهم المحررات المجانية عبر الإنترنت في 2026",
-            "text": "لم يعد تحرير الصور الاحترافي يتطلب اشتراكات برمجية مكلفة أو أجهزة سطح مكتب قوية. نضجت محررات الصور المجانية عبر الإنترنت لتتعامل مع معظم مهام التحرير اليومية بسهولة.\n\nجاء التحول نحو الأدوات المعتمدة على المتصفح بفضل تحسينات WebAssembly وواجهات برمجة المتصفحات والحوسبة السحابية.\n\nفي هذا الدليل، نقارن بين أفضل خمسة محررات صور مجانية عبر الإنترنت في 2026."
+            "text": "لم يعد تحرير الصور الاحترافي يتطلب اشتراكات برمجية مكلفة أو أجهزة سطح مكتب قوية. نضجت محررات الصور المجانية عبر الإنترنت لتتعامل مع معظم مهام التحرير اليومية بسهولة."
           },
           {
             "heading": "مقارنة بين ToolPic وCanva",
-            "text": "ToolPic هو مجموعة أدوات للصور والفيديو تعطي الأولوية للخصوصية وتعالج كل شيء مباشرة في متصفحك. ملفاتك لا تغادر جهازك أبداً.\n\nCanva منصة تصميم تقدم آلاف القوالب لمنشورات وسائل التواصل الاجتماعي والعروض التقديمية. لكن Canva ترفع ملفاتك إلى خوادمها.\n\nاختر ToolPic للمعالجة السريعة والخاصة. اختر Canva للتصميم القائم على القوالب."
+            "text": "ToolPic هو مجموعة أدوات للصور والفيديو تعطي الأولوية للخصوصية وتعالج كل شيء مباشرة في متصفحك. ملفاتك لا تغادر جهازك أبداً."
           },
           {
             "heading": "Photopea وPixlr وFotor",
-            "text": "Photopea هو أقرب بديل مجاني لفوتوشوب في المتصفح. يدعم ملفات PSD وXCF وSketch وRAW مع الطبقات والأقنعة.\n\nPixlr يقدم محررين: Pixlr X للتعديلات السريعة وPixlr E للعمل المتقدم.\n\nFotor يركز على تحسين الصور بفلاتر بنقرة واحدة وتنقيح البورتريه."
+            "text": "Photopea هو أقرب بديل مجاني لفوتوشوب في المتصفح. يدعم ملفات PSD وXCF وSketch وRAW مع الطبقات والأقنعة."
           },
           {
             "heading": "أي محرر يجب أن تختار؟",
-            "text": "للخصوصية: ToolPic. للتصميم الجرافيكي: Canva. للتحرير المتقدم: Photopea. للتعديلات السريعة بالذكاء الاصطناعي: Pixlr وFotor.\n\nيستخدم العديد من المحترفين أدوات متعددة معاً لتحسين سير العمل."
+            "text": "للخصوصية: ToolPic. للتصميم الجرافيكي: Canva. للتحرير المتقدم: Photopea."
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -455,19 +791,19 @@
         "content": [
           {
             "heading": "لماذا تحدد الصور المصغرة نجاح الفيديو",
-            "text": "الصورة المصغرة هي العامل الأهم في قرار المشاهد بالنقر على الفيديو. أكاديمية منشئي يوتيوب تؤكد أن 90% من الفيديوهات الأفضل أداءً تستخدم صوراً مصغرة مخصصة.\n\nالأبعاد الموصى بها هي 1280 × 720 بكسل بنسبة عرض إلى ارتفاع 16:9. حجم الملف يجب أن يكون أقل من 2 ميجابايت."
+            "text": "الصورة المصغرة هي العامل الأهم في قرار المشاهد بالنقر على الفيديو. أكاديمية منشئي يوتيوب تؤكد أن 90% من الفيديوهات الأفضل أداءً تستخدم صوراً مصغرة مخصصة."
           },
           {
             "heading": "مبادئ التصميم لزيادة النقرات",
-            "text": "الألوان عالية التباين ضرورية. استخدم ألواناً زاهية ومشبعة. الأصفر والأحمر والبرتقالي يجذبون العين بشكل أفضل.\n\nالوجوه ذات العواطف الواضحة تولد معدلات نقر أعلى.\n\nحافظ على النص بحد أقصى 3-5 كلمات. استخدم خطوطاً عريضة بدون سيريف."
+            "text": "الألوان عالية التباين ضرورية. استخدم ألواناً زاهية ومشبعة. الأصفر والأحمر والبرتقالي يجذبون العين بشكل أفضل."
           },
           {
             "heading": "علم نفس الألوان والتكوين",
-            "text": "الأحمر يخلق الإلحاح، الأزرق يوحي بالثقة، الأصفر يجذب الانتباه، الأخضر يوحي بالنمو.\n\nاستخدم قاعدة الأثلاث لتوزيع العناصر. ضع الموضوع الرئيسي قليلاً عن المركز.\n\nأنشئ عمقاً باستخدام خلفية ضبابية أو داكنة خلف الموضوع الرئيسي."
+            "text": "الأحمر يخلق الإلحاح، الأزرق يوحي بالثقة، الأصفر يجذب الانتباه، الأخضر يوحي بالنمو."
           },
           {
             "heading": "إنشاء الصور المصغرة باستخدام ToolPic",
-            "text": "ابدأ بلقطة شاشة عالية الجودة. استخدم أداة قص الصور في ToolPic بنسبة 16:9 بأبعاد 1280 × 720 بكسل.\n\nاستخدم أداة العلامة المائية لإضافة نصوص.\n\nصدّر كـ JPG عالي الجودة بحجم أقل من 2 ميجابايت."
+            "text": "ابدأ بلقطة شاشة عالية الجودة. استخدم أداة قص الصور في ToolPic بنسبة 16:9 بأبعاد 1280 × 720 بكسل."
           }
         ],
         "relatedToolIds": "image-crop,image-watermark"
@@ -480,19 +816,19 @@
         "content": [
           {
             "heading": "لماذا توفر المعالجة الدفعية ساعات",
-            "text": "ضغط الصور واحدة تلو الأخرى ممل وغير عملي مع عشرات أو مئات الملفات. المعالجة الدفعية هي النهج الوحيد الفعال.\n\nالضغط اليدوي لصورة واحدة يستغرق 30-60 ثانية. لـ100 صورة، هذا أكثر من ساعة.\n\nالمعالجة الدفعية تضمن أيضاً التناسق في المظهر البصري."
+            "text": "ضغط الصور واحدة تلو الأخرى ممل وغير عملي مع عشرات أو مئات الملفات. المعالجة الدفعية هي النهج الوحيد الفعال."
           },
           {
             "heading": "اختيار الأداة المناسبة",
-            "text": "أدوات المتصفح مثل ToolPic توفر أسهل تجربة ضغط دفعي. اسحب وأفلت مجلد الصور، حدد الجودة مرة واحدة.\n\nتطبيقات سطح المكتب مثل ImageOptim وFileOptimizer بدائل جيدة.\n\nأدوات سطر الأوامر مثل Sharp وImageMagick مثالية للمطورين."
+            "text": "أدوات المتصفح مثل ToolPic توفر أسهل تجربة ضغط دفعي. اسحب وأفلت مجلد الصور، حدد الجودة مرة واحدة."
           },
           {
             "heading": "الإعدادات المثلى",
-            "text": "للصور الفوتوغرافية، JPEG أو WebP بجودة 78-82% يوفر أفضل توازن. تقليل الحجم بنسبة 60-75%.\n\nللرسومات، PNG مع التحسين بدون فقدان أفضل.\n\nقم دائماً بتغيير حجم الصور قبل الضغط."
+            "text": "للصور الفوتوغرافية، JPEG أو WebP بجودة 78-82% يوفر أفضل توازن. تقليل الحجم بنسبة 60-75%."
           },
           {
             "heading": "خطوة بخطوة مع ToolPic",
-            "text": "افتح ضاغط الصور في ToolPic. اسحب وأفلت جميع الصور. يقبل JPEG وPNG وWebP وAVIF.\n\nاضبط الجودة على 80%.\n\nاستخدم زر تحميل الكل لحفظ جميع الصور المضغوطة. المعالجة محلية بالكامل."
+            "text": "افتح ضاغط الصور في ToolPic. اسحب وأفلت جميع الصور. يقبل JPEG وPNG وWebP وAVIF."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -505,19 +841,19 @@
         "content": [
           {
             "heading": "الجيل التالي من تنسيقات الصور",
-            "text": "اعتمد الويب على JPEG وPNG لعقود. التنسيقات الحديثة مثل WebP وAVIF تستخدم تقنيات ضغط متقدمة.\n\nWebP أطلقته Google في 2010 بناءً على كودك VP8.\n\nAVIF ظهر في 2019 بناءً على كودك AV1 مع ضغط أفضل."
+            "text": "اعتمد الويب على JPEG وPNG لعقود. التنسيقات الحديثة مثل WebP وAVIF تستخدم تقنيات ضغط متقدمة."
           },
           {
             "heading": "مقارنة جودة الضغط",
-            "text": "AVIF يتفوق باستمرار على WebP. ملفات AVIF أصغر بنسبة 20-30% من WebP و50% من JPEG بنفس الجودة.\n\nAVIF أفضل في الحفاظ على التفاصيل الدقيقة والتدرجات.\n\nWebP أسرع في التشفير والتعامل مع الحواف الحادة."
+            "text": "AVIF يتفوق باستمرار على WebP. ملفات AVIF أصغر بنسبة 20-30% من WebP و50% من JPEG بنفس الجودة."
           },
           {
             "heading": "دعم المتصفحات",
-            "text": "WebP مدعوم في أكثر من 97% من المتصفحات. AVIF حوالي 92%.\n\nللتوافق الأقصى، قدم AVIF كتنسيق أساسي مع WebP كبديل عبر عنصر picture."
+            "text": "WebP مدعوم في أكثر من 97% من المتصفحات. AVIF حوالي 92%."
           },
           {
             "heading": "أي تنسيق تستخدم؟",
-            "text": "AVIF للضغط الأقصى على المتصفحات الحديثة. WebP كبديل موثوق.\n\nمحول الصور في ToolPic يدعم كلا التنسيقين للتحويل الفوري."
+            "text": "AVIF للضغط الأقصى على المتصفحات الحديثة. WebP كبديل موثوق."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -530,19 +866,19 @@
         "content": [
           {
             "heading": "لماذا تؤثر صور المنتجات على المبيعات",
-            "text": "في التجارة الإلكترونية، صور المنتجات هي أقوى أداة بيع. 75% من المتسوقين يعتمدون على صور المنتجات في قرارات الشراء.\n\nصور غير محسنة قد تصل إلى 2-5 ميجابايت لكل صورة.\n\nالتحسين يقلل الحجم بنسبة 70-90% بدون فقدان ملحوظ في الجودة."
+            "text": "في التجارة الإلكترونية، صور المنتجات هي أقوى أداة بيع. 75% من المتسوقين يعتمدون على صور المنتجات في قرارات الشراء."
           },
           {
             "heading": "الأحجام والتنسيقات الموصى بها",
-            "text": "للصور الرئيسية: 1000-2000 بكسل على الجانب الأطول. الموصى به: 1200 × 1200 أو 1500 × 1500.\n\nWebP هو التنسيق المثالي لـ2026. ملفات أصغر بنسبة 25-35% من JPEG.\n\nالصور المصغرة: 400-600 بكسل عرضاً."
+            "text": "للصور الرئيسية: 1000-2000 بكسل على الجانب الأطول. الموصى به: 1200 × 1200 أو 1500 × 1500."
           },
           {
             "heading": "SEO الصور للتجارة الإلكترونية",
-            "text": "أسماء الملفات الوصفية ونص البديل أساسيان لـSEO.\n\nاستخدم Schema.org Product للبيانات المنظمة.\n\nحسّن البيانات الوصفية للصور لرؤية أفضل في البحث."
+            "text": "أسماء الملفات الوصفية ونص البديل أساسيان لـSEO."
           },
           {
             "heading": "التحسين باستخدام ToolPic",
-            "text": "اقص صور المنتجات بنسبة متسقة (1:1). استخدم الضاغط للمعالجة الدفعية بجودة 80%.\n\nكل المعالجة محلية — صورك لا تغادر جهازك."
+            "text": "اقص صور المنتجات بنسبة متسقة (1:1). استخدم الضاغط للمعالجة الدفعية بجودة 80%."
           }
         ],
         "relatedToolIds": "image-compressor,image-crop"
@@ -555,19 +891,19 @@
         "content": [
           {
             "heading": "لماذا يُعد ضغط الصور مهماً",
-            "text": "الصور الكبيرة هي أحد أكبر أسباب بطء تحميل المواقع. عندما يستغرق تحميل الصفحة أكثر من ثلاث ثوانٍ، يغادر أكثر من نصف الزوار قبل أن يروا المحتوى. تأخذ محركات البحث أيضاً سرعة الصفحة في الاعتبار في خوارزميات الترتيب، لذا فإن الصور الثقيلة يمكن أن تضر بظهورك في نتائج البحث مباشرة.\n\nبالإضافة إلى أداء الموقع، فإن الصور المضغوطة أسهل في المشاركة عبر البريد الإلكتروني وتطبيقات المراسلة ومنصات التواصل الاجتماعي التي تفرض حدوداً لحجم الملفات. قد تبدو صورة بحجم 5 ميغابايت من هاتفك رائعة على شاشة عالية الدقة، لكنها أكبر بكثير مما هو ضروري لمعظم الاستخدامات عبر الإنترنت. تقليلها إلى 500 كيلوبايت أو أقل يمكن أن يجعلها تُحمّل أسرع عشر مرات دون أي انخفاض ملحوظ في الجودة المرئية.\n\nضغط الصور مهم بشكل خاص لمتاجر التجارة الإلكترونية والمعارض والمدونات الغنية بالمحتوى حيث تظهر عشرات الصور في صفحة واحدة. حتى التوفيرات الصغيرة لكل صورة تتراكم لتحقيق تحسينات كبيرة في أداء الصفحة الإجمالي."
+            "text": "الصور الكبيرة هي أحد أكبر أسباب بطء تحميل المواقع. عندما يستغرق تحميل الصفحة أكثر من ثلاث ثوانٍ، يغادر أكثر من نصف الزوار قبل أن يروا المحتوى. تأخذ محركات البحث أيضاً سرعة الصفحة في الاعتبار في خوارزميات الترتيب، لذا فإن الصور الثقيلة يمكن أن تضر بظهورك في نتائج البحث مباشرة."
           },
           {
             "heading": "الضغط مع فقدان مقابل الضغط بدون فقدان",
-            "text": "هناك نهجان أساسيان لضغط الصور: مع فقدان وبدون فقدان. فهم الفرق يساعدك في اختيار الطريقة المناسبة لكل حالة.\n\nالضغط بدون فقدان يقلل حجم الملف عن طريق إيجاد أنماط البيانات المتكررة وإزالتها دون التخلص من أي معلومات صورة. عند فك ضغط الملف، تحصل على بيانات البكسل الأصلية بالضبط. يستخدم PNG الضغط بدون فقدان، مما يجعله مثالياً للرسومات والشعارات ولقطات الشاشة حيث تهم كل تفصيلة. الجانب السلبي هو أن الضغط بدون فقدان يحقق عادةً تقليلات متواضعة في الحجم، عادةً بين 10% و40%.\n\nالضغط مع فقدان يحقق تقليلات أكبر بكثير في الحجم عن طريق إزالة بيانات الصورة التي من غير المرجح أن تلاحظها العين البشرية بشكل دائم. JPEG هو أكثر صيغ الفقدان شيوعاً، والصيغ الحديثة مثل WebP تقدم ضغطاً أفضل. عند إعدادات جودة بين 75% و85%، تكون معظم الصور الفوتوغرافية غير قابلة للتمييز بصرياً عن الأصل مع كونها أصغر بنسبة 60% إلى 80%. المفتاح هو إيجاد عتبة الجودة التي تصبح عندها التشوهات ملحوظة لصورتك المحددة."
+            "text": "هناك نهجان أساسيان لضغط الصور: مع فقدان وبدون فقدان. فهم الفرق يساعدك في اختيار الطريقة المناسبة لكل حالة."
           },
           {
             "heading": "أفضل الممارسات لضغط الصور",
-            "text": "ابدأ باختيار الصيغة المناسبة لمحتواك. استخدم JPEG أو WebP للصور الفوتوغرافية والصور المعقدة ذات التدرجات. استخدم PNG للرسومات ذات الحواف الحادة أو النصوص المتراكبة أو الشفافية. تجنب استخدام PNG للصور الفوتوغرافية لأنه ينتج ملفات كبيرة بلا داعٍ.\n\nقم بتغيير حجم الصور إلى الأبعاد التي ستُعرض بها فعلياً قبل ضغطها. لا فائدة من تقديم صورة بعرض 4000 بكسل لحاوية بعرض 800 بكسل فقط. تغيير الحجم أولاً ثم الضغط أكثر فعالية بكثير من الضغط وحده.\n\nللاستخدام على الويب، استهدف أحجام ملفات أقل من 200 كيلوبايت للصور الرئيسية وأقل من 100 كيلوبايت للصور المصغرة وصور المحتوى. استخدم إعدادات جودة بين 75% و85% لـ JPEG وWebP. قارن دائماً النسخة المضغوطة جنباً إلى جنب مع الأصل للتأكد من أن الجودة تلبي معاييرك."
+            "text": "ابدأ باختيار الصيغة المناسبة لمحتواك. استخدم JPEG أو WebP للصور الفوتوغرافية والصور المعقدة ذات التدرجات. استخدم PNG للرسومات ذات الحواف الحادة أو النصوص المتراكبة أو الشفافية."
           },
           {
             "heading": "كيفية ضغط الصور باستخدام ToolPic",
-            "text": "الخطوة 1: افتح أداة ضغط الصور على ToolPic. يمكنك سحب وإفلات صورك مباشرة على منطقة الرفع، أو النقر لتصفح ملفاتك. يمكن معالجة عدة صور دفعة واحدة.\n\nالخطوة 2: اضبط شريط تمرير الجودة لتعيين مستوى الضغط المطلوب. الإعداد الافتراضي 80% يعمل جيداً لمعظم الصور الفوتوغرافية. حرّك الشريط لأسفل لملفات أصغر أو لأعلى للحفاظ على مزيد من التفاصيل. تعرض الأداة تقدير تقليل حجم الملف في الوقت الفعلي.\n\nالخطوة 3: بعد اكتمال المعالجة، راجع المقارنة قبل وبعد للتحقق من أن الجودة مقبولة. حمّل الصور فردياً أو استخدم زر \"تحميل الكل\" لحفظ كل شيء دفعة واحدة. ملفاتك لا تغادر متصفحك أبداً، لذا العملية بأكملها خاصة تماماً."
+            "text": "الخطوة 1: افتح أداة ضغط الصور على ToolPic. يمكنك سحب وإفلات صورك مباشرة على منطقة الرفع، أو النقر لتصفح ملفاتك. يمكن معالجة عدة صور دفعة واحدة."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -580,19 +916,19 @@
         "content": [
           {
             "heading": "فهم صيغ الصور",
-            "text": "اختيار صيغة الصورة المناسبة يمكن أن يُحدث فرقاً كبيراً في حجم الملف وسرعة التحميل والجودة المرئية. كل صيغة صُممت لحالات استخدام مختلفة، واستخدام الصيغة الخاطئة غالباً ما يعني ملفات كبيرة بلا داعٍ أو جودة صورة متدهورة.\n\nالصيغ الثلاث الأهم للويب اليوم هي JPEG (JPG) وPNG وWebP. كان JPEG المعيار للصور الفوتوغرافية منذ منتصف التسعينيات. أصبح PNG الصيغة المفضلة للرسومات والصور التي تتطلب شفافية. WebP، الذي طوّرته Google، هو صيغة حديثة تهدف إلى استبدال كليهما من خلال تقديم ضغط أفضل لكل من المحتوى الفوتوغرافي والرسومي.\n\nفهم نقاط القوة والقيود لكل صيغة ضروري لأي شخص يعمل مع الصور، سواء كنت تبني موقعاً إلكترونياً أو تدير محتوى وسائل التواصل الاجتماعي أو تحاول ببساطة توفير مساحة تخزين على أجهزتك."
+            "text": "اختيار صيغة الصورة المناسبة يمكن أن يُحدث فرقاً كبيراً في حجم الملف وسرعة التحميل والجودة المرئية. كل صيغة صُممت لحالات استخدام مختلفة، واستخدام الصيغة الخاطئة غالباً ما يعني ملفات كبيرة بلا داعٍ أو جودة صورة متدهورة."
           },
           {
             "heading": "JPEG: المعيار الفوتوغرافي",
-            "text": "يستخدم JPEG ضغطاً مع فقدان يتفوق في تمثيل الصور الفوتوغرافية والصور ذات الانتقالات اللونية السلسة. يمكنه تقليل أحجام ملفات الصور بنسبة 80% أو أكثر مع الحفاظ على جودة مرئية ممتازة عند مستويات ضغط معتدلة.\n\nالميزة الرئيسية لـ JPEG هي توافقه العالمي. كل جهاز ومتصفح وتطبيق يدعمه. كما أنه قابل للتكوين بمرونة عالية، مما يتيح لك اختيار مستوى جودة من الضغط الأدنى إلى التقليل القوي.\n\nلكن لـ JPEG قيود ملحوظة. فهو لا يدعم الشفافية، لذا لا يمكنك وضع صورة JPEG فوق خلفية مختلفة دون مستطيل مرئي حولها. كما ينتج تشوهات مرئية عند إعدادات الجودة المنخفضة، خاصة حول الحواف الحادة والنص. في كل مرة تقوم بتحرير وإعادة حفظ JPEG، تتدهور الجودة أكثر بسبب إعادة الضغط."
+            "text": "يستخدم JPEG ضغطاً مع فقدان يتفوق في تمثيل الصور الفوتوغرافية والصور ذات الانتقالات اللونية السلسة. يمكنه تقليل أحجام ملفات الصور بنسبة 80% أو أكثر مع الحفاظ على جودة مرئية ممتازة عند مستويات ضغط معتدلة."
           },
           {
             "heading": "PNG: جودة بدون فقدان وشفافية",
-            "text": "يستخدم PNG ضغطاً بدون فقدان، مما يعني أن جودة الصورة محفوظة تماماً بغض النظر عن عدد مرات حفظها. كما يدعم شفافية ألفا الكاملة، مما يسمح للبكسلات بأن تكون شفافة جزئياً أو كلياً.\n\nهذا يجعل PNG الخيار الأفضل للشعارات والأيقونات ولقطات الشاشة والرسومات ذات النص وأي صورة تحتاج فيها إلى خلفية شفافة. كما أنه مثالي للصور التي ستُحرر عدة مرات، حيث لا يوجد فقدان للجودة من الحفظ المتكرر.\n\nالمقايضة هي حجم الملف. ملفات PNG عادةً أكبر بثلاث إلى خمس مرات من ملفات JPEG للمحتوى الفوتوغرافي. هذا يجعل PNG غير عملي للصور الفوتوغرافية الكبيرة على الويب، حيث سرعة التحميل حاسمة. استخدم PNG عندما تكون الجودة والشفافية أهم من حجم الملف."
+            "text": "يستخدم PNG ضغطاً بدون فقدان، مما يعني أن جودة الصورة محفوظة تماماً بغض النظر عن عدد مرات حفظها. كما يدعم شفافية ألفا الكاملة، مما يسمح للبكسلات بأن تكون شفافة جزئياً أو كلياً."
           },
           {
             "heading": "WebP: الخيار الحديث",
-            "text": "طُوّر WebP بواسطة Google لتوفير ضغط متفوق لصور الويب. يدعم كلاً من الضغط مع فقدان وبدون فقدان، بالإضافة إلى الشفافية والتحريك، مما يجمع فعلياً أفضل ميزات JPEG وPNG وGIF في صيغة واحدة.\n\nعملياً، صور WebP مع فقدان عادةً أصغر بنسبة 25% إلى 35% من JPEG عند جودة مرئية مكافئة. صور WebP بدون فقدان أصغر بحوالي 26% من PNG. هذا يجعل WebP خياراً افتراضياً ممتازاً للاستخدام على الويب، مما يقلل تكاليف النطاق الترددي ويحسن أوقات تحميل الصفحات.\n\nدعم المتصفحات لـ WebP ممتاز الآن، ويشمل Chrome وFirefox وSafari وEdge. القيد الرئيسي هو التوافق مع البرامج القديمة وبعض التطبيقات المحمولة الأصلية. عندما يُطلب التوافق الأقصى، يظل JPEG الخيار الأكثر أماناً. للنشر على الويب حيث يهم الأداء، WebP هو الفائز الواضح. يمكنك استخدام محول الصور في ToolPic للتبديل بسهولة بين أي من هذه الصيغ."
+            "text": "طُوّر WebP بواسطة Google لتوفير ضغط متفوق لصور الويب. يدعم كلاً من الضغط مع فقدان وبدون فقدان، بالإضافة إلى الشفافية والتحريك، مما يجمع فعلياً أفضل ميزات JPEG وPNG وGIF في صيغة واحدة."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -605,19 +941,19 @@
         "content": [
           {
             "heading": "لماذا تظل صور GIF شائعة",
-            "text": "على الرغم من كونها صيغة من عام 1987، أصبحت صور GIF أكثر شيوعاً من أي وقت مضى. تُشغَّل تلقائياً في كل تطبيق مراسلة ومنصة تواصل اجتماعي وعميل بريد إلكتروني تقريباً دون الحاجة إلى مشغل فيديو. هذا التشغيل السلس يجعلها مثالية للتفاعلات والعروض التوضيحية والدروس السريعة.\n\nتُستخدم صور GIF أيضاً على نطاق واسع لعروض المنتجات وتحريكات واجهات المستخدم وتقارير الأخطاء في السياقات المهنية. صورة GIF قصيرة تُظهر ميزة برنامج أثناء العمل تتواصل بشكل أكثر فعالية من فقرات النص أو سلسلة من لقطات الشاشة الثابتة.\n\nالقيد الرئيسي للصيغة هو حجم الملف. لأن صور GIF تستخدم طريقة ضغط غير فعالة نسبياً ومحدودة بـ 256 لوناً لكل إطار، يمكن أن تصبح كبيرة بسرعة. صورة GIF محسنة جيداً مدتها 5 ثوانٍ قد تكون 1-2 ميغابايت، بينما واحدة سيئة التكوين قد تتجاوز 10 ميغابايت بسهولة."
+            "text": "على الرغم من كونها صيغة من عام 1987، أصبحت صور GIF أكثر شيوعاً من أي وقت مضى. تُشغَّل تلقائياً في كل تطبيق مراسلة ومنصة تواصل اجتماعي وعميل بريد إلكتروني تقريباً دون الحاجة إلى مشغل فيديو. هذا التشغيل السلس يجعلها مثالية للتفاعلات والعروض التوضيحية والدروس السريعة."
           },
           {
             "heading": "اختيار الإعدادات المناسبة",
-            "text": "أهم ثلاثة إعدادات عند تحويل الفيديو إلى GIF هي المدة ومعدل الإطارات وأبعاد الإخراج. ضبطها بشكل صحيح يصنع الفرق بين صورة GIF واضحة وقابلة للمشاركة وملف ضخم يستغرق وقتاً طويلاً في التحميل.\n\nاجعل صورة GIF قصيرة. أي شيء أقل من 5 ثوانٍ مثالي، ومعظم صور GIF الفعالة تتراوح بين 2 و4 ثوانٍ. المقاطع الأطول يجب قصها للتركيز على اللحظة الأهم.\n\nمعدل الإطارات له تأثير كبير على حجم الملف. الفيديوهات عادةً تعمل بسرعة 24-30 إطاراً في الثانية، لكن صور GIF تبدو سلسة عند 10-15 إطاراً في الثانية فقط. الانخفاض من 30 إلى 12 إطاراً في الثانية يقلل حجم الملف بأكثر من النصف مع تأثير بصري ضئيل. للتحريكات البسيطة، حتى 8 إطارات في الثانية يمكن أن تعمل جيداً."
+            "text": "أهم ثلاثة إعدادات عند تحويل الفيديو إلى GIF هي المدة ومعدل الإطارات وأبعاد الإخراج. ضبطها بشكل صحيح يصنع الفرق بين صورة GIF واضحة وقابلة للمشاركة وملف ضخم يستغرق وقتاً طويلاً في التحميل."
           },
           {
             "heading": "تحسين حجم ملف GIF",
-            "text": "الدقة هي العامل الأكبر تأثيراً في حجم ملف GIF. صورة GIF بدقة 1080p ستكون ضخمة. لمعظم الاستخدامات، عرض 480 إلى 640 بكسل كافٍ. منصات التواصل الاجتماعي وتطبيقات المراسلة تعرض صور GIF بأحجام صغيرة على أي حال، لذا الدقة العالية تُهدر.\n\nتقليل الألوان يساعد أيضاً. تدعم صور GIF 256 لوناً كحد أقصى لكل إطار. إذا كان الفيديو المصدر يحتوي على ألوان كثيرة، فإن عملية التحويل يجب أن تختار أي 256 لوناً تحتفظ بها. المشاهد الأبسط ذات الألوان الأقل تنتج ملفات أصغر بشكل طبيعي.\n\nأخيراً، فكر فيما إذا كنت تحتاج حقاً إلى GIF. البدائل الحديثة مثل تحريكات WebP ومقاطع MP4 القصيرة المتكررة تنتج ملفات أصغر بكثير بجودة أفضل. ومع ذلك، تظل صور GIF الخيار الأكثر توافقاً عالمياً للصور المتحركة عبر جميع المنصات."
+            "text": "الدقة هي العامل الأكبر تأثيراً في حجم ملف GIF. صورة GIF بدقة 1080p ستكون ضخمة. لمعظم الاستخدامات، عرض 480 إلى 640 بكسل كافٍ."
           },
           {
             "heading": "إنشاء صور GIF باستخدام ToolPic",
-            "text": "افتح أداة تحويل الفيديو إلى GIF على ToolPic وارفع ملف الفيديو الخاص بك. تدعم الأداة MP4 وWebM وصيغ الفيديو الشائعة الأخرى. استخدم شريط تمرير الجدول الزمني لتحديد نقطة البدء الدقيقة ومدة المقطع الذي تريد تحويله.\n\nعيّن عرض الإخراج المطلوب. لوسائل التواصل الاجتماعي والمراسلة، 480 بكسل نقطة بداية جيدة. اضبط معدل الإطارات على 10-12 إطاراً في الثانية ما لم تحتج حركة أكثر سلاسة. تعرض الأداة معاينة لحجم الملف المقدر حتى تتمكن من ضبط الإعدادات قبل التحويل.\n\nبمجرد رضاك عن المعاينة، انقر على تحويل وحمّل صورة GIF المحسنة. تتم العملية بأكملها في متصفحك، لذا ملفات الفيديو الخاصة بك تبقى خاصة تماماً على جهازك."
+            "text": "افتح أداة تحويل الفيديو إلى GIF على ToolPic وارفع ملف الفيديو الخاص بك. تدعم الأداة MP4 وWebM وصيغ الفيديو الشائعة الأخرى. استخدم شريط تمرير الجدول الزمني لتحديد نقطة البدء الدقيقة ومدة المقطع الذي تريد تحويله."
           }
         ],
         "relatedToolIds": "video-to-gif"
@@ -630,19 +966,19 @@
         "content": [
           {
             "heading": "ما الذي يجعل أداة الضغط جيدة",
-            "text": "أداة ضغط الصور الجيدة يجب أن توازن بين ثلاثة أشياء: نسبة الضغط والجودة المرئية وسهولة الاستخدام. أفضل الأدوات تتيح لك تقليل أحجام الملفات بشكل كبير مع الحفاظ على الصور غير قابلة للتمييز بصرياً عن الأصل عند أحجام العرض العادية.\n\nالخصوصية أيضاً اعتبار متزايد الأهمية. الأدوات التي تعالج الصور على خوادمها تتطلب منك رفع ملفاتك، مما يعني أن صورك تمر عبر نظام طرف ثالث. للصور الحساسة أو المملوكة، توفر أدوات المتصفح التي تعالج كل شيء محلياً ميزة واضحة.\n\nعوامل أخرى تستحق الاعتبار تشمل دعم المعالجة الدفعية وخيارات الصيغ وحدود حجم الملف القصوى وما إذا كانت الأداة تضيف علامات مائية أو تتطلب تسجيلاً. جميع الأدوات المذكورة هنا تقدم مستويات مجانية بوظائف عملية."
+            "text": "أداة ضغط الصور الجيدة يجب أن توازن بين ثلاثة أشياء: نسبة الضغط والجودة المرئية وسهولة الاستخدام. أفضل الأدوات تتيح لك تقليل أحجام الملفات بشكل كبير مع الحفاظ على الصور غير قابلة للتمييز بصرياً عن الأصل عند أحجام العرض العادية."
           },
           {
             "heading": "أدوات المتصفح",
-            "text": "يعالج ToolPic الصور بالكامل في متصفحك باستخدام تقنية WebAssembly. ملفاتك لا تغادر جهازك أبداً، مما يجعله الخيار الأكثر ملاءمة للخصوصية المتاح. يدعم صيغ JPEG وPNG وWebP وAVIF مع إعدادات جودة قابلة للتعديل ومعالجة دفعية. لا حدود لعدد الملفات أو علامات مائية.\n\nSquoosh، الذي طوّره فريق Google Chrome، أداة ممتازة لضغط صورة واحدة. يقدم عرض مقارنة جنباً إلى جنب فريداً ويدعم الصيغ الحديثة بما في ذلك AVIF وJPEG XL. لكنه يعالج صورة واحدة فقط في كل مرة، مما يجعله أقل عملية للعمل الدفعي.\n\nTinyPNG أداة ويب شائعة تتعامل مع ضغط PNG وJPEG بشكل جيد. تستخدم ضغطاً ذكياً مع فقدان ينتج نتائج ممتازة. النسخة المجانية تحدك بـ 20 صورة لكل دفعة و5 ميغابايت لكل صورة، ويتم رفع الصور إلى خوادمهم للمعالجة."
+            "text": "يعالج ToolPic الصور بالكامل في متصفحك باستخدام تقنية WebAssembly. ملفاتك لا تغادر جهازك أبداً، مما يجعله الخيار الأكثر ملاءمة للخصوصية المتاح. يدعم صيغ JPEG وPNG وWebP وAVIF مع إعدادات جودة قابلة للتعديل ومعالجة دفعية."
           },
           {
             "heading": "أدوات سطح المكتب وسطر الأوامر",
-            "text": "ImageOptim تطبيق سطح مكتب مجاني لنظام macOS يضغط الصور باستخدام خوارزميات تحسين متعددة. وهو جيد بشكل خاص في تحسين ملفات PNG ويمكنه معالجة مجلدات كاملة دفعة واحدة. كونه تطبيقاً أصلياً، فإنه يعالج الدفعات الكبيرة أسرع من أدوات المتصفح.\n\nSharpJS مكتبة معالجة صور عالية الأداء لـ Node.js يمكن للمطورين دمجها في خطوط بناء مشاريعهم. تقدم جودة ضغط ممتازة وتدعم جميع الصيغ الرئيسية. بينما تتطلب معرفة تقنية للإعداد، فهي مثالية لأتمتة تحسين الصور في سير عمل تطوير الويب.\n\nلمعظم المستخدمين، تقدم أدوات المتصفح أفضل مزيج من الراحة والجودة. لا تتطلب تثبيتاً، وتعمل على أي نظام تشغيل، وتوفر نتائج فورية. أدوات سطح المكتب أنسب لسير العمل المهني الذي يتطلب معالجة آلاف الصور بانتظام."
+            "text": "ImageOptim تطبيق سطح مكتب مجاني لنظام macOS يضغط الصور باستخدام خوارزميات تحسين متعددة. وهو جيد بشكل خاص في تحسين ملفات PNG ويمكنه معالجة مجلدات كاملة دفعة واحدة. كونه تطبيقاً أصلياً، فإنه يعالج الدفعات الكبيرة أسرع من أدوات المتصفح."
           },
           {
             "heading": "مقارنة الخصوصية",
-            "text": "عند اختيار أداة ضغط، فكر في مكان معالجة صورك. أدوات الخادم مثل TinyPNG ترفع صورك إلى خوادم بعيدة للمعالجة. بينما تحذف الخدمات الموثوقة الملفات بعد المعالجة، تتواجد صورك لفترة وجيزة على بنية تحتية لطرف ثالث.\n\nأدوات المتصفح مثل ToolPic وSquoosh لا ترفع ملفاتك أبداً. تتم جميع المعالجة محلياً باستخدام معالج وذاكرة جهازك. هذا يجعلها الخيار الواضح للصور السرية وأعمال العملاء والصور الشخصية وأي محتوى لا تريده أن يغادر جهازك.\n\nللمصورين المحترفين وشركات التجارة الإلكترونية التي تتعامل مع صور المنتجات وأي شخص يعمل مع محتوى مملوك، تُزيل المعالجة في المتصفح خطر كشف البيانات تماماً. تحسنت جودة الضغط في المتصفح بشكل كبير وأصبحت الآن تضاهي أو تتجاوز معظم بدائل الخادم."
+            "text": "عند اختيار أداة ضغط، فكر في مكان معالجة صورك. أدوات الخادم مثل TinyPNG ترفع صورك إلى خوادم بعيدة للمعالجة. بينما تحذف الخدمات الموثوقة الملفات بعد المعالجة، تتواجد صورك لفترة وجيزة على بنية تحتية لطرف ثالث."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -655,19 +991,19 @@
         "content": [
           {
             "heading": "كيف تعمل إزالة الخلفية بالذكاء الاصطناعي",
-            "text": "تستخدم أدوات إزالة الخلفية الحديثة نماذج تعلم عميق تم تدريبها على ملايين الصور للتمييز بين عناصر المقدمة والخلفيات. تحلل هذه الشبكات العصبية الصورة لتحديد الحواف وإشارات العمق والمعلومات السياقية لإنشاء أقنعة قص دقيقة.\n\nتحسنت التقنية بشكل كبير في السنوات الأخيرة. كانت الأدوات السابقة تتطلب تحديداً يدوياً بأدوات العصا السحرية أو اللاسو وتواجه صعوبة مع الحواف المعقدة كالشعر أو الفراء. نماذج الذكاء الاصطناعي الحالية تعالج هذه الحالات الصعبة تلقائياً، منتجة قصاصات نظيفة في ثوانٍ كانت ستتطلب دقائق من التحرير اليدوي الدقيق.\n\nبعض الأدوات تعالج الصور على خوادم بعيدة، مرسلة صورك إلى بنية تحتية سحابية لمعالجة الذكاء الاصطناعي. أدوات أخرى مثل ToolPic تشغّل نموذج الذكاء الاصطناعي مباشرة في متصفحك باستخدام WebAssembly، محافظة على خصوصية صورك تماماً مع تقديم نتائج بجودة احترافية."
+            "text": "تستخدم أدوات إزالة الخلفية الحديثة نماذج تعلم عميق تم تدريبها على ملايين الصور للتمييز بين عناصر المقدمة والخلفيات. تحلل هذه الشبكات العصبية الصورة لتحديد الحواف وإشارات العمق والمعلومات السياقية لإنشاء أقنعة قص دقيقة."
           },
           {
             "heading": "حالات الاستخدام الشائعة",
-            "text": "تصوير منتجات التجارة الإلكترونية هو أحد أكثر التطبيقات شيوعاً. الخلفيات البيضاء النظيفة أو الشفافة هي المعيار لأسواق مثل Amazon وeBay ومتاجر Shopify. بدلاً من إعداد استوديو تصوير احترافي، يمكن للبائعين تصوير المنتجات على أي خلفية وإزالتها رقمياً.\n\nإنشاء محتوى وسائل التواصل الاجتماعي يتطلب كثيراً خلفيات شفافة لتراكب الصور وإنشاء الملصقات أو وضع العناصر في إعدادات جديدة. صور الملف الشخصي والرسومات التسويقية والمحتوى ذو العلامة التجارية كلها تستفيد من القصاصات النظيفة.\n\nيستخدم المصممون المحترفون إزالة الخلفية كنقطة بداية لأعمال التركيب، وضع العناصر في بيئات جديدة، إنشاء مواد ترويجية، أو تحضير صور للطباعة حيث تُطلب ألوان أو أنماط خلفية محددة."
+            "text": "تصوير منتجات التجارة الإلكترونية هو أحد أكثر التطبيقات شيوعاً. الخلفيات البيضاء النظيفة أو الشفافة هي المعيار لأسواق مثل Amazon وeBay ومتاجر Shopify. بدلاً من إعداد استوديو تصوير احترافي، يمكن للبائعين تصوير المنتجات على أي خلفية وإزالتها رقمياً."
           },
           {
             "heading": "نصائح للحصول على أفضل النتائج",
-            "text": "تعتمد جودة نتائجك جزئياً على الصورة المدخلة. الصور ذات التباين الجيد بين العنصر والخلفية تنتج أنظف القصاصات. الصور جيدة الإضاءة ذات التركيز الحاد تعطي نموذج الذكاء الاصطناعي حواف واضحة للعمل معها.\n\nتجنب الصور التي يتطابق فيها لون العنصر بشكل وثيق مع لون الخلفية. شخص يرتدي قميصاً أخضر على خلفية أوراق شجر خضراء سيكون أصعب لأي أداة من نفس الشخص أمام جدار عادي.\n\nلتصوير المنتجات، استخدم خلفية متباينة عند التصوير. حتى لو كنت تخطط لإزالة الخلفية لاحقاً، البدء بتباين جيد يساعد الذكاء الاصطناعي في إنتاج حواف أنظف. خلفية بيضاء أو رمادية بسيطة تعمل جيداً لمعظم المنتجات."
+            "text": "تعتمد جودة نتائجك جزئياً على الصورة المدخلة. الصور ذات التباين الجيد بين العنصر والخلفية تنتج أنظف القصاصات. الصور جيدة الإضاءة ذات التركيز الحاد تعطي نموذج الذكاء الاصطناعي حواف واضحة للعمل معها."
           },
           {
             "heading": "إزالة الخلفية باستخدام ToolPic",
-            "text": "افتح أداة إزالة الخلفية على ToolPic وارفع صورتك. يُحمّل نموذج الذكاء الاصطناعي في متصفحك عند الاستخدام الأول، مما يستغرق بضع ثوانٍ. بعد ذلك، تكون المعالجة شبه فورية للصور اللاحقة.\n\nتكتشف الأداة تلقائياً العنصر الرئيسي وتزيل الخلفية، منتجة PNG شفاف. راجع النتيجة وحمّل الصورة. للمعالجة الدفعية، يمكنك رفع عدة صور ومعالجتها بالتتابع.\n\nبما أن الذكاء الاصطناعي يعمل بالكامل في متصفحك، لا يتم إرسال صورك إلى أي خادم أبداً. هذا يجعله آمناً للاستخدام مع صور المنتجات السرية والصور الشخصية وأعمال العملاء دون أي مخاوف تتعلق بالخصوصية."
+            "text": "افتح أداة إزالة الخلفية على ToolPic وارفع صورتك. يُحمّل نموذج الذكاء الاصطناعي في متصفحك عند الاستخدام الأول، مما يستغرق بضع ثوانٍ. بعد ذلك، تكون المعالجة شبه فورية للصور اللاحقة."
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -680,19 +1016,19 @@
         "content": [
           {
             "heading": "لماذا ملفات الفيديو كبيرة جداً",
-            "text": "ملفات الفيديو كبيرة لأنها تحتوي على سلسلة من الصور (إطارات) تُشغَّل بمعدل 24 إلى 60 إطاراً في الثانية، بالإضافة إلى بيانات الصوت. دقيقة واحدة من فيديو 1080p غير مضغوط بمعدل 30 إطاراً في الثانية ستتطلب حوالي 10 غيغابايت من التخزين، لهذا السبب ضغط الفيديو ضروري.\n\nتستخدم مُرمّزات الفيديو الحديثة مثل H.264 وH.265 تقنيات ضغط متطورة لتقليل هذا بشكل كبير. فهي تخزن الفروقات بين الإطارات المتتالية بدلاً من كل إطار بشكل مستقل، محققة نسب ضغط 100:1 أو أفضل مع الحفاظ على جودة مرئية جيدة.\n\nرغم هذا الضغط، تظل ملفات الفيديو اليومية كبيرة بمعايير البريد الإلكتروني. مقطع 1080p مدته دقيقة واحدة مسجل بهاتف ذكي عادةً يتراوح بين 100 إلى 200 ميغابايت، متجاوزاً بكثير حد المرفقات البالغ 25 ميغابايت الذي يفرضه معظم مزودي البريد الإلكتروني."
+            "text": "ملفات الفيديو كبيرة لأنها تحتوي على سلسلة من الصور (إطارات) تُشغَّل بمعدل 24 إلى 60 إطاراً في الثانية، بالإضافة إلى بيانات الصوت. دقيقة واحدة من فيديو 1080p غير مضغوط بمعدل 30 إطاراً في الثانية ستتطلب حوالي 10 غيغابايت من التخزين، لهذا السبب ضغط الفيديو ضروري."
           },
           {
             "heading": "فهم الدقة ومعدل البت",
-            "text": "الدقة ومعدل البت هما الأداتان الرئيسيتان للتحكم في حجم ملف الفيديو. الدقة تشير إلى عدد البكسلات في كل إطار. الدقات الشائعة تشمل 4K (3840×2160) و1080p (1920×1080) و720p (1280×720) و480p (854×480). تنصيف الدقة يقلل عدد البكسلات بنسبة 75%، مما يقلل حجم الملف بشكل كبير.\n\nمعدل البت هو كمية البيانات المستخدمة في الثانية من الفيديو. معدل بت أعلى يعني بيانات أكثر وجودة أفضل، بينما معدل بت أقل يعني ملفات أصغر مع تشوهات ضغط محتملة. للمشاركة عبر الويب، معدل بت 2-4 ميغابت في الثانية لمحتوى 1080p يوفر توازناً جيداً.\n\nلمرفقات البريد الإلكتروني، تقليل الدقة إلى 720p أو 480p عادةً هو النهج الأكثر فعالية. معظم المستلمين سيشاهدون على هواتفهم أو في معاينة بريد صغيرة، حيث الدقة الأقل مقبولة تماماً."
+            "text": "الدقة ومعدل البت هما الأداتان الرئيسيتان للتحكم في حجم ملف الفيديو. الدقة تشير إلى عدد البكسلات في كل إطار. الدقات الشائعة تشمل 4K (3840×2160) و1080p (1920×1080) و720p (1280×720) و480p (854×480)."
           },
           {
             "heading": "اختيار الصيغة المناسبة",
-            "text": "MP4 مع ترميز H.264 هو صيغة الفيديو الأكثر توافقاً عالمياً. يُشغَّل على كل جهاز ومنصة تقريباً دون الحاجة إلى برامج إضافية. للمشاركة عبر البريد الإلكتروني أو المراسلة، يجب أن يكون MP4 خيارك الافتراضي.\n\nيقدم WebM كفاءة ضغط أفضل من H.264، مما يعني ملفات أصغر بنفس الجودة. لكن التوافق أقل عالمية، خاصة مع الأجهزة القديمة وبعض عملاء البريد الإلكتروني. استخدم WebM عندما تعلم أن المستلم يستطيع تشغيله.\n\nلأصغر حجم ملف ممكن، يوفر H.265 (HEVC) ضغطاً أفضل بنسبة 50% تقريباً من H.264 بنفس الجودة. الدعم واسع الانتشار على الأجهزة الحديثة لكنه ليس عالمياً. إذا كان التوافق الأقصى أهم من الحجم الأدنى، التزم بـ H.264 MP4."
+            "text": "264 هو صيغة الفيديو الأكثر توافقاً عالمياً. يُشغَّل على كل جهاز ومنصة تقريباً دون الحاجة إلى برامج إضافية. للمشاركة عبر البريد الإلكتروني أو المراسلة، يجب أن يكون MP4 خيارك الافتراضي."
           },
           {
             "heading": "ضغط خطوة بخطوة مع ToolPic",
-            "text": "افتح أداة ضغط الفيديو على ToolPic واسحب ملف الفيديو إلى منطقة الرفع. تقبل الأداة MP4 وWebM وAVI وMOV وصيغ شائعة أخرى.\n\nاختر الدقة المستهدفة. لمشاركة البريد الإلكتروني، 720p عادةً هي النقطة المثلى بين الجودة وحجم الملف. لتطبيقات المراسلة، 480p غالباً كافية. اضبط شريط الجودة للتحكم في معدل البت. الإعداد المتوسط يعمل جيداً لمعظم المحتوى.\n\nانقر على ضغط وانتظر حتى تكتمل المعالجة. تعرض الأداة التقدم وحجم الملف الناتج. حمّل الفيديو المضغوط وتحقق من أنه يُشغَّل بشكل صحيح قبل إرفاقه ببريدك الإلكتروني. تتم جميع المعالجة محلياً في متصفحك، لذا يبقى محتوى الفيديو خاصاً."
+            "text": "افتح أداة ضغط الفيديو على ToolPic واسحب ملف الفيديو إلى منطقة الرفع. تقبل الأداة MP4 وWebM وAVI وMOV وصيغ شائعة أخرى."
           }
         ],
         "relatedToolIds": "video-compress"
@@ -705,19 +1041,19 @@
         "content": [
           {
             "heading": "لماذا أبعاد الصور مهمة",
-            "text": "تعرض منصات وسائل التواصل الاجتماعي الصور بنسب أبعاد ودقات محددة. عندما ترفع صورة لا تطابق الأبعاد المتوقعة، ستقوم المنصة بقصها تلقائياً. غالباً ما يقطع هذا أجزاء مهمة من صورتك مثل النص أو تفاصيل المنتج أو أجزاء من الوجه.\n\nاستخدام الأبعاد الصحيحة يضمن عرض صورك تماماً كما هو مقصود عبر جميع الأجهزة. كما يمنع المنصة من تطبيق ضغط إضافي لتغيير حجم صورتك، مما قد يقلل الجودة المرئية.\n\nكل منصة لها متطلبات مختلفة لمواضع مختلفة. صورة الملف الشخصي لها أبعاد مختلفة عن صورة الغلاف، التي تختلف عن صورة المنشور. تتبع جميع هذه الأحجام ضروري لأي شخص يدير محتوى وسائل التواصل الاجتماعي باحترافية."
+            "text": "تعرض منصات وسائل التواصل الاجتماعي الصور بنسب أبعاد ودقات محددة. عندما ترفع صورة لا تطابق الأبعاد المتوقعة، ستقوم المنصة بقصها تلقائياً. غالباً ما يقطع هذا أجزاء مهمة من صورتك مثل النص أو تفاصيل المنتج أو أجزاء من الوجه."
           },
           {
             "heading": "أبعاد إنستغرام",
-            "text": "منشورات إنستغرام المربعة يجب أن تكون 1080 × 1080 بكسل. هذا هو تنسيق إنستغرام الكلاسيكي ويعمل جيداً لمعظم المحتوى. المنشورات العمودية تؤدي بشكل أفضل عند 1080 × 1350 بكسل (نسبة 4:5)، مما يشغل مساحة أكبر من الشاشة في التغذية ويميل إلى توليد تفاعل أعلى.\n\nقصص إنستغرام و Reels تستخدم تنسيقاً عمودياً 9:16 عند 1080 × 1920 بكسل. هذا يملأ شاشة الهاتف بالكامل. صور الملف الشخصي تُعرض في دائرة بحجم 320 × 320 بكسل، رغم أن الرفع بدقة أعلى مثل 500 × 500 يضمن الحدة على شاشات عالية الكثافة.\n\nمنشورات الكاروسيل يمكن أن تستخدم أي من أحجام المنشورات القياسية، لكن جميع الصور في الكاروسيل يجب أن تشترك في نفس نسبة الأبعاد. الصورة الأولى تحدد نسبة الأبعاد للكاروسيل بأكمله."
+            "text": "منشورات إنستغرام المربعة يجب أن تكون 1080 × 1080 بكسل. هذا هو تنسيق إنستغرام الكلاسيكي ويعمل جيداً لمعظم المحتوى. المنشورات العمودية تؤدي بشكل أفضل عند 1080 × 1350 بكسل (نسبة 4:5)، مما يشغل مساحة أكبر من الشاشة في التغذية ويميل إلى توليد تفاعل أعلى."
           },
           {
             "heading": "فيسبوك وتويتر/X ويوتيوب",
-            "text": "صور غلاف فيسبوك يجب أن تكون 820 × 312 بكسل على سطح المكتب، لكنها تُعرض بشكل مختلف على الهاتف (640 × 360)، لذا أبقِ المحتوى المهم في الوسط. صور الملف الشخصي 170 × 170 بكسل على سطح المكتب. الصور المشاركة في التغذية تعمل بشكل أفضل عند 1200 × 630 بكسل.\n\nصور رأس تويتر/X يجب أن تكون 1500 × 500 بكسل. صور الملف الشخصي 400 × 400 بكسل. صور التغريدات تُعرض بشكل أفضل عند 1200 × 675 بكسل (نسبة 16:9). تغريدات الصورة الواحدة يمكن أن تستخدم أيضاً 1200 × 1200 للتنسيق المربع.\n\nصور يوتيوب المصغرة يجب أن تكون بالضبط 1280 × 720 بكسل بحد أدنى عرض 640 بكسل. لافتات القنوات 2560 × 1440 بكسل، لكن المنطقة الآمنة للنص والشعارات هي الوسط 1546 × 423 بكسل، حيث قد يُقص الباقي على أجهزة مختلفة."
+            "text": "صور غلاف فيسبوك يجب أن تكون 820 × 312 بكسل على سطح المكتب، لكنها تُعرض بشكل مختلف على الهاتف (640 × 360)، لذا أبقِ المحتوى المهم في الوسط. صور الملف الشخصي 170 × 170 بكسل على سطح المكتب. الصور المشاركة في التغذية تعمل بشكل أفضل عند 1200 × 630 بكسل."
           },
           {
             "heading": "كيفية تغيير حجم الصور باستخدام ToolPic",
-            "text": "افتح أداة قص وتغيير حجم الصور على ToolPic وارفع صورتك. تتضمن الأداة قوالب مدمجة لجميع منصات التواصل الاجتماعي الرئيسية، لذا لا تحتاج لتذكر أبعاد محددة.\n\nحدد المنصة ونوع الموضع من قائمة القوالب. تضبط الأداة تلقائياً نسبة الأبعاد والأبعاد الصحيحة. ضع منطقة القص فوق الجزء من صورتك الذي تريد الاحتفاظ به، ثم طبّق القص.\n\nحمّل الصورة بالحجم المثالي جاهزة للرفع. يمكنك معالجة عدة صور بالتتابع دون إعادة تحميل الصفحة. أداة القص تحافظ على جودة الصورة الأصلية وتعالج كل شيء محلياً في متصفحك."
+            "text": "افتح أداة قص وتغيير حجم الصور على ToolPic وارفع صورتك. تتضمن الأداة قوالب مدمجة لجميع منصات التواصل الاجتماعي الرئيسية، لذا لا تحتاج لتذكر أبعاد محددة."
           }
         ],
         "relatedToolIds": "image-crop"
@@ -730,19 +1066,19 @@
         "content": [
           {
             "heading": "ما هو WebP",
-            "text": "WebP صيغة صور طوّرتها Google وأُطلقت في 2010 كبديل حديث لـ JPEG وPNG وGIF. تستخدم خوارزميات ضغط متقدمة مشتقة من مُرمّزات الفيديو VP8 وVP9 لتحقيق أحجام ملفات أصغر بكثير مقارنة بالصيغ القديمة.\n\nتدعم الصيغة كلاً من أوضاع الضغط مع فقدان وبدون فقدان. في وضع الفقدان، ينتج WebP ملفات أصغر عادةً بنسبة 25-35% من JPEG بنفس الجودة المرئية. في الوضع بدون فقدان، ملفات WebP أصغر بحوالي 26% من ملفات PNG. كما يدعم الشفافية (قناة ألفا) والتحريك، مما يجعله بديلاً متعدد الاستخدامات لـ JPEG وPNG وGIF.\n\nصُمم WebP خصيصاً للويب، حيث تُترجم أحجام الملفات الأصغر مباشرة إلى تحميل أسرع للصفحات وتكاليف نطاق ترددي أقل وتجربة مستخدم أفضل، خاصة على الاتصالات المحمولة."
+            "text": "WebP صيغة صور طوّرتها Google وأُطلقت في 2010 كبديل حديث لـ JPEG وPNG وGIF. تستخدم خوارزميات ضغط متقدمة مشتقة من مُرمّزات الفيديو VP8 وVP9 لتحقيق أحجام ملفات أصغر بكثير مقارنة بالصيغ القديمة."
           },
           {
             "heading": "مزايا على JPEG وPNG",
-            "text": "الميزة الأساسية لـ WebP هي كفاءة الضغط. للصور الفوتوغرافية، ملف WebP بجودة 80% مكافئ بصرياً لـ JPEG بجودة 85-90% لكنه أصغر بنسبة 30% في حجم الملف. لموقع يحتوي على مئات الصور، يتراكم هذا إلى توفيرات كبيرة في النطاق الترددي وأوقات تحميل أسرع.\n\nعلى عكس JPEG، يدعم WebP الشفافية دون عقوبة حجم الملف المرتبطة بـ PNG. صورة منتج بخلفية شفافة محفوظة كـ WebP عادةً أصغر بـ 3-5 مرات من ملف PNG المكافئ. هذا يجعل WebP مثالياً لمواقع التجارة الإلكترونية حيث صور المنتجات الشفافة شائعة.\n\nيدعم WebP أيضاً التحريك كبديل لـ GIF. ملفات WebP المتحركة أصغر بكثير من صور GIF المكافئة مع دعم ألوان 24-بت الكاملة بدلاً من حد GIF البالغ 256 لوناً. للمواقع التي تستخدم عناصر متحركة، التحول من GIF إلى WebP يمكن أن يقلل أحجام الملفات بنسبة 50% أو أكثر."
+            "text": "الميزة الأساسية لـ WebP هي كفاءة الضغط. للصور الفوتوغرافية، ملف WebP بجودة 80% مكافئ بصرياً لـ JPEG بجودة 85-90% لكنه أصغر بنسبة 30% في حجم الملف. لموقع يحتوي على مئات الصور، يتراكم هذا إلى توفيرات كبيرة في النطاق الترددي وأوقات تحميل أسرع."
           },
           {
             "heading": "دعم المتصفحات في 2026",
-            "text": "اعتباراً من 2026، يُدعم WebP من جميع المتصفحات الرئيسية بما في ذلك Chrome وFirefox وSafari وEdge وOpera. أضاف Safari دعم WebP في الإصدار 14 (2020)، الذي كان آخر متصفح رئيسي متخلف. هذا يعني أن WebP يعمل الآن بشكل موثوق لأكثر من 97% من مستخدمي الويب حول العالم.\n\nدعم المتصفحات المحمولة شامل بالمثل. كل من iOS Safari وAndroid Chrome يدعمان WebP بالكامل، مما يجعله آمناً للاستخدام في تجارب الويب المحمولة دون حلول بديلة.\n\nالمخاوف المتبقية بشأن التوافق تتعلق بشكل أساسي ببرامج سطح المكتب القديمة. بعض محررات الصور وعملاء البريد الإلكتروني وأنظمة إدارة المحتوى قد لا تتعامل مع ملفات WebP أصلياً. لهذه الحالات، الاحتفاظ بنسخة JPEG أو PNG كحل بديل هو حل عملي. معظم سير عمل تطوير الويب الحديثة تولّد تلقائياً كلاً من WebP والصيغ البديلة."
+            "text": "اعتباراً من 2026، يُدعم WebP من جميع المتصفحات الرئيسية بما في ذلك Chrome وFirefox وSafari وEdge وOpera. أضاف Safari دعم WebP في الإصدار 14 (2020)، الذي كان آخر متصفح رئيسي متخلف. هذا يعني أن WebP يعمل الآن بشكل موثوق لأكثر من 97% من مستخدمي الويب حول العالم."
           },
           {
             "heading": "كيفية تحويل الصور إلى WebP",
-            "text": "تحويل صورك الحالية إلى WebP سهل مع محول الصور في ToolPic. ارفع أي صورة JPEG أو PNG أو BMP أو AVIF واختر WebP كصيغة الإخراج. تحافظ الأداة على الشفافية من مصادر PNG وتتيح لك ضبط مستوى الجودة للتحويل مع فقدان.\n\nللحصول على أفضل النتائج، ابدأ بأعلى جودة مصدر متاحة. تحويل JPEG مضغوط بشدة إلى WebP لن يحسن الجودة بطريقة سحرية. إذا كانت لديك النسخة الأصلية غير المضغوطة أو المضغوطة بدون فقدان، حوّل منها للحصول على نتائج مثلى.\n\nعند ترحيل موقع إلى WebP، استخدم عنصر HTML picture أو CSS image-set لتقديم WebP للمتصفحات الداعمة مع توفير بدائل JPEG أو PNG للعملاء القدامى. معظم مزودي CDN وأدوات البناء يمكنها أتمتة هذه العملية. الجهد الأولي للتحويل إلى WebP يُسترد بسرعة من خلال تقليل تكاليف النطاق الترددي وتحسين أداء الصفحات."
+            "text": "تحويل صورك الحالية إلى WebP سهل مع محول الصور في ToolPic. ارفع أي صورة JPEG أو PNG أو BMP أو AVIF واختر WebP كصيغة الإخراج. تحافظ الأداة على الشفافية من مصادر PNG وتتيح لك ضبط مستوى الجودة للتحويل مع فقدان."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -755,19 +1091,19 @@
         "content": [
           {
             "heading": "ما هي صيغة HEIC ولماذا تستخدمها أبل",
-            "text": "HEIC (حاوية الصور عالية الكفاءة) هي صيغة الصور الافتراضية على أجهزة أبل منذ iOS 11 في عام 2017. تعتمد على ترميز HEVC (H.265) وتوفر ضغطاً أفضل بكثير من JPEG التقليدي: بجودة مرئية مكافئة، يكون ملف HEIC أصغر بنحو 50% من ملف JPEG.\n\nبالنسبة لأبل، يقدم اعتماد HEIC ميزة مزدوجة. من ناحية، يمكن للمستخدمين تخزين ضعف عدد الصور على الآيفون دون فقدان الجودة. من ناحية أخرى، تكون مزامنة iCloud أسرع وتستهلك نطاقاً ترددياً أقل. تدعم الصيغة أيضاً صوراً بعمق 16 بت وتسلسلات صور ومعلومات العمق، مما يجعلها حاوية أغنى بكثير من JPEG.\n\nتظهر المشكلة عندما ترغب في مشاركة هذه الصور خارج نظام أبل البيئي. كثير من برامج ويندوز والخدمات عبر الإنترنت والتطبيقات الخارجية ببساطة لا تدعم HEIC. لذلك يبقى التحويل إلى JPG ضرورياً لضمان التوافق العالمي."
+            "text": "HEIC (حاوية الصور عالية الكفاءة) هي صيغة الصور الافتراضية على أجهزة أبل منذ iOS 11 في عام 2017. 265) وتوفر ضغطاً أفضل بكثير من JPEG التقليدي: بجودة مرئية مكافئة، يكون ملف HEIC أصغر بنحو 50% من ملف JPEG."
           },
           {
             "heading": "الفروق التقنية بين HEIC وJPG",
-            "text": "يستخدم JPEG خوارزمية ضغط مع فقدان تعتمد على تحويل جيب التمام المنفصل. وهو مدعوم عالمياً منذ أكثر من 30 عاماً، لكن قدراته في الضغط محدودة مقارنة بالمعايير الحديثة. لا تدعم الصيغة الشفافية ولا البيانات الوصفية المتقدمة مثل معلومات العمق.\n\nأما HEIC فيستغل ضغط الإطار الداخلي لترميز HEVC، وهو أكثر كفاءة بكثير. عند مستوى جودة متماثل إدراكياً، يقلل HEIC حجم الملف بنسبة 40 إلى 50% مقارنة بـ JPEG. يدعم ألواناً بعمق 10 و16 بت، مقابل 8 بت في JPEG، مما ينتج تدرجات أكثر سلاسة ونطاقاً ديناميكياً أوسع.\n\nرغم هذه المزايا، يظل JPEG الصيغة الأكثر توافقاً في العالم. كل متصفح ونظام تشغيل وشبكة تواصل اجتماعي يقبله بلا مشاكل. للمشاركة عبر الإنترنت والنشر على الويب أو الطباعة، يبقى JPG الخيار الأكثر أماناً. تحويل HEIC إلى JPG يتيح الجمع بين أفضل ما في العالمين: التقاط بكفاءة عالية والمشاركة بتوافق أقصى."
+            "text": "يستخدم JPEG خوارزمية ضغط مع فقدان تعتمد على تحويل جيب التمام المنفصل. وهو مدعوم عالمياً منذ أكثر من 30 عاماً، لكن قدراته في الضغط محدودة مقارنة بالمعايير الحديثة. لا تدعم الصيغة الشفافية ولا البيانات الوصفية المتقدمة مثل معلومات العمق."
           },
           {
             "heading": "طرق تحويل HEIC إلى JPG",
-            "text": "تتوفر عدة خيارات لتحويل ملفات HEIC إلى JPG. على الآيفون، يمكنك تغيير إعدادات الكاميرا في الإعدادات > الكاميرا > التنسيقات واختيار \"الأكثر توافقاً\". هذا يجبر الآيفون على الحفظ مباشرة بصيغة JPEG. لكنك تفقد ميزة ضغط HEIC وستشغل صورك مساحة أكبر.\n\nعلى ماك، يتيح تطبيق المعاينة فتح ملف HEIC وتصديره كـ JPEG عبر ملف > تصدير. هذا مناسب لبضع صور، لكنه غير ملائم للمعالجة الدفعية. على ويندوز، يمكن لتطبيق الصور فتح ملفات HEIC بعد تثبيت إضافة مجانية من متجر مايكروسوفت.\n\nالحل الأبسط والأسرع هو أداة عبر الإنترنت مثل ToolPic. لا حاجة لأي تثبيت، تتم المعالجة بالكامل في متصفحك ولا تغادر ملفاتك جهازك أبداً. يمكنك تحويل عدة صور في عملية واحدة، وهو مثالي عند نقل صور من كاميرا الآيفون."
+            "text": "تتوفر عدة خيارات لتحويل ملفات HEIC إلى JPG. على الآيفون، يمكنك تغيير إعدادات الكاميرا في الإعدادات > الكاميرا > التنسيقات واختيار \"الأكثر توافقاً\". هذا يجبر الآيفون على الحفظ مباشرة بصيغة JPEG."
           },
           {
             "heading": "كيفية تحويل HEIC إلى JPG باستخدام ToolPic",
-            "text": "الخطوة 1: افتح أداة محول الصور على ToolPic. اسحب وأفلت ملفات HEIC مباشرة في منطقة الرفع، أو انقر لتصفح مجلداتك. تقبل الأداة عدة ملفات في وقت واحد للمعالجة الدفعية.\n\nالخطوة 2: حدد JPG كصيغة الإخراج من القائمة المنسدلة. اضبط شريط تمرير الجودة حسب احتياجاتك. إعداد 85% يوفر توازناً ممتازاً بين الجودة المرئية وحجم الملف لمعظم الاستخدامات. للطباعة، ارفعه إلى 95%. للويب ووسائل التواصل الاجتماعي، 75 إلى 80% عادة ما يكفي.\n\nالخطوة 3: يبدأ التحويل تلقائياً. بعد الانتهاء، تحقق من الصور المحولة وحمّلها فردياً أو دفعة واحدة. تتم العملية بأكملها محلياً في متصفحك بفضل تقنية WebAssembly، مما يضمن الخصوصية التامة لصورك الشخصية."
+            "text": "الخطوة 1: افتح أداة محول الصور على ToolPic. اسحب وأفلت ملفات HEIC مباشرة في منطقة الرفع، أو انقر لتصفح مجلداتك. تقبل الأداة عدة ملفات في وقت واحد للمعالجة الدفعية."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -780,19 +1116,19 @@
         "content": [
           {
             "heading": "صعود أدوات الصور المدعومة بالذكاء الاصطناعي",
-            "text": "غيّر الذكاء الاصطناعي معالجة الصور بشكل جذري في السنوات الأخيرة. المهام التي كانت تتطلب ساعات من العمل اليدوي في فوتوشوب، مثل قص عنصر معقد أو إزالة أجسام غير مرغوبة، يمكن الآن إنجازها في ثوانٍ بواسطة نماذج التعلم العميق.\n\nتستخدم أدوات الذكاء الاصطناعي شبكات عصبية مُدرّبة على ملايين الصور لفهم المحتوى المرئي. وهي قادرة على التمييز بين المقدمة والخلفية، وتحديد حدود الأجسام، وتوليد أنسجة مفقودة، وحتى تخمين ما يختبئ وراء عنصر تمت إزالته. هذا الفهم السياقي كان مستحيلاً ببساطة مع الخوارزميات التقليدية.\n\nسهولة الوصول هي ميزة كبرى أخرى. بينما كان تحرير الصور الاحترافي يتطلب سنوات من الممارسة وبرامج مكلفة، تتيح أدوات الذكاء الاصطناعي الحديثة لأي شخص الحصول على نتائج بجودة احترافية دون أي مهارات تقنية مسبقة."
+            "text": "غيّر الذكاء الاصطناعي معالجة الصور بشكل جذري في السنوات الأخيرة. المهام التي كانت تتطلب ساعات من العمل اليدوي في فوتوشوب، مثل قص عنصر معقد أو إزالة أجسام غير مرغوبة، يمكن الآن إنجازها في ثوانٍ بواسطة نماذج التعلم العميق."
           },
           {
             "heading": "نقاط قوة الأدوات التقليدية",
-            "text": "توفر أدوات التحرير التقليدية مثل منحنيات المستويات وأقنعة الطبقات وأدوات الختم تحكماً دقيقاً وتفصيلياً لا يستطيع الذكاء الاصطناعي مضاهاته دائماً. يمكن للمنقح المتمرس إجراء تعديلات دقيقة بكسل ببكسل، وهو أمر أساسي للعمل الاحترافي عالي المستوى.\n\nالقابلية للتنبؤ هي ميزة أخرى. الفلاتر والتعديلات التقليدية تنتج نتائج متسقة وقابلة للتكرار. أنت تعرف بالضبط ما سينتجه تعديل المنحنيات أو التمويه الغاوسي. نتائج الذكاء الاصطناعي، من ناحية أخرى، قد تتفاوت من صورة لأخرى وليست دائماً قابلة للتنبؤ.\n\nلمهام معينة مثل معايرة الألوان الدقيقة وتنقيح البشرة عالي الجودة أو التكوين الإبداعي، تظل الأدوات اليدوية متفوقة. فهي تتيح نية فنية لا تستطيع نماذج الذكاء الاصطناعي، التي تميل لإنتاج نتائج متوسطة إحصائياً، التقاطها دائماً."
+            "text": "توفر أدوات التحرير التقليدية مثل منحنيات المستويات وأقنعة الطبقات وأدوات الختم تحكماً دقيقاً وتفصيلياً لا يستطيع الذكاء الاصطناعي مضاهاته دائماً. يمكن للمنقح المتمرس إجراء تعديلات دقيقة بكسل ببكسل، وهو أمر أساسي للعمل الاحترافي عالي المستوى."
           },
           {
             "heading": "متى تختار الذكاء الاصطناعي ومتى تختار اليدوي",
-            "text": "يتألق الذكاء الاصطناعي في المهام المتكررة والضخمة. إذا كنت بحاجة لإزالة خلفية 500 صورة منتج لمتجرك الإلكتروني، فإن أداة ذكاء اصطناعي مثل ToolPic ستعالج الجميع في جزء بسيط من الوقت المطلوب يدوياً. ستكون الجودة ثابتة وكافية تماماً لمعظم الاستخدامات التجارية.\n\nاختر الأدوات اليدوية عندما تكون الدقة أمراً حاسماً. حملة إعلانية أو غلاف مجلة أو تكوين فني يتطلب تحكماً كاملاً في كل تفصيل. في هذه الحالات، يمكن للذكاء الاصطناعي أن يكون خطوة أولى سريعة، والتشطيب النهائي يتم يدوياً.\n\nالنهج الهجين غالباً ما يكون الأكثر فعالية. استخدم الذكاء الاصطناعي للعمل الأساسي — إزالة الخلفية، التكبير، إزالة الضوضاء — ثم صقل يدوياً المناطق التي تحتاج عناية خاصة. هذا المزيج يتيح توفير وقت هائل مع الحفاظ على مستوى جودة احترافي."
+            "text": "يتألق الذكاء الاصطناعي في المهام المتكررة والضخمة. إذا كنت بحاجة لإزالة خلفية 500 صورة منتج لمتجرك الإلكتروني، فإن أداة ذكاء اصطناعي مثل ToolPic ستعالج الجميع في جزء بسيط من الوقت المطلوب يدوياً. ستكون الجودة ثابتة وكافية تماماً لمعظم الاستخدامات التجارية."
           },
           {
             "heading": "جرّب أدوات الذكاء الاصطناعي في ToolPic",
-            "text": "يدمج ToolPic عدة وظائف قائمة على الذكاء الاصطناعي، بدءاً من أداة إزالة الخلفية. تستخدم هذه الأداة نموذج شبكة عصبية يعمل بالكامل في متصفحك بفضل WebAssembly. لا يتم إرسال أي صورة إلى خادم، مما يضمن الخصوصية التامة لملفاتك.\n\nللتجربة، افتح أداة إزالة الخلفية واستورد صورتك. يكتشف نموذج الذكاء الاصطناعي تلقائياً العنصر الرئيسي وينشئ PNG شفافاً في ثوانٍ قليلة. النتائج مبهرة بشكل خاص للصور الشخصية وصور المنتجات والصور ذات العنصر المحدد جيداً.\n\nميزة نهج المتصفح هي أنك لا تحتاج لتثبيت أي شيء والأداة متاحة من أي جهاز. سواء كنت على حاسوب مكتبي أو محمول أو حتى جهاز لوحي، تحصل على نتائج احترافية فورياً ومجاناً، دون أي تنازل عن خصوصية صورك."
+            "text": "يدمج ToolPic عدة وظائف قائمة على الذكاء الاصطناعي، بدءاً من أداة إزالة الخلفية. تستخدم هذه الأداة نموذج شبكة عصبية يعمل بالكامل في متصفحك بفضل WebAssembly. لا يتم إرسال أي صورة إلى خادم، مما يضمن الخصوصية التامة لملفاتك."
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -805,19 +1141,19 @@
         "content": [
           {
             "heading": "تأثير الصور على أداء الويب",
-            "text": "تمثل الصور في المتوسط 50% من الوزن الإجمالي لصفحة الويب. في موقع تجارة إلكترونية نموذجي، قد تصل هذه النسبة إلى 70% أو أكثر. عندما لا تكون الصور محسّنة، فإنها تبطئ وقت التحميل بشكل كبير، مما يؤثر مباشرة على معدل الارتداد ومعدل التحويل والتصنيف في محركات البحث.\n\nيستخدم جوجل مؤشرات أداء الويب الأساسية كعوامل تصنيف، وLCP (أكبر رسم محتوى) غالباً ما يرتبط مباشرة بحجم الصور. يعتبر جوجل أن LCP الذي يتجاوز 2.5 ثانية سيئ. تحسين صورك هو أحد أكثر الأدوات فعالية لتحسين هذا المقياس.\n\nبالإضافة إلى تحسين محركات البحث، تؤثر سرعة التحميل على تجربة المستخدم. تُظهر الدراسات أن ثانية واحدة من التأخير في تحميل الصفحة يمكن أن تقلل التحويلات بنسبة 7%. للمواقع المحمولة، حيث الاتصالات غالباً أبطأ، يكون تحسين الصور أكثر أهمية."
+            "text": "تمثل الصور في المتوسط 50% من الوزن الإجمالي لصفحة الويب. في موقع تجارة إلكترونية نموذجي، قد تصل هذه النسبة إلى 70% أو أكثر. عندما لا تكون الصور محسّنة، فإنها تبطئ وقت التحميل بشكل كبير، مما يؤثر مباشرة على معدل الارتداد ومعدل التحويل والتصنيف في محركات البحث."
           },
           {
             "heading": "اختيار الصيغة المناسبة لكل صورة",
-            "text": "اختيار الصيغة هو الخطوة الأولى في التحسين. للصور الفوتوغرافية والصور ذات الألوان والتدرجات الكثيرة، يُعد WebP الخيار الأفضل في 2026. يوفر ضغطاً أفضل بنسبة 25 إلى 35% من JPEG بجودة مرئية مكافئة، وهو مدعوم من جميع المتصفحات الحديثة.\n\nللرسومات والشعارات والرسوم التوضيحية ذات المساحات اللونية المسطحة والنص، يُعد SVG (المتجه) مثالياً لأنه يتكيف مع جميع أحجام الشاشات دون فقدان الجودة. عندما لا يكون SVG ممكناً، يظل PNG الخيار الصحيح للصور التي تحتاج شفافية أو حواف حادة.\n\nصيغة AVIF أكثر كفاءة من WebP، مع تقليل إضافي للحجم بنسبة 20%. لكن دعمها من المتصفحات لا يزال غير مكتمل. أفضل استراتيجية هي تقديم AVIF للمتصفحات المتوافقة، وWebP كبديل، وJPEG أو PNG كملاذ أخير، باستخدام عنصر HTML picture."
+            "text": "اختيار الصيغة هو الخطوة الأولى في التحسين. للصور الفوتوغرافية والصور ذات الألوان والتدرجات الكثيرة، يُعد WebP الخيار الأفضل في 2026. يوفر ضغطاً أفضل بنسبة 25 إلى 35% من JPEG بجودة مرئية مكافئة، وهو مدعوم من جميع المتصفحات الحديثة."
           },
           {
             "heading": "التحجيم والضغط الصحيح",
-            "text": "لا تقدم أبداً صورة أكبر مما هو ضروري. إذا كان العنصر الحاوي بعرض 800 بكسل، فإن صورة بعرض 4000 بكسل هي هدر خالص. غيّر حجم صورك إلى أبعاد العرض الفعلية قبل ضغطها. لشاشات ريتينا، قدّم صوراً بضعف حجم عرض CSS، لا أكثر.\n\nللضغط، اسعَ لتحقيق توازن بين الحجم والجودة. كقاعدة عامة، إعداد جودة بين 75 و85% لـ JPEG وWebP يعطي نتائج ممتازة. فوق 85%، مكاسب الجودة غير محسوسة لكن الحجم يزيد بشكل ملحوظ. تحت 70%، تصبح التشوهات مرئية.\n\nيتيح سمة HTML srcset وعنصر picture تقديم أحجام مختلفة من الصورة حسب حجم شاشة الزائر. يحصل مستخدم الهاتف على صورة بعرض 480 بكسل، بينما تحصل شاشة سطح المكتب على نسخة بعرض 1200 بكسل. هذه التقنية، المسماة الصور المتجاوبة، يمكن أن تقلل وزن الصور بنسبة 50% أو أكثر على الهاتف المحمول."
+            "text": "لا تقدم أبداً صورة أكبر مما هو ضروري. إذا كان العنصر الحاوي بعرض 800 بكسل، فإن صورة بعرض 4000 بكسل هي هدر خالص. غيّر حجم صورك إلى أبعاد العرض الفعلية قبل ضغطها."
           },
           {
             "heading": "تحسين صورك باستخدام ToolPic",
-            "text": "يقدم ToolPic أداتين أساسيتين لتحسين الويب: ضاغط الصور ومحول الصور. ابدأ بالمحول لتحويل صورك إلى WebP، الصيغة الأكثر كفاءة للويب الحالي. ثم استخدم الضاغط لضبط مستوى الجودة بدقة.\n\nلسير عمل تحسين كامل، اتبع هذه الخطوات: استورد صورك في المحول، حدد WebP كصيغة إخراج بجودة 80%. حمّل الملفات المحولة. إذا كانت بعض الصور لا تزال ثقيلة، مرّرها عبر الضاغط لتقليل إضافي.\n\nتتم جميع المعالجة في متصفحك، مما يعني أنه حتى صور العملاء السرية يمكن تحسينها دون مخاطر. لا يُرسل أي ملف إلى خادم. يمكنك معالجة دفعات كاملة من الصور في دقائق قليلة، مما يجعل التحسين متاحاً حتى للمواقع التي تحتوي على مئات صفحات المنتجات."
+            "text": "يقدم ToolPic أداتين أساسيتين لتحسين الويب: ضاغط الصور ومحول الصور. ابدأ بالمحول لتحويل صورك إلى WebP، الصيغة الأكثر كفاءة للويب الحالي. ثم استخدم الضاغط لضبط مستوى الجودة بدقة."
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -830,19 +1166,19 @@
         "content": [
           {
             "heading": "لماذا كاروسيلات إنستغرام فعالة للغاية",
-            "text": "تُعد كاروسيلات إنستغرام من أكثر الصيغ أداءً على المنصة. تُظهر البيانات الحديثة أن الكاروسيلات تحقق في المتوسط 1.4 ضعف الوصول و3.1 ضعف التفاعل مقارنة بالمنشورات العادية ذات الصورة الواحدة. يُفضل خوارزمية إنستغرام هذه الصيغة لأنها تُبقي المستخدمين لفترة أطول على المنشور أثناء تمريرهم للشرائح.\n\nيمكن أن تحتوي الكاروسيل على ما يصل إلى 20 صورة أو فيديو. الأبعاد الموصى بها هي 1080 × 1080 بكسل للشكل المربع، و1080 × 1350 بكسل للشكل العمودي (الذي يشغل مساحة أكبر على الشاشة)، أو 1080 × 566 بكسل للشكل الأفقي. الشكل العمودي هو الأكثر فعالية عادةً لأنه يهيمن على الخلاصة.\n\nالكاروسيلات مثالية للدروس خطوة بخطوة، ومقارنات قبل وبعد، وقوائم النصائح، والمحافظ، وعروض المنتجات. طبيعتها التسلسلية تتيح سرد قصة بصرية تأسر الجمهور."
+            "text": "تُعد كاروسيلات إنستغرام من أكثر الصيغ أداءً على المنصة. 1 ضعف التفاعل مقارنة بالمنشورات العادية ذات الصورة الواحدة. يُفضل خوارزمية إنستغرام هذه الصيغة لأنها تُبقي المستخدمين لفترة أطول على المنشور أثناء تمريرهم للشرائح."
           },
           {
             "heading": "تصميم شرائح تجذب الانتباه",
-            "text": "الشريحة الأولى هي الحاسمة — فهي التي تُقنع المستخدم بالتمرير. استخدم عنواناً جذاباً بخط كبير، أو صورة مؤثرة، أو سؤالاً مثيراً للاهتمام. تجنب تحميل هذه الصورة الأولى بالكثير من العناصر، لأن البساطة تجذب مزيداً من النظرات في خلاصة مزدحمة.\n\nللشرائح التالية، حافظ على التناسق البصري. استخدم نفس لوحة الألوان ونفس الخطوط وأسلوباً بصرياً موحداً. الانتقالات البصرية بين الشرائح تخلق تأثير الاستمرارية الذي يشجع على التمرير.\n\nأضف دعوة لاتخاذ إجراء في الشريحة الأخيرة: ادعُ لحفظ المنشور أو مشاركته أو زيارة رابط. المنشورات المحفوظة هي إشارة قوية للخوارزمية وتزيد بشكل كبير من ظهور محتواك المستقبلي.\n\nتذكر أيضاً إضافة نص بديل ذي صلة لكل صورة من أجل إمكانية الوصول وتحسين الاكتشاف في بحث إنستغرام."
+            "text": "الشريحة الأولى هي الحاسمة — فهي التي تُقنع المستخدم بالتمرير. استخدم عنواناً جذاباً بخط كبير، أو صورة مؤثرة، أو سؤالاً مثيراً للاهتمام. تجنب تحميل هذه الصورة الأولى بالكثير من العناصر، لأن البساطة تجذب مزيداً من النظرات في خلاصة مزدحمة."
           },
           {
             "heading": "تحضير صورك بالأبعاد الصحيحة",
-            "text": "جودة الصور ضرورية لكاروسيل احترافي. ابدأ بصور أو تصميمات عالية الدقة، ثم اقصها إلى الأبعاد المطلوبة بدقة. القص غير المتسق بين الشرائح يعطي مظهراً هاوياً ويضر بالتفاعل.\n\nللشكل العمودي الموصى به (1080 × 1350 بكسل)، استخدم نسبة عرض إلى ارتفاع 4:5. تأكد من أن العناصر المهمة لا تقع في مناطق القص المحتملة. قد يقص إنستغرام الصور قليلاً في شبكة الملف الشخصي، لذا احتفظ بالعناصر الرئيسية في المنتصف.\n\nإذا كنت تنشئ بانوراما متواصلة عبر عدة شرائح، فدقة التقطيع أمر بالغ الأهمية. يجب أن تتطابق كل جزء بشكل مثالي مع الجزء التالي لإنشاء تأثير بصري سلس. استخدم أداة قص دقيقة لضمان أبعاد محددة وقطع نظيفة.\n\nللكاروسيلات المختلطة التي تجمع بين الصور والفيديو، حافظ على نفس الأبعاد لجميع العناصر لتجنب الأشرطة السوداء أو القص التلقائي غير المرغوب فيه."
+            "text": "جودة الصور ضرورية لكاروسيل احترافي. ابدأ بصور أو تصميمات عالية الدقة، ثم اقصها إلى الأبعاد المطلوبة بدقة. القص غير المتسق بين الشرائح يعطي مظهراً هاوياً ويضر بالتفاعل."
           },
           {
             "heading": "إنشاء كاروسيل باستخدام ToolPic",
-            "text": "يوفر ToolPic أداتين مثاليتين لتحضير كاروسيلات إنستغرام. أداة القص تتيح لك تحديد الأبعاد 1080 × 1350 أو 1080 × 1080 بدقة لكل شريحة، مما يضمن نسباً مثالية ونتيجة احترافية.\n\nللكاروسيلات البانورامية، استخدم أداة دمج الصور. استورد صورتك البانورامية وقسّمها إلى أقسام متساوية تشكل الشرائح المتتالية. تضمن الأداة قطعاً دقيقاً بدون فقدان للجودة.\n\nالميزة الرئيسية لـ ToolPic هي أن جميع المعالجة تتم في متصفحك. تصميماتك — سواء كانت محتوى للعملاء أو صوراً شخصية — لا تُرسل أبداً إلى خادم. يمكنك تحضير كاروسيل كاملة في دقائق قليلة، من القص إلى التصدير النهائي.\n\nصدّر صورك بصيغة JPEG عالية الجودة (90-95%) أو PNG إذا كنت بحاجة إلى شفافية. سمِّ الملفات بالترتيب (01، 02، 03...) لتسهيل الاستيراد في تطبيق إنستغرام."
+            "text": "يوفر ToolPic أداتين مثاليتين لتحضير كاروسيلات إنستغرام. أداة القص تتيح لك تحديد الأبعاد 1080 × 1350 أو 1080 × 1080 بدقة لكل شريحة، مما يضمن نسباً مثالية ونتيجة احترافية."
           }
         ],
         "relatedToolIds": "image-crop,image-merge"
@@ -855,19 +1191,19 @@
         "content": [
           {
             "heading": "فهم شفافية PNG",
-            "text": "صيغة PNG (رسومات الشبكة المحمولة) هي المعيار للصور التي تحتاج خلفية شفافة. على عكس JPEG التي تملأ دائماً الإطار بالكامل ببكسلات معتمة، تدعم PNG شفافية ألفا، مما يسمح لكل بكسل بمستوى عتامة يتراوح من شفاف تماماً إلى معتم تماماً.\n\nهذه الميزة لا غنى عنها للعديد من حالات الاستخدام: شعارات الشركات المتراكبة على خلفيات مختلفة، وأيقونات واجهة المستخدم، وصور المنتجات للتجارة الإلكترونية، والملصقات الرقمية، والعناصر الرسومية المخصصة للدمج مع تصميمات أخرى.\n\nتتعامل شفافية ألفا في PNG أيضاً مع الحواف شبه الشفافة، مما ينتج حدوداً ناعمة وطبيعية عند وضع الصورة على خلفية ملونة. بدون هذه الميزة، ستظهر حدود الكائنات المقصوصة بهالة مزعجة مرئية على أي خلفية مختلفة عن الأصلية."
+            "text": "صيغة PNG (رسومات الشبكة المحمولة) هي المعيار للصور التي تحتاج خلفية شفافة. على عكس JPEG التي تملأ دائماً الإطار بالكامل ببكسلات معتمة، تدعم PNG شفافية ألفا، مما يسمح لكل بكسل بمستوى عتامة يتراوح من شفاف تماماً إلى معتم تماماً."
           },
           {
             "heading": "تقنيات إزالة الخلفية",
-            "text": "الطريقة الأكثر شيوعاً للحصول على خلفية شفافة هي إزالة الخلفية من صورة موجودة. أحدثت الأدوات الحديثة المعتمدة على الذكاء الاصطناعي ثورة في هذه العملية بجعلها شبه فورية ودقيقة بشكل ملحوظ.\n\nتحلل خوارزميات التقسيم الصورة للتمييز بين الموضوع الرئيسي والخلفية. تتفوق مع المواضيع ذات الحدود الواضحة كالأشخاص والأشياء والمنتجات. الحالات الأكثر تعقيداً تشمل الشعر الدقيق والفراء والأجسام شبه الشفافة كالزجاج أو الدخان.\n\nللحصول على أفضل النتائج، ابدأ بصورة يتباين فيها الموضوع جيداً مع الخلفية. الإضاءة المتساوية والخلفية البسيطة نسبياً تسهل الاكتشاف التلقائي. إذا لم تكن النتيجة مثالية من المحاولة الأولى، تتيح بعض الأدوات التعديل اليدوي للمناطق المشكلة.\n\nبعد الإزالة، تحقق من الحواف عند مستويات تكبير مختلفة وعلى خلفيات ملونة متنوعة للتأكد من أن القص نظيف وطبيعي."
+            "text": "الطريقة الأكثر شيوعاً للحصول على خلفية شفافة هي إزالة الخلفية من صورة موجودة. أحدثت الأدوات الحديثة المعتمدة على الذكاء الاصطناعي ثورة في هذه العملية بجعلها شبه فورية ودقيقة بشكل ملحوظ."
           },
           {
             "heading": "تحسين ملفات PNG الشفافة",
-            "text": "غالباً ما تكون ملفات PNG ذات الشفافية أكبر من نظيراتها بصيغة JPEG، لأن الصيغة تستخدم ضغطاً بدون فقدان يحافظ على كل تفصيل. قد يزن شعار بسيط بضعة كيلوبايتات، لكن صورة مقصوصة بدقة عالية يمكن أن تتجاوز بسهولة عدة ميغابايتات.\n\nعدة تقنيات تساعد في تقليل الحجم دون المساس بالجودة. الأولى هي تغيير حجم الصورة إلى الأبعاد المطلوبة فعلياً. شعار يُعرض بعرض 200 بكسل لا يحتاج للتصدير بعرض 2000 بكسل.\n\nتقليل عدد الألوان فعال جداً للرسومات البسيطة. PNG بعمق 8 بت مع 256 لوناً أخف بكثير من PNG بعمق 24 بت، وبالنسبة لشعار أو أيقونة بألوان محدودة، يكون الفرق البصري غير ملحوظ.\n\nأخيراً، يمكن لأدوات ضغط PNG بدون فقدان إعادة تنظيم البيانات الداخلية للملف لتحقيق نسبة ضغط أفضل دون تغيير مظهر الصورة. هذه التحسينات المجتمعة يمكن أن تقلل الحجم بنسبة 40 إلى 70%."
+            "text": "غالباً ما تكون ملفات PNG ذات الشفافية أكبر من نظيراتها بصيغة JPEG، لأن الصيغة تستخدم ضغطاً بدون فقدان يحافظ على كل تفصيل. قد يزن شعار بسيط بضعة كيلوبايتات، لكن صورة مقصوصة بدقة عالية يمكن أن تتجاوز بسهولة عدة ميغابايتات."
           },
           {
             "heading": "إنشاء خلفيات شفافة باستخدام ToolPic",
-            "text": "يوفر ToolPic أداتين متكاملتين للعمل مع الخلفيات الشفافة. أداة إزالة الخلفية تستخدم الذكاء الاصطناعي لاكتشاف وإزالة خلفية صورك تلقائياً. ما عليك سوى استيراد صورتك وسيعزل الخوارزمية الموضوع الرئيسي في ثوانٍ قليلة.\n\nلتحويل صورة ذات خلفية شفافة من صيغة إلى أخرى، استخدم محول الصور. يمكنك مثلاً تحويل ملف WebP بشفافية إلى PNG، أو العكس. تحافظ الأداة على قناة ألفا أثناء التحويل، مما يضمن الحفاظ على الشفافية.\n\nتتم جميع المعالجة محلياً في متصفحك. لا تُرسل أي صورة إلى خادم خارجي، مما يجعلها حلاً مثالياً لصور المنتجات السرية أو تصميمات العلامة التجارية الحساسة.\n\nبعد إزالة الخلفية، حمّل صورتك بصيغة PNG للحفاظ على الشفافية. يمكنك بعد ذلك استخدامها في تصميماتك وعروضك التقديمية ومتاجرك الإلكترونية أو منشوراتك على وسائل التواصل الاجتماعي."
+            "text": "يوفر ToolPic أداتين متكاملتين للعمل مع الخلفيات الشفافة. أداة إزالة الخلفية تستخدم الذكاء الاصطناعي لاكتشاف وإزالة خلفية صورك تلقائياً. ما عليك سوى استيراد صورتك وسيعزل الخوارزمية الموضوع الرئيسي في ثوانٍ قليلة."
           }
         ],
         "relatedToolIds": "image-bg-remove,image-converter"
@@ -880,19 +1216,19 @@
         "content": [
           {
             "heading": "حدود حجم الفيديو في واتساب",
-            "text": "يفرض واتساب حداً صارماً قدره 16 ميغابايت لملفات الفيديو المرسلة عبر التطبيق. ينطبق هذا القيد على جميع المنصات: أندرويد وiOS وواتساب ويب. الفيديوهات التي تتجاوز هذا الحجم إما تُرفض أو تُضغط تلقائياً بواسطة التطبيق بنتيجة غالباً ما تكون متوسطة.\n\nمع الهواتف الذكية الحديثة التي تصور بدقة 4K عند 60 إطاراً في الثانية، يمكن لفيديو مدته 30 ثانية أن يصل بسهولة إلى 100 ميغابايت أو أكثر. حتى بدقة 1080p، تزن دقيقة واحدة من الفيديو عادةً بين 100 و200 ميغابايت حسب الترميز المستخدم. الفجوة بين جودة التصوير وحدود واتساب كبيرة للغاية.\n\nضغط الفيديو بنفسك قبل الإرسال يعطي نتيجة أفضل بكثير من الضغط التلقائي لواتساب. تحتفظ بالسيطرة على الدقة ومعدل البت والجودة الإجمالية، مما ينتج فيديو أوضح وأكثر متعة للمتلقين."
+            "text": "يفرض واتساب حداً صارماً قدره 16 ميغابايت لملفات الفيديو المرسلة عبر التطبيق. ينطبق هذا القيد على جميع المنصات: أندرويد وiOS وواتساب ويب. الفيديوهات التي تتجاوز هذا الحجم إما تُرفض أو تُضغط تلقائياً بواسطة التطبيق بنتيجة غالباً ما تكون متوسطة."
           },
           {
             "heading": "إعدادات الضغط المثلى",
-            "text": "لواتساب، الدقة المثالية تتراوح بين 480p و720p. غالبية المستخدمين يشاهدون الفيديوهات على شاشات هواتفهم الذكية، حيث يكون الفرق بين 720p و1080p بالكاد ملحوظاً. تقليل الدقة هو أكثر الطرق فعالية لتقليل حجم الملف.\n\nيبقى ترميز H.264 الخيار الأكثر توافقاً. إنه المعيار المدعوم من جميع الأجهزة وجميع إصدارات واتساب. يوفر ترميز H.265 (HEVC) ضغطاً أفضل لكنه ليس متوافقاً دائماً مع الأجهزة القديمة.\n\nاستهدف معدل بت بين 1000 و2500 كيلوبت في الثانية للحصول على جودة مقبولة. معدل بت 1500 كيلوبت/ث عند 720p يعطي توازناً جيداً بين الجودة والحجم. للفيديوهات التي تتجاوز دقيقتين، قد تحتاج لتقليله إلى 1000 كيلوبت/ث للبقاء تحت حد 16 ميغابايت.\n\nيُوصى بصيغة حاوية MP4 لأنها الصيغة المدعومة أصلاً من واتساب على جميع المنصات."
+            "text": "لواتساب، الدقة المثالية تتراوح بين 480p و720p. غالبية المستخدمين يشاهدون الفيديوهات على شاشات هواتفهم الذكية، حيث يكون الفرق بين 720p و1080p بالكاد ملحوظاً. تقليل الدقة هو أكثر الطرق فعالية لتقليل حجم الملف."
           },
           {
             "heading": "نصائح لتقليل الحجم بدون فقدان الجودة",
-            "text": "قبل الضغط، قص الأجزاء غير الضرورية من الفيديو. كل ثانية تُزال تقلل حجم الملف مباشرة. ركز على المحتوى الأساسي الذي تريد مشاركته.\n\nإذا كان فيديوك يحتوي بشكل رئيسي على لقطات ثابتة أو محتوى بحركة قليلة (مثل عرض تقديمي أو تسجيل شاشة)، يمكنك استخدام معدل بت أقل بدون تدهور مرئي. الحركة هي ما يستهلك أكبر قدر من البيانات في الفيديو.\n\nيؤثر الصوت أيضاً على الحجم. إذا لم يكن الصوت مهماً، فإن إزالته أو ضغطه أكثر يمكن أن يوفر مساحة لجودة فيديو أفضل. صوت أحادي عند 64 كيلوبت/ث كافٍ للصوت البشري ويوفر بيانات ثمينة.\n\nللفيديوهات الطويلة جداً التي تتجاوز الحد بكثير، فكر في تقسيمها إلى عدة أجزاء. يسمح واتساب بإرسال عدة ملفات متتالية، وكل جزء سيستفيد من جودة أفضل مما لو ضغطت فيديو طويلاً في ملف واحد بحجم 16 ميغابايت."
+            "text": "قبل الضغط، قص الأجزاء غير الضرورية من الفيديو. كل ثانية تُزال تقلل حجم الملف مباشرة. ركز على المحتوى الأساسي الذي تريد مشاركته."
           },
           {
             "heading": "الضغط لواتساب باستخدام ToolPic",
-            "text": "أداة ضغط الفيديو في ToolPic مناسبة تماماً لهذه المهمة. استورد فيديوك في الأداة وستعرض الحجم الحالي للملف. يمكنك بعد ذلك ضبط الجودة والدقة للوصول إلى هدف 16 ميغابايت أو أقل.\n\naضبط الدقة على 720p كحل وسط جيد. اضبط شريط الجودة حتى ينخفض الحجم المقدر تحت علامة 16 ميغابايت. تستخدم الأداة FFmpeg عبر WebAssembly لتنفيذ الضغط مباشرة في متصفحك.\n\nالميزة الكبرى هي الخصوصية: لا يُرسل فيديوك أبداً إلى خادم. سواء كانت لحظة عائلية أو محتوى احترافي — كل شيء يبقى على جهازك. يُحمّل الملف المضغوط بصيغة MP4، جاهزاً للإرسال عبر واتساب.\n\nنصيحة: إذا لم ترضك الجودة من المحاولة الأولى، ارفع شريط الجودة قليلاً وأعد الضغط. التكرار سريع لأن كل شيء يتم محلياً."
+            "text": "أداة ضغط الفيديو في ToolPic مناسبة تماماً لهذه المهمة. استورد فيديوك في الأداة وستعرض الحجم الحالي للملف. يمكنك بعد ذلك ضبط الجودة والدقة للوصول إلى هدف 16 ميغابايت أو أقل."
           }
         ],
         "relatedToolIds": "video-compress"
@@ -905,19 +1241,19 @@
         "content": [
           {
             "heading": "لماذا تضيف علامة مائية لصورك",
-            "text": "العلامة المائية (watermark) وسيلة أساسية لحماية ملكيتك الفكرية البصرية. يستخدم المصورون والمصممون والرسامون ومنشئو المحتوى العلامات المائية لردع السرقة والاستخدام غير المصرح به لأعمالهم، مع الترويج لعلامتهم التجارية في نفس الوقت.\n\nفي عصر المشاركة الجماعية على وسائل التواصل الاجتماعي، يمكن نسخ صورة وقصها وإعادة نشرها في ثوانٍ. العلامة المائية الموضوعة بشكل جيد تجعل هذا الاستيلاء أصعب بكثير وتسمح بتحديد المؤلف الأصلي حتى عندما تنتشر الصورة خارج سياقها الأصلي.\n\nبالإضافة إلى الحماية، تعمل العلامة المائية أيضاً كأداة تسويقية. في كل مرة تُشاهد فيها صورتك أو تُشارك، يكون اسمك أو شعارك مرئياً. للمصورين الذين يشاركون معاينات لجلسات التصوير والفنانين الذين ينشرون أعمالاً قيد التنفيذ، تحدد العلامة المائية حقوق النسب بوضوح مع السماح بعرض العمل."
+            "text": "العلامة المائية (watermark) وسيلة أساسية لحماية ملكيتك الفكرية البصرية. يستخدم المصورون والمصممون والرسامون ومنشئو المحتوى العلامات المائية لردع السرقة والاستخدام غير المصرح به لأعمالهم، مع الترويج لعلامتهم التجارية في نفس الوقت."
           },
           {
             "heading": "أفضل ممارسات التصميم",
-            "text": "العلامة المائية الفعالة مرئية دون أن تكون مزعجة. يجب أن تحمي الصورة دون إفساد التجربة البصرية. التوازن بين الرؤية والدقة هو مفتاح العلامة المائية الجيدة.\n\nالشفافية هي المعامل الأهم. علامة مائية بعتامة 100% تخفي المحتوى وتبدو غير احترافية. استهدف شفافية بين 30% و50% لنتيجة دقيقة وفعالة. يجب أن تكون العلامة المائية مرئية عند البحث عنها، لكن لا تشتت عن الصورة الرئيسية.\n\nللنص، استخدم خطوطاً نظيفة وقابلة للقراءة. الخطوط بدون حدود (sans-serif) تعمل بشكل أفضل عموماً من الخطوط الزخرفية. أدرج اسمك أو موقعك الإلكتروني أو رمز حقوق النشر متبوعاً بالسنة.\n\nالتموضع الاستراتيجي حاسم. تجنب الزوايا لأنها سهلة القص. ضع العلامة المائية في الثلث الأوسط من الصورة أو استخدم نمطاً متكرراً يغطي السطح بأكمله للحماية القصوى."
+            "text": "العلامة المائية الفعالة مرئية دون أن تكون مزعجة. يجب أن تحمي الصورة دون إفساد التجربة البصرية. التوازن بين الرؤية والدقة هو مفتاح العلامة المائية الجيدة."
           },
           {
             "heading": "أنواع العلامات المائية وحالات الاستخدام",
-            "text": "يوجد نوعان رئيسيان من العلامات المائية: علامة مائية نصية وعلامة مائية صورية (شعار). العلامة المائية النصية هي الأسهل في الإنشاء وتناسب تماماً المصورين المستقلين ومنشئي المحتوى. عادةً ما تحتوي على اسم المؤلف أو عنوان URL لموقعه.\n\nالعلامة المائية الصورية تستخدم شعاراً أو رمزاً بيانياً. تفضلها الشركات والوكالات والعلامات التجارية الراسخة التي ترغب في تعزيز هويتها البصرية. شعار بنسخة بيضاء مع شفافية يعمل على معظم الخلفيات.\n\nلصور المخزون والمعاينات، يُوصى بعلامة مائية فسيفسائية تغطي الصورة بأكملها. هذا النمط المتكرر يمنع القص ويضمن عدم إمكانية استخدام الصورة بدون ترخيص.\n\nللمشاركة على وسائل التواصل الاجتماعي، علامة مائية دقيقة في زاوية أو على طول الحافة السفلية تكفي عادةً. الهدف هو نسب الملكية وليس الحماية القصوى، لأن شبكات التواصل الاجتماعي تعيد ضغط الصور على أي حال."
+            "text": "يوجد نوعان رئيسيان من العلامات المائية: علامة مائية نصية وعلامة مائية صورية (شعار). العلامة المائية النصية هي الأسهل في الإنشاء وتناسب تماماً المصورين المستقلين ومنشئي المحتوى. عادةً ما تحتوي على اسم المؤلف أو عنوان URL لموقعه."
           },
           {
             "heading": "إضافة علامة مائية باستخدام ToolPic",
-            "text": "تتيح لك أداة العلامة المائية في ToolPic إضافة نص أو صورة كطبقة فوق صورك بسرعة. الواجهة سهلة الاستخدام: استورد صورتك، واكتب نصك أو حمّل شعارك، ثم اضبط الموضع والحجم والشفافية حسب تفضيلاتك.\n\nيمكنك تخصيص الخط واللون وحجم النص. لعلامة مائية دقيقة، اختر لوناً أبيض أو أسود مع شفافية مخفضة. المعاينة في الوقت الفعلي تتيح لك رؤية النتيجة بالضبط قبل التحميل.\n\nلمعالجة فعالة، يمكنك تطبيق نفس العلامة المائية على عدة صور دفعة واحدة. هذا مفيد بشكل خاص للمصورين الذين يحتاجون لوضع علامة مائية على عشرات الصور من نفس الجلسة.\n\nكجميع أدوات ToolPic، المعالجة محلية بالكامل. صورك لا تغادر جهازك أبداً، وهو أمر مطمئن بشكل خاص عند العمل مع صور ذات قيمة تجارية عالية أو أعمال غير منشورة."
+            "text": "تتيح لك أداة العلامة المائية في ToolPic إضافة نص أو صورة كطبقة فوق صورك بسرعة. الواجهة سهلة الاستخدام: استورد صورتك، واكتب نصك أو حمّل شعارك، ثم اضبط الموضع والحجم والشفافية حسب تفضيلاتك."
           }
         ],
         "relatedToolIds": "image-watermark"
@@ -930,19 +1266,19 @@
         "content": [
           {
             "heading": "مواصفات فيديو تيك توك في 2026",
-            "text": "أصبح تيك توك المنصة الأولى لمحتوى الفيديو القصير. لكي تبرز فيديوهاتك ويفضلها الخوارزمية، من الضروري الالتزام بالمواصفات التقنية التي توصي بها المنصة.\n\nالدقة الموصى بها هي 1080 × 1920 بكسل، أي نسبة 9:16 في الوضع العمودي. هذا هو التنسيق الأصلي لتيك توك الذي يستخدم كامل شاشة الهاتف الذكي. الفيديوهات بنسب أخرى ستُعرض بأشرطة سوداء أو تُقص تلقائياً، مما يقلل التأثير البصري والتفاعل.\n\nالمدة القصوى ارتفعت إلى 10 دقائق، لكن الفيديوهات الأفضل أداءً تبقى عادةً بين 15 و60 ثانية. يفضل الخوارزمية الفيديوهات التي تُشاهد حتى النهاية، لذا فيديو قصير وجذاب غالباً ما يتفوق على محتوى أطول. الحجم الأقصى للملف هو 287 ميغابايت لنظام iOS و72 ميغابايت لنظام أندرويد."
+            "text": "أصبح تيك توك المنصة الأولى لمحتوى الفيديو القصير. لكي تبرز فيديوهاتك ويفضلها الخوارزمية، من الضروري الالتزام بالمواصفات التقنية التي توصي بها المنصة."
           },
           {
             "heading": "الترميزات والتنسيقات الموصى بها",
-            "text": "يقبل تيك توك تنسيقي MP4 وMOV. تنسيق MP4 مع ترميز H.264 هو الأكثر توافقاً عالمياً ويوفر أفضل توازن بين الجودة وحجم الملف. إنه الخيار الموصى به لتجنب مشاكل التوافق.\n\nترميز H.265 (HEVC) مدعوم لكنه قد يسبب مشاكل على بعض الأجهزة القديمة. إذا كان فيديوك المصدر بترميز H.265، فتحويله إلى H.264 يضمن أقصى توافق مع جميع أجهزة المشاهدين.\n\nللصوت، استخدم ترميز AAC بمعدل بت لا يقل عن 128 كيلوبت/ث. جودة الصوت حاسمة في تيك توك لأن الموسيقى والمؤثرات الصوتية عناصر مركزية في التجربة. صوت بجودة رديئة يمكن أن يؤدي لفقدان كبير في المشاهدين.\n\nمعدل البت الموصى به للفيديو يتراوح بين 3000 و5000 كيلوبت/ث لدقة 1080p. معدل بت منخفض جداً سينتج تشوهات مرئية، بينما معدل بت مفرط لن يحقق تحسناً ملحوظاً لكنه سيزيد وقت الرفع بلا داعٍ."
+            "text": "يقبل تيك توك تنسيقي MP4 وMOV. 264 هو الأكثر توافقاً عالمياً ويوفر أفضل توازن بين الجودة وحجم الملف. إنه الخيار الموصى به لتجنب مشاكل التوافق."
           },
           {
             "heading": "تحسين جودة فيديوهاتك في تيك توك",
-            "text": "يعيد تيك توك ضغط جميع الفيديوهات المرفوعة، مما قد يؤثر على الجودة. لتقليل هذا التأثير، ارفع فيديوهات بجودة أعلى قليلاً من المطلوب. معدل بت 5000 كيلوبت/ث عند 1080p يترك هامشاً كافياً للحفاظ على وضوح الفيديو بعد إعادة الضغط.\n\nتجنب ضغط فيديوك قبل الرفع إذا كان بالفعل تحت حد الحجم. كل ضغط إضافي يُدهور الجودة. إذا كان الضغط ضرورياً، افعله مرة واحدة بالإعدادات الصحيحة بدلاً من الضغط عدة مرات متتالية.\n\nالإضاءة غالباً أهم من الدقة. فيديو مُضاء جيداً بدقة 720p سيبدو أفضل من فيديو مظلم بدقة 4K بعد إعادة ضغط تيك توك. صوّر في ظروف إضاءة جيدة ومستقرة للحصول على أفضل النتائج.\n\nللنص المدمج في الفيديو، اترك هوامش أمان. يعرض تيك توك عناصر واجهة (اسم المستخدم والوصف والأزرار) على حواف الفيديو. احتفظ بالنصوص المهمة في المنطقة المركزية حتى تبقى مرئية."
+            "text": "يعيد تيك توك ضغط جميع الفيديوهات المرفوعة، مما قد يؤثر على الجودة. لتقليل هذا التأثير، ارفع فيديوهات بجودة أعلى قليلاً من المطلوب. معدل بت 5000 كيلوبت/ث عند 1080p يترك هامشاً كافياً للحفاظ على وضوح الفيديو بعد إعادة الضغط."
           },
           {
             "heading": "تحضير فيديوهات تيك توك باستخدام ToolPic",
-            "text": "يوفر ToolPic أداتين أساسيتين لتحضير فيديوهاتك لتيك توك. محول الفيديو يتيح لك تحويل أي تنسيق (AVI، MOV، MKV، WebM) إلى MP4 بترميز H.264، التنسيق الأمثل لتيك توك.\n\nإذا لم يكن فيديوك بالتنسيق العمودي 9:16، استخدم أداة قص الصور لصورك المصغرة وأغلفة الفيديو. غلاف جذاب بالتنسيق الصحيح يزيد بشكل كبير من معدل النقر.\n\nيتيح لك المحول أيضاً ضبط الدقة والجودة. اضبط الإخراج على 1080 × 1920 بكسل لمطابقة مواصفات تيك توك بالضبط. اضبط معدل البت بين 3000 و5000 كيلوبت/ث للحصول على نتيجة مثلى.\n\nكالعادة مع ToolPic، تتم المعالجة بالكامل في متصفحك عبر WebAssembly. تبقى فيديوهاتك على جهازك، مما يضمن خصوصية محتواك قبل النشر."
+            "text": "يوفر ToolPic أداتين أساسيتين لتحضير فيديوهاتك لتيك توك. 264، التنسيق الأمثل لتيك توك."
           }
         ],
         "relatedToolIds": "video-convert,image-crop"
@@ -955,19 +1291,19 @@
         "content": [
           {
             "heading": "لماذا يؤدي تغيير الحجم إلى تدهور الجودة",
-            "text": "عند تكبير صورة، يحتاج البرنامج إلى إنشاء بكسلات جديدة لم تكن موجودة في الأصل. هذه العملية، المسماة الاستكمال (interpolation)، تقوم بتقدير ألوان البكسلات المفقودة بناءً على البكسلات المجاورة. النتيجة غالباً ما تكون صورة ضبابية أو مبكسلة، خاصة عند التكبير بشكل كبير.\n\nتصغير الصورة يسبب مشاكل أقل، لأن الأمر يتعلق بحذف بكسلات بدلاً من اختراعها. ومع ذلك، فإن التصغير السيئ يمكن أن ينتج أيضاً عيوباً بصرية، مثل تأثير الدرج على الحواف أو فقدان التفاصيل الدقيقة. اختيار خوارزمية الاستكمال أمر حاسم في كلتا الحالتين.\n\nتنسيقات الضغط مع فقدان مثل JPEG تفاقم المشكلة. في كل مرة تقوم فيها بتغيير حجم ملف JPEG وإعادة حفظه، يتم تطبيق ضغط جديد، مما يؤدي إلى تدهور تدريجي للجودة. يسمى هذا التدهور الجيلي. لتجنب ذلك، اعمل قدر الإمكان بتنسيقات بدون فقدان مثل PNG أثناء التحرير."
+            "text": "عند تكبير صورة، يحتاج البرنامج إلى إنشاء بكسلات جديدة لم تكن موجودة في الأصل. هذه العملية، المسماة الاستكمال (interpolation)، تقوم بتقدير ألوان البكسلات المفقودة بناءً على البكسلات المجاورة. النتيجة غالباً ما تكون صورة ضبابية أو مبكسلة، خاصة عند التكبير بشكل كبير."
           },
           {
             "heading": "أفضل تقنيات تغيير الحجم",
-            "text": "الاستكمال ثنائي التكعيب هو الطريقة المعيارية لتغيير حجم الصور الفوتوغرافية. يحلل منطقة من 16 بكسل حول كل نقطة لحساب القيمة الجديدة، مما ينتج انتقالات سلسة وتفاصيل محفوظة جيداً. معظم الأدوات الحديثة تستخدم هذه الطريقة افتراضياً.\n\nللرسوميات والشعارات ولقطات الشاشة التي تحتوي على نصوص وحواف حادة، يُفضل استكمال الجار الأقرب. هذه الطريقة لا تمزج ألوان البكسلات المتجاورة، مما يحافظ على الحواف الحادة ويتجنب الضبابية. وهي مناسبة بشكل خاص لفن البكسل والأيقونات.\n\nالنهج الاحترافي يتضمن تغيير الحجم على مراحل بدلاً من عملية واحدة. بدلاً من تصغير صورة من 4000 إلى 800 بكسل دفعة واحدة، افعل ذلك في خطوتين أو ثلاث خطوات وسيطة. هذه التقنية يمكن أن تنتج نتائج أكثر وضوحاً قليلاً لأن كل خطوة تتضمن تحويلاً أقل.\n\nالقص الذكي غالباً ما يكون بديلاً أفضل من تغيير الحجم. بدلاً من تصغير الصورة بأكملها، قص منطقة الاهتمام بالحجم المطلوب. بهذه الطريقة تحافظ على الدقة الأصلية للبكسلات في المنطقة المحددة، دون أي فقدان للجودة."
+            "text": "الاستكمال ثنائي التكعيب هو الطريقة المعيارية لتغيير حجم الصور الفوتوغرافية. يحلل منطقة من 16 بكسل حول كل نقطة لحساب القيمة الجديدة، مما ينتج انتقالات سلسة وتفاصيل محفوظة جيداً. معظم الأدوات الحديثة تستخدم هذه الطريقة افتراضياً."
           },
           {
             "heading": "الأبعاد المثالية حسب الاستخدام",
-            "text": "للويب، يجب أن تتطابق الأبعاد مع حجم العرض الفعلي مضروباً في اثنين لشاشات ريتينا. إذا كانت صورتك تُعرض بعرض 600 بكسل على موقعك، صدّرها بعرض 1200 بكسل. هذا يضمن مظهراً واضحاً على الشاشات عالية الكثافة دون إثقال عرض النطاق الترددي.\n\nلوسائل التواصل الاجتماعي، لكل منصة أبعادها الموصى بها. إنستغرام يفضل 1080 × 1080 بكسل للمنشورات المربعة، و1080 × 1350 للتنسيق العمودي. فيسبوك يوصي بـ 1200 × 630 بكسل للروابط المشاركة. تويتر يعرض الصور بـ 1200 × 675 بكسل. الالتزام بهذه الأبعاد يتجنب الضغط والقص التلقائي من المنصة.\n\nللطباعة، يجب أن تكون الدقة 300 نقطة في البوصة على الأقل. صورة مخصصة لطباعة 10 × 15 سم تحتاج على الأقل 1181 × 1772 بكسل. إذا لم تصل صورتك المصدرية إلى هذه الدقة، فمن الأفضل الطباعة بحجم أصغر بدلاً من التكبير الاصطناعي. التكبير فوق الدقة الأصلية ينتج دائماً فقداناً ملحوظاً للوضوح في الطباعة."
+            "text": "للويب، يجب أن تتطابق الأبعاد مع حجم العرض الفعلي مضروباً في اثنين لشاشات ريتينا. إذا كانت صورتك تُعرض بعرض 600 بكسل على موقعك، صدّرها بعرض 1200 بكسل. هذا يضمن مظهراً واضحاً على الشاشات عالية الكثافة دون إثقال عرض النطاق الترددي."
           },
           {
             "heading": "تغيير حجم الصور باستخدام ToolPic",
-            "text": "افتح أداة قص الصور في ToolPic وحمّل صورتك. اختر الأبعاد المطلوبة أو نسبة عرض محددة مسبقاً مثل 16:9 أو 4:3 أو 1:1. تتيح لك الأداة تحديد المنطقة الدقيقة المراد الاحتفاظ بها، مما يجمع بين القص وتغيير الحجم في عملية واحدة.\n\nللحصول على أفضل النتائج، ابدأ دائماً بأكبر صورة متاحة. اقص أولاً لعزل منطقة الاهتمام، ثم اضبط الأبعاد النهائية. هذا النهج يحافظ على أقصى قدر من التفاصيل لأنك تعمل مع البكسلات الأصلية للمنطقة المحددة.\n\nقبل تنزيل النتيجة، اضغط الصورة بأداة الضغط في ToolPic لتحسين حجم الملف دون فقدان مرئي للجودة. اضبط الجودة بين 80 و90 بالمائة للحصول على أفضل توازن بين الوضوح وحجم الملف. تتم جميع المعالجة محلياً في متصفحك، مما يضمن أن صورك لا تغادر جهازك أبداً."
+            "text": "افتح أداة قص الصور في ToolPic وحمّل صورتك. اختر الأبعاد المطلوبة أو نسبة عرض محددة مسبقاً مثل 16:9 أو 4:3 أو 1:1. تتيح لك الأداة تحديد المنطقة الدقيقة المراد الاحتفاظ بها، مما يجمع بين القص وتغيير الحجم في عملية واحدة."
           }
         ],
         "relatedToolIds": "image-crop"
@@ -980,19 +1316,19 @@
         "content": [
           {
             "heading": "لماذا الأبعاد الصحيحة مهمة على لينكد إن",
-            "text": "يعرض لينكد إن الصور بطرق مختلفة حسب التنسيق والحجم الذي ترفعه. الصورة الصغيرة جداً ستُمدد وتصبح ضبابية، بينما الصورة بنسب خاطئة ستُقص تلقائياً، مما قد يقطع عناصر مهمة. استخدام الأبعاد الموصى بها بالضبط يضمن عرضاً مثالياً على جميع الأجهزة.\n\nلينكد إن منصة مهنية حيث تعكس الجودة البصرية لمحتواك صورة علامتك التجارية مباشرة. الصور الضبابية أو سيئة القص أو المبكسلة تعطي انطباعاً بالإهمال. على العكس، الصور الواضحة والمحددة الأبعاد بشكل صحيح تعزز مصداقيتك واحترافيتك.\n\nتطبق المنصة أيضاً ضغطاً على الصور المرفوعة. بتقديم صور بأبعاد دقيقة وجودة عالية، تقلل من تأثير هذا الضغط الإضافي. ستكون النتيجة النهائية أكثر وضوحاً لأن لينكد إن لا يحتاج إلى تغيير حجم صورتك قبل ضغطها."
+            "text": "يعرض لينكد إن الصور بطرق مختلفة حسب التنسيق والحجم الذي ترفعه. الصورة الصغيرة جداً ستُمدد وتصبح ضبابية، بينما الصورة بنسب خاطئة ستُقص تلقائياً، مما قد يقطع عناصر مهمة. استخدام الأبعاد الموصى بها بالضبط يضمن عرضاً مثالياً على جميع الأجهزة."
           },
           {
             "heading": "صورة الملف الشخصي والبانر",
-            "text": "يجب أن تكون صورة الملف الشخصي على لينكد إن 400 × 400 بكسل كحد أدنى، بتنسيق مربع 1:1. يعرضها لينكد إن بشكل دائري، لذا تأكد من أن وجهك متمركز جيداً وأنه لا توجد عناصر مهمة في الزوايا التي سيتم قصها. يجب ألا يتجاوز حجم الملف 8 ميغابايت.\n\nالبانر (صورة الخلفية) يجب أن يكون 1584 × 396 بكسل. إنه تنسيق بانورامي جداً يُستخدم بشكل سيئ غالباً. على الهاتف المحمول، الجزء المركزي هو الأكثر وضوحاً، لذا ضع عناصرك الرئيسية في المنتصف. تجنب وضع نصوص مهمة على الحواف الجانبية لأنها ستُقص على الشاشات الصغيرة.\n\nصورة الملف الشخصي لصفحة شركتك تتبع نفس المواصفات كالصورة الشخصية: 400 × 400 بكسل مربعة. شعار الشركة هو الخيار الأكثر شيوعاً. لبانر الشركة، استخدم 1128 × 191 بكسل. هذه الأبعاد تختلف عن البانر الشخصي، لذا لا تعد استخدام نفس الصورة."
+            "text": "يجب أن تكون صورة الملف الشخصي على لينكد إن 400 × 400 بكسل كحد أدنى، بتنسيق مربع 1:1. يعرضها لينكد إن بشكل دائري، لذا تأكد من أن وجهك متمركز جيداً وأنه لا توجد عناصر مهمة في الزوايا التي سيتم قصها. يجب ألا يتجاوز حجم الملف 8 ميغابايت."
           },
           {
             "heading": "المنشورات والمقالات",
-            "text": "لمنشورات خلاصة الأخبار، الحجم الموصى به هو 1200 × 627 بكسل للصور الأفقية. نسبة العرض هذه 1.91:1 هي نفسها المستخدمة في فيسبوك للروابط المشاركة، مما يسهل المشاركة عبر المنصات. الصور المربعة بـ 1080 × 1080 بكسل تعمل أيضاً بشكل ممتاز وتشغل مساحة عمودية أكبر في الخلاصة.\n\nالمنشورات متعددة الصور (الدوارات) تستخدم أبعاد 1080 × 1080 أو 1080 × 1350 بكسل لكل شريحة. التنسيق العمودي 4:5 (1080 × 1350) يشغل أكبر مساحة في الخلاصة ولذلك يُوصى به لزيادة الظهور. يدعم لينكد إن حتى 20 صورة لكل دوارة بشكل مستند PDF.\n\nمقالات لينكد إن تعرض صورة غلاف بـ 1200 × 644 بكسل. تظهر هذه الصورة في أعلى المقالة وفي معاينات الخلاصة. اختر صورة جذابة تلخص موضوع مقالتك بصرياً. المقالات ذات صور الغلاف المناسبة تحصل على نقرات أكثر بكثير من تلك بدون صورة."
+            "text": "لمنشورات خلاصة الأخبار، الحجم الموصى به هو 1200 × 627 بكسل للصور الأفقية. 91:1 هي نفسها المستخدمة في فيسبوك للروابط المشاركة، مما يسهل المشاركة عبر المنصات. الصور المربعة بـ 1080 × 1080 بكسل تعمل أيضاً بشكل ممتاز وتشغل مساحة عمودية أكبر في الخلاصة."
           },
           {
             "heading": "تحسين صور لينكد إن باستخدام ToolPic",
-            "text": "استخدم أداة قص الصور في ToolPic لضبط صورك على أبعاد لينكد إن الدقيقة. استورد صورتك، اختر نسبة عرض مخصصة وأدخل الأبعاد المطلوبة. تتيح لك الأداة تحديد موضع منطقة القص بدقة للحفاظ على العناصر الأساسية في صورتك.\n\nلصورة الملف الشخصي، اقص إلى 400 × 400 بكسل مع التأكد من أن وجهك متمركز بشكل مثالي. للبانر، اقص إلى 1584 × 396 بكسل مع وضع العناصر المهمة في المنتصف لرؤية مثالية على الهاتف.\n\nقبل النشر، مرر صورك عبر ضاغط الصور في ToolPic لتقليل حجم الملف دون تدهور الجودة المرئية. اضبط الجودة بين 85 و92 بالمائة للتوازن المثالي. سيضغط لينكد إن صورك عند الرفع، لكن تقديم ملفات محسنة مسبقاً يضمن أفضل نتيجة نهائية. تتم جميع المعالجة في متصفحك للحفاظ على خصوصية محتوياتك."
+            "text": "استخدم أداة قص الصور في ToolPic لضبط صورك على أبعاد لينكد إن الدقيقة. استورد صورتك، اختر نسبة عرض مخصصة وأدخل الأبعاد المطلوبة. تتيح لك الأداة تحديد موضع منطقة القص بدقة للحفاظ على العناصر الأساسية في صورتك."
           }
         ],
         "relatedToolIds": "image-crop,image-compressor"
@@ -1005,19 +1341,19 @@
         "content": [
           {
             "heading": "فهم العلامات المائية ودورها",
-            "text": "العلامات المائية هي علامات بصرية توضع على الصور لتحديد هوية منشئها أو مالكها. تخدم بشكل رئيسي حماية الملكية الفكرية للمصورين والمصممين وصانعي المحتوى. العلامة المائية النموذجية يمكن أن تكون نصاً (اسم، موقع إلكتروني، حقوق نشر) أو شعاراً يوضع فوق الصورة.\n\nيستخدم المصورون المحترفون العلامات المائية لمشاركة معاينات لأعمالهم دون المخاطرة بالاستخدام غير المصرح به. تضع بنوك الصور علامات مائية بارزة على صور المعاينة، وتحتفظ بالنسخ النظيفة للمشترين. يستخدم مصورو حفلات الزفاف والمناسبات معارض بعلامات مائية ليتمكن العملاء من اختيار صورهم قبل الشراء.\n\nمن المهم فهم أن العلامات المائية تمثل اختياراً متعمداً من مالك الصورة لحماية عمله. إنها تشير إلى أن الصورة محمية بحقوق النشر وأن استخدامها يخضع لشروط محددة."
+            "text": "العلامات المائية هي علامات بصرية توضع على الصور لتحديد هوية منشئها أو مالكها. تخدم بشكل رئيسي حماية الملكية الفكرية للمصورين والمصممين وصانعي المحتوى. العلامة المائية النموذجية يمكن أن تكون نصاً (اسم، موقع إلكتروني، حقوق نشر) أو شعاراً يوضع فوق الصورة."
           },
           {
             "heading": "الجوانب القانونية والأخلاقية",
-            "text": "إزالة العلامة المائية من صورة محمية بحقوق النشر أمر غير قانوني في معظم الولايات القضائية. في الدول العربية، تحمي قوانين الملكية الفكرية حقوق المؤلفين، وإزالة علامة تعريف تشكل انتهاكاً لهذه الحقوق. في الولايات المتحدة، يحظر قانون الألفية الرقمية لحقوق النشر (DMCA) تحديداً إزالة معلومات إدارة الحقوق.\n\nحتى لو كانت الأدوات التقنية تسمح بإزالة العلامات المائية، فإن استخدامها على صور لست مالكها يعرضك لدعاوى قضائية وغرامات وتعويضات. يمكن لمالكي الصور استخدام البحث العكسي وتقنيات التتبع لتحديد الاستخدامات غير المصرح بها لأعمالهم.\n\nأفضل نهج هو دائماً الحصول على ترخيص شرعي للصور التي ترغب في استخدامها. العديد من بنوك الصور تقدم تراخيص بأسعار معقولة، وهناك ملايين الصور المجانية تحت ترخيص المشاع الإبداعي أو في الملك العام يمكنك استخدامها بشكل قانوني."
+            "text": "إزالة العلامة المائية من صورة محمية بحقوق النشر أمر غير قانوني في معظم الولايات القضائية. في الدول العربية، تحمي قوانين الملكية الفكرية حقوق المؤلفين، وإزالة علامة تعريف تشكل انتهاكاً لهذه الحقوق. في الولايات المتحدة، يحظر قانون الألفية الرقمية لحقوق النشر (DMCA) تحديداً إزالة معلومات إدارة الحقوق."
           },
           {
             "heading": "البدائل القانونية للصور ذات العلامات المائية",
-            "text": "بنوك الصور المجانية مثل Unsplash وPexels وPixabay تقدم ملايين الصور عالية الجودة بدون علامة مائية، قابلة للاستخدام مجاناً للمشاريع الشخصية والتجارية. تُغذى هذه المنصات من مصورين يشاركون طواعية أعمالهم تحت تراخيص مسموح بها.\n\nللاحتياجات المحددة، تقدم بنوك الصور المدفوعة مثل Shutterstock وAdobe Stock وGetty Images تراخيص بأسعار تبدأ من بضعة دولارات للصورة الواحدة. الاشتراكات الشهرية تجعل هذه الخدمات أكثر اقتصادية للاحتياجات المنتظمة. الاستثمار ضئيل مقارنة بالمخاطر القانونية للاستخدام غير المصرح به للصور.\n\nإذا كنت بحاجة لصورة محددة بعلامة مائية وجدتها على الإنترنت، تواصل مباشرة مع المصور أو الوكالة. كثيرون منفتحون على التفاوض على تراخيص فردية، خاصة للشركات الصغيرة والمشاريع الإبداعية. بريد إلكتروني احترافي يشرح مشروعك يمكن أن يؤدي غالباً إلى اتفاق مفيد للطرفين."
+            "text": "بنوك الصور المجانية مثل Unsplash وPexels وPixabay تقدم ملايين الصور عالية الجودة بدون علامة مائية، قابلة للاستخدام مجاناً للمشاريع الشخصية والتجارية. تُغذى هذه المنصات من مصورين يشاركون طواعية أعمالهم تحت تراخيص مسموح بها."
           },
           {
             "heading": "حماية صورك الخاصة باستخدام ToolPic",
-            "text": "إذا كنت صانع محتوى وترغب في حماية صورك الخاصة، تتيح لك أداة العلامة المائية في ToolPic إضافة علامات احترافية بسهولة. استورد صورك واختر بين علامة مائية نصية أو شعار.\n\nللعلامة المائية النصية، اكتب النص المطلوب، اختر خطاً، واضبط الحجم والشفافية. ضعها بشكل استراتيجي بحيث لا يمكن قصها بسهولة.\n\nللعلامة المائية بالشعار، استورد شعارك وضعه على صورك. اضبط الشفافية بين 30 و50 بالمائة للحصول على نتيجة احترافية لا تشتت الانتباه عن محتوى الصورة. يعالج ToolPic كل شيء محلياً في متصفحك، مما يعني أن صورك الأصلية بدون علامة مائية لا تُرسل أبداً إلى خادم خارجي. أنت وحدك تحتفظ بالوصول إلى النسخ غير المعلّمة من صورك."
+            "text": "إذا كنت صانع محتوى وترغب في حماية صورك الخاصة، تتيح لك أداة العلامة المائية في ToolPic إضافة علامات احترافية بسهولة. استورد صورك واختر بين علامة مائية نصية أو شعار."
           }
         ],
         "relatedToolIds": "image-watermark"
@@ -1030,19 +1366,19 @@
         "content": [
           {
             "heading": "فهم الاختلافات الجوهرية",
-            "text": "تنسيق GIF موجود منذ عام 1987 ولا يزال شائعاً بفضل بساطته وتوافقه العالمي. GIF هو في الأساس تسلسل من الصور الثابتة تُعرض في حلقة، بدون صوت. يستخدم لوحة ألوان محدودة بـ 256 لوناً لكل صورة، مما يجعله مثالياً للرسوم المتحركة البسيطة والأيقونات المتحركة والتفاعلات الفكاهية.\n\nتنسيقات الفيديو مثل MP4 (H.264/H.265) وWebM (VP9/AV1) تستخدم تقنيات ضغط متقدمة بين الإطارات. بدلاً من تخزين كل صورة بالكامل، تسجل فقط الاختلافات بين الصور المتتالية. هذا النهج ينتج ملفات أصغر بكثير بجودة متفوقة بكثير، مع ملايين الألوان ودعم الصوت.\n\nفرق الحجم مذهل. ملف GIF مدته 5 ثوانٍ بدقة 720p يمكن أن يصل بسهولة إلى 10-20 ميغابايت، بينما نفس المقطع بتنسيق MP4 لن يتجاوز 500 كيلوبايت إلى 1 ميغابايت بجودة بصرية أفضل. يُفسر هذا التفاوت بغياب الضغط بين الإطارات في تنسيق GIF."
+            "text": "تنسيق GIF موجود منذ عام 1987 ولا يزال شائعاً بفضل بساطته وتوافقه العالمي. GIF هو في الأساس تسلسل من الصور الثابتة تُعرض في حلقة، بدون صوت. يستخدم لوحة ألوان محدودة بـ 256 لوناً لكل صورة، مما يجعله مثالياً للرسوم المتحركة البسيطة والأيقونات المتحركة والتفاعلات الفكاهية."
           },
           {
             "heading": "متى تستخدم GIF",
-            "text": "يظل GIF الخيار الأفضل للرسوم المتحركة القصيرة ببضع ثوانٍ المخصصة لتطبيقات المراسلة ووسائل التواصل الاجتماعي. تشغيله التلقائي في حلقة وتوافقه العالمي يجعلانه مثالياً للتفاعلات والميمات والعروض المرئية القصيرة. عملياً جميع تطبيقات المراسلة ومنصات الويب تدعم GIF أصلياً.\n\nللدروس القصيرة التي تُظهر نقرة أو إيماءة محددة، يكون GIF فعالاً جداً. GIF مدته 2-3 ثوانٍ يُظهر إجراءً دقيقاً في واجهة أكثر تعبيراً من لقطة شاشة ثابتة وأكثر سهولة من فيديو كامل. الوثائق التقنية وملفات README للمشاريع على GitHub تستخدم هذا التنسيق بشكل متكرر.\n\nالبريد الإلكتروني هو حالة استخدام مفضلة أخرى لـ GIF. معظم عملاء البريد الإلكتروني يدعمون GIF المتحركة لكن ليس تشغيل الفيديو. إذا كنت تنشئ نشرات إخبارية أو حملات تسويق بالبريد الإلكتروني، تتيح لك GIF إضافة الحركة والجذب البصري حيث يكون الفيديو مستحيلاً.\n\nمع ذلك، حافظ على ملفات GIF قصيرة (أقل من 5 ثوانٍ) وصغيرة الحجم (أقل من 500 كيلوبايت مثالياً، 2 ميغابايت كحد أقصى). بعد ذلك، تصبح مزايا الفيديو طاغية."
+            "text": "يظل GIF الخيار الأفضل للرسوم المتحركة القصيرة ببضع ثوانٍ المخصصة لتطبيقات المراسلة ووسائل التواصل الاجتماعي. تشغيله التلقائي في حلقة وتوافقه العالمي يجعلانه مثالياً للتفاعلات والميمات والعروض المرئية القصيرة. عملياً جميع تطبيقات المراسلة ومنصات الويب تدعم GIF أصلياً."
           },
           {
             "heading": "متى تفضل الفيديو",
-            "text": "لأي محتوى يتجاوز 5 ثوانٍ، الفيديو هو الخيار الأفضل بشكل منهجي. ضغط الفيديو الحديث ينتج ملفات أصغر بجودة لا تُقارن. فيديو MP4 مدته 30 ثانية بدقة 1080p يمكن أن يكون أقل من 5 ميغابايت، بينما GIF مكافئ سيكون غير عملي تقريباً بأكثر من 100 ميغابايت.\n\nوسائل التواصل الاجتماعي تفضل محتوى الفيديو بوضوح. إنستغرام وتيك توك ولينكد إن وتويتر يعرضون الفيديوهات بإبراز أكبر من GIF. خوارزميات هذه المنصات تُعطي الأولوية لمحتوى الفيديو الأصلي لأنه يولد تفاعلاً ووقت انتباه أكبر.\n\nإذا كان محتواك يحتاج صوتاً، الفيديو هو خيارك الوحيد. لا تدعم GIF الصوت. للعروض التقديمية وعروض المنتجات والتدريبات وأي محتوى سردي، يقدم الفيديو مع الصوت تجربة كاملة لا يستطيع GIF مساواتها.\n\nيوفر الفيديو أيضاً تحكماً أفضل للمستخدم: التشغيل والإيقاف المؤقت والترجيع والتحكم في الصوت وملء الشاشة. هذه الميزات التفاعلية غائبة عن GIF التي تكتفي بالتكرار إلى ما لا نهاية."
+            "text": "لأي محتوى يتجاوز 5 ثوانٍ، الفيديو هو الخيار الأفضل بشكل منهجي. ضغط الفيديو الحديث ينتج ملفات أصغر بجودة لا تُقارن. فيديو MP4 مدته 30 ثانية بدقة 1080p يمكن أن يكون أقل من 5 ميغابايت، بينما GIF مكافئ سيكون غير عملي تقريباً بأكثر من 100 ميغابايت."
           },
           {
             "heading": "التحويل والتحسين باستخدام ToolPic",
-            "text": "يقدم ToolPic أدوات لكلا التنسيقين. أداة تحويل الفيديو إلى GIF تتيح لك تحويل أي فيديو إلى GIF متحرك. استورد فيديوك، اختر الجزء المراد تحويله، اضبط الدقة وعدد الإطارات في الثانية، ثم أنشئ GIF الخاص بك. تقليل الدقة إلى 480p أو أقل ومعدل الإطارات إلى 10-15 إطاراً في الثانية ينتج ملفات GIF بحجم معقول.\n\nإذا كنت بحاجة لتقليل حجم فيديو للمشاركة عبر الإنترنت، استخدم ضاغط الفيديو في ToolPic. اضبط الدقة ومعدل البت وتنسيق الإخراج للحصول على أفضل توازن بين الجودة وحجم الملف. يقبل الضاغط جميع تنسيقات الفيديو الشائعة وينتج ملفات MP4 محسنة.\n\nفي الحالات التي تتردد فيها بين GIF والفيديو، أنشئ كلتا النسختين باستخدام ToolPic وقارن. غالباً ما يكون فيديو MP4 القصير أخف وأعلى جودة من GIF المكافئ. تعمل كلتا الأداتين بالكامل في متصفحك عبر WebAssembly، دون إرسال أي ملفات إلى خادم خارجي."
+            "text": "يقدم ToolPic أدوات لكلا التنسيقين. أداة تحويل الفيديو إلى GIF تتيح لك تحويل أي فيديو إلى GIF متحرك. استورد فيديوك، اختر الجزء المراد تحويله، اضبط الدقة وعدد الإطارات في الثانية، ثم أنشئ GIF الخاص بك."
           }
         ],
         "relatedToolIds": "video-to-gif,video-compress"
@@ -1055,19 +1391,19 @@
         "content": [
           {
             "heading": "لماذا تستخرج الصوت من فيديو",
-            "text": "استخراج الصوت من الفيديوهات ممارسة شائعة للعديد من الاستخدامات المشروعة. صانعو المحتوى غالباً ما يستخرجون الصوت من فيديوهاتهم الخاصة لإنشاء بودكاست أو مقاطع صوتية أو محتوى لمنصات الصوت. يمكن للموسيقيين عزل المسارات الصوتية من عروضهم المصورة لإعادة العمل عليها في الاستوديو.\n\nالمعلمون والمدربون يستخرجون الصوت من دوراتهم المصورة لإنشاء نسخ بودكاست يمكن للطلاب الاستماع إليها أثناء التنقل. الصحفيون والباحثون يستخرجون الصوت من المقابلات المصورة لنسخها. محررو الفيديو يفصلون المسارات الصوتية لإعادة العمل عليها بشكل مستقل عن الفيديو.\n\nالصوت وحده يقدم مزايا عملية مهمة مقارنة بالفيديو. ملفات الصوت أصغر بكثير من الفيديوهات، مما يسهل التخزين والمشاركة. الاستماع للصوت يسمح بتعدد المهام، مثل الاستماع أثناء القيادة أو الرياضة أو الأعمال المنزلية. البودكاست والكتب المسموعة شهدت نمواً هائلاً تحديداً لهذا السبب."
+            "text": "استخراج الصوت من الفيديوهات ممارسة شائعة للعديد من الاستخدامات المشروعة. صانعو المحتوى غالباً ما يستخرجون الصوت من فيديوهاتهم الخاصة لإنشاء بودكاست أو مقاطع صوتية أو محتوى لمنصات الصوت. يمكن للموسيقيين عزل المسارات الصوتية من عروضهم المصورة لإعادة العمل عليها في الاستوديو."
           },
           {
             "heading": "الجوانب القانونية لاستخراج الصوت",
-            "text": "استخراج الصوت من محتوى محمي بحقوق النشر يخضع لقيود قانونية مهمة. فيديوهات يوتيوب محمية بحقوق النشر لمنشئيها. تنزيل أو استخراج الصوت من فيديوهات لست مالكها قد ينتهك شروط استخدام يوتيوب وقوانين حقوق النشر.\n\nومع ذلك، هناك حالات يكون فيها استخراج الصوت قانونياً تماماً. يمكنك استخراج الصوت من فيديوهاتك الخاصة دون أي قيود. المحتوى تحت ترخيص المشاع الإبداعي غالباً يسمح بإعادة الاستخدام، بما في ذلك استخراج الصوت، بشروط معينة. المحتوى في الملك العام خالٍ من أي قيود.\n\nكثير من منشئي يوتيوب يقدمون أيضاً محتواهم على منصات البودكاست أو كتنزيل مباشر. قبل استخراج الصوت من فيديو، تحقق مما إذا كان المنشئ يقدم بالفعل نسخة صوتية رسمية. هذا يدعم المنشئ ويمنحك نسخة بجودة أفضل مما قد ينتجه الاستخراج."
+            "text": "استخراج الصوت من محتوى محمي بحقوق النشر يخضع لقيود قانونية مهمة. فيديوهات يوتيوب محمية بحقوق النشر لمنشئيها. تنزيل أو استخراج الصوت من فيديوهات لست مالكها قد ينتهك شروط استخدام يوتيوب وقوانين حقوق النشر."
           },
           {
             "heading": "تنسيقات الصوت والجودة",
-            "text": "يظل MP3 تنسيق الصوت الأكثر شمولية، متوافقاً مع جميع الأجهزة والمشغلات تقريباً. للكلام (بودكاست، دورات، مقابلات)، معدل بت 128 كيلوبت/ث كافٍ. للموسيقى، استهدف 256 إلى 320 كيلوبت/ث لجودة قريبة من CD. ملفات MP3 تقدم أفضل توازن بين الجودة وحجم الملف.\n\nتنسيق AAC (M4A) يقدم جودة أفضل من MP3 بنفس معدل البت. إنه التنسيق المفضل لـ Apple ويُستخدم داخلياً بواسطة يوتيوب. إذا كان سير عملك يتمحور حول نظام Apple البيئي، فإن AAC خيار ممتاز. معظم الأجهزة الحديثة تدعمه أيضاً.\n\nتنسيق WAV يوفر صوتاً غير مضغوط بأقصى جودة لكنه ينتج ملفات كبيرة. ملف WAV نموذجي يزن حوالي 10 ميغابايت في الدقيقة، مقارنة بـ 1 ميغابايت في الدقيقة لـ MP3 بمعدل 128 كيلوبت/ث. استخدم WAV فقط إذا كنت تخطط لمعالجة صوتية إضافية في مرحلة ما بعد الإنتاج، مثل المزج أو الماسترينج.\n\nتنسيق OGG Vorbis هو بديل حر لـ MP3 بجودة صوتية مماثلة أو أفضل. يحظى بدعم واسع على أنظمة Linux وAndroid، لكن التوافق على iOS وأجهزة Apple يظل محدوداً."
+            "text": "يظل MP3 تنسيق الصوت الأكثر شمولية، متوافقاً مع جميع الأجهزة والمشغلات تقريباً. للكلام (بودكاست، دورات، مقابلات)، معدل بت 128 كيلوبت/ث كافٍ. للموسيقى، استهدف 256 إلى 320 كيلوبت/ث لجودة قريبة من CD."
           },
           {
             "heading": "استخراج الصوت باستخدام ToolPic",
-            "text": "أداة استخراج الصوت في ToolPic تتيح لك استخراج المسار الصوتي من أي ملف فيديو مخزن على جهازك. استورد ملف الفيديو بتنسيق MP4 أو WebM أو MOV أو AVI أو أي تنسيق شائع آخر. تستخرج الأداة المسار الصوتي وتتيح لك تنزيله بالتنسيق الذي تختاره.\n\nالعملية بسيطة: اختر ملف الفيديو، اختر تنسيق إخراج الصوت المطلوب وابدأ الاستخراج. تستخدم الأداة WebAssembly وFFmpeg لمعالجة الملف مباشرة في متصفحك. لا تُرسل أي ملفات إلى خادم، مما يضمن الخصوصية الكاملة لمحتواك.\n\nللحصول على أفضل جودة، اختر تنسيقاً ومعدل بت مناسبين لاستخدامك. للبودكاست والكلام، MP3 بمعدل 128-192 كيلوبت/ث مثالي. للموسيقى، فضّل MP3 بمعدل 320 كيلوبت/ث أو تنسيق WAV إذا كنت تخطط لمعالجة لاحقة. تعرض الأداة معلومات الملف المصدر لمساعدتك في اختيار الإعدادات المثلى."
+            "text": "أداة استخراج الصوت في ToolPic تتيح لك استخراج المسار الصوتي من أي ملف فيديو مخزن على جهازك. استورد ملف الفيديو بتنسيق MP4 أو WebM أو MOV أو AVI أو أي تنسيق شائع آخر. تستخرج الأداة المسار الصوتي وتتيح لك تنزيله بالتنسيق الذي تختاره."
           }
         ],
         "relatedToolIds": "video-extract-audio"

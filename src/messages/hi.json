@@ -356,55 +356,391 @@
     }
   },
   "seoPages": {
-    "privacy": "Your files are processed locally in your browser. Nothing is uploaded to any server.",
-    "convertJpgToPng": "Convert JPG to PNG Online - Free",
-    "convertJpgToPngDesc": "Convert JPG/JPEG images to PNG format online for free. Preserve transparency and quality. No upload needed, 100% browser-based.",
-    "convertJpgToWebp": "Convert JPG to WebP Online - Free",
-    "convertJpgToWebpDesc": "Convert JPG images to WebP format for smaller file sizes with the same quality. Perfect for web optimization.",
-    "convertPngToJpg": "Convert PNG to JPG Online - Free",
-    "convertPngToJpgDesc": "Convert PNG images to JPG format online for free. Reduce file size while maintaining visual quality. No software needed.",
-    "convertPngToWebp": "Convert PNG to WebP Online - Free",
-    "convertPngToWebpDesc": "Convert PNG images to WebP format for significantly smaller file sizes. Ideal for faster website loading.",
-    "convertWebpToJpg": "Convert WebP to JPG Online - Free",
-    "convertWebpToJpgDesc": "Convert WebP images to JPG format online for free. Make your images compatible with all devices and software.",
-    "convertWebpToPng": "Convert WebP to PNG Online - Free",
-    "convertWebpToPngDesc": "Convert WebP images to PNG format online for free. Get lossless quality with full transparency support.",
-    "convertHeicToJpg": "Convert HEIC to JPG Online - Free",
-    "convertHeicToJpgDesc": "Convert iPhone HEIC/HEIF photos to JPG format online for free. Make your Apple photos universally compatible.",
-    "convertBmpToJpg": "Convert BMP to JPG Online - Free",
-    "convertBmpToJpgDesc": "Convert BMP bitmap images to JPG format online for free. Dramatically reduce file size from uncompressed BMP files.",
-    "convertMp4ToWebm": "Convert MP4 to WebM Online - Free",
-    "convertMp4ToWebmDesc": "Convert MP4 videos to WebM format online for free. WebM offers smaller file sizes ideal for web embedding.",
-    "convertMp4ToAvi": "Convert MP4 to AVI Online - Free",
-    "convertMp4ToAviDesc": "Convert MP4 videos to AVI format online for free. AVI provides wide compatibility with older media players and editors.",
-    "convertWebmToMp4": "Convert WebM to MP4 Online - Free",
-    "convertWebmToMp4Desc": "Convert WebM videos to MP4 format online for free. MP4 is the most universally compatible video format.",
-    "convertMp4ToGif": "Convert MP4 to GIF Online - Free",
-    "convertMp4ToGifDesc": "Convert MP4 video clips to animated GIF online for free. Create shareable GIFs from any video. Custom frame rate and size.",
-    "compressJpg": "Compress JPG Images Online - Free",
-    "compressJpgDesc": "Compress JPG/JPEG images online for free. Reduce file size up to 80% without visible quality loss. No upload required.",
-    "compressPng": "Compress PNG Images Online - Free",
-    "compressPngDesc": "Compress PNG images online for free. Reduce PNG file size while preserving transparency and quality. 100% browser-based.",
-    "compressWebp": "Compress WebP Images Online - Free",
-    "compressWebpDesc": "Compress WebP images online for free. Optimize WebP file size for faster web performance without sacrificing quality.",
-    "compressMp4": "Compress MP4 Videos Online - Free",
-    "compressMp4Desc": "Compress MP4 video files online for free. Reduce video size by up to 70% while maintaining watchable quality. No server upload.",
-    "resizeInstagram": "Resize Image for Instagram - Free Online Tool",
-    "resizeInstagramDesc": "Resize and crop images to perfect Instagram dimensions online for free. Supports posts (1080x1080), stories (1080x1920), and reels.",
-    "resizeFacebook": "Resize Image for Facebook - Free Online Tool",
-    "resizeFacebookDesc": "Resize images for Facebook cover photos, profile pictures, and posts online for free. Get the perfect dimensions every time.",
-    "resizeTwitter": "Resize Image for Twitter/X - Free Online Tool",
-    "resizeTwitterDesc": "Resize images for Twitter/X headers (1500x500), posts, and profile pictures online for free. Optimized for the platform.",
-    "resizeYoutube": "Resize Image for YouTube Thumbnail - Free",
-    "resizeYoutubeDesc": "Create perfect YouTube thumbnails at 1280x720 pixels online for free. Crop and resize images to the ideal thumbnail size.",
-    "removeBg": "Remove Image Background Online - Free AI Tool",
-    "removeBgDesc": "Remove backgrounds from images online for free using AI. Get transparent PNG in seconds. Works with people, products, and objects.",
-    "addWatermark": "Add Watermark to Photos Online - Free",
-    "addWatermarkDesc": "Add text or logo watermarks to your photos online for free. Protect your images with custom watermarks. Batch processing supported.",
-    "mergePhotos": "Merge Photos Online - Free Image Combiner",
-    "mergePhotosDesc": "Combine and merge multiple photos into one image online for free. Create collages, side-by-side comparisons, and long images.",
-    "extractMp3": "Extract MP3 from Video Online - Free",
-    "extractMp3Desc": "Extract audio from video files and save as MP3 online for free. Works with MP4, WebM, AVI, and other video formats."
+    "privacy": "आपकी फ़ाइलें आपके ब्राउज़र में स्थानीय रूप से प्रोसेस की जाती हैं। किसी भी सर्वर पर कुछ भी अपलोड नहीं किया जाता।",
+    "convertJpgToPng": "JPG को PNG में ऑनलाइन बदलें - मुफ़्त",
+    "convertJpgToPngDesc": "JPG/JPEG इमेज को मुफ़्त में ऑनलाइन PNG फ़ॉर्मेट में बदलें। पारदर्शिता और गुणवत्ता बनाए रखें। अपलोड की ज़रूरत नहीं, 100% ब्राउज़र-आधारित।",
+    "convertJpgToWebp": "JPG को WebP में ऑनलाइन बदलें - मुफ़्त",
+    "convertJpgToWebpDesc": "JPG इमेज को समान गुणवत्ता के साथ छोटे फ़ाइल साइज़ के लिए WebP फ़ॉर्मेट में बदलें। वेब ऑप्टिमाइज़ेशन के लिए बिल्कुल सही।",
+    "convertPngToJpg": "PNG को JPG में ऑनलाइन बदलें - मुफ़्त",
+    "convertPngToJpgDesc": "PNG इमेज को मुफ़्त में ऑनलाइन JPG फ़ॉर्मेट में बदलें। दृश्य गुणवत्ता बनाए रखते हुए फ़ाइल साइज़ कम करें। किसी सॉफ़्टवेयर की ज़रूरत नहीं।",
+    "convertPngToWebp": "PNG को WebP में ऑनलाइन बदलें - मुफ़्त",
+    "convertPngToWebpDesc": "PNG इमेज को काफ़ी छोटे फ़ाइल साइज़ के लिए WebP फ़ॉर्मेट में बदलें। तेज़ वेबसाइट लोडिंग के लिए आदर्श।",
+    "convertWebpToJpg": "WebP को JPG में ऑनलाइन बदलें - मुफ़्त",
+    "convertWebpToJpgDesc": "WebP इमेज को मुफ़्त में ऑनलाइन JPG फ़ॉर्मेट में बदलें। अपनी इमेज को सभी डिवाइस और सॉफ़्टवेयर के साथ संगत बनाएं।",
+    "convertWebpToPng": "WebP को PNG में ऑनलाइन बदलें - मुफ़्त",
+    "convertWebpToPngDesc": "WebP इमेज को मुफ़्त में ऑनलाइन PNG फ़ॉर्मेट में बदलें। पूर्ण पारदर्शिता समर्थन के साथ लॉसलेस गुणवत्ता प्राप्त करें।",
+    "convertHeicToJpg": "HEIC को JPG में ऑनलाइन बदलें - मुफ़्त",
+    "convertHeicToJpgDesc": "iPhone HEIC/HEIF फ़ोटो को मुफ़्त में ऑनलाइन JPG फ़ॉर्मेट में बदलें। अपनी Apple फ़ोटो को सार्वभौमिक रूप से संगत बनाएं।",
+    "convertBmpToJpg": "BMP को JPG में ऑनलाइन बदलें - मुफ़्त",
+    "convertBmpToJpgDesc": "BMP बिटमैप इमेज को मुफ़्त में ऑनलाइन JPG फ़ॉर्मेट में बदलें। असंपीड़ित BMP फ़ाइलों से फ़ाइल साइज़ नाटकीय रूप से कम करें।",
+    "convertMp4ToWebm": "MP4 को WebM में ऑनलाइन बदलें - मुफ़्त",
+    "convertMp4ToWebmDesc": "MP4 वीडियो को मुफ़्त में ऑनलाइन WebM फ़ॉर्मेट में बदलें। WebM वेब एम्बेडिंग के लिए आदर्श छोटे फ़ाइल साइज़ प्रदान करता है।",
+    "convertMp4ToAvi": "MP4 को AVI में ऑनलाइन बदलें - मुफ़्त",
+    "convertMp4ToAviDesc": "MP4 वीडियो को मुफ़्त में ऑनलाइन AVI फ़ॉर्मेट में बदलें। AVI पुराने मीडिया प्लेयर और एडिटर के साथ व्यापक संगतता प्रदान करता है।",
+    "convertWebmToMp4": "WebM को MP4 में ऑनलाइन बदलें - मुफ़्त",
+    "convertWebmToMp4Desc": "WebM वीडियो को मुफ़्त में ऑनलाइन MP4 फ़ॉर्मेट में बदलें। MP4 सबसे सार्वभौमिक रूप से संगत वीडियो फ़ॉर्मेट है।",
+    "convertMp4ToGif": "MP4 को GIF में ऑनलाइन बदलें - मुफ़्त",
+    "convertMp4ToGifDesc": "MP4 वीडियो क्लिप को मुफ़्त में ऑनलाइन एनिमेटेड GIF में बदलें। किसी भी वीडियो से शेयर करने योग्य GIF बनाएं। कस्टम फ़्रेम रेट और साइज़।",
+    "compressJpg": "JPG इमेज ऑनलाइन कंप्रेस करें - मुफ़्त",
+    "compressJpgDesc": "JPG/JPEG इमेज को मुफ़्त में ऑनलाइन कंप्रेस करें। बिना दिखाई देने वाली गुणवत्ता हानि के फ़ाइल साइज़ 80% तक कम करें। अपलोड की ज़रूरत नहीं।",
+    "compressPng": "PNG इमेज ऑनलाइन कंप्रेस करें - मुफ़्त",
+    "compressPngDesc": "PNG इमेज को मुफ़्त में ऑनलाइन कंप्रेस करें। पारदर्शिता और गुणवत्ता बनाए रखते हुए PNG फ़ाइल साइज़ कम करें। 100% ब्राउज़र-आधारित।",
+    "compressWebp": "WebP इमेज ऑनलाइन कंप्रेस करें - मुफ़्त",
+    "compressWebpDesc": "WebP इमेज को मुफ़्त में ऑनलाइन कंप्रेस करें। गुणवत्ता से समझौता किए बिना तेज़ वेब प्रदर्शन के लिए WebP फ़ाइल साइज़ ऑप्टिमाइज़ करें।",
+    "compressMp4": "MP4 वीडियो ऑनलाइन कंप्रेस करें - मुफ़्त",
+    "compressMp4Desc": "MP4 वीडियो फ़ाइलों को मुफ़्त में ऑनलाइन कंप्रेस करें। देखने योग्य गुणवत्ता बनाए रखते हुए वीडियो साइज़ 70% तक कम करें। कोई सर्वर अपलोड नहीं।",
+    "resizeInstagram": "Instagram के लिए इमेज रीसाइज़ करें - मुफ़्त ऑनलाइन टूल",
+    "resizeInstagramDesc": "मुफ़्त में ऑनलाइन इमेज को परफ़ेक्ट Instagram डाइमेंशन में रीसाइज़ और क्रॉप करें। पोस्ट (1080x1080), स्टोरीज़ (1080x1920), और रील्स को सपोर्ट करता है।",
+    "resizeFacebook": "Facebook के लिए इमेज रीसाइज़ करें - मुफ़्त ऑनलाइन टूल",
+    "resizeFacebookDesc": "Facebook कवर फ़ोटो, प्रोफ़ाइल पिक्चर और पोस्ट के लिए मुफ़्त में ऑनलाइन इमेज रीसाइज़ करें। हर बार परफ़ेक्ट डाइमेंशन पाएं।",
+    "resizeTwitter": "Twitter/X के लिए इमेज रीसाइज़ करें - मुफ़्त ऑनलाइन टूल",
+    "resizeTwitterDesc": "Twitter/X हेडर (1500x500), पोस्ट और प्रोफ़ाइल पिक्चर के लिए मुफ़्त में ऑनलाइन इमेज रीसाइज़ करें। प्लेटफ़ॉर्म के लिए ऑप्टिमाइज़्ड।",
+    "resizeYoutube": "YouTube थंबनेल के लिए इमेज रीसाइज़ करें - मुफ़्त",
+    "resizeYoutubeDesc": "मुफ़्त में ऑनलाइन 1280x720 पिक्सेल पर परफ़ेक्ट YouTube थंबनेल बनाएं। इमेज को आदर्श थंबनेल साइज़ में क्रॉप और रीसाइज़ करें।",
+    "removeBg": "इमेज बैकग्राउंड ऑनलाइन हटाएं - मुफ़्त AI टूल",
+    "removeBgDesc": "AI का उपयोग करके मुफ़्त में ऑनलाइन इमेज से बैकग्राउंड हटाएं। सेकंड में पारदर्शी PNG प्राप्त करें। लोगों, उत्पादों और वस्तुओं के साथ काम करता है।",
+    "addWatermark": "फ़ोटो में वॉटरमार्क जोड़ें - मुफ़्त ऑनलाइन",
+    "addWatermarkDesc": "मुफ़्त में ऑनलाइन अपनी फ़ोटो में टेक्स्ट या लोगो वॉटरमार्क जोड़ें। कस्टम वॉटरमार्क से अपनी इमेज सुरक्षित करें। बैच प्रोसेसिंग समर्थित।",
+    "mergePhotos": "फ़ोटो ऑनलाइन मर्ज करें - मुफ़्त इमेज कंबाइनर",
+    "mergePhotosDesc": "मुफ़्त में ऑनलाइन कई फ़ोटो को एक इमेज में जोड़ें और मर्ज करें। कोलाज, साइड-बाय-साइड तुलना और लंबी इमेज बनाएं।",
+    "extractMp3": "वीडियो से MP3 ऑनलाइन निकालें - मुफ़्त",
+    "extractMp3Desc": "वीडियो फ़ाइलों से ऑडियो निकालें और मुफ़्त में ऑनलाइन MP3 के रूप में सेव करें। MP4, WebM, AVI और अन्य वीडियो फ़ॉर्मेट के साथ काम करता है।",
+    "convertJpgToPngHowTo": "JPG को PNG में कैसे बदलें",
+    "convertJpgToPngStep1": "JPG इमेज अपलोड करें",
+    "convertJpgToPngStep1Desc": "अपने डिवाइस से JPG/JPEG इमेज फ़ाइल चुनने के लिए ड्रैग एंड ड्रॉप करें या क्लिक करें।",
+    "convertJpgToPngStep2": "PNG में बदलें",
+    "convertJpgToPngStep2Desc": "आउटपुट फ़ॉर्मेट के रूप में PNG चुनें और कन्वर्शन प्रक्रिया शुरू करने के लिए स्टार्ट पर क्लिक करें।",
+    "convertJpgToPngStep3": "PNG फ़ाइल डाउनलोड करें",
+    "convertJpgToPngStep3Desc": "आपकी कन्वर्ट की गई PNG फ़ाइल तैयार है। इसे तुरंत अपने डिवाइस पर डाउनलोड करें।",
+    "convertJpgToPngFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertJpgToPngFaq1Q": "क्या JPG को PNG में बदलने से इमेज की गुणवत्ता बेहतर होती है?",
+    "convertJpgToPngFaq1A": "JPG को PNG में बदलने से JPG कंप्रेशन के दौरान खोई गुणवत्ता वापस नहीं आती। हालांकि, PNG लॉसलेस कंप्रेशन का उपयोग करता है, इसलिए भविष्य में सेव करने पर आपकी इमेज की कोई अतिरिक्त गुणवत्ता नहीं खोएगी। यह PNG को उन इमेज के लिए आदर्श बनाता है जिन्हें आप बार-बार एडिट करने की योजना बनाते हैं।",
+    "convertJpgToPngFaq2Q": "PNG फ़ाइल मूल JPG से बड़ी क्यों है?",
+    "convertJpgToPngFaq2A": "PNG लॉसलेस कंप्रेशन का उपयोग करता है जो हर पिक्सेल को बिल्कुल सटीक रखता है, जिससे फ़ाइल साइज़ बड़ा होता है। JPG लॉसी कंप्रेशन के माध्यम से इमेज डेटा को हटाकर छोटी फ़ाइलें प्राप्त करता है। इसका लाभ यह है कि PNG पारदर्शिता समर्थन के साथ पिक्सेल-परफ़ेक्ट गुणवत्ता प्रदान करता है।",
+    "convertJpgToPngFaq3Q": "मुझे JPG के बजाय PNG का उपयोग कब करना चाहिए?",
+    "convertJpgToPngFaq3A": "पारदर्शिता, लोगो, स्क्रीनशॉट, टेक्स्ट ओवरले, या ऐसे ग्राफ़िक्स की आवश्यकता वाली इमेज के लिए PNG का उपयोग करें जिन्हें कई बार एडिट किया जाएगा। JPG फ़ोटोग्राफ़ और बड़ी इमेज के लिए बेहतर है जहां पिक्सेल-परफ़ेक्ट संरक्षण से ज़्यादा छोटा फ़ाइल साइज़ मायने रखता है।",
+    "convertJpgToWebpHowTo": "JPG को WebP में कैसे बदलें",
+    "convertJpgToWebpStep1": "अपनी JPG फ़ाइल अपलोड करें",
+    "convertJpgToWebpStep1Desc": "जिस JPG इमेज को आप WebP फ़ॉर्मेट में बदलना चाहते हैं उसे चुनने के लिए ड्रैग एंड ड्रॉप करें या ब्राउज़ करें।",
+    "convertJpgToWebpStep2": "WebP आउटपुट चुनें",
+    "convertJpgToWebpStep2Desc": "लक्ष्य फ़ॉर्मेट के रूप में WebP चुनें। इष्टतम फ़ाइल साइज़ कमी के लिए आवश्यकतानुसार गुणवत्ता सेटिंग समायोजित करें।",
+    "convertJpgToWebpStep3": "WebP इमेज डाउनलोड करें",
+    "convertJpgToWebpStep3Desc": "आपकी ऑप्टिमाइज़्ड WebP फ़ाइल तैयार है। इसे डाउनलोड करें और वेब उपयोग के लिए काफ़ी छोटे फ़ाइल साइज़ का आनंद लें।",
+    "convertJpgToWebpFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertJpgToWebpFaq1Q": "JPG की तुलना में WebP कितना छोटा है?",
+    "convertJpgToWebpFaq1A": "WebP इमेज आमतौर पर समान दृश्य गुणवत्ता पर समकक्ष JPG फ़ाइलों से 25-35% छोटी होती हैं। यह कमी WebP के अधिक कुशल कंप्रेशन एल्गोरिदम से आती है, जो इसे वेबसाइट ऑप्टिमाइज़ेशन के लिए आदर्श बनाती है जहां तेज़ पेज लोड समय SEO और उपयोगकर्ता अनुभव में सुधार करता है।",
+    "convertJpgToWebpFaq2Q": "क्या सभी ब्राउज़र WebP फ़ॉर्मेट को सपोर्ट करते हैं?",
+    "convertJpgToWebpFaq2A": "Chrome, Firefox, Safari, Edge और Opera सहित सभी आधुनिक ब्राउज़र WebP को पूरी तरह से सपोर्ट करते हैं। Internet Explorer जैसे लेगेसी ब्राउज़र इसे सपोर्ट नहीं करते। वेबसाइटों के लिए, आप सार्वभौमिक संगतता सुनिश्चित करने के लिए HTML picture एलिमेंट का उपयोग करके JPG फ़ॉलबैक के साथ WebP सर्व कर सकते हैं।",
+    "convertJpgToWebpFaq3Q": "क्या JPG को WebP में बदलने से गुणवत्ता खोती है?",
+    "convertJpgToWebpFaq3A": "WebP लॉसी और लॉसलेस दोनों कंप्रेशन को सपोर्ट करता है। समकक्ष गुणवत्ता सेटिंग्स पर लॉसी WebP के साथ, JPG से दृश्य अंतर मानव आंख के लिए अगोचर है जबकि छोटे फ़ाइल साइज़ प्रदान करता है। लॉसलेस WebP हर पिक्सेल को संरक्षित करता है लेकिन लॉसी मोड से बड़ी फ़ाइलें बनाता है।",
+    "convertPngToJpgHowTo": "PNG को JPG में कैसे बदलें",
+    "convertPngToJpgStep1": "PNG इमेज चुनें",
+    "convertPngToJpgStep1Desc": "अपनी PNG फ़ाइल को ड्रॉप ज़ोन में ड्रैग करके या अपनी फ़ाइलें ब्राउज़ करने के लिए क्लिक करके अपलोड करें।",
+    "convertPngToJpgStep2": "JPG फ़ॉर्मेट में बदलें",
+    "convertPngToJpgStep2Desc": "आउटपुट फ़ॉर्मेट के रूप में JPG चुनें और फ़ाइल साइज़ और इमेज स्पष्टता को संतुलित करने के लिए गुणवत्ता स्लाइडर समायोजित करें।",
+    "convertPngToJpgStep3": "अपनी JPG फ़ाइल सेव करें",
+    "convertPngToJpgStep3Desc": "कन्वर्ट की गई JPG इमेज डाउनलोड करें। फ़ाइल साइज़ आमतौर पर मूल PNG से 50-80% छोटा होता है।",
+    "convertPngToJpgFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertPngToJpgFaq1Q": "PNG को JPG में बदलने पर पारदर्शिता का क्या होता है?",
+    "convertPngToJpgFaq1A": "JPG पारदर्शिता को सपोर्ट नहीं करता, इसलिए आपकी PNG में कोई भी पारदर्शी क्षेत्र एक ठोस बैकग्राउंड रंग से भर दिया जाएगा, आमतौर पर सफ़ेद। यदि आपको पारदर्शिता बनाए रखनी है, तो WebP में बदलने पर विचार करें, जो पारदर्शिता और छोटे फ़ाइल साइज़ दोनों को सपोर्ट करता है।",
+    "convertPngToJpgFaq2Q": "PNG को JPG में बदलकर मैं फ़ाइल साइज़ कितना कम कर सकता हूं?",
+    "convertPngToJpgFaq2A": "PNG को JPG में बदलने से आमतौर पर इमेज की जटिलता और JPG गुणवत्ता सेटिंग्स के आधार पर फ़ाइल साइज़ 50-90% कम हो जाता है। फ़ोटोग्राफ़ में सबसे बड़ी कमी दिखती है क्योंकि JPG का लॉसी कंप्रेशन क्रमिक रंग परिवर्तन वाली फ़ोटोग्राफ़िक सामग्री को एनकोड करने में उत्कृष्ट है।",
+    "convertPngToJpgFaq3Q": "मुझे कौन सी JPG गुणवत्ता सेटिंग का उपयोग करना चाहिए?",
+    "convertPngToJpgFaq3A": "वेब इमेज के लिए, 80-85% गुणवत्ता दृश्य विश्वसनीयता और फ़ाइल साइज़ के बीच सबसे अच्छा संतुलन प्रदान करती है। प्रिंट या आर्काइवल उपयोग के लिए, 95-100% चुनें। 70% से नीचे, कंप्रेशन आर्टिफ़ैक्ट्स ध्यान देने योग्य हो जाते हैं, विशेष रूप से तेज़ किनारों और टेक्स्ट के आसपास, इसलिए बारीक विवरण वाली इमेज के लिए कम गुणवत्ता से बचें।",
+    "convertPngToWebpHowTo": "PNG को WebP में कैसे बदलें",
+    "convertPngToWebpStep1": "PNG फ़ाइल अपलोड करें",
+    "convertPngToWebpStep1Desc": "अपनी PNG इमेज को ड्रैग एंड ड्रॉप करें या ब्राउज़ करने के लिए क्लिक करें। पारदर्शिता वाली सहित सभी PNG फ़ाइलों को सपोर्ट करता है।",
+    "convertPngToWebpStep2": "WebP फ़ॉर्मेट चुनें",
+    "convertPngToWebpStep2Desc": "आउटपुट के रूप में WebP चुनें। WebP नाटकीय रूप से छोटे फ़ाइल साइज़ देते हुए PNG पारदर्शिता को संरक्षित करता है।",
+    "convertPngToWebpStep3": "WebP परिणाम डाउनलोड करें",
+    "convertPngToWebpStep3Desc": "अपनी कन्वर्ट की गई WebP इमेज सेव करें। समान दृश्य गुणवत्ता के साथ 45% तक छोटी फ़ाइलों का आनंद लें।",
+    "convertPngToWebpFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertPngToWebpFaq1Q": "क्या WebP PNG की तरह पारदर्शिता को सपोर्ट करता है?",
+    "convertPngToWebpFaq1A": "हां, WebP PNG की तरह अल्फ़ा चैनल पारदर्शिता को पूरी तरह से सपोर्ट करता है। मुख्य लाभ यह है कि पारदर्शी WebP इमेज समकक्ष पारदर्शी PNG से काफ़ी छोटी होती हैं, अक्सर 40-50% छोटी, जो उन्हें वेबसाइट लोगो, आइकन और ओवरले ग्राफ़िक्स के लिए आदर्श बनाती हैं।",
+    "convertPngToWebpFaq2Q": "क्या PNG से WebP कन्वर्शन लॉसलेस है?",
+    "convertPngToWebpFaq2A": "WebP लॉसलेस और लॉसी दोनों मोड को सपोर्ट करता है। लॉसलेस WebP मूल PNG के समान हर पिक्सेल को बिल्कुल सटीक रखता है लेकिन फिर भी 20-30% छोटी फ़ाइलें प्राप्त करता है। लॉसी WebP न्यूनतम दृश्य प्रभाव के साथ साइज़ और भी कम करता है, जो वेब प्रदर्शन ऑप्टिमाइज़ेशन के लिए बिल्कुल सही है।",
+    "convertPngToWebpFaq3Q": "क्या मुझे अपनी वेबसाइट पर सभी PNG इमेज को WebP से बदलना चाहिए?",
+    "convertPngToWebpFaq3A": "अधिकांश वेबसाइटों के लिए, PNG को WebP में बदलना पेज लोड स्पीड और Core Web Vitals स्कोर में काफ़ी सुधार करता है। आधुनिक ब्राउज़रों को WebP सर्व करने के लिए HTML picture एलिमेंट का उपयोग करें जिसमें PNG फ़ॉलबैक हो। यह दृष्टिकोण प्रदर्शन लाभों को अधिकतम करते हुए संगतता सुनिश्चित करता है।",
+    "convertWebpToJpgHowTo": "WebP को JPG में कैसे बदलें",
+    "convertWebpToJpgStep1": "WebP इमेज अपलोड करें",
+    "convertWebpToJpgStep1Desc": "अपनी WebP फ़ाइल को ड्रैग करके या अपने डिवाइस से ब्राउज़ करके चुनें। सभी WebP फ़ाइलें समर्थित हैं।",
+    "convertWebpToJpgStep2": "JPG में बदलें",
+    "convertWebpToJpgStep2Desc": "लक्ष्य फ़ॉर्मेट के रूप में JPG चुनें और कन्वर्शन शुरू करें। प्रोसेसिंग आपके ब्राउज़र में तुरंत होती है।",
+    "convertWebpToJpgStep3": "JPG फ़ाइल डाउनलोड करें",
+    "convertWebpToJpgStep3Desc": "कन्वर्ट की गई JPG फ़ाइल सेव करें। यह अब हर इमेज व्यूअर, एडिटर और प्लेटफ़ॉर्म के साथ संगत है।",
+    "convertWebpToJpgFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertWebpToJpgFaq1Q": "मैं WebP को JPG में क्यों बदलूं?",
+    "convertWebpToJpgFaq1A": "कुछ पुराने सॉफ़्टवेयर, ईमेल क्लाइंट और सोशल मीडिया प्लेटफ़ॉर्म WebP को पूरी तरह से सपोर्ट नहीं करते। JPG में बदलना सुनिश्चित करता है कि आपकी इमेज हर डिवाइस, ऑपरेटिंग सिस्टम और एप्लिकेशन के साथ सार्वभौमिक रूप से संगत है। JPG आज उपलब्ध सबसे व्यापक रूप से समर्थित इमेज फ़ॉर्मेट है।",
+    "convertWebpToJpgFaq2Q": "क्या JPG WebP फ़ाइल से बड़ा होगा?",
+    "convertWebpToJpgFaq2A": "आमतौर पर हां, क्योंकि WebP JPG की तुलना में अधिक कुशल कंप्रेशन एल्गोरिदम का उपयोग करता है। समकक्ष दृश्य गुणवत्ता पर, JPG फ़ाइलें आमतौर पर 25-35% बड़ी होती हैं। आप गुणवत्ता स्लाइडर कम करके JPG फ़ाइल साइज़ कम कर सकते हैं, हालांकि इससे अधिक दिखाई देने वाले कंप्रेशन आर्टिफ़ैक्ट्स आते हैं।",
+    "convertWebpToJpgFaq3Q": "क्या मैं कई WebP फ़ाइलों को एक साथ JPG में बदल सकता हूं?",
+    "convertWebpToJpgFaq3A": "हां, आप कई WebP फ़ाइलें अपलोड कर सकते हैं और उन सभी को एक सेशन में JPG में बदल सकते हैं। प्रत्येक फ़ाइल आपके ब्राउज़र में व्यक्तिगत रूप से प्रोसेस की जाती है बिना किसी सर्वर अपलोड के। यह बैच कन्वर्शन को तेज़, निजी और मुफ़्त बनाता है चाहे आपको कितनी भी इमेज बदलनी हों।",
+    "convertWebpToPngHowTo": "WebP को PNG में कैसे बदलें",
+    "convertWebpToPngStep1": "अपनी WebP फ़ाइल जोड़ें",
+    "convertWebpToPngStep1Desc": "जिस WebP इमेज को आप बदलना चाहते हैं उसे अपलोड करें। लॉसी और लॉसलेस दोनों WebP फ़ाइलों को सपोर्ट करता है।",
+    "convertWebpToPngStep2": "PNG फ़ॉर्मेट में बदलें",
+    "convertWebpToPngStep2Desc": "आउटपुट फ़ॉर्मेट के रूप में PNG चुनें। आपकी WebP फ़ाइल में कोई भी पारदर्शिता PNG परिणाम में पूरी तरह से संरक्षित है।",
+    "convertWebpToPngStep3": "PNG इमेज डाउनलोड करें",
+    "convertWebpToPngStep3Desc": "आपकी लॉसलेस PNG फ़ाइल डाउनलोड के लिए तैयार है। इसे बिना संगतता चिंताओं के किसी भी इमेज एडिटर या प्लेटफ़ॉर्म में उपयोग करें।",
+    "convertWebpToPngFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertWebpToPngFaq1Q": "क्या WebP को PNG में बदलने से पारदर्शिता संरक्षित रहती है?",
+    "convertWebpToPngFaq1A": "हां, मूल WebP फ़ाइल से सभी पारदर्शिता और अल्फ़ा चैनल डेटा PNG कन्वर्शन के दौरान पूरी तरह से संरक्षित रहता है। परिणामी PNG समान पारदर्शिता स्तरों को सपोर्ट करता है, जिससे पारदर्शी क्षेत्रों को खोए बिना लोगो, आइकन और ओवरले ग्राफ़िक्स को बदलना सुरक्षित है।",
+    "convertWebpToPngFaq2Q": "एडिटिंग के लिए PNG WebP से बेहतर क्यों है?",
+    "convertWebpToPngFaq2A": "PNG लॉसलेस कंप्रेशन का उपयोग करता है, इसलिए बार-बार PNG फ़ाइल खोलने और सेव करने से गुणवत्ता कभी खराब नहीं होती। कुछ इमेज एडिटर में WebP सपोर्ट भी सीमित है। PNG में बदलना आपको Photoshop, GIMP और Illustrator जैसे पेशेवर टूल्स के साथ अधिकतम संगतता देता है।",
+    "convertWebpToPngFaq3Q": "क्या PNG फ़ाइल मूल WebP से बड़ी है?",
+    "convertWebpToPngFaq3A": "हां, PNG फ़ाइलें आमतौर पर बड़ी होती हैं क्योंकि PNG कंप्रेशन WebP से कम कुशल है। हालांकि, इसका लाभ सार्वभौमिक संगतता और लॉसलेस गुणवत्ता है। यदि फ़ाइल साइज़ महत्वपूर्ण है, तो वेब उपयोग के लिए WebP संस्करण और एडिटिंग व आर्काइविंग के लिए PNG संस्करण रखें।",
+    "convertHeicToJpgHowTo": "HEIC को JPG में कैसे बदलें",
+    "convertHeicToJpgStep1": "HEIC फ़ोटो अपलोड करें",
+    "convertHeicToJpgStep1Desc": "अपनी iPhone या iPad HEIC/HEIF फ़ोटो फ़ाइल चुनें। आप सीधे अपने डिवाइस या क्लाउड स्टोरेज से अपलोड कर सकते हैं।",
+    "convertHeicToJpgStep2": "JPG में बदलें",
+    "convertHeicToJpgStep2Desc": "टूल स्वचालित रूप से आपकी HEIC फ़ाइल को आपके ब्राउज़र में सार्वभौमिक रूप से संगत JPG फ़ॉर्मेट में बदलता है।",
+    "convertHeicToJpgStep3": "JPG फ़ोटो डाउनलोड करें",
+    "convertHeicToJpgStep3Desc": "अपनी कन्वर्ट की गई JPG फ़ोटो सेव करें। इसे अब किसी भी डिवाइस पर खोला जा सकता है, ईमेल से शेयर किया जा सकता है, या कहीं भी अपलोड किया जा सकता है।",
+    "convertHeicToJpgFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertHeicToJpgFaq1Q": "HEIC फ़ॉर्मेट क्या है और Apple इसका उपयोग क्यों करता है?",
+    "convertHeicToJpgFaq1A": "HEIC (High Efficiency Image Container) iOS 11 से Apple का डिफ़ॉल्ट फ़ोटो फ़ॉर्मेट है। यह HEVC कंप्रेशन का उपयोग करके समकक्ष गुणवत्ता पर JPG से लगभग 50% छोटी फ़ाइलें बनाता है। Apple ने उत्कृष्ट फ़ोटो गुणवत्ता बनाए रखते हुए iPhone पर स्टोरेज स्पेस बचाने के लिए इसे अपनाया।",
+    "convertHeicToJpgFaq2Q": "Windows HEIC फ़ाइलें क्यों नहीं खोल सकता?",
+    "convertHeicToJpgFaq2A": "Windows को HEIC फ़ाइलें खोलने के लिए एक अलग HEVC कोडेक एक्सटेंशन की आवश्यकता होती है, जिसके लिए Microsoft Store में Microsoft शुल्क लेता है। HEIC को JPG में बदलना इस संगतता समस्या को पूरी तरह से समाप्त करता है, जिससे आप अतिरिक्त सॉफ़्टवेयर इंस्टॉल किए बिना किसी भी Windows PC पर अपनी iPhone फ़ोटो देख और शेयर कर सकते हैं।",
+    "convertHeicToJpgFaq3Q": "क्या HEIC को JPG में बदलने से फ़ोटो की गुणवत्ता कम होती है?",
+    "convertHeicToJpgFaq3A": "थोड़ी गुणवत्ता में कमी होती है क्योंकि JPG लॉसी कंप्रेशन का उपयोग करता है। 90-95% जैसी उच्च गुणवत्ता सेटिंग्स पर, अधिकांश फ़ोटोग्राफ़ के लिए दृश्य अंतर अगोचर है। कन्वर्शन सभी डिवाइस, प्लेटफ़ॉर्म और एप्लिकेशन में सार्वभौमिक संगतता के लिए मामूली गुणवत्ता हानि का आदान-प्रदान करता है।",
+    "convertBmpToJpgHowTo": "BMP को JPG में कैसे बदलें",
+    "convertBmpToJpgStep1": "BMP फ़ाइल अपलोड करें",
+    "convertBmpToJpgStep1Desc": "अपनी BMP बिटमैप इमेज चुनें। BMP फ़ाइलें अक्सर बहुत बड़ी होती हैं क्योंकि वे असंपीड़ित पिक्सेल डेटा संग्रहीत करती हैं।",
+    "convertBmpToJpgStep2": "JPG में बदलें",
+    "convertBmpToJpgStep2Desc": "JPG आउटपुट चुनें और गुणवत्ता समायोजित करें। अधिकतम गुणवत्ता पर भी, JPG BMP से नाटकीय रूप से छोटा होगा।",
+    "convertBmpToJpgStep3": "कंप्रेस्ड JPG डाउनलोड करें",
+    "convertBmpToJpgStep3Desc": "अपनी JPG फ़ाइल सेव करें। मूल असंपीड़ित BMP इमेज की तुलना में 90-95% फ़ाइल साइज़ में कमी की उम्मीद करें।",
+    "convertBmpToJpgFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertBmpToJpgFaq1Q": "BMP फ़ाइलें JPG से इतनी बड़ी क्यों होती हैं?",
+    "convertBmpToJpgFaq1A": "BMP हर पिक्सेल को कच्चे, असंपीड़ित डेटा के रूप में संग्रहीत करता है बिना किसी कंप्रेशन एल्गोरिदम के। एक 1920x1080 BMP इमेज लगभग 6MB जगह लेती है। JPG इसे नाटकीय रूप से कम करने के लिए लॉसी कंप्रेशन लागू करता है, अक्सर 200-500KB तक, उस दृश्य जानकारी को बुद्धिमानी से हटाकर जो मनुष्य नहीं देख सकते।",
+    "convertBmpToJpgFaq2Q": "कोई अभी भी BMP फ़ॉर्मेट का उपयोग कब करेगा?",
+    "convertBmpToJpgFaq2A": "BMP कभी-कभी लेगेसी Windows एप्लिकेशन, एम्बेडेड सिस्टम और मेडिकल इमेजिंग में उपयोग किया जाता है जहां असंपीड़ित डेटा की आवश्यकता होती है। कुछ पुराने स्कैनर सॉफ़्टवेयर भी डिफ़ॉल्ट रूप से BMP आउटपुट देते हैं। शेयरिंग, वेब पब्लिशिंग या ईमेल जैसे रोज़मर्रा के उपयोग के लिए, BMP को JPG में बदलना दृढ़ता से अनुशंसित है।",
+    "convertBmpToJpgFaq3Q": "क्या मैं गुणवत्ता खोए बिना BMP को JPG में बदल सकता हूं?",
+    "convertBmpToJpgFaq3A": "JPG स्वाभाविक रूप से लॉसी है, इसलिए कन्वर्शन के दौरान कुछ डेटा हटा दिया जाता है। हालांकि, 95-100% गुणवत्ता पर, दृश्य अंतर वस्तुतः अज्ञेय है। यदि आपको वास्तव में लॉसलेस कन्वर्शन चाहिए, तो JPG के बजाय PNG पर विचार करें, हालांकि फ़ाइल साइज़ में कमी कम नाटकीय होगी।",
+    "convertMp4ToWebmHowTo": "MP4 को WebM में कैसे बदलें",
+    "convertMp4ToWebmStep1": "MP4 वीडियो अपलोड करें",
+    "convertMp4ToWebmStep1Desc": "अपनी MP4 वीडियो फ़ाइल चुनें। सारी प्रोसेसिंग WebAssembly-संचालित FFmpeg का उपयोग करके आपके ब्राउज़र में स्थानीय रूप से होती है।",
+    "convertMp4ToWebmStep2": "WebM में बदलें",
+    "convertMp4ToWebmStep2Desc": "आउटपुट फ़ॉर्मेट के रूप में WebM चुनें। अपनी वेब एम्बेडिंग आवश्यकताओं के लिए ऑप्टिमाइज़ करने हेतु रिज़ॉल्यूशन और गुणवत्ता सेटिंग्स समायोजित करें।",
+    "convertMp4ToWebmStep3": "WebM फ़ाइल डाउनलोड करें",
+    "convertMp4ToWebmStep3Desc": "अपना कन्वर्ट किया गया WebM वीडियो सेव करें। यह HTML5 वीडियो प्लेबैक और वेब पेज एम्बेडिंग के लिए ऑप्टिमाइज़्ड है।",
+    "convertMp4ToWebmFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertMp4ToWebmFaq1Q": "MP4 की तुलना में WebM के क्या फ़ायदे हैं?",
+    "convertMp4ToWebmFaq1A": "WebM Google द्वारा विकसित एक ओपन, रॉयल्टी-फ़्री फ़ॉर्मेट है, जो इसे लाइसेंसिंग चिंताओं के बिना वेब उपयोग के लिए आदर्श बनाता है। VP9 कोडेक का उपयोग करने वाली WebM फ़ाइलें छोटे फ़ाइल साइज़ पर MP4 H.264 के बराबर गुणवत्ता प्रदान करती हैं, जो वेबसाइटों के लिए पेज लोड समय में सुधार और बैंडविड्थ लागत कम करती हैं।",
+    "convertMp4ToWebmFaq2Q": "क्या सभी ब्राउज़र WebM वीडियो चला सकते हैं?",
+    "convertMp4ToWebmFaq2A": "Chrome, Firefox, Edge और Opera पूरी तरह से WebM प्लेबैक को सपोर्ट करते हैं। Safari ने संस्करण 14.1 में WebM सपोर्ट जोड़ा। अधिकतम संगतता के लिए, कई वेबसाइटें मल्टीपल सोर्स टैग के साथ HTML5 video एलिमेंट का उपयोग करके WebM और MP4 दोनों सर्व करती हैं, जिससे ब्राउज़र अपने सपोर्टेड फ़ॉर्मेट चुन सकें।",
+    "convertMp4ToWebmFaq3Q": "क्या MP4 से WebM कन्वर्शन में बहुत समय लगता है?",
+    "convertMp4ToWebmFaq3A": "कन्वर्शन का समय वीडियो की लंबाई, रिज़ॉल्यूशन और आपके डिवाइस के प्रदर्शन पर निर्भर करता है। 2 मिनट से कम की छोटी क्लिप आमतौर पर 30-60 सेकंड में कन्वर्ट होती हैं। चूंकि प्रोसेसिंग WebAssembly के माध्यम से पूरी तरह से आपके ब्राउज़र में चलती है, तेज़ CPU तेज़ परिणाम देते हैं। कोई वीडियो डेटा किसी सर्वर पर अपलोड नहीं किया जाता।",
+    "convertMp4ToAviHowTo": "MP4 को AVI में कैसे बदलें",
+    "convertMp4ToAviStep1": "MP4 फ़ाइल अपलोड करें",
+    "convertMp4ToAviStep1Desc": "जिस MP4 वीडियो को आप AVI फ़ॉर्मेट में बदलना चाहते हैं उसे चुनें। किसी भी कोडेक वाली सभी MP4 फ़ाइलों को सपोर्ट करता है।",
+    "convertMp4ToAviStep2": "AVI फ़ॉर्मेट में बदलें",
+    "convertMp4ToAviStep2Desc": "आउटपुट फ़ॉर्मेट के रूप में AVI चुनें। कनवर्टर आपके ब्राउज़र में स्वचालित रूप से कोडेक ट्रांसकोडिंग संभालता है।",
+    "convertMp4ToAviStep3": "AVI वीडियो डाउनलोड करें",
+    "convertMp4ToAviStep3Desc": "कन्वर्ट की गई AVI फ़ाइल सेव करें। यह अब पुराने मीडिया प्लेयर और लेगेसी वीडियो एडिटिंग सॉफ़्टवेयर के साथ संगत है।",
+    "convertMp4ToAviFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertMp4ToAviFaq1Q": "मैं MP4 को AVI में क्यों बदलूं?",
+    "convertMp4ToAviFaq1A": "AVI कुछ पुराने वीडियो एडिटिंग सॉफ़्टवेयर, लेगेसी मीडिया प्लेयर और विशिष्ट हार्डवेयर डिवाइस के साथ संगतता के लिए आवश्यक है जो MP4 को सपोर्ट नहीं करते। कुछ पेशेवर वीडियो वर्कफ़्लो और पुराने DVD ऑथरिंग टूल्स को भी उचित प्रोसेसिंग के लिए AVI इनपुट फ़ॉर्मेट की आवश्यकता होती है।",
+    "convertMp4ToAviFaq2Q": "क्या AVI की गुणवत्ता MP4 से बेहतर है?",
+    "convertMp4ToAviFaq2A": "AVI एक कंटेनर फ़ॉर्मेट है, कोडेक नहीं, इसलिए गुणवत्ता इसके अंदर उपयोग किए गए कोडेक पर निर्भर करती है। H.264 के साथ आधुनिक MP4 आमतौर पर सामान्य AVI कोडेक से बेहतर कंप्रेशन दक्षता प्रदान करता है। AVI फ़ाइलें समकक्ष गुणवत्ता पर आमतौर पर बड़ी होती हैं क्योंकि वे अक्सर कम कुशल कंप्रेशन विधियों का उपयोग करती हैं।",
+    "convertMp4ToAviFaq3Q": "क्या AVI फ़ाइल MP4 से बड़ी होगी?",
+    "convertMp4ToAviFaq3A": "हां, AVI फ़ाइलें आमतौर पर MP4 से बड़ी होती हैं क्योंकि AVI कंटेनर और इसके सामान्य कोडेक कंप्रेशन में कम कुशल हैं। कोडेक और सेटिंग्स के आधार पर AVI आउटपुट 50-200% बड़ा होने की उम्मीद करें। यह लेगेसी सिस्टम के साथ व्यापक संगतता का ट्रेड-ऑफ़ है।",
+    "convertWebmToMp4HowTo": "WebM को MP4 में कैसे बदलें",
+    "convertWebmToMp4Step1": "WebM वीडियो अपलोड करें",
+    "convertWebmToMp4Step1Desc": "अपनी WebM वीडियो फ़ाइल चुनें। वेब से डाउनलोड किए गए या ब्राउज़र द्वारा रिकॉर्ड किए गए वीडियो के लिए सामान्य।",
+    "convertWebmToMp4Step2": "MP4 में बदलें",
+    "convertWebmToMp4Step2Desc": "अधिकतम डिवाइस और प्लेटफ़ॉर्म संगतता के लिए H.264 एनकोडिंग के साथ आउटपुट फ़ॉर्मेट के रूप में MP4 चुनें।",
+    "convertWebmToMp4Step3": "MP4 फ़ाइल डाउनलोड करें",
+    "convertWebmToMp4Step3Desc": "अपना MP4 वीडियो सेव करें। इसे अब वस्तुतः हर डिवाइस, TV, फ़ोन और मीडिया प्लेयर पर चलाया जा सकता है।",
+    "convertWebmToMp4FaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertWebmToMp4Faq1Q": "WebM को MP4 में क्यों बदलें?",
+    "convertWebmToMp4Faq1A": "MP4 सबसे सार्वभौमिक रूप से संगत वीडियो फ़ॉर्मेट है, जो सभी स्मार्टफ़ोन, स्मार्ट TV, मीडिया प्लेयर और सोशल मीडिया प्लेटफ़ॉर्म द्वारा समर्थित है। WebM का Apple डिवाइस और कुछ पुराने सिस्टम पर सीमित सपोर्ट है। MP4 में बदलना सुनिश्चित करता है कि आपका वीडियो बिना संगतता समस्याओं के हर जगह चले।",
+    "convertWebmToMp4Faq2Q": "क्या मैं कन्वर्ट किए गए MP4 को iPhone पर चला सकता हूं?",
+    "convertWebmToMp4Faq2A": "हां, H.264 एनकोडिंग वाला MP4 सभी iPhone, iPad और Apple डिवाइस पर मूल रूप से समर्थित है। कन्वर्शन के बाद, आप वीडियो को सीधे Photos ऐप में चला सकते हैं, iMessage या AirDrop के माध्यम से शेयर कर सकते हैं, और बिना अतिरिक्त ऐप के किसी भी सोशल मीडिया प्लेटफ़ॉर्म पर अपलोड कर सकते हैं।",
+    "convertWebmToMp4Faq3Q": "क्या WebM को MP4 में बदलने पर गुणवत्ता की हानि होती है?",
+    "convertWebmToMp4Faq3A": "थोड़ी गुणवत्ता में कमी होती है क्योंकि वीडियो एक लॉसी कोडेक से दूसरे में री-एनकोड किया जाता है। उच्च गुणवत्ता सेटिंग्स पर, यह अंतर मुश्किल से ध्यान देने योग्य है। सर्वोत्तम परिणामों के लिए, आउटपुट रिज़ॉल्यूशन और बिटरेट को मूल WebM फ़ाइल विनिर्देशों के करीब रखें।",
+    "convertMp4ToGifHowTo": "MP4 को GIF में कैसे बदलें",
+    "convertMp4ToGifStep1": "MP4 वीडियो अपलोड करें",
+    "convertMp4ToGifStep1Desc": "जिस MP4 वीडियो क्लिप को आप एनिमेटेड GIF में बदलना चाहते हैं उसे चुनें। छोटी क्लिप बेहतर परिणाम देती हैं।",
+    "convertMp4ToGifStep2": "GIF सेटिंग्स कस्टमाइज़ करें",
+    "convertMp4ToGifStep2Desc": "फ़्रेम रेट, रिज़ॉल्यूशन सेट करें और क्लिप की लंबाई ट्रिम करें। कम फ़्रेम रेट और छोटे डाइमेंशन छोटी GIF फ़ाइलें बनाते हैं।",
+    "convertMp4ToGifStep3": "एनिमेटेड GIF डाउनलोड करें",
+    "convertMp4ToGifStep3Desc": "अपना एनिमेटेड GIF सेव करें। इसे सोशल मीडिया, मैसेजिंग ऐप, फ़ोरम पर शेयर करें या वेबसाइट और ईमेल में एम्बेड करें।",
+    "convertMp4ToGifFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "convertMp4ToGifFaq1Q": "GIF के लिए आदर्श लंबाई क्या है?",
+    "convertMp4ToGifFaq1A": "अधिकांश प्रभावी GIF 3-6 सेकंड लंबे होते हैं। GIF फ़ाइलें अवधि के साथ तेज़ी से बढ़ती हैं क्योंकि हर फ़्रेम एक पूर्ण इमेज के रूप में संग्रहीत होता है। 15 FPS पर 10 सेकंड का GIF आसानी से 10MB से अधिक हो सकता है। गुणवत्ता और फ़ाइल साइज़ के सर्वोत्तम संतुलन के लिए GIF को छोटा और मुख्य क्षण पर केंद्रित रखें।",
+    "convertMp4ToGifFaq2Q": "मेरी GIF फ़ाइल इतनी बड़ी क्यों है?",
+    "convertMp4ToGifFaq2A": "GIF फ़ॉर्मेट 256-रंग पैलेट के साथ लॉसलेस फ़्रेम-बाय-फ़्रेम स्टोरेज का उपयोग करता है, जो वीडियो सामग्री के लिए स्वाभाविक रूप से अकुशल है। रिज़ॉल्यूशन को 480px चौड़ाई या उससे कम करके, फ़्रेम रेट को 10-12 FPS तक कम करके, और क्लिप को सबसे कम संभव अवधि तक ट्रिम करके फ़ाइल साइज़ कम करें।",
+    "convertMp4ToGifFaq3Q": "मैं उच्च गुणवत्ता का GIF कैसे बना सकता हूं?",
+    "convertMp4ToGifFaq3A": "अच्छी लाइटिंग और स्थिर फ़ुटेज वाले उच्च गुणवत्ता के सोर्स वीडियो से शुरू करें। स्मूदर एनिमेशन के लिए 15-20 FPS जैसे उच्च फ़्रेम रेट का उपयोग करें। रिज़ॉल्यूशन को अधिकतम 640px चौड़ाई पर उचित रखें। छोटी क्लिप उचित फ़ाइल साइज़ सीमा के भीतर प्रति सेकंड अधिक फ़्रेम की अनुमति देती हैं।",
+    "compressJpgHowTo": "JPG इमेज कैसे कंप्रेस करें",
+    "compressJpgStep1": "JPG इमेज अपलोड करें",
+    "compressJpgStep1Desc": "एक या अधिक JPG/JPEG इमेज ड्रैग एंड ड्रॉप करें या चुनें। एक साथ कई फ़ाइलों के लिए बैच कंप्रेशन समर्थित है।",
+    "compressJpgStep2": "कंप्रेशन लेवल समायोजित करें",
+    "compressJpgStep2Desc": "अपना वांछित गुणवत्ता स्तर सेट करें। कम गुणवत्ता का अर्थ है छोटे फ़ाइल साइज़। डाउनलोड करने से पहले परिणाम का प्रीव्यू करें।",
+    "compressJpgStep3": "कंप्रेस्ड फ़ाइलें डाउनलोड करें",
+    "compressJpgStep3Desc": "दृश्य गुणवत्ता बनाए रखते हुए नाटकीय रूप से कम फ़ाइल साइज़ के साथ अपनी ऑप्टिमाइज़्ड JPG इमेज सेव करें।",
+    "compressJpgFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "compressJpgFaq1Q": "JPG कंप्रेशन फ़ाइल साइज़ कितना कम कर सकता है?",
+    "compressJpgFaq1A": "JPG कंप्रेशन गुणवत्ता सेटिंग्स और इमेज सामग्री के आधार पर फ़ाइल साइज़ को 50-80% तक कम कर सकता है। 5MB की फ़ोटो को आमतौर पर बिना ध्यान देने योग्य गुणवत्ता हानि के 500KB-1MB तक कंप्रेस किया जा सकता है। बड़े एकसमान क्षेत्रों वाली इमेज अत्यधिक विस्तृत बनावट की तुलना में अधिक कुशलता से कंप्रेस होती हैं।",
+    "compressJpgFaq2Q": "क्या JPG कंप्रेस करने से इमेज के डाइमेंशन कम होते हैं?",
+    "compressJpgFaq2A": "नहीं, कंप्रेशन पिक्सेल डाइमेंशन बदले बिना केवल एनकोडिंग गुणवत्ता को समायोजित करता है। आपकी 4000x3000 इमेज कंप्रेशन के बाद भी 4000x3000 पिक्सेल रहती है। फ़ाइल साइज़ में कमी कलर डेटा के संग्रहण तरीके से आती है, न कि रिज़ॉल्यूशन कम करने से। डाइमेंशन बदलना एक अलग ऑपरेशन है।",
+    "compressJpgFaq3Q": "क्या मैं JPG को कई बार कंप्रेस कर सकता हूं?",
+    "compressJpgFaq3A": "आप कर सकते हैं, लेकिन JPG कंप्रेशन के हर दौर में अतिरिक्त गुणवत्ता हानि होती है क्योंकि JPG लॉसी है। पहले से कंप्रेस की गई JPG को फिर से कंप्रेस करने से गुणवत्ता और खराब होती है जबकि साइज़ में कमी घटती जाती है। सर्वोत्तम परिणामों के लिए, हमेशा मूल उच्च गुणवत्ता वाली सोर्स फ़ाइल से कंप्रेस करें।",
+    "compressPngHowTo": "PNG इमेज कैसे कंप्रेस करें",
+    "compressPngStep1": "PNG फ़ाइलें अपलोड करें",
+    "compressPngStep1Desc": "अपनी PNG इमेज को ड्रैग करके या ब्राउज़ करके चुनें। पारदर्शी वाली सहित सभी PNG फ़ाइलों के साथ काम करता है।",
+    "compressPngStep2": "कंप्रेशन सेटिंग्स सेट करें",
+    "compressPngStep2Desc": "अपना कंप्रेशन लेवल चुनें। टूल पारदर्शिता और दृश्य गुणवत्ता बनाए रखते हुए PNG एनकोडिंग को ऑप्टिमाइज़ करता है।",
+    "compressPngStep3": "ऑप्टिमाइज़्ड PNG डाउनलोड करें",
+    "compressPngStep3Desc": "अपनी कंप्रेस की गई PNG फ़ाइलें सेव करें। पारदर्शिता काफ़ी कम फ़ाइल साइज़ के साथ पूरी तरह से संरक्षित है।",
+    "compressPngFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "compressPngFaq1Q": "क्या PNG कंप्रेशन पारदर्शिता को संरक्षित कर सकता है?",
+    "compressPngFaq1A": "हां, PNG कंप्रेशन अल्फ़ा चैनल और सभी पारदर्शिता डेटा को पूरी तरह से संरक्षित करता है। कंप्रेशन पारदर्शिता जानकारी को हटाए बिना पिक्सेल डेटा को एनकोड और फ़िल्टर करने के तरीके को ऑप्टिमाइज़ करके काम करता है। आपके लोगो, आइकन और ओवरले ग्राफ़िक्स अपनी पारदर्शी पृष्ठभूमि को पूरी तरह से बनाए रखेंगे।",
+    "compressPngFaq2Q": "PNG कंप्रेशन JPG कंप्रेशन से कैसे अलग है?",
+    "compressPngFaq2A": "PNG डिफ़ॉल्ट रूप से लॉसलेस कंप्रेशन का उपयोग करता है, जिसका अर्थ है कि कोई पिक्सेल डेटा नहीं हटाया जाता। JPG लॉसी कंप्रेशन का उपयोग करता है जो छोटे साइज़ प्राप्त करने के लिए स्थायी रूप से डेटा हटाता है। PNG कंप्रेशन समान डेटा को एनकोड करने के अधिक कुशल तरीके खोजकर काम करता है, जबकि JPG कंप्रेशन दृश्य विवरणों को हटाकर काम करता है।",
+    "compressPngFaq3Q": "PNG फ़ाइलें JPG फ़ाइलों से बड़ी क्यों हैं?",
+    "compressPngFaq3A": "PNG लॉसलेस कंप्रेशन के माध्यम से हर पिक्सेल को बिल्कुल सटीक संरक्षित करता है, जो फ़ाइलों के कितने छोटे हो सकने को सीमित करता है। JPG उस दृश्य जानकारी को हटाकर छोटे साइज़ प्राप्त करता है जिसे मनुष्य आमतौर पर नोटिस नहीं कर सकते। फ़ोटोग्राफ़ के लिए, JPG अधिक कुशल है। ग्राफ़िक्स, लोगो और तेज़ किनारों वाले स्क्रीनशॉट के लिए, PNG पसंदीदा है।",
+    "compressWebpHowTo": "WebP इमेज कैसे कंप्रेस करें",
+    "compressWebpStep1": "WebP इमेज अपलोड करें",
+    "compressWebpStep1Desc": "ड्रैग एंड ड्रॉप करके या ब्राउज़ करके अपनी WebP फ़ाइलें चुनें। लॉसी और लॉसलेस दोनों WebP फ़ाइलें समर्थित हैं।",
+    "compressWebpStep2": "गुणवत्ता सेटिंग्स समायोजित करें",
+    "compressWebpStep2Desc": "अपने विशिष्ट उपयोग के लिए फ़ाइल साइज़ और दृश्य गुणवत्ता को संतुलित करने हेतु कंप्रेशन लेवल को फ़ाइन-ट्यून करें।",
+    "compressWebpStep3": "ऑप्टिमाइज़्ड WebP डाउनलोड करें",
+    "compressWebpStep3Desc": "अपनी कंप्रेस की गई WebP इमेज सेव करें। अधिकतम वेब प्रदर्शन के लिए पहले से कुशल WebP फ़ाइलों को और कम करें।",
+    "compressWebpFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "compressWebpFaq1Q": "क्या WebP फ़ाइलों को और कंप्रेस किया जा सकता है?",
+    "compressWebpFaq1A": "हां, विशेष रूप से उच्च गुणवत्ता सेटिंग्स पर एक्सपोर्ट की गई WebP फ़ाइलें। थोड़ा कम गुणवत्ता स्तर पर री-कंप्रेस करने से न्यूनतम दृश्य प्रभाव के साथ फ़ाइल साइज़ 20-50% कम हो सकता है। यह डिज़ाइन टूल्स से अनावश्यक रूप से उच्च गुणवत्ता सेटिंग्स पर एक्सपोर्ट की गई WebP इमेज को ऑप्टिमाइज़ करने के लिए उपयोगी है।",
+    "compressWebpFaq2Q": "वेब इमेज के लिए सबसे अच्छी गुणवत्ता सेटिंग क्या है?",
+    "compressWebpFaq2A": "अधिकांश वेब इमेज के लिए, 75-85% की WebP गुणवत्ता सेटिंग इष्टतम फ़ाइल साइज़ के साथ उत्कृष्ट दृश्य गुणवत्ता प्रदान करती है। हीरो इमेज और प्रोडक्ट फ़ोटो को 85-90% से लाभ हो सकता है। थंबनेल और सजावटी तत्व 60-75% का उपयोग कर सकते हैं। अपने उपयोग के लिए स्वीकार्य गुणवत्ता सत्यापित करने हेतु हमेशा कंप्रेस्ड परिणामों का प्रीव्यू करें।",
+    "compressWebpFaq3Q": "क्या WebP वेबसाइट प्रदर्शन के लिए JPG से बेहतर है?",
+    "compressWebpFaq3A": "WebP लगातार समकक्ष दृश्य गुणवत्ता पर JPG से 25-35% छोटी फ़ाइलें प्रदान करता है, जो सीधे पेज लोड स्पीड और Core Web Vitals स्कोर में सुधार करता है। Google वेब इमेज के लिए WebP की सिफ़ारिश करता है, और सभी प्रमुख ब्राउज़र अब इसे सपोर्ट करते हैं। छोटी फ़ाइलें होस्टिंग बैंडविड्थ लागत को भी काफ़ी कम करती हैं।",
+    "compressMp4HowTo": "MP4 वीडियो कैसे कंप्रेस करें",
+    "compressMp4Step1": "MP4 वीडियो अपलोड करें",
+    "compressMp4Step1Desc": "अपनी MP4 वीडियो फ़ाइल चुनें। टूल पूरी तरह से आपके ब्राउज़र में चलता है, इसलिए कोई वीडियो डेटा किसी सर्वर पर अपलोड नहीं किया जाता।",
+    "compressMp4Step2": "कंप्रेशन सेटिंग्स चुनें",
+    "compressMp4Step2Desc": "रिज़ॉल्यूशन, बिटरेट और गुणवत्ता समायोजित करें। कम रिज़ॉल्यूशन और बिटरेट छोटी फ़ाइलें बनाते हैं। अनुमानित आउटपुट साइज़ का प्रीव्यू करें।",
+    "compressMp4Step3": "कंप्रेस्ड वीडियो डाउनलोड करें",
+    "compressMp4Step3Desc": "कम फ़ाइल साइज़ के साथ अपना कंप्रेस्ड MP4 सेव करें। इसे ईमेल, मैसेजिंग ऐप के माध्यम से शेयर करें या सोशल मीडिया पर अपलोड करें।",
+    "compressMp4FaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "compressMp4Faq1Q": "MP4 वीडियो को कितना कंप्रेस किया जा सकता है?",
+    "compressMp4Faq1A": "MP4 कंप्रेशन मूल एनकोडिंग, रिज़ॉल्यूशन और लक्ष्य गुणवत्ता के आधार पर वीडियो फ़ाइल साइज़ को 40-70% तक कम कर सकता है। 100MB का वीडियो अक्सर देखने योग्य गुणवत्ता बनाए रखते हुए 30-50MB तक कम किया जा सकता है। बहुत उच्च बिटरेट पर मूल रूप से रिकॉर्ड किए गए वीडियो में सबसे बड़ी कमी दिखती है।",
+    "compressMp4Faq2Q": "क्या वीडियो कंप्रेशन रिज़ॉल्यूशन कम करता है?",
+    "compressMp4Faq2A": "ज़रूरी नहीं। आप मूल रिज़ॉल्यूशन बनाए रखते हुए केवल बिटरेट कम करके वीडियो कंप्रेस कर सकते हैं। हालांकि, 1080p से 720p तक रिज़ॉल्यूशन कम करना फ़ाइल साइज़ में नाटकीय कटौती करने का एक प्रभावी तरीका है। मोबाइल स्क्रीन पर, 720p और 1080p के बीच दृश्य अंतर अक्सर अगोचर होता है।",
+    "compressMp4Faq3Q": "ऑनलाइन वीडियो शेयर करने के लिए सबसे अच्छा रिज़ॉल्यूशन क्या है?",
+    "compressMp4Faq3A": "720p (1280x720) ईमेल और मैसेजिंग ऐप के माध्यम से शेयर करने के लिए सबसे उपयुक्त है, जो प्रबंधनीय फ़ाइल साइज़ पर अच्छी गुणवत्ता प्रदान करता है। सोशल मीडिया अपलोड के लिए, 1080p की सिफ़ारिश की जाती है क्योंकि प्लेटफ़ॉर्म अपना कंप्रेशन लागू करते हैं। WhatsApp और समान साइज़ सीमा वाले ऐप के लिए, 480p फ़ाइलों को 16MB से कम रखता है।",
+    "resizeInstagramHowTo": "Instagram के लिए इमेज कैसे रीसाइज़ करें",
+    "resizeInstagramStep1": "अपनी फ़ोटो अपलोड करें",
+    "resizeInstagramStep1Desc": "जिस इमेज को आप Instagram के लिए रीसाइज़ करना चाहते हैं उसे चुनें। JPG, PNG, WebP और अन्य सामान्य फ़ॉर्मेट को सपोर्ट करता है।",
+    "resizeInstagramStep2": "Instagram डाइमेंशन चुनें",
+    "resizeInstagramStep2Desc": "लक्ष्य साइज़ चुनें: पोस्ट के लिए 1080x1080, पोर्ट्रेट के लिए 1080x1350, या स्टोरीज़ और रील्स के लिए 1080x1920।",
+    "resizeInstagramStep3": "रीसाइज़्ड इमेज डाउनलोड करें",
+    "resizeInstagramStep3Desc": "अपनी परफ़ेक्ट साइज़ की Instagram इमेज सेव करें। प्लेटफ़ॉर्म क्रॉपिंग समस्याओं के बिना इसे सीधे Instagram पर अपलोड करें।",
+    "resizeInstagramFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "resizeInstagramFaq1Q": "Instagram पोस्ट के लिए सबसे अच्छा इमेज साइज़ क्या है?",
+    "resizeInstagramFaq1A": "Instagram 1080x1080 (स्क्वायर), 1080x1350 (पोर्ट्रेट 4:5), और 1080x566 (लैंडस्केप) को सपोर्ट करता है। पोर्ट्रेट 1080x1350 सबसे अधिक फ़ीड स्पेस लेता है और सबसे अधिक एंगेजमेंट प्राप्त करता है। Instagram को धुंधला, अपस्केल्ड वर्शन प्रदर्शित करने से रोकने के लिए हमेशा न्यूनतम 1080px चौड़ाई पर अपलोड करें।",
+    "resizeInstagramFaq2Q": "Instagram स्टोरीज़ का साइज़ क्या होना चाहिए?",
+    "resizeInstagramFaq2A": "Instagram Stories और Reels फ़ुल-स्क्रीन डिस्प्ले के लिए 9:16 आस्पेक्ट रेशियो पर 1080x1920 पिक्सेल होने चाहिए। दर्शकों की स्क्रीन पर यूज़रनेम बार और रिप्लाई एरिया द्वारा आपकी सामग्री के ढकने से बचने के लिए ऊपर और नीचे 250 पिक्सेल का सेफ़ मार्जिन छोड़ें।",
+    "resizeInstagramFaq3Q": "क्या Instagram अपलोड की गई इमेज को कंप्रेस करता है?",
+    "resizeInstagramFaq3A": "हां, Instagram सर्वर लागत कम करने के लिए सभी अपलोड की गई इमेज को कंप्रेस करता है। गुणवत्ता हानि को कम करने के लिए, 95% गुणवत्ता पर JPG फ़ॉर्मेट में बिल्कुल अनुशंसित डाइमेंशन पर इमेज अपलोड करें। ओवरसाइज़्ड इमेज अधिक आक्रामक कंप्रेशन से गुज़रती हैं, इसलिए सटीक लक्ष्य रिज़ॉल्यूशन से मिलान करना सबसे तेज़ परिणाम देता है।",
+    "resizeFacebookHowTo": "Facebook के लिए इमेज कैसे रीसाइज़ करें",
+    "resizeFacebookStep1": "अपनी इमेज अपलोड करें",
+    "resizeFacebookStep1Desc": "जिस फ़ोटो को आप Facebook के लिए रीसाइज़ करना चाहते हैं उसे चुनें। सभी सामान्य इमेज फ़ॉर्मेट के साथ काम करता है।",
+    "resizeFacebookStep2": "Facebook डाइमेंशन चुनें",
+    "resizeFacebookStep2Desc": "लक्ष्य चुनें: कवर फ़ोटो के लिए 820x312, शेयर पोस्ट के लिए 1200x630, या प्रोफ़ाइल पिक्चर के लिए 170x170।",
+    "resizeFacebookStep3": "Facebook-रेडी इमेज डाउनलोड करें",
+    "resizeFacebookStep3Desc": "बिल्कुल Facebook डाइमेंशन पर अपनी रीसाइज़्ड इमेज सेव करें। बिना क्रॉपिंग या गुणवत्ता गिरावट के अपलोड करें।",
+    "resizeFacebookFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "resizeFacebookFaq1Q": "Facebook कवर फ़ोटो के लिए सबसे अच्छा साइज़ क्या है?",
+    "resizeFacebookFaq1A": "Facebook कवर फ़ोटो डेस्कटॉप पर 820x312 पिक्सेल और मोबाइल पर 640x360 पिक्सेल पर प्रदर्शित होती हैं। दोनों व्यू को समायोजित करने के लिए 820x462 पर डिज़ाइन करें, महत्वपूर्ण सामग्री को बीच के क्षेत्र में केंद्रित करें। टेक्स्ट या लोगो वाले कवर के लिए PNG फ़ॉर्मेट और फ़ोटोग्राफ़िक कवर के लिए JPG का उपयोग करें।",
+    "resizeFacebookFaq2Q": "Facebook शेयर इमेज के लिए कौन से डाइमेंशन सबसे अच्छे काम करते हैं?",
+    "resizeFacebookFaq2A": "लिंक प्रीव्यू इमेज और शेयर पोस्ट के लिए, 1200x630 पिक्सेल (1.91:1 रेशियो) का उपयोग करें। यह Open Graph मानक भी है जो आपका पेज शेयर होने पर सही ढंग से प्रदर्शित होता है। फ़ोटो अपलोड के लिए, अधिकतम 2048x2048 पिक्सेल रिज़ॉल्यूशन समर्थित है, लेकिन न्यूज़ फ़ीड डिस्प्ले के लिए 1200px चौड़ाई इष्टतम है।",
+    "resizeFacebookFaq3Q": "क्या Facebook अपलोड करते समय इमेज की गुणवत्ता कम करता है?",
+    "resizeFacebookFaq3A": "हां, Facebook अपलोड की गई इमेज को काफ़ी कंप्रेस करता है। गुणवत्ता हानि को कम करने के लिए, प्रोफ़ाइल फ़ोटो के लिए 100KB से कम और पोस्ट के लिए 1MB से कम JPG फ़ाइलें अपलोड करें। sRGB कलर स्पेस का उपयोग करें और बिल्कुल अनुशंसित डाइमेंशन से मिलान करें। Facebook उन इमेज पर कम कंप्रेशन लागू करता है जो पहले से ही इसके लक्ष्य विनिर्देशों को पूरा करती हैं।",
+    "resizeTwitterHowTo": "Twitter/X के लिए इमेज कैसे रीसाइज़ करें",
+    "resizeTwitterStep1": "अपनी इमेज अपलोड करें",
+    "resizeTwitterStep1Desc": "जिस इमेज को आप Twitter/X के लिए ऑप्टिमाइज़ करना चाहते हैं उसे चुनें। सभी सामान्य इमेज फ़ॉर्मेट समर्थित हैं।",
+    "resizeTwitterStep2": "Twitter डाइमेंशन चुनें",
+    "resizeTwitterStep2Desc": "लक्ष्य चुनें: हेडर के लिए 1500x500, इन-स्ट्रीम इमेज के लिए 1600x900, या प्रोफ़ाइल फ़ोटो के लिए 400x400।",
+    "resizeTwitterStep3": "ऑप्टिमाइज़्ड इमेज डाउनलोड करें",
+    "resizeTwitterStep3Desc": "अपनी Twitter-ऑप्टिमाइज़्ड इमेज सेव करें। यह अप्रत्याशित क्रॉपिंग के बिना टाइमलाइन में परफ़ेक्ट रूप से प्रदर्शित होगी।",
+    "resizeTwitterFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "resizeTwitterFaq1Q": "Twitter/X पोस्ट के लिए सबसे अच्छा इमेज साइज़ क्या है?",
+    "resizeTwitterFaq1A": "Twitter सिंगल-इमेज ट्वीट के लिए 1600x900 पिक्सेल (16:9 रेशियो) की सिफ़ारिश करता है जो बिना क्रॉपिंग के पूरी तरह प्रदर्शित होती हैं। दो इमेज के लिए, प्रत्येक 700x800 का उपयोग करें। Twitter फ़ोटो के लिए 5MB और GIF के लिए 15MB तक सपोर्ट करता है। 4096 पिक्सेल से चौड़ी इमेज प्लेटफ़ॉर्म द्वारा स्वचालित रूप से छोटी की जाती हैं।",
+    "resizeTwitterFaq2Q": "Twitter/X हेडर के डाइमेंशन क्या हैं?",
+    "resizeTwitterFaq2A": "Twitter हेडर 1500x500 पिक्सेल (3:1 रेशियो) होने चाहिए। महत्वपूर्ण सामग्री को केंद्रित रखें क्योंकि विभिन्न डिवाइस और स्क्रीन साइज़ पर किनारे क्रॉप हो सकते हैं। प्रोफ़ाइल फ़ोटो डेस्कटॉप पर हेडर के निचले-बाएं क्षेत्र को ओवरलैप करती है, इसलिए वहां प्रमुख तत्व रखने से बचें।",
+    "resizeTwitterFaq3Q": "Twitter टाइमलाइन में इमेज को कैसे क्रॉप करता है?",
+    "resizeTwitterFaq3A": "Twitter एक AI-आधारित स्मार्ट क्रॉप एल्गोरिदम का उपयोग करता है जो सबसे दृश्य रूप से रोचक फ़ोकल पॉइंट खोजने का प्रयास करता है। अप्रत्याशित क्रॉपिंग से बचने के लिए, सिंगल इमेज के लिए अनुशंसित 16:9 आस्पेक्ट रेशियो का उपयोग करें। अपने विषय को केंद्र में रखें और महत्वपूर्ण तत्वों को किनारों से दूर रखें ताकि ऑटो-क्रॉपिंग के बाद भी वे दिखाई दें।",
+    "resizeYoutubeHowTo": "YouTube थंबनेल कैसे बनाएं",
+    "resizeYoutubeStep1": "अपनी इमेज अपलोड करें",
+    "resizeYoutubeStep1Desc": "जिस इमेज को आप YouTube थंबनेल के रूप में उपयोग करना चाहते हैं उसे चुनें। उच्च रिज़ॉल्यूशन सोर्स इमेज सबसे अच्छे परिणाम देती हैं।",
+    "resizeYoutubeStep2": "1280x720 पर क्रॉप करें",
+    "resizeYoutubeStep2Desc": "अपनी इमेज को 16:9 आस्पेक्ट रेशियो पर बिल्कुल 1280x720 पिक्सेल के YouTube थंबनेल डाइमेंशन में रीसाइज़ और क्रॉप करें।",
+    "resizeYoutubeStep3": "थंबनेल डाउनलोड करें",
+    "resizeYoutubeStep3Desc": "अपना YouTube-रेडी थंबनेल सेव करें। अपना वीडियो पब्लिश या एडिट करते समय इसे सीधे YouTube Studio में अपलोड करें।",
+    "resizeYoutubeFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "resizeYoutubeFaq1Q": "आदर्श YouTube थंबनेल साइज़ क्या है?",
+    "resizeYoutubeFaq1A": "YouTube थंबनेल बिल्कुल 1280x720 पिक्सेल 16:9 आस्पेक्ट रेशियो के साथ होने चाहिए। न्यूनतम चौड़ाई 640 पिक्सेल है, और अधिकतम फ़ाइल साइज़ 2MB है। JPG, PNG और GIF फ़ॉर्मेट स्वीकार किए जाते हैं। सभी डिवाइस पर सबसे तेज़ डिस्प्ले के लिए हमेशा पूर्ण 1280x720 रिज़ॉल्यूशन पर डिज़ाइन करें।",
+    "resizeYoutubeFaq2Q": "YouTube थंबनेल पर अधिक क्लिक कैसे मिलते हैं?",
+    "resizeYoutubeFaq2A": "उच्च-CTR थंबनेल चमकीले कंट्रास्टिंग रंग, बड़ा पढ़ने योग्य टेक्स्ट (अधिकतम 3-5 शब्द), अभिव्यक्तिपूर्ण मानव चेहरे और स्पष्ट फ़ोकल पॉइंट का उपयोग करते हैं। अव्यवस्था और छोटे विवरणों से बचें जो छोटे साइज़ पर अदृश्य हो जाते हैं। सत्यापित करने के लिए अपने थंबनेल को 120x67 पिक्सेल पर परीक्षण करें कि यह आकर्षक और पढ़ने योग्य बना रहे।",
+    "resizeYoutubeFaq3Q": "YouTube थंबनेल JPG होने चाहिए या PNG?",
+    "resizeYoutubeFaq3A": "फ़ोटोग्राफ़िक थंबनेल के लिए JPG पसंदीदा है क्योंकि यह फ़ाइलों को 2MB सीमा से काफ़ी नीचे रखता है। PNG उन थंबनेल के लिए बेहतर है जिनमें टेक्स्ट ओवरले, लोगो और ग्राफ़िक तत्व हैं जहां तेज़ किनारे मायने रखते हैं। यदि आपका PNG 2MB से अधिक है, तो इसे कंप्रेस करें या 90-95% गुणवत्ता पर JPG में बदलें।",
+    "removeBgHowTo": "इमेज बैकग्राउंड कैसे हटाएं",
+    "removeBgStep1": "अपनी इमेज अपलोड करें",
+    "removeBgStep1Desc": "जिस फ़ोटो से आप बैकग्राउंड हटाना चाहते हैं उसे चुनें। स्पष्ट विषयों और अच्छे कंट्रास्ट के साथ सबसे अच्छा काम करता है।",
+    "removeBgStep2": "AI बैकग्राउंड रिमूवल",
+    "removeBgStep2Desc": "AI स्वचालित रूप से विषय का पता लगाता है और बैकग्राउंड हटाता है। प्रोसेसिंग पूरी तरह से आपके ब्राउज़र में होती है।",
+    "removeBgStep3": "पारदर्शी PNG डाउनलोड करें",
+    "removeBgStep3Desc": "पारदर्शी पृष्ठभूमि के साथ अपनी इमेज PNG फ़ाइल के रूप में सेव करें। कंपोज़िटिंग, प्रेजेंटेशन या प्रोडक्ट लिस्टिंग के लिए तैयार।",
+    "removeBgFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "removeBgFaq1Q": "AI बैकग्राउंड रिमूवल कैसे काम करता है?",
+    "removeBgFaq1A": "AI मॉडल सिमेंटिक सेगमेंटेशन का उपयोग करके मुख्य विषय की पहचान करने के लिए आपकी इमेज का विश्लेषण करता है। यह हर पिक्सेल को फ़ोरग्राउंड या बैकग्राउंड के रूप में वर्गीकृत करता है, फिर पारदर्शिता बनाने के लिए बैकग्राउंड पिक्सेल हटाता है। आधुनिक AI मॉडल बालों और फ़र जैसे जटिल किनारों को प्रभावशाली सटीकता के साथ संभालते हैं।",
+    "removeBgFaq2Q": "बैकग्राउंड रिमूवल के लिए किस प्रकार की इमेज सबसे अच्छी काम करती हैं?",
+    "removeBgFaq2A": "विषय और बैकग्राउंड के बीच स्पष्ट कंट्रास्ट वाली इमेज सबसे अच्छे परिणाम देती हैं। एकल मुख्य विषय वाली अच्छी रोशनी वाली फ़ोटो आदर्श रूप से काम करती हैं। कई ओवरलैपिंग विषयों, बहुत समान फ़ोरग्राउंड और बैकग्राउंड रंगों, या कांच जैसी पारदर्शी वस्तुओं वाले जटिल दृश्यों में मैनुअल टच-अप की आवश्यकता हो सकती है।",
+    "removeBgFaq3Q": "क्या प्रोसेसिंग के लिए मेरी इमेज सर्वर पर अपलोड की जाती है?",
+    "removeBgFaq3A": "नहीं, संपूर्ण बैकग्राउंड रिमूवल प्रक्रिया WebAssembly AI मॉडल का उपयोग करके आपके ब्राउज़र में स्थानीय रूप से चलती है। आपकी इमेज कभी भी आपके डिवाइस से बाहर नहीं जाती, जो पूर्ण गोपनीयता सुनिश्चित करती है। यह गोपनीय प्रोडक्ट फ़ोटो या व्यक्तिगत पोर्ट्रेट जैसी संवेदनशील इमेज के लिए विशेष रूप से महत्वपूर्ण है।",
+    "addWatermarkHowTo": "फ़ोटो में वॉटरमार्क कैसे जोड़ें",
+    "addWatermarkStep1": "अपनी फ़ोटो अपलोड करें",
+    "addWatermarkStep1Desc": "एक या अधिक इमेज चुनें जिन पर आप वॉटरमार्क लगाना चाहते हैं। बैच प्रोसेसिंग आपको एक साथ कई फ़ोटो पर वॉटरमार्क लगाने देती है।",
+    "addWatermarkStep2": "वॉटरमार्क कस्टमाइज़ करें",
+    "addWatermarkStep2Desc": "टेक्स्ट जोड़ें या लोगो अपलोड करें। अपने आदर्श वॉटरमार्क प्लेसमेंट बनाने के लिए स्थिति, साइज़, अपारदर्शिता और रोटेशन समायोजित करें।",
+    "addWatermarkStep3": "वॉटरमार्क वाली इमेज डाउनलोड करें",
+    "addWatermarkStep3Desc": "वॉटरमार्क लगी अपनी सुरक्षित फ़ोटो सेव करें। मूल बिना वॉटरमार्क वाली फ़ाइलें आपके डिवाइस पर निजी रहती हैं।",
+    "addWatermarkFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "addWatermarkFaq1Q": "सबसे अच्छी वॉटरमार्क अपारदर्शिता सेटिंग क्या है?",
+    "addWatermarkFaq1A": "30-50% की अपारदर्शिता दृश्यता और सूक्ष्मता के बीच आदर्श संतुलन बनाती है। 30% पर, वॉटरमार्क इमेज सामग्री से ध्यान भटकाए बिना ध्यान देने योग्य है। 50% पर, यह अनधिकृत उपयोग के खिलाफ़ मजबूत सुरक्षा प्रदान करता है। अपनी विशिष्ट इमेज और ब्रांडिंग आवश्यकताओं के लिए क्या काम करता है यह खोजने के लिए विभिन्न स्तरों का परीक्षण करें।",
+    "addWatermarkFaq2Q": "फ़ोटो पर वॉटरमार्क कहां रखना चाहिए?",
+    "addWatermarkFaq2A": "निचला-दायां कोना सबसे आम प्लेसमेंट है, लेकिन इसे क्रॉप करके हटाना भी सबसे आसान है। बेहतर सुरक्षा के लिए, वॉटरमार्क को केंद्र में रखें या पूरी इमेज पर विकर्ण दोहराव पैटर्न का उपयोग करें। आदर्श प्लेसमेंट महत्वपूर्ण सामग्री क्षेत्रों को कवर करता है जो वॉटरमार्क हटाने पर खराब हो जाएंगे।",
+    "addWatermarkFaq3Q": "क्या फ़ोटो से वॉटरमार्क हटाए जा सकते हैं?",
+    "addWatermarkFaq3A": "सेमी-ट्रांसपेरेंट वॉटरमार्क को AI टूल्स का उपयोग करके आंशिक रूप से हटाया जा सकता है, लेकिन विस्तृत क्षेत्रों पर अच्छी तरह से रखा गया वॉटरमार्क साफ़ रिमूवल को बहुत कठिन बनाता है। दोहराने वाले टाइल पैटर्न का उपयोग करें, वॉटरमार्क को प्रमुख विवरणों पर रखें, और स्वचालित रिमूवल प्रयासों का विरोध करने वाले वॉटरमार्क बनाने के लिए टेक्स्ट को लोगो तत्वों के साथ जोड़ें।",
+    "mergePhotosHowTo": "फ़ोटो ऑनलाइन कैसे मर्ज करें",
+    "mergePhotosStep1": "कई इमेज अपलोड करें",
+    "mergePhotosStep1Desc": "दो या अधिक फ़ोटो चुनें जिन्हें आप जोड़ना चाहते हैं। JPG, PNG, WebP और अन्य सामान्य इमेज फ़ॉर्मेट को सपोर्ट करता है।",
+    "mergePhotosStep2": "लेआउट व्यवस्थित करें",
+    "mergePhotosStep2Desc": "हॉरिज़ॉन्टल, वर्टिकल या ग्रिड लेआउट चुनें। स्पेसिंग, अलाइनमेंट समायोजित करें और ड्रैग करके इमेज क्रम बदलें।",
+    "mergePhotosStep3": "संयुक्त इमेज डाउनलोड करें",
+    "mergePhotosStep3Desc": "अपनी मर्ज की गई फ़ोटो को एकल इमेज फ़ाइल के रूप में सेव करें। तुलनाओं, कोलाज और सोशल मीडिया पोस्ट के लिए बिल्कुल सही।",
+    "mergePhotosFaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "mergePhotosFaq1Q": "एक बार में कितनी फ़ोटो मर्ज कर सकते हैं?",
+    "mergePhotosFaq1A": "आप अपने ब्राउज़र की मेमोरी अनुमति के अनुसार कई फ़ोटो मर्ज कर सकते हैं, आमतौर पर बिना किसी समस्या के 10-20 उच्च रिज़ॉल्यूशन इमेज। बहुत बड़े बैच के लिए, आपके डिवाइस की क्षमताओं के आधार पर टूल धीमा हो सकता है। आउटपुट इमेज डाइमेंशन हर जोड़ी गई फ़ोटो के साथ बढ़ते हैं, इसलिए कई इमेज जोड़ते समय अपने अंतिम उपयोग पर विचार करें।",
+    "mergePhotosFaq2Q": "क्या मैं अलग-अलग साइज़ की फ़ोटो मर्ज कर सकता हूं?",
+    "mergePhotosFaq2A": "हां, टूल स्वचालित रूप से विभिन्न डाइमेंशन की इमेज को संभालता है। आप सभी इमेज को सबसे बड़े या सबसे छोटे डाइमेंशन से मिलान करने के लिए रीसाइज़ कर सकते हैं, या पैडिंग के साथ मूल अनुपात बनाए रख सकते हैं। हॉरिज़ॉन्टल लेआउट इमेज को वर्टिकली अलाइन करते हैं, जबकि वर्टिकल लेआउट उन्हें एक साफ़ परिणाम के लिए हॉरिज़ॉन्टली अलाइन करते हैं।",
+    "mergePhotosFaq3Q": "बिफ़ोर-ऐंड-आफ़्टर तुलना के लिए सबसे अच्छा लेआउट कौन सा है?",
+    "mergePhotosFaq3A": "हॉरिज़ॉन्टल साइड-बाय-साइड लेआउट बिफ़ोर-ऐंड-आफ़्टर तुलना के लिए सबसे अच्छा काम करता है, मूल को बाएं और परिणाम को दाएं रखते हुए। एक साफ़ जोड़ के लिए सुनिश्चित करें कि दोनों इमेज समान ऊंचाई की हों। इमेज के बीच न्यूनतम स्पेसिंग जोड़ें ताकि दर्शक सीमा पर विवरणों की आसानी से तुलना कर सकें।",
+    "extractMp3HowTo": "वीडियो से MP3 कैसे निकालें",
+    "extractMp3Step1": "वीडियो फ़ाइल अपलोड करें",
+    "extractMp3Step1Desc": "MP4, WebM, AVI, MOV या अन्य सामान्य फ़ॉर्मेट में अपनी वीडियो फ़ाइल चुनें। ऑडियो ट्रैक निकाला जाएगा।",
+    "extractMp3Step2": "ऑडियो ट्रैक निकालें",
+    "extractMp3Step2Desc": "टूल आपके वीडियो से ऑडियो स्ट्रीम निकालता है और ब्राउज़र-आधारित FFmpeg का उपयोग करके इसे MP3 फ़ॉर्मेट में बदलता है।",
+    "extractMp3Step3": "MP3 फ़ाइल डाउनलोड करें",
+    "extractMp3Step3Desc": "निकाली गई MP3 ऑडियो फ़ाइल सेव करें। इसे पॉडकास्ट, म्यूज़िक ट्रैक, वॉइस रिकॉर्डिंग या ऑडियो बैकअप के रूप में उपयोग करें।",
+    "extractMp3FaqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "extractMp3Faq1Q": "निकाले गए MP3 से मुझे कैसी ऑडियो गुणवत्ता की उम्मीद करनी चाहिए?",
+    "extractMp3Faq1A": "MP3 गुणवत्ता मूल वीडियो के ऑडियो ट्रैक पर निर्भर करती है। अधिकांश वीडियो में 128-256 kbps पर ऑडियो होता है। निष्कर्षण इस गुणवत्ता को संरक्षित करता है और इसे आपकी चुनी हुई बिटरेट पर MP3 के रूप में री-एनकोड करता है। संगीत के लिए, 256-320 kbps का उपयोग करें। भाषण और पॉडकास्ट के लिए, 128 kbps छोटे फ़ाइल साइज़ पर स्पष्ट गुणवत्ता प्रदान करता है।",
+    "extractMp3Faq2Q": "क्या मैं YouTube वीडियो से ऑडियो निकाल सकता हूं?",
+    "extractMp3Faq2A": "यह टूल आपके डिवाइस पर संग्रहीत वीडियो फ़ाइलों से ऑडियो निकालता है। आपको पहले वीडियो फ़ाइल को स्थानीय रूप से सेव करना होगा। यह टूल URL या स्ट्रीमिंग प्लेटफ़ॉर्म से वीडियो डाउनलोड नहीं करता। एक बार आपके पास स्थानीय वीडियो फ़ाइल हो जाने पर, आप तुरंत इसके ऑडियो ट्रैक को MP3 में निकाल सकते हैं।",
+    "extractMp3Faq3Q": "क्या निष्कर्षण के दौरान वीडियो सर्वर पर अपलोड किया जाता है?",
+    "extractMp3Faq3A": "नहीं, संपूर्ण निष्कर्षण प्रक्रिया WebAssembly-संचालित FFmpeg का उपयोग करके आपके ब्राउज़र में स्थानीय रूप से चलती है। आपकी वीडियो फ़ाइल कभी भी आपके डिवाइस से बाहर नहीं जाती, जो पूर्ण गोपनीयता सुनिश्चित करती है। यह निजी रिकॉर्डिंग, गोपनीय मीटिंग या व्यक्तिगत वीडियो सामग्री से ऑडियो निकालने के लिए विशेष रूप से महत्वपूर्ण है।"
   },
   "footer": {
     "tagline": "इमेज और वीडियो के लिए मुफ्त ऑनलाइन टूल। 100% ब्राउज़र-आधारित, आपकी फ़ाइलें कभी आपके डिवाइस से बाहर नहीं जातीं।",
@@ -430,19 +766,19 @@
         "content": [
           {
             "heading": "2026 में मुफ्त ऑनलाइन एडिटर क्यों महत्वपूर्ण हैं",
-            "text": "पेशेवर इमेज एडिटिंग के लिए अब महंगे सॉफ्टवेयर सब्सक्रिप्शन या शक्तिशाली डेस्कटॉप हार्डवेयर की जरूरत नहीं है। मुफ्त ऑनलाइन इमेज एडिटर इतने परिपक्व हो गए हैं कि वे रोजमर्रा की अधिकांश एडिटिंग कार्यों को आसानी से संभाल सकते हैं।\n\nब्राउज़र-आधारित टूल्स में बदलाव WebAssembly, ब्राउज़र API और क्लाउड कंप्यूटिंग में सुधारों से प्रेरित है।\n\nइस गाइड में, हम 2026 के पांच सर्वश्रेष्ठ मुफ्त ऑनलाइन इमेज एडिटर्स की तुलना करते हैं।"
+            "text": "पेशेवर इमेज एडिटिंग के लिए अब महंगे सॉफ्टवेयर सब्सक्रिप्शन या शक्तिशाली डेस्कटॉप हार्डवेयर की जरूरत नहीं है। मुफ्त ऑनलाइन इमेज एडिटर इतने परिपक्व हो गए हैं कि वे रोजमर्रा की अधिकांश एडिटिंग कार्यों को आसानी से संभाल सकते हैं।"
           },
           {
             "heading": "ToolPic और Canva की तुलना",
-            "text": "ToolPic एक प्राइवेसी-फर्स्ट इमेज और वीडियो टूलकिट है जो सब कुछ सीधे आपके ब्राउज़र में प्रोसेस करता है। आपकी फाइलें कभी आपके डिवाइस से बाहर नहीं जातीं।\n\nCanva एक डिज़ाइन-केंद्रित प्लेटफ़ॉर्म है जो हजारों टेम्प्लेट प्रदान करता है। हालांकि, Canva आपकी फाइलें अपने सर्वर पर अपलोड करता है।\n\nतेज, प्राइवेट इमेज प्रोसेसिंग के लिए ToolPic चुनें। टेम्प्लेट-आधारित डिज़ाइन के लिए Canva चुनें।"
+            "text": "ToolPic एक प्राइवेसी-फर्स्ट इमेज और वीडियो टूलकिट है जो सब कुछ सीधे आपके ब्राउज़र में प्रोसेस करता है। आपकी फाइलें कभी आपके डिवाइस से बाहर नहीं जातीं।"
           },
           {
             "heading": "Photopea, Pixlr और Fotor",
-            "text": "Photopea ब्राउज़र में मुफ्त उपलब्ध Photoshop के सबसे करीबी विकल्प है। PSD, XCF, Sketch और RAW फाइलों को सपोर्ट करता है।\n\nPixlr दो एडिटर प्रदान करता है: तेज एडिट के लिए Pixlr X और एडवांस्ड काम के लिए Pixlr E।\n\nFotor वन-क्लिक फिल्टर्स और पोर्ट्रेट रीटचिंग पर केंद्रित है।"
+            "text": "Photopea ब्राउज़र में मुफ्त उपलब्ध Photoshop के सबसे करीबी विकल्प है। PSD, XCF, Sketch और RAW फाइलों को सपोर्ट करता है।"
           },
           {
             "heading": "कौन सा एडिटर चुनें?",
-            "text": "प्राइवेसी-केंद्रित प्रोसेसिंग: ToolPic। ग्राफिक डिज़ाइन: Canva। एडवांस्ड लेयर एडिटिंग: Photopea। AI-एन्हांस्ड क्विक एडिट: Pixlr और Fotor।\n\nकई पेशेवर अपने वर्कफ़्लो को ऑप्टिमाइज़ करने के लिए कई टूल्स का उपयोग करते हैं।"
+            "text": "प्राइवेसी-केंद्रित प्रोसेसिंग: ToolPic। ग्राफिक डिज़ाइन: Canva। एडवांस्ड लेयर एडिटिंग: Photopea। AI-एन्हांस्ड क्विक एडिट: Pixlr और Fotor।"
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -455,19 +791,19 @@
         "content": [
           {
             "heading": "थंबनेल वीडियो की सफलता क्यों तय करते हैं",
-            "text": "थंबनेल सबसे महत्वपूर्ण कारक है कि कोई व्यक्ति आपके वीडियो पर क्लिक करेगा या नहीं। YouTube क्रिएटर अकादमी पुष्टि करती है कि 90% शीर्ष वीडियो कस्टम थंबनेल का उपयोग करते हैं।\n\nअनुशंसित आयाम 1280 x 720 पिक्सेल, 16:9 अनुपात, 2MB से कम फ़ाइल साइज़ है।"
+            "text": "थंबनेल सबसे महत्वपूर्ण कारक है कि कोई व्यक्ति आपके वीडियो पर क्लिक करेगा या नहीं। YouTube क्रिएटर अकादमी पुष्टि करती है कि 90% शीर्ष वीडियो कस्टम थंबनेल का उपयोग करते हैं।"
           },
           {
             "heading": "क्लिक बढ़ाने वाले डिज़ाइन सिद्धांत",
-            "text": "उच्च कंट्रास्ट रंग आवश्यक हैं। चमकीले, संतृप्त रंगों का उपयोग करें। पीला, लाल और नारंगी सबसे प्रभावी हैं।\n\nस्पष्ट भावनाओं वाले चेहरे अधिक क्लिक उत्पन्न करते हैं।\n\nटेक्स्ट अधिकतम 3-5 शब्दों तक रखें।"
+            "text": "उच्च कंट्रास्ट रंग आवश्यक हैं। चमकीले, संतृप्त रंगों का उपयोग करें। पीला, लाल और नारंगी सबसे प्रभावी हैं।"
           },
           {
             "heading": "रंग मनोविज्ञान और रचना",
-            "text": "लाल तात्कालिकता बनाता है, नीला विश्वास व्यक्त करता है, पीला ध्यान आकर्षित करता है, हरा विकास का सुझाव देता है।\n\nतिहाई के नियम का उपयोग करें। मुख्य विषय को केंद्र से थोड़ा हटाकर रखें।\n\nमुख्य विषय के पीछे धुंधली या गहरी पृष्ठभूमि से गहराई बनाएं।"
+            "text": "लाल तात्कालिकता बनाता है, नीला विश्वास व्यक्त करता है, पीला ध्यान आकर्षित करता है, हरा विकास का सुझाव देता है।"
           },
           {
             "heading": "ToolPic से थंबनेल बनाना",
-            "text": "उच्च गुणवत्ता वाले स्क्रीनशॉट से शुरू करें। ToolPic के इमेज क्रॉप टूल से 16:9 पर 1280 x 720 पिक्सेल में क्रॉप करें।\n\nवॉटरमार्क टूल से टेक्स्ट जोड़ें।\n\nउच्च गुणवत्ता JPG में निर्यात करें, 2MB से कम।"
+            "text": "उच्च गुणवत्ता वाले स्क्रीनशॉट से शुरू करें। ToolPic के इमेज क्रॉप टूल से 16:9 पर 1280 x 720 पिक्सेल में क्रॉप करें।"
           }
         ],
         "relatedToolIds": "image-crop,image-watermark"
@@ -480,19 +816,19 @@
         "content": [
           {
             "heading": "बैच प्रोसेसिंग से समय की बचत",
-            "text": "दर्जनों या सैकड़ों फाइलों को एक-एक करके कंप्रेस करना थकाऊ और अव्यावहारिक है। बैच प्रोसेसिंग एकमात्र कुशल तरीका है।\n\nएक इमेज का मैनुअल कंप्रेशन 30-60 सेकंड लेता है। 100 इमेज के लिए यह एक घंटे से अधिक है।\n\nबैच प्रोसेसिंग विजुअल एकरूपता भी सुनिश्चित करती है।"
+            "text": "दर्जनों या सैकड़ों फाइलों को एक-एक करके कंप्रेस करना थकाऊ और अव्यावहारिक है। बैच प्रोसेसिंग एकमात्र कुशल तरीका है।"
           },
           {
             "heading": "सही टूल चुनना",
-            "text": "ToolPic जैसे ब्राउज़र-आधारित टूल सबसे सुविधाजनक अनुभव प्रदान करते हैं। ड्रैग और ड्रॉप करें, क्वालिटी सेट करें, सब लोकल प्रोसेस होगा।\n\nImageOptim (macOS) और FileOptimizer (Windows) अच्छे विकल्प हैं।\n\nSharp और ImageMagick डेवलपर्स के लिए आदर्श हैं।"
+            "text": "ToolPic जैसे ब्राउज़र-आधारित टूल सबसे सुविधाजनक अनुभव प्रदान करते हैं। ड्रैग और ड्रॉप करें, क्वालिटी सेट करें, सब लोकल प्रोसेस होगा।"
           },
           {
             "heading": "इष्टतम सेटिंग्स",
-            "text": "फोटोग्राफ़ी के लिए JPEG या WebP 78-82% क्वालिटी पर सर्वोत्तम संतुलन देता है। 60-75% आकार कमी।\n\nतीखे किनारों वाले ग्राफ़िक्स के लिए PNG बेहतर है।\n\nकंप्रेस करने से पहले हमेशा डिस्प्ले आयाम पर रिसाइज़ करें।"
+            "text": "फोटोग्राफ़ी के लिए JPEG या WebP 78-82% क्वालिटी पर सर्वोत्तम संतुलन देता है। 60-75% आकार कमी।"
           },
           {
             "heading": "ToolPic से स्टेप-बाय-स्टेप",
-            "text": "ToolPic का इमेज कंप्रेसर खोलें। सभी इमेज ड्रैग और ड्रॉप करें।\n\nक्वालिटी स्लाइडर 80% पर सेट करें।\n\n\"सभी डाउनलोड करें\" बटन से सभी कंप्रेस्ड इमेज एक बार में सेव करें।"
+            "text": "ToolPic का इमेज कंप्रेसर खोलें। सभी इमेज ड्रैग और ड्रॉप करें।"
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -505,19 +841,19 @@
         "content": [
           {
             "heading": "इमेज फॉर्मेट की अगली पीढ़ी",
-            "text": "वेब ने दशकों तक JPEG और PNG पर निर्भर रहा है। WebP और AVIF जैसे आधुनिक फॉर्मेट उन्नत कंप्रेशन तकनीकों का उपयोग करते हैं।\n\nWebP 2010 में Google द्वारा VP8 वीडियो कोडेक पर आधारित जारी किया गया।\n\nAVIF 2019 में AV1 कोडेक पर आधारित आया, और भी बेहतर कंप्रेशन के साथ।"
+            "text": "वेब ने दशकों तक JPEG और PNG पर निर्भर रहा है। WebP और AVIF जैसे आधुनिक फॉर्मेट उन्नत कंप्रेशन तकनीकों का उपयोग करते हैं।"
           },
           {
             "heading": "कंप्रेशन क्वालिटी तुलना",
-            "text": "AVIF लगातार WebP से बेहतर प्रदर्शन करता है। समान क्वालिटी पर AVIF फाइलें WebP से 20-30% और JPEG से 50% छोटी होती हैं।\n\nAVIF बारीक टेक्सचर और ग्रेडिएंट बेहतर संरक्षित करता है।\n\nWebP एन्कोडिंग स्पीड और शार्प एज हैंडलिंग में बेहतर है।"
+            "text": "AVIF लगातार WebP से बेहतर प्रदर्शन करता है। समान क्वालिटी पर AVIF फाइलें WebP से 20-30% और JPEG से 50% छोटी होती हैं।"
           },
           {
             "heading": "ब्राउज़र सपोर्ट",
-            "text": "WebP 2026 में 97%+ ब्राउज़र में सपोर्टेड है। AVIF लगभग 92% में।\n\nHTML picture एलिमेंट से AVIF प्राइमरी और WebP फॉलबैक के रूप में सर्व करें।"
+            "text": "WebP 2026 में 97%+ ब्राउज़र में सपोर्टेड है। AVIF लगभग 92% में।"
           },
           {
             "heading": "कौन सा फॉर्मेट उपयोग करें?",
-            "text": "अधिकतम कंप्रेशन के लिए AVIF। विश्वसनीय फॉलबैक के लिए WebP।\n\nToolPic का इमेज कन्वर्टर दोनों फॉर्मेट सपोर्ट करता है।"
+            "text": "अधिकतम कंप्रेशन के लिए AVIF। विश्वसनीय फॉलबैक के लिए WebP।"
           }
         ],
         "relatedToolIds": "image-converter"
@@ -530,19 +866,19 @@
         "content": [
           {
             "heading": "प्रोडक्ट इमेज बिक्री क्यों बढ़ाती हैं",
-            "text": "ई-कॉमर्स में प्रोडक्ट इमेज सबसे शक्तिशाली बिक्री उपकरण हैं। 75% ऑनलाइन खरीदार खरीद निर्णय के लिए प्रोडक्ट फोटो पर निर्भर करते हैं।\n\nअन-ऑप्टिमाइज़्ड फोटो 2-5MB प्रत्येक हो सकती हैं।\n\nऑप्टिमाइज़ेशन से 70-90% आकार कमी संभव है।"
+            "text": "ई-कॉमर्स में प्रोडक्ट इमेज सबसे शक्तिशाली बिक्री उपकरण हैं। 75% ऑनलाइन खरीदार खरीद निर्णय के लिए प्रोडक्ट फोटो पर निर्भर करते हैं।"
           },
           {
             "heading": "अनुशंसित आयाम और फॉर्मेट",
-            "text": "मुख्य इमेज: सबसे लंबी भुजा पर 1000-2000 पिक्सेल। 1200 x 1200 या 1500 x 1500 अनुशंसित।\n\nWebP 2026 में आदर्श फॉर्मेट है। JPEG से 25-35% छोटी फाइलें।\n\nथंबनेल: 400-600 पिक्सेल चौड़ाई।"
+            "text": "मुख्य इमेज: सबसे लंबी भुजा पर 1000-2000 पिक्सेल। 1200 x 1200 या 1500 x 1500 अनुशंसित।"
           },
           {
             "heading": "ई-कॉमर्स इमेज SEO",
-            "text": "वर्णनात्मक फ़ाइल नाम और alt टेक्स्ट SEO के लिए महत्वपूर्ण हैं।\n\nSchema.org Product का उपयोग करें।\n\nखोज में बेहतर दृश्यता के लिए इमेज मेटाडेटा ऑप्टिमाइज़ करें।"
+            "text": "वर्णनात्मक फ़ाइल नाम और alt टेक्स्ट SEO के लिए महत्वपूर्ण हैं।"
           },
           {
             "heading": "ToolPic से ऑप्टिमाइज़ेशन",
-            "text": "क्रॉप टूल से समान अनुपात (1:1) में कटें। कंप्रेसर से 80% क्वालिटी पर बैच प्रोसेस करें।\n\nसब कुछ लोकल प्रोसेस होता है — इमेज आपके डिवाइस से बाहर नहीं जातीं।"
+            "text": "क्रॉप टूल से समान अनुपात (1:1) में कटें। कंप्रेसर से 80% क्वालिटी पर बैच प्रोसेस करें।"
           }
         ],
         "relatedToolIds": "image-compressor,image-crop"
@@ -555,19 +891,19 @@
         "content": [
           {
             "heading": "इमेज कंप्रेशन क्यों महत्वपूर्ण है",
-            "text": "बड़ी इमेज वेबसाइट की धीमी लोडिंग के सबसे बड़े कारणों में से एक हैं। जब किसी पेज को लोड होने में तीन सेकंड से अधिक समय लगता है, तो आधे से अधिक विज़िटर आपका कंटेंट देखने से पहले ही चले जाते हैं। सर्च इंजन भी पेज स्पीड को अपने रैंकिंग एल्गोरिदम में शामिल करते हैं, इसलिए भारी इमेज सीधे आपकी सर्च रिज़ल्ट में विज़िबिलिटी को नुकसान पहुँचा सकती हैं।\n\nवेबसाइट परफ़ॉर्मेंस के अलावा, कंप्रेस्ड इमेज ईमेल, मैसेजिंग ऐप्स और सोशल मीडिया प्लेटफ़ॉर्म के ज़रिए शेयर करना आसान होता है जो फ़ाइल साइज़ की सीमा लगाते हैं। आपके फ़ोन की 5MB फ़ोटो हाई-रिज़ॉल्यूशन स्क्रीन पर शानदार लग सकती है, लेकिन यह अधिकांश ऑनलाइन उपयोगों के लिए ज़रूरत से कहीं बड़ी है। इसे 500KB या उससे कम करने से यह विज़ुअल गुणवत्ता में किसी ध्यान देने योग्य गिरावट के बिना दस गुना तेज़ लोड हो सकती है।\n\nइमेज कंप्रेशन ई-कॉमर्स स्टोर, पोर्टफ़ोलियो और कंटेंट-हेवी ब्लॉग के लिए विशेष रूप से महत्वपूर्ण है जहाँ एक ही पेज पर दर्जनों इमेज दिखाई देती हैं। प्रति इमेज छोटी बचत भी समग्र पेज परफ़ॉर्मेंस में महत्वपूर्ण सुधार में जुड़ जाती है।"
+            "text": "बड़ी इमेज वेबसाइट की धीमी लोडिंग के सबसे बड़े कारणों में से एक हैं। जब किसी पेज को लोड होने में तीन सेकंड से अधिक समय लगता है, तो आधे से अधिक विज़िटर आपका कंटेंट देखने से पहले ही चले जाते हैं। सर्च इंजन भी पेज स्पीड को अपने रैंकिंग एल्गोरिदम में शामिल करते हैं, इसलिए भारी इमेज सीधे आपकी सर्च रिज़ल्ट में विज़िबिलिटी को नुकसान पहुँचा सकती हैं।"
           },
           {
             "heading": "लॉसी बनाम लॉसलेस कंप्रेशन",
-            "text": "इमेज कंप्रेशन के दो मूलभूत दृष्टिकोण हैं: लॉसी और लॉसलेस। अंतर को समझना आपको हर स्थिति के लिए सही तरीका चुनने में मदद करता है।\n\nलॉसलेस कंप्रेशन किसी भी इमेज जानकारी को हटाए बिना अनावश्यक डेटा पैटर्न ढूंढकर और हटाकर फ़ाइल साइज़ कम करता है। जब आप फ़ाइल को डीकंप्रेस करते हैं, तो आपको बिल्कुल मूल पिक्सेल डेटा वापस मिलता है। PNG लॉसलेस कंप्रेशन का उपयोग करता है, जो इसे ग्राफ़िक्स, लोगो और स्क्रीनशॉट के लिए आदर्श बनाता है जहाँ हर डिटेल मायने रखती है। कमी यह है कि लॉसलेस कंप्रेशन आमतौर पर केवल मामूली साइज़ कमी हासिल करता है, आमतौर पर 10% और 40% के बीच।\n\nलॉसी कंप्रेशन उन इमेज डेटा को स्थायी रूप से हटाकर बहुत अधिक साइज़ कमी प्राप्त करता है जो मानव आँख को शायद दिखाई न दे। JPEG सबसे आम लॉसी फ़ॉर्मेट है, और WebP जैसे आधुनिक फ़ॉर्मेट और भी बेहतर लॉसी कंप्रेशन प्रदान करते हैं। 75% से 85% के बीच गुणवत्ता सेटिंग पर, अधिकांश फ़ोटो 60% से 80% छोटी होते हुए भी मूल से विज़ुअली अप्रभेद्य होती हैं।"
+            "text": "इमेज कंप्रेशन के दो मूलभूत दृष्टिकोण हैं: लॉसी और लॉसलेस। अंतर को समझना आपको हर स्थिति के लिए सही तरीका चुनने में मदद करता है।"
           },
           {
             "heading": "इमेज कंप्रेशन के लिए सर्वोत्तम अभ्यास",
-            "text": "अपने कंटेंट के लिए सही फ़ॉर्मेट चुनकर शुरू करें। फ़ोटोग्राफ़ और ग्रेडिएंट वाली जटिल इमेज के लिए JPEG या WebP का उपयोग करें। तीखे किनारों, टेक्स्ट ओवरले या ट्रांसपेरेंसी वाली ग्राफ़िक्स के लिए PNG का उपयोग करें। फ़ोटोग्राफ़ के लिए PNG का उपयोग करने से बचें क्योंकि यह अनावश्यक रूप से बड़ी फ़ाइलें बनाता है।\n\nकंप्रेस करने से पहले इमेज को उन डाइमेंशन में रीसाइज़ करें जिनमें वे वास्तव में प्रदर्शित होंगी। 4000-पिक्सेल चौड़ी इमेज को 800 पिक्सेल चौड़े कंटेनर में सर्व करने का कोई मतलब नहीं है। पहले रीसाइज़ करना और फिर कंप्रेस करना केवल कंप्रेस करने से कहीं अधिक प्रभावी है।\n\nवेब उपयोग के लिए, हीरो इमेज के लिए 200KB से कम और थंबनेल और कंटेंट इमेज के लिए 100KB से कम फ़ाइल साइज़ का लक्ष्य रखें। JPEG और WebP के लिए 75% से 85% के बीच गुणवत्ता सेटिंग का उपयोग करें। यह सुनिश्चित करने के लिए हमेशा कंप्रेस्ड वर्शन की मूल के साथ तुलना करें कि गुणवत्ता आपके मानकों को पूरा करती है।"
+            "text": "अपने कंटेंट के लिए सही फ़ॉर्मेट चुनकर शुरू करें। फ़ोटोग्राफ़ और ग्रेडिएंट वाली जटिल इमेज के लिए JPEG या WebP का उपयोग करें। तीखे किनारों, टेक्स्ट ओवरले या ट्रांसपेरेंसी वाली ग्राफ़िक्स के लिए PNG का उपयोग करें। फ़ोटोग्राफ़ के लिए PNG का उपयोग करने से बचें क्योंकि यह अनावश्यक रूप से बड़ी फ़ाइलें बनाता है।"
           },
           {
             "heading": "ToolPic से इमेज कैसे कंप्रेस करें",
-            "text": "स्टेप 1: ToolPic पर इमेज कंप्रेसर टूल खोलें। आप अपनी इमेज सीधे अपलोड एरिया पर ड्रैग और ड्रॉप कर सकते हैं, या फ़ाइलें ब्राउज़ करने के लिए क्लिक कर सकते हैं। एक साथ कई इमेज प्रोसेस की जा सकती हैं।\n\nस्टेप 2: अपना वांछित कंप्रेशन लेवल सेट करने के लिए क्वालिटी स्लाइडर एडजस्ट करें। 80% की डिफ़ॉल्ट सेटिंग अधिकांश फ़ोटो के लिए अच्छी काम करती है। छोटी फ़ाइलों के लिए स्लाइडर नीचे या अधिक डिटेल संरक्षित करने के लिए ऊपर ले जाएं। टूल रियल टाइम में अनुमानित फ़ाइल साइज़ कमी दिखाता है।\n\nस्टेप 3: प्रोसेसिंग पूरी होने के बाद, गुणवत्ता स्वीकार्य है यह सत्यापित करने के लिए पहले और बाद की तुलना की समीक्षा करें। अलग-अलग इमेज डाउनलोड करें या सब कुछ एक साथ सेव करने के लिए \"सभी डाउनलोड करें\" बटन का उपयोग करें। आपकी फ़ाइलें कभी ब्राउज़र से बाहर नहीं जातीं, इसलिए पूरी प्रक्रिया पूरी तरह निजी है।"
+            "text": "स्टेप 1: ToolPic पर इमेज कंप्रेसर टूल खोलें। आप अपनी इमेज सीधे अपलोड एरिया पर ड्रैग और ड्रॉप कर सकते हैं, या फ़ाइलें ब्राउज़ करने के लिए क्लिक कर सकते हैं। एक साथ कई इमेज प्रोसेस की जा सकती हैं।"
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -580,19 +916,19 @@
         "content": [
           {
             "heading": "इमेज फ़ॉर्मेट को समझना",
-            "text": "सही इमेज फ़ॉर्मेट चुनना फ़ाइल साइज़, लोडिंग स्पीड और विज़ुअल गुणवत्ता में महत्वपूर्ण अंतर ला सकता है। प्रत्येक फ़ॉर्मेट अलग-अलग उपयोग के लिए डिज़ाइन किया गया था, और गलत फ़ॉर्मेट का उपयोग अक्सर अनावश्यक रूप से बड़ी फ़ाइलें या खराब इमेज गुणवत्ता का मतलब होता है।\n\nआज वेब के लिए तीन सबसे महत्वपूर्ण फ़ॉर्मेट JPEG (JPG), PNG और WebP हैं। JPEG 1990 के दशक के मध्य से फ़ोटोग्राफ़ के लिए मानक रहा है। PNG ग्राफ़िक्स और ट्रांसपेरेंसी की आवश्यकता वाली इमेज के लिए प्रमुख फ़ॉर्मेट बन गया। Google द्वारा विकसित WebP एक आधुनिक फ़ॉर्मेट है जो फ़ोटोग्राफ़िक और ग्राफ़िक दोनों कंटेंट के लिए बेहतर कंप्रेशन प्रदान करके दोनों को बदलने का लक्ष्य रखता है।\n\nप्रत्येक फ़ॉर्मेट की ताकत और सीमाओं को समझना इमेज के साथ काम करने वाले हर व्यक्ति के लिए आवश्यक है, चाहे आप वेबसाइट बना रहे हों, सोशल मीडिया कंटेंट मैनेज कर रहे हों, या बस अपने डिवाइस पर स्टोरेज स्पेस बचाने की कोशिश कर रहे हों।"
+            "text": "सही इमेज फ़ॉर्मेट चुनना फ़ाइल साइज़, लोडिंग स्पीड और विज़ुअल गुणवत्ता में महत्वपूर्ण अंतर ला सकता है। प्रत्येक फ़ॉर्मेट अलग-अलग उपयोग के लिए डिज़ाइन किया गया था, और गलत फ़ॉर्मेट का उपयोग अक्सर अनावश्यक रूप से बड़ी फ़ाइलें या खराब इमेज गुणवत्ता का मतलब होता है।"
           },
           {
             "heading": "JPEG: फ़ोटोग्राफ़ी का मानक",
-            "text": "JPEG लॉसी कंप्रेशन का उपयोग करता है जो फ़ोटोग्राफ़ और स्मूथ कलर ट्रांज़िशन वाली इमेज को प्रदर्शित करने में उत्कृष्ट है। यह मध्यम कंप्रेशन स्तर पर उत्कृष्ट विज़ुअल गुणवत्ता बनाए रखते हुए फ़ोटो फ़ाइल साइज़ को 80% या उससे अधिक कम कर सकता है।\n\nJPEG का मुख्य लाभ इसकी सार्वभौमिक संगतता है। हर डिवाइस, ब्राउज़र और एप्लिकेशन इसे सपोर्ट करता है। यह अत्यधिक कॉन्फ़िगर करने योग्य भी है, जो आपको न्यूनतम कंप्रेशन से लेकर आक्रामक कमी तक कहीं भी गुणवत्ता स्तर चुनने की अनुमति देता है।\n\nहालांकि, JPEG की उल्लेखनीय सीमाएँ हैं। यह ट्रांसपेरेंसी सपोर्ट नहीं करता, इसलिए आप JPEG इमेज को बिना दिखाई देने वाले रेक्टेंगल के अलग बैकग्राउंड पर नहीं रख सकते। कम गुणवत्ता सेटिंग पर यह दृश्य आर्टिफ़ैक्ट भी बनाता है, विशेष रूप से तीखे किनारों और टेक्स्ट के आसपास। हर बार जब आप JPEG को एडिट और री-सेव करते हैं, री-कंप्रेशन के कारण गुणवत्ता और खराब होती है।"
+            "text": "JPEG लॉसी कंप्रेशन का उपयोग करता है जो फ़ोटोग्राफ़ और स्मूथ कलर ट्रांज़िशन वाली इमेज को प्रदर्शित करने में उत्कृष्ट है। यह मध्यम कंप्रेशन स्तर पर उत्कृष्ट विज़ुअल गुणवत्ता बनाए रखते हुए फ़ोटो फ़ाइल साइज़ को 80% या उससे अधिक कम कर सकता है।"
           },
           {
             "heading": "PNG: लॉसलेस गुणवत्ता और ट्रांसपेरेंसी",
-            "text": "PNG लॉसलेस कंप्रेशन का उपयोग करता है, जिसका अर्थ है कि आप इसे कितनी भी बार सेव करें, इमेज की गुणवत्ता पूरी तरह संरक्षित रहती है। यह पूर्ण अल्फ़ा ट्रांसपेरेंसी भी सपोर्ट करता है, जो पिक्सेल को आंशिक या पूरी तरह पारदर्शी होने की अनुमति देता है।\n\nयह PNG को लोगो, आइकन, स्क्रीनशॉट, टेक्स्ट वाली ग्राफ़िक्स और किसी भी इमेज के लिए सर्वोत्तम विकल्प बनाता है जहाँ आपको पारदर्शी बैकग्राउंड की आवश्यकता है। यह उन इमेज के लिए भी आदर्श है जिन्हें कई बार एडिट किया जाएगा, क्योंकि बार-बार सेव करने से गुणवत्ता में कोई नुकसान नहीं होता।\n\nट्रेड-ऑफ़ फ़ाइल साइज़ है। PNG फ़ाइलें फ़ोटोग्राफ़िक कंटेंट के लिए JPEG फ़ाइलों से आमतौर पर तीन से पाँच गुना बड़ी होती हैं। यह PNG को वेब पर बड़ी फ़ोटो के लिए अव्यावहारिक बनाता है, जहाँ लोडिंग स्पीड महत्वपूर्ण है। PNG का उपयोग तब करें जब गुणवत्ता और ट्रांसपेरेंसी फ़ाइल साइज़ से अधिक महत्वपूर्ण हों।"
+            "text": "PNG लॉसलेस कंप्रेशन का उपयोग करता है, जिसका अर्थ है कि आप इसे कितनी भी बार सेव करें, इमेज की गुणवत्ता पूरी तरह संरक्षित रहती है। यह पूर्ण अल्फ़ा ट्रांसपेरेंसी भी सपोर्ट करता है, जो पिक्सेल को आंशिक या पूरी तरह पारदर्शी होने की अनुमति देता है।"
           },
           {
             "heading": "WebP: आधुनिक विकल्प",
-            "text": "WebP को Google ने वेब इमेज के लिए बेहतर कंप्रेशन प्रदान करने के लिए विकसित किया था। यह लॉसी और लॉसलेस दोनों कंप्रेशन, साथ ही ट्रांसपेरेंसी और एनिमेशन सपोर्ट करता है, प्रभावी रूप से JPEG, PNG और GIF की सर्वोत्तम सुविधाओं को एक फ़ॉर्मेट में जोड़ता है।\n\nव्यवहार में, WebP लॉसी इमेज समकक्ष विज़ुअल गुणवत्ता पर JPEG से आमतौर पर 25% से 35% छोटी होती हैं। WebP लॉसलेस इमेज PNG से लगभग 26% छोटी होती हैं। यह WebP को वेब उपयोग के लिए एक उत्कृष्ट डिफ़ॉल्ट विकल्प बनाता है, बैंडविड्थ लागत कम करता है और पेज लोड टाइम सुधारता है।\n\nWebP के लिए ब्राउज़र सपोर्ट अब उत्कृष्ट है, Chrome, Firefox, Safari और Edge को कवर करता है। मुख्य सीमा पुराने सॉफ़्टवेयर और कुछ नेटिव मोबाइल ऐप्स के साथ संगतता है। जब अधिकतम संगतता आवश्यक हो, JPEG सुरक्षित विकल्प बना रहता है। वेब पब्लिशिंग के लिए जहाँ परफ़ॉर्मेंस मायने रखती है, WebP स्पष्ट विजेता है। आप ToolPic के इमेज कन्वर्टर का उपयोग करके इनमें से किसी भी फ़ॉर्मेट के बीच आसानी से स्विच कर सकते हैं।"
+            "text": "WebP को Google ने वेब इमेज के लिए बेहतर कंप्रेशन प्रदान करने के लिए विकसित किया था। यह लॉसी और लॉसलेस दोनों कंप्रेशन, साथ ही ट्रांसपेरेंसी और एनिमेशन सपोर्ट करता है, प्रभावी रूप से JPEG, PNG और GIF की सर्वोत्तम सुविधाओं को एक फ़ॉर्मेट में जोड़ता है।"
           }
         ],
         "relatedToolIds": "image-converter"
@@ -605,19 +941,19 @@
         "content": [
           {
             "heading": "GIF अभी भी क्यों लोकप्रिय हैं",
-            "text": "1987 का फ़ॉर्मेट होने के बावजूद, GIF पहले से कहीं अधिक लोकप्रिय हो गए हैं। ये लगभग हर मैसेजिंग ऐप, सोशल मीडिया प्लेटफ़ॉर्म और ईमेल क्लाइंट में बिना वीडियो प्लेयर की आवश्यकता के स्वचालित रूप से चलते हैं। यह निर्बाध प्लेबैक उन्हें रिएक्शन, डेमो और त्वरित ट्यूटोरियल के लिए आदर्श बनाता है।\n\nGIF का प्रोफ़ेशनल संदर्भों में प्रोडक्ट डेमो, UI एनिमेशन और बग रिपोर्ट के लिए भी व्यापक रूप से उपयोग किया जाता है। सॉफ़्टवेयर फ़ीचर को एक्शन में दिखाता एक छोटा GIF टेक्स्ट के पैराग्राफ़ या स्थिर स्क्रीनशॉट की श्रृंखला से अधिक प्रभावी ढंग से संवाद करता है।\n\nफ़ॉर्मेट की मुख्य सीमा फ़ाइल साइज़ है। क्योंकि GIF अपेक्षाकृत अक्षम कंप्रेशन विधि का उपयोग करता है और प्रति फ़्रेम 256 रंगों तक सीमित है, वे जल्दी बड़े हो सकते हैं। एक अच्छी तरह ऑप्टिमाइज़्ड 5-सेकंड GIF 1-2MB हो सकता है, जबकि एक खराब कॉन्फ़िगर किया हुआ आसानी से 10MB से अधिक हो सकता है।"
+            "text": "1987 का फ़ॉर्मेट होने के बावजूद, GIF पहले से कहीं अधिक लोकप्रिय हो गए हैं। ये लगभग हर मैसेजिंग ऐप, सोशल मीडिया प्लेटफ़ॉर्म और ईमेल क्लाइंट में बिना वीडियो प्लेयर की आवश्यकता के स्वचालित रूप से चलते हैं। यह निर्बाध प्लेबैक उन्हें रिएक्शन, डेमो और त्वरित ट्यूटोरियल के लिए आदर्श बनाता है।"
           },
           {
             "heading": "सही सेटिंग्स चुनना",
-            "text": "वीडियो को GIF में कन्वर्ट करते समय तीन सबसे महत्वपूर्ण सेटिंग्स हैं: अवधि, फ़्रेम रेट और आउटपुट डाइमेंशन। इन्हें सही करना एक स्पष्ट, शेयर करने योग्य GIF और एक भारी फ़ाइल के बीच का अंतर बनाता है जो लोड होने में बहुत समय लेती है।\n\nअपने GIF की अवधि कम रखें। 5 सेकंड से कम आदर्श है, और अधिकांश प्रभावी GIF 2 से 4 सेकंड के बीच होते हैं। लंबे क्लिप को सबसे महत्वपूर्ण क्षण पर फ़ोकस करने के लिए ट्रिम किया जाना चाहिए।\n\nफ़्रेम रेट का फ़ाइल साइज़ पर बहुत बड़ा प्रभाव पड़ता है। वीडियो आमतौर पर 24-30 फ़्रेम प्रति सेकंड पर चलता है, लेकिन GIF सिर्फ़ 10-15 FPS पर भी स्मूथ दिखते हैं। 30 FPS से 12 FPS तक गिरने से फ़ाइल साइज़ आधे से अधिक कम हो जाता है जबकि विज़ुअल प्रभाव न्यूनतम होता है।"
+            "text": "वीडियो को GIF में कन्वर्ट करते समय तीन सबसे महत्वपूर्ण सेटिंग्स हैं: अवधि, फ़्रेम रेट और आउटपुट डाइमेंशन। इन्हें सही करना एक स्पष्ट, शेयर करने योग्य GIF और एक भारी फ़ाइल के बीच का अंतर बनाता है जो लोड होने में बहुत समय लेती है।"
           },
           {
             "heading": "GIF फ़ाइल साइज़ ऑप्टिमाइज़ करना",
-            "text": "रिज़ॉल्यूशन GIF फ़ाइल साइज़ में सबसे बड़ा कारक है। 1080p GIF विशाल होगा। अधिकांश उपयोगों के लिए, 480 से 640 पिक्सेल की चौड़ाई पर्याप्त है। सोशल मीडिया प्लेटफ़ॉर्म और मैसेजिंग ऐप्स वैसे भी GIF को छोटे साइज़ में दिखाते हैं, इसलिए उच्च रिज़ॉल्यूशन व्यर्थ है।\n\nरंग कम करना भी मदद करता है। GIF प्रति फ़्रेम अधिकतम 256 रंगों को सपोर्ट करता है। यदि आपके सोर्स वीडियो में कई रंग हैं, तो कन्वर्शन प्रक्रिया को चुनना होगा कि कौन से 256 रखने हैं। कम रंगों वाले सरल दृश्य स्वाभाविक रूप से छोटी फ़ाइलें बनाते हैं।\n\nअंत में, विचार करें कि क्या आपको वास्तव में GIF की आवश्यकता है। WebP एनिमेशन और शॉर्ट MP4 लूप जैसे आधुनिक विकल्प बेहतर गुणवत्ता के साथ बहुत छोटी फ़ाइलें बनाते हैं। हालांकि, सभी प्लेटफ़ॉर्म पर एनिमेटेड इमेज के लिए GIF सबसे सार्वभौमिक रूप से संगत विकल्प बने रहते हैं।"
+            "text": "रिज़ॉल्यूशन GIF फ़ाइल साइज़ में सबसे बड़ा कारक है। 1080p GIF विशाल होगा। अधिकांश उपयोगों के लिए, 480 से 640 पिक्सेल की चौड़ाई पर्याप्त है। सोशल मीडिया प्लेटफ़ॉर्म और मैसेजिंग ऐप्स वैसे भी GIF को छोटे साइज़ में दिखाते हैं, इसलिए उच्च रिज़ॉल्यूशन व्यर्थ है।"
           },
           {
             "heading": "ToolPic से GIF बनाना",
-            "text": "ToolPic पर वीडियो से GIF टूल खोलें और अपनी वीडियो फ़ाइल अपलोड करें। टूल MP4, WebM और अन्य सामान्य वीडियो फ़ॉर्मेट सपोर्ट करता है। जिस क्लिप को कन्वर्ट करना चाहते हैं उसकी सटीक शुरुआत बिंदु और अवधि चुनने के लिए टाइमलाइन स्लाइडर का उपयोग करें।\n\nअपनी वांछित आउटपुट चौड़ाई सेट करें। सोशल मीडिया और मैसेजिंग के लिए, 480px एक अच्छा प्रारंभिक बिंदु है। फ़्रेम रेट 10-12 FPS पर सेट करें जब तक कि आपको अधिक स्मूथ मोशन की आवश्यकता न हो। टूल अनुमानित फ़ाइल साइज़ का प्रीव्यू दिखाता है ताकि आप कन्वर्ट करने से पहले सेटिंग्स को फ़ाइन-ट्यून कर सकें।\n\nजब आप प्रीव्यू से संतुष्ट हों, कन्वर्ट पर क्लिक करें और अपना ऑप्टिमाइज़्ड GIF डाउनलोड करें। पूरी प्रक्रिया आपके ब्राउज़र में होती है, इसलिए आपकी वीडियो फ़ाइलें आपके डिवाइस पर पूरी तरह निजी रहती हैं।"
+            "text": "ToolPic पर वीडियो से GIF टूल खोलें और अपनी वीडियो फ़ाइल अपलोड करें। टूल MP4, WebM और अन्य सामान्य वीडियो फ़ॉर्मेट सपोर्ट करता है। जिस क्लिप को कन्वर्ट करना चाहते हैं उसकी सटीक शुरुआत बिंदु और अवधि चुनने के लिए टाइमलाइन स्लाइडर का उपयोग करें।"
           }
         ],
         "relatedToolIds": "video-to-gif"
@@ -630,19 +966,19 @@
         "content": [
           {
             "heading": "एक अच्छे कंप्रेशन टूल की क्या विशेषताएँ होती हैं",
-            "text": "एक अच्छे इमेज कंप्रेशन टूल को तीन चीज़ों में संतुलन बनाना चाहिए: कंप्रेशन अनुपात, विज़ुअल गुणवत्ता और उपयोग में आसानी। सर्वोत्तम टूल आपको इमेज को सामान्य व्यूइंग साइज़ पर ओरिजिनल से विज़ुअली अप्रभेद्य रखते हुए फ़ाइल साइज़ को काफ़ी कम करने देते हैं।\n\nप्राइवेसी भी एक बढ़ता हुआ महत्वपूर्ण विचार है। जो टूल अपने सर्वर पर इमेज प्रोसेस करते हैं, उन्हें आपको अपनी फ़ाइलें अपलोड करनी होती हैं, जिसका अर्थ है कि आपकी इमेज थर्ड-पार्टी सिस्टम से गुज़रती हैं। संवेदनशील या प्रोप्राइटरी इमेज के लिए, ब्राउज़र-आधारित टूल जो सब कुछ लोकल रूप से प्रोसेस करते हैं, स्पष्ट लाभ प्रदान करते हैं।\n\nअन्य विचारणीय कारकों में बैच प्रोसेसिंग सपोर्ट, फ़ॉर्मेट विकल्प, अधिकतम फ़ाइल साइज़ सीमा, और क्या टूल वॉटरमार्क जोड़ता है या रजिस्ट्रेशन की आवश्यकता है, शामिल हैं। यहाँ सूचीबद्ध सभी टूल व्यावहारिक कार्यक्षमता के साथ मुफ्त टियर प्रदान करते हैं।"
+            "text": "एक अच्छे इमेज कंप्रेशन टूल को तीन चीज़ों में संतुलन बनाना चाहिए: कंप्रेशन अनुपात, विज़ुअल गुणवत्ता और उपयोग में आसानी। सर्वोत्तम टूल आपको इमेज को सामान्य व्यूइंग साइज़ पर ओरिजिनल से विज़ुअली अप्रभेद्य रखते हुए फ़ाइल साइज़ को काफ़ी कम करने देते हैं।"
           },
           {
             "heading": "ब्राउज़र-आधारित टूल",
-            "text": "ToolPic WebAssembly तकनीक का उपयोग करके पूरी तरह आपके ब्राउज़र में इमेज प्रोसेस करता है। आपकी फ़ाइलें कभी आपके डिवाइस से बाहर नहीं जातीं, जो इसे सबसे प्राइवेसी-फ़्रेंडली विकल्प बनाता है। यह एडजस्टेबल क्वालिटी सेटिंग और बैच प्रोसेसिंग के साथ JPEG, PNG, WebP और AVIF फ़ॉर्मेट सपोर्ट करता है। कोई फ़ाइल काउंट लिमिट या वॉटरमार्क नहीं।\n\nGoogle Chrome टीम द्वारा विकसित Squoosh एक उत्कृष्ट सिंगल-इमेज कंप्रेशन टूल है। यह यूनिक साइड-बाय-साइड तुलना व्यू प्रदान करता है और AVIF और JPEG XL सहित आधुनिक फ़ॉर्मेट सपोर्ट करता है। हालांकि, यह एक बार में केवल एक इमेज प्रोसेस करता है, जो इसे बैच कार्य के लिए कम व्यावहारिक बनाता है।\n\nTinyPNG एक लोकप्रिय वेब-आधारित टूल है जो PNG और JPEG कंप्रेशन दोनों को अच्छी तरह संभालता है। यह स्मार्ट लॉसी कंप्रेशन का उपयोग करता है जो उत्कृष्ट परिणाम देता है। मुफ्त वर्शन आपको प्रति बैच 20 इमेज और प्रति इमेज 5MB तक सीमित करता है, और इमेज प्रोसेसिंग के लिए उनके सर्वर पर अपलोड होती हैं।"
+            "text": "ToolPic WebAssembly तकनीक का उपयोग करके पूरी तरह आपके ब्राउज़र में इमेज प्रोसेस करता है। आपकी फ़ाइलें कभी आपके डिवाइस से बाहर नहीं जातीं, जो इसे सबसे प्राइवेसी-फ़्रेंडली विकल्प बनाता है। यह एडजस्टेबल क्वालिटी सेटिंग और बैच प्रोसेसिंग के साथ JPEG, PNG, WebP और AVIF फ़ॉर्मेट सपोर्ट करता है। कोई फ़ाइल काउंट लिमिट या वॉटरमार्क नहीं।"
           },
           {
             "heading": "डेस्कटॉप और CLI टूल",
-            "text": "ImageOptim macOS के लिए एक मुफ्त डेस्कटॉप एप्लिकेशन है जो कई ऑप्टिमाइज़ेशन एल्गोरिदम का उपयोग करके इमेज कंप्रेस करता है। यह PNG फ़ाइलों को ऑप्टिमाइज़ करने में विशेष रूप से अच्छा है और एक साथ पूरे फ़ोल्डर प्रोसेस कर सकता है। नेटिव एप्लिकेशन होने के कारण, यह ब्राउज़र-आधारित टूल की तुलना में बड़े बैच तेज़ी से संभालता है।\n\nSharpJS एक उच्च-प्रदर्शन Node.js इमेज प्रोसेसिंग लाइब्रेरी है जिसे डेवलपर अपने बिल्ड पाइपलाइन में इंटीग्रेट कर सकते हैं। यह उत्कृष्ट कंप्रेशन गुणवत्ता प्रदान करता है और सभी प्रमुख फ़ॉर्मेट सपोर्ट करता है। सेटअप के लिए तकनीकी ज्ञान की आवश्यकता होती है, लेकिन वेब डेवलपमेंट वर्कफ़्लो में इमेज ऑप्टिमाइज़ेशन को ऑटोमेट करने के लिए यह आदर्श है।\n\nअधिकांश यूज़र के लिए, ब्राउज़र-आधारित टूल सुविधा और गुणवत्ता का सर्वोत्तम संयोजन प्रदान करते हैं। इन्हें किसी इंस्टॉलेशन की आवश्यकता नहीं, किसी भी ऑपरेटिंग सिस्टम पर काम करते हैं, और तत्काल परिणाम देते हैं।"
+            "text": "ImageOptim macOS के लिए एक मुफ्त डेस्कटॉप एप्लिकेशन है जो कई ऑप्टिमाइज़ेशन एल्गोरिदम का उपयोग करके इमेज कंप्रेस करता है। यह PNG फ़ाइलों को ऑप्टिमाइज़ करने में विशेष रूप से अच्छा है और एक साथ पूरे फ़ोल्डर प्रोसेस कर सकता है। नेटिव एप्लिकेशन होने के कारण, यह ब्राउज़र-आधारित टूल की तुलना में बड़े बैच तेज़ी से संभालता है।"
           },
           {
             "heading": "प्राइवेसी तुलना",
-            "text": "कंप्रेशन टूल चुनते समय, विचार करें कि आपकी इमेज कहाँ प्रोसेस हो रही हैं। सर्वर-आधारित टूल जैसे TinyPNG आपकी इमेज को प्रोसेसिंग के लिए रिमोट सर्वर पर अपलोड करते हैं। जबकि प्रतिष्ठित सेवाएँ प्रोसेसिंग के बाद फ़ाइलें हटा देती हैं, आपकी इमेज थोड़े समय के लिए थर्ड-पार्टी इंफ़्रास्ट्रक्चर पर मौजूद रहती हैं।\n\nToolPic और Squoosh जैसे ब्राउज़र-आधारित टूल कभी आपकी फ़ाइलें अपलोड नहीं करते। सारी प्रोसेसिंग आपके डिवाइस के CPU और मेमोरी का उपयोग करके लोकल रूप से होती है। यह उन्हें गोपनीय इमेज, क्लाइंट कार्य, व्यक्तिगत फ़ोटो और किसी भी ऐसे कंटेंट के लिए स्पष्ट विकल्प बनाता है जिसे आप अपने डिवाइस से बाहर नहीं भेजना चाहते।\n\nप्रोफ़ेशनल फ़ोटोग्राफ़र, प्रोडक्ट इमेज संभालने वाले ई-कॉमर्स बिज़नेस, और प्रोप्राइटरी कंटेंट के साथ काम करने वाले किसी भी व्यक्ति के लिए, ब्राउज़र-आधारित प्रोसेसिंग डेटा एक्सपोज़र के जोखिम को पूरी तरह समाप्त करती है।"
+            "text": "कंप्रेशन टूल चुनते समय, विचार करें कि आपकी इमेज कहाँ प्रोसेस हो रही हैं। सर्वर-आधारित टूल जैसे TinyPNG आपकी इमेज को प्रोसेसिंग के लिए रिमोट सर्वर पर अपलोड करते हैं। जबकि प्रतिष्ठित सेवाएँ प्रोसेसिंग के बाद फ़ाइलें हटा देती हैं, आपकी इमेज थोड़े समय के लिए थर्ड-पार्टी इंफ़्रास्ट्रक्चर पर मौजूद रहती हैं।"
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -655,19 +991,19 @@
         "content": [
           {
             "heading": "AI बैकग्राउंड रिमूवल कैसे काम करता है",
-            "text": "आधुनिक बैकग्राउंड रिमूवल टूल डीप लर्निंग मॉडल का उपयोग करते हैं जिन्हें फ़ोरग्राउंड विषयों को बैकग्राउंड से अलग करने के लिए लाखों इमेज पर ट्रेन किया गया है। ये न्यूरल नेटवर्क सटीक कटआउट मास्क बनाने के लिए इमेज का विश्लेषण करके किनारों, गहराई संकेतों और संदर्भिक जानकारी की पहचान करते हैं।\n\nहाल के वर्षों में तकनीक में काफ़ी सुधार हुआ है। पहले के टूल को मैजिक वैंड या लैसो टूल से मैनुअल सिलेक्शन की आवश्यकता होती थी और बालों या फ़र जैसे जटिल किनारों से जूझते थे। आज के AI मॉडल इन चुनौतीपूर्ण मामलों को स्वचालित रूप से संभालते हैं, सेकंडों में साफ़ कटआउट बनाते हैं जिनमें पहले सावधान मैनुअल एडिटिंग के मिनट लगते।\n\nकुछ टूल रिमोट सर्वर पर इमेज प्रोसेस करते हैं, आपकी फ़ोटो AI प्रोसेसिंग के लिए क्लाउड इंफ़्रास्ट्रक्चर पर भेजते हैं। अन्य, जैसे ToolPic, WebAssembly का उपयोग करके सीधे आपके ब्राउज़र में AI मॉडल चलाते हैं, आपकी इमेज को पूरी तरह निजी रखते हुए प्रोफ़ेशनल-गुणवत्ता परिणाम देते हैं।"
+            "text": "आधुनिक बैकग्राउंड रिमूवल टूल डीप लर्निंग मॉडल का उपयोग करते हैं जिन्हें फ़ोरग्राउंड विषयों को बैकग्राउंड से अलग करने के लिए लाखों इमेज पर ट्रेन किया गया है। ये न्यूरल नेटवर्क सटीक कटआउट मास्क बनाने के लिए इमेज का विश्लेषण करके किनारों, गहराई संकेतों और संदर्भिक जानकारी की पहचान करते हैं।"
           },
           {
             "heading": "सामान्य उपयोग के मामले",
-            "text": "ई-कॉमर्स प्रोडक्ट फ़ोटोग्राफ़ी सबसे लोकप्रिय अनुप्रयोगों में से एक है। Amazon, eBay और Shopify स्टोर जैसे मार्केटप्लेस के लिए साफ़ सफ़ेद या पारदर्शी बैकग्राउंड मानक है। प्रोफ़ेशनल फ़ोटो स्टूडियो सेट करने के बजाय, विक्रेता किसी भी बैकग्राउंड पर प्रोडक्ट की फ़ोटो खींच सकते हैं और इसे डिजिटल रूप से हटा सकते हैं।\n\nसोशल मीडिया कंटेंट क्रिएशन में अक्सर इमेज ओवरले, कोलाज बनाने, या विषयों को नई सेटिंग में रखने के लिए पारदर्शी बैकग्राउंड की आवश्यकता होती है। प्रोफ़ाइल पिक्चर, मार्केटिंग ग्राफ़िक्स और ब्रांडेड कंटेंट सभी साफ़ कटआउट से लाभान्वित होते हैं।\n\nप्रोफ़ेशनल डिज़ाइनर कंपोज़िटिंग कार्य के लिए बैकग्राउंड रिमूवल को शुरुआती बिंदु के रूप में उपयोग करते हैं, विषयों को नए वातावरण में रखना, प्रचार सामग्री बनाना, या प्रिंट के लिए इमेज तैयार करना जहाँ विशिष्ट बैकग्राउंड रंग या पैटर्न आवश्यक हैं।"
+            "text": "ई-कॉमर्स प्रोडक्ट फ़ोटोग्राफ़ी सबसे लोकप्रिय अनुप्रयोगों में से एक है। Amazon, eBay और Shopify स्टोर जैसे मार्केटप्लेस के लिए साफ़ सफ़ेद या पारदर्शी बैकग्राउंड मानक है। प्रोफ़ेशनल फ़ोटो स्टूडियो सेट करने के बजाय, विक्रेता किसी भी बैकग्राउंड पर प्रोडक्ट की फ़ोटो खींच सकते हैं और इसे डिजिटल रूप से हटा सकते हैं।"
           },
           {
             "heading": "सर्वोत्तम परिणामों के लिए टिप्स",
-            "text": "आपके परिणामों की गुणवत्ता आंशिक रूप से इनपुट इमेज पर निर्भर करती है। विषय और बैकग्राउंड के बीच अच्छे कंट्रास्ट वाली फ़ोटो सबसे साफ़ कटआउट देती हैं। अच्छी रोशनी और तीखे फ़ोकस वाली इमेज AI मॉडल को काम करने के लिए स्पष्ट किनारे देती हैं।\n\nऐसी इमेज से बचें जहाँ विषय का रंग बैकग्राउंड के रंग से बहुत मिलता-जुलता हो। हरी पत्तियों के सामने हरी शर्ट पहने व्यक्ति किसी भी टूल के लिए सादी दीवार के सामने उसी व्यक्ति से कठिन होगा।\n\nप्रोडक्ट फ़ोटोग्राफ़ी के लिए, शूटिंग करते समय कंट्रास्टिंग बैकग्राउंड का उपयोग करें। भले ही आप बाद में बैकग्राउंड हटाने की योजना बना रहे हों, अच्छे कंट्रास्ट से शुरू करने से AI को साफ़ किनारे बनाने में मदद मिलती है। सरल सफ़ेद या ग्रे बैकड्रॉप अधिकांश प्रोडक्ट के लिए अच्छा काम करता है।"
+            "text": "आपके परिणामों की गुणवत्ता आंशिक रूप से इनपुट इमेज पर निर्भर करती है। विषय और बैकग्राउंड के बीच अच्छे कंट्रास्ट वाली फ़ोटो सबसे साफ़ कटआउट देती हैं। अच्छी रोशनी और तीखे फ़ोकस वाली इमेज AI मॉडल को काम करने के लिए स्पष्ट किनारे देती हैं।"
           },
           {
             "heading": "ToolPic से बैकग्राउंड हटाना",
-            "text": "ToolPic पर बैकग्राउंड हटाएं टूल खोलें और अपनी इमेज अपलोड करें। पहले उपयोग पर AI मॉडल आपके ब्राउज़र में लोड होता है, जिसमें कुछ सेकंड लगते हैं। उसके बाद, बाद की इमेज के लिए प्रोसेसिंग लगभग तत्काल होती है।\n\nटूल स्वचालित रूप से मुख्य विषय का पता लगाता है और बैकग्राउंड हटाता है, एक पारदर्शी PNG बनाता है। परिणाम की समीक्षा करें और इमेज डाउनलोड करें। बैच प्रोसेसिंग के लिए, आप कई इमेज अपलोड कर सकते हैं और उन्हें क्रमानुसार प्रोसेस कर सकते हैं।\n\nचूंकि AI पूरी तरह आपके ब्राउज़र में चलता है, आपकी इमेज कभी किसी सर्वर पर नहीं भेजी जातीं। यह इसे गोपनीय प्रोडक्ट फ़ोटो, व्यक्तिगत इमेज, या क्लाइंट कार्य के लिए बिना किसी प्राइवेसी चिंता के उपयोग करना सुरक्षित बनाता है।"
+            "text": "ToolPic पर बैकग्राउंड हटाएं टूल खोलें और अपनी इमेज अपलोड करें। पहले उपयोग पर AI मॉडल आपके ब्राउज़र में लोड होता है, जिसमें कुछ सेकंड लगते हैं। उसके बाद, बाद की इमेज के लिए प्रोसेसिंग लगभग तत्काल होती है।"
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -680,19 +1016,19 @@
         "content": [
           {
             "heading": "वीडियो फ़ाइलें इतनी बड़ी क्यों होती हैं",
-            "text": "वीडियो फ़ाइलें बड़ी होती हैं क्योंकि उनमें इमेज (फ़्रेम) का एक क्रम होता है जो ऑडियो डेटा के साथ 24 से 60 फ़्रेम प्रति सेकंड पर चलता है। 30 FPS पर एक मिनट के अनकंप्रेस्ड 1080p वीडियो को लगभग 10GB स्टोरेज की आवश्यकता होगी, इसीलिए वीडियो कंप्रेशन ज़रूरी है।\n\nH.264 और H.265 जैसे आधुनिक वीडियो कोडेक इसे काफ़ी कम करने के लिए परिष्कृत कंप्रेशन तकनीकों का उपयोग करते हैं। वे प्रत्येक फ़्रेम को स्वतंत्र रूप से स्टोर करने के बजाय लगातार फ़्रेम के बीच के अंतर को स्टोर करते हैं, अच्छी विज़ुअल गुणवत्ता बनाए रखते हुए 100:1 या बेहतर कंप्रेशन अनुपात प्राप्त करते हैं।\n\nइस कंप्रेशन के बावजूद, रोज़मर्रा की वीडियो फ़ाइलें ईमेल मानकों से बड़ी बनी रहती हैं। स्मार्टफ़ोन पर रिकॉर्ड किया गया एक मिनट का 1080p क्लिप आमतौर पर 100MB से 200MB तक होता है, जो अधिकांश ईमेल प्रदाताओं द्वारा लागू 25MB अटैचमेंट सीमा से बहुत अधिक है।"
+            "text": "वीडियो फ़ाइलें बड़ी होती हैं क्योंकि उनमें इमेज (फ़्रेम) का एक क्रम होता है जो ऑडियो डेटा के साथ 24 से 60 फ़्रेम प्रति सेकंड पर चलता है। 30 FPS पर एक मिनट के अनकंप्रेस्ड 1080p वीडियो को लगभग 10GB स्टोरेज की आवश्यकता होगी, इसीलिए वीडियो कंप्रेशन ज़रूरी है।"
           },
           {
             "heading": "रिज़ॉल्यूशन और बिटरेट को समझना",
-            "text": "रिज़ॉल्यूशन और बिटरेट वीडियो फ़ाइल साइज़ को नियंत्रित करने के दो मुख्य साधन हैं। रिज़ॉल्यूशन प्रत्येक फ़्रेम में पिक्सेल की संख्या को संदर्भित करता है। सामान्य रिज़ॉल्यूशन में 4K (3840x2160), 1080p (1920x1080), 720p (1280x720) और 480p (854x480) शामिल हैं। रिज़ॉल्यूशन को आधा करने से पिक्सेल काउंट 75% कम हो जाता है, जो फ़ाइल साइज़ को नाटकीय रूप से कम करता है।\n\nबिटरेट वीडियो के प्रति सेकंड उपयोग किए गए डेटा की मात्रा है। उच्च बिटरेट का अर्थ है अधिक डेटा और बेहतर गुणवत्ता, जबकि कम बिटरेट का अर्थ है संभावित दृश्य कंप्रेशन आर्टिफ़ैक्ट के साथ छोटी फ़ाइलें। वेब शेयरिंग के लिए, 1080p कंटेंट के लिए 2-4 Mbps बिटरेट अच्छा संतुलन प्रदान करता है।\n\nईमेल अटैचमेंट के लिए, रिज़ॉल्यूशन को 720p या 480p तक कम करना आमतौर पर सबसे प्रभावी दृष्टिकोण है। अधिकांश प्राप्तकर्ता अपने फ़ोन पर या छोटे ईमेल प्रीव्यू में देखेंगे, जहाँ कम रिज़ॉल्यूशन पूरी तरह स्वीकार्य है।"
+            "text": "रिज़ॉल्यूशन और बिटरेट वीडियो फ़ाइल साइज़ को नियंत्रित करने के दो मुख्य साधन हैं। रिज़ॉल्यूशन प्रत्येक फ़्रेम में पिक्सेल की संख्या को संदर्भित करता है। सामान्य रिज़ॉल्यूशन में 4K (3840x2160), 1080p (1920x1080), 720p (1280x720) और 480p (854x480) शामिल हैं। रिज़ॉल्यूशन को आधा करने से पिक्सेल काउंट 75% कम हो जाता है, जो फ़ाइल साइज़ को नाटकीय रूप से कम करता है।"
           },
           {
             "heading": "सही फ़ॉर्मेट चुनना",
-            "text": "H.264 एन्कोडिंग के साथ MP4 सबसे सार्वभौमिक रूप से संगत वीडियो फ़ॉर्मेट है। यह अतिरिक्त सॉफ़्टवेयर की आवश्यकता के बिना लगभग हर डिवाइस और प्लेटफ़ॉर्म पर चलता है। ईमेल या मैसेजिंग से शेयर करने के लिए, MP4 आपका डिफ़ॉल्ट विकल्प होना चाहिए।\n\nWebP, H.264 की तुलना में बेहतर कंप्रेशन दक्षता प्रदान करता है, जिसका अर्थ है समान गुणवत्ता पर छोटी फ़ाइलें। हालांकि, संगतता कम सार्वभौमिक है, विशेष रूप से पुराने डिवाइस और कुछ ईमेल क्लाइंट के साथ। WebM तब उपयोग करें जब आप जानते हों कि प्राप्तकर्ता इसे चला सकता है।\n\nसबसे छोटे संभव फ़ाइल साइज़ के लिए, H.265 (HEVC) समान गुणवत्ता पर H.264 की तुलना में लगभग 50% बेहतर कंप्रेशन प्रदान करता है। आधुनिक डिवाइस पर सपोर्ट व्यापक है लेकिन सार्वभौमिक नहीं। यदि अधिकतम संगतता न्यूनतम फ़ाइल साइज़ से अधिक मायने रखती है, तो H.264 MP4 से चिपके रहें।"
+            "text": "H.264 एन्कोडिंग के साथ MP4 सबसे सार्वभौमिक रूप से संगत वीडियो फ़ॉर्मेट है। यह अतिरिक्त सॉफ़्टवेयर की आवश्यकता के बिना लगभग हर डिवाइस और प्लेटफ़ॉर्म पर चलता है। ईमेल या मैसेजिंग से शेयर करने के लिए, MP4 आपका डिफ़ॉल्ट विकल्प होना चाहिए।"
           },
           {
             "heading": "ToolPic से स्टेप-बाय-स्टेप कंप्रेशन",
-            "text": "ToolPic पर वीडियो कंप्रेसर टूल खोलें और अपनी वीडियो फ़ाइल को अपलोड एरिया पर ड्रैग करें। टूल MP4, WebM, AVI, MOV और अन्य सामान्य फ़ॉर्मेट स्वीकार करता है।\n\nअपना लक्ष्य रिज़ॉल्यूशन चुनें। ईमेल शेयरिंग के लिए, 720p आमतौर पर गुणवत्ता और फ़ाइल साइज़ के बीच सही संतुलन है। मैसेजिंग ऐप्स के लिए, 480p अक्सर पर्याप्त है। बिटरेट को नियंत्रित करने के लिए क्वालिटी स्लाइडर एडजस्ट करें। मीडियम सेटिंग अधिकांश कंटेंट के लिए अच्छी काम करती है।\n\nकंप्रेस पर क्लिक करें और प्रोसेसिंग पूरी होने तक प्रतीक्षा करें। टूल प्रगति और परिणामी फ़ाइल साइज़ दिखाता है। कंप्रेस्ड वीडियो डाउनलोड करें और ईमेल में अटैच करने से पहले सत्यापित करें कि यह सही चलता है। सारी प्रोसेसिंग आपके ब्राउज़र में लोकल रूप से होती है, इसलिए आपका वीडियो कंटेंट निजी रहता है।"
+            "text": "ToolPic पर वीडियो कंप्रेसर टूल खोलें और अपनी वीडियो फ़ाइल को अपलोड एरिया पर ड्रैग करें। टूल MP4, WebM, AVI, MOV और अन्य सामान्य फ़ॉर्मेट स्वीकार करता है।"
           }
         ],
         "relatedToolIds": "video-compress"
@@ -705,19 +1041,19 @@
         "content": [
           {
             "heading": "इमेज डाइमेंशन क्यों मायने रखते हैं",
-            "text": "सोशल मीडिया प्लेटफ़ॉर्म विशिष्ट आस्पेक्ट रेशियो और रिज़ॉल्यूशन पर इमेज प्रदर्शित करते हैं। जब आप ऐसी इमेज अपलोड करते हैं जो अपेक्षित डाइमेंशन से मेल नहीं खाती, तो प्लेटफ़ॉर्म इसे स्वचालित रूप से क्रॉप कर देगा। यह अक्सर आपकी इमेज के महत्वपूर्ण हिस्सों को काट देता है, जैसे टेक्स्ट, प्रोडक्ट डिटेल, या चेहरे के हिस्से।\n\nसही डाइमेंशन का उपयोग सुनिश्चित करता है कि आपकी इमेज सभी डिवाइस पर ठीक वैसे ही प्रदर्शित हों जैसा आपने चाहा था। यह प्लेटफ़ॉर्म को आपकी इमेज को रीसाइज़ करने के लिए अतिरिक्त कंप्रेशन लागू करने से भी रोकता है, जो विज़ुअल गुणवत्ता कम कर सकता है।\n\nहर प्लेटफ़ॉर्म के अलग-अलग प्लेसमेंट के लिए अलग-अलग आवश्यकताएँ हैं। प्रोफ़ाइल पिक्चर के डाइमेंशन कवर फ़ोटो से अलग हैं, जो पोस्ट इमेज से भिन्न हैं। इन सभी साइज़ का ट्रैक रखना सोशल मीडिया कंटेंट को प्रोफ़ेशनल रूप से मैनेज करने वाले किसी भी व्यक्ति के लिए आवश्यक है।"
+            "text": "सोशल मीडिया प्लेटफ़ॉर्म विशिष्ट आस्पेक्ट रेशियो और रिज़ॉल्यूशन पर इमेज प्रदर्शित करते हैं। जब आप ऐसी इमेज अपलोड करते हैं जो अपेक्षित डाइमेंशन से मेल नहीं खाती, तो प्लेटफ़ॉर्म इसे स्वचालित रूप से क्रॉप कर देगा। यह अक्सर आपकी इमेज के महत्वपूर्ण हिस्सों को काट देता है, जैसे टेक्स्ट, प्रोडक्ट डिटेल, या चेहरे के हिस्से।"
           },
           {
             "heading": "Instagram डाइमेंशन",
-            "text": "Instagram स्क्वेयर पोस्ट 1080 x 1080 पिक्सेल होने चाहिए। यह क्लासिक Instagram फ़ॉर्मेट है और अधिकांश कंटेंट के लिए अच्छा काम करता है। पोर्ट्रेट पोस्ट 1080 x 1350 पिक्सेल (4:5 रेशियो) पर सबसे अच्छा प्रदर्शन करते हैं, जो फ़ीड में अधिक स्क्रीन स्पेस लेता है और आमतौर पर अधिक एंगेजमेंट जनरेट करता है।\n\nInstagram स्टोरीज़ और Reels 9:16 वर्टिकल फ़ॉर्मेट में 1080 x 1920 पिक्सेल पर उपयोग करते हैं। यह पूरे फ़ोन स्क्रीन को भरता है। प्रोफ़ाइल पिक्चर 320 x 320 पिक्सेल पर सर्कल में प्रदर्शित होती हैं, हालांकि 500 x 500 जैसे उच्च रिज़ॉल्यूशन पर अपलोड करना हाई-डेंसिटी डिस्प्ले पर शार्पनेस सुनिश्चित करता है।\n\nकैरोसेल पोस्ट किसी भी स्टैंडर्ड पोस्ट साइज़ का उपयोग कर सकते हैं, लेकिन कैरोसेल में सभी इमेज का एक ही आस्पेक्ट रेशियो होना चाहिए। पहली इमेज पूरे कैरोसेल के लिए आस्पेक्ट रेशियो निर्धारित करती है।"
+            "text": "Instagram स्क्वेयर पोस्ट 1080 x 1080 पिक्सेल होने चाहिए। यह क्लासिक Instagram फ़ॉर्मेट है और अधिकांश कंटेंट के लिए अच्छा काम करता है। पोर्ट्रेट पोस्ट 1080 x 1350 पिक्सेल (4:5 रेशियो) पर सबसे अच्छा प्रदर्शन करते हैं, जो फ़ीड में अधिक स्क्रीन स्पेस लेता है और आमतौर पर अधिक एंगेजमेंट जनरेट करता है।"
           },
           {
             "heading": "Facebook, Twitter/X और YouTube",
-            "text": "Facebook कवर फ़ोटो डेस्कटॉप पर 820 x 312 पिक्सेल होनी चाहिए, लेकिन मोबाइल पर अलग दिखती हैं (640 x 360), इसलिए महत्वपूर्ण कंटेंट सेंटर में रखें। प्रोफ़ाइल पिक्चर डेस्कटॉप पर 170 x 170 पिक्सेल हैं। फ़ीड में शेयर की गई इमेज 1200 x 630 पिक्सेल पर सबसे अच्छी काम करती हैं।\n\nTwitter/X हेडर इमेज 1500 x 500 पिक्सेल होनी चाहिए। प्रोफ़ाइल फ़ोटो 400 x 400 पिक्सेल हैं। इन-ट्वीट इमेज 1200 x 675 पिक्सेल (16:9 रेशियो) पर सबसे अच्छी दिखती हैं। सिंगल इमेज ट्वीट स्क्वेयर फ़ॉर्मेट के लिए 1200 x 1200 भी उपयोग कर सकते हैं।\n\nYouTube थंबनेल बिल्कुल 1280 x 720 पिक्सेल होने चाहिए जिनकी न्यूनतम चौड़ाई 640 पिक्सेल है। चैनल बैनर 2560 x 1440 पिक्सेल हैं, लेकिन टेक्स्ट और लोगो के लिए सेफ़ एरिया सेंटर 1546 x 423 पिक्सेल है, क्योंकि बाकी अलग-अलग डिवाइस पर क्रॉप हो सकता है।"
+            "text": "Facebook कवर फ़ोटो डेस्कटॉप पर 820 x 312 पिक्सेल होनी चाहिए, लेकिन मोबाइल पर अलग दिखती हैं (640 x 360), इसलिए महत्वपूर्ण कंटेंट सेंटर में रखें। प्रोफ़ाइल पिक्चर डेस्कटॉप पर 170 x 170 पिक्सेल हैं। फ़ीड में शेयर की गई इमेज 1200 x 630 पिक्सेल पर सबसे अच्छी काम करती हैं।"
           },
           {
             "heading": "ToolPic से इमेज कैसे रीसाइज़ करें",
-            "text": "ToolPic पर इमेज क्रॉप और रीसाइज़ टूल खोलें और अपनी इमेज अपलोड करें। टूल में सभी प्रमुख सोशल मीडिया प्लेटफ़ॉर्म के लिए बिल्ट-इन प्रीसेट शामिल हैं, इसलिए आपको विशिष्ट डाइमेंशन याद रखने की ज़रूरत नहीं।\n\nप्रीसेट मेनू से प्लेटफ़ॉर्म और प्लेसमेंट टाइप चुनें। टूल स्वचालित रूप से सही आस्पेक्ट रेशियो और डाइमेंशन सेट करता है। क्रॉप एरिया को अपनी इमेज के उस हिस्से पर रखें जिसे आप रखना चाहते हैं, फिर क्रॉप लागू करें।\n\nअपलोड के लिए तैयार सही साइज़ की इमेज डाउनलोड करें। आप पेज रीलोड किए बिना कई इमेज क्रमानुसार प्रोसेस कर सकते हैं। क्रॉप टूल मूल इमेज गुणवत्ता संरक्षित रखता है और सब कुछ आपके ब्राउज़र में लोकल रूप से प्रोसेस करता है।"
+            "text": "ToolPic पर इमेज क्रॉप और रीसाइज़ टूल खोलें और अपनी इमेज अपलोड करें। टूल में सभी प्रमुख सोशल मीडिया प्लेटफ़ॉर्म के लिए बिल्ट-इन प्रीसेट शामिल हैं, इसलिए आपको विशिष्ट डाइमेंशन याद रखने की ज़रूरत नहीं।"
           }
         ],
         "relatedToolIds": "image-crop"
@@ -730,19 +1066,19 @@
         "content": [
           {
             "heading": "WebP क्या है",
-            "text": "WebP एक इमेज फ़ॉर्मेट है जिसे Google ने विकसित किया और 2010 में JPEG, PNG और GIF के आधुनिक विकल्प के रूप में रिलीज़ किया। यह पुराने फ़ॉर्मेट की तुलना में काफ़ी छोटे फ़ाइल साइज़ प्राप्त करने के लिए VP8 और VP9 वीडियो कोडेक से प्राप्त उन्नत कंप्रेशन एल्गोरिदम का उपयोग करता है।\n\nफ़ॉर्मेट लॉसी और लॉसलेस दोनों कंप्रेशन मोड सपोर्ट करता है। लॉसी मोड में, WebP ऐसी फ़ाइलें बनाता है जो समान विज़ुअल गुणवत्ता पर JPEG से आमतौर पर 25-35% छोटी होती हैं। लॉसलेस मोड में, WebP फ़ाइलें PNG फ़ाइलों से लगभग 26% छोटी होती हैं। यह ट्रांसपेरेंसी (अल्फ़ा चैनल) और एनिमेशन भी सपोर्ट करता है, जो इसे JPEG, PNG और GIF का बहुमुखी विकल्प बनाता है।\n\nWebP विशेष रूप से वेब के लिए डिज़ाइन किया गया था, जहाँ छोटे फ़ाइल साइज़ सीधे तेज़ पेज लोड, कम बैंडविड्थ लागत और बेहतर यूज़र एक्सपीरियंस में बदलते हैं, विशेष रूप से मोबाइल कनेक्शन पर।"
+            "text": "WebP एक इमेज फ़ॉर्मेट है जिसे Google ने विकसित किया और 2010 में JPEG, PNG और GIF के आधुनिक विकल्प के रूप में रिलीज़ किया। यह पुराने फ़ॉर्मेट की तुलना में काफ़ी छोटे फ़ाइल साइज़ प्राप्त करने के लिए VP8 और VP9 वीडियो कोडेक से प्राप्त उन्नत कंप्रेशन एल्गोरिदम का उपयोग करता है।"
           },
           {
             "heading": "JPEG और PNG पर लाभ",
-            "text": "WebP का प्राथमिक लाभ कंप्रेशन दक्षता है। फ़ोटोग्राफ़िक इमेज के लिए, 80% गुणवत्ता पर WebP फ़ाइल 85-90% गुणवत्ता पर JPEG के विज़ुअली समकक्ष है लेकिन फ़ाइल साइज़ में 30% छोटी है। सैकड़ों इमेज वाली वेबसाइट के लिए, यह महत्वपूर्ण बैंडविड्थ बचत और तेज़ लोड टाइम में जुड़ जाता है।\n\nJPEG के विपरीत, WebP PNG की फ़ाइल साइज़ पेनल्टी के बिना ट्रांसपेरेंसी सपोर्ट करता है। पारदर्शी बैकग्राउंड वाली प्रोडक्ट इमेज WebP के रूप में सेव करने पर आमतौर पर समकक्ष PNG फ़ाइल से 3-5 गुना छोटी होती है। यह WebP को ई-कॉमर्स साइट्स के लिए आदर्श बनाता है जहाँ ट्रांसपेरेंट प्रोडक्ट इमेज आम हैं।\n\nWebP GIF के विकल्प के रूप में एनिमेशन भी सपोर्ट करता है। एनिमेटेड WebP फ़ाइलें समकक्ष GIF से काफ़ी छोटी होती हैं जबकि GIF की 256-रंग सीमा के बजाय पूर्ण 24-बिट रंग सपोर्ट करती हैं। एनिमेटेड एलिमेंट उपयोग करने वाली वेबसाइट्स के लिए, GIF से WebP पर स्विच करने से फ़ाइल साइज़ 50% या उससे अधिक कम हो सकता है।"
+            "text": "WebP का प्राथमिक लाभ कंप्रेशन दक्षता है। फ़ोटोग्राफ़िक इमेज के लिए, 80% गुणवत्ता पर WebP फ़ाइल 85-90% गुणवत्ता पर JPEG के विज़ुअली समकक्ष है लेकिन फ़ाइल साइज़ में 30% छोटी है। सैकड़ों इमेज वाली वेबसाइट के लिए, यह महत्वपूर्ण बैंडविड्थ बचत और तेज़ लोड टाइम में जुड़ जाता है।"
           },
           {
             "heading": "2026 में ब्राउज़र सपोर्ट",
-            "text": "2026 तक, WebP Chrome, Firefox, Safari, Edge और Opera सहित सभी प्रमुख ब्राउज़र द्वारा सपोर्टेड है। Safari ने वर्शन 14 (2020) में WebP सपोर्ट जोड़ा, जो अंतिम प्रमुख होल्डआउट था। इसका अर्थ है कि WebP अब दुनिया भर में 97% से अधिक वेब यूज़र के लिए विश्वसनीय रूप से काम करता है।\n\nमोबाइल ब्राउज़र सपोर्ट समान रूप से व्यापक है। iOS Safari और Android Chrome दोनों पूरी तरह WebP सपोर्ट करते हैं, जो इसे फ़ॉलबैक के बिना मोबाइल वेब अनुभवों के लिए सुरक्षित बनाता है।\n\nशेष संगतता चिंताएँ मुख्य रूप से पुराने डेस्कटॉप सॉफ़्टवेयर से हैं। कुछ इमेज एडिटर, ईमेल क्लाइंट और कंटेंट मैनेजमेंट सिस्टम WebP फ़ाइलों को नेटिव रूप से हैंडल नहीं कर सकते। ऐसे मामलों के लिए, JPEG या PNG वर्शन को फ़ॉलबैक के रूप में उपलब्ध रखना एक व्यावहारिक समाधान है।"
+            "text": "2026 तक, WebP Chrome, Firefox, Safari, Edge और Opera सहित सभी प्रमुख ब्राउज़र द्वारा सपोर्टेड है। Safari ने वर्शन 14 (2020) में WebP सपोर्ट जोड़ा, जो अंतिम प्रमुख होल्डआउट था। इसका अर्थ है कि WebP अब दुनिया भर में 97% से अधिक वेब यूज़र के लिए विश्वसनीय रूप से काम करता है।"
           },
           {
             "heading": "इमेज को WebP में कैसे कन्वर्ट करें",
-            "text": "ToolPic के इमेज कन्वर्टर से अपनी मौजूदा इमेज को WebP में कन्वर्ट करना सरल है। कोई भी JPEG, PNG, BMP या AVIF इमेज अपलोड करें और आउटपुट फ़ॉर्मेट के रूप में WebP चुनें। टूल PNG सोर्स से ट्रांसपेरेंसी संरक्षित रखता है और लॉसी कन्वर्शन के लिए गुणवत्ता स्तर एडजस्ट करने देता है।\n\nसर्वोत्तम परिणामों के लिए, उपलब्ध उच्चतम गुणवत्ता वाली सोर्स इमेज से शुरू करें। भारी कंप्रेस्ड JPEG को WebP में कन्वर्ट करने से गुणवत्ता जादुई रूप से नहीं सुधरेगी। यदि आपके पास मूल अनकंप्रेस्ड या लॉसलेसली कंप्रेस्ड वर्शन है, तो इष्टतम परिणामों के लिए उससे कन्वर्ट करें।\n\nवेबसाइट को WebP पर माइग्रेट करते समय, सपोर्टेड ब्राउज़र को WebP सर्व करने के लिए HTML picture एलिमेंट या CSS image-set का उपयोग करें जबकि पुराने क्लाइंट के लिए JPEG या PNG फ़ॉलबैक प्रदान करें। अधिकांश CDN प्रदाता और बिल्ड टूल इस प्रक्रिया को ऑटोमेट कर सकते हैं। WebP में कन्वर्ट करने का प्रारंभिक प्रयास कम बैंडविड्थ लागत और बेहतर पेज परफ़ॉर्मेंस के माध्यम से जल्दी वसूल हो जाता है।"
+            "text": "ToolPic के इमेज कन्वर्टर से अपनी मौजूदा इमेज को WebP में कन्वर्ट करना सरल है। कोई भी JPEG, PNG, BMP या AVIF इमेज अपलोड करें और आउटपुट फ़ॉर्मेट के रूप में WebP चुनें। टूल PNG सोर्स से ट्रांसपेरेंसी संरक्षित रखता है और लॉसी कन्वर्शन के लिए गुणवत्ता स्तर एडजस्ट करने देता है।"
           }
         ],
         "relatedToolIds": "image-converter"
@@ -755,19 +1091,19 @@
         "content": [
           {
             "heading": "HEIC फ़ॉर्मेट क्या है और iPhone इसे क्यों इस्तेमाल करता है",
-            "text": "HEIC (High Efficiency Image Container) Apple द्वारा iOS 11 से डिफ़ॉल्ट फ़ोटो फ़ॉर्मेट के रूप में अपनाया गया है। यह HEIF (High Efficiency Image Format) स्टैंडर्ड पर आधारित है और H.265 वीडियो कोडेक की कंप्रेशन तकनीक का उपयोग करता है।\n\nHEIC का सबसे बड़ा फ़ायदा यह है कि यह JPEG की तुलना में लगभग 50% छोटी फ़ाइल साइज़ में समान या बेहतर गुणवत्ता प्रदान करता है। इसका मतलब है कि आपके iPhone पर अधिक फ़ोटो स्टोर हो सकती हैं बिना स्टोरेज भरे। Apple ने यह फ़ॉर्मेट इसलिए चुना क्योंकि यह 10-बिट कलर डेप्थ सपोर्ट करता है, जबकि JPEG केवल 8-बिट तक सीमित है।\n\nहालाँकि, HEIC की सबसे बड़ी समस्या कम्पैटिबिलिटी है। Windows कंप्यूटर, पुराने Android डिवाइस, कई वेब ब्राउज़र और अधिकांश वेबसाइटें अभी भी HEIC फ़ाइलों को सीधे नहीं खोल सकतीं। इसलिए JPG में कन्वर्शन अक्सर आवश्यक हो जाता है।"
+            "text": "HEIC (High Efficiency Image Container) Apple द्वारा iOS 11 से डिफ़ॉल्ट फ़ोटो फ़ॉर्मेट के रूप में अपनाया गया है। यह HEIF (High Efficiency Image Format) स्टैंडर्ड पर आधारित है और H.265 वीडियो कोडेक की कंप्रेशन तकनीक का उपयोग करता है।"
           },
           {
             "heading": "HEIC को JPG में कन्वर्ट करने की ज़रूरत कब होती है",
-            "text": "सबसे आम स्थिति तब उत्पन्न होती है जब आप अपनी iPhone फ़ोटो किसी ऐसे व्यक्ति को भेजना चाहते हैं जो Windows या Android इस्तेमाल करता है। उन्हें HEIC फ़ाइल खोलने में परेशानी हो सकती है। इसी तरह, कई ईमेल क्लाइंट और सोशल मीडिया प्लेटफ़ॉर्म HEIC को सही ढंग से प्रदर्शित नहीं करते।\n\nई-कॉमर्स वेबसाइटें आमतौर पर JPG या PNG फ़ॉर्मेट में प्रोडक्ट फ़ोटो अपलोड करने की माँग करती हैं। यदि आप अपने iPhone से प्रोडक्ट शूट करते हैं, तो आपको अपलोड से पहले कन्वर्ट करना होगा।\n\nप्रिंटिंग सर्विसेज़ भी अक्सर HEIC स्वीकार नहीं करतीं। फ़ोटो प्रिंट करवाने, कैनवस बनवाने या फ़ोटो बुक ऑर्डर करने से पहले JPG में कन्वर्ट करना ज़रूरी होता है। वेब डेवलपर्स के लिए भी JPG अधिक व्यावहारिक है क्योंकि सभी ब्राउज़र इसे बिना किसी अतिरिक्त प्लगइन के सपोर्ट करते हैं।"
+            "text": "सबसे आम स्थिति तब उत्पन्न होती है जब आप अपनी iPhone फ़ोटो किसी ऐसे व्यक्ति को भेजना चाहते हैं जो Windows या Android इस्तेमाल करता है। उन्हें HEIC फ़ाइल खोलने में परेशानी हो सकती है। इसी तरह, कई ईमेल क्लाइंट और सोशल मीडिया प्लेटफ़ॉर्म HEIC को सही ढंग से प्रदर्शित नहीं करते।"
           },
           {
             "heading": "कन्वर्शन में गुणवत्ता बनाए रखने के टिप्स",
-            "text": "HEIC से JPG कन्वर्शन करते समय कुछ बातों का ध्यान रखना ज़रूरी है। सबसे पहले, JPEG एक लॉसी फ़ॉर्मेट है, इसलिए कुछ मामूली गुणवत्ता हानि अपरिहार्य है। हालाँकि, 85-95% गुणवत्ता सेटिंग पर अंतर नंगी आँखों से लगभग अदृश्य होता है।\n\nध्यान दें कि HEIC 10-बिट कलर डेप्थ सपोर्ट करता है जबकि JPG केवल 8-बिट। इसका मतलब है कि अत्यंत सूक्ष्म कलर ग्रेडिएंट्स में थोड़ा अंतर आ सकता है, लेकिन सामान्य उपयोग में यह ध्यान देने योग्य नहीं होता।\n\nबैच कन्वर्शन के लिए, एक ही गुणवत्ता सेटिंग सभी फ़ोटो के लिए अच्छी तरह काम करती है। 90% गुणवत्ता एक उत्कृष्ट शुरुआती बिंदु है जो फ़ाइल साइज़ और विज़ुअल क्वालिटी के बीच सही संतुलन बनाता है।"
+            "text": "HEIC से JPG कन्वर्शन करते समय कुछ बातों का ध्यान रखना ज़रूरी है। सबसे पहले, JPEG एक लॉसी फ़ॉर्मेट है, इसलिए कुछ मामूली गुणवत्ता हानि अपरिहार्य है। हालाँकि, 85-95% गुणवत्ता सेटिंग पर अंतर नंगी आँखों से लगभग अदृश्य होता है।"
           },
           {
             "heading": "ToolPic से HEIC को JPG में कैसे बदलें",
-            "text": "ToolPic का इमेज कन्वर्टर खोलें और अपनी HEIC फ़ाइलें ड्रैग एंड ड्रॉप करें या ब्राउज़ करके अपलोड करें। आप एक साथ कई फ़ाइलें अपलोड कर सकते हैं, जिससे बैच कन्वर्शन आसान हो जाता है।\n\nआउटपुट फ़ॉर्मेट के रूप में JPG चुनें और गुणवत्ता स्लाइडर एडजस्ट करें। डिफ़ॉल्ट 80% सेटिंग अधिकांश उपयोगों के लिए अच्छी है। यदि आपको उच्चतम गुणवत्ता चाहिए, तो स्लाइडर को 90-95% तक बढ़ाएँ।\n\nकन्वर्शन पूरा होने पर, फ़ाइलों को व्यक्तिगत रूप से या 'सब डाउनलोड करें' बटन से एक साथ डाउनलोड करें। पूरी प्रक्रिया आपके ब्राउज़र में ही होती है — कोई भी फ़ाइल किसी सर्वर पर अपलोड नहीं होती, जिससे आपकी निजी फ़ोटो पूरी तरह सुरक्षित रहती हैं।"
+            "text": "ToolPic का इमेज कन्वर्टर खोलें और अपनी HEIC फ़ाइलें ड्रैग एंड ड्रॉप करें या ब्राउज़ करके अपलोड करें। आप एक साथ कई फ़ाइलें अपलोड कर सकते हैं, जिससे बैच कन्वर्शन आसान हो जाता है।"
           }
         ],
         "relatedToolIds": "image-converter"
@@ -780,19 +1116,19 @@
         "content": [
           {
             "heading": "AI इमेज टूल्स का उदय",
-            "text": "पिछले कुछ वर्षों में आर्टिफ़िशियल इंटेलिजेंस ने इमेज प्रोसेसिंग के क्षेत्र में क्रांति ला दी है। वे कार्य जिनमें पहले घंटों का समय और विशेषज्ञ कौशल की आवश्यकता होती थी, अब कुछ ही सेकंड में स्वचालित रूप से पूरे हो जाते हैं। बैकग्राउंड रिमूवल इसका सबसे स्पष्ट उदाहरण है।\n\nपारंपरिक तरीके से किसी जटिल इमेज का बैकग्राउंड हटाने में Photoshop जैसे सॉफ़्टवेयर में पेन टूल, मैजिक वैंड या लेयर मास्क का उपयोग करना पड़ता था। बालों, पारदर्शी वस्तुओं या जटिल किनारों वाली इमेज के लिए यह प्रक्रिया 15-30 मिनट या उससे अधिक समय ले सकती थी।\n\nAI-आधारित टूल्स डीप लर्निंग मॉडल का उपयोग करते हैं जो लाखों इमेज पर प्रशिक्षित होते हैं। ये मॉडल विषय और पृष्ठभूमि के बीच अंतर को स्वचालित रूप से पहचानते हैं और अधिकांश मामलों में पेशेवर-स्तर के परिणाम देते हैं।"
+            "text": "पिछले कुछ वर्षों में आर्टिफ़िशियल इंटेलिजेंस ने इमेज प्रोसेसिंग के क्षेत्र में क्रांति ला दी है। वे कार्य जिनमें पहले घंटों का समय और विशेषज्ञ कौशल की आवश्यकता होती थी, अब कुछ ही सेकंड में स्वचालित रूप से पूरे हो जाते हैं। बैकग्राउंड रिमूवल इसका सबसे स्पष्ट उदाहरण है।"
           },
           {
             "heading": "AI टूल्स कहाँ बेहतर प्रदर्शन करते हैं",
-            "text": "AI टूल्स का सबसे बड़ा लाभ गति और सुलभता है। कोई भी व्यक्ति बिना किसी तकनीकी प्रशिक्षण के कुछ ही क्लिक में पेशेवर परिणाम प्राप्त कर सकता है। यह छोटे व्यवसायों, सोशल मीडिया मैनेजर्स और ई-कॉमर्स विक्रेताओं के लिए विशेष रूप से मूल्यवान है।\n\nबैच प्रोसेसिंग AI टूल्स की एक और शक्ति है। दर्जनों या सैकड़ों इमेज को समान तरीके से प्रोसेस करना — जैसे सभी प्रोडक्ट फ़ोटो से बैकग्राउंड हटाना — मिनटों में हो जाता है। पारंपरिक तरीके से यही काम दिनों में पूरा होता।\n\nAI टूल्स लगातार बेहतर हो रहे हैं। हर नए मॉडल अपडेट के साथ, एज डिटेक्शन अधिक सटीक होती जाती है, बालों और पारदर्शी वस्तुओं को बेहतर तरीके से हैंडल किया जाता है, और समग्र आउटपुट गुणवत्ता में सुधार होता रहता है।"
+            "text": "AI टूल्स का सबसे बड़ा लाभ गति और सुलभता है। कोई भी व्यक्ति बिना किसी तकनीकी प्रशिक्षण के कुछ ही क्लिक में पेशेवर परिणाम प्राप्त कर सकता है। यह छोटे व्यवसायों, सोशल मीडिया मैनेजर्स और ई-कॉमर्स विक्रेताओं के लिए विशेष रूप से मूल्यवान है।"
           },
           {
             "heading": "पारंपरिक एडिटिंग अभी भी कहाँ ज़रूरी है",
-            "text": "AI टूल्स की सीमाएँ तब दिखती हैं जब अत्यधिक सटीक और कस्टम कंट्रोल की आवश्यकता होती है। प्रोफ़ेशनल फ़ोटोग्राफ़ी, विज्ञापन अभियान और प्रिंट मीडिया जैसे क्षेत्रों में पिक्सेल-परफ़ेक्ट एडिटिंग अनिवार्य होती है। AI कभी-कभी सूक्ष्म विवरणों में गलती कर सकता है।\n\nक्रिएटिव कंपोज़िटिंग, कलर ग्रेडिंग, रीटचिंग और कलात्मक प्रभाव जैसे कार्यों में मानवीय निर्णय और कलात्मक दृष्टि अभी भी अपरिहार्य है। AI बता सकता है कि विषय क्या है, लेकिन यह नहीं जानता कि आपकी कलात्मक दृष्टि क्या है।\n\nजटिल फ़ोटो मैनिपुलेशन, जैसे किसी दृश्य में नई वस्तु जोड़ना, रोशनी बदलना या यथार्थवादी छायाएँ बनाना, अभी भी विशेषज्ञ कौशल और पारंपरिक सॉफ़्टवेयर की माँग करता है।"
+            "text": "AI टूल्स की सीमाएँ तब दिखती हैं जब अत्यधिक सटीक और कस्टम कंट्रोल की आवश्यकता होती है। प्रोफ़ेशनल फ़ोटोग्राफ़ी, विज्ञापन अभियान और प्रिंट मीडिया जैसे क्षेत्रों में पिक्सेल-परफ़ेक्ट एडिटिंग अनिवार्य होती है। AI कभी-कभी सूक्ष्म विवरणों में गलती कर सकता है।"
           },
           {
             "heading": "ToolPic में AI-संचालित बैकग्राउंड रिमूवल का उपयोग",
-            "text": "ToolPic का बैकग्राउंड रिमूव टूल AI की शक्ति को ब्राउज़र-आधारित प्राइवेसी के साथ जोड़ता है। अपनी इमेज अपलोड करें और AI मॉडल स्वचालित रूप से विषय को पहचानकर बैकग्राउंड हटा देता है। पूरी प्रक्रिया आपके ब्राउज़र में WebAssembly का उपयोग करके होती है।\n\nपहली बार उपयोग करते समय AI मॉडल लोड होने में कुछ सेकंड लगते हैं, लेकिन उसके बाद की इमेज लगभग तुरंत प्रोसेस होती हैं। परिणाम एक पारदर्शी PNG फ़ाइल होती है जिसे आप किसी भी बैकग्राउंड पर उपयोग कर सकते हैं।\n\nAI टूल्स पारंपरिक एडिटिंग का पूर्ण प्रतिस्थापन नहीं हैं, बल्कि एक शक्तिशाली पूरक हैं। त्वरित कार्यों के लिए AI का उपयोग करें, और जब पिक्सेल-परफ़ेक्ट नियंत्रण आवश्यक हो तब पारंपरिक सॉफ़्टवेयर की ओर रुख करें। दोनों दृष्टिकोणों को संयोजित करना सबसे प्रभावी कार्यप्रवाह बनाता है।"
+            "text": "ToolPic का बैकग्राउंड रिमूव टूल AI की शक्ति को ब्राउज़र-आधारित प्राइवेसी के साथ जोड़ता है। अपनी इमेज अपलोड करें और AI मॉडल स्वचालित रूप से विषय को पहचानकर बैकग्राउंड हटा देता है। पूरी प्रक्रिया आपके ब्राउज़र में WebAssembly का उपयोग करके होती है।"
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -805,19 +1141,19 @@
         "content": [
           {
             "heading": "इमेज ऑप्टिमाइज़ेशन वेबसाइट स्पीड के लिए क्यों महत्वपूर्ण है",
-            "text": "एक औसत वेबपेज का कुल डेटा साइज़ लगभग 2MB होता है, जिसमें इमेज अकेले 50% से अधिक का योगदान देती हैं। यदि आपकी इमेज ऑप्टिमाइज़ नहीं हैं, तो आपकी वेबसाइट धीमी लोड होगी, बाउंस रेट बढ़ेगा और SEO रैंकिंग प्रभावित होगी।\n\nGoogle का Core Web Vitals अब सीधे पेज स्पीड को रैंकिंग फ़ैक्टर के रूप में मापता है। Largest Contentful Paint (LCP) मेट्रिक विशेष रूप से इमेज लोडिंग से प्रभावित होती है। 2.5 सेकंड से कम LCP को अच्छा माना जाता है, और अनऑप्टिमाइज़्ड इमेज इस लक्ष्य को आसानी से विफल कर सकती हैं।\n\nमोबाइल यूज़र्स के लिए यह और भी महत्वपूर्ण है। धीमे नेटवर्क कनेक्शन पर बड़ी इमेज फ़ाइलें लोड होने में काफ़ी समय लगता है, जिससे यूज़र्स पेज छोड़ देते हैं। इमेज ऑप्टिमाइज़ेशन न केवल तकनीकी सुधार है, बल्कि बेहतर यूज़र एक्सपीरियंस और अधिक कन्वर्शन का मार्ग भी है।"
+            "text": "एक औसत वेबपेज का कुल डेटा साइज़ लगभग 2MB होता है, जिसमें इमेज अकेले 50% से अधिक का योगदान देती हैं। यदि आपकी इमेज ऑप्टिमाइज़ नहीं हैं, तो आपकी वेबसाइट धीमी लोड होगी, बाउंस रेट बढ़ेगा और SEO रैंकिंग प्रभावित होगी।"
           },
           {
             "heading": "सही इमेज फ़ॉर्मेट का चयन",
-            "text": "फ़ॉर्मेट का सही चुनाव ऑप्टिमाइज़ेशन का पहला और सबसे प्रभावशाली कदम है। फ़ोटोग्राफ़ और जटिल इमेज के लिए WebP सबसे अच्छा विकल्प है — यह JPEG से 25-35% छोटी फ़ाइलें बनाता है समान गुणवत्ता पर। यदि WebP सपोर्ट नहीं है, तो JPEG इस्तेमाल करें।\n\nलोगो, आइकन और शार्प एज वाली ग्राफ़िक्स के लिए PNG या SVG बेहतर हैं। SVG वेक्टर-आधारित है इसलिए किसी भी साइज़ पर शार्प रहता है और फ़ाइल साइज़ बहुत कम होती है। PNG ट्रांसपेरेंसी सपोर्ट करता है लेकिन फ़ोटो के लिए अनावश्यक रूप से बड़ा होता है।\n\nAVIF एक नया फ़ॉर्मेट है जो WebP से भी बेहतर कंप्रेशन प्रदान करता है। ब्राउज़र सपोर्ट तेज़ी से बढ़ रहा है और 2026 में अधिकांश आधुनिक ब्राउज़र इसे सपोर्ट करते हैं। प्रोग्रेसिव एडॉप्शन के लिए picture एलिमेंट में AVIF को प्राथमिक और WebP या JPEG को फ़ॉलबैक रखें।"
+            "text": "फ़ॉर्मेट का सही चुनाव ऑप्टिमाइज़ेशन का पहला और सबसे प्रभावशाली कदम है। फ़ोटोग्राफ़ और जटिल इमेज के लिए WebP सबसे अच्छा विकल्प है — यह JPEG से 25-35% छोटी फ़ाइलें बनाता है समान गुणवत्ता पर। यदि WebP सपोर्ट नहीं है, तो JPEG इस्तेमाल करें।"
           },
           {
             "heading": "कंप्रेशन और रिसाइज़िंग की सर्वोत्तम प्रथाएँ",
-            "text": "इमेज को उनके डिस्प्ले साइज़ से बड़ा न रखें। यदि कोई इमेज 800px चौड़ी दिखाई जाती है, तो 4000px चौड़ी इमेज सर्व करने का कोई मतलब नहीं है। रिसाइज़ करने के बाद कंप्रेस करना सबसे प्रभावी दृष्टिकोण है।\n\nJPEG और WebP के लिए 75-85% गुणवत्ता सेटिंग अधिकांश वेब इमेज के लिए आदर्श है। इस रेंज में फ़ाइल साइज़ में 60-80% की कमी होती है जबकि विज़ुअल क्वालिटी में कोई ध्यान देने योग्य अंतर नहीं आता।\n\nरेस्पॉन्सिव इमेज के लिए srcset एट्रिब्यूट का उपयोग करें ताकि ब्राउज़र डिवाइस की स्क्रीन साइज़ के अनुसार सही इमेज लोड करे। डेस्कटॉप के लिए बड़ी इमेज और मोबाइल के लिए छोटी इमेज सर्व करने से मोबाइल यूज़र्स के लिए लोडिंग टाइम काफ़ी कम हो जाता है।"
+            "text": "इमेज को उनके डिस्प्ले साइज़ से बड़ा न रखें। यदि कोई इमेज 800px चौड़ी दिखाई जाती है, तो 4000px चौड़ी इमेज सर्व करने का कोई मतलब नहीं है। रिसाइज़ करने के बाद कंप्रेस करना सबसे प्रभावी दृष्टिकोण है।"
           },
           {
             "heading": "ToolPic से वेबसाइट इमेज ऑप्टिमाइज़ करें",
-            "text": "ToolPic का इमेज कंप्रेसर आपकी वेबसाइट इमेज को ऑप्टिमाइज़ करने का सबसे आसान तरीका है। अपनी इमेज अपलोड करें, गुणवत्ता स्लाइडर सेट करें और तुरंत कंप्रेस्ड वर्शन डाउनलोड करें। बैच प्रोसेसिंग से कई इमेज एक साथ ऑप्टिमाइज़ होती हैं।\n\nफ़ॉर्मेट कन्वर्शन के लिए इमेज कन्वर्टर का उपयोग करें। अपनी JPEG या PNG फ़ाइलों को WebP में बदलकर तुरंत 25-35% अतिरिक्त साइज़ कम करें। टूल ट्रांसपेरेंसी को सुरक्षित रखता है।\n\nसभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है। कोई फ़ाइल किसी सर्वर पर अपलोड नहीं होती, जिससे आपकी वेबसाइट की सामग्री और क्लाइंट डेटा पूरी तरह गोपनीय रहता है। ToolPic एक मुफ़्त टूल है जिसमें कोई फ़ाइल सीमा, वॉटरमार्क या रजिस्ट्रेशन की आवश्यकता नहीं है।"
+            "text": "ToolPic का इमेज कंप्रेसर आपकी वेबसाइट इमेज को ऑप्टिमाइज़ करने का सबसे आसान तरीका है। अपनी इमेज अपलोड करें, गुणवत्ता स्लाइडर सेट करें और तुरंत कंप्रेस्ड वर्शन डाउनलोड करें। बैच प्रोसेसिंग से कई इमेज एक साथ ऑप्टिमाइज़ होती हैं।"
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -831,19 +1167,19 @@
         "content": [
           {
             "heading": "Instagram कैरोसेल क्यों ज़रूरी है",
-            "text": "Instagram कैरोसेल पोस्ट सामान्य सिंगल-इमेज पोस्ट की तुलना में लगभग तीन गुना अधिक एंगेजमेंट प्राप्त करती हैं। कैरोसेल में आप एक ही पोस्ट में 10 स्लाइड तक जोड़ सकते हैं, जिससे आप अपनी कहानी को विस्तार से बता सकते हैं।\n\nयह फॉर्मेट ट्यूटोरियल, प्रोडक्ट शोकेस, बिफोर-आफ्टर तुलना और शैक्षिक सामग्री के लिए बेहतरीन है। Instagram का एल्गोरिदम कैरोसेल को प्राथमिकता देता है क्योंकि उपयोगकर्ता इन पर अधिक समय बिताते हैं। इसलिए ब्रांड और क्रिएटर्स के लिए कैरोसेल एक शक्तिशाली मार्केटिंग टूल बन गया है।\n\nसही आकार और अनुपात का उपयोग करना महत्वपूर्ण है ताकि आपकी छवियां Instagram पर स्पष्ट और पेशेवर दिखें।"
+            "text": "Instagram कैरोसेल पोस्ट सामान्य सिंगल-इमेज पोस्ट की तुलना में लगभग तीन गुना अधिक एंगेजमेंट प्राप्त करती हैं। कैरोसेल में आप एक ही पोस्ट में 10 स्लाइड तक जोड़ सकते हैं, जिससे आप अपनी कहानी को विस्तार से बता सकते हैं।"
           },
           {
             "heading": "कैरोसेल के लिए सही आकार और अनुपात",
-            "text": "Instagram कैरोसेल के लिए अनुशंसित आकार 1080x1080 पिक्सेल (1:1 अनुपात) या 1080x1350 पिक्सेल (4:5 अनुपात) है। 4:5 अनुपात फीड में अधिक जगह लेता है जिससे ध्यान आकर्षित करना आसान होता है।\n\nसभी स्लाइड्स का आकार समान होना चाहिए। अगर एक स्लाइड 1080x1350 है तो बाकी सभी भी उसी आकार में होनी चाहिए। ToolPic के Image Crop टूल का उपयोग करके आप आसानी से सभी छवियों को एक समान आकार में काट सकते हैं।\n\nफाइल फॉर्मेट के लिए JPEG या PNG का उपयोग करें। JPEG फ़ोटो के लिए बेहतर है जबकि PNG टेक्स्ट-हैवी ग्राफिक्स के लिए। फ़ाइल का आकार 30MB से कम रखें।"
+            "text": "Instagram कैरोसेल के लिए अनुशंसित आकार 1080x1080 पिक्सेल (1:1 अनुपात) या 1080x1350 पिक्सेल (4:5 अनुपात) है। 4:5 अनुपात फीड में अधिक जगह लेता है जिससे ध्यान आकर्षित करना आसान होता है।"
           },
           {
             "heading": "डिज़ाइन टिप्स जो एंगेजमेंट बढ़ाएं",
-            "text": "पहली स्लाइड सबसे महत्वपूर्ण है - यह ध्यान खींचने वाली होनी चाहिए। एक आकर्षक हेडलाइन या दिलचस्प इमेज का उपयोग करें जो लोगों को स्वाइप करने के लिए प्रेरित करे।\n\nएक सुसंगत रंग योजना और फ़ॉन्ट शैली बनाए रखें। ब्रांड के रंगों का उपयोग करें ताकि पहचान बने। हर स्लाइड पर बहुत अधिक टेक्स्ट न डालें - सरल और साफ़ रखें।\n\nImage Merge टूल का उपयोग करके आप कई छवियों को एक कोलाज में जोड़ सकते हैं या बिफोर-आफ्टर इफ़ेक्ट बना सकते हैं। अंतिम स्लाइड में एक कॉल-टू-एक्शन जोड़ें जैसे सेव करें, शेयर करें या कमेंट करें।"
+            "text": "पहली स्लाइड सबसे महत्वपूर्ण है - यह ध्यान खींचने वाली होनी चाहिए। एक आकर्षक हेडलाइन या दिलचस्प इमेज का उपयोग करें जो लोगों को स्वाइप करने के लिए प्रेरित करे।"
           },
           {
             "heading": "ToolPic से कैरोसेल बनाने की प्रक्रिया",
-            "text": "ToolPic के फ्री टूल्स से कैरोसेल बनाना बहुत आसान है। सबसे पहले अपनी छवियां तैयार करें और Image Crop टूल खोलें। 1:1 या 4:5 अनुपात चुनें और सभी छवियों को एक समान आकार में क्रॉप करें।\n\nअगर आपको कई छवियों को एक स्लाइड में मिलाना है तो Image Merge टूल का उपयोग करें। यहां आप साइड-बाय-साइड लेआउट या ग्रिड लेआउट चुन सकते हैं।\n\nसब कुछ ब्राउज़र में होता है - कोई फ़ाइल अपलोड नहीं होती, कोई साइन-अप नहीं। अपनी तैयार छवियों को डाउनलोड करें और Instagram ऐप में कैरोसेल पोस्ट बनाएं। बस प्लस बटन दबाएं, मल्टीपल सेलेक्ट करें और अपनी क्रॉप की गई छवियां चुनें।"
+            "text": "ToolPic के फ्री टूल्स से कैरोसेल बनाना बहुत आसान है। सबसे पहले अपनी छवियां तैयार करें और Image Crop टूल खोलें। 1:1 या 4:5 अनुपात चुनें और सभी छवियों को एक समान आकार में क्रॉप करें।"
           }
         ]
       },
@@ -856,19 +1192,19 @@
         "content": [
           {
             "heading": "पारदर्शी बैकग्राउंड क्यों ज़रूरी है",
-            "text": "पारदर्शी बैकग्राउंड वाली छवियां वेब डिज़ाइन, ई-कॉमर्स, लोगो डिज़ाइन और सोशल मीडिया ग्राफिक्स में आवश्यक हैं। जब बैकग्राउंड पारदर्शी होता है तो छवि किसी भी रंग या पैटर्न पर सहजता से फिट हो जाती है।\n\nPNG फॉर्मेट पारदर्शिता (alpha channel) को सपोर्ट करता है जबकि JPEG नहीं करता। इसलिए लोगो, आइकन और ग्राफिक एलिमेंट्स के लिए PNG सबसे उपयुक्त फॉर्मेट है।\n\nपहले पारदर्शी बैकग्राउंड बनाने के लिए Photoshop जैसे महंगे सॉफ्टवेयर की ज़रूरत होती थी। आज ToolPic जैसे फ्री ऑनलाइन टूल्स से यह काम सेकंडों में हो जाता है।"
+            "text": "पारदर्शी बैकग्राउंड वाली छवियां वेब डिज़ाइन, ई-कॉमर्स, लोगो डिज़ाइन और सोशल मीडिया ग्राफिक्स में आवश्यक हैं। जब बैकग्राउंड पारदर्शी होता है तो छवि किसी भी रंग या पैटर्न पर सहजता से फिट हो जाती है।"
           },
           {
             "heading": "बैकग्राउंड रिमूव करने की प्रक्रिया",
-            "text": "ToolPic का Image Background Remove टूल AI तकनीक का उपयोग करके स्वचालित रूप से बैकग्राउंड को पहचानता और हटाता है। बस अपनी छवि अपलोड करें और टूल कुछ ही सेकंड में बैकग्राउंड हटा देगा।\n\nयह टूल व्यक्तियों, उत्पादों, जानवरों और विभिन्न वस्तुओं को पहचानने में सक्षम है। जटिल बैकग्राउंड जैसे बालों के किनारे या पारदर्शी वस्तुओं को भी सटीक रूप से संभालता है।\n\nसारी प्रोसेसिंग आपके ब्राउज़र में होती है। आपकी छवियां कभी किसी सर्वर पर अपलोड नहीं होतीं जिससे आपकी प्राइवेसी पूरी तरह सुरक्षित रहती है।"
+            "text": "ToolPic का Image Background Remove टूल AI तकनीक का उपयोग करके स्वचालित रूप से बैकग्राउंड को पहचानता और हटाता है। बस अपनी छवि अपलोड करें और टूल कुछ ही सेकंड में बैकग्राउंड हटा देगा।"
           },
           {
             "heading": "सही फॉर्मेट में सेव करना",
-            "text": "बैकग्राउंड हटाने के बाद सबसे महत्वपूर्ण कदम है सही फॉर्मेट में सेव करना। पारदर्शिता बनाए रखने के लिए PNG फॉर्मेट का उपयोग करें। अगर आपकी छवि JPEG में है तो ToolPic के Image Converter से इसे PNG में बदलें।\n\nWebP फॉर्मेट भी पारदर्शिता सपोर्ट करता है और PNG से छोटी फ़ाइल साइज़ देता है। वेबसाइट उपयोग के लिए WebP एक बेहतर विकल्प हो सकता है।\n\nध्यान रखें कि JPEG में सेव करने पर पारदर्शिता खो जाएगी और उसकी जगह सफेद बैकग्राउंड आ जाएगा। हमेशा PNG या WebP फॉर्मेट ही चुनें।"
+            "text": "बैकग्राउंड हटाने के बाद सबसे महत्वपूर्ण कदम है सही फॉर्मेट में सेव करना। पारदर्शिता बनाए रखने के लिए PNG फॉर्मेट का उपयोग करें। अगर आपकी छवि JPEG में है तो ToolPic के Image Converter से इसे PNG में बदलें।"
           },
           {
             "heading": "पारदर्शी PNG के उपयोग के टिप्स",
-            "text": "ई-कॉमर्स में प्रोडक्ट फोटो के लिए पारदर्शी बैकग्राउंड मानक है। Amazon, Flipkart जैसे प्लेटफॉर्म सफेद या पारदर्शी बैकग्राउंड की मांग करते हैं। पहले बैकग्राउंड हटाएं फिर ज़रूरत अनुसार सफेद बैकग्राउंड जोड़ें।\n\nलोगो बनाते समय हमेशा PNG फॉर्मेट में पारदर्शी बैकग्राउंड के साथ सेव करें। इससे लोगो किसी भी वेबसाइट, बिज़नेस कार्ड या मार्केटिंग सामग्री में आसानी से उपयोग हो सकता है।\n\nसोशल मीडिया स्टिकर्स और ओवरले बनाने के लिए भी पारदर्शी PNG बहुत उपयोगी है। ToolPic के फ्री टूल्स से आप बिना किसी खर्च के प्रोफेशनल क्वालिटी की पारदर्शी छवियां बना सकते हैं।"
+            "text": "ई-कॉमर्स में प्रोडक्ट फोटो के लिए पारदर्शी बैकग्राउंड मानक है। Amazon, Flipkart जैसे प्लेटफॉर्म सफेद या पारदर्शी बैकग्राउंड की मांग करते हैं। पहले बैकग्राउंड हटाएं फिर ज़रूरत अनुसार सफेद बैकग्राउंड जोड़ें।"
           }
         ]
       },
@@ -881,19 +1217,19 @@
         "content": [
           {
             "heading": "WhatsApp की वीडियो सीमाएं समझें",
-            "text": "WhatsApp में वीडियो भेजने की अधिकतम फ़ाइल साइज़ सीमा 16MB है। यह सीमा अक्सर समस्या बनती है क्योंकि आधुनिक स्मार्टफोन 4K या 1080p में वीडियो रिकॉर्ड करते हैं जो कुछ ही सेकंड में 16MB से बड़ी हो जाती हैं।\n\nWhatsApp Status के लिए वीडियो 30 सेकंड से अधिक नहीं हो सकता और फ़ाइल साइज़ भी 16MB के अंदर होनी चाहिए। इसलिए कंप्रेशन ज़रूरी हो जाता है।\n\nWhatsApp स्वयं भी वीडियो को कंप्रेस करता है लेकिन इसकी क्वालिटी बहुत कम हो जाती है। बेहतर है कि आप खुद कंप्रेस करें ताकि क्वालिटी पर नियंत्रण रहे।"
+            "text": "WhatsApp में वीडियो भेजने की अधिकतम फ़ाइल साइज़ सीमा 16MB है। यह सीमा अक्सर समस्या बनती है क्योंकि आधुनिक स्मार्टफोन 4K या 1080p में वीडियो रिकॉर्ड करते हैं जो कुछ ही सेकंड में 16MB से बड़ी हो जाती हैं।"
           },
           {
             "heading": "वीडियो कंप्रेशन की सर्वोत्तम सेटिंग्स",
-            "text": "WhatsApp के लिए वीडियो कंप्रेस करते समय रेज़ोल्यूशन को 720p (1280x720) पर सेट करें। यह मोबाइल स्क्रीन पर बिल्कुल साफ़ दिखता है और फ़ाइल साइज़ काफी कम हो जाती है।\n\nबिटरेट 1-2 Mbps रखें। फ्रेम रेट 30fps पर्याप्त है। H.264 कोडेक सबसे अच्छी कम्पैटिबिलिटी देता है क्योंकि लगभग सभी डिवाइस इसे सपोर्ट करते हैं।\n\nMP4 कंटेनर फॉर्मेट सबसे उपयुक्त है। AAC ऑडियो कोडेक का उपयोग करें और ऑडियो बिटरेट 128kbps रखें। इन सेटिंग्स से एक मिनट का वीडियो आसानी से 10MB के अंदर आ जाता है।"
+            "text": "WhatsApp के लिए वीडियो कंप्रेस करते समय रेज़ोल्यूशन को 720p (1280x720) पर सेट करें। यह मोबाइल स्क्रीन पर बिल्कुल साफ़ दिखता है और फ़ाइल साइज़ काफी कम हो जाती है।"
           },
           {
             "heading": "ToolPic से वीडियो कंप्रेस करें",
-            "text": "ToolPic का Video Compress टूल खोलें और अपना वीडियो ड्रैग-एंड-ड्रॉप करें। टूल स्वचालित रूप से फ़ाइल की जानकारी दिखाएगा जिसमें मूल आकार, अवधि और रेज़ोल्यूशन शामिल है।\n\nक्वालिटी स्लाइडर से कंप्रेशन लेवल चुनें। मीडियम क्वालिटी WhatsApp के लिए आदर्श संतुलन देती है। प्रोसेसिंग शुरू करें और वीडियो आपके ब्राउज़र में ही कंप्रेस हो जाएगा।\n\nकोई फ़ाइल कहीं अपलोड नहीं होती। WebAssembly (FFmpeg WASM) तकनीक का उपयोग करके सारा काम आपके डिवाइस पर ही होता है। कंप्रेस होने के बाद नई फ़ाइल साइज़ देखें और डाउनलोड करें।"
+            "text": "ToolPic का Video Compress टूल खोलें और अपना वीडियो ड्रैग-एंड-ड्रॉप करें। टूल स्वचालित रूप से फ़ाइल की जानकारी दिखाएगा जिसमें मूल आकार, अवधि और रेज़ोल्यूशन शामिल है।"
           },
           {
             "heading": "क्वालिटी बनाए रखने के टिप्स",
-            "text": "अगर वीडियो अभी भी बड़ा है तो उसे छोटे हिस्सों में काटें। WhatsApp पर कई छोटे वीडियो भेजना एक बड़ा कम क्वालिटी वाला वीडियो भेजने से बेहतर है।\n\nअगर वीडियो में ज़्यादा मूवमेंट नहीं है जैसे प्रेजेंटेशन या स्क्रीन रिकॉर्डिंग तो फ्रेम रेट 24fps तक कम कर सकते हैं। इससे फ़ाइल साइज़ और कम होगी बिना दिखने वाले अंतर के।\n\nDocuments के रूप में भेजने का विकल्प भी है। WhatsApp में Document के रूप में भेजने पर 100MB तक की फ़ाइल भेजी जा सकती है और WhatsApp अतिरिक्त कंप्रेशन नहीं करता। लेकिन प्राप्तकर्ता को फ़ाइल डाउनलोड करनी होगी।"
+            "text": "अगर वीडियो अभी भी बड़ा है तो उसे छोटे हिस्सों में काटें। WhatsApp पर कई छोटे वीडियो भेजना एक बड़ा कम क्वालिटी वाला वीडियो भेजने से बेहतर है।"
           }
         ]
       },
@@ -906,19 +1242,19 @@
         "content": [
           {
             "heading": "वॉटरमार्क क्यों ज़रूरी है",
-            "text": "डिजिटल दुनिया में छवियों की चोरी और बिना अनुमति उपयोग एक बड़ी समस्या है। वॉटरमार्क आपकी फ़ोटो और ग्राफिक्स पर स्वामित्व का चिन्ह लगाता है जिससे अनधिकृत उपयोग को रोका जा सकता है।\n\nफ़ोटोग्राफ़र, ग्राफिक डिज़ाइनर, ई-कॉमर्स विक्रेता और कंटेंट क्रिएटर्स के लिए वॉटरमार्क अत्यंत महत्वपूर्ण है। यह न केवल सुरक्षा प्रदान करता है बल्कि ब्रांड पहचान भी बनाता है।\n\nसही ढंग से लगाया गया वॉटरमार्क छवि की सुंदरता को खराब किए बिना सुरक्षा प्रदान करता है।"
+            "text": "डिजिटल दुनिया में छवियों की चोरी और बिना अनुमति उपयोग एक बड़ी समस्या है। वॉटरमार्क आपकी फ़ोटो और ग्राफिक्स पर स्वामित्व का चिन्ह लगाता है जिससे अनधिकृत उपयोग को रोका जा सकता है।"
           },
           {
             "heading": "वॉटरमार्क के प्रकार",
-            "text": "टेक्स्ट वॉटरमार्क सबसे सरल है। इसमें आप अपना नाम, ब्रांड नाम या कॉपीराइट नोटिस जोड़ सकते हैं। पारदर्शिता 30-50 प्रतिशत रखें ताकि मुख्य छवि दिखती रहे।\n\nलोगो वॉटरमार्क अधिक पेशेवर दिखता है। अपने ब्रांड का लोगो PNG फॉर्मेट में पारदर्शी बैकग्राउंड के साथ तैयार रखें। इसे छवि के कोने या बीच में लगा सकते हैं।\n\nटाइल्ड वॉटरमार्क पूरी छवि पर दोहराया जाता है। यह सबसे मज़बूत सुरक्षा देता है क्योंकि इसे क्रॉप करके हटाना लगभग असंभव है। स्टॉक फ़ोटो साइट्स अक्सर इस विधि का उपयोग करती हैं।"
+            "text": "टेक्स्ट वॉटरमार्क सबसे सरल है। इसमें आप अपना नाम, ब्रांड नाम या कॉपीराइट नोटिस जोड़ सकते हैं। पारदर्शिता 30-50 प्रतिशत रखें ताकि मुख्य छवि दिखती रहे।"
           },
           {
             "heading": "ToolPic से वॉटरमार्क लगाएं",
-            "text": "ToolPic का Image Watermark टूल आपको टेक्स्ट और लोगो दोनों प्रकार के वॉटरमार्क लगाने की सुविधा देता है। बस अपनी छवि अपलोड करें, वॉटरमार्क का प्रकार चुनें और कस्टमाइज़ करें।\n\nटेक्स्ट वॉटरमार्क में फ़ॉन्ट, आकार, रंग और पारदर्शिता बदल सकते हैं। लोगो वॉटरमार्क में अपना लोगो अपलोड करें और आकार व स्थिति समायोजित करें।\n\nबैच प्रोसेसिंग से एक साथ कई छवियों पर वॉटरमार्क लगाएं। सब कुछ ब्राउज़र में होता है इसलिए आपकी छवियां पूरी तरह सुरक्षित रहती हैं।"
+            "text": "ToolPic का Image Watermark टूल आपको टेक्स्ट और लोगो दोनों प्रकार के वॉटरमार्क लगाने की सुविधा देता है। बस अपनी छवि अपलोड करें, वॉटरमार्क का प्रकार चुनें और कस्टमाइज़ करें।"
           },
           {
             "heading": "वॉटरमार्क लगाने के सर्वोत्तम तरीके",
-            "text": "वॉटरमार्क की स्थिति महत्वपूर्ण है। कोने में लगाने पर इसे आसानी से क्रॉप किया जा सकता है। बीच में या थोड़ा ऑफ-सेंटर लगाना बेहतर है।\n\nपारदर्शिता का संतुलन रखें। बहुत अधिक पारदर्शी होने पर वॉटरमार्क दिखेगा नहीं और बहुत कम पारदर्शी होने पर छवि खराब लगेगी। 30 से 50 प्रतिशत पारदर्शिता आदर्श है।\n\nसोशल मीडिया पर शेयर करने से पहले हमेशा वॉटरमार्क लगाएं। पोर्टफ़ोलियो वेबसाइट पर भी छोटा सा वॉटरमार्क लगाना अच्छा अभ्यास है। याद रखें कि वॉटरमार्क कानूनी सुरक्षा का विकल्प नहीं है, अपने काम का कॉपीराइट रजिस्ट्रेशन भी करवाएं।"
+            "text": "वॉटरमार्क की स्थिति महत्वपूर्ण है। कोने में लगाने पर इसे आसानी से क्रॉप किया जा सकता है। बीच में या थोड़ा ऑफ-सेंटर लगाना बेहतर है।"
           }
         ]
       },
@@ -931,19 +1267,19 @@
         "content": [
           {
             "heading": "TikTok वीडियो की तकनीकी आवश्यकताएं",
-            "text": "TikTok वीडियो के लिए 9:16 वर्टिकल अनुपात (1080x1920 पिक्सेल) सबसे उपयुक्त है। यह पूरी मोबाइल स्क्रीन को कवर करता है और सबसे अधिक व्यूज़ प्राप्त करता है।\n\nMP4 और MOV फॉर्मेट दोनों स्वीकार्य हैं लेकिन MP4 सबसे अच्छा काम करता है। H.264 कोडेक के साथ MP4 फॉर्मेट सबसे अनुकूल है।\n\nवीडियो की अधिकतम अवधि 10 मिनट है लेकिन 15 से 60 सेकंड के वीडियो सबसे अच्छा प्रदर्शन करते हैं। फ़ाइल साइज़ 287MB से अधिक नहीं होनी चाहिए। फ्रेम रेट 30fps या 60fps रखें।"
+            "text": "TikTok वीडियो के लिए 9:16 वर्टिकल अनुपात (1080x1920 पिक्सेल) सबसे उपयुक्त है। यह पूरी मोबाइल स्क्रीन को कवर करता है और सबसे अधिक व्यूज़ प्राप्त करता है।"
           },
           {
             "heading": "वीडियो फॉर्मेट कन्वर्ट करना",
-            "text": "अगर आपका वीडियो AVI, MKV, WMV या किसी अन्य फॉर्मेट में है तो ToolPic के Video Convert टूल से इसे MP4 में बदलें। यह सबसे सरल प्रक्रिया है।\n\nवीडियो अपलोड करें, आउटपुट फॉर्मेट MP4 चुनें और कन्वर्ट करें। WebAssembly तकनीक से सारी प्रोसेसिंग आपके ब्राउज़र में होती है - कोई फ़ाइल कहीं अपलोड नहीं होती।\n\nक्वालिटी सेटिंग्स में रेज़ोल्यूशन 1080x1920 रखें। अगर मूल वीडियो हॉरिज़ॉन्टल है तो आपको इसे क्रॉप या रीफ्रेम करना होगा।"
+            "text": "अगर आपका वीडियो AVI, MKV, WMV या किसी अन्य फॉर्मेट में है तो ToolPic के Video Convert टूल से इसे MP4 में बदलें। यह सबसे सरल प्रक्रिया है।"
           },
           {
             "heading": "हॉरिज़ॉन्टल वीडियो को वर्टिकल में बदलें",
-            "text": "अधिकांश कैमरे और स्क्रीन रिकॉर्डिंग 16:9 हॉरिज़ॉन्टल फॉर्मेट में होती हैं। TikTok के लिए इसे 9:16 वर्टिकल में बदलना ज़रूरी है।\n\nImage Crop टूल का उपयोग करके वीडियो के थंबनेल और कवर इमेज को 9:16 अनुपात में क्रॉप करें। यह TikTok पर आपके वीडियो की पहली छाप बनाता है।\n\nवीडियो को वर्टिकल बनाते समय मुख्य विषय को फ्रेम के केंद्र में रखें। ऊपर और नीचे के हिस्से में TikTok यूज़रनेम और कैप्शन दिखता है इसलिए महत्वपूर्ण कंटेंट बीच में रखें।"
+            "text": "अधिकांश कैमरे और स्क्रीन रिकॉर्डिंग 16:9 हॉरिज़ॉन्टल फॉर्मेट में होती हैं। TikTok के लिए इसे 9:16 वर्टिकल में बदलना ज़रूरी है।"
           },
           {
             "heading": "TikTok वीडियो ऑप्टिमाइज़ेशन टिप्स",
-            "text": "उच्च क्वालिटी वीडियो अपलोड करें। TikTok स्वयं कंप्रेशन करता है इसलिए शुरुआत में अच्छी क्वालिटी रखने से अंतिम परिणाम बेहतर होगा। कम से कम 720p रेज़ोल्यूशन ज़रूरी है लेकिन 1080p आदर्श है।\n\nपहले 3 सेकंड सबसे महत्वपूर्ण हैं। दर्शक इतने समय में तय करते हैं कि वीडियो देखना है या स्क्रॉल करना है। इसलिए शुरुआत आकर्षक बनाएं।\n\nTikTok SEO के लिए सही हैशटैग, कैप्शन और ट्रेंडिंग साउंड का उपयोग करें। वीडियो की क्वालिटी और कंटेंट दोनों मिलकर वायरल होने की संभावना बढ़ाते हैं। ToolPic के फ्री टूल्स से अपने वीडियो को तकनीकी रूप से परफ़ेक्ट बनाएं।"
+            "text": "उच्च क्वालिटी वीडियो अपलोड करें। TikTok स्वयं कंप्रेशन करता है इसलिए शुरुआत में अच्छी क्वालिटी रखने से अंतिम परिणाम बेहतर होगा। कम से कम 720p रेज़ोल्यूशन ज़रूरी है लेकिन 1080p आदर्श है।"
           }
         ]
       },
@@ -956,19 +1292,19 @@
         "content": [
           {
             "heading": "इमेज रिसाइज़िंग क्यों ज़रूरी है",
-            "text": "डिजिटल दुनिया में इमेज का सही साइज़ होना बेहद ज़रूरी है। वेबसाइट पर बड़ी इमेज पेज लोडिंग को धीमा करती हैं जिससे विज़िटर्स चले जाते हैं। सोशल मीडिया प्लेटफ़ॉर्म्स के अपने विशिष्ट आयाम होते हैं और गलत साइज़ की इमेज अपलोड करने पर प्लेटफ़ॉर्म उसे ऑटोमैटिकली क्रॉप या स्ट्रेच कर देता है जिससे क्वालिटी खराब हो जाती है।\n\nई-कॉमर्स स्टोर्स के लिए प्रोडक्ट इमेज का एक समान साइज़ होना प्रोफेशनल दिखने के लिए आवश्यक है। ईमेल मार्केटिंग में बड़ी इमेज फ़ाइलें ईमेल डिलीवरी को प्रभावित करती हैं।\n\nरिसाइज़िंग का मतलब सिर्फ छोटा करना नहीं है। कभी-कभी आपको छोटी इमेज को बड़ा भी करना पड़ता है, जैसे प्रिंटिंग के लिए या बड़ी स्क्रीन पर डिस्प्ले के लिए। दोनों स्थितियों में सही तकनीक का उपयोग करना ज़रूरी है ताकि इमेज शार्प और क्लियर रहे।"
+            "text": "डिजिटल दुनिया में इमेज का सही साइज़ होना बेहद ज़रूरी है। वेबसाइट पर बड़ी इमेज पेज लोडिंग को धीमा करती हैं जिससे विज़िटर्स चले जाते हैं। सोशल मीडिया प्लेटफ़ॉर्म्स के अपने विशिष्ट आयाम होते हैं और गलत साइज़ की इमेज अपलोड करने पर प्लेटफ़ॉर्म उसे ऑटोमैटिकली क्रॉप या स्ट्रेच कर देता है जिससे क्वालिटी खराब हो जाती है।"
           },
           {
             "heading": "क्वालिटी लॉस क्यों होती है और इसे कैसे रोकें",
-            "text": "जब आप किसी इमेज को उसके मूल आयामों से बड़ा करते हैं तो सॉफ्टवेयर को नए पिक्सेल बनाने पड़ते हैं। यह प्रक्रिया इंटरपोलेशन कहलाती है और इससे इमेज धुंधली या पिक्सेलेटेड हो सकती है। सबसे अच्छा तरीका है कि हमेशा सबसे बड़े उपलब्ध रेज़ोल्यूशन से शुरू करें और नीचे की ओर रिसाइज़ करें।\n\nछोटा करते समय भी क्वालिटी लॉस हो सकती है अगर सही एल्गोरिदम का उपयोग न किया जाए। बाइलिनियर और बाइक्यूबिक इंटरपोलेशन सबसे आम तरीके हैं जो स्मूद रिजल्ट देते हैं। लैंक्ज़ोस एल्गोरिदम और भी बेहतर शार्पनेस देता है।\n\nइमेज के एस्पेक्ट रेशियो को बनाए रखना बेहद ज़रूरी है। अगर आप चौड़ाई और ऊंचाई को अलग-अलग अनुपात में बदलते हैं तो इमेज स्ट्रेच या स्क्विश हो जाएगी। हमेशा लॉक एस्पेक्ट रेशियो विकल्प का उपयोग करें या पहले से तय अनुपात में क्रॉप करें।"
+            "text": "जब आप किसी इमेज को उसके मूल आयामों से बड़ा करते हैं तो सॉफ्टवेयर को नए पिक्सेल बनाने पड़ते हैं। यह प्रक्रिया इंटरपोलेशन कहलाती है और इससे इमेज धुंधली या पिक्सेलेटेड हो सकती है। सबसे अच्छा तरीका है कि हमेशा सबसे बड़े उपलब्ध रेज़ोल्यूशन से शुरू करें और नीचे की ओर रिसाइज़ करें।"
           },
           {
             "heading": "विभिन्न उपयोगों के लिए सही साइज़",
-            "text": "वेबसाइट हीरो इमेज के लिए 1920x1080 पिक्सेल आदर्श है। ब्लॉग पोस्ट इमेज 1200x800 पिक्सेल रखें। थंबनेल 400x300 पिक्सेल पर्याप्त हैं। इन साइज़ में रिसाइज़ करने से पेज स्पीड में काफी सुधार होता है।\n\nसोशल मीडिया के लिए प्रत्येक प्लेटफ़ॉर्म की अपनी आवश्यकताएं हैं। Instagram पोस्ट 1080x1080 स्क्वायर, Facebook कवर 820x312, Twitter हेडर 1500x500 और LinkedIn बैनर 1584x396 पिक्सेल होना चाहिए।\n\nप्रिंटिंग के लिए रेज़ोल्यूशन 300 DPI होना चाहिए। एक 4x6 इंच प्रिंट के लिए 1200x1800 पिक्सेल की इमेज चाहिए। बड़े पोस्टर या बैनर के लिए और भी अधिक रेज़ोल्यूशन की आवश्यकता होती है। हमेशा अंतिम उपयोग को ध्यान में रखकर रिसाइज़ करें।"
+            "text": "वेबसाइट हीरो इमेज के लिए 1920x1080 पिक्सेल आदर्श है। ब्लॉग पोस्ट इमेज 1200x800 पिक्सेल रखें। थंबनेल 400x300 पिक्सेल पर्याप्त हैं। इन साइज़ में रिसाइज़ करने से पेज स्पीड में काफी सुधार होता है।"
           },
           {
             "heading": "ToolPic से इमेज रिसाइज़ करें",
-            "text": "ToolPic का Image Crop टूल इमेज रिसाइज़िंग के लिए सबसे आसान समाधान है। अपनी इमेज अपलोड करें और इच्छित एस्पेक्ट रेशियो चुनें जैसे 1:1 स्क्वायर, 16:9 वाइडस्क्रीन, 4:5 पोर्ट्रेट या कस्टम आयाम। टूल एस्पेक्ट रेशियो को लॉक रखता है ताकि इमेज कभी विकृत न हो।\n\nक्रॉप एरिया को खींचकर एडजस्ट करें और प्रीव्यू में देखें कि फाइनल रिजल्ट कैसा दिखेगा। जब आप संतुष्ट हों तो अप्लाई करें और हाई क्वालिटी में डाउनलोड करें।\n\nसारी प्रोसेसिंग आपके ब्राउज़र में होती है इसलिए आपकी इमेज कभी किसी सर्वर पर अपलोड नहीं होती। यह प्राइवेसी के लिहाज से बेहतरीन है। बैच प्रोसेसिंग से आप कई इमेज को एक साथ एक ही साइज़ में रिसाइज़ कर सकते हैं जिससे समय की बड़ी बचत होती है।"
+            "text": "ToolPic का Image Crop टूल इमेज रिसाइज़िंग के लिए सबसे आसान समाधान है। अपनी इमेज अपलोड करें और इच्छित एस्पेक्ट रेशियो चुनें जैसे 1:1 स्क्वायर, 16:9 वाइडस्क्रीन, 4:5 पोर्ट्रेट या कस्टम आयाम। टूल एस्पेक्ट रेशियो को लॉक रखता है ताकि इमेज कभी विकृत न हो।"
           }
         ]
       },
@@ -981,19 +1317,19 @@
         "content": [
           {
             "heading": "LinkedIn पर विज़ुअल कंटेंट क्यों महत्वपूर्ण है",
-            "text": "LinkedIn दुनिया का सबसे बड़ा प्रोफेशनल नेटवर्क है जहां 900 मिलियन से अधिक उपयोगकर्ता हैं। इमेज वाली पोस्ट को टेक्स्ट-ओनली पोस्ट की तुलना में दोगुने से अधिक एंगेजमेंट मिलती है। सही साइज़ की इमेज प्रोफेशनल दिखती है और आपकी विश्वसनीयता बढ़ाती है।\n\nगलत साइज़ की इमेज अपलोड करने पर LinkedIn उसे ऑटोमैटिकली क्रॉप या रिसाइज़ करता है जिससे महत्वपूर्ण हिस्से कट सकते हैं या इमेज धुंधली हो सकती है। यह अनप्रोफेशनल दिखता है और आपकी ब्रांड इमेज को नुकसान पहुंचा सकता है।\n\nLinkedIn पर अलग-अलग सेक्शन जैसे प्रोफ़ाइल फ़ोटो, बैकग्राउंड बैनर, पोस्ट इमेज, आर्टिकल कवर और कंपनी पेज के लिए अलग-अलग साइज़ की आवश्यकता होती है। प्रत्येक के लिए सही आयाम जानना ज़रूरी है।"
+            "text": "LinkedIn दुनिया का सबसे बड़ा प्रोफेशनल नेटवर्क है जहां 900 मिलियन से अधिक उपयोगकर्ता हैं। इमेज वाली पोस्ट को टेक्स्ट-ओनली पोस्ट की तुलना में दोगुने से अधिक एंगेजमेंट मिलती है। सही साइज़ की इमेज प्रोफेशनल दिखती है और आपकी विश्वसनीयता बढ़ाती है।"
           },
           {
             "heading": "LinkedIn प्रोफ़ाइल और बैनर साइज़",
-            "text": "प्रोफ़ाइल फ़ोटो 400x400 पिक्सेल होनी चाहिए। LinkedIn इसे गोल आकार में क्रॉप करता है इसलिए अपना चेहरा केंद्र में रखें और किनारों पर कुछ जगह छोड़ें। JPG या PNG फ़ॉर्मेट में अपलोड करें, फ़ाइल साइज़ 8MB से कम रखें।\n\nबैकग्राउंड बैनर इमेज 1584x396 पिक्सेल होनी चाहिए। यह 4:1 एस्पेक्ट रेशियो में है। मोबाइल पर बैनर के कुछ हिस्से कट जाते हैं इसलिए महत्वपूर्ण टेक्स्ट और ग्राफिक्स को बीच में रखें।\n\nकंपनी पेज लोगो 300x300 पिक्सेल और कंपनी कवर इमेज 1128x191 पिक्सेल होनी चाहिए। इन साइज़ का पालन करने से आपका प्रोफ़ाइल और कंपनी पेज शार्प और प्रोफेशनल दिखेगा।"
+            "text": "प्रोफ़ाइल फ़ोटो 400x400 पिक्सेल होनी चाहिए। LinkedIn इसे गोल आकार में क्रॉप करता है इसलिए अपना चेहरा केंद्र में रखें और किनारों पर कुछ जगह छोड़ें। JPG या PNG फ़ॉर्मेट में अपलोड करें, फ़ाइल साइज़ 8MB से कम रखें।"
           },
           {
             "heading": "LinkedIn पोस्ट और आर्टिकल इमेज साइज़",
-            "text": "फ़ीड पोस्ट इमेज के लिए 1200x627 पिक्सेल (1.91:1 रेशियो) सबसे अच्छा है। स्क्वायर इमेज 1200x1200 भी अच्छी तरह काम करती हैं और मोबाइल पर अधिक स्क्रीन स्पेस लेती हैं। वर्टिकल इमेज 1200x1500 (4:5 रेशियो) सबसे अधिक स्क्रीन स्पेस कवर करती हैं।\n\nLinkedIn आर्टिकल कवर इमेज 1200x644 पिक्सेल होनी चाहिए। आर्टिकल के भीतर की इमेज 1200 पिक्सेल चौड़ी रखें ताकि वे शार्प दिखें।\n\nकैरोसेल डॉक्यूमेंट्स (PDF स्लाइड्स) के लिए 1080x1080 या 1080x1350 पिक्सेल उपयोग करें। ये LinkedIn पर बहुत अधिक एंगेजमेंट प्राप्त करते हैं। प्रत्येक स्लाइड का टेक्स्ट बड़ा और पढ़ने में आसान होना चाहिए क्योंकि अधिकांश लोग मोबाइल पर देखते हैं।"
+            "text": "फ़ीड पोस्ट इमेज के लिए 1200x627 पिक्सेल (1.91:1 रेशियो) सबसे अच्छा है। स्क्वायर इमेज 1200x1200 भी अच्छी तरह काम करती हैं और मोबाइल पर अधिक स्क्रीन स्पेस लेती हैं। वर्टिकल इमेज 1200x1500 (4:5 रेशियो) सबसे अधिक स्क्रीन स्पेस कवर करती हैं।"
           },
           {
             "heading": "ToolPic से LinkedIn इमेज तैयार करें",
-            "text": "ToolPic के Image Crop टूल से अपनी इमेज को LinkedIn के सही आयामों में क्रॉप करें। कस्टम एस्पेक्ट रेशियो सेट करें जैसे प्रोफ़ाइल फ़ोटो के लिए 1:1, बैनर के लिए 4:1 या पोस्ट इमेज के लिए 1.91:1। टूल सटीक पिक्सेल डायमेंशन दिखाता है ताकि आप परफ़ेक्ट साइज़ पाएं।\n\nImage Compressor से इमेज फ़ाइल साइज़ कम करें बिना दिखने वाली क्वालिटी खोए। 80-85% क्वालिटी सेटिंग LinkedIn इमेज के लिए आदर्श है। छोटी फ़ाइलें तेज़ी से अपलोड होती हैं और LinkedIn कम अतिरिक्त कंप्रेशन लगाता है।\n\nदोनों टूल्स पूरी तरह ब्राउज़र में काम करते हैं। कोई साइन-अप नहीं, कोई अपलोड नहीं, कोई सीमा नहीं। अपनी सभी LinkedIn इमेज को कुछ ही मिनटों में प्रोफेशनल साइज़ में तैयार करें।"
+            "text": "ToolPic के Image Crop टूल से अपनी इमेज को LinkedIn के सही आयामों में क्रॉप करें। कस्टम एस्पेक्ट रेशियो सेट करें जैसे प्रोफ़ाइल फ़ोटो के लिए 1:1, बैनर के लिए 4:1 या पोस्ट इमेज के लिए 1.91:1। टूल सटीक पिक्सेल डायमेंशन दिखाता है ताकि आप परफ़ेक्ट साइज़ पाएं।"
           }
         ]
       },
@@ -1006,19 +1342,19 @@
         "content": [
           {
             "heading": "वॉटरमार्क क्यों लगाए जाते हैं",
-            "text": "वॉटरमार्क फ़ोटोग्राफ़र्स और कंटेंट क्रिएटर्स की बौद्धिक संपदा की सुरक्षा का एक महत्वपूर्ण तरीका है। स्टॉक फ़ोटो वेबसाइट्स प्रीव्यू इमेज पर वॉटरमार्क लगाती हैं ताकि बिना भुगतान के उपयोग को रोका जा सके। फ़ोटोग्राफ़र क्लाइंट्स को प्रूफ़ दिखाने के लिए वॉटरमार्क का उपयोग करते हैं।\n\nकिसी अन्य व्यक्ति की फ़ोटो से वॉटरमार्क हटाना अधिकांश देशों में कानूनी रूप से गलत है। यह कॉपीराइट उल्लंघन माना जाता है और इसके गंभीर कानूनी परिणाम हो सकते हैं। Digital Millennium Copyright Act (DMCA) के तहत वॉटरमार्क हटाना एक दंडनीय अपराध है।\n\nइसलिए वॉटरमार्क हटाने के बजाय कानूनी विकल्पों पर विचार करना बेहतर है। कई ऐसे तरीके हैं जिनसे आप बिना किसी कानूनी समस्या के वॉटरमार्क-फ्री इमेज प्राप्त कर सकते हैं।"
+            "text": "वॉटरमार्क फ़ोटोग्राफ़र्स और कंटेंट क्रिएटर्स की बौद्धिक संपदा की सुरक्षा का एक महत्वपूर्ण तरीका है। स्टॉक फ़ोटो वेबसाइट्स प्रीव्यू इमेज पर वॉटरमार्क लगाती हैं ताकि बिना भुगतान के उपयोग को रोका जा सके। फ़ोटोग्राफ़र क्लाइंट्स को प्रूफ़ दिखाने के लिए वॉटरमार्क का उपयोग करते हैं।"
           },
           {
             "heading": "वॉटरमार्क-फ्री इमेज के कानूनी तरीके",
-            "text": "सबसे सीधा तरीका है लाइसेंस खरीदना। Shutterstock, Adobe Stock, Getty Images जैसी साइट्स से लाइसेंस खरीदने पर आपको क्लीन, हाई-रेज़ोल्यूशन इमेज मिलती है। कीमतें प्रति इमेज कुछ डॉलर से शुरू होती हैं और सब्सक्रिप्शन प्लान में और सस्ती पड़ती हैं।\n\nफ्री स्टॉक फ़ोटो वेबसाइट्स एक बेहतरीन विकल्प हैं। Unsplash, Pexels, Pixabay जैसी साइट्स लाखों हाई-क्वालिटी इमेज बिना किसी वॉटरमार्क और बिना किसी शुल्क के प्रदान करती हैं। इनमें से अधिकांश कमर्शियल उपयोग के लिए भी फ्री हैं।\n\nCreative Commons लाइसेंस वाली इमेज भी एक विकल्प है। Flickr और Wikimedia Commons पर कई इमेज CC लाइसेंस के तहत उपलब्ध हैं जो फ्री उपयोग की अनुमति देती हैं, बशर्ते आप क्रेडिट दें।"
+            "text": "सबसे सीधा तरीका है लाइसेंस खरीदना। Shutterstock, Adobe Stock, Getty Images जैसी साइट्स से लाइसेंस खरीदने पर आपको क्लीन, हाई-रेज़ोल्यूशन इमेज मिलती है। कीमतें प्रति इमेज कुछ डॉलर से शुरू होती हैं और सब्सक्रिप्शन प्लान में और सस्ती पड़ती हैं।"
           },
           {
             "heading": "अपनी खुद की प्रोफेशनल इमेज बनाएं",
-            "text": "स्मार्टफ़ोन कैमरे इतने उन्नत हो गए हैं कि आप अपनी खुद की प्रोफेशनल क्वालिटी फ़ोटो ले सकते हैं। अच्छी लाइटिंग, स्थिर हाथ और सही कंपोज़िशन के साथ आपका फ़ोन स्टॉक फ़ोटो जैसी इमेज बना सकता है।\n\nAI इमेज जनरेटर्स जैसे DALL-E, Midjourney और Stable Diffusion से आप टेक्स्ट प्रॉम्प्ट से यूनिक इमेज बना सकते हैं। ये इमेज पूरी तरह ओरिजिनल होती हैं और इनमें कोई कॉपीराइट या वॉटरमार्क समस्या नहीं होती।\n\nCanva, Figma जैसे डिज़ाइन टूल्स से कस्टम ग्राफिक्स और इलस्ट्रेशन बनाना भी एक विकल्प है। इन टूल्स में फ्री टेम्प्लेट्स और एलिमेंट्स उपलब्ध हैं जिनसे प्रोफेशनल ग्राफिक्स बनाए जा सकते हैं।"
+            "text": "स्मार्टफ़ोन कैमरे इतने उन्नत हो गए हैं कि आप अपनी खुद की प्रोफेशनल क्वालिटी फ़ोटो ले सकते हैं। अच्छी लाइटिंग, स्थिर हाथ और सही कंपोज़िशन के साथ आपका फ़ोन स्टॉक फ़ोटो जैसी इमेज बना सकता है।"
           },
           {
             "heading": "ToolPic से अपनी इमेज को प्रोफेशनल बनाएं",
-            "text": "अगर आप अपनी खुद की फ़ोटो लेते हैं तो ToolPic के Image Watermark टूल से उन पर अपना वॉटरमार्क लगाएं। अपना नाम, ब्रांड या लोगो वॉटरमार्क के रूप में जोड़ें ताकि आपकी इमेज सुरक्षित रहे और आपकी पहचान बनी रहे।\n\nवॉटरमार्क लगाने से पहले Image Crop टूल से इमेज को सही साइज़ और एस्पेक्ट रेशियो में क्रॉप करें। सोशल मीडिया, वेबसाइट या प्रेज़ेंटेशन के लिए सही आयाम चुनें।\n\nToolPic के सभी टूल्स ब्राउज़र में काम करते हैं और पूरी तरह फ्री हैं। आपकी इमेज कभी किसी सर्वर पर अपलोड नहीं होती। यह आपको पूरी प्राइवेसी और सुरक्षा देता है। अपनी ओरिजिनल इमेज बनाएं और उन्हें प्रोफेशनली प्रोटेक्ट करें।"
+            "text": "अगर आप अपनी खुद की फ़ोटो लेते हैं तो ToolPic के Image Watermark टूल से उन पर अपना वॉटरमार्क लगाएं। अपना नाम, ब्रांड या लोगो वॉटरमार्क के रूप में जोड़ें ताकि आपकी इमेज सुरक्षित रहे और आपकी पहचान बनी रहे।"
           }
         ]
       },
@@ -1031,19 +1367,19 @@
         "content": [
           {
             "heading": "GIF और वीडियो में क्या अंतर है",
-            "text": "GIF (Graphics Interchange Format) एक एनिमेटेड इमेज फ़ॉर्मेट है जो 1987 से मौजूद है। यह ऑटोमैटिकली लूप होता है, कोई ऑडियो नहीं होता और अधिकतम 256 रंगों को सपोर्ट करता है। GIF की सबसे बड़ी खूबी यह है कि यह लगभग हर प्लेटफ़ॉर्म पर बिना प्लेयर के चलता है।\n\nवीडियो फ़ॉर्मेट जैसे MP4, WebM लाखों रंगों को सपोर्ट करते हैं, बहुत बेहतर कंप्रेशन देते हैं और ऑडियो शामिल कर सकते हैं। MP4 फ़ॉर्मेट H.264 कोडेक के साथ सबसे व्यापक रूप से सपोर्टेड वीडियो फ़ॉर्मेट है।\n\nफ़ाइल साइज़ में अंतर बहुत बड़ा है। एक 5 सेकंड की 720p क्लिप GIF में 10-20MB हो सकती है जबकि वही कंटेंट MP4 में सिर्फ 500KB-1MB का होगा। यह 10-20 गुना का अंतर है जो लोडिंग स्पीड और बैंडविड्थ पर बड़ा प्रभाव डालता है।"
+            "text": "GIF (Graphics Interchange Format) एक एनिमेटेड इमेज फ़ॉर्मेट है जो 1987 से मौजूद है। यह ऑटोमैटिकली लूप होता है, कोई ऑडियो नहीं होता और अधिकतम 256 रंगों को सपोर्ट करता है। GIF की सबसे बड़ी खूबी यह है कि यह लगभग हर प्लेटफ़ॉर्म पर बिना प्लेयर के चलता है।"
           },
           {
             "heading": "GIF कब बेहतर है",
-            "text": "सोशल मीडिया रिएक्शन और मीम्स के लिए GIF परफ़ेक्ट है। WhatsApp, Telegram, Slack और Discord पर GIF शेयर करना बेहद आसान है और ये तुरंत चलने लगते हैं। छोटे एनिमेटेड स्टिकर और इमोजी-स्टाइल एनिमेशन GIF फ़ॉर्मेट में सबसे अच्छे काम करते हैं।\n\nईमेल मार्केटिंग में GIF बहुत प्रभावी है। अधिकांश ईमेल क्लाइंट्स वीडियो को सपोर्ट नहीं करते लेकिन GIF को सपोर्ट करते हैं। प्रोडक्ट डेमो या अटेंशन ग्रैबर के रूप में ईमेल में GIF जोड़ना क्लिक-थ्रू रेट बढ़ा सकता है।\n\nUI/UX ट्यूटोरियल और सॉफ्टवेयर डेमो में छोटे GIF प्रभावी होते हैं। GitHub README फ़ाइलों, डॉक्यूमेंटेशन और सपोर्ट आर्टिकल्स में GIF लगाना सबसे आसान तरीका है जिसमें अलग से वीडियो प्लेयर की ज़रूरत नहीं पड़ती।"
+            "text": "सोशल मीडिया रिएक्शन और मीम्स के लिए GIF परफ़ेक्ट है। WhatsApp, Telegram, Slack और Discord पर GIF शेयर करना बेहद आसान है और ये तुरंत चलने लगते हैं। छोटे एनिमेटेड स्टिकर और इमोजी-स्टाइल एनिमेशन GIF फ़ॉर्मेट में सबसे अच्छे काम करते हैं।"
           },
           {
             "heading": "वीडियो कब बेहतर है",
-            "text": "लंबे कंटेंट के लिए वीडियो हमेशा बेहतर है। 10 सेकंड से अधिक की किसी भी क्लिप के लिए वीडियो फ़ॉर्मेट ही सही चुनाव है क्योंकि GIF का फ़ाइल साइज़ अव्यावहारिक रूप से बड़ा हो जाएगा।\n\nवेबसाइट परफ़ॉर्मेंस के लिए वीडियो बहुत बेहतर है। HTML5 वीडियो एलिमेंट को autoplay, loop और muted एट्रिब्यूट्स के साथ उपयोग करने पर यह GIF जैसा ही व्यवहार करता है लेकिन फ़ाइल साइज़ 90% कम होता है। यह पेज लोडिंग स्पीड में बहुत बड़ा सुधार करता है।\n\nजहां ऑडियो ज़रूरी हो वहां वीडियो ही एकमात्र विकल्प है। ट्यूटोरियल, प्रोडक्ट रिव्यू, इंटरव्यू और किसी भी कंटेंट जिसमें आवाज़ शामिल हो उसके लिए वीडियो चुनें। हाई क्वालिटी विज़ुअल कंटेंट जैसे फ़ोटोग्राफी शोकेस या सिनेमैटिक क्लिप्स के लिए भी वीडियो बेहतर है।"
+            "text": "लंबे कंटेंट के लिए वीडियो हमेशा बेहतर है। 10 सेकंड से अधिक की किसी भी क्लिप के लिए वीडियो फ़ॉर्मेट ही सही चुनाव है क्योंकि GIF का फ़ाइल साइज़ अव्यावहारिक रूप से बड़ा हो जाएगा।"
           },
           {
             "heading": "ToolPic से GIF और वीडियो कन्वर्ट करें",
-            "text": "ToolPic का Video to GIF टूल आपके वीडियो को आसानी से GIF में बदलता है। वीडियो अपलोड करें, शुरू और अंत का समय चुनें, फ्रेम रेट और साइज़ एडजस्ट करें और कन्वर्ट करें। टूल ऑप्टिमाइज़्ड GIF बनाता है जो क्वालिटी और फ़ाइल साइज़ के बीच सही संतुलन रखता है।\n\nVideo Compress टूल से अपने वीडियो का फ़ाइल साइज़ कम करें बिना क्वालिटी खोए। रेज़ोल्यूशन और बिटरेट एडजस्ट करके वीडियो को सोशल मीडिया या मैसेजिंग ऐप्स के लिए ऑप्टिमाइज़ करें।\n\nदोनों टूल्स WebAssembly (FFmpeg) तकनीक पर आधारित हैं और पूरी तरह आपके ब्राउज़र में चलते हैं। कोई फ़ाइल सर्वर पर अपलोड नहीं होती, कोई साइज़ लिमिट नहीं है और कोई रजिस्ट्रेशन की ज़रूरत नहीं। GIF बनाएं या वीडियो कंप्रेस करें, सब कुछ मुफ्त और प्राइवेट है।"
+            "text": "ToolPic का Video to GIF टूल आपके वीडियो को आसानी से GIF में बदलता है। वीडियो अपलोड करें, शुरू और अंत का समय चुनें, फ्रेम रेट और साइज़ एडजस्ट करें और कन्वर्ट करें। टूल ऑप्टिमाइज़्ड GIF बनाता है जो क्वालिटी और फ़ाइल साइज़ के बीच सही संतुलन रखता है।"
           }
         ]
       },
@@ -1056,19 +1392,19 @@
         "content": [
           {
             "heading": "वीडियो से ऑडियो निकालना क्यों ज़रूरी है",
-            "text": "कई बार आपको वीडियो के सिर्फ ऑडियो हिस्से की ज़रूरत होती है। पॉडकास्ट बनाने वाले वीडियो इंटरव्यू से ऑडियो निकालकर ऑडियो-ओनली एपिसोड बनाते हैं। म्यूज़िशियन लाइव परफ़ॉर्मेंस की वीडियो रिकॉर्डिंग से ऑडियो ट्रैक अलग करते हैं। छात्र लेक्चर वीडियो से ऑडियो निकालकर चलते-फिरते सुन सकते हैं।\n\nऑडियो फ़ाइलें वीडियो की तुलना में बहुत छोटी होती हैं। एक 10 मिनट का 1080p वीडियो 200MB का हो सकता है जबकि उसका MP3 ऑडियो सिर्फ 10MB का होगा। यह स्टोरेज स्पेस बचाता है और मोबाइल डेटा की खपत कम करता है।\n\nवीडियो एडिटिंग में भी ऑडियो एक्सट्रैक्शन उपयोगी है। बैकग्राउंड म्यूज़िक, वॉयसओवर या साउंड इफ़ेक्ट्स को अलग-अलग एडिट करने के लिए पहले उन्हें वीडियो से निकालना होता है।"
+            "text": "कई बार आपको वीडियो के सिर्फ ऑडियो हिस्से की ज़रूरत होती है। पॉडकास्ट बनाने वाले वीडियो इंटरव्यू से ऑडियो निकालकर ऑडियो-ओनली एपिसोड बनाते हैं। म्यूज़िशियन लाइव परफ़ॉर्मेंस की वीडियो रिकॉर्डिंग से ऑडियो ट्रैक अलग करते हैं। छात्र लेक्चर वीडियो से ऑडियो निकालकर चलते-फिरते सुन सकते हैं।"
           },
           {
             "heading": "ऑडियो फ़ॉर्मेट्स को समझें",
-            "text": "MP3 सबसे लोकप्रिय ऑडियो फ़ॉर्मेट है। यह लॉसी कंप्रेशन का उपयोग करता है और 128-320 kbps बिटरेट पर अच्छी क्वालिटी देता है। लगभग हर डिवाइस और ऐप MP3 को सपोर्ट करता है।\n\nAAC (Advanced Audio Coding) MP3 से बेहतर क्वालिटी देता है, खासकर कम बिटरेट पर। यह Apple डिवाइसेज़ पर डिफ़ॉल्ट फ़ॉर्मेट है और YouTube भी AAC ऑडियो का उपयोग करता है।\n\nWAV और FLAC लॉसलेस फ़ॉर्मेट हैं जो ऑडियो क्वालिटी में कोई कमी नहीं करते। प्रोफेशनल ऑडियो प्रोडक्शन में ये पसंद किए जाते हैं लेकिन फ़ाइल साइज़ MP3 से 5-10 गुना बड़ा होता है। OGG Vorbis एक ओपन-सोर्स विकल्प है जो अच्छी क्वालिटी और छोटे साइज़ का संतुलन देता है।"
+            "text": "MP3 सबसे लोकप्रिय ऑडियो फ़ॉर्मेट है। यह लॉसी कंप्रेशन का उपयोग करता है और 128-320 kbps बिटरेट पर अच्छी क्वालिटी देता है। लगभग हर डिवाइस और ऐप MP3 को सपोर्ट करता है।"
           },
           {
             "heading": "कानूनी रूप से ऑडियो एक्सट्रैक्ट करें",
-            "text": "अपनी खुद की वीडियो फ़ाइलों से ऑडियो निकालना पूरी तरह कानूनी है। अगर आपने वीडियो रिकॉर्ड किया है या आपके पास उसका लाइसेंस है तो आप उसके ऑडियो को किसी भी तरह से उपयोग कर सकते हैं।\n\nYouTube जैसे प्लेटफ़ॉर्म से कंटेंट डाउनलोड करना उनकी सेवा की शर्तों के खिलाफ हो सकता है। कॉपीराइटेड कंटेंट को बिना अनुमति डाउनलोड करना कानूनी समस्याएं पैदा कर सकता है। हमेशा कंटेंट ओनर की अनुमति लें या Creative Commons लाइसेंस वाले कंटेंट का उपयोग करें।\n\nसबसे सुरक्षित तरीका यह है कि अपनी वीडियो फ़ाइलें जो पहले से आपके डिवाइस पर हैं उनसे ऑडियो निकालें। स्क्रीन रिकॉर्डिंग, पर्सनल वीडियो, लाइसेंस्ड कंटेंट या खुद बनाए गए वीडियो से ऑडियो निकालना बिल्कुल सही है।"
+            "text": "अपनी खुद की वीडियो फ़ाइलों से ऑडियो निकालना पूरी तरह कानूनी है। अगर आपने वीडियो रिकॉर्ड किया है या आपके पास उसका लाइसेंस है तो आप उसके ऑडियो को किसी भी तरह से उपयोग कर सकते हैं।"
           },
           {
             "heading": "ToolPic से ऑडियो एक्सट्रैक्ट करें",
-            "text": "ToolPic का Video Extract Audio टूल वीडियो से ऑडियो निकालने का सबसे आसान तरीका है। अपनी वीडियो फ़ाइल (MP4, WebM, MOV, AVI आदि) अपलोड करें और आउटपुट फ़ॉर्मेट चुनें। टूल वीडियो से ऑडियो ट्रैक को अलग करता है और चुने हुए फ़ॉर्मेट में सेव करता है।\n\nप्रोसेसिंग पूरी तरह आपके ब्राउज़र में WebAssembly (FFmpeg) तकनीक से होती है। आपकी वीडियो फ़ाइल कभी किसी सर्वर पर अपलोड नहीं होती। यह प्राइवेसी और सुरक्षा के लिए सबसे बेहतर तरीका है।\n\nटूल MP3, AAC, WAV और अन्य ऑडियो फ़ॉर्मेट में एक्सपोर्ट कर सकता है। बिटरेट और क्वालिटी सेटिंग्स एडजस्ट करें। प्रोसेसिंग पूरी होने पर ऑडियो फ़ाइल तुरंत डाउनलोड हो जाती है। कोई रजिस्ट्रेशन नहीं, कोई लिमिट नहीं, पूरी तरह मुफ्त।"
+            "text": "ToolPic का Video Extract Audio टूल वीडियो से ऑडियो निकालने का सबसे आसान तरीका है। अपनी वीडियो फ़ाइल (MP4, WebM, MOV, AVI आदि) अपलोड करें और आउटपुट फ़ॉर्मेट चुनें। टूल वीडियो से ऑडियो ट्रैक को अलग करता है और चुने हुए फ़ॉर्मेट में सेव करता है।"
           }
         ]
       }

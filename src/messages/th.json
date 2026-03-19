@@ -356,55 +356,391 @@
     }
   },
   "seoPages": {
-    "privacy": "Your files are processed locally in your browser. Nothing is uploaded to any server.",
-    "convertJpgToPng": "Convert JPG to PNG Online - Free",
-    "convertJpgToPngDesc": "Convert JPG/JPEG images to PNG format online for free. Preserve transparency and quality. No upload needed, 100% browser-based.",
-    "convertJpgToWebp": "Convert JPG to WebP Online - Free",
-    "convertJpgToWebpDesc": "Convert JPG images to WebP format for smaller file sizes with the same quality. Perfect for web optimization.",
-    "convertPngToJpg": "Convert PNG to JPG Online - Free",
-    "convertPngToJpgDesc": "Convert PNG images to JPG format online for free. Reduce file size while maintaining visual quality. No software needed.",
-    "convertPngToWebp": "Convert PNG to WebP Online - Free",
-    "convertPngToWebpDesc": "Convert PNG images to WebP format for significantly smaller file sizes. Ideal for faster website loading.",
-    "convertWebpToJpg": "Convert WebP to JPG Online - Free",
-    "convertWebpToJpgDesc": "Convert WebP images to JPG format online for free. Make your images compatible with all devices and software.",
-    "convertWebpToPng": "Convert WebP to PNG Online - Free",
-    "convertWebpToPngDesc": "Convert WebP images to PNG format online for free. Get lossless quality with full transparency support.",
-    "convertHeicToJpg": "Convert HEIC to JPG Online - Free",
-    "convertHeicToJpgDesc": "Convert iPhone HEIC/HEIF photos to JPG format online for free. Make your Apple photos universally compatible.",
-    "convertBmpToJpg": "Convert BMP to JPG Online - Free",
-    "convertBmpToJpgDesc": "Convert BMP bitmap images to JPG format online for free. Dramatically reduce file size from uncompressed BMP files.",
-    "convertMp4ToWebm": "Convert MP4 to WebM Online - Free",
-    "convertMp4ToWebmDesc": "Convert MP4 videos to WebM format online for free. WebM offers smaller file sizes ideal for web embedding.",
-    "convertMp4ToAvi": "Convert MP4 to AVI Online - Free",
-    "convertMp4ToAviDesc": "Convert MP4 videos to AVI format online for free. AVI provides wide compatibility with older media players and editors.",
-    "convertWebmToMp4": "Convert WebM to MP4 Online - Free",
-    "convertWebmToMp4Desc": "Convert WebM videos to MP4 format online for free. MP4 is the most universally compatible video format.",
-    "convertMp4ToGif": "Convert MP4 to GIF Online - Free",
-    "convertMp4ToGifDesc": "Convert MP4 video clips to animated GIF online for free. Create shareable GIFs from any video. Custom frame rate and size.",
-    "compressJpg": "Compress JPG Images Online - Free",
-    "compressJpgDesc": "Compress JPG/JPEG images online for free. Reduce file size up to 80% without visible quality loss. No upload required.",
-    "compressPng": "Compress PNG Images Online - Free",
-    "compressPngDesc": "Compress PNG images online for free. Reduce PNG file size while preserving transparency and quality. 100% browser-based.",
-    "compressWebp": "Compress WebP Images Online - Free",
-    "compressWebpDesc": "Compress WebP images online for free. Optimize WebP file size for faster web performance without sacrificing quality.",
-    "compressMp4": "Compress MP4 Videos Online - Free",
-    "compressMp4Desc": "Compress MP4 video files online for free. Reduce video size by up to 70% while maintaining watchable quality. No server upload.",
-    "resizeInstagram": "Resize Image for Instagram - Free Online Tool",
-    "resizeInstagramDesc": "Resize and crop images to perfect Instagram dimensions online for free. Supports posts (1080x1080), stories (1080x1920), and reels.",
-    "resizeFacebook": "Resize Image for Facebook - Free Online Tool",
-    "resizeFacebookDesc": "Resize images for Facebook cover photos, profile pictures, and posts online for free. Get the perfect dimensions every time.",
-    "resizeTwitter": "Resize Image for Twitter/X - Free Online Tool",
-    "resizeTwitterDesc": "Resize images for Twitter/X headers (1500x500), posts, and profile pictures online for free. Optimized for the platform.",
-    "resizeYoutube": "Resize Image for YouTube Thumbnail - Free",
-    "resizeYoutubeDesc": "Create perfect YouTube thumbnails at 1280x720 pixels online for free. Crop and resize images to the ideal thumbnail size.",
-    "removeBg": "Remove Image Background Online - Free AI Tool",
-    "removeBgDesc": "Remove backgrounds from images online for free using AI. Get transparent PNG in seconds. Works with people, products, and objects.",
-    "addWatermark": "Add Watermark to Photos Online - Free",
-    "addWatermarkDesc": "Add text or logo watermarks to your photos online for free. Protect your images with custom watermarks. Batch processing supported.",
-    "mergePhotos": "Merge Photos Online - Free Image Combiner",
-    "mergePhotosDesc": "Combine and merge multiple photos into one image online for free. Create collages, side-by-side comparisons, and long images.",
-    "extractMp3": "Extract MP3 from Video Online - Free",
-    "extractMp3Desc": "Extract audio from video files and save as MP3 online for free. Works with MP4, WebM, AVI, and other video formats."
+    "privacy": "ไฟล์ของคุณถูกประมวลผลในเบราว์เซอร์ของคุณ ไม่มีอะไรถูกอัปโหลดไปยังเซิร์ฟเวอร์",
+    "convertJpgToPng": "แปลง JPG เป็น PNG ออนไลน์ - ฟรี",
+    "convertJpgToPngDesc": "แปลงภาพ JPG/JPEG เป็นรูปแบบ PNG ออนไลน์ฟรี รักษาความโปร่งใสและคุณภาพ ไม่ต้องอัปโหลด ทำงานบนเบราว์เซอร์ 100%",
+    "convertJpgToWebp": "แปลง JPG เป็น WebP ออนไลน์ - ฟรี",
+    "convertJpgToWebpDesc": "แปลงภาพ JPG เป็นรูปแบบ WebP เพื่อขนาดไฟล์ที่เล็กลงด้วยคุณภาพเดียวกัน เหมาะสำหรับการเพิ่มประสิทธิภาพเว็บ",
+    "convertPngToJpg": "แปลง PNG เป็น JPG ออนไลน์ - ฟรี",
+    "convertPngToJpgDesc": "แปลงภาพ PNG เป็นรูปแบบ JPG ออนไลน์ฟรี ลดขนาดไฟล์โดยรักษาคุณภาพภาพ ไม่ต้องติดตั้งซอฟต์แวร์",
+    "convertPngToWebp": "แปลง PNG เป็น WebP ออนไลน์ - ฟรี",
+    "convertPngToWebpDesc": "แปลงภาพ PNG เป็นรูปแบบ WebP เพื่อขนาดไฟล์ที่เล็กลงอย่างมาก เหมาะสำหรับการโหลดเว็บไซต์ที่เร็วขึ้น",
+    "convertWebpToJpg": "แปลง WebP เป็น JPG ออนไลน์ - ฟรี",
+    "convertWebpToJpgDesc": "แปลงภาพ WebP เป็นรูปแบบ JPG ออนไลน์ฟรี ทำให้ภาพของคุณใช้งานได้กับทุกอุปกรณ์และซอฟต์แวร์",
+    "convertWebpToPng": "แปลง WebP เป็น PNG ออนไลน์ - ฟรี",
+    "convertWebpToPngDesc": "แปลงภาพ WebP เป็นรูปแบบ PNG ออนไลน์ฟรี ได้คุณภาพแบบไม่สูญเสียข้อมูลพร้อมรองรับความโปร่งใสเต็มรูปแบบ",
+    "convertHeicToJpg": "แปลง HEIC เป็น JPG ออนไลน์ - ฟรี",
+    "convertHeicToJpgDesc": "แปลงภาพถ่าย iPhone HEIC/HEIF เป็นรูปแบบ JPG ออนไลน์ฟรี ทำให้ภาพถ่าย Apple ของคุณใช้งานได้ทุกที่",
+    "convertBmpToJpg": "แปลง BMP เป็น JPG ออนไลน์ - ฟรี",
+    "convertBmpToJpgDesc": "แปลงภาพบิตแมป BMP เป็นรูปแบบ JPG ออนไลน์ฟรี ลดขนาดไฟล์อย่างมากจากไฟล์ BMP ที่ไม่ได้บีบอัด",
+    "convertMp4ToWebm": "แปลง MP4 เป็น WebM ออนไลน์ - ฟรี",
+    "convertMp4ToWebmDesc": "แปลงวิดีโอ MP4 เป็นรูปแบบ WebM ออนไลน์ฟรี WebM มีขนาดไฟล์ที่เล็กกว่าเหมาะสำหรับการฝังในเว็บ",
+    "convertMp4ToAvi": "แปลง MP4 เป็น AVI ออนไลน์ - ฟรี",
+    "convertMp4ToAviDesc": "แปลงวิดีโอ MP4 เป็นรูปแบบ AVI ออนไลน์ฟรี AVI รองรับการใช้งานร่วมกับเครื่องเล่นสื่อและโปรแกรมตัดต่อรุ่นเก่า",
+    "convertWebmToMp4": "แปลง WebM เป็น MP4 ออนไลน์ - ฟรี",
+    "convertWebmToMp4Desc": "แปลงวิดีโอ WebM เป็นรูปแบบ MP4 ออนไลน์ฟรี MP4 เป็นรูปแบบวิดีโอที่ใช้งานได้ทั่วไปที่สุด",
+    "convertMp4ToGif": "แปลง MP4 เป็น GIF ออนไลน์ - ฟรี",
+    "convertMp4ToGifDesc": "แปลงคลิปวิดีโอ MP4 เป็น GIF เคลื่อนไหวออนไลน์ฟรี สร้าง GIF ที่แชร์ได้จากวิดีโอใดก็ได้ กำหนดเฟรมเรทและขนาดเอง",
+    "compressJpg": "บีบอัดภาพ JPG ออนไลน์ - ฟรี",
+    "compressJpgDesc": "บีบอัดภาพ JPG/JPEG ออนไลน์ฟรี ลดขนาดไฟล์ได้ถึง 80% โดยไม่สูญเสียคุณภาพที่มองเห็นได้ ไม่ต้องอัปโหลด",
+    "compressPng": "บีบอัดภาพ PNG ออนไลน์ - ฟรี",
+    "compressPngDesc": "บีบอัดภาพ PNG ออนไลน์ฟรี ลดขนาดไฟล์ PNG โดยรักษาความโปร่งใสและคุณภาพ ทำงานบนเบราว์เซอร์ 100%",
+    "compressWebp": "บีบอัดภาพ WebP ออนไลน์ - ฟรี",
+    "compressWebpDesc": "บีบอัดภาพ WebP ออนไลน์ฟรี เพิ่มประสิทธิภาพขนาดไฟล์ WebP เพื่อประสิทธิภาพเว็บที่เร็วขึ้นโดยไม่เสียคุณภาพ",
+    "compressMp4": "บีบอัดวิดีโอ MP4 ออนไลน์ - ฟรี",
+    "compressMp4Desc": "บีบอัดไฟล์วิดีโอ MP4 ออนไลน์ฟรี ลดขนาดวิดีโอได้ถึง 70% โดยรักษาคุณภาพที่ดูได้ ไม่ต้องอัปโหลดไปเซิร์ฟเวอร์",
+    "resizeInstagram": "ปรับขนาดภาพสำหรับ Instagram - เครื่องมือออนไลน์ฟรี",
+    "resizeInstagramDesc": "ปรับขนาดและครอปภาพให้ได้ขนาด Instagram ที่สมบูรณ์แบบออนไลน์ฟรี รองรับโพสต์ (1080x1080) สตอรี่ (1080x1920) และรีลส์",
+    "resizeFacebook": "ปรับขนาดภาพสำหรับ Facebook - เครื่องมือออนไลน์ฟรี",
+    "resizeFacebookDesc": "ปรับขนาดภาพสำหรับภาพปก Facebook รูปโปรไฟล์ และโพสต์ออนไลน์ฟรี ได้ขนาดที่สมบูรณ์แบบทุกครั้ง",
+    "resizeTwitter": "ปรับขนาดภาพสำหรับ Twitter/X - เครื่องมือออนไลน์ฟรี",
+    "resizeTwitterDesc": "ปรับขนาดภาพสำหรับส่วนหัว Twitter/X (1500x500) โพสต์ และรูปโปรไฟล์ออนไลน์ฟรี ปรับให้เหมาะสมกับแพลตฟอร์ม",
+    "resizeYoutube": "ปรับขนาดภาพสำหรับ YouTube Thumbnail - ฟรี",
+    "resizeYoutubeDesc": "สร้าง YouTube thumbnail ที่สมบูรณ์แบบขนาด 1280x720 พิกเซลออนไลน์ฟรี ครอปและปรับขนาดภาพให้ได้ขนาด thumbnail ที่เหมาะสม",
+    "removeBg": "ลบพื้นหลังภาพออนไลน์ - เครื่องมือ AI ฟรี",
+    "removeBgDesc": "ลบพื้นหลังจากภาพออนไลน์ฟรีด้วย AI ได้ PNG โปร่งใสในไม่กี่วินาที ใช้ได้กับคน สินค้า และวัตถุ",
+    "addWatermark": "เพิ่มลายน้ำบนภาพถ่ายออนไลน์ - ฟรี",
+    "addWatermarkDesc": "เพิ่มลายน้ำข้อความหรือโลโก้บนภาพถ่ายของคุณออนไลน์ฟรี ปกป้องภาพด้วยลายน้ำที่กำหนดเอง รองรับการประมวลผลแบบกลุ่ม",
+    "mergePhotos": "รวมภาพออนไลน์ - เครื่องมือรวมภาพฟรี",
+    "mergePhotosDesc": "รวมและผสานภาพถ่ายหลายภาพเป็นภาพเดียวออนไลน์ฟรี สร้างคอลลาจ การเปรียบเทียบแบบวางเคียงกัน และภาพยาว",
+    "extractMp3": "แยก MP3 จากวิดีโอออนไลน์ - ฟรี",
+    "extractMp3Desc": "แยกเสียงจากไฟล์วิดีโอและบันทึกเป็น MP3 ออนไลน์ฟรี ใช้ได้กับ MP4, WebM, AVI และรูปแบบวิดีโออื่นๆ",
+    "convertJpgToPngHowTo": "วิธีแปลง JPG เป็น PNG",
+    "convertJpgToPngStep1": "อัปโหลดภาพ JPG",
+    "convertJpgToPngStep1Desc": "ลากและวางหรือคลิกเพื่อเลือกไฟล์ภาพ JPG/JPEG จากอุปกรณ์ของคุณ",
+    "convertJpgToPngStep2": "แปลงเป็น PNG",
+    "convertJpgToPngStep2Desc": "เลือก PNG เป็นรูปแบบผลลัพธ์และคลิกเริ่มต้นเพื่อเริ่มกระบวนการแปลง",
+    "convertJpgToPngStep3": "ดาวน์โหลดไฟล์ PNG",
+    "convertJpgToPngStep3Desc": "ไฟล์ PNG ที่แปลงแล้วพร้อมใช้งาน ดาวน์โหลดไปยังอุปกรณ์ของคุณทันที",
+    "convertJpgToPngFaqTitle": "คำถามที่พบบ่อย",
+    "convertJpgToPngFaq1Q": "การแปลง JPG เป็น PNG ช่วยเพิ่มคุณภาพภาพหรือไม่?",
+    "convertJpgToPngFaq1A": "การแปลง JPG เป็น PNG ไม่ได้กู้คืนคุณภาพที่สูญเสียไปในระหว่างการบีบอัด JPG อย่างไรก็ตาม PNG ใช้การบีบอัดแบบไม่สูญเสียข้อมูล ดังนั้นภาพของคุณจะไม่สูญเสียคุณภาพเพิ่มเติมเมื่อบันทึกในอนาคต ทำให้ PNG เหมาะสำหรับภาพที่คุณวางแผนจะแก้ไขซ้ำหลายครั้ง",
+    "convertJpgToPngFaq2Q": "ทำไมไฟล์ PNG ถึงใหญ่กว่า JPG ต้นฉบับ?",
+    "convertJpgToPngFaq2A": "PNG ใช้การบีบอัดแบบไม่สูญเสียข้อมูลที่รักษาทุกพิกเซลอย่างแม่นยำ ทำให้ขนาดไฟล์ใหญ่กว่า JPG ทำให้ไฟล์เล็กกว่าโดยการทิ้งข้อมูลภาพผ่านการบีบอัดแบบสูญเสียข้อมูล ข้อแลกเปลี่ยนคือ PNG ให้คุณภาพที่สมบูรณ์แบบระดับพิกเซลพร้อมรองรับความโปร่งใส",
+    "convertJpgToPngFaq3Q": "ควรใช้ PNG แทน JPG เมื่อใด?",
+    "convertJpgToPngFaq3A": "ใช้ PNG สำหรับภาพที่ต้องการความโปร่งใส โลโก้ ภาพหน้าจอ การซ้อนข้อความ หรือกราฟิกที่จะถูกแก้ไขหลายครั้ง JPG เหมาะกว่าสำหรับภาพถ่ายและภาพขนาดใหญ่ที่ขนาดไฟล์เล็กสำคัญกว่าการรักษาทุกพิกเซล",
+    "convertJpgToWebpHowTo": "วิธีแปลง JPG เป็น WebP",
+    "convertJpgToWebpStep1": "อัปโหลดไฟล์ JPG ของคุณ",
+    "convertJpgToWebpStep1Desc": "ลากและวางหรือเรียกดูเพื่อเลือกภาพ JPG ที่คุณต้องการแปลงเป็นรูปแบบ WebP",
+    "convertJpgToWebpStep2": "เลือกผลลัพธ์ WebP",
+    "convertJpgToWebpStep2Desc": "เลือก WebP เป็นรูปแบบเป้าหมาย ปรับการตั้งค่าคุณภาพหากต้องการเพื่อลดขนาดไฟล์อย่างเหมาะสม",
+    "convertJpgToWebpStep3": "ดาวน์โหลดภาพ WebP",
+    "convertJpgToWebpStep3Desc": "ไฟล์ WebP ที่ปรับแต่งแล้วพร้อมใช้งาน ดาวน์โหลดและเพลิดเพลินกับขนาดไฟล์ที่เล็กลงอย่างมากสำหรับการใช้งานเว็บ",
+    "convertJpgToWebpFaqTitle": "คำถามที่พบบ่อย",
+    "convertJpgToWebpFaq1Q": "WebP เล็กกว่า JPG เท่าไหร่?",
+    "convertJpgToWebpFaq1A": "ภาพ WebP มักจะเล็กกว่าไฟล์ JPG ที่เทียบเท่า 25-35% ที่คุณภาพภาพเดียวกัน การลดลงนี้มาจากอัลกอริทึมการบีบอัดที่มีประสิทธิภาพมากกว่าของ WebP ทำให้เหมาะสำหรับการเพิ่มประสิทธิภาพเว็บไซต์ที่เวลาโหลดหน้าเร็วขึ้นช่วยปรับปรุง SEO และประสบการณ์ผู้ใช้",
+    "convertJpgToWebpFaq2Q": "เบราว์เซอร์ทั้งหมดรองรับรูปแบบ WebP หรือไม่?",
+    "convertJpgToWebpFaq2A": "เบราว์เซอร์สมัยใหม่ทั้งหมดรวมถึง Chrome, Firefox, Safari, Edge และ Opera รองรับ WebP อย่างเต็มที่ เบราว์เซอร์รุ่นเก่าเช่น Internet Explorer ไม่รองรับ สำหรับเว็บไซต์ คุณสามารถให้บริการ WebP พร้อม JPG สำรองโดยใช้เอลิเมนต์ HTML picture เพื่อรับรองความเข้ากันได้ทั่วไป",
+    "convertJpgToWebpFaq3Q": "การแปลง JPG เป็น WebP ทำให้สูญเสียคุณภาพหรือไม่?",
+    "convertJpgToWebpFaq3A": "WebP รองรับทั้งการบีบอัดแบบสูญเสียและไม่สูญเสียข้อมูล ด้วย WebP แบบสูญเสียข้อมูลที่การตั้งค่าคุณภาพเทียบเท่า ความแตกต่างทางภาพจาก JPG ไม่สามารถสังเกตเห็นได้ด้วยตาเปล่าในขณะที่ให้ขนาดไฟล์เล็กกว่า WebP แบบไม่สูญเสียข้อมูลรักษาทุกพิกเซลแต่สร้างไฟล์ใหญ่กว่าโหมดสูญเสียข้อมูล",
+    "convertPngToJpgHowTo": "วิธีแปลง PNG เป็น JPG",
+    "convertPngToJpgStep1": "เลือกภาพ PNG",
+    "convertPngToJpgStep1Desc": "อัปโหลดไฟล์ PNG โดยลากไปยังพื้นที่วางหรือคลิกเพื่อเรียกดูไฟล์",
+    "convertPngToJpgStep2": "แปลงเป็นรูปแบบ JPG",
+    "convertPngToJpgStep2Desc": "เลือก JPG เป็นรูปแบบผลลัพธ์และปรับตัวเลื่อนคุณภาพเพื่อสมดุลระหว่างขนาดไฟล์และความคมชัดของภาพ",
+    "convertPngToJpgStep3": "บันทึกไฟล์ JPG ของคุณ",
+    "convertPngToJpgStep3Desc": "ดาวน์โหลดภาพ JPG ที่แปลงแล้ว ขนาดไฟล์มักจะเล็กกว่า PNG ต้นฉบับ 50-80%",
+    "convertPngToJpgFaqTitle": "คำถามที่พบบ่อย",
+    "convertPngToJpgFaq1Q": "เกิดอะไรขึ้นกับความโปร่งใสเมื่อแปลง PNG เป็น JPG?",
+    "convertPngToJpgFaq1A": "JPG ไม่รองรับความโปร่งใส ดังนั้นพื้นที่โปร่งใสใน PNG จะถูกเติมด้วยสีพื้นหลังทึบ โดยปกติเป็นสีขาว หากคุณต้องการรักษาความโปร่งใส ลองพิจารณาแปลงเป็น WebP แทน ซึ่งรองรับทั้งความโปร่งใสและขนาดไฟล์ที่เล็กกว่า",
+    "convertPngToJpgFaq2Q": "การแปลง PNG เป็น JPG สามารถลดขนาดไฟล์ได้เท่าไหร่?",
+    "convertPngToJpgFaq2A": "การแปลง PNG เป็น JPG มักลดขนาดไฟล์ 50-90% ขึ้นอยู่กับความซับซ้อนของภาพและการตั้งค่าคุณภาพ JPG ภาพถ่ายได้การลดลงมากที่สุดเพราะการบีบอัดแบบสูญเสียข้อมูลของ JPG เก่งในการเข้ารหัสเนื้อหาภาพถ่ายที่มีการเปลี่ยนสีอย่างค่อยเป็นค่อยไป",
+    "convertPngToJpgFaq3Q": "ควรใช้การตั้งค่าคุณภาพ JPG เท่าไหร่?",
+    "convertPngToJpgFaq3A": "สำหรับภาพเว็บ คุณภาพ 80-85% ให้สมดุลที่ดีที่สุดระหว่างความเที่ยงตรงของภาพและขนาดไฟล์ สำหรับการพิมพ์หรือการเก็บถาวร เลือก 95-100% ต่ำกว่า 70% สิ่งแปลกปลอมจากการบีบอัดจะเห็นได้ชัด โดยเฉพาะรอบขอบคมและข้อความ ดังนั้นหลีกเลี่ยงคุณภาพต่ำสำหรับภาพที่มีรายละเอียดละเอียด",
+    "convertPngToWebpHowTo": "วิธีแปลง PNG เป็น WebP",
+    "convertPngToWebpStep1": "อัปโหลดไฟล์ PNG",
+    "convertPngToWebpStep1Desc": "ลากและวางภาพ PNG ของคุณหรือคลิกเพื่อเรียกดู รองรับไฟล์ PNG ทั้งหมดรวมถึงไฟล์ที่มีความโปร่งใส",
+    "convertPngToWebpStep2": "เลือกรูปแบบ WebP",
+    "convertPngToWebpStep2Desc": "เลือก WebP เป็นผลลัพธ์ WebP รักษาความโปร่งใสของ PNG ในขณะที่ให้ขนาดไฟล์เล็กลงอย่างมาก",
+    "convertPngToWebpStep3": "ดาวน์โหลดผลลัพธ์ WebP",
+    "convertPngToWebpStep3Desc": "บันทึกภาพ WebP ที่แปลงแล้ว เพลิดเพลินกับไฟล์ที่เล็กกว่าถึง 45% ด้วยคุณภาพภาพที่เหมือนกัน",
+    "convertPngToWebpFaqTitle": "คำถามที่พบบ่อย",
+    "convertPngToWebpFaq1Q": "WebP รองรับความโปร่งใสเหมือน PNG หรือไม่?",
+    "convertPngToWebpFaq1A": "ใช่ WebP รองรับความโปร่งใสแบบ alpha channel อย่างเต็มที่เช่นเดียวกับ PNG ข้อได้เปรียบหลักคือภาพ WebP โปร่งใสมีขนาดเล็กกว่า PNG โปร่งใสที่เทียบเท่าอย่างมาก มักจะเล็กกว่า 40-50% ทำให้เหมาะสำหรับโลโก้ ไอคอน และกราฟิกซ้อนทับบนเว็บไซต์",
+    "convertPngToWebpFaq2Q": "การแปลง PNG เป็น WebP เป็นแบบไม่สูญเสียข้อมูลหรือไม่?",
+    "convertPngToWebpFaq2A": "WebP รองรับทั้งโหมดไม่สูญเสียและสูญเสียข้อมูล WebP แบบไม่สูญเสียข้อมูลรักษาทุกพิกเซลเหมือน PNG ต้นฉบับแต่ยังได้ไฟล์เล็กกว่า 20-30% WebP แบบสูญเสียข้อมูลลดขนาดลงอีกด้วยผลกระทบต่อภาพเพียงเล็กน้อย เหมาะสำหรับการเพิ่มประสิทธิภาพเว็บ",
+    "convertPngToWebpFaq3Q": "ควรเปลี่ยนภาพ PNG ทั้งหมดบนเว็บไซต์เป็น WebP หรือไม่?",
+    "convertPngToWebpFaq3A": "สำหรับเว็บไซต์ส่วนใหญ่ การแปลง PNG เป็น WebP ช่วยปรับปรุงความเร็วในการโหลดหน้าและคะแนน Core Web Vitals อย่างมาก ใช้เอลิเมนต์ HTML picture เพื่อให้บริการ WebP สำหรับเบราว์เซอร์สมัยใหม่โดยมี PNG เป็นตัวสำรอง วิธีนี้รับรองความเข้ากันได้ในขณะที่เพิ่มประโยชน์ด้านประสิทธิภาพสูงสุด",
+    "convertWebpToJpgHowTo": "วิธีแปลง WebP เป็น JPG",
+    "convertWebpToJpgStep1": "อัปโหลดภาพ WebP",
+    "convertWebpToJpgStep1Desc": "เลือกไฟล์ WebP โดยลากเข้ามาหรือเรียกดูอุปกรณ์ รองรับไฟล์ WebP ทั้งหมด",
+    "convertWebpToJpgStep2": "แปลงเป็น JPG",
+    "convertWebpToJpgStep2Desc": "เลือก JPG เป็นรูปแบบเป้าหมายและเริ่มการแปลง การประมวลผลเกิดขึ้นทันทีในเบราว์เซอร์ของคุณ",
+    "convertWebpToJpgStep3": "ดาวน์โหลดไฟล์ JPG",
+    "convertWebpToJpgStep3Desc": "บันทึกไฟล์ JPG ที่แปลงแล้ว ตอนนี้ใช้งานได้กับทุกโปรแกรมดูภาพ ตัวแก้ไข และแพลตฟอร์ม",
+    "convertWebpToJpgFaqTitle": "คำถามที่พบบ่อย",
+    "convertWebpToJpgFaq1Q": "ทำไมถึงต้องแปลง WebP เป็น JPG?",
+    "convertWebpToJpgFaq1A": "ซอฟต์แวร์เก่าบางตัว โปรแกรมอีเมล และแพลตฟอร์มโซเชียลมีเดียไม่รองรับ WebP อย่างเต็มที่ การแปลงเป็น JPG ช่วยให้ภาพของคุณใช้งานได้กับทุกอุปกรณ์ ระบบปฏิบัติการ และแอปพลิเคชัน JPG เป็นรูปแบบภาพที่รองรับกว้างขวางที่สุดในปัจจุบัน",
+    "convertWebpToJpgFaq2Q": "JPG จะใหญ่กว่าไฟล์ WebP หรือไม่?",
+    "convertWebpToJpgFaq2A": "โดยปกติใช่ เพราะ WebP ใช้อัลกอริทึมการบีบอัดที่มีประสิทธิภาพมากกว่า JPG ที่คุณภาพภาพเทียบเท่า ไฟล์ JPG มักจะใหญ่กว่า 25-35% คุณสามารถลดขนาดไฟล์ JPG โดยลดตัวเลื่อนคุณภาพ แม้ว่าจะทำให้เกิดสิ่งแปลกปลอมจากการบีบอัดที่เห็นได้ชัดขึ้น",
+    "convertWebpToJpgFaq3Q": "สามารถแปลงไฟล์ WebP หลายไฟล์เป็น JPG แบบกลุ่มได้หรือไม่?",
+    "convertWebpToJpgFaq3A": "ได้ คุณสามารถอัปโหลดไฟล์ WebP หลายไฟล์และแปลงทั้งหมดเป็น JPG ในเซสชันเดียว แต่ละไฟล์ถูกประมวลผลแยกกันในเบราว์เซอร์โดยไม่ต้องอัปโหลดไปเซิร์ฟเวอร์ ทำให้การแปลงแบบกลุ่มรวดเร็ว เป็นส่วนตัว และฟรีไม่ว่าจะต้องแปลงกี่ภาพ",
+    "convertWebpToPngHowTo": "วิธีแปลง WebP เป็น PNG",
+    "convertWebpToPngStep1": "เพิ่มไฟล์ WebP ของคุณ",
+    "convertWebpToPngStep1Desc": "อัปโหลดภาพ WebP ที่คุณต้องการแปลง รองรับทั้งไฟล์ WebP แบบสูญเสียและไม่สูญเสียข้อมูล",
+    "convertWebpToPngStep2": "แปลงเป็นรูปแบบ PNG",
+    "convertWebpToPngStep2Desc": "เลือก PNG เป็นรูปแบบผลลัพธ์ ความโปร่งใสในไฟล์ WebP ของคุณจะถูกรักษาไว้อย่างเต็มที่ในผลลัพธ์ PNG",
+    "convertWebpToPngStep3": "ดาวน์โหลดภาพ PNG",
+    "convertWebpToPngStep3Desc": "ไฟล์ PNG แบบไม่สูญเสียข้อมูลพร้อมดาวน์โหลด ใช้ในตัวแก้ไขภาพหรือแพลตฟอร์มใดก็ได้โดยไม่ต้องกังวลเรื่องความเข้ากันได้",
+    "convertWebpToPngFaqTitle": "คำถามที่พบบ่อย",
+    "convertWebpToPngFaq1Q": "การแปลง WebP เป็น PNG รักษาความโปร่งใสหรือไม่?",
+    "convertWebpToPngFaq1A": "ใช่ ข้อมูลความโปร่งใสและ alpha channel ทั้งหมดจากไฟล์ WebP ต้นฉบับจะถูกรักษาไว้อย่างเต็มที่ระหว่างการแปลง PNG PNG ที่ได้รองรับระดับความโปร่งใสเดียวกัน ทำให้ปลอดภัยในการแปลงโลโก้ ไอคอน และกราฟิกซ้อนทับโดยไม่สูญเสียพื้นที่โปร่งใส",
+    "convertWebpToPngFaq2Q": "ทำไม PNG ถึงดีกว่า WebP สำหรับการแก้ไข?",
+    "convertWebpToPngFaq2A": "PNG ใช้การบีบอัดแบบไม่สูญเสียข้อมูล ดังนั้นการเปิดและบันทึกไฟล์ PNG ซ้ำหลายครั้งจะไม่ทำให้คุณภาพลดลง ตัวแก้ไขภาพบางตัวยังมีการรองรับ WebP ที่จำกัด การแปลงเป็น PNG ให้ความเข้ากันได้สูงสุดกับเครื่องมือมืออาชีพเช่น Photoshop, GIMP และ Illustrator",
+    "convertWebpToPngFaq3Q": "ไฟล์ PNG ใหญ่กว่า WebP ต้นฉบับหรือไม่?",
+    "convertWebpToPngFaq3A": "ใช่ ไฟล์ PNG มักจะใหญ่กว่าเพราะการบีบอัด PNG มีประสิทธิภาพน้อยกว่า WebP อย่างไรก็ตาม ข้อแลกเปลี่ยนคือความเข้ากันได้ทั่วไปและคุณภาพแบบไม่สูญเสียข้อมูล หากขนาดไฟล์สำคัญ ให้เก็บเวอร์ชัน WebP สำหรับใช้งานเว็บและเวอร์ชัน PNG สำหรับการแก้ไขและจัดเก็บ",
+    "convertHeicToJpgHowTo": "วิธีแปลง HEIC เป็น JPG",
+    "convertHeicToJpgStep1": "อัปโหลดภาพถ่าย HEIC",
+    "convertHeicToJpgStep1Desc": "เลือกไฟล์ภาพถ่าย HEIC/HEIF จาก iPhone หรือ iPad คุณสามารถอัปโหลดโดยตรงจากอุปกรณ์หรือที่เก็บข้อมูลคลาวด์",
+    "convertHeicToJpgStep2": "แปลงเป็น JPG",
+    "convertHeicToJpgStep2Desc": "เครื่องมือจะแปลงไฟล์ HEIC ของคุณเป็นรูปแบบ JPG ที่เข้ากันได้ทั่วไปในเบราว์เซอร์โดยอัตโนมัติ",
+    "convertHeicToJpgStep3": "ดาวน์โหลดภาพถ่าย JPG",
+    "convertHeicToJpgStep3Desc": "บันทึกภาพถ่าย JPG ที่แปลงแล้ว ตอนนี้สามารถเปิดบนอุปกรณ์ใดก็ได้ แชร์ทางอีเมล หรืออัปโหลดที่ไหนก็ได้",
+    "convertHeicToJpgFaqTitle": "คำถามที่พบบ่อย",
+    "convertHeicToJpgFaq1Q": "รูปแบบ HEIC คืออะไรและทำไม Apple ถึงใช้?",
+    "convertHeicToJpgFaq1A": "HEIC (High Efficiency Image Container) เป็นรูปแบบภาพถ่ายเริ่มต้นของ Apple ตั้งแต่ iOS 11 มันสร้างไฟล์ที่เล็กกว่า JPG ประมาณ 50% ที่คุณภาพเทียบเท่าโดยใช้การบีบอัด HEVC Apple นำมาใช้เพื่อประหยัดพื้นที่จัดเก็บบน iPhone โดยยังคงคุณภาพภาพถ่ายที่ยอดเยี่ยม",
+    "convertHeicToJpgFaq2Q": "ทำไม Windows ไม่สามารถเปิดไฟล์ HEIC?",
+    "convertHeicToJpgFaq2A": "Windows ต้องใช้ส่วนขยาย codec HEVC แยกต่างหากเพื่อเปิดไฟล์ HEIC ซึ่ง Microsoft เรียกเก็บเงินใน Microsoft Store การแปลง HEIC เป็น JPG ขจัดปัญหาความเข้ากันได้นี้ทั้งหมด ให้คุณดูและแชร์ภาพถ่าย iPhone บน PC Windows ใดก็ได้โดยไม่ต้องติดตั้งซอฟต์แวร์เพิ่มเติม",
+    "convertHeicToJpgFaq3Q": "การแปลง HEIC เป็น JPG ลดคุณภาพภาพถ่ายหรือไม่?",
+    "convertHeicToJpgFaq3A": "มีการลดคุณภาพเล็กน้อยเพราะ JPG ใช้การบีบอัดแบบสูญเสียข้อมูล ที่การตั้งค่าคุณภาพสูงเช่น 90-95% ความแตกต่างทางภาพไม่สามารถสังเกตเห็นได้สำหรับภาพถ่ายส่วนใหญ่ การแปลงแลกเปลี่ยนการสูญเสียคุณภาพเล็กน้อยเพื่อความเข้ากันได้ทั่วไปบนทุกอุปกรณ์ แพลตฟอร์ม และแอปพลิเคชัน",
+    "convertBmpToJpgHowTo": "วิธีแปลง BMP เป็น JPG",
+    "convertBmpToJpgStep1": "อัปโหลดไฟล์ BMP",
+    "convertBmpToJpgStep1Desc": "เลือกภาพบิตแมป BMP ไฟล์ BMP มักจะใหญ่มากเพราะเก็บข้อมูลพิกเซลที่ไม่ได้บีบอัด",
+    "convertBmpToJpgStep2": "แปลงเป็น JPG",
+    "convertBmpToJpgStep2Desc": "เลือกผลลัพธ์ JPG และปรับคุณภาพ แม้ที่คุณภาพสูงสุด JPG จะเล็กกว่า BMP อย่างมาก",
+    "convertBmpToJpgStep3": "ดาวน์โหลด JPG ที่บีบอัดแล้ว",
+    "convertBmpToJpgStep3Desc": "บันทึกไฟล์ JPG คาดว่าจะลดขนาดไฟล์ 90-95% เมื่อเทียบกับภาพ BMP ที่ไม่ได้บีบอัดต้นฉบับ",
+    "convertBmpToJpgFaqTitle": "คำถามที่พบบ่อย",
+    "convertBmpToJpgFaq1Q": "ทำไมไฟล์ BMP ถึงใหญ่กว่า JPG มาก?",
+    "convertBmpToJpgFaq1A": "BMP เก็บทุกพิกเซลเป็นข้อมูลดิบที่ไม่ได้บีบอัดโดยไม่มีอัลกอริทึมการบีบอัด ภาพ BMP 1920x1080 ใช้พื้นที่ประมาณ 6MB JPG ลดลงอย่างมากเหลือ 200-500KB โดยการทิ้งข้อมูลภาพที่มนุษย์ไม่สามารถรับรู้ได้อย่างชาญฉลาด",
+    "convertBmpToJpgFaq2Q": "เมื่อใดที่ยังมีคนใช้รูปแบบ BMP?",
+    "convertBmpToJpgFaq2A": "BMP ถูกใช้เป็นครั้งคราวในแอปพลิเคชัน Windows รุ่นเก่า ระบบฝังตัว และการถ่ายภาพทางการแพทย์ที่ต้องการข้อมูลที่ไม่ได้บีบอัด ซอฟต์แวร์สแกนเนอร์รุ่นเก่าบางตัวก็ส่งออก BMP เป็นค่าเริ่มต้น สำหรับการใช้งานทั่วไปเช่นการแชร์ การเผยแพร่เว็บ หรืออีเมล แนะนำให้แปลง BMP เป็น JPG",
+    "convertBmpToJpgFaq3Q": "สามารถแปลง BMP เป็น JPG โดยไม่สูญเสียคุณภาพได้หรือไม่?",
+    "convertBmpToJpgFaq3A": "JPG เป็นแบบสูญเสียข้อมูลโดยธรรมชาติ ดังนั้นข้อมูลบางส่วนจะถูกทิ้งระหว่างการแปลง อย่างไรก็ตาม ที่คุณภาพ 95-100% ความแตกต่างทางภาพแทบจะตรวจจับไม่ได้ หากคุณต้องการการแปลงแบบไม่สูญเสียข้อมูลจริงๆ ลองพิจารณา PNG แทน JPG แม้ว่าการลดขนาดไฟล์จะน้อยกว่า",
+    "convertMp4ToWebmHowTo": "วิธีแปลง MP4 เป็น WebM",
+    "convertMp4ToWebmStep1": "อัปโหลดวิดีโอ MP4",
+    "convertMp4ToWebmStep1Desc": "เลือกไฟล์วิดีโอ MP4 การประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณโดยใช้ FFmpeg ที่ขับเคลื่อนด้วย WebAssembly",
+    "convertMp4ToWebmStep2": "แปลงเป็น WebM",
+    "convertMp4ToWebmStep2Desc": "เลือก WebM เป็นรูปแบบผลลัพธ์ ปรับการตั้งค่าความละเอียดและคุณภาพเพื่อเพิ่มประสิทธิภาพสำหรับความต้องการในการฝังเว็บ",
+    "convertMp4ToWebmStep3": "ดาวน์โหลดไฟล์ WebM",
+    "convertMp4ToWebmStep3Desc": "บันทึกวิดีโอ WebM ที่แปลงแล้ว ปรับให้เหมาะสมสำหรับการเล่นวิดีโอ HTML5 และการฝังในหน้าเว็บ",
+    "convertMp4ToWebmFaqTitle": "คำถามที่พบบ่อย",
+    "convertMp4ToWebmFaq1Q": "ข้อดีของ WebM เทียบกับ MP4 คืออะไร?",
+    "convertMp4ToWebmFaq1A": "WebM เป็นรูปแบบเปิดที่ไม่มีค่าลิขสิทธิ์พัฒนาโดย Google ทำให้เหมาะสำหรับใช้งานเว็บโดยไม่ต้องกังวลเรื่องใบอนุญาต ไฟล์ WebM ที่ใช้ codec VP9 ให้คุณภาพเทียบเท่า MP4 H.264 ที่ขนาดไฟล์เล็กกว่า ปรับปรุงเวลาโหลดหน้าและลดค่าใช้จ่ายแบนด์วิดท์สำหรับเว็บไซต์",
+    "convertMp4ToWebmFaq2Q": "เบราว์เซอร์ทั้งหมดสามารถเล่นวิดีโอ WebM ได้หรือไม่?",
+    "convertMp4ToWebmFaq2A": "Chrome, Firefox, Edge และ Opera รองรับการเล่น WebM อย่างเต็มที่ Safari เพิ่มการรองรับ WebM ในเวอร์ชัน 14.1 เพื่อความเข้ากันได้สูงสุด เว็บไซต์หลายแห่งให้บริการทั้ง WebM และ MP4 โดยใช้เอลิเมนต์วิดีโอ HTML5 กับแท็ก source หลายตัว ให้เบราว์เซอร์เลือกรูปแบบที่รองรับดีที่สุด",
+    "convertMp4ToWebmFaq3Q": "การแปลง MP4 เป็น WebM ใช้เวลานานหรือไม่?",
+    "convertMp4ToWebmFaq3A": "เวลาในการแปลงขึ้นอยู่กับความยาววิดีโอ ความละเอียด และประสิทธิภาพอุปกรณ์ คลิปสั้นต่ำกว่า 2 นาทีมักจะแปลงใน 30-60 วินาที เนื่องจากการประมวลผลทำงานทั้งหมดในเบราว์เซอร์ผ่าน WebAssembly CPU ที่เร็วกว่าให้ผลลัพธ์ที่เร็วกว่า ไม่มีข้อมูลวิดีโอใดถูกอัปโหลดไปยังเซิร์ฟเวอร์",
+    "convertMp4ToAviHowTo": "วิธีแปลง MP4 เป็น AVI",
+    "convertMp4ToAviStep1": "อัปโหลดไฟล์ MP4",
+    "convertMp4ToAviStep1Desc": "เลือกวิดีโอ MP4 ที่คุณต้องการแปลงเป็นรูปแบบ AVI รองรับไฟล์ MP4 ทั้งหมดที่มี codec ใดก็ได้",
+    "convertMp4ToAviStep2": "แปลงเป็นรูปแบบ AVI",
+    "convertMp4ToAviStep2Desc": "เลือก AVI เป็นรูปแบบผลลัพธ์ ตัวแปลงจัดการการแปลง codec โดยอัตโนมัติในเบราว์เซอร์ของคุณ",
+    "convertMp4ToAviStep3": "ดาวน์โหลดวิดีโอ AVI",
+    "convertMp4ToAviStep3Desc": "บันทึกไฟล์ AVI ที่แปลงแล้ว ตอนนี้ใช้งานได้กับเครื่องเล่นสื่อรุ่นเก่าและซอฟต์แวร์ตัดต่อวิดีโอรุ่นเก่า",
+    "convertMp4ToAviFaqTitle": "คำถามที่พบบ่อย",
+    "convertMp4ToAviFaq1Q": "ทำไมถึงต้องแปลง MP4 เป็น AVI?",
+    "convertMp4ToAviFaq1A": "AVI จำเป็นสำหรับความเข้ากันได้กับซอฟต์แวร์ตัดต่อวิดีโอรุ่นเก่าบางตัว เครื่องเล่นสื่อรุ่นเก่า และอุปกรณ์ฮาร์ดแวร์เฉพาะที่ไม่รองรับ MP4 เวิร์กโฟลว์วิดีโอมืออาชีพบางอย่างและเครื่องมือเขียน DVD รุ่นเก่ายังต้องการรูปแบบอินพุต AVI สำหรับการประมวลผลที่ถูกต้อง",
+    "convertMp4ToAviFaq2Q": "คุณภาพ AVI ดีกว่า MP4 หรือไม่?",
+    "convertMp4ToAviFaq2A": "AVI เป็นรูปแบบคอนเทนเนอร์ ไม่ใช่ codec ดังนั้นคุณภาพขึ้นอยู่กับ codec ที่ใช้ภายใน MP4 สมัยใหม่กับ H.264 มักจะให้ประสิทธิภาพการบีบอัดที่ดีกว่า codec AVI ทั่วไป ไฟล์ AVI มักจะใหญ่กว่าที่คุณภาพเทียบเท่าเพราะมักใช้วิธีการบีบอัดที่มีประสิทธิภาพน้อยกว่า",
+    "convertMp4ToAviFaq3Q": "ไฟล์ AVI จะใหญ่กว่า MP4 หรือไม่?",
+    "convertMp4ToAviFaq3A": "ใช่ ไฟล์ AVI มักจะใหญ่กว่า MP4 เพราะคอนเทนเนอร์ AVI และ codec ทั่วไปมีประสิทธิภาพน้อยกว่าในการบีบอัด คาดว่าผลลัพธ์ AVI จะใหญ่กว่า 50-200% ขึ้นอยู่กับ codec และการตั้งค่าที่ใช้ นี่คือข้อแลกเปลี่ยนสำหรับความเข้ากันได้ที่กว้างขึ้นกับระบบรุ่นเก่า",
+    "convertWebmToMp4HowTo": "วิธีแปลง WebM เป็น MP4",
+    "convertWebmToMp4Step1": "อัปโหลดวิดีโอ WebM",
+    "convertWebmToMp4Step1Desc": "เลือกไฟล์วิดีโอ WebM พบได้ทั่วไปสำหรับวิดีโอที่ดาวน์โหลดจากเว็บหรือบันทึกโดยเบราว์เซอร์",
+    "convertWebmToMp4Step2": "แปลงเป็น MP4",
+    "convertWebmToMp4Step2Desc": "เลือก MP4 เป็นรูปแบบผลลัพธ์ด้วยการเข้ารหัส H.264 สำหรับความเข้ากันได้สูงสุดกับอุปกรณ์และแพลตฟอร์ม",
+    "convertWebmToMp4Step3": "ดาวน์โหลดไฟล์ MP4",
+    "convertWebmToMp4Step3Desc": "บันทึกวิดีโอ MP4 ตอนนี้สามารถเล่นได้บนแทบทุกอุปกรณ์ ทีวี โทรศัพท์ และเครื่องเล่นสื่อ",
+    "convertWebmToMp4FaqTitle": "คำถามที่พบบ่อย",
+    "convertWebmToMp4Faq1Q": "ทำไมต้องแปลง WebM เป็น MP4?",
+    "convertWebmToMp4Faq1A": "MP4 เป็นรูปแบบวิดีโอที่เข้ากันได้ทั่วไปมากที่สุด รองรับโดยสมาร์ทโฟน สมาร์ททีวี เครื่องเล่นสื่อ และแพลตฟอร์มโซเชียลมีเดียทั้งหมด WebM มีการรองรับจำกัดบนอุปกรณ์ Apple และระบบรุ่นเก่าบางตัว การแปลงเป็น MP4 ช่วยให้วิดีโอของคุณเล่นได้ทุกที่โดยไม่มีปัญหาความเข้ากันได้",
+    "convertWebmToMp4Faq2Q": "สามารถเล่น MP4 ที่แปลงแล้วบน iPhone ได้หรือไม่?",
+    "convertWebmToMp4Faq2A": "ได้ MP4 ที่เข้ารหัสด้วย H.264 รองรับบน iPhone, iPad และอุปกรณ์ Apple ทั้งหมดโดยธรรมชาติ หลังการแปลง คุณสามารถเล่นวิดีโอโดยตรงในแอพ Photos แชร์ผ่าน iMessage หรือ AirDrop และอัปโหลดไปยังแพลตฟอร์มโซเชียลมีเดียใดก็ได้โดยไม่ต้องใช้แอพเพิ่มเติม",
+    "convertWebmToMp4Faq3Q": "มีการสูญเสียคุณภาพเมื่อแปลง WebM เป็น MP4 หรือไม่?",
+    "convertWebmToMp4Faq3A": "มีการลดคุณภาพเล็กน้อยเนื่องจากวิดีโอถูกเข้ารหัสใหม่จาก codec แบบสูญเสียข้อมูลหนึ่งไปอีกอันหนึ่ง ที่การตั้งค่าคุณภาพสูง ความแตกต่างนี้แทบจะสังเกตไม่ได้ เพื่อผลลัพธ์ที่ดีที่สุด ให้รักษาความละเอียดและบิตเรตผลลัพธ์ใกล้เคียงกับข้อมูลจำเพาะของไฟล์ WebM ต้นฉบับ",
+    "convertMp4ToGifHowTo": "วิธีแปลง MP4 เป็น GIF",
+    "convertMp4ToGifStep1": "อัปโหลดวิดีโอ MP4",
+    "convertMp4ToGifStep1Desc": "เลือกคลิปวิดีโอ MP4 ที่คุณต้องการเปลี่ยนเป็น GIF เคลื่อนไหว คลิปที่สั้นกว่าให้ผลลัพธ์ที่ดีกว่า",
+    "convertMp4ToGifStep2": "กำหนดค่าการตั้งค่า GIF",
+    "convertMp4ToGifStep2Desc": "ตั้งเฟรมเรท ความละเอียด และตัดความยาวคลิป เฟรมเรทต่ำกว่าและขนาดเล็กกว่าสร้างไฟล์ GIF ที่เล็กกว่า",
+    "convertMp4ToGifStep3": "ดาวน์โหลด GIF เคลื่อนไหว",
+    "convertMp4ToGifStep3Desc": "บันทึก GIF เคลื่อนไหวของคุณ แชร์บนโซเชียลมีเดีย แอพส่งข้อความ ฟอรัม หรือฝังในเว็บไซต์และอีเมล",
+    "convertMp4ToGifFaqTitle": "คำถามที่พบบ่อย",
+    "convertMp4ToGifFaq1Q": "ความยาวที่เหมาะสมสำหรับ GIF คือเท่าไหร่?",
+    "convertMp4ToGifFaq1A": "GIF ที่มีประสิทธิภาพที่สุดมีความยาว 3-6 วินาที ไฟล์ GIF เพิ่มขึ้นอย่างรวดเร็วตามระยะเวลาเพราะทุกเฟรมถูกเก็บเป็นภาพเต็ม GIF 10 วินาทีที่ 15 FPS สามารถเกิน 10MB ได้ง่าย ให้ GIF สั้นและเน้นที่ช่วงเวลาสำคัญเพื่อสมดุลที่ดีที่สุดระหว่างคุณภาพและขนาดไฟล์",
+    "convertMp4ToGifFaq2Q": "ทำไมไฟล์ GIF ของฉันถึงใหญ่มาก?",
+    "convertMp4ToGifFaq2A": "รูปแบบ GIF ใช้การจัดเก็บแบบไม่สูญเสียข้อมูลทีละเฟรมด้วยพาเลท 256 สี ซึ่งไม่มีประสิทธิภาพโดยธรรมชาติสำหรับเนื้อหาวิดีโอ ลดขนาดไฟล์โดยลดความละเอียดเป็น 480px หรือน้อยกว่า ลดเฟรมเรทเป็น 10-12 FPS และตัดคลิปให้สั้นที่สุดเท่าที่จะเป็นไปได้",
+    "convertMp4ToGifFaq3Q": "จะทำ GIF คุณภาพสูงขึ้นได้อย่างไร?",
+    "convertMp4ToGifFaq3A": "เริ่มด้วยวิดีโอต้นทางคุณภาพสูงที่มีแสงดีและภาพที่นิ่ง ใช้เฟรมเรทที่สูงขึ้นเช่น 15-20 FPS สำหรับแอนิเมชันที่ลื่นไหล รักษาความละเอียดที่เหมาะสมที่ความกว้างสูงสุด 640px คลิปที่สั้นกว่าอนุญาตให้มีเฟรมต่อวินาทีมากขึ้นภายในขีดจำกัดขนาดไฟล์ที่เหมาะสม",
+    "compressJpgHowTo": "วิธีบีบอัดภาพ JPG",
+    "compressJpgStep1": "อัปโหลดภาพ JPG",
+    "compressJpgStep1Desc": "ลากและวางหรือเลือกภาพ JPG/JPEG หนึ่งภาพหรือมากกว่า รองรับการบีบอัดแบบกลุ่มสำหรับหลายไฟล์พร้อมกัน",
+    "compressJpgStep2": "ปรับระดับการบีบอัด",
+    "compressJpgStep2Desc": "ตั้งค่าระดับคุณภาพที่ต้องการ คุณภาพต่ำหมายถึงขนาดไฟล์ที่เล็กกว่า ดูตัวอย่างผลลัพธ์ก่อนดาวน์โหลด",
+    "compressJpgStep3": "ดาวน์โหลดไฟล์ที่บีบอัด",
+    "compressJpgStep3Desc": "บันทึกภาพ JPG ที่ปรับแต่งแล้วด้วยขนาดไฟล์ที่ลดลงอย่างมากโดยรักษาคุณภาพภาพ",
+    "compressJpgFaqTitle": "คำถามที่พบบ่อย",
+    "compressJpgFaq1Q": "การบีบอัด JPG สามารถลดขนาดไฟล์ได้เท่าไหร่?",
+    "compressJpgFaq1A": "การบีบอัด JPG สามารถลดขนาดไฟล์ 50-80% ขึ้นอยู่กับการตั้งค่าคุณภาพและเนื้อหาภาพ ภาพถ่าย 5MB มักจะบีบอัดเหลือ 500KB-1MB ได้โดยไม่สูญเสียคุณภาพที่สังเกตเห็นได้ ภาพที่มีพื้นที่เรียบกว้างบีบอัดได้มีประสิทธิภาพมากกว่าพื้นผิวที่มีรายละเอียดสูง",
+    "compressJpgFaq2Q": "การบีบอัด JPG ลดขนาดมิติของภาพหรือไม่?",
+    "compressJpgFaq2A": "ไม่ การบีบอัดปรับเฉพาะคุณภาพการเข้ารหัสโดยไม่เปลี่ยนมิติพิกเซล ภาพ 4000x3000 ยังคงเป็น 4000x3000 พิกเซลหลังการบีบอัด การลดขนาดไฟล์มาจากวิธีการจัดเก็บข้อมูลสี ไม่ใช่จากการลดความละเอียด การปรับขนาดมิติเป็นการดำเนินการแยกต่างหาก",
+    "compressJpgFaq3Q": "สามารถบีบอัด JPG หลายครั้งได้หรือไม่?",
+    "compressJpgFaq3A": "ได้ แต่แต่ละรอบของการบีบอัด JPG จะทำให้สูญเสียคุณภาพเพิ่มเติมเพราะ JPG เป็นแบบสูญเสียข้อมูล การบีบอัดซ้ำ JPG ที่บีบอัดแล้วจะลดคุณภาพลงอีกโดยได้การลดขนาดที่น้อยลง เพื่อผลลัพธ์ที่ดีที่สุด ให้บีบอัดจากไฟล์ต้นฉบับคุณภาพสูงเสมอ",
+    "compressPngHowTo": "วิธีบีบอัดภาพ PNG",
+    "compressPngStep1": "อัปโหลดไฟล์ PNG",
+    "compressPngStep1Desc": "เลือกภาพ PNG โดยลากเข้ามาหรือเรียกดู ใช้ได้กับไฟล์ PNG ทั้งหมดรวมถึงไฟล์โปร่งใส",
+    "compressPngStep2": "ตั้งค่าการบีบอัด",
+    "compressPngStep2Desc": "เลือกระดับการบีบอัด เครื่องมือปรับการเข้ารหัส PNG ให้เหมาะสมโดยรักษาความโปร่งใสและคุณภาพภาพ",
+    "compressPngStep3": "ดาวน์โหลด PNG ที่ปรับแต่งแล้ว",
+    "compressPngStep3Desc": "บันทึกไฟล์ PNG ที่บีบอัดแล้ว ความโปร่งใสถูกรักษาไว้อย่างเต็มที่ด้วยขนาดไฟล์ที่ลดลงอย่างมาก",
+    "compressPngFaqTitle": "คำถามที่พบบ่อย",
+    "compressPngFaq1Q": "การบีบอัด PNG รักษาความโปร่งใสได้หรือไม่?",
+    "compressPngFaq1A": "ใช่ การบีบอัด PNG รักษา alpha channel และข้อมูลความโปร่งใสทั้งหมดอย่างเต็มที่ การบีบอัดทำงานโดยปรับวิธีการเข้ารหัสและกรองข้อมูลพิกเซลโดยไม่ลบข้อมูลความโปร่งใส โลโก้ ไอคอน และกราฟิกซ้อนทับจะรักษาพื้นหลังโปร่งใสอย่างสมบูรณ์",
+    "compressPngFaq2Q": "การบีบอัด PNG ต่างจากการบีบอัด JPG อย่างไร?",
+    "compressPngFaq2A": "PNG ใช้การบีบอัดแบบไม่สูญเสียข้อมูลเป็นค่าเริ่มต้น หมายความว่าไม่มีข้อมูลพิกเซลถูกทิ้ง JPG ใช้การบีบอัดแบบสูญเสียข้อมูลที่ลบข้อมูลถาวรเพื่อให้ได้ขนาดที่เล็กกว่า การบีบอัด PNG ทำงานโดยค้นหาวิธีที่มีประสิทธิภาพมากกว่าในการเข้ารหัสข้อมูลเดียวกัน ในขณะที่การบีบอัด JPG ทำงานโดยทิ้งรายละเอียดภาพ",
+    "compressPngFaq3Q": "ทำไมไฟล์ PNG ถึงใหญ่กว่าไฟล์ JPG?",
+    "compressPngFaq3A": "PNG รักษาทุกพิกเซลอย่างแม่นยำผ่านการบีบอัดแบบไม่สูญเสียข้อมูล ซึ่งจำกัดว่าไฟล์จะเล็กได้แค่ไหน JPG ได้ขนาดที่เล็กกว่าโดยทิ้งข้อมูลภาพที่มนุษย์มักจะสังเกตไม่เห็น สำหรับภาพถ่าย JPG มีประสิทธิภาพมากกว่า สำหรับกราฟิกที่มีขอบคม โลโก้ และภาพหน้าจอ PNG เป็นที่นิยมกว่า",
+    "compressWebpHowTo": "วิธีบีบอัดภาพ WebP",
+    "compressWebpStep1": "อัปโหลดภาพ WebP",
+    "compressWebpStep1Desc": "เลือกไฟล์ WebP โดยลากและวางหรือเรียกดู รองรับทั้งไฟล์ WebP แบบสูญเสียและไม่สูญเสียข้อมูล",
+    "compressWebpStep2": "ปรับการตั้งค่าคุณภาพ",
+    "compressWebpStep2Desc": "ปรับแต่งระดับการบีบอัดเพื่อสมดุลระหว่างขนาดไฟล์และคุณภาพภาพสำหรับกรณีใช้งานเฉพาะ",
+    "compressWebpStep3": "ดาวน์โหลด WebP ที่ปรับแต่งแล้ว",
+    "compressWebpStep3Desc": "บันทึกภาพ WebP ที่บีบอัดแล้ว ลดขนาดไฟล์ WebP ที่มีประสิทธิภาพอยู่แล้วให้เล็กลงอีกเพื่อประสิทธิภาพเว็บสูงสุด",
+    "compressWebpFaqTitle": "คำถามที่พบบ่อย",
+    "compressWebpFaq1Q": "ไฟล์ WebP สามารถบีบอัดเพิ่มเติมได้หรือไม่?",
+    "compressWebpFaq1A": "ได้ โดยเฉพาะไฟล์ WebP ที่ส่งออกด้วยการตั้งค่าคุณภาพสูง การบีบอัดซ้ำที่ระดับคุณภาพต่ำลงเล็กน้อยสามารถลดขนาดไฟล์ 20-50% ด้วยผลกระทบต่อภาพเพียงเล็กน้อย มีประโยชน์สำหรับการปรับแต่งภาพ WebP ที่ส่งออกจากเครื่องมือออกแบบด้วยการตั้งค่าคุณภาพสูงเกินไป",
+    "compressWebpFaq2Q": "การตั้งค่าคุณภาพใดดีที่สุดสำหรับภาพเว็บ?",
+    "compressWebpFaq2A": "สำหรับภาพเว็บส่วนใหญ่ การตั้งค่าคุณภาพ WebP 75-85% ให้คุณภาพภาพที่ยอดเยี่ยมด้วยขนาดไฟล์ที่เหมาะสม ภาพหลักและภาพสินค้าอาจได้ประโยชน์จาก 85-90% ภาพขนาดย่อและองค์ประกอบตกแต่งสามารถใช้ 60-75% ดูตัวอย่างผลลัพธ์ที่บีบอัดเสมอเพื่อยืนยันคุณภาพที่ยอมรับได้",
+    "compressWebpFaq3Q": "WebP ดีกว่า JPG สำหรับประสิทธิภาพเว็บไซต์หรือไม่?",
+    "compressWebpFaq3A": "WebP ให้ไฟล์ที่เล็กกว่า JPG 25-35% อย่างสม่ำเสมอที่คุณภาพภาพเทียบเท่า ปรับปรุงความเร็วในการโหลดหน้าและคะแนน Core Web Vitals โดยตรง Google แนะนำ WebP สำหรับภาพเว็บ และเบราว์เซอร์หลักทั้งหมดรองรับแล้ว ไฟล์ที่เล็กกว่ายังช่วยลดค่าใช้จ่ายแบนด์วิดท์โฮสติ้งอย่างมาก",
+    "compressMp4HowTo": "วิธีบีบอัดวิดีโอ MP4",
+    "compressMp4Step1": "อัปโหลดวิดีโอ MP4",
+    "compressMp4Step1Desc": "เลือกไฟล์วิดีโอ MP4 เครื่องมือทำงานทั้งหมดในเบราว์เซอร์ ไม่มีข้อมูลวิดีโอถูกอัปโหลดไปยังเซิร์ฟเวอร์",
+    "compressMp4Step2": "เลือกการตั้งค่าการบีบอัด",
+    "compressMp4Step2Desc": "ปรับความละเอียด บิตเรท และคุณภาพ ความละเอียดและบิตเรทที่ต่ำกว่าให้ไฟล์ที่เล็กกว่า ดูตัวอย่างขนาดผลลัพธ์โดยประมาณ",
+    "compressMp4Step3": "ดาวน์โหลดวิดีโอที่บีบอัด",
+    "compressMp4Step3Desc": "บันทึก MP4 ที่บีบอัดด้วยขนาดไฟล์ที่ลดลง แชร์ทางอีเมล แอพส่งข้อความ หรืออัปโหลดไปโซเชียลมีเดีย",
+    "compressMp4FaqTitle": "คำถามที่พบบ่อย",
+    "compressMp4Faq1Q": "วิดีโอ MP4 สามารถบีบอัดได้เท่าไหร่?",
+    "compressMp4Faq1A": "การบีบอัด MP4 สามารถลดขนาดไฟล์วิดีโอ 40-70% ขึ้นอยู่กับการเข้ารหัสต้นฉบับ ความละเอียด และคุณภาพเป้าหมาย วิดีโอ 100MB มักจะลดเหลือ 30-50MB โดยรักษาคุณภาพที่ดูได้ วิดีโอที่บันทึกด้วยบิตเรทสูงมากจะได้การลดลงมากที่สุด",
+    "compressMp4Faq2Q": "การบีบอัดวิดีโอลดความละเอียดหรือไม่?",
+    "compressMp4Faq2A": "ไม่จำเป็น คุณสามารถบีบอัดวิดีโอโดยลดบิตเรทอย่างเดียวโดยรักษาความละเอียดเดิม อย่างไรก็ตาม การลดความละเอียดจาก 1080p เป็น 720p เป็นวิธีที่มีประสิทธิภาพในการลดขนาดไฟล์อย่างมาก บนหน้าจอมือถือ ความแตกต่างทางภาพระหว่าง 720p และ 1080p มักจะสังเกตไม่ได้",
+    "compressMp4Faq3Q": "ความละเอียดที่ดีที่สุดสำหรับการแชร์วิดีโอออนไลน์คืออะไร?",
+    "compressMp4Faq3A": "720p (1280x720) เป็นจุดที่เหมาะสมสำหรับการแชร์ทางอีเมลและแอพส่งข้อความ ให้คุณภาพดีด้วยขนาดไฟล์ที่จัดการได้ สำหรับการอัปโหลดโซเชียลมีเดีย แนะนำ 1080p เพราะแพลตฟอร์มจะบีบอัดเอง สำหรับ WhatsApp และแอพที่จำกัดขนาดที่คล้ายกัน 480p ช่วยให้ไฟล์อยู่ต่ำกว่า 16MB",
+    "resizeInstagramHowTo": "วิธีปรับขนาดภาพสำหรับ Instagram",
+    "resizeInstagramStep1": "อัปโหลดภาพถ่ายของคุณ",
+    "resizeInstagramStep1Desc": "เลือกภาพที่คุณต้องการปรับขนาดสำหรับ Instagram รองรับ JPG, PNG, WebP และรูปแบบทั่วไปอื่นๆ",
+    "resizeInstagramStep2": "เลือกขนาด Instagram",
+    "resizeInstagramStep2Desc": "เลือกขนาดเป้าหมาย: 1080x1080 สำหรับโพสต์, 1080x1350 สำหรับแนวตั้ง, หรือ 1080x1920 สำหรับสตอรี่และรีลส์",
+    "resizeInstagramStep3": "ดาวน์โหลดภาพที่ปรับขนาดแล้ว",
+    "resizeInstagramStep3Desc": "บันทึกภาพ Instagram ที่มีขนาดสมบูรณ์แบบ อัปโหลดตรงไปยัง Instagram โดยไม่มีปัญหาการครอปจากแพลตฟอร์ม",
+    "resizeInstagramFaqTitle": "คำถามที่พบบ่อย",
+    "resizeInstagramFaq1Q": "ขนาดภาพที่ดีที่สุดสำหรับโพสต์ Instagram คืออะไร?",
+    "resizeInstagramFaq1A": "Instagram รองรับ 1080x1080 (สี่เหลี่ยมจัตุรัส), 1080x1350 (แนวตั้ง 4:5) และ 1080x566 (แนวนอน) แนวตั้ง 1080x1350 ครอบครองพื้นที่ฟีดมากที่สุดและได้รับการมีส่วนร่วมสูงสุด อัปโหลดที่ความกว้างขั้นต่ำ 1080px เสมอเพื่อป้องกัน Instagram แสดงเวอร์ชันที่เบลอและขยาย",
+    "resizeInstagramFaq2Q": "Instagram สตอรี่ควรมีขนาดเท่าไหร่?",
+    "resizeInstagramFaq2A": "Instagram Stories และ Reels ควรเป็น 1080x1920 พิกเซลที่อัตราส่วนภาพ 9:16 สำหรับการแสดงเต็มหน้าจอ เว้นขอบปลอดภัย 250 พิกเซลที่ด้านบนและล่างเพื่อหลีกเลี่ยงเนื้อหาถูกบังโดยแถบชื่อผู้ใช้และพื้นที่ตอบกลับบนหน้าจอผู้ชม",
+    "resizeInstagramFaq3Q": "Instagram บีบอัดภาพที่อัปโหลดหรือไม่?",
+    "resizeInstagramFaq3A": "ใช่ Instagram บีบอัดภาพที่อัปโหลดทั้งหมดเพื่อลดค่าใช้จ่ายเซิร์ฟเวอร์ เพื่อลดการสูญเสียคุณภาพ อัปโหลดภาพที่ขนาดที่แนะนำอย่างแม่นยำในรูปแบบ JPG คุณภาพ 95% ภาพที่ใหญ่เกินไปจะถูกบีบอัดอย่างรุนแรงมากขึ้น ดังนั้นการตรงกับความละเอียดเป้าหมายให้ผลลัพธ์ที่คมชัดที่สุด",
+    "resizeFacebookHowTo": "วิธีปรับขนาดภาพสำหรับ Facebook",
+    "resizeFacebookStep1": "อัปโหลดภาพของคุณ",
+    "resizeFacebookStep1Desc": "เลือกภาพถ่ายที่คุณต้องการปรับขนาดสำหรับ Facebook ใช้ได้กับรูปแบบภาพทั่วไปทั้งหมด",
+    "resizeFacebookStep2": "เลือกขนาด Facebook",
+    "resizeFacebookStep2Desc": "เลือกเป้าหมาย: 820x312 สำหรับภาพปก, 1200x630 สำหรับโพสต์ที่แชร์, หรือ 170x170 สำหรับรูปโปรไฟล์",
+    "resizeFacebookStep3": "ดาวน์โหลดภาพพร้อมใช้สำหรับ Facebook",
+    "resizeFacebookStep3Desc": "บันทึกภาพที่ปรับขนาดแล้วตามขนาด Facebook ที่แม่นยำ อัปโหลดโดยไม่มีการครอปหรือลดคุณภาพ",
+    "resizeFacebookFaqTitle": "คำถามที่พบบ่อย",
+    "resizeFacebookFaq1Q": "ขนาดที่ดีที่สุดสำหรับภาพปก Facebook คืออะไร?",
+    "resizeFacebookFaq1A": "ภาพปก Facebook แสดงที่ 820x312 พิกเซลบนเดสก์ท็อปและ 640x360 พิกเซลบนมือถือ ออกแบบที่ 820x462 เพื่อรองรับทั้งสองมุมมอง วางเนื้อหาสำคัญไว้ตรงกลาง ใช้รูปแบบ PNG สำหรับปกที่มีข้อความหรือโลโก้ และ JPG สำหรับปกที่เป็นภาพถ่าย",
+    "resizeFacebookFaq2Q": "ขนาดใดดีที่สุดสำหรับภาพที่แชร์บน Facebook?",
+    "resizeFacebookFaq2A": "สำหรับภาพตัวอย่างลิงก์และโพสต์ที่แชร์ ใช้ 1200x630 พิกเซล (อัตราส่วน 1.91:1) นี่ยังเป็นมาตรฐาน Open Graph ที่แสดงอย่างถูกต้องเมื่อหน้าของคุณถูกแชร์ สำหรับการอัปโหลดภาพถ่าย รองรับความละเอียดสูงสุด 2048x2048 พิกเซล แต่ความกว้าง 1200px เหมาะสมที่สุดสำหรับการแสดงนิวส์ฟีด",
+    "resizeFacebookFaq3Q": "Facebook ลดคุณภาพภาพเมื่ออัปโหลดหรือไม่?",
+    "resizeFacebookFaq3A": "ใช่ Facebook บีบอัดภาพที่อัปโหลดอย่างมาก เพื่อลดการสูญเสียคุณภาพ อัปโหลดไฟล์ JPG ต่ำกว่า 100KB สำหรับรูปโปรไฟล์และต่ำกว่า 1MB สำหรับโพสต์ ใช้พื้นที่สี sRGB และตรงกับขนาดที่แนะนำอย่างแม่นยำ Facebook ใช้การบีบอัดน้อยกว่ากับภาพที่ตรงกับข้อกำหนดเป้าหมายแล้ว",
+    "resizeTwitterHowTo": "วิธีปรับขนาดภาพสำหรับ Twitter/X",
+    "resizeTwitterStep1": "อัปโหลดภาพของคุณ",
+    "resizeTwitterStep1Desc": "เลือกภาพที่คุณต้องการปรับให้เหมาะสมสำหรับ Twitter/X รองรับรูปแบบภาพทั่วไปทั้งหมด",
+    "resizeTwitterStep2": "เลือกขนาด Twitter",
+    "resizeTwitterStep2Desc": "เลือกเป้าหมาย: 1500x500 สำหรับส่วนหัว, 1600x900 สำหรับภาพในสตรีม, หรือ 400x400 สำหรับรูปโปรไฟล์",
+    "resizeTwitterStep3": "ดาวน์โหลดภาพที่ปรับแต่ง",
+    "resizeTwitterStep3Desc": "บันทึกภาพที่ปรับให้เหมาะสมสำหรับ Twitter จะแสดงอย่างสมบูรณ์แบบในไทม์ไลน์โดยไม่มีการครอปที่ไม่คาดคิด",
+    "resizeTwitterFaqTitle": "คำถามที่พบบ่อย",
+    "resizeTwitterFaq1Q": "ขนาดภาพที่ดีที่สุดสำหรับโพสต์ Twitter/X คืออะไร?",
+    "resizeTwitterFaq1A": "Twitter แนะนำ 1600x900 พิกเซล (อัตราส่วน 16:9) สำหรับทวีตภาพเดียวที่แสดงเต็มโดยไม่ถูกครอป สำหรับสองภาพ ใช้ 700x800 แต่ละภาพ Twitter รองรับถึง 5MB สำหรับภาพถ่ายและ 15MB สำหรับ GIF ภาพที่กว้างกว่า 4096 พิกเซลจะถูกย่อขนาดโดยอัตโนมัติ",
+    "resizeTwitterFaq2Q": "ขนาดส่วนหัว Twitter/X คือเท่าไหร่?",
+    "resizeTwitterFaq2A": "ส่วนหัว Twitter ควรเป็น 1500x500 พิกเซล (อัตราส่วน 3:1) รักษาเนื้อหาสำคัญไว้ตรงกลางเพราะขอบอาจถูกครอปบนอุปกรณ์และขนาดหน้าจอที่แตกต่างกัน รูปโปรไฟล์ซ้อนทับพื้นที่ล่างซ้ายของส่วนหัวบนเดสก์ท็อป ดังนั้นหลีกเลี่ยงการวางองค์ประกอบสำคัญตรงนั้น",
+    "resizeTwitterFaq3Q": "Twitter ครอปภาพในไทม์ไลน์อย่างไร?",
+    "resizeTwitterFaq3A": "Twitter ใช้อัลกอริทึมครอปอัจฉริยะที่ขับเคลื่อนด้วย AI ที่พยายามค้นหาจุดโฟกัสที่น่าสนใจที่สุดทางภาพ เพื่อหลีกเลี่ยงการครอปที่ไม่คาดคิด ใช้อัตราส่วนภาพ 16:9 ที่แนะนำสำหรับภาพเดียว วางหัวเรื่องไว้ตรงกลางและรักษาองค์ประกอบสำคัญให้ห่างจากขอบเพื่อให้มั่นใจว่ายังคงมองเห็นได้หลังการครอปอัตโนมัติ",
+    "resizeYoutubeHowTo": "วิธีสร้าง YouTube Thumbnail",
+    "resizeYoutubeStep1": "อัปโหลดภาพของคุณ",
+    "resizeYoutubeStep1Desc": "เลือกภาพที่คุณต้องการใช้เป็น YouTube thumbnail ภาพต้นฉบับความละเอียดสูงให้ผลลัพธ์ที่ดีที่สุด",
+    "resizeYoutubeStep2": "ครอปเป็น 1280x720",
+    "resizeYoutubeStep2Desc": "ปรับขนาดและครอปภาพให้ได้ขนาด YouTube thumbnail ที่แม่นยำ 1280x720 พิกเซลที่อัตราส่วน 16:9",
+    "resizeYoutubeStep3": "ดาวน์โหลด Thumbnail",
+    "resizeYoutubeStep3Desc": "บันทึก thumbnail ที่พร้อมใช้กับ YouTube อัปโหลดโดยตรงใน YouTube Studio เมื่อเผยแพร่หรือแก้ไขวิดีโอ",
+    "resizeYoutubeFaqTitle": "คำถามที่พบบ่อย",
+    "resizeYoutubeFaq1Q": "ขนาด YouTube thumbnail ที่เหมาะสมคืออะไร?",
+    "resizeYoutubeFaq1A": "YouTube thumbnail ควรเป็น 1280x720 พิกเซลอย่างแม่นยำที่อัตราส่วน 16:9 ความกว้างขั้นต่ำคือ 640 พิกเซลและขนาดไฟล์สูงสุดคือ 2MB รองรับรูปแบบ JPG, PNG และ GIF ออกแบบที่ความละเอียดเต็ม 1280x720 เสมอเพื่อการแสดงที่คมชัดที่สุดบนทุกอุปกรณ์",
+    "resizeYoutubeFaq2Q": "อะไรทำให้ YouTube thumbnail ได้คลิกมากขึ้น?",
+    "resizeYoutubeFaq2A": "Thumbnail CTR สูงใช้สีคอนทราสต์สดใส ข้อความขนาดใหญ่อ่านง่าย (สูงสุด 3-5 คำ) ใบหน้ามนุษย์ที่แสดงอารมณ์ และจุดโฟกัสที่ชัดเจน หลีกเลี่ยงความซับซ้อนและรายละเอียดเล็กที่มองไม่เห็นที่ขนาดเล็ก ทดสอบ thumbnail ที่ 120x67 พิกเซลเพื่อยืนยันว่ายังน่าสนใจและอ่านได้",
+    "resizeYoutubeFaq3Q": "YouTube thumbnail ควรเป็น JPG หรือ PNG?",
+    "resizeYoutubeFaq3A": "JPG เป็นที่นิยมสำหรับ thumbnail ที่เป็นภาพถ่ายเพราะรักษาไฟล์ให้ต่ำกว่าขีดจำกัด 2MB PNG ดีกว่าสำหรับ thumbnail ที่มีข้อความซ้อนทับ โลโก้ และองค์ประกอบกราฟิกที่ขอบคมสำคัญ หาก PNG เกิน 2MB ให้บีบอัดหรือเปลี่ยนเป็น JPG ที่คุณภาพ 90-95%",
+    "removeBgHowTo": "วิธีลบพื้นหลังภาพ",
+    "removeBgStep1": "อัปโหลดภาพของคุณ",
+    "removeBgStep1Desc": "เลือกภาพถ่ายที่คุณต้องการลบพื้นหลัง ทำงานได้ดีที่สุดกับหัวเรื่องที่ชัดเจนและคอนทราสต์ที่ดี",
+    "removeBgStep2": "AI ลบพื้นหลัง",
+    "removeBgStep2Desc": "AI ตรวจจับหัวเรื่องโดยอัตโนมัติและลบพื้นหลัง การประมวลผลเกิดขึ้นทั้งหมดในเบราว์เซอร์ของคุณ",
+    "removeBgStep3": "ดาวน์โหลด PNG โปร่งใส",
+    "removeBgStep3Desc": "บันทึกภาพด้วยพื้นหลังโปร่งใสเป็นไฟล์ PNG พร้อมสำหรับการประกอบภาพ การนำเสนอ หรือรายการสินค้า",
+    "removeBgFaqTitle": "คำถามที่พบบ่อย",
+    "removeBgFaq1Q": "AI ลบพื้นหลังทำงานอย่างไร?",
+    "removeBgFaq1A": "โมเดล AI วิเคราะห์ภาพเพื่อระบุหัวเรื่องหลักโดยใช้การแบ่งส่วนเชิงความหมาย จัดประเภทแต่ละพิกเซลเป็นส่วนหน้าหรือพื้นหลัง จากนั้นลบพิกเซลพื้นหลังเพื่อสร้างความโปร่งใส โมเดล AI สมัยใหม่จัดการขอบที่ซับซ้อนเช่นผมและขนสัตว์ได้อย่างแม่นยำ",
+    "removeBgFaq2Q": "ภาพประเภทใดทำงานได้ดีที่สุดสำหรับการลบพื้นหลัง?",
+    "removeBgFaq2A": "ภาพที่มีคอนทราสต์ชัดเจนระหว่างหัวเรื่องและพื้นหลังให้ผลลัพธ์ที่ดีที่สุด ภาพถ่ายที่มีแสงดีกับหัวเรื่องหลักเดียวทำงานได้อย่างเหมาะสม ฉากที่ซับซ้อนที่มีหัวเรื่องซ้อนกันหลายตัว สีส่วนหน้าและพื้นหลังที่คล้ายกันมาก หรือวัตถุโปร่งใสเช่นแก้วอาจต้องการการแก้ไขด้วยมือ",
+    "removeBgFaq3Q": "ภาพถูกอัปโหลดไปยังเซิร์ฟเวอร์เพื่อการประมวลผลหรือไม่?",
+    "removeBgFaq3A": "ไม่ กระบวนการลบพื้นหลังทั้งหมดทำงานในเบราว์เซอร์โดยใช้โมเดล AI WebAssembly ภาพของคุณไม่เคยออกจากอุปกรณ์ รับรองความเป็นส่วนตัวอย่างสมบูรณ์ สิ่งนี้สำคัญเป็นพิเศษสำหรับภาพที่ละเอียดอ่อนเช่นภาพสินค้าที่เป็นความลับหรือภาพบุคคลส่วนตัว",
+    "addWatermarkHowTo": "วิธีเพิ่มลายน้ำบนภาพถ่าย",
+    "addWatermarkStep1": "อัปโหลดภาพถ่ายของคุณ",
+    "addWatermarkStep1Desc": "เลือกภาพหนึ่งภาพหรือมากกว่าที่คุณต้องการเพิ่มลายน้ำ การประมวลผลแบบกลุ่มช่วยให้คุณเพิ่มลายน้ำหลายภาพพร้อมกัน",
+    "addWatermarkStep2": "กำหนดลายน้ำเอง",
+    "addWatermarkStep2Desc": "เพิ่มข้อความหรืออัปโหลดโลโก้ ปรับตำแหน่ง ขนาด ความทึบ และการหมุนเพื่อสร้างตำแหน่งลายน้ำที่เหมาะสม",
+    "addWatermarkStep3": "ดาวน์โหลดภาพที่มีลายน้ำ",
+    "addWatermarkStep3Desc": "บันทึกภาพถ่ายที่ได้รับการปกป้องด้วยลายน้ำ ไฟล์ต้นฉบับที่ไม่มีลายน้ำยังคงเป็นส่วนตัวบนอุปกรณ์ของคุณ",
+    "addWatermarkFaqTitle": "คำถามที่พบบ่อย",
+    "addWatermarkFaq1Q": "การตั้งค่าความทึบของลายน้ำที่ดีที่สุดคืออะไร?",
+    "addWatermarkFaq1A": "ความทึบ 30-50% สร้างสมดุลที่เหมาะสมระหว่างการมองเห็นและความละเอียดอ่อน ที่ 30% ลายน้ำสังเกตเห็นได้โดยไม่รบกวนเนื้อหาภาพ ที่ 50% ให้การปกป้องที่แข็งแกร่งกว่าต่อการใช้งานโดยไม่ได้รับอนุญาต ทดสอบระดับต่างๆ เพื่อหาสิ่งที่เหมาะสมกับภาพและความต้องการแบรนด์เฉพาะของคุณ",
+    "addWatermarkFaq2Q": "ควรวางลายน้ำไว้ที่ใดบนภาพถ่าย?",
+    "addWatermarkFaq2A": "มุมล่างขวาเป็นตำแหน่งที่พบมากที่สุด แต่ก็ง่ายที่สุดที่จะครอปออก เพื่อการปกป้องที่ดีกว่า วางลายน้ำไว้ตรงกลางหรือใช้รูปแบบซ้ำแนวทแยงทั่วทั้งภาพ ตำแหน่งที่เหมาะสมครอบคลุมพื้นที่เนื้อหาสำคัญที่จะเสียหายหากลายน้ำถูกลบออก",
+    "addWatermarkFaq3Q": "ลายน้ำสามารถถูกลบออกจากภาพถ่ายได้หรือไม่?",
+    "addWatermarkFaq3A": "ลายน้ำกึ่งโปร่งใสสามารถถูกลบออกบางส่วนโดยใช้เครื่องมือ AI แต่ลายน้ำที่วางตำแหน่งดีบนพื้นที่รายละเอียดทำให้การลบที่สะอาดยากมาก ใช้รูปแบบกระเบื้องซ้ำ วางลายน้ำบนรายละเอียดสำคัญ และรวมองค์ประกอบข้อความกับโลโก้เพื่อสร้างลายน้ำที่ต้านทานการลบอัตโนมัติ",
+    "mergePhotosHowTo": "วิธีรวมภาพถ่ายออนไลน์",
+    "mergePhotosStep1": "อัปโหลดภาพหลายภาพ",
+    "mergePhotosStep1Desc": "เลือกภาพถ่ายสองภาพหรือมากกว่าที่คุณต้องการรวม รองรับ JPG, PNG, WebP และรูปแบบภาพทั่วไปอื่นๆ",
+    "mergePhotosStep2": "จัดเรียงเลย์เอาต์",
+    "mergePhotosStep2Desc": "เลือกเลย์เอาต์แนวนอน แนวตั้ง หรือกริด ปรับระยะห่าง การจัดตำแหน่ง และลำดับภาพโดยลากเพื่อจัดเรียงใหม่",
+    "mergePhotosStep3": "ดาวน์โหลดภาพที่รวมแล้ว",
+    "mergePhotosStep3Desc": "บันทึกภาพถ่ายที่รวมแล้วเป็นไฟล์ภาพเดียว เหมาะสำหรับการเปรียบเทียบ คอลลาจ และโพสต์โซเชียลมีเดีย",
+    "mergePhotosFaqTitle": "คำถามที่พบบ่อย",
+    "mergePhotosFaq1Q": "สามารถรวมภาพถ่ายได้กี่ภาพในครั้งเดียว?",
+    "mergePhotosFaq1A": "คุณสามารถรวมภาพถ่ายได้มากเท่าที่หน่วยความจำเบราว์เซอร์อนุญาต โดยปกติ 10-20 ภาพความละเอียดสูงโดยไม่มีปัญหา สำหรับกลุ่มที่ใหญ่มาก เครื่องมืออาจทำงานช้าลงขึ้นอยู่กับความสามารถของอุปกรณ์ ขนาดภาพผลลัพธ์จะเพิ่มขึ้นตามภาพที่เพิ่ม ดังนั้นพิจารณากรณีใช้งานสุดท้ายเมื่อเพิ่มภาพจำนวนมาก",
+    "mergePhotosFaq2Q": "สามารถรวมภาพที่มีขนาดต่างกันได้หรือไม่?",
+    "mergePhotosFaq2A": "ได้ เครื่องมือจัดการภาพขนาดต่างกันโดยอัตโนมัติ คุณสามารถเลือกปรับขนาดภาพทั้งหมดให้ตรงกับขนาดใหญ่สุดหรือเล็กสุด หรือรักษาสัดส่วนเดิมด้วยการเติม เลย์เอาต์แนวนอนจัดเรียงภาพแนวตั้ง ในขณะที่เลย์เอาต์แนวตั้งจัดเรียงแนวนอนเพื่อผลลัพธ์ที่เรียบร้อย",
+    "mergePhotosFaq3Q": "เลย์เอาต์ที่ดีที่สุดสำหรับการเปรียบเทียบก่อน-หลังคืออะไร?",
+    "mergePhotosFaq3A": "เลย์เอาต์แนวนอนเคียงข้างกันทำงานได้ดีที่สุดสำหรับการเปรียบเทียบก่อน-หลัง โดยวางต้นฉบับทางซ้ายและผลลัพธ์ทางขวา ตรวจสอบให้แน่ใจว่าภาพทั้งสองมีความสูงเท่ากันเพื่อการเชื่อมต่อที่สะอาด เพิ่มระยะห่างขั้นต่ำระหว่างภาพเพื่อให้ผู้ชมเปรียบเทียบรายละเอียดข้ามขอบเขตได้ง่าย",
+    "extractMp3HowTo": "วิธีแยก MP3 จากวิดีโอ",
+    "extractMp3Step1": "อัปโหลดไฟล์วิดีโอ",
+    "extractMp3Step1Desc": "เลือกไฟล์วิดีโอในรูปแบบ MP4, WebM, AVI, MOV หรือรูปแบบทั่วไปอื่นๆ แทร็กเสียงจะถูกแยกออก",
+    "extractMp3Step2": "แยกแทร็กเสียง",
+    "extractMp3Step2Desc": "เครื่องมือแยกสตรีมเสียงจากวิดีโอและแปลงเป็นรูปแบบ MP3 โดยใช้ FFmpeg ในเบราว์เซอร์",
+    "extractMp3Step3": "ดาวน์โหลดไฟล์ MP3",
+    "extractMp3Step3Desc": "บันทึกไฟล์เสียง MP3 ที่แยกออกมา ใช้เป็นพอดแคสต์ แทร็กเพลง การบันทึกเสียง หรือการสำรองเสียง",
+    "extractMp3FaqTitle": "คำถามที่พบบ่อย",
+    "extractMp3Faq1Q": "คุณภาพเสียงที่คาดหวังจาก MP3 ที่แยกออกมาคืออะไร?",
+    "extractMp3Faq1A": "คุณภาพ MP3 ขึ้นอยู่กับแทร็กเสียงของวิดีโอต้นฉบับ วิดีโอส่วนใหญ่มีเสียงที่ 128-256 kbps การแยกรักษาคุณภาพนี้และเข้ารหัสใหม่เป็น MP3 ที่บิตเรทที่คุณเลือก สำหรับเพลง ใช้ 256-320 kbps สำหรับการพูดและพอดแคสต์ 128 kbps ให้คุณภาพที่ชัดเจนที่ขนาดไฟล์เล็กกว่า",
+    "extractMp3Faq2Q": "สามารถแยกเสียงจากวิดีโอ YouTube ได้หรือไม่?",
+    "extractMp3Faq2A": "เครื่องมือนี้แยกเสียงจากไฟล์วิดีโอที่จัดเก็บบนอุปกรณ์ของคุณ คุณจำเป็นต้องบันทึกไฟล์วิดีโอไว้ในเครื่องก่อน เครื่องมือไม่ดาวน์โหลดวิดีโอจาก URL หรือแพลตฟอร์มสตรีมมิ่ง เมื่อคุณมีไฟล์วิดีโอในเครื่อง คุณสามารถแยกแทร็กเสียงเป็น MP3 ได้ทันที",
+    "extractMp3Faq3Q": "วิดีโอถูกอัปโหลดไปยังเซิร์ฟเวอร์ระหว่างการแยกหรือไม่?",
+    "extractMp3Faq3A": "ไม่ กระบวนการแยกทั้งหมดทำงานในเบราว์เซอร์โดยใช้ FFmpeg ที่ขับเคลื่อนด้วย WebAssembly ไฟล์วิดีโอไม่เคยออกจากอุปกรณ์ รับรองความเป็นส่วนตัวอย่างสมบูรณ์ สิ่งนี้สำคัญเป็นพิเศษสำหรับการแยกเสียงจากการบันทึกส่วนตัว การประชุมที่เป็นความลับ หรือเนื้อหาวิดีโอส่วนบุคคล"
   },
   "footer": {
     "tagline": "เครื่องมือออนไลน์ฟรีสำหรับรูปภาพและวิดีโอ 100% ในเบราว์เซอร์ ไฟล์ของคุณไม่เคยออกจากอุปกรณ์",
@@ -430,19 +766,19 @@
         "content": [
           {
             "heading": "Why Free Online Editors Matter in 2026",
-            "text": "Professional image editing no longer requires expensive software subscriptions or powerful desktop hardware. Free online image editors have matured to the point where they handle most everyday editing tasks with ease, from quick crops and resizes to advanced filters and batch processing.\n\nThe shift to browser-based tools has been driven by improvements in WebAssembly, browser APIs, and cloud computing. These technologies allow complex image processing to run directly in your browser or on lightweight servers, eliminating the need for heavy local installations. For freelancers, small business owners, students, and content creators on a budget, this means professional-quality results without any financial commitment.\n\nIn this guide, we compare five of the best free online image editors in 2026, evaluating them on features, ease of use, privacy, format support, and performance. Whether you need quick social media edits or serious batch processing, one of these tools will fit your workflow."
+            "text": "Professional image editing no longer requires expensive software subscriptions or powerful desktop hardware. Free online image editors have matured to the point where they handle most everyday editing tasks with ease, from quick crops and resizes to advanced filters and batch processing."
           },
           {
             "heading": "ToolPic and Canva Compared",
-            "text": "ToolPic is a privacy-first image and video toolkit that processes everything directly in your browser. Your files never leave your device, which makes it ideal for sensitive or proprietary images. It excels at core tasks like compression, format conversion, cropping, watermarking, background removal, and image merging, all with batch support and no file count limits.\n\nCanva takes a different approach as a design-focused platform. It provides thousands of templates for social media posts, presentations, and marketing materials. Its drag-and-drop interface is beginner-friendly, and the free tier is generous. However, Canva uploads your files to its servers, and some premium features require a paid subscription. It is better suited for graphic design than for technical image processing tasks like compression or format conversion.\n\nChoose ToolPic when you need fast, private image processing without accounts or uploads. Choose Canva when you need to design visual content from templates with text, shapes, and branding elements."
+            "text": "ToolPic is a privacy-first image and video toolkit that processes everything directly in your browser. Your files never leave your device, which makes it ideal for sensitive or proprietary images. It excels at core tasks like compression, format conversion, cropping, watermarking, background removal, and image merging, all with batch support and no file count limits."
           },
           {
             "heading": "Photopea, Pixlr, and Fotor",
-            "text": "Photopea is the closest thing to Photoshop available for free in a browser. It supports PSD, XCF, Sketch, and RAW files, along with layers, masks, blend modes, and advanced selection tools. It is the best choice for users who need Photoshop-level capabilities without the cost. The interface is complex, which creates a learning curve for beginners, but experienced editors will feel right at home.\n\nPixlr offers two editors: Pixlr X for quick edits and Pixlr E for more advanced work. Both feature AI-powered tools for background removal, object removal, and image enhancement. The free version includes ads and limits export resolution, but it covers most basic to intermediate editing needs well.\n\nFotor focuses on photo enhancement with one-click filters, portrait retouching, and collage creation. Its batch processing feature is helpful for processing multiple photos with the same adjustments. The interface is clean and intuitive, making it a good starting point for beginners who want attractive results with minimal effort."
+            "text": "Photopea is the closest thing to Photoshop available for free in a browser. It supports PSD, XCF, Sketch, and RAW files, along with layers, masks, blend modes, and advanced selection tools. It is the best choice for users who need Photoshop-level capabilities without the cost."
           },
           {
             "heading": "Which Editor Should You Choose?",
-            "text": "Your ideal editor depends on your primary use case. For privacy-focused image processing, compression, and format conversion, ToolPic is the clear winner since nothing leaves your browser. For graphic design and template-based content creation, Canva offers the most polished experience.\n\nIf you need advanced layer-based editing comparable to Photoshop, Photopea is unmatched among free tools. For AI-enhanced quick edits and casual photo improvement, Pixlr and Fotor both deliver solid results with minimal learning required.\n\nMany professionals use multiple tools in combination. They might compress and convert images with ToolPic, design social media graphics in Canva, and handle complex compositing in Photopea. Since all five tools are free and browser-based, there is no cost to trying each one and building a workflow that leverages the strengths of each."
+            "text": "Your ideal editor depends on your primary use case. For privacy-focused image processing, compression, and format conversion, ToolPic is the clear winner since nothing leaves your browser. For graphic design and template-based content creation, Canva offers the most polished experience."
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -455,19 +791,19 @@
         "content": [
           {
             "heading": "Why Thumbnails Make or Break Your Videos",
-            "text": "Your thumbnail is the single most important factor in whether someone clicks on your video. YouTube's own Creator Academy confirms that 90% of top-performing videos use custom thumbnails. Even with a compelling title, a weak thumbnail will cause viewers to scroll right past your content.\n\nThumbnails work like billboards on a highway. You have about two seconds to communicate what your video is about and why it is worth watching. In a feed filled with competing content, your thumbnail must be instantly readable, emotionally engaging, and visually distinct from everything around it.\n\nThe recommended dimensions for YouTube thumbnails are 1280 x 720 pixels with a minimum width of 640 pixels. The aspect ratio is 16:9, which matches most video players and device screens. File size should be under 2MB, and YouTube accepts JPG, GIF, and PNG formats."
+            "text": "Your thumbnail is the single most important factor in whether someone clicks on your video. YouTube's own Creator Academy confirms that 90% of top-performing videos use custom thumbnails. Even with a compelling title, a weak thumbnail will cause viewers to scroll right past your content."
           },
           {
             "heading": "Design Principles That Drive Clicks",
-            "text": "High-contrast colors are essential for thumbnail visibility. Use bright, saturated colors that pop against both light and dark backgrounds. Yellow, red, and orange draw the eye most effectively. Avoid muted tones and pastels that blend into the feed.\n\nFaces with clear emotions generate higher click-through rates. Studies show that thumbnails featuring expressive human faces receive significantly more clicks than those without. If your content involves a person, include a close-up showing surprise, excitement, curiosity, or another strong emotion.\n\nKeep text to three to five words maximum. Thumbnails are displayed at small sizes on mobile devices, so long text becomes unreadable. Use bold, sans-serif fonts with strong outlines or drop shadows so text remains legible at any size. The text should complement your title, not repeat it."
+            "text": "High-contrast colors are essential for thumbnail visibility. Use bright, saturated colors that pop against both light and dark backgrounds. Yellow, red, and orange draw the eye most effectively."
           },
           {
             "heading": "Color Psychology and Composition",
-            "text": "Color choices trigger specific psychological responses. Red creates urgency and excitement, making it effective for dramatic or time-sensitive content. Blue conveys trust and professionalism, suitable for educational content. Yellow grabs attention and communicates energy, while green suggests growth and money-related topics.\n\nUse the rule of thirds to position key elements. Place the main subject slightly off-center for a more dynamic composition. Leave space for text on one side and the subject on the other. Avoid cluttering the frame with too many elements, as simplicity reads better at small sizes.\n\nCreate depth by using a blurred or darkened background behind the main subject. This technique, borrowed from professional photography, makes the foreground subject pop and creates a three-dimensional effect that catches the eye in a flat feed of competing thumbnails."
+            "text": "Color choices trigger specific psychological responses. Red creates urgency and excitement, making it effective for dramatic or time-sensitive content. Blue conveys trust and professionalism, suitable for educational content."
           },
           {
             "heading": "Creating Thumbnails with ToolPic",
-            "text": "Start with a high-quality screenshot or photo that captures the key moment of your video. Open the Image Crop tool on ToolPic and crop it to the 16:9 aspect ratio at 1280 x 720 pixels. This ensures your thumbnail matches YouTube's recommended dimensions perfectly.\n\nUse the Image Watermark tool to add text overlays to your thumbnail. Choose a bold, readable font and position the text where it does not cover important parts of the image. Adjust the opacity and add a background strip behind the text if needed for better legibility.\n\nExport the final thumbnail as a high-quality JPG to keep the file size under 2MB while maintaining sharp details. Test how your thumbnail looks at small sizes by viewing it on your phone screen. If the text and subject are clear at mobile thumbnail size, your design is ready to upload."
+            "text": "Start with a high-quality screenshot or photo that captures the key moment of your video. Open the Image Crop tool on ToolPic and crop it to the 16:9 aspect ratio at 1280 x 720 pixels. This ensures your thumbnail matches YouTube's recommended dimensions perfectly."
           }
         ],
         "relatedToolIds": "image-crop,image-watermark"
@@ -480,19 +816,19 @@
         "content": [
           {
             "heading": "Why Batch Processing Saves You Hours",
-            "text": "Compressing images one at a time is tedious and impractical when you have dozens or hundreds of files to process. Whether you are optimizing product photos for an e-commerce store, preparing images for a website migration, or reducing the size of a photo library, batch processing is the only efficient approach.\n\nManual compression of a single image typically takes 30 to 60 seconds including upload, adjustment, and download. For 100 images, that adds up to over an hour of repetitive work. Batch compression tools handle the same workload in minutes by applying your chosen settings to all files simultaneously.\n\nBatch processing also ensures consistency. When every image in a set is compressed with the same quality settings, the visual appearance remains uniform across your website or product catalog. This consistency is especially important for professional presentations and e-commerce listings where mismatched image quality looks unprofessional."
+            "text": "Compressing images one at a time is tedious and impractical when you have dozens or hundreds of files to process. Whether you are optimizing product photos for an e-commerce store, preparing images for a website migration, or reducing the size of a photo library, batch processing is the only efficient approach."
           },
           {
             "heading": "Choosing the Right Batch Tool",
-            "text": "Browser-based tools like ToolPic offer the most convenient batch compression experience. You drag and drop your entire folder of images, set the quality level once, and the tool processes everything locally in your browser. There are no file count limits, no uploads to third-party servers, and no subscription fees.\n\nDesktop applications like ImageOptim (macOS) and FileOptimizer (Windows) are good alternatives for users who prefer native software. They integrate with your file system and can process folders directly, which is convenient for large batches. However, they require installation and are platform-specific.\n\nCommand-line tools like Sharp (Node.js) and ImageMagick are ideal for developers who want to integrate compression into automated build pipelines. They offer the most control and can process thousands of files, but they require technical knowledge to configure and run."
+            "text": "Browser-based tools like ToolPic offer the most convenient batch compression experience. You drag and drop your entire folder of images, set the quality level once, and the tool processes everything locally in your browser. There are no file count limits, no uploads to third-party servers, and no subscription fees."
           },
           {
             "heading": "Optimal Settings for Batch Compression",
-            "text": "For photographs and complex images, JPEG or WebP at 78-82% quality provides the best balance between file size and visual quality. This range typically achieves 60-75% size reduction while keeping images visually indistinguishable from the originals at normal viewing sizes.\n\nFor graphics, icons, and screenshots with sharp edges and text, PNG with lossless optimization is usually the better choice. If transparency is not needed, converting these to WebP lossless can reduce file sizes by an additional 20-30% compared to optimized PNG.\n\nAlways resize images to their maximum display dimensions before compressing. If your website displays product images at 800 pixels wide, there is no reason to compress and serve 3000-pixel-wide originals. Resizing first, then compressing, produces dramatically smaller files than compression alone. For a typical e-commerce store, this combination can reduce total image bandwidth by 80-90%."
+            "text": "For photographs and complex images, JPEG or WebP at 78-82% quality provides the best balance between file size and visual quality. This range typically achieves 60-75% size reduction while keeping images visually indistinguishable from the originals at normal viewing sizes."
           },
           {
             "heading": "Step-by-Step Batch Compression with ToolPic",
-            "text": "Open the Image Compressor tool on ToolPic. Click the upload area or drag and drop your entire selection of images. The tool accepts JPEG, PNG, WebP, and AVIF files in any combination. There is no limit on the number of files you can process.\n\nSet the quality slider to your desired level. For most use cases, 80% is an excellent default. The tool applies this setting to all images in the batch. You can see the original and compressed size for each file in the processing list.\n\nOnce all images are processed, review the results. The tool displays the total size savings across all files. Use the Download All button to save every compressed image at once. The entire process runs locally in your browser, meaning your images are never uploaded to any server. For a batch of 50 product photos, the process typically completes in under a minute."
+            "text": "Open the Image Compressor tool on ToolPic. Click the upload area or drag and drop your entire selection of images. The tool accepts JPEG, PNG, WebP, and AVIF files in any combination."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -505,19 +841,19 @@
         "content": [
           {
             "heading": "The Next Generation of Image Formats",
-            "text": "The web has relied on JPEG and PNG for decades, but these formats were designed in an era when bandwidth was expensive and processing power was limited. Modern formats like WebP and AVIF use advanced compression techniques that deliver the same visual quality at a fraction of the file size.\n\nWebP was released by Google in 2010, based on the VP8 video codec. It supports both lossy and lossless compression, transparency, and animation. It has been widely adopted across the web and is supported by all major browsers since 2020.\n\nAVIF arrived in 2019, built on the AV1 video codec developed by the Alliance for Open Media. It represents the cutting edge of image compression, offering even better compression ratios than WebP. AVIF is gaining browser support rapidly and is becoming a serious contender for the default web image format. Understanding how these two formats compare helps you make informed decisions about which to adopt for your projects."
+            "text": "The web has relied on JPEG and PNG for decades, but these formats were designed in an era when bandwidth was expensive and processing power was limited. Modern formats like WebP and AVIF use advanced compression techniques that deliver the same visual quality at a fraction of the file size."
           },
           {
             "heading": "Compression Quality Comparison",
-            "text": "In controlled comparisons, AVIF consistently outperforms WebP in compression efficiency. At equivalent visual quality, AVIF files are typically 20-30% smaller than WebP files and 50% smaller than JPEG. This advantage is most pronounced at lower bitrates, where AVIF maintains cleaner details and fewer artifacts.\n\nAVIF excels at preserving fine texture and gradient details that WebP sometimes smooths over. Photographs of natural scenes, portraits with skin texture, and images with subtle color gradations look noticeably better in AVIF at the same file size. For high-detail photographic content, AVIF is the superior format.\n\nWebP still holds advantages in specific scenarios. It encodes and decodes faster than AVIF, which matters for real-time applications and devices with limited processing power. WebP also handles sharp edges and text more predictably than AVIF at aggressive compression levels. For screenshots, UI elements, and graphics with crisp lines, WebP can produce more consistent results."
+            "text": "In controlled comparisons, AVIF consistently outperforms WebP in compression efficiency. At equivalent visual quality, AVIF files are typically 20-30% smaller than WebP files and 50% smaller than JPEG. This advantage is most pronounced at lower bitrates, where AVIF maintains cleaner details and fewer artifacts."
           },
           {
             "heading": "Browser Support and Adoption",
-            "text": "WebP has near-universal browser support in 2026, covering over 97% of global web users. Chrome, Firefox, Safari, Edge, and all major mobile browsers handle WebP without issues. This mature support makes WebP a safe, production-ready choice for any web project.\n\nAVIF support has expanded significantly and now covers approximately 92% of global users. Chrome and Firefox added support early, and Safari joined with version 16 in 2022. The remaining gap comes from older browser versions and some niche platforms.\n\nFor maximum compatibility, the best approach is to serve AVIF as the primary format with WebP as a fallback, using the HTML picture element. This ensures every visitor gets the smallest possible file their browser can handle. Content delivery networks like Cloudflare and Fastly can automate this format negotiation based on the Accept header, simplifying implementation."
+            "text": "WebP has near-universal browser support in 2026, covering over 97% of global web users. Chrome, Firefox, Safari, Edge, and all major mobile browsers handle WebP without issues. This mature support makes WebP a safe, production-ready choice for any web project."
           },
           {
             "heading": "Which Format Should You Use?",
-            "text": "Use AVIF as your primary format when targeting modern browsers and maximum compression is a priority. It is the best choice for photography-heavy websites, media galleries, and any project where bandwidth savings directly impact costs or user experience. The compression advantage over WebP translates into measurably faster page loads.\n\nUse WebP as your reliable fallback and as your primary format when encoding speed matters or when you need to support the broadest possible device range. WebP's faster encoding also makes it more practical for on-the-fly image processing in CDN pipelines.\n\nToolPic's Image Converter supports both AVIF and WebP, letting you convert images between formats instantly in your browser. You can compare the output quality and file size of both formats side by side to determine which works best for your specific images. Since conversion happens locally, you can experiment freely without uploading anything to external servers."
+            "text": "Use AVIF as your primary format when targeting modern browsers and maximum compression is a priority. It is the best choice for photography-heavy websites, media galleries, and any project where bandwidth savings directly impact costs or user experience. The compression advantage over WebP translates into measurably faster page loads."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -530,19 +866,19 @@
         "content": [
           {
             "heading": "Why Product Images Drive Sales",
-            "text": "In e-commerce, product images are your most powerful sales tool. Studies show that 75% of online shoppers rely on product photos when making purchase decisions. High-quality images build trust, reduce return rates, and directly increase conversion rates. A product with multiple clear, well-lit images can convert at two to three times the rate of one with a single low-quality photo.\n\nHowever, high-quality images come with a trade-off: file size. Unoptimized product photos can easily weigh 2-5MB each, and a typical category page displaying 20 to 40 products can require over 100MB of image data. This creates catastrophically slow page loads that drive customers away before they even see your products.\n\nThe solution is optimizing your images to maintain visual quality while drastically reducing file size. With the right format, dimensions, and compression settings, you can reduce image file sizes by 70-90% without any perceptible quality loss. Faster-loading pages mean lower bounce rates, better search rankings, and ultimately more sales."
+            "text": "In e-commerce, product images are your most powerful sales tool. Studies show that 75% of online shoppers rely on product photos when making purchase decisions. High-quality images build trust, reduce return rates, and directly increase conversion rates."
           },
           {
             "heading": "Recommended Sizes and Formats",
-            "text": "For main product images, use dimensions between 1000 and 2000 pixels on the longest side. This provides enough resolution for zoom functionality without being excessively large. Most e-commerce platforms recommend 1200 x 1200 or 1500 x 1500 pixels for square product images.\n\nWebP is the ideal format for product images in 2026. It offers 25-35% smaller files than JPEG at the same quality and supports transparency for products photographed on transparent backgrounds. For stores that need to support older browsers, serve WebP with a JPEG fallback.\n\nThumbnails in category listings should be 400-600 pixels wide. At this display size, a well-compressed WebP or JPEG at 80% quality typically produces files between 20KB and 50KB. For hero banners and lifestyle shots, keep file sizes under 150KB by using WebP at 78-82% quality."
+            "text": "For main product images, use dimensions between 1000 and 2000 pixels on the longest side. This provides enough resolution for zoom functionality without being excessively large. Most e-commerce platforms recommend 1200 x 1200 or 1500 x 1500 pixels for square product images."
           },
           {
             "heading": "Image SEO for E-commerce",
-            "text": "Search engines cannot see your images, but they read the text you associate with them. Descriptive file names like blue-cotton-t-shirt-front-view.jpg tell search engines exactly what the image shows, while generic names like IMG_4521.jpg provide no useful information.\n\nAlt text is critical for both accessibility and SEO. Write concise descriptions that include relevant keywords naturally. Instead of keyword-stuffing like best cheap blue shirt buy now, use descriptive text like Front view of men's blue cotton t-shirt with crew neck. This approach serves both screen reader users and search engine crawlers.\n\nImplement structured data markup for your product images using Schema.org Product type. This helps search engines display your products in rich results and image search. Include the image URL in your product schema along with other product details like price, availability, and reviews."
+            "text": "Search engines cannot see your images, but they read the text you associate with them. jpg provide no useful information."
           },
           {
             "heading": "Optimizing Product Images with ToolPic",
-            "text": "Start by cropping your product photos to a consistent aspect ratio using ToolPic's Image Crop tool. Square crops (1:1) work best for most e-commerce platforms and ensure a clean, uniform grid layout in category pages. Crop tightly around the product to maximize the visual impact at smaller display sizes.\n\nNext, use the Image Compressor to batch process your entire product catalog. Set the quality to 80% for the best balance of file size and visual clarity. The tool shows you the before-and-after file size for each image, so you can verify the savings. For a catalog of 200 products, batch compression typically saves 500MB or more in total image weight.\n\nAll processing happens locally in your browser, which means your proprietary product images never leave your device. This is especially valuable for stores that sell unique or unreleased products where image confidentiality matters. Export your optimized images and upload them to your store's media library for an immediate boost in page load performance."
+            "text": "Start by cropping your product photos to a consistent aspect ratio using ToolPic's Image Crop tool. Square crops (1:1) work best for most e-commerce platforms and ensure a clean, uniform grid layout in category pages. Crop tightly around the product to maximize the visual impact at smaller display sizes."
           }
         ],
         "relatedToolIds": "image-compressor,image-crop"
@@ -555,19 +891,19 @@
         "content": [
           {
             "heading": "ทำไมการบีบอัดรูปภาพจึงสำคัญ",
-            "text": "รูปภาพขนาดใหญ่เป็นหนึ่งในสาเหตุหลักที่ทำให้เว็บไซต์โหลดช้า เมื่อหน้าเว็บใช้เวลาโหลดมากกว่าสามวินาที ผู้เยี่ยมชมมากกว่าครึ่งจะออกไปก่อนเห็นเนื้อหา เครื่องมือค้นหายังนำความเร็วของหน้าเว็บมาคำนวณในอัลกอริทึมการจัดอันดับ ดังนั้นรูปภาพหนักสามารถส่งผลกระทบโดยตรงต่อการมองเห็นในผลการค้นหา\n\nนอกเหนือจากประสิทธิภาพเว็บไซต์ รูปภาพที่บีบอัดแล้วง่ายต่อการแชร์ผ่านอีเมล แอปส่งข้อความ และแพลตฟอร์มโซเชียลมีเดียที่มีข้อจำกัดขนาดไฟล์ ภาพถ่าย 5MB จากโทรศัพท์อาจดูดีบนหน้าจอความละเอียดสูง แต่ใหญ่กว่าที่จำเป็นสำหรับการใช้งานออนไลน์ส่วนใหญ่ ลดลงเหลือ 500KB หรือน้อยกว่าสามารถทำให้โหลดเร็วขึ้นสิบเท่าโดยไม่มีคุณภาพที่ลดลงอย่างเห็นได้ชัด\n\nการบีบอัดรูปภาพมีความสำคัญเป็นพิเศษสำหรับร้านค้าออนไลน์ พอร์ตโฟลิโอ และบล็อกที่มีเนื้อหาเข้มข้น ซึ่งมีรูปภาพหลายสิบรูปปรากฏในหน้าเดียว การประหยัดเล็กน้อยต่อรูปก็สะสมเป็นการปรับปรุงที่มีนัยสำคัญ"
+            "text": "รูปภาพขนาดใหญ่เป็นหนึ่งในสาเหตุหลักที่ทำให้เว็บไซต์โหลดช้า เมื่อหน้าเว็บใช้เวลาโหลดมากกว่าสามวินาที ผู้เยี่ยมชมมากกว่าครึ่งจะออกไปก่อนเห็นเนื้อหา เครื่องมือค้นหายังนำความเร็วของหน้าเว็บมาคำนวณในอัลกอริทึมการจัดอันดับ ดังนั้นรูปภาพหนักสามารถส่งผลกระทบโดยตรงต่อการมองเห็นในผลการค้นหา"
           },
           {
             "heading": "การบีบอัดแบบ Lossy กับ Lossless",
-            "text": "มีสองแนวทางพื้นฐานในการบีบอัดรูปภาพ: แบบสูญเสีย (lossy) และแบบไม่สูญเสีย (lossless) การเข้าใจความแตกต่างจะช่วยให้คุณเลือกวิธีที่เหมาะสมสำหรับแต่ละสถานการณ์\n\nการบีบอัดแบบ lossless ลดขนาดไฟล์โดยการค้นหาและกำจัดรูปแบบข้อมูลซ้ำซ้อนโดยไม่ทิ้งข้อมูลภาพใดๆ เมื่อคลายการบีบอัดไฟล์ คุณจะได้ข้อมูลพิกเซลดั้งเดิมกลับมาเป๊ะ PNG ใช้การบีบอัดแบบ lossless เหมาะสำหรับกราฟิก โลโก้ และภาพหน้าจอที่ทุกรายละเอียดสำคัญ ข้อเสียคือมักลดขนาดได้เพียง 10% ถึง 40%\n\nการบีบอัดแบบ lossy ลดขนาดได้มากกว่าโดยการลบข้อมูลภาพที่ตาคนไม่น่าจะสังเกตเห็นอย่างถาวร JPEG เป็นรูปแบบ lossy ที่พบบ่อยที่สุด และรูปแบบสมัยใหม่อย่าง WebP ให้การบีบอัดที่ดียิ่งขึ้น ที่ระดับคุณภาพ 75% ถึง 85% ภาพถ่ายส่วนใหญ่แยกไม่ออกจากต้นฉบับขณะที่มีขนาดเล็กลง 60% ถึง 80%"
+            "text": "มีสองแนวทางพื้นฐานในการบีบอัดรูปภาพ: แบบสูญเสีย (lossy) และแบบไม่สูญเสีย (lossless) การเข้าใจความแตกต่างจะช่วยให้คุณเลือกวิธีที่เหมาะสมสำหรับแต่ละสถานการณ์"
           },
           {
             "heading": "แนวปฏิบัติที่ดีสำหรับการบีบอัดรูปภาพ",
-            "text": "เริ่มต้นด้วยการเลือกรูปแบบที่เหมาะสมสำหรับเนื้อหา ใช้ JPEG หรือ WebP สำหรับภาพถ่ายและภาพที่มีการไล่สี ใช้ PNG สำหรับกราฟิกที่มีขอบคม ข้อความซ้อน หรือความโปร่งใส หลีกเลี่ยงการใช้ PNG สำหรับภาพถ่าย เพราะจะสร้างไฟล์ที่ใหญ่โดยไม่จำเป็น\n\nปรับขนาดรูปภาพตามขนาดที่จะแสดงจริงก่อนบีบอัด ไม่มีเหตุผลที่จะให้ภาพกว้าง 4000 พิกเซลแก่คอนเทนเนอร์ที่กว้างเพียง 800 พิกเซล ปรับขนาดก่อนแล้วค่อยบีบอัดมีประสิทธิภาพกว่าการบีบอัดอย่างเดียวมาก\n\nสำหรับการใช้งานเว็บ ตั้งเป้าขนาดไฟล์ต่ำกว่า 200KB สำหรับรูป hero และต่ำกว่า 100KB สำหรับภาพขนาดย่อและรูปเนื้อหา ใช้ระดับคุณภาพ 75% ถึง 85% สำหรับ JPEG และ WebP เปรียบเทียบเวอร์ชันที่บีบอัดแล้วกับต้นฉบับเสมอ"
+            "text": "เริ่มต้นด้วยการเลือกรูปแบบที่เหมาะสมสำหรับเนื้อหา ใช้ JPEG หรือ WebP สำหรับภาพถ่ายและภาพที่มีการไล่สี ใช้ PNG สำหรับกราฟิกที่มีขอบคม ข้อความซ้อน หรือความโปร่งใส หลีกเลี่ยงการใช้ PNG สำหรับภาพถ่าย เพราะจะสร้างไฟล์ที่ใหญ่โดยไม่จำเป็น"
           },
           {
             "heading": "วิธีบีบอัดรูปภาพด้วย ToolPic",
-            "text": "ขั้นตอนที่ 1: เปิดเครื่องมือบีบอัดรูปภาพบน ToolPic คุณสามารถลากและวางรูปภาพลงในพื้นที่อัปโหลดหรือคลิกเพื่อเลือกไฟล์ สามารถประมวลผลหลายภาพพร้อมกันได้\n\nขั้นตอนที่ 2: ปรับแถบเลื่อนคุณภาพเพื่อตั้งค่าระดับการบีบอัดที่ต้องการ การตั้งค่าเริ่มต้น 80% ทำงานได้ดีสำหรับภาพถ่ายส่วนใหญ่ เลื่อนลงเพื่อไฟล์ที่เล็กลงหรือขึ้นเพื่อเก็บรายละเอียดมากขึ้น เครื่องมือแสดงการลดขนาดไฟล์โดยประมาณแบบเรียลไทม์\n\nขั้นตอนที่ 3: หลังจากประมวลผลเสร็จ ตรวจสอบการเปรียบเทียบก่อนและหลังเพื่อยืนยันคุณภาพ ดาวน์โหลดรูปภาพทีละรูปหรือใช้ปุ่ม \"ดาวน์โหลดทั้งหมด\" ไฟล์ของคุณไม่เคยออกจากเบราว์เซอร์ กระบวนการทั้งหมดจึงเป็นส่วนตัวอย่างสมบูรณ์"
+            "text": "ขั้นตอนที่ 1: เปิดเครื่องมือบีบอัดรูปภาพบน ToolPic คุณสามารถลากและวางรูปภาพลงในพื้นที่อัปโหลดหรือคลิกเพื่อเลือกไฟล์ สามารถประมวลผลหลายภาพพร้อมกันได้"
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -580,19 +916,19 @@
         "content": [
           {
             "heading": "ทำความเข้าใจรูปแบบภาพ",
-            "text": "การเลือกรูปแบบภาพที่เหมาะสมสามารถสร้างความแตกต่างอย่างมากในเรื่องขนาดไฟล์ ความเร็วโหลด และคุณภาพภาพ แต่ละรูปแบบถูกออกแบบมาสำหรับการใช้งานที่แตกต่างกัน และการใช้ผิดรูปแบบมักหมายถึงไฟล์ที่ใหญ่โดยไม่จำเป็นหรือคุณภาพภาพที่ลดลง\n\nสามรูปแบบที่สำคัญที่สุดสำหรับเว็บในปัจจุบันคือ JPEG (JPG), PNG และ WebP JPEG เป็นมาตรฐานสำหรับภาพถ่ายตั้งแต่กลางทศวรรษ 1990 PNG กลายเป็นรูปแบบหลักสำหรับกราฟิกและภาพที่ต้องการความโปร่งใส WebP พัฒนาโดย Google เป็นรูปแบบสมัยใหม่ที่มุ่งหมายจะแทนที่ทั้งสองโดยให้การบีบอัดที่ดีกว่า\n\nการเข้าใจจุดแข็งและข้อจำกัดของแต่ละรูปแบบเป็นสิ่งจำเป็นสำหรับทุกคนที่ทำงานกับรูปภาพ ไม่ว่าจะกำลังสร้างเว็บไซต์ จัดการเนื้อหาโซเชียลมีเดีย หรือเพียงแค่ประหยัดพื้นที่จัดเก็บ"
+            "text": "การเลือกรูปแบบภาพที่เหมาะสมสามารถสร้างความแตกต่างอย่างมากในเรื่องขนาดไฟล์ ความเร็วโหลด และคุณภาพภาพ แต่ละรูปแบบถูกออกแบบมาสำหรับการใช้งานที่แตกต่างกัน และการใช้ผิดรูปแบบมักหมายถึงไฟล์ที่ใหญ่โดยไม่จำเป็นหรือคุณภาพภาพที่ลดลง"
           },
           {
             "heading": "JPEG: มาตรฐานสำหรับภาพถ่าย",
-            "text": "JPEG ใช้การบีบอัดแบบ lossy ที่เก่งในการแสดงภาพถ่ายและภาพที่มีการเปลี่ยนสีอย่างนุ่มนวล สามารถลดขนาดไฟล์ภาพได้ 80% หรือมากกว่าโดยยังคงคุณภาพที่ยอดเยี่ยมในระดับการบีบอัดปานกลาง\n\nข้อได้เปรียบหลักของ JPEG คือความเข้ากันได้แบบสากล ทุกอุปกรณ์ เบราว์เซอร์ และแอปพลิเคชันรองรับ มันยังปรับแต่งได้สูง ช่วยให้คุณเลือกระดับคุณภาพตั้งแต่การบีบอัดน้อยไปจนถึงการลดขนาดมาก\n\nอย่างไรก็ตาม JPEG มีข้อจำกัดที่สำคัญ ไม่รองรับความโปร่งใส ทำให้ไม่สามารถวางภาพ JPEG บนพื้นหลังอื่นได้โดยไม่มีสี่เหลี่ยมรอบๆ นอกจากนี้ยังสร้างสิ่งแปลกปลอมที่มองเห็นได้ที่การตั้งค่าคุณภาพต่ำ โดยเฉพาะรอบขอบคมและข้อความ ทุกครั้งที่แก้ไขและบันทึก JPEG ใหม่ คุณภาพจะลดลงอีกเนื่องจากการบีบอัดซ้ำ"
+            "text": "JPEG ใช้การบีบอัดแบบ lossy ที่เก่งในการแสดงภาพถ่ายและภาพที่มีการเปลี่ยนสีอย่างนุ่มนวล สามารถลดขนาดไฟล์ภาพได้ 80% หรือมากกว่าโดยยังคงคุณภาพที่ยอดเยี่ยมในระดับการบีบอัดปานกลาง"
           },
           {
             "heading": "PNG: คุณภาพ Lossless และความโปร่งใส",
-            "text": "PNG ใช้การบีบอัดแบบ lossless หมายความว่าคุณภาพภาพจะถูกรักษาอย่างสมบูรณ์ไม่ว่าจะบันทึกกี่ครั้ง ยังรองรับความโปร่งใสแบบอัลฟาเต็มรูปแบบ ช่วยให้พิกเซลโปร่งใสบางส่วนหรือทั้งหมดได้\n\nทำให้ PNG เป็นตัวเลือกที่ดีที่สุดสำหรับโลโก้ ไอคอน ภาพหน้าจอ กราฟิกที่มีข้อความ และภาพใดก็ตามที่ต้องการพื้นหลังโปร่งใส ยังเหมาะสำหรับภาพที่จะถูกแก้ไขหลายครั้ง เพราะไม่มีการสูญเสียคุณภาพจากการบันทึกซ้ำ\n\nข้อแลกเปลี่ยนคือขนาดไฟล์ ไฟล์ PNG มักจะใหญ่กว่า JPEG สามถึงห้าเท่าสำหรับเนื้อหาภาพถ่าย ทำให้ PNG ไม่เหมาะสำหรับภาพถ่ายขนาดใหญ่บนเว็บ ใช้ PNG เมื่อคุณภาพและความโปร่งใสสำคัญกว่าขนาดไฟล์"
+            "text": "PNG ใช้การบีบอัดแบบ lossless หมายความว่าคุณภาพภาพจะถูกรักษาอย่างสมบูรณ์ไม่ว่าจะบันทึกกี่ครั้ง ยังรองรับความโปร่งใสแบบอัลฟาเต็มรูปแบบ ช่วยให้พิกเซลโปร่งใสบางส่วนหรือทั้งหมดได้"
           },
           {
             "heading": "WebP: ตัวเลือกสมัยใหม่",
-            "text": "WebP ถูกพัฒนาโดย Google เพื่อให้การบีบอัดที่เหนือกว่าสำหรับภาพเว็บ รองรับทั้งการบีบอัดแบบ lossy และ lossless รวมถึงความโปร่งใสและแอนิเมชัน รวมคุณสมบัติที่ดีที่สุดของ JPEG, PNG และ GIF ไว้ในรูปแบบเดียว\n\nในทางปฏิบัติ ภาพ WebP lossy มักเล็กกว่า JPEG 25% ถึง 35% ที่คุณภาพภาพเท่ากัน ภาพ WebP lossless เล็กกว่า PNG ประมาณ 26% ทำให้ WebP เป็นตัวเลือกเริ่มต้นที่ยอดเยี่ยมสำหรับเว็บ\n\nการรองรับเบราว์เซอร์สำหรับ WebP ตอนนี้ยอดเยี่ยม ครอบคลุม Chrome, Firefox, Safari และ Edge ข้อจำกัดหลักคือความเข้ากันได้กับซอฟต์แวร์เก่าและแอปมือถือบางตัว เมื่อต้องการความเข้ากันได้สูงสุด JPEG ยังคงเป็นตัวเลือกที่ปลอดภัยกว่า สำหรับการเผยแพร่เว็บที่ต้องการประสิทธิภาพ WebP เป็นผู้ชนะที่ชัดเจน คุณสามารถใช้ตัวแปลงรูปภาพของ ToolPic เพื่อสลับระหว่างรูปแบบเหล่านี้ได้อย่างง่ายดาย"
+            "text": "WebP ถูกพัฒนาโดย Google เพื่อให้การบีบอัดที่เหนือกว่าสำหรับภาพเว็บ รองรับทั้งการบีบอัดแบบ lossy และ lossless รวมถึงความโปร่งใสและแอนิเมชัน รวมคุณสมบัติที่ดีที่สุดของ JPEG, PNG และ GIF ไว้ในรูปแบบเดียว"
           }
         ],
         "relatedToolIds": "image-converter"
@@ -605,19 +941,19 @@
         "content": [
           {
             "heading": "ทำไม GIF ยังคงเป็นที่นิยม",
-            "text": "แม้จะเป็นรูปแบบจากปี 1987 แต่ GIF กลับเป็นที่นิยมมากกว่าเดิม พวกมันเล่นโดยอัตโนมัติในแอปส่งข้อความ แพลตฟอร์มโซเชียลมีเดีย และอีเมลเกือบทุกตัวโดยไม่ต้องใช้โปรแกรมเล่นวิดีโอ การเล่นที่ราบรื่นนี้ทำให้เหมาะสำหรับรีแอคชัน สาธิต และบทเรียนสั้นๆ\n\nGIF ยังใช้กันอย่างแพร่หลายสำหรับสาธิตผลิตภัณฑ์ แอนิเมชัน UI และรายงานข้อบกพร่องในบริบทมืออาชีพ GIF สั้นที่แสดงฟีเจอร์ซอฟต์แวร์ทำงานสื่อสารได้อย่างมีประสิทธิภาพมากกว่าข้อความหลายย่อหน้า\n\nข้อจำกัดหลักของรูปแบบนี้คือขนาดไฟล์ เนื่องจาก GIF ใช้วิธีบีบอัดที่ค่อนข้างไม่มีประสิทธิภาพและจำกัดที่ 256 สีต่อเฟรม จึงอาจมีขนาดใหญ่ได้อย่างรวดเร็ว GIF 5 วินาทีที่ปรับแต่งดีอาจ 1-2MB ในขณะที่ตัวที่กำหนดค่าไม่ดีอาจเกิน 10MB ได้ง่ายๆ"
+            "text": "แม้จะเป็นรูปแบบจากปี 1987 แต่ GIF กลับเป็นที่นิยมมากกว่าเดิม พวกมันเล่นโดยอัตโนมัติในแอปส่งข้อความ แพลตฟอร์มโซเชียลมีเดีย และอีเมลเกือบทุกตัวโดยไม่ต้องใช้โปรแกรมเล่นวิดีโอ การเล่นที่ราบรื่นนี้ทำให้เหมาะสำหรับรีแอคชัน สาธิต และบทเรียนสั้นๆ"
           },
           {
             "heading": "การเลือกการตั้งค่าที่เหมาะสม",
-            "text": "สามการตั้งค่าที่สำคัญที่สุดเมื่อแปลงวิดีโอเป็น GIF คือ ระยะเวลา เฟรมเรต และขนาดเอาต์พุต การตั้งค่าเหล่านี้ถูกต้องจะสร้างความแตกต่างระหว่าง GIF ที่คมชัดแชร์ได้ง่ายกับไฟล์ขนาดใหญ่ที่โหลดนาน\n\nรักษาระยะเวลา GIF ให้สั้น ต่ำกว่า 5 วินาทีเป็นอุดมคติ และ GIF ที่มีประสิทธิภาพส่วนใหญ่มีความยาว 2 ถึง 4 วินาที คลิปที่ยาวกว่าควรถูกตัดเพื่อเน้นช่วงเวลาที่สำคัญที่สุด\n\nเฟรมเรตมีผลกระทบอย่างมากต่อขนาดไฟล์ วิดีโอมักทำงานที่ 24-30 เฟรมต่อวินาที แต่ GIF ดูราบรื่นที่เพียง 10-15 FPS การลดจาก 30 FPS เป็น 12 FPS ตัดขนาดไฟล์ลงกว่าครึ่งโดยมีผลกระทบทางภาพน้อยมาก"
+            "text": "สามการตั้งค่าที่สำคัญที่สุดเมื่อแปลงวิดีโอเป็น GIF คือ ระยะเวลา เฟรมเรต และขนาดเอาต์พุต การตั้งค่าเหล่านี้ถูกต้องจะสร้างความแตกต่างระหว่าง GIF ที่คมชัดแชร์ได้ง่ายกับไฟล์ขนาดใหญ่ที่โหลดนาน"
           },
           {
             "heading": "การเพิ่มประสิทธิภาพขนาดไฟล์ GIF",
-            "text": "ความละเอียดเป็นปัจจัยที่สำคัญที่สุดในขนาดไฟล์ GIF GIF ระดับ 1080p จะมีขนาดมหาศาล สำหรับการใช้งานส่วนใหญ่ ความกว้าง 480 ถึง 640 พิกเซลก็เพียงพอ แพลตฟอร์มโซเชียลมีเดียและแอปส่งข้อความแสดง GIF ในขนาดเล็กอยู่แล้ว ดังนั้นความละเอียดสูงจึงสูญเปล่า\n\nการลดจำนวนสีก็ช่วยได้ GIF รองรับสูงสุด 256 สีต่อเฟรม ฉากที่เรียบง่ายกว่าและมีสีน้อยกว่าจะสร้างไฟล์ที่เล็กกว่าตามธรรมชาติ\n\nสุดท้าย พิจารณาว่าคุณต้องการ GIF จริงๆ หรือไม่ ทางเลือกสมัยใหม่เช่น แอนิเมชัน WebP และลูป MP4 สั้นสร้างไฟล์ที่เล็กกว่ามากพร้อมคุณภาพที่ดีกว่า อย่างไรก็ตาม GIF ยังคงเป็นตัวเลือกที่เข้ากันได้มากที่สุดสำหรับภาพเคลื่อนไหวข้ามทุกแพลตฟอร์ม"
+            "text": "ความละเอียดเป็นปัจจัยที่สำคัญที่สุดในขนาดไฟล์ GIF GIF ระดับ 1080p จะมีขนาดมหาศาล สำหรับการใช้งานส่วนใหญ่ ความกว้าง 480 ถึง 640 พิกเซลก็เพียงพอ แพลตฟอร์มโซเชียลมีเดียและแอปส่งข้อความแสดง GIF ในขนาดเล็กอยู่แล้ว ดังนั้นความละเอียดสูงจึงสูญเปล่า"
           },
           {
             "heading": "การสร้าง GIF ด้วย ToolPic",
-            "text": "เปิดเครื่องมือวิดีโอเป็น GIF บน ToolPic และอัปโหลดไฟล์วิดีโอ เครื่องมือรองรับ MP4, WebM และรูปแบบวิดีโอทั่วไปอื่นๆ ใช้ตัวเลื่อนไทม์ไลน์เพื่อเลือกจุดเริ่มต้นและระยะเวลาที่ต้องการ\n\nตั้งค่าความกว้างเอาต์พุตที่ต้องการ สำหรับโซเชียลมีเดียและการส่งข้อความ 480px เป็นจุดเริ่มต้นที่ดี ปรับเฟรมเรตเป็น 10-12 FPS เว้นแต่คุณต้องการการเคลื่อนไหวที่ราบรื่นกว่า เครื่องมือแสดงตัวอย่างขนาดไฟล์โดยประมาณเพื่อให้คุณปรับแต่งก่อนแปลง\n\nเมื่อพอใจกับตัวอย่างแล้ว คลิกแปลงและดาวน์โหลด GIF ที่ปรับแต่งแล้ว กระบวนการทั้งหมดเกิดขึ้นในเบราว์เซอร์ ไฟล์วิดีโอของคุณจึงเป็นส่วนตัวอย่างสมบูรณ์"
+            "text": "เปิดเครื่องมือวิดีโอเป็น GIF บน ToolPic และอัปโหลดไฟล์วิดีโอ เครื่องมือรองรับ MP4, WebM และรูปแบบวิดีโอทั่วไปอื่นๆ ใช้ตัวเลื่อนไทม์ไลน์เพื่อเลือกจุดเริ่มต้นและระยะเวลาที่ต้องการ"
           }
         ],
         "relatedToolIds": "video-to-gif"
@@ -630,19 +966,19 @@
         "content": [
           {
             "heading": "อะไรทำให้เครื่องมือบีบอัดดี",
-            "text": "เครื่องมือบีบอัดรูปภาพที่ดีควรสมดุลสามสิ่ง: อัตราส่วนการบีบอัด คุณภาพภาพ และความง่ายในการใช้งาน เครื่องมือที่ดีที่สุดช่วยให้คุณลดขนาดไฟล์ได้มากขณะที่ภาพยังคงแยกไม่ออกจากต้นฉบับที่ขนาดการดูปกติ\n\nความเป็นส่วนตัวเป็นปัจจัยที่สำคัญมากขึ้นเรื่อยๆ เครื่องมือที่ประมวลผลภาพบนเซิร์ฟเวอร์ต้องให้คุณอัปโหลดไฟล์ หมายความว่าภาพของคุณผ่านระบบของบุคคลที่สาม สำหรับภาพที่ละเอียดอ่อน เครื่องมือบนเบราว์เซอร์ที่ประมวลผลทุกอย่างในเครื่องมีข้อได้เปรียบที่ชัดเจน\n\nปัจจัยอื่นที่ควรพิจารณารวมถึงการรองรับการประมวลผลแบบกลุ่ม ตัวเลือกรูปแบบ ขีดจำกัดขนาดไฟล์ และว่าเครื่องมือใส่ลายน้ำหรือต้องลงทะเบียนหรือไม่"
+            "text": "เครื่องมือบีบอัดรูปภาพที่ดีควรสมดุลสามสิ่ง: อัตราส่วนการบีบอัด คุณภาพภาพ และความง่ายในการใช้งาน เครื่องมือที่ดีที่สุดช่วยให้คุณลดขนาดไฟล์ได้มากขณะที่ภาพยังคงแยกไม่ออกจากต้นฉบับที่ขนาดการดูปกติ"
           },
           {
             "heading": "เครื่องมือบนเบราว์เซอร์",
-            "text": "ToolPic ประมวลผลภาพทั้งหมดในเบราว์เซอร์โดยใช้เทคโนโลยี WebAssembly ไฟล์ของคุณไม่เคยออกจากอุปกรณ์ ทำให้เป็นตัวเลือกที่เป็นมิตรกับความเป็นส่วนตัวที่สุด รองรับรูปแบบ JPEG, PNG, WebP และ AVIF พร้อมการตั้งค่าคุณภาพที่ปรับได้และการประมวลผลแบบกลุ่ม ไม่มีข้อจำกัดจำนวนไฟล์หรือลายน้ำ\n\nSquoosh พัฒนาโดยทีม Google Chrome เป็นเครื่องมือบีบอัดภาพเดี่ยวที่ยอดเยี่ยม มีมุมมองเปรียบเทียบแบบเคียงข้างที่เป็นเอกลักษณ์และรองรับรูปแบบสมัยใหม่ อย่างไรก็ตาม ประมวลผลได้ครั้งละภาพเดียว ทำให้ไม่เหมาะสำหรับงานกลุ่ม\n\nTinyPNG เป็นเครื่องมือเว็บที่นิยมจัดการการบีบอัดทั้ง PNG และ JPEG ได้ดี เวอร์ชันฟรีจำกัดที่ 20 ภาพต่อกลุ่มและ 5MB ต่อภาพ และภาพถูกอัปโหลดไปยังเซิร์ฟเวอร์เพื่อประมวลผล"
+            "text": "ToolPic ประมวลผลภาพทั้งหมดในเบราว์เซอร์โดยใช้เทคโนโลยี WebAssembly ไฟล์ของคุณไม่เคยออกจากอุปกรณ์ ทำให้เป็นตัวเลือกที่เป็นมิตรกับความเป็นส่วนตัวที่สุด รองรับรูปแบบ JPEG, PNG, WebP และ AVIF พร้อมการตั้งค่าคุณภาพที่ปรับได้และการประมวลผลแบบกลุ่ม ไม่มีข้อจำกัดจำนวนไฟล์หรือลายน้ำ"
           },
           {
             "heading": "เครื่องมือเดสก์ท็อปและ CLI",
-            "text": "ImageOptim เป็นแอปเดสก์ท็อปฟรีสำหรับ macOS ที่บีบอัดภาพโดยใช้หลายอัลกอริทึมการเพิ่มประสิทธิภาพ ดีเป็นพิเศษในการเพิ่มประสิทธิภาพไฟล์ PNG และสามารถประมวลผลทั้งโฟลเดอร์พร้อมกัน เป็นแอปเนทีฟจึงจัดการกลุ่มใหญ่ได้เร็วกว่าเครื่องมือบนเบราว์เซอร์\n\nSharpJS เป็นไลบรารีประมวลผลภาพ Node.js ประสิทธิภาพสูงที่นักพัฒนาสามารถรวมเข้ากับไปป์ไลน์การสร้าง มีคุณภาพการบีบอัดที่ยอดเยี่ยมและรองรับรูปแบบหลักทั้งหมด แม้ต้องการความรู้ทางเทคนิคในการตั้งค่า แต่เหมาะสำหรับการเพิ่มประสิทธิภาพภาพอัตโนมัติ\n\nสำหรับผู้ใช้ส่วนใหญ่ เครื่องมือบนเบราว์เซอร์ให้การผสมผสานที่ดีที่สุดของความสะดวกและคุณภาพ ไม่ต้องติดตั้ง ทำงานบนทุกระบบปฏิบัติการ และให้ผลลัพธ์ทันที"
+            "text": "ImageOptim เป็นแอปเดสก์ท็อปฟรีสำหรับ macOS ที่บีบอัดภาพโดยใช้หลายอัลกอริทึมการเพิ่มประสิทธิภาพ ดีเป็นพิเศษในการเพิ่มประสิทธิภาพไฟล์ PNG และสามารถประมวลผลทั้งโฟลเดอร์พร้อมกัน เป็นแอปเนทีฟจึงจัดการกลุ่มใหญ่ได้เร็วกว่าเครื่องมือบนเบราว์เซอร์"
           },
           {
             "heading": "การเปรียบเทียบความเป็นส่วนตัว",
-            "text": "เมื่อเลือกเครื่องมือบีบอัด พิจารณาว่าภาพของคุณถูกประมวลผลที่ไหน เครื่องมือบนเซิร์ฟเวอร์เช่น TinyPNG อัปโหลดภาพของคุณไปยังเซิร์ฟเวอร์ระยะไกล แม้บริการที่น่าเชื่อถือจะลบไฟล์หลังประมวลผล ภาพของคุณก็ยังอยู่บนโครงสร้างพื้นฐานของบุคคลที่สามชั่วขณะ\n\nเครื่องมือบนเบราว์เซอร์เช่น ToolPic และ Squoosh ไม่เคยอัปโหลดไฟล์ของคุณ การประมวลผลทั้งหมดเกิดขึ้นในเครื่องโดยใช้ CPU และหน่วยความจำของอุปกรณ์ ทำให้เป็นตัวเลือกที่ชัดเจนสำหรับภาพที่เป็นความลับ งานลูกค้า ภาพส่วนตัว และเนื้อหาใดก็ตามที่คุณไม่ต้องการให้ออกจากอุปกรณ์\n\nสำหรับช่างภาพมืออาชีพ ธุรกิจอีคอมเมิร์ซ และผู้ที่ทำงานกับเนื้อหาที่เป็นกรรมสิทธิ์ การประมวลผลในเบราว์เซอร์ขจัดความเสี่ยงของการเปิดเผยข้อมูลอย่างสิ้นเชิง"
+            "text": "เมื่อเลือกเครื่องมือบีบอัด พิจารณาว่าภาพของคุณถูกประมวลผลที่ไหน เครื่องมือบนเซิร์ฟเวอร์เช่น TinyPNG อัปโหลดภาพของคุณไปยังเซิร์ฟเวอร์ระยะไกล แม้บริการที่น่าเชื่อถือจะลบไฟล์หลังประมวลผล ภาพของคุณก็ยังอยู่บนโครงสร้างพื้นฐานของบุคคลที่สามชั่วขณะ"
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -655,19 +991,19 @@
         "content": [
           {
             "heading": "การลบพื้นหลังด้วย AI ทำงานอย่างไร",
-            "text": "เครื่องมือลบพื้นหลังสมัยใหม่ใช้โมเดลการเรียนรู้เชิงลึกที่ถูกฝึกด้วยภาพหลายล้านภาพเพื่อแยกแยะวัตถุหน้าฉากจากพื้นหลัง เครือข่ายประสาทเทียมเหล่านี้วิเคราะห์ภาพเพื่อระบุขอบ เบาะแสความลึก และข้อมูลบริบทเพื่อสร้างมาสก์ตัดที่แม่นยำ\n\nเทคโนโลยีได้ปรับปรุงอย่างมากในช่วงไม่กี่ปีที่ผ่านมา เครื่องมือก่อนหน้านี้ต้องเลือกด้วยมือด้วย magic wand หรือ lasso และมีปัญหากับขอบที่ซับซ้อนเช่นผมหรือขน โมเดล AI ในปัจจุบันจัดการกรณีที่ท้าทายเหล่านี้โดยอัตโนมัติ สร้างการตัดที่สะอาดในไม่กี่วินาที\n\nเครื่องมือบางตัวประมวลผลภาพบนเซิร์ฟเวอร์ระยะไกล เครื่องมืออื่นเช่น ToolPic เรียกใช้โมเดล AI ในเบราว์เซอร์โดยตรงโดยใช้ WebAssembly ทำให้ภาพของคุณเป็นส่วนตัวอย่างสมบูรณ์ในขณะที่ยังให้ผลลัพธ์ระดับมืออาชีพ"
+            "text": "เครื่องมือลบพื้นหลังสมัยใหม่ใช้โมเดลการเรียนรู้เชิงลึกที่ถูกฝึกด้วยภาพหลายล้านภาพเพื่อแยกแยะวัตถุหน้าฉากจากพื้นหลัง เครือข่ายประสาทเทียมเหล่านี้วิเคราะห์ภาพเพื่อระบุขอบ เบาะแสความลึก และข้อมูลบริบทเพื่อสร้างมาสก์ตัดที่แม่นยำ"
           },
           {
             "heading": "กรณีการใช้งานทั่วไป",
-            "text": "การถ่ายภาพสินค้าอีคอมเมิร์ซเป็นหนึ่งในการใช้งานที่นิยมที่สุด พื้นหลังสีขาวหรือโปร่งใสที่สะอาดเป็นมาตรฐานสำหรับตลาดออนไลน์เช่น Amazon, eBay และร้าน Shopify แทนที่จะตั้งสตูดิโอถ่ายภาพมืออาชีพ ผู้ขายสามารถถ่ายสินค้าบนพื้นหลังใดก็ได้แล้วลบออกด้วยดิจิทัล\n\nการสร้างเนื้อหาโซเชียลมีเดียมักต้องการพื้นหลังโปร่งใสสำหรับการซ้อนภาพ สร้างคอลลาจ หรือวางวัตถุในฉากใหม่ รูปโปรไฟล์ กราฟิกการตลาด และเนื้อหาแบรนด์ล้วนได้ประโยชน์จากการตัดที่สะอาด\n\nนักออกแบบมืออาชีพใช้การลบพื้นหลังเป็นจุดเริ่มต้นสำหรับงานคอมโพสิต วางวัตถุในสภาพแวดล้อมใหม่ สร้างสื่อโปรโมต หรือเตรียมภาพสำหรับการพิมพ์"
+            "text": "การถ่ายภาพสินค้าอีคอมเมิร์ซเป็นหนึ่งในการใช้งานที่นิยมที่สุด พื้นหลังสีขาวหรือโปร่งใสที่สะอาดเป็นมาตรฐานสำหรับตลาดออนไลน์เช่น Amazon, eBay และร้าน Shopify แทนที่จะตั้งสตูดิโอถ่ายภาพมืออาชีพ ผู้ขายสามารถถ่ายสินค้าบนพื้นหลังใดก็ได้แล้วลบออกด้วยดิจิทัล"
           },
           {
             "heading": "เคล็ดลับสำหรับผลลัพธ์ที่ดีที่สุด",
-            "text": "คุณภาพของผลลัพธ์ขึ้นอยู่กับภาพอินพุตบางส่วน ภาพถ่ายที่มีคอนทราสต์ดีระหว่างวัตถุและพื้นหลังจะให้การตัดที่สะอาดที่สุด ภาพที่มีแสงดีและโฟกัสคมจะให้โมเดล AI ขอบที่ชัดเจนในการทำงาน\n\nหลีกเลี่ยงภาพที่สีของวัตถุใกล้เคียงกับสีพื้นหลัง คนสวมเสื้อสีเขียวบนพื้นหลังใบไม้สีเขียวจะยากกว่าคนเดียวกันบนผนังเรียบ\n\nสำหรับการถ่ายภาพสินค้า ใช้พื้นหลังที่มีคอนทราสต์เมื่อถ่าย แม้คุณวางแผนจะลบพื้นหลังทีหลัง การเริ่มต้นด้วยคอนทราสต์ดีจะช่วยให้ AI สร้างขอบที่สะอาดกว่า ฉากหลังสีขาวหรือเทาเรียบๆ ใช้ได้ดีสำหรับสินค้าส่วนใหญ่"
+            "text": "คุณภาพของผลลัพธ์ขึ้นอยู่กับภาพอินพุตบางส่วน ภาพถ่ายที่มีคอนทราสต์ดีระหว่างวัตถุและพื้นหลังจะให้การตัดที่สะอาดที่สุด ภาพที่มีแสงดีและโฟกัสคมจะให้โมเดล AI ขอบที่ชัดเจนในการทำงาน"
           },
           {
             "heading": "การใช้ ToolPic ลบพื้นหลัง",
-            "text": "เปิดเครื่องมือลบพื้นหลังบน ToolPic และอัปโหลดภาพ โมเดล AI จะโหลดในเบราว์เซอร์ครั้งแรก ซึ่งใช้เวลาไม่กี่วินาที หลังจากนั้น การประมวลผลจะเกือบทันทีสำหรับภาพถัดไป\n\nเครื่องมือตรวจจับวัตถุหลักโดยอัตโนมัติและลบพื้นหลัง สร้าง PNG โปร่งใส ตรวจสอบผลลัพธ์และดาวน์โหลดภาพ สำหรับการประมวลผลแบบกลุ่ม คุณสามารถอัปโหลดหลายภาพและประมวลผลตามลำดับ\n\nเนื่องจาก AI ทำงานทั้งหมดในเบราว์เซอร์ ภาพของคุณไม่เคยถูกส่งไปยังเซิร์ฟเวอร์ใดๆ ทำให้ปลอดภัยสำหรับใช้กับภาพสินค้าที่เป็นความลับ ภาพส่วนตัว หรืองานลูกค้าโดยไม่ต้องกังวลเรื่องความเป็นส่วนตัว"
+            "text": "เปิดเครื่องมือลบพื้นหลังบน ToolPic และอัปโหลดภาพ โมเดล AI จะโหลดในเบราว์เซอร์ครั้งแรก ซึ่งใช้เวลาไม่กี่วินาที หลังจากนั้น การประมวลผลจะเกือบทันทีสำหรับภาพถัดไป"
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -680,19 +1016,19 @@
         "content": [
           {
             "heading": "ทำไมไฟล์วิดีโอจึงมีขนาดใหญ่",
-            "text": "ไฟล์วิดีโอมีขนาดใหญ่เพราะมีลำดับภาพ (เฟรม) ที่เล่นกลับที่ 24 ถึง 60 เฟรมต่อวินาที พร้อมข้อมูลเสียง หนึ่งนาทีของวิดีโอ 1080p ที่ไม่บีบอัดที่ 30 FPS จะต้องการพื้นที่จัดเก็บประมาณ 10GB ซึ่งเป็นเหตุผลที่การบีบอัดวิดีโอจำเป็น\n\ncodec วิดีโอสมัยใหม่เช่น H.264 และ H.265 ใช้เทคนิคการบีบอัดที่ซับซ้อนเพื่อลดขนาดอย่างมาก พวกมันจัดเก็บความแตกต่างระหว่างเฟรมที่ต่อเนื่องกันแทนที่จะจัดเก็บแต่ละเฟรมอิสระ ทำให้ได้อัตราส่วนการบีบอัด 100:1 หรือดีกว่า\n\nแม้มีการบีบอัดนี้ ไฟล์วิดีโอประจำวันยังคงใหญ่ตามมาตรฐานอีเมล คลิป 1080p หนึ่งนาทีที่ถ่ายจากสมาร์ทโฟนมักมีขนาด 100MB ถึง 200MB ซึ่งเกินขีดจำกัดแนบไฟล์ 25MB ที่ผู้ให้บริการอีเมลส่วนใหญ่กำหนด"
+            "text": "ไฟล์วิดีโอมีขนาดใหญ่เพราะมีลำดับภาพ (เฟรม) ที่เล่นกลับที่ 24 ถึง 60 เฟรมต่อวินาที พร้อมข้อมูลเสียง หนึ่งนาทีของวิดีโอ 1080p ที่ไม่บีบอัดที่ 30 FPS จะต้องการพื้นที่จัดเก็บประมาณ 10GB ซึ่งเป็นเหตุผลที่การบีบอัดวิดีโอจำเป็น"
           },
           {
             "heading": "ทำความเข้าใจความละเอียดและบิตเรต",
-            "text": "ความละเอียดและบิตเรตเป็นสองตัวควบคุมหลักสำหรับขนาดไฟล์วิดีโอ ความละเอียดหมายถึงจำนวนพิกเซลในแต่ละเฟรม ความละเอียดทั่วไปรวมถึง 4K (3840x2160), 1080p (1920x1080), 720p (1280x720) และ 480p (854x480) การลดความละเอียดลงครึ่งหนึ่งจะลดจำนวนพิกเซลลง 75% ซึ่งลดขนาดไฟล์อย่างมาก\n\nบิตเรตคือปริมาณข้อมูลที่ใช้ต่อวินาทีของวิดีโอ บิตเรตสูงกว่าหมายถึงข้อมูลมากขึ้นและคุณภาพดีขึ้น บิตเรตต่ำกว่าหมายถึงไฟล์เล็กลงแต่อาจมีสิ่งแปลกปลอมจากการบีบอัดที่มองเห็นได้ สำหรับการแชร์บนเว็บ บิตเรต 2-4 Mbps สำหรับเนื้อหา 1080p ให้สมดุลที่ดี\n\nสำหรับไฟล์แนบอีเมล การลดความละเอียดเป็น 720p หรือ 480p มักเป็นแนวทางที่มีประสิทธิภาพที่สุด"
+            "text": "ความละเอียดและบิตเรตเป็นสองตัวควบคุมหลักสำหรับขนาดไฟล์วิดีโอ ความละเอียดหมายถึงจำนวนพิกเซลในแต่ละเฟรม ความละเอียดทั่วไปรวมถึง 4K (3840x2160), 1080p (1920x1080), 720p (1280x720) และ 480p (854x480) การลดความละเอียดลงครึ่งหนึ่งจะลดจำนวนพิกเซลลง 75% ซึ่งลดขนาดไฟล์อย่างมาก"
           },
           {
             "heading": "การเลือกรูปแบบที่เหมาะสม",
-            "text": "MP4 ที่มีการเข้ารหัส H.264 เป็นรูปแบบวิดีโอที่เข้ากันได้อย่างสากลที่สุด เล่นได้บนแทบทุกอุปกรณ์และแพลตฟอร์มโดยไม่ต้องใช้ซอฟต์แวร์เพิ่มเติม สำหรับการแชร์ทางอีเมลหรือข้อความ MP4 ควรเป็นตัวเลือกเริ่มต้น\n\nWebM ให้ประสิทธิภาพการบีบอัดที่ดีกว่า H.264 หมายถึงไฟล์ที่เล็กกว่าในระดับคุณภาพเดียวกัน อย่างไรก็ตาม ความเข้ากันได้ไม่สากลเท่า ใช้ WebM เมื่อคุณรู้ว่าผู้รับสามารถเล่นได้\n\nสำหรับขนาดไฟล์ที่เล็กที่สุด H.265 (HEVC) ให้การบีบอัดที่ดีกว่า H.264 ประมาณ 50% ที่คุณภาพเดียวกัน การรองรับแพร่หลายบนอุปกรณ์สมัยใหม่แต่ไม่สากล หากความเข้ากันได้สูงสุดสำคัญกว่าขนาดไฟล์ต่ำสุด ใช้ H.264 MP4"
+            "text": "MP4 ที่มีการเข้ารหัส H.264 เป็นรูปแบบวิดีโอที่เข้ากันได้อย่างสากลที่สุด เล่นได้บนแทบทุกอุปกรณ์และแพลตฟอร์มโดยไม่ต้องใช้ซอฟต์แวร์เพิ่มเติม สำหรับการแชร์ทางอีเมลหรือข้อความ MP4 ควรเป็นตัวเลือกเริ่มต้น"
           },
           {
             "heading": "การบีบอัดทีละขั้นตอนด้วย ToolPic",
-            "text": "เปิดเครื่องมือบีบอัดวิดีโอบน ToolPic และลากไฟล์วิดีโอไปยังพื้นที่อัปโหลด เครื่องมือรับ MP4, WebM, AVI, MOV และรูปแบบทั่วไปอื่นๆ\n\nเลือกความละเอียดเป้าหมาย สำหรับการแชร์ทางอีเมล 720p มักเป็นจุดที่เหมาะสมระหว่างคุณภาพและขนาดไฟล์ สำหรับแอปส่งข้อความ 480p มักเพียงพอ ปรับแถบเลื่อนคุณภาพเพื่อควบคุมบิตเรต การตั้งค่ากลางทำงานได้ดีสำหรับเนื้อหาส่วนใหญ่\n\nคลิกบีบอัดและรอการประมวลผลเสร็จสิ้น เครื่องมือแสดงความคืบหน้าและขนาดไฟล์ผลลัพธ์ ดาวน์โหลดวิดีโอที่บีบอัดแล้วและตรวจสอบว่าเล่นได้ถูกต้องก่อนแนบไปกับอีเมล การประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ เนื้อหาวิดีโอของคุณจึงยังคงเป็นส่วนตัว"
+            "text": "เปิดเครื่องมือบีบอัดวิดีโอบน ToolPic และลากไฟล์วิดีโอไปยังพื้นที่อัปโหลด เครื่องมือรับ MP4, WebM, AVI, MOV และรูปแบบทั่วไปอื่นๆ"
           }
         ],
         "relatedToolIds": "video-compress"
@@ -705,19 +1041,19 @@
         "content": [
           {
             "heading": "ทำไมขนาดภาพจึงสำคัญ",
-            "text": "แพลตฟอร์มโซเชียลมีเดียแสดงรูปภาพที่อัตราส่วนภาพและความละเอียดเฉพาะ เมื่อคุณอัปโหลดภาพที่ไม่ตรงกับขนาดที่คาดหวัง แพลตฟอร์มจะครอปโดยอัตโนมัติ ซึ่งมักตัดส่วนสำคัญของภาพออก เช่น ข้อความ รายละเอียดสินค้า หรือส่วนของใบหน้า\n\nการใช้ขนาดที่ถูกต้องจะมั่นใจว่าภาพของคุณแสดงตามที่ตั้งใจบนทุกอุปกรณ์ ยังป้องกันแพลตฟอร์มจากการบีบอัดเพิ่มเติมเพื่อปรับขนาดภาพ ซึ่งอาจลดคุณภาพ\n\nแต่ละแพลตฟอร์มมีข้อกำหนดที่แตกต่างสำหรับตำแหน่งต่างๆ รูปโปรไฟล์มีขนาดต่างจากรูปปก ซึ่งต่างจากรูปโพสต์ การติดตามขนาดเหล่านี้ทั้งหมดเป็นสิ่งจำเป็นสำหรับผู้จัดการเนื้อหาโซเชียลมีเดียมืออาชีพ"
+            "text": "แพลตฟอร์มโซเชียลมีเดียแสดงรูปภาพที่อัตราส่วนภาพและความละเอียดเฉพาะ เมื่อคุณอัปโหลดภาพที่ไม่ตรงกับขนาดที่คาดหวัง แพลตฟอร์มจะครอปโดยอัตโนมัติ ซึ่งมักตัดส่วนสำคัญของภาพออก เช่น ข้อความ รายละเอียดสินค้า หรือส่วนของใบหน้า"
           },
           {
             "heading": "ขนาด Instagram",
-            "text": "โพสต์สี่เหลี่ยมจัตุรัส Instagram ควรเป็น 1080 x 1080 พิกเซล นี่คือรูปแบบ Instagram คลาสสิกและใช้ได้ดีสำหรับเนื้อหาส่วนใหญ่ โพสต์แนวตั้งมีประสิทธิภาพดีที่สุดที่ 1080 x 1350 พิกเซล (อัตราส่วน 4:5) ซึ่งใช้พื้นที่หน้าจอมากขึ้นในฟีดและมักสร้างการมีส่วนร่วมที่สูงขึ้น\n\nInstagram Stories และ Reels ใช้รูปแบบแนวตั้ง 9:16 ที่ 1080 x 1920 พิกเซล เติมเต็มหน้าจอโทรศัพท์ทั้งหมด รูปโปรไฟล์แสดงในวงกลมที่ 320 x 320 พิกเซล แม้ว่าการอัปโหลดที่ความละเอียดสูงกว่าเช่น 500 x 500 จะมั่นใจความคมชัดบนหน้าจอความหนาแน่นสูง\n\nโพสต์ carousel สามารถใช้ขนาดโพสต์มาตรฐานใดก็ได้ แต่ภาพทั้งหมดใน carousel ต้องมีอัตราส่วนภาพเดียวกัน ภาพแรกกำหนดอัตราส่วนภาพสำหรับ carousel ทั้งหมด"
+            "text": "โพสต์สี่เหลี่ยมจัตุรัส Instagram ควรเป็น 1080 x 1080 พิกเซล นี่คือรูปแบบ Instagram คลาสสิกและใช้ได้ดีสำหรับเนื้อหาส่วนใหญ่ โพสต์แนวตั้งมีประสิทธิภาพดีที่สุดที่ 1080 x 1350 พิกเซล (อัตราส่วน 4:5) ซึ่งใช้พื้นที่หน้าจอมากขึ้นในฟีดและมักสร้างการมีส่วนร่วมที่สูงขึ้น"
           },
           {
             "heading": "Facebook, Twitter/X และ YouTube",
-            "text": "รูปปก Facebook ควรเป็น 820 x 312 พิกเซลบนเดสก์ท็อป แต่แสดงต่างกันบนมือถือ (640 x 360) ดังนั้นควรเก็บเนื้อหาสำคัญไว้ตรงกลาง รูปโปรไฟล์คือ 170 x 170 พิกเซลบนเดสก์ท็อป รูปที่แชร์ในฟีดทำงานดีที่สุดที่ 1200 x 630 พิกเซล\n\nรูปหัว Twitter/X ควรเป็น 1500 x 500 พิกเซล รูปโปรไฟล์คือ 400 x 400 พิกเซล รูปในทวีตแสดงดีที่สุดที่ 1200 x 675 พิกเซล (อัตราส่วน 16:9)\n\nภาพขนาดย่อ YouTube ควรเป็น 1280 x 720 พิกเซลพอดี แบนเนอร์ช่องเป็น 2560 x 1440 พิกเซล แต่พื้นที่ปลอดภัยสำหรับข้อความและโลโก้คือส่วนกลาง 1546 x 423 พิกเซล เนื่องจากส่วนที่เหลืออาจถูกครอปบนอุปกรณ์ต่างๆ"
+            "text": "รูปปก Facebook ควรเป็น 820 x 312 พิกเซลบนเดสก์ท็อป แต่แสดงต่างกันบนมือถือ (640 x 360) ดังนั้นควรเก็บเนื้อหาสำคัญไว้ตรงกลาง รูปโปรไฟล์คือ 170 x 170 พิกเซลบนเดสก์ท็อป รูปที่แชร์ในฟีดทำงานดีที่สุดที่ 1200 x 630 พิกเซล"
           },
           {
             "heading": "วิธีปรับขนาดรูปภาพด้วย ToolPic",
-            "text": "เปิดเครื่องมือครอปและปรับขนาดรูปภาพบน ToolPic และอัปโหลดภาพ เครื่องมือมีพรีเซ็ตสำหรับแพลตฟอร์มโซเชียลมีเดียหลักทั้งหมด คุณจึงไม่ต้องจำขนาดเฉพาะ\n\nเลือกแพลตฟอร์มและประเภทตำแหน่งจากเมนูพรีเซ็ต เครื่องมือตั้งค่าอัตราส่วนภาพและขนาดที่ถูกต้องโดยอัตโนมัติ วางพื้นที่ครอปบนส่วนของภาพที่คุณต้องการเก็บ จากนั้นใช้การครอป\n\nดาวน์โหลดภาพที่มีขนาดสมบูรณ์แบบพร้อมอัปโหลด คุณสามารถประมวลผลหลายภาพตามลำดับโดยไม่ต้องโหลดหน้าใหม่ เครื่องมือครอปรักษาคุณภาพภาพต้นฉบับและประมวลผลทุกอย่างในเบราว์เซอร์"
+            "text": "เปิดเครื่องมือครอปและปรับขนาดรูปภาพบน ToolPic และอัปโหลดภาพ เครื่องมือมีพรีเซ็ตสำหรับแพลตฟอร์มโซเชียลมีเดียหลักทั้งหมด คุณจึงไม่ต้องจำขนาดเฉพาะ"
           }
         ],
         "relatedToolIds": "image-crop"
@@ -730,19 +1066,19 @@
         "content": [
           {
             "heading": "WebP คืออะไร",
-            "text": "WebP เป็นรูปแบบภาพที่พัฒนาโดย Google เปิดตัวในปี 2010 เป็นตัวแทนสมัยใหม่ของ JPEG, PNG และ GIF ใช้อัลกอริทึมการบีบอัดขั้นสูงที่มาจาก codec วิดีโอ VP8 และ VP9 เพื่อให้ได้ขนาดไฟล์ที่เล็กกว่ามากเมื่อเทียบกับรูปแบบเก่า\n\nรูปแบบนี้รองรับทั้งโหมดบีบอัดแบบ lossy และ lossless ในโหมด lossy WebP สร้างไฟล์ที่มักเล็กกว่า JPEG 25-35% ที่คุณภาพภาพเดียวกัน ในโหมด lossless ไฟล์ WebP เล็กกว่า PNG ประมาณ 26% ยังรองรับความโปร่งใส (ช่องอัลฟา) และแอนิเมชัน ทำให้เป็นตัวแทนที่หลากหลายสำหรับ JPEG, PNG และ GIF\n\nWebP ถูกออกแบบมาเฉพาะสำหรับเว็บ ซึ่งไฟล์ที่เล็กกว่าแปลเป็นการโหลดหน้าที่เร็วกว่า ต้นทุนแบนด์วิดท์ที่ต่ำกว่า และประสบการณ์ผู้ใช้ที่ดีกว่า โดยเฉพาะบนการเชื่อมต่อมือถือ"
+            "text": "WebP เป็นรูปแบบภาพที่พัฒนาโดย Google เปิดตัวในปี 2010 เป็นตัวแทนสมัยใหม่ของ JPEG, PNG และ GIF ใช้อัลกอริทึมการบีบอัดขั้นสูงที่มาจาก codec วิดีโอ VP8 และ VP9 เพื่อให้ได้ขนาดไฟล์ที่เล็กกว่ามากเมื่อเทียบกับรูปแบบเก่า"
           },
           {
             "heading": "ข้อได้เปรียบเหนือ JPEG และ PNG",
-            "text": "ข้อได้เปรียบหลักของ WebP คือประสิทธิภาพการบีบอัด สำหรับภาพถ่าย ไฟล์ WebP ที่คุณภาพ 80% เทียบเท่าทางภาพกับ JPEG ที่ 85-90% แต่มีขนาดเล็กกว่า 30% สำหรับเว็บไซต์ที่มีภาพหลายร้อยภาพ สิ่งนี้รวมกันเป็นการประหยัดแบนด์วิดท์ที่มีนัยสำคัญ\n\nต่างจาก JPEG WebP รองรับความโปร่งใสโดยไม่มีค่าปรับขนาดไฟล์ของ PNG ภาพสินค้าที่มีพื้นหลังโปร่งใสบันทึกเป็น WebP มักเล็กกว่าไฟล์ PNG ที่เทียบเท่า 3-5 เท่า ทำให้ WebP เหมาะสำหรับเว็บอีคอมเมิร์ซ\n\nWebP ยังรองรับแอนิเมชันเป็นทางเลือกของ GIF ไฟล์ WebP แอนิเมชันเล็กกว่า GIF ที่เทียบเท่าอย่างมากขณะที่รองรับสี 24-bit เต็มรูปแบบแทน 256 สีของ GIF สำหรับเว็บไซต์ที่ใช้องค์ประกอบแอนิเมชัน การเปลี่ยนจาก GIF เป็น WebP สามารถลดขนาดไฟล์ได้ 50% หรือมากกว่า"
+            "text": "ข้อได้เปรียบหลักของ WebP คือประสิทธิภาพการบีบอัด สำหรับภาพถ่าย ไฟล์ WebP ที่คุณภาพ 80% เทียบเท่าทางภาพกับ JPEG ที่ 85-90% แต่มีขนาดเล็กกว่า 30% สำหรับเว็บไซต์ที่มีภาพหลายร้อยภาพ สิ่งนี้รวมกันเป็นการประหยัดแบนด์วิดท์ที่มีนัยสำคัญ"
           },
           {
             "heading": "การรองรับเบราว์เซอร์ในปี 2026",
-            "text": "ในปี 2026 WebP ได้รับการรองรับโดยเบราว์เซอร์หลักทั้งหมดรวมถึง Chrome, Firefox, Safari, Edge และ Opera Safari เพิ่มการรองรับ WebP ในเวอร์ชัน 14 (2020) ซึ่งเป็นเบราว์เซอร์หลักตัวสุดท้ายที่เพิ่ม หมายความว่า WebP ตอนนี้ทำงานได้อย่างน่าเชื่อถือสำหรับผู้ใช้เว็บมากกว่า 97% ทั่วโลก\n\nการรองรับเบราว์เซอร์มือถือก็ครอบคลุมเช่นกัน ทั้ง iOS Safari และ Android Chrome รองรับ WebP อย่างเต็มรูปแบบ ทำให้ปลอดภัยที่จะใช้สำหรับประสบการณ์เว็บมือถือโดยไม่ต้องมีทางเลือกสำรอง\n\nข้อกังวลเรื่องความเข้ากันได้ที่เหลือส่วนใหญ่เกี่ยวกับซอฟต์แวร์เดสก์ท็อปเก่า โปรแกรมแก้ไขภาพ ไคลเอ็นต์อีเมล และระบบจัดการเนื้อหาบางตัวอาจไม่รองรับไฟล์ WebP โดยตรง สำหรับกรณีเหล่านี้ การเก็บเวอร์ชัน JPEG หรือ PNG สำรองเป็นวิธีแก้ที่ใช้ได้จริง"
+            "text": "ในปี 2026 WebP ได้รับการรองรับโดยเบราว์เซอร์หลักทั้งหมดรวมถึง Chrome, Firefox, Safari, Edge และ Opera Safari เพิ่มการรองรับ WebP ในเวอร์ชัน 14 (2020) ซึ่งเป็นเบราว์เซอร์หลักตัวสุดท้ายที่เพิ่ม หมายความว่า WebP ตอนนี้ทำงานได้อย่างน่าเชื่อถือสำหรับผู้ใช้เว็บมากกว่า 97% ทั่วโลก"
           },
           {
             "heading": "วิธีแปลงภาพเป็น WebP",
-            "text": "การแปลงภาพที่มีอยู่เป็น WebP ง่ายดายด้วยตัวแปลงรูปภาพของ ToolPic อัปโหลดภาพ JPEG, PNG, BMP หรือ AVIF ใดก็ได้และเลือก WebP เป็นรูปแบบเอาต์พุต เครื่องมือรักษาความโปร่งใสจากแหล่ง PNG และให้คุณปรับระดับคุณภาพสำหรับการแปลงแบบ lossy\n\nเพื่อผลลัพธ์ที่ดีที่สุด เริ่มด้วยภาพแหล่งคุณภาพสูงสุดที่มี การแปลงจาก JPEG ที่บีบอัดมากเป็น WebP จะไม่ปรับปรุงคุณภาพอย่างวิเศษ หากคุณมีเวอร์ชันดั้งเดิมที่ไม่บีบอัด ให้แปลงจากเวอร์ชันนั้น\n\nเมื่อย้ายเว็บไซต์มาใช้ WebP ใช้องค์ประกอบ picture ของ HTML หรือ CSS image-set เพื่อให้บริการ WebP แก่เบราว์เซอร์ที่รองรับในขณะที่ให้ JPEG หรือ PNG สำรองสำหรับเบราว์เซอร์เก่า ผู้ให้บริการ CDN และเครื่องมือสร้างส่วนใหญ่สามารถทำกระบวนการนี้โดยอัตโนมัติ"
+            "text": "การแปลงภาพที่มีอยู่เป็น WebP ง่ายดายด้วยตัวแปลงรูปภาพของ ToolPic อัปโหลดภาพ JPEG, PNG, BMP หรือ AVIF ใดก็ได้และเลือก WebP เป็นรูปแบบเอาต์พุต เครื่องมือรักษาความโปร่งใสจากแหล่ง PNG และให้คุณปรับระดับคุณภาพสำหรับการแปลงแบบ lossy"
           }
         ],
         "relatedToolIds": "image-converter"
@@ -755,19 +1091,19 @@
         "content": [
           {
             "heading": "ฟอร์แมต HEIC คืออะไร และทำไม iPhone ถึงใช้",
-            "text": "HEIC (High Efficiency Image Container) ถูก Apple นำมาใช้เป็นฟอร์แมตรูปภาพเริ่มต้นตั้งแต่ iOS 11 โดยอิงตามมาตรฐาน HEIF (High Efficiency Image Format) และใช้เทคโนโลยีการบีบอัดของ codec วิดีโอ H.265\n\nข้อดีที่ใหญ่ที่สุดของ HEIC คือให้คุณภาพเท่ากันหรือดีกว่า JPEG ในขนาดไฟล์ที่เล็กกว่าประมาณ 50% หมายความว่าคุณสามารถเก็บรูปถ่ายบน iPhone ได้มากขึ้นโดยไม่เต็มพื้นที่ Apple เลือกฟอร์แมตนี้เพราะรองรับความลึกสี 10-bit ในขณะที่ JPEG จำกัดอยู่ที่ 8-bit เท่านั้น\n\nอย่างไรก็ตาม ปัญหาใหญ่ที่สุดของ HEIC คือความเข้ากันได้ คอมพิวเตอร์ Windows อุปกรณ์ Android รุ่นเก่า เว็บเบราว์เซอร์หลายตัว และเว็บไซต์ส่วนใหญ่ยังไม่สามารถเปิดไฟล์ HEIC ได้โดยตรง จึงจำเป็นต้องแปลงเป็น JPG บ่อยครั้ง"
+            "text": "HEIC (High Efficiency Image Container) ถูก Apple นำมาใช้เป็นฟอร์แมตรูปภาพเริ่มต้นตั้งแต่ iOS 11 โดยอิงตามมาตรฐาน HEIF (High Efficiency Image Format) และใช้เทคโนโลยีการบีบอัดของ codec วิดีโอ H.265"
           },
           {
             "heading": "เมื่อไหร่ที่ต้องแปลง HEIC เป็น JPG",
-            "text": "สถานการณ์ที่พบบ่อยที่สุดคือเมื่อคุณต้องการส่งรูปถ่าย iPhone ให้คนที่ใช้ Windows หรือ Android พวกเขาอาจมีปัญหาในการเปิดไฟล์ HEIC ในทำนองเดียวกัน แอปอีเมลและแพลตฟอร์มโซเชียลมีเดียหลายตัวไม่แสดง HEIC ได้ถูกต้อง\n\nเว็บไซต์อีคอมเมิร์ซมักต้องการให้อัปโหลดรูปสินค้าในฟอร์แมต JPG หรือ PNG หากคุณถ่ายสินค้าด้วย iPhone จะต้องแปลงก่อนอัปโหลด\n\nบริการพิมพ์ภาพก็มักไม่รับ HEIC ก่อนสั่งพิมพ์รูป ทำแคนวาส หรือสั่งอัลบั้มรูป จำเป็นต้องแปลงเป็น JPG สำหรับนักพัฒนาเว็บ JPG ก็ใช้งานได้จริงกว่าเพราะทุกเบราว์เซอร์รองรับโดยไม่ต้องใช้ปลั๊กอินเพิ่มเติม"
+            "text": "สถานการณ์ที่พบบ่อยที่สุดคือเมื่อคุณต้องการส่งรูปถ่าย iPhone ให้คนที่ใช้ Windows หรือ Android พวกเขาอาจมีปัญหาในการเปิดไฟล์ HEIC ในทำนองเดียวกัน แอปอีเมลและแพลตฟอร์มโซเชียลมีเดียหลายตัวไม่แสดง HEIC ได้ถูกต้อง"
           },
           {
             "heading": "เคล็ดลับรักษาคุณภาพในการแปลง",
-            "text": "เมื่อแปลงจาก HEIC เป็น JPG มีหลายสิ่งที่ควรคำนึง ประการแรก JPEG เป็นฟอร์แมตแบบ lossy ดังนั้นการสูญเสียคุณภาพเล็กน้อยเป็นสิ่งที่หลีกเลี่ยงไม่ได้ อย่างไรก็ตาม ที่การตั้งค่าคุณภาพ 85-95% ความแตกต่างแทบมองไม่เห็นด้วยตาเปล่า\n\nโปรดทราบว่า HEIC รองรับความลึกสี 10-bit ในขณะที่ JPG เพียง 8-bit หมายความว่าในเกรเดียนท์สีที่ละเอียดมากอาจมีความแตกต่างเล็กน้อย แต่ในการใช้งานปกติไม่สังเกตเห็น\n\nสำหรับการแปลงแบบกลุ่ม การตั้งค่าคุณภาพเดียวใช้ได้ดีสำหรับรูปทั้งหมด คุณภาพ 90% เป็นจุดเริ่มต้นที่ยอดเยี่ยมที่สร้างสมดุลระหว่างขนาดไฟล์และคุณภาพภาพได้อย่างลงตัว"
+            "text": "เมื่อแปลงจาก HEIC เป็น JPG มีหลายสิ่งที่ควรคำนึง ประการแรก JPEG เป็นฟอร์แมตแบบ lossy ดังนั้นการสูญเสียคุณภาพเล็กน้อยเป็นสิ่งที่หลีกเลี่ยงไม่ได้ อย่างไรก็ตาม ที่การตั้งค่าคุณภาพ 85-95% ความแตกต่างแทบมองไม่เห็นด้วยตาเปล่า"
           },
           {
             "heading": "แปลง HEIC เป็น JPG ด้วย ToolPic",
-            "text": "เปิดตัวแปลงรูปภาพของ ToolPic และลากวางไฟล์ HEIC หรือเรียกดูเพื่ออัปโหลด คุณสามารถอัปโหลดหลายไฟล์พร้อมกันสำหรับการแปลงแบบกลุ่มได้อย่างง่ายดาย\n\nเลือก JPG เป็นฟอร์แมตเอาต์พุตและปรับแถบเลื่อนคุณภาพ การตั้งค่าเริ่มต้น 80% เหมาะสำหรับการใช้งานส่วนใหญ่ หากต้องการคุณภาพสูงสุด ให้เลื่อนไปที่ 90-95%\n\nเมื่อแปลงเสร็จ ดาวน์โหลดไฟล์ทีละไฟล์หรือทั้งหมดพร้อมกันด้วยปุ่ม 'ดาวน์โหลดทั้งหมด' กระบวนการทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณ ไม่มีไฟล์ใดถูกอัปโหลดไปยังเซิร์ฟเวอร์ใด ๆ ทำให้รูปส่วนตัวของคุณปลอดภัยอย่างสมบูรณ์"
+            "text": "เปิดตัวแปลงรูปภาพของ ToolPic และลากวางไฟล์ HEIC หรือเรียกดูเพื่ออัปโหลด คุณสามารถอัปโหลดหลายไฟล์พร้อมกันสำหรับการแปลงแบบกลุ่มได้อย่างง่ายดาย"
           }
         ],
         "relatedToolIds": "image-converter"
@@ -780,19 +1116,19 @@
         "content": [
           {
             "heading": "การเติบโตของเครื่องมือภาพ AI",
-            "text": "ในช่วงไม่กี่ปีที่ผ่านมา ปัญญาประดิษฐ์ได้ปฏิวัติวงการประมวลผลภาพ งานที่เคยใช้เวลาหลายชั่วโมงและต้องมีทักษะเฉพาะทางตอนนี้เสร็จสิ้นอัตโนมัติในไม่กี่วินาที การลบพื้นหลังเป็นตัวอย่างที่ชัดเจนที่สุด\n\nด้วยวิธีดั้งเดิม การลบพื้นหลังของภาพที่ซับซ้อนต้องใช้เครื่องมือ pen, magic wand หรือ layer mask ในซอฟต์แวร์เช่น Photoshop สำหรับภาพที่มีผม วัตถุโปร่งใส หรือขอบที่ซับซ้อน กระบวนการอาจใช้เวลา 15-30 นาทีหรือมากกว่า\n\nเครื่องมือที่ใช้ AI ใช้โมเดล deep learning ที่ฝึกกับภาพหลายล้านภาพ โมเดลเหล่านี้จดจำความแตกต่างระหว่างวัตถุหลักและพื้นหลังโดยอัตโนมัติ และในกรณีส่วนใหญ่ให้ผลลัพธ์ระดับมืออาชีพ"
+            "text": "ในช่วงไม่กี่ปีที่ผ่านมา ปัญญาประดิษฐ์ได้ปฏิวัติวงการประมวลผลภาพ งานที่เคยใช้เวลาหลายชั่วโมงและต้องมีทักษะเฉพาะทางตอนนี้เสร็จสิ้นอัตโนมัติในไม่กี่วินาที การลบพื้นหลังเป็นตัวอย่างที่ชัดเจนที่สุด"
           },
           {
             "heading": "AI เด่นตรงไหน",
-            "text": "ข้อได้เปรียบที่ใหญ่ที่สุดของเครื่องมือ AI คือความเร็วและการเข้าถึงง่าย ใครก็ได้สามารถได้ผลลัพธ์ระดับมืออาชีพด้วยการคลิกไม่กี่ครั้งโดยไม่ต้องมีการฝึกอบรมทางเทคนิค สิ่งนี้มีคุณค่าเป็นพิเศษสำหรับธุรกิจขนาดเล็ก ผู้จัดการโซเชียลมีเดีย และผู้ขายอีคอมเมิร์ซ\n\nการประมวลผลแบบกลุ่มเป็นจุดแข็งอีกอย่างของ AI การประมวลผลภาพหลายสิบหรือหลายร้อยภาพในแบบเดียวกัน เช่น ลบพื้นหลังจากรูปสินค้าทั้งหมด ใช้เวลาเพียงไม่กี่นาที ด้วยวิธีดั้งเดิม งานเดียวกันจะใช้เวลาหลายวัน\n\nเครื่องมือ AI ปรับปรุงอย่างต่อเนื่อง ด้วยการอัปเดตโมเดลแต่ละครั้ง การตรวจจับขอบแม่นยำขึ้น ผมและวัตถุโปร่งใสถูกจัดการได้ดีขึ้น และคุณภาพเอาต์พุตโดยรวมยังคงดีขึ้นเรื่อย ๆ"
+            "text": "ข้อได้เปรียบที่ใหญ่ที่สุดของเครื่องมือ AI คือความเร็วและการเข้าถึงง่าย ใครก็ได้สามารถได้ผลลัพธ์ระดับมืออาชีพด้วยการคลิกไม่กี่ครั้งโดยไม่ต้องมีการฝึกอบรมทางเทคนิค สิ่งนี้มีคุณค่าเป็นพิเศษสำหรับธุรกิจขนาดเล็ก ผู้จัดการโซเชียลมีเดีย และผู้ขายอีคอมเมิร์ซ"
           },
           {
             "heading": "การแก้ไขแบบดั้งเดิมยังจำเป็นตรงไหน",
-            "text": "ข้อจำกัดของ AI ปรากฏเมื่อต้องการการควบคุมที่แม่นยำสุดขีดและปรับแต่งได้ ในการถ่ายภาพมืออาชีพ แคมเปญโฆษณา และสื่อสิ่งพิมพ์ การแก้ไขระดับพิกเซลสมบูรณ์แบบเป็นสิ่งจำเป็น AI อาจทำผิดพลาดเป็นครั้งคราวในรายละเอียดเล็ก ๆ\n\nสำหรับงานเช่น creative compositing, color grading, retouching และเอฟเฟกต์ศิลปะ วิจารณญาณของมนุษย์และวิสัยทัศน์ทางศิลปะยังคงขาดไม่ได้ AI บอกได้ว่าวัตถุหลักคืออะไร แต่ไม่รู้ว่าวิสัยทัศน์สร้างสรรค์ของคุณคืออะไร\n\nการจัดการภาพที่ซับซ้อน เช่น เพิ่มวัตถุใหม่ในฉาก เปลี่ยนแสง หรือสร้างเงาที่สมจริง ยังคงต้องการทักษะเฉพาะทางและซอฟต์แวร์ดั้งเดิม"
+            "text": "ข้อจำกัดของ AI ปรากฏเมื่อต้องการการควบคุมที่แม่นยำสุดขีดและปรับแต่งได้ ในการถ่ายภาพมืออาชีพ แคมเปญโฆษณา และสื่อสิ่งพิมพ์ การแก้ไขระดับพิกเซลสมบูรณ์แบบเป็นสิ่งจำเป็น AI อาจทำผิดพลาดเป็นครั้งคราวในรายละเอียดเล็ก ๆ"
           },
           {
             "heading": "ใช้การลบพื้นหลัง AI ของ ToolPic",
-            "text": "เครื่องมือลบพื้นหลังของ ToolPic ผสานพลังของ AI กับความเป็นส่วนตัวบนเบราว์เซอร์ อัปโหลดภาพของคุณและโมเดล AI จะจดจำวัตถุหลักและลบพื้นหลังโดยอัตโนมัติ กระบวนการทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณโดยใช้ WebAssembly\n\nครั้งแรกที่ใช้ โมเดล AI ใช้เวลาสักครู่ในการโหลด แต่ภาพถัดไปจะถูกประมวลผลเกือบจะทันที ผลลัพธ์คือไฟล์ PNG โปร่งใสที่คุณสามารถใช้บนพื้นหลังใด ๆ\n\nเครื่องมือ AI ไม่ใช่การแทนที่การแก้ไขแบบดั้งเดิมอย่างสมบูรณ์ แต่เป็นส่วนเสริมที่ทรงพลัง ใช้ AI สำหรับงานที่ต้องการความรวดเร็วและเปลี่ยนไปใช้ซอฟต์แวร์ดั้งเดิมเมื่อต้องการการควบคุมระดับพิกเซล การผสมผสานทั้งสองวิธีสร้างเวิร์กโฟลว์ที่มีประสิทธิภาพสูงสุด"
+            "text": "เครื่องมือลบพื้นหลังของ ToolPic ผสานพลังของ AI กับความเป็นส่วนตัวบนเบราว์เซอร์ อัปโหลดภาพของคุณและโมเดล AI จะจดจำวัตถุหลักและลบพื้นหลังโดยอัตโนมัติ กระบวนการทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณโดยใช้ WebAssembly"
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -805,19 +1141,19 @@
         "content": [
           {
             "heading": "ทำไมการเพิ่มประสิทธิภาพรูปภาพถึงสำคัญต่อความเร็วเว็บไซต์",
-            "text": "หน้าเว็บโดยเฉลี่ยมีขนาดรวมประมาณ 2MB โดยรูปภาพเพียงอย่างเดียวคิดเป็นมากกว่า 50% หากรูปภาพของคุณไม่ได้รับการเพิ่มประสิทธิภาพ เว็บไซต์จะโหลดช้า อัตราตีกลับจะสูงขึ้น และอันดับ SEO จะได้รับผลกระทบ\n\nCore Web Vitals ของ Google ตอนนี้วัดความเร็วหน้าเว็บโดยตรงเป็นปัจจัยการจัดอันดับ ตัวชี้วัด Largest Contentful Paint (LCP) ได้รับผลกระทบโดยเฉพาะจากการโหลดรูปภาพ LCP ต่ำกว่า 2.5 วินาทีถือว่าดี และรูปภาพที่ไม่ได้เพิ่มประสิทธิภาพสามารถทำให้พลาดเป้าหมายนี้ได้ง่าย\n\nสำหรับผู้ใช้มือถือยิ่งสำคัญกว่า บนการเชื่อมต่อเครือข่ายที่ช้า ไฟล์รูปภาพขนาดใหญ่ใช้เวลาโหลดนานทำให้ผู้ใช้ออกจากหน้า การเพิ่มประสิทธิภาพรูปภาพไม่ใช่แค่การปรับปรุงทางเทคนิค แต่ยังเป็นเส้นทางสู่ประสบการณ์ผู้ใช้ที่ดีขึ้นและอัตราการแปลงที่มากขึ้น"
+            "text": "หน้าเว็บโดยเฉลี่ยมีขนาดรวมประมาณ 2MB โดยรูปภาพเพียงอย่างเดียวคิดเป็นมากกว่า 50% หากรูปภาพของคุณไม่ได้รับการเพิ่มประสิทธิภาพ เว็บไซต์จะโหลดช้า อัตราตีกลับจะสูงขึ้น และอันดับ SEO จะได้รับผลกระทบ"
           },
           {
             "heading": "เลือกฟอร์แมตรูปภาพที่ถูกต้อง",
-            "text": "การเลือกฟอร์แมตเป็นขั้นตอนแรกและมีผลกระทบมากที่สุดของการเพิ่มประสิทธิภาพ สำหรับภาพถ่ายและรูปภาพที่ซับซ้อน WebP เป็นตัวเลือกที่ดีที่สุด สร้างไฟล์ที่เล็กกว่า JPEG 25-35% ที่คุณภาพเดียวกัน หาก WebP ไม่รองรับ ให้ใช้ JPEG\n\nสำหรับโลโก้ ไอคอน และกราฟิกขอบคม PNG หรือ SVG ดีกว่า SVG เป็นเวกเตอร์จึงคมชัดทุกขนาดด้วยไฟล์ขนาดเล็กมาก PNG รองรับความโปร่งใสแต่ใหญ่เกินจำเป็นสำหรับภาพถ่าย\n\nAVIF เป็นฟอร์แมตใหม่ที่ให้การบีบอัดดีกว่า WebP การรองรับเบราว์เซอร์กำลังเติบโตอย่างรวดเร็วและในปี 2026 เบราว์เซอร์สมัยใหม่ส่วนใหญ่รองรับ สำหรับการนำไปใช้แบบค่อยเป็นค่อยไป ใช้องค์ประกอบ picture โดยมี AVIF เป็นหลักและ WebP หรือ JPEG เป็นทางเลือกสำรอง"
+            "text": "การเลือกฟอร์แมตเป็นขั้นตอนแรกและมีผลกระทบมากที่สุดของการเพิ่มประสิทธิภาพ สำหรับภาพถ่ายและรูปภาพที่ซับซ้อน WebP เป็นตัวเลือกที่ดีที่สุด สร้างไฟล์ที่เล็กกว่า JPEG 25-35% ที่คุณภาพเดียวกัน หาก WebP ไม่รองรับ ให้ใช้ JPEG"
           },
           {
             "heading": "แนวทางปฏิบัติที่ดีที่สุดสำหรับการบีบอัดและการปรับขนาด",
-            "text": "อย่าเก็บรูปภาพให้ใหญ่กว่าขนาดที่แสดงผล หากรูปภาพแสดงที่ความกว้าง 800px ไม่มีเหตุผลที่จะส่งรูปภาพกว้าง 4000px ปรับขนาดก่อนแล้วบีบอัดเป็นวิธีที่มีประสิทธิภาพที่สุด\n\nสำหรับ JPEG และ WebP การตั้งค่าคุณภาพ 75-85% เหมาะสำหรับรูปภาพเว็บส่วนใหญ่ ในช่วงนี้ขนาดไฟล์ลดลง 60-80% โดยไม่มีความแตกต่างที่สังเกตได้ในคุณภาพภาพ\n\nสำหรับรูปภาพ responsive ใช้แอตทริบิวต์ srcset เพื่อให้เบราว์เซอร์โหลดรูปภาพที่เหมาะสมตามขนาดหน้าจอของอุปกรณ์ การส่งรูปใหญ่สำหรับเดสก์ท็อปและเล็กสำหรับมือถือลดเวลาโหลดสำหรับผู้ใช้มือถืออย่างมีนัยสำคัญ"
+            "text": "อย่าเก็บรูปภาพให้ใหญ่กว่าขนาดที่แสดงผล หากรูปภาพแสดงที่ความกว้าง 800px ไม่มีเหตุผลที่จะส่งรูปภาพกว้าง 4000px ปรับขนาดก่อนแล้วบีบอัดเป็นวิธีที่มีประสิทธิภาพที่สุด"
           },
           {
             "heading": "เพิ่มประสิทธิภาพรูปเว็บไซต์ด้วย ToolPic",
-            "text": "ตัวบีบอัดรูปภาพของ ToolPic เป็นวิธีที่ง่ายที่สุดในการเพิ่มประสิทธิภาพรูปภาพเว็บไซต์ อัปโหลดรูปภาพ ตั้งค่าแถบเลื่อนคุณภาพ และดาวน์โหลดเวอร์ชันบีบอัดทันที การประมวลผลแบบกลุ่มเพิ่มประสิทธิภาพหลายรูปพร้อมกัน\n\nสำหรับการแปลงฟอร์แมต ใช้ตัวแปลงรูปภาพ แปลงไฟล์ JPEG หรือ PNG เป็น WebP เพื่อประหยัดเพิ่มอีก 25-35% ทันที เครื่องมือรักษาความโปร่งใส\n\nการประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณ ไม่มีไฟล์ใดถูกอัปโหลดไปยังเซิร์ฟเวอร์ เนื้อหาเว็บไซต์และข้อมูลลูกค้าของคุณจึงเป็นส่วนตัวอย่างสมบูรณ์ ToolPic เป็นเครื่องมือฟรีที่ไม่มีจำกัดไฟล์ ลายน้ำ หรือต้องลงทะเบียน"
+            "text": "ตัวบีบอัดรูปภาพของ ToolPic เป็นวิธีที่ง่ายที่สุดในการเพิ่มประสิทธิภาพรูปภาพเว็บไซต์ อัปโหลดรูปภาพ ตั้งค่าแถบเลื่อนคุณภาพ และดาวน์โหลดเวอร์ชันบีบอัดทันที การประมวลผลแบบกลุ่มเพิ่มประสิทธิภาพหลายรูปพร้อมกัน"
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -831,19 +1167,19 @@
         "content": [
           {
             "heading": "ทำไม Instagram Carousel ถึงสำคัญ",
-            "text": "โพสต์ Instagram Carousel ได้รับ Engagement มากกว่าโพสต์ภาพเดียวประมาณสามเท่า ด้วย Carousel คุณสามารถเพิ่มได้ถึง 10 สไลด์ในโพสต์เดียว ช่วยให้คุณเล่าเรื่องราวได้อย่างละเอียดและน่าสนใจ\n\nรูปแบบนี้เหมาะสำหรับบทเรียน การแสดงสินค้า การเปรียบเทียบก่อนและหลัง และเนื้อหาให้ความรู้ อัลกอริทึมของ Instagram ให้ความสำคัญกับ Carousel เพราะผู้ใช้ใช้เวลากับมันมากขึ้น ทำให้การเข้าถึงแบบ Organic เพิ่มขึ้น\n\nการใช้ขนาดและสัดส่วนที่ถูกต้องเป็นสิ่งสำคัญเพื่อให้ภาพของคุณแสดงผลคมชัดและเป็นมืออาชีพบน Instagram"
+            "text": "โพสต์ Instagram Carousel ได้รับ Engagement มากกว่าโพสต์ภาพเดียวประมาณสามเท่า ด้วย Carousel คุณสามารถเพิ่มได้ถึง 10 สไลด์ในโพสต์เดียว ช่วยให้คุณเล่าเรื่องราวได้อย่างละเอียดและน่าสนใจ"
           },
           {
             "heading": "ขนาดและสัดส่วนที่ถูกต้องสำหรับ Carousel",
-            "text": "ขนาดที่แนะนำสำหรับ Instagram Carousel คือ 1080x1080 พิกเซล (สัดส่วน 1:1) หรือ 1080x1350 พิกเซล (สัดส่วน 4:5) สัดส่วน 4:5 ใช้พื้นที่มากกว่าใน Feed ช่วยดึงดูดความสนใจได้ง่ายขึ้น\n\nสไลด์ทั้งหมดต้องมีขนาดเท่ากัน หากสไลด์แรกเป็น 1080x1350 สไลด์อื่นๆ ก็ต้องมีขนาดเดียวกัน ใช้เครื่องมือ Image Crop ของ ToolPic เพื่อครอปภาพทั้งหมดให้เป็นขนาดเดียวกันได้อย่างง่ายดาย\n\nสำหรับรูปแบบไฟล์ ใช้ JPEG สำหรับภาพถ่ายและ PNG สำหรับกราฟิกที่มีข้อความมาก รักษาขนาดไฟล์ให้ต่ำกว่า 30MB ต่อสไลด์"
+            "text": "ขนาดที่แนะนำสำหรับ Instagram Carousel คือ 1080x1080 พิกเซล (สัดส่วน 1:1) หรือ 1080x1350 พิกเซล (สัดส่วน 4:5) สัดส่วน 4:5 ใช้พื้นที่มากกว่าใน Feed ช่วยดึงดูดความสนใจได้ง่ายขึ้น"
           },
           {
             "heading": "เคล็ดลับการออกแบบเพื่อเพิ่ม Engagement",
-            "text": "สไลด์แรกสำคัญที่สุด ต้องดึงดูดความสนใจทันที ใช้หัวข้อที่น่าสนใจหรือภาพที่ชวนให้อยากดูเพื่อกระตุ้นให้คนเลื่อนดูสไลด์ถัดไป\n\nรักษาโทนสีและรูปแบบตัวอักษรให้สม่ำเสมอ ใช้สีแบรนด์ของคุณเพื่อสร้างการจดจำ อย่าใส่ข้อความมากเกินไปในแต่ละสไลด์ ให้ดีไซน์สะอาดและเรียบง่าย\n\nด้วยเครื่องมือ Image Merge ของ ToolPic คุณสามารถรวมหลายภาพเป็นคอลลาจหรือสร้างเอฟเฟกต์ก่อนและหลัง ในสไลด์สุดท้าย ให้เพิ่ม Call-to-Action เช่น บันทึก แชร์ หรือคอมเมนต์"
+            "text": "สไลด์แรกสำคัญที่สุด ต้องดึงดูดความสนใจทันที ใช้หัวข้อที่น่าสนใจหรือภาพที่ชวนให้อยากดูเพื่อกระตุ้นให้คนเลื่อนดูสไลด์ถัดไป"
           },
           {
             "heading": "วิธีสร้าง Carousel ด้วย ToolPic",
-            "text": "การสร้าง Carousel ด้วยเครื่องมือฟรีของ ToolPic ง่ายมาก เริ่มต้นด้วยการเตรียมภาพและเปิดเครื่องมือ Image Crop เลือกสัดส่วน 1:1 หรือ 4:5 แล้วครอปภาพทั้งหมดให้เท่ากัน\n\nหากต้องการรวมหลายภาพในสไลด์เดียว ให้ใช้เครื่องมือ Image Merge ที่นี่คุณสามารถเลือกเลย์เอาต์แบบเรียงข้างหรือแบบกริดได้\n\nทุกอย่างทำในเบราว์เซอร์ ไม่มีไฟล์ใดถูกอัปโหลดไปยังเซิร์ฟเวอร์และไม่ต้องสมัครสมาชิก ดาวน์โหลดภาพที่เสร็จแล้วและสร้างโพสต์ Carousel ในแอป Instagram เพียงกดปุ่มบวก เลือกหลายภาพ แล้วเลือกภาพที่ครอปแล้ว"
+            "text": "การสร้าง Carousel ด้วยเครื่องมือฟรีของ ToolPic ง่ายมาก เริ่มต้นด้วยการเตรียมภาพและเปิดเครื่องมือ Image Crop เลือกสัดส่วน 1:1 หรือ 4:5 แล้วครอปภาพทั้งหมดให้เท่ากัน"
           }
         ]
       },
@@ -856,19 +1192,19 @@
         "content": [
           {
             "heading": "ทำไมพื้นหลังโปร่งใสจึงสำคัญ",
-            "text": "ภาพที่มีพื้นหลังโปร่งใสจำเป็นอย่างยิ่งในงานออกแบบเว็บ อีคอมเมิร์ซ การออกแบบโลโก้ และกราฟิกโซเชียลมีเดีย เมื่อพื้นหลังโปร่งใส ภาพจะกลมกลืนได้อย่างสมบูรณ์บนสีหรือลวดลายใดก็ได้\n\nรูปแบบ PNG รองรับความโปร่งใส (Alpha Channel) ในขณะที่ JPEG ไม่รองรับ ดังนั้น PNG จึงเป็นรูปแบบที่เหมาะสมที่สุดสำหรับโลโก้ ไอคอน และองค์ประกอบกราฟิกที่ต้องวางซ้อนบนเนื้อหาอื่น\n\nในอดีต การสร้างพื้นหลังโปร่งใสต้องใช้ซอฟต์แวร์ราคาแพงอย่าง Photoshop แต่วันนี้ เครื่องมือออนไลน์ฟรีอย่าง ToolPic ช่วยให้ทำได้ในไม่กี่วินาทีบนเบราว์เซอร์"
+            "text": "ภาพที่มีพื้นหลังโปร่งใสจำเป็นอย่างยิ่งในงานออกแบบเว็บ อีคอมเมิร์ซ การออกแบบโลโก้ และกราฟิกโซเชียลมีเดีย เมื่อพื้นหลังโปร่งใส ภาพจะกลมกลืนได้อย่างสมบูรณ์บนสีหรือลวดลายใดก็ได้"
           },
           {
             "heading": "ขั้นตอนการลบพื้นหลัง",
-            "text": "เครื่องมือ Image Background Remove ของ ToolPic ใช้เทคโนโลยี AI เพื่อจดจำและลบพื้นหลังโดยอัตโนมัติ เพียงอัปโหลดภาพของคุณ แล้วเครื่องมือจะลบพื้นหลังภายในไม่กี่วินาที\n\nเครื่องมือสามารถจดจำบุคคล สินค้า สัตว์ และวัตถุต่างๆ ได้ รวมถึงจัดการกับพื้นหลังที่ซับซ้อนเช่น ขอบผม หรือวัตถุกึ่งโปร่งใสได้อย่างแม่นยำ\n\nการประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ของคุณ ภาพของคุณจะไม่ถูกอัปโหลดไปยังเซิร์ฟเวอร์ใดๆ รับประกันความเป็นส่วนตัวอย่างสมบูรณ์"
+            "text": "เครื่องมือ Image Background Remove ของ ToolPic ใช้เทคโนโลยี AI เพื่อจดจำและลบพื้นหลังโดยอัตโนมัติ เพียงอัปโหลดภาพของคุณ แล้วเครื่องมือจะลบพื้นหลังภายในไม่กี่วินาที"
           },
           {
             "heading": "บันทึกในรูปแบบที่ถูกต้อง",
-            "text": "หลังจากลบพื้นหลังแล้ว ขั้นตอนที่สำคัญที่สุดคือการบันทึกในรูปแบบที่ถูกต้อง เพื่อรักษาความโปร่งใส ให้ใช้รูปแบบ PNG หากภาพต้นฉบับเป็น JPEG ให้แปลงเป็น PNG ด้วยเครื่องมือ Image Converter ของ ToolPic\n\nรูปแบบ WebP ก็รองรับความโปร่งใสเช่นกันและให้ขนาดไฟล์เล็กกว่า PNG สำหรับการใช้งานบนเว็บ WebP อาจเป็นทางเลือกที่ดีกว่า\n\nโปรดทราบว่าหากบันทึกเป็น JPEG ความโปร่งใสจะหายไปและถูกแทนที่ด้วยพื้นหลังสีขาว เลือก PNG หรือ WebP เสมอเพื่อรักษาพื้นหลังโปร่งใส"
+            "text": "หลังจากลบพื้นหลังแล้ว ขั้นตอนที่สำคัญที่สุดคือการบันทึกในรูปแบบที่ถูกต้อง เพื่อรักษาความโปร่งใส ให้ใช้รูปแบบ PNG หากภาพต้นฉบับเป็น JPEG ให้แปลงเป็น PNG ด้วยเครื่องมือ Image Converter ของ ToolPic"
           },
           {
             "heading": "เคล็ดลับการใช้ PNG โปร่งใส",
-            "text": "ในอีคอมเมิร์ซ พื้นหลังโปร่งใสเป็นมาตรฐานสำหรับภาพสินค้า แพลตฟอร์มเช่น Amazon และ Shopee กำหนดให้ใช้พื้นหลังสีขาวหรือโปร่งใส ลบพื้นหลังก่อน จากนั้นเพิ่มพื้นหลังสีขาวตามต้องการ\n\nเมื่อสร้างโลโก้ ให้บันทึกในรูปแบบ PNG พร้อมพื้นหลังโปร่งใสเสมอ เพื่อให้โลโก้สามารถใช้ได้อย่างง่ายดายบนเว็บไซต์ นามบัตร หรือสื่อการตลาดใดๆ\n\nPNG โปร่งใสยังมีประโยชน์มากสำหรับการสร้างสติกเกอร์และโอเวอร์เลย์บนโซเชียลมีเดีย ด้วยเครื่องมือฟรีของ ToolPic คุณสามารถสร้างภาพโปร่งใสคุณภาพมืออาชีพได้โดยไม่มีค่าใช้จ่าย"
+            "text": "ในอีคอมเมิร์ซ พื้นหลังโปร่งใสเป็นมาตรฐานสำหรับภาพสินค้า แพลตฟอร์มเช่น Amazon และ Shopee กำหนดให้ใช้พื้นหลังสีขาวหรือโปร่งใส ลบพื้นหลังก่อน จากนั้นเพิ่มพื้นหลังสีขาวตามต้องการ"
           }
         ]
       },
@@ -881,19 +1217,19 @@
         "content": [
           {
             "heading": "ทำความเข้าใจขีดจำกัดวิดีโอของ WhatsApp",
-            "text": "WhatsApp มีขีดจำกัดขนาดไฟล์สูงสุด 16MB สำหรับการส่งวิดีโอ นี่มักเป็นปัญหาเพราะสมาร์ทโฟนยุคใหม่ถ่ายวิดีโอ 4K หรือ 1080p ที่อาจเกิน 16MB ภายในเวลาเพียงไม่กี่วินาที\n\nสำหรับ WhatsApp Status วิดีโอต้องไม่เกิน 30 วินาทีและขนาดไฟล์ต้องอยู่ภายใน 16MB ดังนั้นการบีบอัดจึงเป็นสิ่งจำเป็น\n\nWhatsApp จะบีบอัดวิดีโอที่ส่งโดยอัตโนมัติ แต่คุณภาพที่ได้มักจะต่ำมาก ดีกว่าที่คุณจะบีบอัดเองเพื่อควบคุมคุณภาพผลลัพธ์"
+            "text": "WhatsApp มีขีดจำกัดขนาดไฟล์สูงสุด 16MB สำหรับการส่งวิดีโอ นี่มักเป็นปัญหาเพราะสมาร์ทโฟนยุคใหม่ถ่ายวิดีโอ 4K หรือ 1080p ที่อาจเกิน 16MB ภายในเวลาเพียงไม่กี่วินาที"
           },
           {
             "heading": "การตั้งค่าที่ดีที่สุดสำหรับบีบอัดวิดีโอ",
-            "text": "เมื่อบีบอัดวิดีโอสำหรับ WhatsApp ให้ตั้งความละเอียดที่ 720p (1280x720) คุณภาพบนหน้าจอมือถือคมชัดเพียงพอและขนาดไฟล์ลดลงอย่างมาก\n\nรักษา Bitrate ที่ 1-2 Mbps อัตราเฟรม 30fps เพียงพอแล้ว Codec H.264 ให้ความเข้ากันได้ดีที่สุดเพราะรองรับโดยอุปกรณ์เกือบทุกชนิด\n\nรูปแบบ Container MP4 เหมาะสมที่สุด ใช้ Audio Codec AAC และ Audio Bitrate 128kbps ด้วยการตั้งค่าเหล่านี้ วิดีโอหนึ่งนาทีจะอยู่ต่ำกว่า 10MB ได้อย่างง่ายดาย"
+            "text": "เมื่อบีบอัดวิดีโอสำหรับ WhatsApp ให้ตั้งความละเอียดที่ 720p (1280x720) คุณภาพบนหน้าจอมือถือคมชัดเพียงพอและขนาดไฟล์ลดลงอย่างมาก"
           },
           {
             "heading": "บีบอัดวิดีโอด้วย ToolPic",
-            "text": "เปิดเครื่องมือ Video Compress ของ ToolPic แล้วลากวิดีโอของคุณมาวาง เครื่องมือจะแสดงข้อมูลไฟล์โดยอัตโนมัติ รวมถึงขนาดต้นฉบับ ความยาว และความละเอียด\n\nใช้แถบเลื่อนคุณภาพเพื่อเลือกระดับการบีบอัด คุณภาพปานกลางให้ความสมดุลที่เหมาะสมสำหรับ WhatsApp เริ่มการประมวลผลและวิดีโอจะถูกบีบอัดในเบราว์เซอร์ของคุณ\n\nไม่มีไฟล์ใดถูกอัปโหลดไปยังเซิร์ฟเวอร์ ด้วยเทคโนโลยี WebAssembly (FFmpeg WASM) การประมวลผลทั้งหมดเกิดขึ้นบนอุปกรณ์ของคุณ หลังจากเสร็จแล้ว ตรวจสอบขนาดไฟล์ใหม่และดาวน์โหลด"
+            "text": "เปิดเครื่องมือ Video Compress ของ ToolPic แล้วลากวิดีโอของคุณมาวาง เครื่องมือจะแสดงข้อมูลไฟล์โดยอัตโนมัติ รวมถึงขนาดต้นฉบับ ความยาว และความละเอียด"
           },
           {
             "heading": "เคล็ดลับรักษาคุณภาพวิดีโอ",
-            "text": "หากวิดีโอยังใหญ่เกินไป ให้แบ่งเป็นส่วนสั้นๆ การส่งวิดีโอสั้นหลายชิ้นบน WhatsApp ดีกว่าการส่งวิดีโอยาวคุณภาพต่ำหนึ่งชิ้น\n\nหากวิดีโอมีการเคลื่อนไหวน้อย เช่น งานนำเสนอหรือการบันทึกหน้าจอ คุณสามารถลดอัตราเฟรมเป็น 24fps ได้ ขนาดไฟล์จะลดลงอีกโดยไม่มีความแตกต่างที่สังเกตเห็นได้\n\nยังมีตัวเลือกส่งเป็นเอกสาร เมื่อส่งวิดีโอเป็นเอกสารบน WhatsApp ขีดจำกัดจะเพิ่มเป็น 100MB และ WhatsApp จะไม่บีบอัดเพิ่มเติม แต่ผู้รับจะต้องดาวน์โหลดไฟล์ก่อนดู"
+            "text": "หากวิดีโอยังใหญ่เกินไป ให้แบ่งเป็นส่วนสั้นๆ การส่งวิดีโอสั้นหลายชิ้นบน WhatsApp ดีกว่าการส่งวิดีโอยาวคุณภาพต่ำหนึ่งชิ้น"
           }
         ]
       },
@@ -906,19 +1242,19 @@
         "content": [
           {
             "heading": "ทำไมลายน้ำจึงสำคัญ",
-            "text": "ในโลกดิจิทัล การขโมยภาพและการใช้งานโดยไม่ได้รับอนุญาตเป็นปัญหาร้ายแรง ลายน้ำเป็นเครื่องหมายแสดงความเป็นเจ้าของบนภาพถ่ายและกราฟิกของคุณ ช่วยป้องกันการใช้งานโดยไม่ได้รับอนุญาต\n\nสำหรับช่างภาพ นักออกแบบกราฟิก ผู้ขายอีคอมเมิร์ซ และผู้สร้างเนื้อหา ลายน้ำมีความสำคัญอย่างยิ่ง ไม่เพียงแต่ให้การปกป้อง แต่ยังช่วยสร้างการจดจำแบรนด์อีกด้วย\n\nลายน้ำที่ใส่อย่างถูกวิธีจะปกป้องภาพได้โดยไม่ทำลายความสวยงามหรือผลกระทบทางสายตา"
+            "text": "ในโลกดิจิทัล การขโมยภาพและการใช้งานโดยไม่ได้รับอนุญาตเป็นปัญหาร้ายแรง ลายน้ำเป็นเครื่องหมายแสดงความเป็นเจ้าของบนภาพถ่ายและกราฟิกของคุณ ช่วยป้องกันการใช้งานโดยไม่ได้รับอนุญาต"
           },
           {
             "heading": "ประเภทของลายน้ำ",
-            "text": "ลายน้ำข้อความเป็นแบบที่ง่ายที่สุด คุณสามารถเพิ่มชื่อ ชื่อแบรนด์ หรือประกาศลิขสิทธิ์ รักษาความโปร่งใสที่ 30-50% เพื่อให้ภาพหลักยังคงมองเห็นได้ชัด\n\nลายน้ำโลโก้ดูเป็นมืออาชีพมากกว่า เตรียมโลโก้แบรนด์ในรูปแบบ PNG พร้อมพื้นหลังโปร่งใส คุณสามารถวางไว้ที่มุมหรือตรงกลางภาพ\n\nลายน้ำแบบเรียงซ้ำจะถูกทำซ้ำทั่วทั้งภาพ ให้การปกป้องที่แข็งแกร่งที่สุดเพราะแทบเป็นไปไม่ได้ที่จะลบออกด้วยการครอป เว็บไซต์ภาพสต็อกมักใช้วิธีนี้"
+            "text": "ลายน้ำข้อความเป็นแบบที่ง่ายที่สุด คุณสามารถเพิ่มชื่อ ชื่อแบรนด์ หรือประกาศลิขสิทธิ์ รักษาความโปร่งใสที่ 30-50% เพื่อให้ภาพหลักยังคงมองเห็นได้ชัด"
           },
           {
             "heading": "เพิ่มลายน้ำด้วย ToolPic",
-            "text": "เครื่องมือ Image Watermark ของ ToolPic ให้คุณเพิ่มทั้งลายน้ำข้อความและโลโก้ อัปโหลดภาพของคุณ เลือกประเภทลายน้ำ แล้วปรับแต่งตามต้องการ\n\nสำหรับลายน้ำข้อความ คุณสามารถเปลี่ยนฟอนต์ ขนาด สี และความโปร่งใส สำหรับลายน้ำโลโก้ อัปโหลดโลโก้ของคุณแล้วปรับขนาดและตำแหน่ง\n\nการประมวลผลแบบกลุ่มช่วยให้เพิ่มลายน้ำบนหลายภาพพร้อมกัน ทุกอย่างทำในเบราว์เซอร์ ดังนั้นภาพของคุณจะปลอดภัยอย่างสมบูรณ์"
+            "text": "เครื่องมือ Image Watermark ของ ToolPic ให้คุณเพิ่มทั้งลายน้ำข้อความและโลโก้ อัปโหลดภาพของคุณ เลือกประเภทลายน้ำ แล้วปรับแต่งตามต้องการ"
           },
           {
             "heading": "แนวปฏิบัติที่ดีที่สุดสำหรับลายน้ำ",
-            "text": "ตำแหน่งของลายน้ำสำคัญมาก หากวางไว้ที่มุม สามารถลบออกได้ง่ายด้วยการครอป วางไว้ตรงกลางหรือเยื้องเล็กน้อยจะให้การปกป้องที่ดีกว่า\n\nหาความสมดุลของความโปร่งใสที่เหมาะสม หากโปร่งใสเกินไป ลายน้ำจะมองไม่เห็น หากทึบเกินไป จะทำให้ภาพเสียหาย ความโปร่งใส 30% ถึง 50% เหมาะสมสำหรับกรณีส่วนใหญ่\n\nใส่ลายน้ำเสมอก่อนแชร์บนโซเชียลมีเดีย บนเว็บไซต์พอร์ตโฟลิโอก็ควรมีลายน้ำเล็กๆ จำไว้ว่าลายน้ำไม่ใช่สิ่งทดแทนการคุ้มครองทางกฎหมาย ควรจดทะเบียนลิขสิทธิ์ผลงานของคุณด้วย"
+            "text": "ตำแหน่งของลายน้ำสำคัญมาก หากวางไว้ที่มุม สามารถลบออกได้ง่ายด้วยการครอป วางไว้ตรงกลางหรือเยื้องเล็กน้อยจะให้การปกป้องที่ดีกว่า"
           }
         ]
       },
@@ -931,19 +1267,19 @@
         "content": [
           {
             "heading": "ข้อกำหนดทางเทคนิคของวิดีโอ TikTok",
-            "text": "รูปแบบที่เหมาะสมที่สุดสำหรับวิดีโอ TikTok คือแนวตั้ง 9:16 ความละเอียด 1080x1920 พิกเซล สัดส่วนนี้ครอบคลุมหน้าจอโทรศัพท์ทั้งหมดและได้รับยอดวิวมากที่สุด\n\nทั้ง MP4 และ MOV เป็นรูปแบบที่ยอมรับได้ แต่ MP4 ทำงานได้ดีที่สุด รูปแบบ MP4 กับ Codec H.264 เข้ากันได้ดีที่สุดกับแพลตฟอร์ม\n\nความยาวสูงสุดคือ 10 นาที แต่วิดีโอ 15 ถึง 60 วินาทีมีประสิทธิภาพดีที่สุด ขนาดไฟล์ต้องไม่เกิน 287MB รักษาอัตราเฟรมที่ 30fps หรือ 60fps"
+            "text": "รูปแบบที่เหมาะสมที่สุดสำหรับวิดีโอ TikTok คือแนวตั้ง 9:16 ความละเอียด 1080x1920 พิกเซล สัดส่วนนี้ครอบคลุมหน้าจอโทรศัพท์ทั้งหมดและได้รับยอดวิวมากที่สุด"
           },
           {
             "heading": "การแปลงรูปแบบวิดีโอ",
-            "text": "หากวิดีโอของคุณอยู่ในรูปแบบ AVI, MKV, WMV หรือรูปแบบอื่น ให้แปลงเป็น MP4 ด้วยเครื่องมือ Video Convert ของ ToolPic ขั้นตอนง่ายมาก\n\nอัปโหลดวิดีโอ เลือก MP4 เป็นรูปแบบเอาต์พุต แล้วเริ่มการแปลง ด้วยเทคโนโลยี WebAssembly การประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ ไม่มีไฟล์ใดถูกอัปโหลดไปยังเซิร์ฟเวอร์\n\nในการตั้งค่าคุณภาพ รักษาความละเอียดที่ 1080x1920 หากวิดีโอต้นฉบับเป็นแนวนอน คุณจะต้องครอปหรือจัดเฟรมใหม่ให้เหมาะกับรูปแบบแนวตั้ง"
+            "text": "หากวิดีโอของคุณอยู่ในรูปแบบ AVI, MKV, WMV หรือรูปแบบอื่น ให้แปลงเป็น MP4 ด้วยเครื่องมือ Video Convert ของ ToolPic ขั้นตอนง่ายมาก"
           },
           {
             "heading": "แปลงวิดีโอแนวนอนเป็นแนวตั้ง",
-            "text": "กล้องส่วนใหญ่และการบันทึกหน้าจอสร้างวิดีโอในรูปแบบแนวนอน 16:9 สำหรับ TikTok จำเป็นต้องแปลงเป็นรูปแบบแนวตั้ง 9:16\n\nใช้เครื่องมือ Image Crop ของ ToolPic เพื่อครอปภาพขนาดย่อและภาพปกวิดีโอในสัดส่วน 9:16 นี่คือความประทับใจแรกของวิดีโอบน TikTok\n\nเมื่อแปลงวิดีโอเป็นแนวตั้ง ให้วางตัวแบบหลักไว้ตรงกลางเฟรม พื้นที่ด้านบนและด้านล่างจะแสดงชื่อผู้ใช้ TikTok และคำบรรยาย ดังนั้นให้วางเนื้อหาสำคัญไว้ตรงกลาง"
+            "text": "กล้องส่วนใหญ่และการบันทึกหน้าจอสร้างวิดีโอในรูปแบบแนวนอน 16:9 สำหรับ TikTok จำเป็นต้องแปลงเป็นรูปแบบแนวตั้ง 9:16"
           },
           {
             "heading": "เคล็ดลับเพิ่มประสิทธิภาพวิดีโอ TikTok",
-            "text": "อัปโหลดวิดีโอคุณภาพสูง TikTok จะบีบอัดเอง ดังนั้นการเริ่มต้นด้วยคุณภาพสูงจะให้ผลลัพธ์สุดท้ายที่ดีกว่า ความละเอียดขั้นต่ำคือ 720p แต่ 1080p เป็นอุดมคติ\n\n3 วินาทีแรกสำคัญที่สุด ผู้ชมตัดสินใจในช่วงเวลานั้นว่าจะดูต่อหรือเลื่อนผ่าน ดังนั้นทำให้จุดเริ่มต้นน่าสนใจและดึงดูดทันที\n\nสำหรับ SEO บน TikTok ใช้แฮชแท็กที่เกี่ยวข้อง คำบรรยายที่มีประสิทธิภาพ และเสียงที่กำลังเป็นกระแส คุณภาพทางเทคนิคและเนื้อหาทำงานร่วมกันเพื่อเพิ่มโอกาสในการไวรัล ใช้เครื่องมือฟรีของ ToolPic เพื่อทำให้วิดีโอของคุณสมบูรณ์แบบทางเทคนิค"
+            "text": "อัปโหลดวิดีโอคุณภาพสูง TikTok จะบีบอัดเอง ดังนั้นการเริ่มต้นด้วยคุณภาพสูงจะให้ผลลัพธ์สุดท้ายที่ดีกว่า ความละเอียดขั้นต่ำคือ 720p แต่ 1080p เป็นอุดมคติ"
           }
         ]
       },
@@ -956,19 +1292,19 @@
         "content": [
           {
             "heading": "ทำไมการปรับขนาดรูปภาพจึงสำคัญ",
-            "text": "ในโลกดิจิทัล การมีรูปภาพขนาดที่ถูกต้องมีความสำคัญอย่างยิ่ง รูปภาพขนาดใหญ่บนเว็บไซต์ทำให้หน้าเว็บโหลดช้า ส่งผลให้ผู้เยี่ยมชมออกไปก่อนจะเห็นเนื้อหา แพลตฟอร์มโซเชียลมีเดียมีขนาดเฉพาะของตัวเอง และการอัปโหลดรูปภาพผิดขนาดจะทำให้แพลตฟอร์มครอปหรือยืดอัตโนมัติ ส่งผลให้คุณภาพลดลง\n\nสำหรับร้านค้าออนไลน์ ภาพสินค้าที่มีขนาดสม่ำเสมอเป็นสิ่งจำเป็นเพื่อให้ดูเป็นมืออาชีพ ในการตลาดอีเมล ไฟล์ภาพที่ใหญ่เกินไปส่งผลต่อการส่งอีเมลและประสบการณ์ผู้ใช้\n\nการปรับขนาดไม่ได้หมายถึงการย่อเท่านั้น บางครั้งคุณต้องขยายภาพเล็กเพื่อการพิมพ์หรือแสดงบนหน้าจอใหญ่ ในทั้งสองกรณี การใช้เทคนิคที่ถูกต้องเป็นสิ่งจำเป็นเพื่อให้ภาพคมชัดและชัดเจน"
+            "text": "ในโลกดิจิทัล การมีรูปภาพขนาดที่ถูกต้องมีความสำคัญอย่างยิ่ง รูปภาพขนาดใหญ่บนเว็บไซต์ทำให้หน้าเว็บโหลดช้า ส่งผลให้ผู้เยี่ยมชมออกไปก่อนจะเห็นเนื้อหา แพลตฟอร์มโซเชียลมีเดียมีขนาดเฉพาะของตัวเอง และการอัปโหลดรูปภาพผิดขนาดจะทำให้แพลตฟอร์มครอปหรือยืดอัตโนมัติ ส่งผลให้คุณภาพลดลง"
           },
           {
             "heading": "ทำไมคุณภาพถึงลดลงและจะป้องกันอย่างไร",
-            "text": "เมื่อคุณขยายภาพเกินขนาดต้นฉบับ ซอฟต์แวร์ต้องสร้างพิกเซลใหม่ขึ้นมา กระบวนการนี้เรียกว่า interpolation และอาจทำให้ภาพเบลอหรือเป็นพิกเซล วิธีที่ดีที่สุดคือเริ่มต้นจากความละเอียดสูงสุดที่มีอยู่แล้วย่อลง\n\nแม้แต่การย่อก็อาจสูญเสียคุณภาพได้หากไม่ใช้อัลกอริทึมที่ถูกต้อง Bilinear และ Bicubic interpolation เป็นวิธีที่พบบ่อยที่สุดที่ให้ผลลัพธ์ที่ราบรื่น อัลกอริทึม Lanczos ให้ความคมชัดที่ดีกว่าและเป็นที่นิยมในหมู่มืออาชีพ\n\nการรักษาอัตราส่วนภาพมีความสำคัญอย่างยิ่ง หากคุณเปลี่ยนความกว้างและความสูงด้วยสัดส่วนที่แตกต่างกัน ภาพจะถูกยืดหรือบีบ ใช้ตัวเลือกล็อกอัตราส่วนเสมอหรือครอปตามสัดส่วนที่กำหนดไว้ล่วงหน้า"
+            "text": "เมื่อคุณขยายภาพเกินขนาดต้นฉบับ ซอฟต์แวร์ต้องสร้างพิกเซลใหม่ขึ้นมา กระบวนการนี้เรียกว่า interpolation และอาจทำให้ภาพเบลอหรือเป็นพิกเซล วิธีที่ดีที่สุดคือเริ่มต้นจากความละเอียดสูงสุดที่มีอยู่แล้วย่อลง"
           },
           {
             "heading": "ขนาดที่ถูกต้องสำหรับการใช้งานต่างๆ",
-            "text": "ภาพ hero บนเว็บไซต์ควรเป็น 1920x1080 พิกเซล ภาพบทความบล็อกควรเป็น 1200x800 พิกเซล ภาพขนาดย่อ 400x300 พิกเซลก็เพียงพอ การปรับขนาดให้ตรงตามข้อกำหนดเหล่านี้ช่วยปรับปรุงความเร็วการโหลดหน้าเว็บอย่างมีนัยสำคัญ\n\nสำหรับโซเชียลมีเดีย แต่ละแพลตฟอร์มมีข้อกำหนดเฉพาะ โพสต์ Instagram 1080x1080 พิกเซลสี่เหลี่ยมจัตุรัส ปก Facebook 820x312 เฮดเดอร์ Twitter 1500x500 และแบนเนอร์ LinkedIn 1584x396 พิกเซล\n\nสำหรับการพิมพ์ ความละเอียดต้อง 300 DPI การพิมพ์ 4x6 นิ้วต้องการภาพ 1200x1800 พิกเซล โปสเตอร์และแบนเนอร์ขนาดใหญ่ต้องการความละเอียดสูงกว่า พิจารณาการใช้งานสุดท้ายเสมอก่อนปรับขนาด"
+            "text": "ภาพ hero บนเว็บไซต์ควรเป็น 1920x1080 พิกเซล ภาพบทความบล็อกควรเป็น 1200x800 พิกเซล ภาพขนาดย่อ 400x300 พิกเซลก็เพียงพอ การปรับขนาดให้ตรงตามข้อกำหนดเหล่านี้ช่วยปรับปรุงความเร็วการโหลดหน้าเว็บอย่างมีนัยสำคัญ"
           },
           {
             "heading": "ปรับขนาดรูปภาพด้วย ToolPic",
-            "text": "เครื่องมือ Image Crop ของ ToolPic เป็นโซลูชันที่ง่ายที่สุดสำหรับการปรับขนาดภาพ อัปโหลดภาพของคุณและเลือกอัตราส่วนที่ต้องการ: 1:1 สี่เหลี่ยมจัตุรัส 16:9 จอกว้าง 4:5 แนวตั้ง หรือขนาดที่กำหนดเอง เครื่องมือจะล็อกอัตราส่วนเพื่อป้องกันการบิดเบี้ยว\n\nลากเพื่อปรับพื้นที่ครอปและตรวจสอบผลลัพธ์สุดท้ายในตัวอย่าง เมื่อพอใจแล้ว ให้ใช้งานและดาวน์โหลดด้วยคุณภาพสูง\n\nการประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ ภาพของคุณจะไม่ถูกอัปโหลดไปยังเซิร์ฟเวอร์ใดๆ เพื่อความเป็นส่วนตัวที่สมบูรณ์ ด้วยการประมวลผลแบบกลุ่ม คุณสามารถปรับขนาดหลายภาพพร้อมกันให้มีขนาดเดียวกัน ประหยัดเวลาในการทำงานได้หลายชั่วโมง"
+            "text": "เครื่องมือ Image Crop ของ ToolPic เป็นโซลูชันที่ง่ายที่สุดสำหรับการปรับขนาดภาพ อัปโหลดภาพของคุณและเลือกอัตราส่วนที่ต้องการ: 1:1 สี่เหลี่ยมจัตุรัส 16:9 จอกว้าง 4:5 แนวตั้ง หรือขนาดที่กำหนดเอง เครื่องมือจะล็อกอัตราส่วนเพื่อป้องกันการบิดเบี้ยว"
           }
         ]
       },
@@ -981,19 +1317,19 @@
         "content": [
           {
             "heading": "ทำไมเนื้อหาภาพบน LinkedIn จึงสำคัญ",
-            "text": "LinkedIn เป็นเครือข่ายมืออาชีพที่ใหญ่ที่สุดในโลกด้วยผู้ใช้มากกว่า 900 ล้านคน โพสต์ที่มีรูปภาพได้รับการมีส่วนร่วมมากกว่าโพสต์ที่มีเฉพาะข้อความถึงสองเท่า ภาพที่มีขนาดถูกต้องดูเป็นมืออาชีพและเพิ่มความน่าเชื่อถือของคุณในเครือข่าย\n\nการอัปโหลดภาพผิดขนาดทำให้ LinkedIn ครอปหรือปรับขนาดอัตโนมัติ ซึ่งอาจตัดส่วนสำคัญออกหรือทำให้ภาพเบลอ ดูไม่เป็นมืออาชีพและอาจทำลายภาพลักษณ์แบรนด์ของคุณ\n\nLinkedIn ต้องการขนาดที่แตกต่างกันสำหรับแต่ละส่วน: รูปโปรไฟล์ แบนเนอร์พื้นหลัง ภาพโพสต์ ภาพปกบทความ และหน้าบริษัท การรู้ขนาดที่ถูกต้องสำหรับแต่ละส่วนเป็นสิ่งจำเป็น"
+            "text": "LinkedIn เป็นเครือข่ายมืออาชีพที่ใหญ่ที่สุดในโลกด้วยผู้ใช้มากกว่า 900 ล้านคน โพสต์ที่มีรูปภาพได้รับการมีส่วนร่วมมากกว่าโพสต์ที่มีเฉพาะข้อความถึงสองเท่า ภาพที่มีขนาดถูกต้องดูเป็นมืออาชีพและเพิ่มความน่าเชื่อถือของคุณในเครือข่าย"
           },
           {
             "heading": "ขนาดโปรไฟล์และแบนเนอร์ LinkedIn",
-            "text": "รูปโปรไฟล์ควรเป็น 400x400 พิกเซล LinkedIn จะครอปเป็นรูปวงกลม ดังนั้นให้วางใบหน้าไว้ตรงกลางและเว้นพื้นที่ว่างที่ขอบ อัปโหลดในรูปแบบ JPG หรือ PNG ขนาดไฟล์ต่ำกว่า 8MB\n\nภาพแบนเนอร์พื้นหลังควรเป็น 1584x396 พิกเซลในอัตราส่วน 4:1 บนมือถือ บางส่วนของแบนเนอร์จะถูกตัด ดังนั้นให้วางข้อความและกราฟิกสำคัญไว้ตรงกลาง\n\nโลโก้หน้าบริษัทควรเป็น 300x300 พิกเซล และภาพปกบริษัท 1128x191 พิกเซล การปฏิบัติตามขนาดเหล่านี้ช่วยให้โปรไฟล์และหน้าบริษัทของคุณดูคมชัดและเป็นมืออาชีพบนทุกอุปกรณ์"
+            "text": "รูปโปรไฟล์ควรเป็น 400x400 พิกเซล LinkedIn จะครอปเป็นรูปวงกลม ดังนั้นให้วางใบหน้าไว้ตรงกลางและเว้นพื้นที่ว่างที่ขอบ อัปโหลดในรูปแบบ JPG หรือ PNG ขนาดไฟล์ต่ำกว่า 8MB"
           },
           {
             "heading": "ขนาดภาพโพสต์และบทความ LinkedIn",
-            "text": "ภาพโพสต์ในฟีดควรเป็น 1200x627 พิกเซล (อัตราส่วน 1.91:1) ภาพสี่เหลี่ยมจัตุรัส 1200x1200 ก็ใช้ได้ดีและใช้พื้นที่หน้าจอมากขึ้นบนมือถือ ภาพแนวตั้ง 1200x1500 (อัตราส่วน 4:5) ใช้พื้นที่หน้าจอมากที่สุด\n\nภาพปกบทความ LinkedIn ควรเป็น 1200x644 พิกเซล ภาพในบทความควรกว้าง 1200 พิกเซลเพื่อให้แสดงผลคมชัด\n\nสำหรับเอกสาร carousel (สไลด์ PDF) ใช้ 1080x1080 หรือ 1080x1350 พิกเซล รูปแบบเหล่านี้ได้รับการมีส่วนร่วมสูงมากบน LinkedIn ข้อความในแต่ละสไลด์ต้องใหญ่และอ่านง่ายเพราะคนส่วนใหญ่ดูบนมือถือ"
+            "text": "ภาพโพสต์ในฟีดควรเป็น 1200x627 พิกเซล (อัตราส่วน 1.91:1) ภาพสี่เหลี่ยมจัตุรัส 1200x1200 ก็ใช้ได้ดีและใช้พื้นที่หน้าจอมากขึ้นบนมือถือ ภาพแนวตั้ง 1200x1500 (อัตราส่วน 4:5) ใช้พื้นที่หน้าจอมากที่สุด"
           },
           {
             "heading": "เตรียมภาพ LinkedIn ด้วย ToolPic",
-            "text": "ใช้เครื่องมือ Image Crop ของ ToolPic เพื่อครอปภาพให้ตรงตามขนาด LinkedIn ตั้งอัตราส่วนที่กำหนดเอง: 1:1 สำหรับรูปโปรไฟล์ 4:1 สำหรับแบนเนอร์ หรือ 1.91:1 สำหรับภาพโพสต์ เครื่องมือแสดงขนาดพิกเซลที่แม่นยำเพื่อให้ได้ขนาดที่สมบูรณ์แบบ\n\nใช้ Image Compressor เพื่อลดขนาดไฟล์โดยไม่สูญเสียคุณภาพที่มองเห็นได้ การตั้งค่าคุณภาพ 80-85% เหมาะสำหรับภาพ LinkedIn ไฟล์ที่เล็กลงอัปโหลดเร็วขึ้นและ LinkedIn ใช้การบีบอัดเพิ่มเติมน้อยลง\n\nเครื่องมือทั้งสองทำงานในเบราว์เซอร์ทั้งหมด ไม่ต้องสมัครสมาชิก ไม่ต้องอัปโหลด ไม่มีข้อจำกัด เตรียมภาพ LinkedIn ทั้งหมดของคุณในขนาดมืออาชีพได้ภายในไม่กี่นาที"
+            "text": "ใช้เครื่องมือ Image Crop ของ ToolPic เพื่อครอปภาพให้ตรงตามขนาด LinkedIn ตั้งอัตราส่วนที่กำหนดเอง: 1:1 สำหรับรูปโปรไฟล์ 4:1 สำหรับแบนเนอร์ หรือ 1.91:1 สำหรับภาพโพสต์ เครื่องมือแสดงขนาดพิกเซลที่แม่นยำเพื่อให้ได้ขนาดที่สมบูรณ์แบบ"
           }
         ]
       },
@@ -1006,19 +1342,19 @@
         "content": [
           {
             "heading": "ทำไมลายน้ำถึงมีอยู่",
-            "text": "ลายน้ำเป็นเครื่องมือสำคัญในการปกป้องทรัพย์สินทางปัญญาของช่างภาพและผู้สร้างเนื้อหา เว็บไซต์ภาพสต็อกใส่ลายน้ำบนภาพตัวอย่างเพื่อป้องกันการใช้งานโดยไม่จ่ายเงิน ช่างภาพใช้ลายน้ำเพื่อแสดงตัวอย่างให้ลูกค้าก่อนชำระเงิน\n\nการลบลายน้ำจากภาพของผู้อื่นเป็นสิ่งผิดกฎหมายในประเทศส่วนใหญ่ ถือเป็นการละเมิดลิขสิทธิ์และอาจมีผลทางกฎหมายร้ายแรง ตาม DMCA และกฎหมายลิขสิทธิ์ การลบลายน้ำเป็นความผิดที่มีโทษ\n\nดังนั้น แทนที่จะลบลายน้ำ ควรพิจารณาทางเลือกที่ถูกกฎหมาย มีหลายวิธีที่จะได้ภาพคุณภาพสูงไม่มีลายน้ำโดยไม่มีปัญหาทางกฎหมาย"
+            "text": "ลายน้ำเป็นเครื่องมือสำคัญในการปกป้องทรัพย์สินทางปัญญาของช่างภาพและผู้สร้างเนื้อหา เว็บไซต์ภาพสต็อกใส่ลายน้ำบนภาพตัวอย่างเพื่อป้องกันการใช้งานโดยไม่จ่ายเงิน ช่างภาพใช้ลายน้ำเพื่อแสดงตัวอย่างให้ลูกค้าก่อนชำระเงิน"
           },
           {
             "heading": "วิธีที่ถูกกฎหมายในการได้ภาพไม่มีลายน้ำ",
-            "text": "วิธีที่ตรงที่สุดคือซื้อใบอนุญาต เว็บไซต์อย่าง Shutterstock, Adobe Stock, Getty Images ให้ภาพสะอาดความละเอียดสูงหลังจากซื้อใบอนุญาต ราคาเริ่มต้นจากไม่กี่ดอลลาร์ต่อภาพและถูกกว่าเมื่อใช้แพ็คเกจสมาชิก\n\nเว็บไซต์ภาพสต็อกฟรีเป็นทางเลือกที่ยอดเยี่ยม Unsplash, Pexels, Pixabay ให้ภาพคุณภาพสูงหลายล้านภาพโดยไม่มีลายน้ำและไม่มีค่าใช้จ่าย ส่วนใหญ่ใช้เพื่อการค้าได้เช่นกัน\n\nภาพที่มีใบอนุญาต Creative Commons เป็นอีกทางเลือก บน Flickr และ Wikimedia Commons มีภาพมากมายภายใต้ใบอนุญาต CC ที่อนุญาตให้ใช้ฟรี เพียงแค่ให้เครดิตผู้สร้างต้นฉบับ"
+            "text": "วิธีที่ตรงที่สุดคือซื้อใบอนุญาต เว็บไซต์อย่าง Shutterstock, Adobe Stock, Getty Images ให้ภาพสะอาดความละเอียดสูงหลังจากซื้อใบอนุญาต ราคาเริ่มต้นจากไม่กี่ดอลลาร์ต่อภาพและถูกกว่าเมื่อใช้แพ็คเกจสมาชิก"
           },
           {
             "heading": "สร้างภาพมืออาชีพของคุณเอง",
-            "text": "กล้องสมาร์ทโฟนก้าวหน้ามากจนคุณสามารถถ่ายภาพคุณภาพระดับมืออาชีพได้เอง ด้วยแสงที่ดี มือนิ่ง และองค์ประกอบที่ถูกต้อง โทรศัพท์ของคุณสามารถสร้างภาพที่เทียบเท่าภาพสต็อกได้\n\nเครื่องมือสร้างภาพ AI เช่น DALL-E, Midjourney และ Stable Diffusion ช่วยให้คุณสร้างภาพที่ไม่ซ้ำใครจากคำอธิบายข้อความ ภาพเหล่านี้เป็นต้นฉบับทั้งหมดและไม่มีปัญหาด้านลิขสิทธิ์หรือลายน้ำ\n\nเครื่องมือออกแบบอย่าง Canva, Figma ช่วยให้สร้างกราฟิกและภาพประกอบที่กำหนดเองได้ มีเทมเพลตและองค์ประกอบฟรีสำหรับสร้างกราฟิกมืออาชีพสำหรับทุกความต้องการ"
+            "text": "กล้องสมาร์ทโฟนก้าวหน้ามากจนคุณสามารถถ่ายภาพคุณภาพระดับมืออาชีพได้เอง ด้วยแสงที่ดี มือนิ่ง และองค์ประกอบที่ถูกต้อง โทรศัพท์ของคุณสามารถสร้างภาพที่เทียบเท่าภาพสต็อกได้"
           },
           {
             "heading": "ทำให้ภาพของคุณเป็นมืออาชีพด้วย ToolPic",
-            "text": "หากคุณถ่ายภาพเอง ใช้เครื่องมือ Image Watermark ของ ToolPic เพื่อเพิ่มลายน้ำของคุณเอง เพิ่มชื่อ แบรนด์ หรือโลโก้เป็นลายน้ำเพื่อปกป้องภาพและรักษาตัวตนของคุณ\n\nก่อนเพิ่มลายน้ำ ใช้ Image Crop เพื่อครอปภาพให้ถูกขนาดและอัตราส่วน เลือกขนาดที่เหมาะสมสำหรับโซเชียลมีเดีย เว็บไซต์ หรือการนำเสนอ\n\nเครื่องมือ ToolPic ทั้งหมดทำงานในเบราว์เซอร์และฟรีทั้งหมด ภาพของคุณไม่เคยถูกอัปโหลดไปยังเซิร์ฟเวอร์ภายนอก สร้างภาพต้นฉบับของคุณเองและปกป้องอย่างมืออาชีพ"
+            "text": "หากคุณถ่ายภาพเอง ใช้เครื่องมือ Image Watermark ของ ToolPic เพื่อเพิ่มลายน้ำของคุณเอง เพิ่มชื่อ แบรนด์ หรือโลโก้เป็นลายน้ำเพื่อปกป้องภาพและรักษาตัวตนของคุณ"
           }
         ]
       },
@@ -1031,19 +1367,19 @@
         "content": [
           {
             "heading": "ความแตกต่างระหว่าง GIF และวิดีโอ",
-            "text": "GIF (Graphics Interchange Format) เป็นรูปแบบภาพเคลื่อนไหวที่มีมาตั้งแต่ปี 1987 เล่นวนซ้ำอัตโนมัติ ไม่มีเสียง และรองรับสูงสุด 256 สี ข้อดีที่ใหญ่ที่สุดของ GIF คือทำงานได้บนเกือบทุกแพลตฟอร์มโดยไม่ต้องใช้โปรแกรมเล่นแยก\n\nรูปแบบวิดีโอเช่น MP4, WebM รองรับหลายล้านสี การบีบอัดดีกว่ามาก และสามารถรวมเสียงได้ รูปแบบ MP4 กับ Codec H.264 เป็นรูปแบบวิดีโอที่รองรับกว้างขวางที่สุด\n\nความแตกต่างของขนาดไฟล์มหาศาล คลิป 5 วินาทีที่ 720p ในรูปแบบ GIF อาจมีขนาด 10-20MB ในขณะที่เนื้อหาเดียวกันใน MP4 มีเพียง 500KB-1MB ความแตกต่าง 10-20 เท่านี้มีผลกระทบอย่างมากต่อความเร็วในการโหลดและแบนด์วิดท์"
+            "text": "GIF (Graphics Interchange Format) เป็นรูปแบบภาพเคลื่อนไหวที่มีมาตั้งแต่ปี 1987 เล่นวนซ้ำอัตโนมัติ ไม่มีเสียง และรองรับสูงสุด 256 สี ข้อดีที่ใหญ่ที่สุดของ GIF คือทำงานได้บนเกือบทุกแพลตฟอร์มโดยไม่ต้องใช้โปรแกรมเล่นแยก"
           },
           {
             "heading": "เมื่อไหร่ GIF ดีกว่า",
-            "text": "GIF เหมาะสำหรับรีแอคชั่นบนโซเชียลมีเดียและมีม การแชร์ GIF บน WhatsApp, Telegram, Slack และ Discord ง่ายมากและเล่นทันที สติกเกอร์เคลื่อนไหวขนาดเล็กและแอนิเมชันสไตล์อีโมจิทำงานได้ดีที่สุดในรูปแบบ GIF\n\nในการตลาดอีเมล GIF มีประสิทธิภาพมาก แอปอีเมลส่วนใหญ่ไม่รองรับวิดีโอแต่รองรับ GIF การเพิ่ม GIF ในอีเมลเป็นตัวอย่างสินค้าหรือดึงความสนใจสามารถเพิ่มอัตราการคลิกได้อย่างมาก\n\nในบทเรียน UI/UX และสาธิตซอฟต์แวร์ GIF สั้นๆ มีประสิทธิภาพมาก การใส่ GIF ในไฟล์ README ของ GitHub เอกสาร และบทความสนับสนุนเป็นวิธีที่ง่ายที่สุดในการแสดงขั้นตอนโดยไม่ต้องใช้โปรแกรมเล่นวิดีโอแยก"
+            "text": "GIF เหมาะสำหรับรีแอคชั่นบนโซเชียลมีเดียและมีม การแชร์ GIF บน WhatsApp, Telegram, Slack และ Discord ง่ายมากและเล่นทันที สติกเกอร์เคลื่อนไหวขนาดเล็กและแอนิเมชันสไตล์อีโมจิทำงานได้ดีที่สุดในรูปแบบ GIF"
           },
           {
             "heading": "เมื่อไหร่วิดีโอดีกว่า",
-            "text": "สำหรับเนื้อหาที่ยาว วิดีโอดีกว่าเสมอ คลิปที่ยาวกว่า 10 วินาทีควรใช้รูปแบบวิดีโอเพราะขนาดไฟล์ GIF จะใหญ่เกินไปจนไม่เหมาะ\n\nสำหรับประสิทธิภาพเว็บไซต์ วิดีโอดีกว่ามาก องค์ประกอบวิดีโอ HTML5 กับ autoplay, loop และ muted ทำงานเหมือน GIF แต่ขนาดไฟล์เล็กกว่า 90% ช่วยปรับปรุงความเร็วการโหลดหน้าเว็บอย่างมาก\n\nเมื่อต้องการเสียง วิดีโอเป็นตัวเลือกเดียว สำหรับบทเรียน รีวิวสินค้า สัมภาษณ์ และเนื้อหาที่มีเสียง ให้เลือกวิดีโอ เนื้อหาภาพคุณภาพสูงเช่นแกลเลอรีภาพหรือคลิปภาพยนตร์ก็ควรใช้วิดีโอ"
+            "text": "สำหรับเนื้อหาที่ยาว วิดีโอดีกว่าเสมอ คลิปที่ยาวกว่า 10 วินาทีควรใช้รูปแบบวิดีโอเพราะขนาดไฟล์ GIF จะใหญ่เกินไปจนไม่เหมาะ"
           },
           {
             "heading": "แปลงระหว่าง GIF และวิดีโอด้วย ToolPic",
-            "text": "เครื่องมือ Video to GIF ของ ToolPic แปลงวิดีโอเป็น GIF ได้ง่ายๆ อัปโหลดวิดีโอ เลือกจุดเริ่มต้นและสิ้นสุด ปรับอัตราเฟรมและขนาด แล้วแปลง เครื่องมือสร้าง GIF ที่ปรับแต่งแล้วด้วยสมดุลที่เหมาะสมระหว่างคุณภาพและขนาดไฟล์\n\nใช้ Video Compress เพื่อลดขนาดไฟล์วิดีโอโดยไม่สูญเสียคุณภาพ ปรับความละเอียดและบิตเรตเพื่อเพิ่มประสิทธิภาพวิดีโอสำหรับโซเชียลมีเดียหรือแอปส่งข้อความ\n\nเครื่องมือทั้งสองใช้เทคโนโลยี WebAssembly (FFmpeg) และทำงานในเบราว์เซอร์ทั้งหมด ไม่มีไฟล์ใดถูกอัปโหลดไปยังเซิร์ฟเวอร์ ไม่จำกัดขนาด และไม่ต้องสมัครสมาชิก สร้าง GIF หรือบีบอัดวิดีโอ ทั้งหมดฟรีและเป็นส่วนตัว"
+            "text": "เครื่องมือ Video to GIF ของ ToolPic แปลงวิดีโอเป็น GIF ได้ง่ายๆ อัปโหลดวิดีโอ เลือกจุดเริ่มต้นและสิ้นสุด ปรับอัตราเฟรมและขนาด แล้วแปลง เครื่องมือสร้าง GIF ที่ปรับแต่งแล้วด้วยสมดุลที่เหมาะสมระหว่างคุณภาพและขนาดไฟล์"
           }
         ]
       },
@@ -1056,19 +1392,19 @@
         "content": [
           {
             "heading": "ทำไมต้องแยกเสียงจากวิดีโอ",
-            "text": "มีหลายสถานการณ์ที่คุณต้องการเฉพาะส่วนเสียงของวิดีโอ ผู้ทำพอดแคสต์แยกเสียงจากวิดีโอสัมภาษณ์เพื่อสร้างตอนที่มีเฉพาะเสียง นักดนตรีแยกแทร็กเสียงจากวิดีโอบันทึกการแสดงสด นักศึกษาแยกเสียงจากวิดีโอบรรยายเพื่อฟังขณะเดินทาง\n\nไฟล์เสียงมีขนาดเล็กกว่าวิดีโอมาก วิดีโอ 10 นาทีที่ 1080p อาจมีขนาด 200MB ในขณะที่เสียง MP3 ของมันมีเพียง 10MB ช่วยประหยัดพื้นที่จัดเก็บและลดการใช้ข้อมูลมือถือ\n\nการแยกเสียงยังมีประโยชน์ในการตัดต่อวิดีโอ เพื่อแก้ไขเพลงพื้นหลัง เสียงพากย์ หรือเอฟเฟกต์เสียงแยกกัน จำเป็นต้องแยกออกจากวิดีโอต้นฉบับก่อน"
+            "text": "มีหลายสถานการณ์ที่คุณต้องการเฉพาะส่วนเสียงของวิดีโอ ผู้ทำพอดแคสต์แยกเสียงจากวิดีโอสัมภาษณ์เพื่อสร้างตอนที่มีเฉพาะเสียง นักดนตรีแยกแทร็กเสียงจากวิดีโอบันทึกการแสดงสด นักศึกษาแยกเสียงจากวิดีโอบรรยายเพื่อฟังขณะเดินทาง"
           },
           {
             "heading": "ทำความเข้าใจรูปแบบเสียง",
-            "text": "MP3 เป็นรูปแบบเสียงที่นิยมที่สุด ใช้การบีบอัดแบบสูญเสียข้อมูลและให้คุณภาพดีที่บิตเรต 128-320 kbps แทบทุกอุปกรณ์และแอปพลิเคชันรองรับ MP3 ทำให้เป็นตัวเลือกที่สากลที่สุด\n\nAAC (Advanced Audio Coding) ให้คุณภาพดีกว่า MP3 โดยเฉพาะที่บิตเรตต่ำ เป็นรูปแบบเริ่มต้นบนอุปกรณ์ Apple และ YouTube ก็ใช้เสียง AAC เช่นกัน\n\nWAV และ FLAC เป็นรูปแบบที่ไม่สูญเสียข้อมูล ไม่ลดคุณภาพเสียงเลย เป็นที่นิยมในการผลิตเสียงมืออาชีพ แต่ขนาดไฟล์ใหญ่กว่า MP3 ถึง 5-10 เท่า OGG Vorbis เป็นทางเลือกโอเพนซอร์สที่ให้ความสมดุลที่ดีระหว่างคุณภาพและขนาดไฟล์"
+            "text": "MP3 เป็นรูปแบบเสียงที่นิยมที่สุด ใช้การบีบอัดแบบสูญเสียข้อมูลและให้คุณภาพดีที่บิตเรต 128-320 kbps แทบทุกอุปกรณ์และแอปพลิเคชันรองรับ MP3 ทำให้เป็นตัวเลือกที่สากลที่สุด"
           },
           {
             "heading": "แยกเสียงอย่างถูกกฎหมาย",
-            "text": "การแยกเสียงจากไฟล์วิดีโอของคุณเองถูกกฎหมายอย่างสมบูรณ์ หากคุณบันทึกวิดีโอเองหรือมีใบอนุญาต คุณสามารถใช้เสียงได้ตามต้องการ\n\nการดาวน์โหลดเนื้อหาจากแพลตฟอร์มเช่น YouTube อาจละเมิดข้อกำหนดการให้บริการ การดาวน์โหลดเนื้อหาที่มีลิขสิทธิ์โดยไม่ได้รับอนุญาตอาจก่อให้เกิดปัญหาทางกฎหมาย ขออนุญาตจากเจ้าของเนื้อหาเสมอหรือใช้เนื้อหาที่มีใบอนุญาต Creative Commons\n\nวิธีที่ปลอดภัยที่สุดคือแยกเสียงจากไฟล์วิดีโอที่มีอยู่ในอุปกรณ์ของคุณ การบันทึกหน้าจอ วิดีโอส่วนตัว เนื้อหาที่มีใบอนุญาต หรือวิดีโอที่คุณสร้างเองล้วนเป็นแหล่งที่ถูกต้องตามกฎหมาย"
+            "text": "การแยกเสียงจากไฟล์วิดีโอของคุณเองถูกกฎหมายอย่างสมบูรณ์ หากคุณบันทึกวิดีโอเองหรือมีใบอนุญาต คุณสามารถใช้เสียงได้ตามต้องการ"
           },
           {
             "heading": "แยกเสียงด้วย ToolPic",
-            "text": "เครื่องมือ Video Extract Audio ของ ToolPic เป็นวิธีที่ง่ายที่สุดในการแยกเสียงจากวิดีโอ อัปโหลดไฟล์วิดีโอ (MP4, WebM, MOV, AVI ฯลฯ) และเลือกรูปแบบเอาต์พุต เครื่องมือแยกแทร็กเสียงจากวิดีโอและบันทึกในรูปแบบที่เลือก\n\nการประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์ผ่านเทคโนโลยี WebAssembly (FFmpeg) ไฟล์วิดีโอของคุณไม่เคยถูกอัปโหลดไปยังเซิร์ฟเวอร์ใดๆ เป็นวิธีที่ดีที่สุดสำหรับความเป็นส่วนตัวและความปลอดภัย\n\nเครื่องมือสามารถส่งออกเป็น MP3, AAC, WAV และรูปแบบเสียงอื่นๆ ปรับบิตเรตและการตั้งค่าคุณภาพตามต้องการ เมื่อการประมวลผลเสร็จสิ้น ไฟล์เสียงพร้อมดาวน์โหลดทันที ไม่ต้องสมัครสมาชิก ไม่มีข้อจำกัด ฟรีทั้งหมด"
+            "text": "เครื่องมือ Video Extract Audio ของ ToolPic เป็นวิธีที่ง่ายที่สุดในการแยกเสียงจากวิดีโอ อัปโหลดไฟล์วิดีโอ (MP4, WebM, MOV, AVI ฯลฯ) และเลือกรูปแบบเอาต์พุต เครื่องมือแยกแทร็กเสียงจากวิดีโอและบันทึกในรูปแบบที่เลือก"
           }
         ]
       }

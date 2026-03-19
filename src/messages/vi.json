@@ -356,55 +356,391 @@
     }
   },
   "seoPages": {
-    "privacy": "Your files are processed locally in your browser. Nothing is uploaded to any server.",
-    "convertJpgToPng": "Convert JPG to PNG Online - Free",
-    "convertJpgToPngDesc": "Convert JPG/JPEG images to PNG format online for free. Preserve transparency and quality. No upload needed, 100% browser-based.",
-    "convertJpgToWebp": "Convert JPG to WebP Online - Free",
-    "convertJpgToWebpDesc": "Convert JPG images to WebP format for smaller file sizes with the same quality. Perfect for web optimization.",
-    "convertPngToJpg": "Convert PNG to JPG Online - Free",
-    "convertPngToJpgDesc": "Convert PNG images to JPG format online for free. Reduce file size while maintaining visual quality. No software needed.",
-    "convertPngToWebp": "Convert PNG to WebP Online - Free",
-    "convertPngToWebpDesc": "Convert PNG images to WebP format for significantly smaller file sizes. Ideal for faster website loading.",
-    "convertWebpToJpg": "Convert WebP to JPG Online - Free",
-    "convertWebpToJpgDesc": "Convert WebP images to JPG format online for free. Make your images compatible with all devices and software.",
-    "convertWebpToPng": "Convert WebP to PNG Online - Free",
-    "convertWebpToPngDesc": "Convert WebP images to PNG format online for free. Get lossless quality with full transparency support.",
-    "convertHeicToJpg": "Convert HEIC to JPG Online - Free",
-    "convertHeicToJpgDesc": "Convert iPhone HEIC/HEIF photos to JPG format online for free. Make your Apple photos universally compatible.",
-    "convertBmpToJpg": "Convert BMP to JPG Online - Free",
-    "convertBmpToJpgDesc": "Convert BMP bitmap images to JPG format online for free. Dramatically reduce file size from uncompressed BMP files.",
-    "convertMp4ToWebm": "Convert MP4 to WebM Online - Free",
-    "convertMp4ToWebmDesc": "Convert MP4 videos to WebM format online for free. WebM offers smaller file sizes ideal for web embedding.",
-    "convertMp4ToAvi": "Convert MP4 to AVI Online - Free",
-    "convertMp4ToAviDesc": "Convert MP4 videos to AVI format online for free. AVI provides wide compatibility with older media players and editors.",
-    "convertWebmToMp4": "Convert WebM to MP4 Online - Free",
-    "convertWebmToMp4Desc": "Convert WebM videos to MP4 format online for free. MP4 is the most universally compatible video format.",
-    "convertMp4ToGif": "Convert MP4 to GIF Online - Free",
-    "convertMp4ToGifDesc": "Convert MP4 video clips to animated GIF online for free. Create shareable GIFs from any video. Custom frame rate and size.",
-    "compressJpg": "Compress JPG Images Online - Free",
-    "compressJpgDesc": "Compress JPG/JPEG images online for free. Reduce file size up to 80% without visible quality loss. No upload required.",
-    "compressPng": "Compress PNG Images Online - Free",
-    "compressPngDesc": "Compress PNG images online for free. Reduce PNG file size while preserving transparency and quality. 100% browser-based.",
-    "compressWebp": "Compress WebP Images Online - Free",
-    "compressWebpDesc": "Compress WebP images online for free. Optimize WebP file size for faster web performance without sacrificing quality.",
-    "compressMp4": "Compress MP4 Videos Online - Free",
-    "compressMp4Desc": "Compress MP4 video files online for free. Reduce video size by up to 70% while maintaining watchable quality. No server upload.",
-    "resizeInstagram": "Resize Image for Instagram - Free Online Tool",
-    "resizeInstagramDesc": "Resize and crop images to perfect Instagram dimensions online for free. Supports posts (1080x1080), stories (1080x1920), and reels.",
-    "resizeFacebook": "Resize Image for Facebook - Free Online Tool",
-    "resizeFacebookDesc": "Resize images for Facebook cover photos, profile pictures, and posts online for free. Get the perfect dimensions every time.",
-    "resizeTwitter": "Resize Image for Twitter/X - Free Online Tool",
-    "resizeTwitterDesc": "Resize images for Twitter/X headers (1500x500), posts, and profile pictures online for free. Optimized for the platform.",
-    "resizeYoutube": "Resize Image for YouTube Thumbnail - Free",
-    "resizeYoutubeDesc": "Create perfect YouTube thumbnails at 1280x720 pixels online for free. Crop and resize images to the ideal thumbnail size.",
-    "removeBg": "Remove Image Background Online - Free AI Tool",
-    "removeBgDesc": "Remove backgrounds from images online for free using AI. Get transparent PNG in seconds. Works with people, products, and objects.",
-    "addWatermark": "Add Watermark to Photos Online - Free",
-    "addWatermarkDesc": "Add text or logo watermarks to your photos online for free. Protect your images with custom watermarks. Batch processing supported.",
-    "mergePhotos": "Merge Photos Online - Free Image Combiner",
-    "mergePhotosDesc": "Combine and merge multiple photos into one image online for free. Create collages, side-by-side comparisons, and long images.",
-    "extractMp3": "Extract MP3 from Video Online - Free",
-    "extractMp3Desc": "Extract audio from video files and save as MP3 online for free. Works with MP4, WebM, AVI, and other video formats."
+    "privacy": "Tệp của bạn được xử lý cục bộ trong trình duyệt. Không có gì được tải lên máy chủ.",
+    "convertJpgToPng": "Chuyển đổi JPG sang PNG trực tuyến - Miễn phí",
+    "convertJpgToPngDesc": "Chuyển đổi hình ảnh JPG/JPEG sang định dạng PNG trực tuyến miễn phí. Bảo toàn độ trong suốt và chất lượng. Không cần tải lên, 100% dựa trên trình duyệt.",
+    "convertJpgToWebp": "Chuyển đổi JPG sang WebP trực tuyến - Miễn phí",
+    "convertJpgToWebpDesc": "Chuyển đổi hình ảnh JPG sang định dạng WebP để có kích thước tệp nhỏ hơn với cùng chất lượng. Hoàn hảo cho tối ưu hóa web.",
+    "convertPngToJpg": "Chuyển đổi PNG sang JPG trực tuyến - Miễn phí",
+    "convertPngToJpgDesc": "Chuyển đổi hình ảnh PNG sang định dạng JPG trực tuyến miễn phí. Giảm kích thước tệp mà vẫn duy trì chất lượng hình ảnh. Không cần phần mềm.",
+    "convertPngToWebp": "Chuyển đổi PNG sang WebP trực tuyến - Miễn phí",
+    "convertPngToWebpDesc": "Chuyển đổi hình ảnh PNG sang định dạng WebP để có kích thước tệp nhỏ hơn đáng kể. Lý tưởng để tải trang web nhanh hơn.",
+    "convertWebpToJpg": "Chuyển đổi WebP sang JPG trực tuyến - Miễn phí",
+    "convertWebpToJpgDesc": "Chuyển đổi hình ảnh WebP sang định dạng JPG trực tuyến miễn phí. Làm cho hình ảnh của bạn tương thích với mọi thiết bị và phần mềm.",
+    "convertWebpToPng": "Chuyển đổi WebP sang PNG trực tuyến - Miễn phí",
+    "convertWebpToPngDesc": "Chuyển đổi hình ảnh WebP sang định dạng PNG trực tuyến miễn phí. Nhận chất lượng không mất dữ liệu với hỗ trợ độ trong suốt đầy đủ.",
+    "convertHeicToJpg": "Chuyển đổi HEIC sang JPG trực tuyến - Miễn phí",
+    "convertHeicToJpgDesc": "Chuyển đổi ảnh iPhone HEIC/HEIF sang định dạng JPG trực tuyến miễn phí. Làm cho ảnh Apple của bạn tương thích toàn cầu.",
+    "convertBmpToJpg": "Chuyển đổi BMP sang JPG trực tuyến - Miễn phí",
+    "convertBmpToJpgDesc": "Chuyển đổi hình ảnh bitmap BMP sang định dạng JPG trực tuyến miễn phí. Giảm đáng kể kích thước tệp từ các tệp BMP không nén.",
+    "convertMp4ToWebm": "Chuyển đổi MP4 sang WebM trực tuyến - Miễn phí",
+    "convertMp4ToWebmDesc": "Chuyển đổi video MP4 sang định dạng WebM trực tuyến miễn phí. WebM cung cấp kích thước tệp nhỏ hơn lý tưởng để nhúng web.",
+    "convertMp4ToAvi": "Chuyển đổi MP4 sang AVI trực tuyến - Miễn phí",
+    "convertMp4ToAviDesc": "Chuyển đổi video MP4 sang định dạng AVI trực tuyến miễn phí. AVI cung cấp khả năng tương thích rộng với các trình phát và trình chỉnh sửa media cũ.",
+    "convertWebmToMp4": "Chuyển đổi WebM sang MP4 trực tuyến - Miễn phí",
+    "convertWebmToMp4Desc": "Chuyển đổi video WebM sang định dạng MP4 trực tuyến miễn phí. MP4 là định dạng video tương thích phổ biến nhất.",
+    "convertMp4ToGif": "Chuyển đổi MP4 sang GIF trực tuyến - Miễn phí",
+    "convertMp4ToGifDesc": "Chuyển đổi clip video MP4 thành GIF động trực tuyến miễn phí. Tạo GIF có thể chia sẻ từ bất kỳ video nào. Tốc độ khung hình và kích thước tùy chỉnh.",
+    "compressJpg": "Nén ảnh JPG trực tuyến - Miễn phí",
+    "compressJpgDesc": "Nén hình ảnh JPG/JPEG trực tuyến miễn phí. Giảm kích thước tệp lên đến 80% mà không mất chất lượng nhìn thấy. Không cần tải lên.",
+    "compressPng": "Nén ảnh PNG trực tuyến - Miễn phí",
+    "compressPngDesc": "Nén hình ảnh PNG trực tuyến miễn phí. Giảm kích thước tệp PNG mà vẫn bảo toàn độ trong suốt và chất lượng. 100% dựa trên trình duyệt.",
+    "compressWebp": "Nén ảnh WebP trực tuyến - Miễn phí",
+    "compressWebpDesc": "Nén hình ảnh WebP trực tuyến miễn phí. Tối ưu kích thước tệp WebP để hiệu suất web nhanh hơn mà không hy sinh chất lượng.",
+    "compressMp4": "Nén video MP4 trực tuyến - Miễn phí",
+    "compressMp4Desc": "Nén tệp video MP4 trực tuyến miễn phí. Giảm kích thước video lên đến 70% mà vẫn duy trì chất lượng xem được. Không tải lên máy chủ.",
+    "resizeInstagram": "Thay đổi kích thước ảnh cho Instagram - Công cụ trực tuyến miễn phí",
+    "resizeInstagramDesc": "Thay đổi kích thước và cắt hình ảnh theo kích thước Instagram hoàn hảo trực tuyến miễn phí. Hỗ trợ bài đăng (1080x1080), story (1080x1920) và reels.",
+    "resizeFacebook": "Thay đổi kích thước ảnh cho Facebook - Công cụ trực tuyến miễn phí",
+    "resizeFacebookDesc": "Thay đổi kích thước hình ảnh cho ảnh bìa Facebook, ảnh đại diện và bài đăng trực tuyến miễn phí. Nhận kích thước hoàn hảo mỗi lần.",
+    "resizeTwitter": "Thay đổi kích thước ảnh cho Twitter/X - Công cụ trực tuyến miễn phí",
+    "resizeTwitterDesc": "Thay đổi kích thước hình ảnh cho header Twitter/X (1500x500), bài đăng và ảnh đại diện trực tuyến miễn phí. Được tối ưu hóa cho nền tảng.",
+    "resizeYoutube": "Thay đổi kích thước ảnh cho YouTube Thumbnail - Miễn phí",
+    "resizeYoutubeDesc": "Tạo thumbnail YouTube hoàn hảo 1280x720 pixel trực tuyến miễn phí. Cắt và thay đổi kích thước hình ảnh theo kích thước thumbnail lý tưởng.",
+    "removeBg": "Xóa nền ảnh trực tuyến - Công cụ AI miễn phí",
+    "removeBgDesc": "Xóa nền từ hình ảnh trực tuyến miễn phí bằng AI. Nhận PNG trong suốt trong vài giây. Hoạt động với người, sản phẩm và vật thể.",
+    "addWatermark": "Thêm watermark vào ảnh trực tuyến - Miễn phí",
+    "addWatermarkDesc": "Thêm watermark văn bản hoặc logo vào ảnh của bạn trực tuyến miễn phí. Bảo vệ hình ảnh với watermark tùy chỉnh. Hỗ trợ xử lý hàng loạt.",
+    "mergePhotos": "Ghép ảnh trực tuyến - Công cụ kết hợp ảnh miễn phí",
+    "mergePhotosDesc": "Kết hợp và ghép nhiều ảnh thành một hình ảnh trực tuyến miễn phí. Tạo collage, so sánh cạnh nhau và ảnh dài.",
+    "extractMp3": "Trích xuất MP3 từ video trực tuyến - Miễn phí",
+    "extractMp3Desc": "Trích xuất âm thanh từ tệp video và lưu dưới dạng MP3 trực tuyến miễn phí. Hoạt động với MP4, WebM, AVI và các định dạng video khác.",
+    "convertJpgToPngHowTo": "Cách chuyển đổi JPG sang PNG",
+    "convertJpgToPngStep1": "Tải lên ảnh JPG",
+    "convertJpgToPngStep1Desc": "Kéo thả hoặc nhấp để chọn tệp hình ảnh JPG/JPEG từ thiết bị của bạn.",
+    "convertJpgToPngStep2": "Chuyển đổi sang PNG",
+    "convertJpgToPngStep2Desc": "Chọn PNG làm định dạng đầu ra và nhấp Bắt đầu để bắt đầu quá trình chuyển đổi.",
+    "convertJpgToPngStep3": "Tải xuống tệp PNG",
+    "convertJpgToPngStep3Desc": "Tệp PNG đã chuyển đổi của bạn đã sẵn sàng. Tải xuống ngay lập tức về thiết bị của bạn.",
+    "convertJpgToPngFaqTitle": "Câu hỏi thường gặp",
+    "convertJpgToPngFaq1Q": "Chuyển đổi JPG sang PNG có cải thiện chất lượng hình ảnh không?",
+    "convertJpgToPngFaq1A": "Chuyển đổi JPG sang PNG không khôi phục chất lượng đã mất trong quá trình nén JPG. Tuy nhiên, PNG sử dụng nén không mất dữ liệu, nên hình ảnh của bạn sẽ không mất thêm chất lượng khi lưu trong tương lai. Điều này làm PNG lý tưởng cho hình ảnh bạn dự định chỉnh sửa nhiều lần.",
+    "convertJpgToPngFaq2Q": "Tại sao tệp PNG lớn hơn JPG gốc?",
+    "convertJpgToPngFaq2A": "PNG sử dụng nén không mất dữ liệu bảo toàn mọi pixel chính xác, dẫn đến kích thước tệp lớn hơn. JPG đạt được tệp nhỏ hơn bằng cách loại bỏ dữ liệu hình ảnh thông qua nén mất dữ liệu. Đổi lại, PNG mang lại chất lượng hoàn hảo từng pixel với hỗ trợ độ trong suốt.",
+    "convertJpgToPngFaq3Q": "Khi nào nên sử dụng PNG thay vì JPG?",
+    "convertJpgToPngFaq3A": "Sử dụng PNG cho hình ảnh cần độ trong suốt, logo, ảnh chụp màn hình, lớp phủ văn bản, hoặc đồ họa sẽ được chỉnh sửa nhiều lần. JPG phù hợp hơn cho ảnh chụp và hình ảnh lớn khi kích thước tệp nhỏ hơn quan trọng hơn việc bảo toàn từng pixel.",
+    "convertJpgToWebpHowTo": "Cách chuyển đổi JPG sang WebP",
+    "convertJpgToWebpStep1": "Tải lên tệp JPG của bạn",
+    "convertJpgToWebpStep1Desc": "Kéo thả hoặc duyệt để chọn hình ảnh JPG bạn muốn chuyển đổi sang định dạng WebP.",
+    "convertJpgToWebpStep2": "Chọn đầu ra WebP",
+    "convertJpgToWebpStep2Desc": "Chọn WebP làm định dạng đích. Điều chỉnh cài đặt chất lượng nếu cần để giảm kích thước tệp tối ưu.",
+    "convertJpgToWebpStep3": "Tải xuống hình ảnh WebP",
+    "convertJpgToWebpStep3Desc": "Tệp WebP tối ưu của bạn đã sẵn sàng. Tải xuống và tận hưởng kích thước tệp nhỏ hơn đáng kể cho sử dụng web.",
+    "convertJpgToWebpFaqTitle": "Câu hỏi thường gặp",
+    "convertJpgToWebpFaq1Q": "WebP nhỏ hơn bao nhiêu so với JPG?",
+    "convertJpgToWebpFaq1A": "Hình ảnh WebP thường nhỏ hơn 25-35% so với tệp JPG tương đương ở cùng chất lượng hình ảnh. Sự giảm này đến từ thuật toán nén hiệu quả hơn của WebP, làm cho nó lý tưởng để tối ưu hóa trang web nơi thời gian tải trang nhanh hơn cải thiện SEO và trải nghiệm người dùng.",
+    "convertJpgToWebpFaq2Q": "Tất cả trình duyệt có hỗ trợ định dạng WebP không?",
+    "convertJpgToWebpFaq2A": "Tất cả trình duyệt hiện đại bao gồm Chrome, Firefox, Safari, Edge và Opera đều hỗ trợ đầy đủ WebP. Trình duyệt cũ như Internet Explorer không hỗ trợ. Đối với trang web, bạn có thể phục vụ WebP với JPG dự phòng bằng phần tử HTML picture để đảm bảo tương thích toàn cầu.",
+    "convertJpgToWebpFaq3Q": "Chuyển đổi JPG sang WebP có mất chất lượng không?",
+    "convertJpgToWebpFaq3A": "WebP hỗ trợ cả nén mất dữ liệu và không mất dữ liệu. Với WebP mất dữ liệu ở cài đặt chất lượng tương đương, sự khác biệt hình ảnh so với JPG là không thể nhận thấy bằng mắt thường trong khi cung cấp kích thước tệp nhỏ hơn. WebP không mất dữ liệu bảo toàn mọi pixel nhưng tạo tệp lớn hơn chế độ mất dữ liệu.",
+    "convertPngToJpgHowTo": "Cách chuyển đổi PNG sang JPG",
+    "convertPngToJpgStep1": "Chọn hình ảnh PNG",
+    "convertPngToJpgStep1Desc": "Tải lên tệp PNG bằng cách kéo vào vùng thả hoặc nhấp để duyệt tệp.",
+    "convertPngToJpgStep2": "Chuyển đổi sang định dạng JPG",
+    "convertPngToJpgStep2Desc": "Chọn JPG làm định dạng đầu ra và điều chỉnh thanh trượt chất lượng để cân bằng kích thước tệp và độ rõ nét.",
+    "convertPngToJpgStep3": "Lưu tệp JPG của bạn",
+    "convertPngToJpgStep3Desc": "Tải xuống hình ảnh JPG đã chuyển đổi. Kích thước tệp thường nhỏ hơn 50-80% so với PNG gốc.",
+    "convertPngToJpgFaqTitle": "Câu hỏi thường gặp",
+    "convertPngToJpgFaq1Q": "Điều gì xảy ra với độ trong suốt khi chuyển đổi PNG sang JPG?",
+    "convertPngToJpgFaq1A": "JPG không hỗ trợ độ trong suốt, nên bất kỳ vùng trong suốt nào trong PNG sẽ được lấp đầy bằng màu nền đặc, thường là trắng. Nếu bạn cần giữ độ trong suốt, hãy cân nhắc chuyển đổi sang WebP thay thế, hỗ trợ cả độ trong suốt và kích thước tệp nhỏ hơn.",
+    "convertPngToJpgFaq2Q": "Tôi có thể giảm bao nhiêu kích thước tệp bằng cách chuyển đổi PNG sang JPG?",
+    "convertPngToJpgFaq2A": "Chuyển đổi PNG sang JPG thường giảm kích thước tệp 50-90%, tùy thuộc vào độ phức tạp hình ảnh và cài đặt chất lượng JPG. Ảnh chụp có mức giảm lớn nhất vì nén mất dữ liệu của JPG xuất sắc trong việc mã hóa nội dung ảnh với chuyển đổi màu sắc mượt mà.",
+    "convertPngToJpgFaq3Q": "Tôi nên sử dụng cài đặt chất lượng JPG nào?",
+    "convertPngToJpgFaq3A": "Đối với hình ảnh web, chất lượng 80-85% cung cấp sự cân bằng tốt nhất giữa độ trung thực hình ảnh và kích thước tệp. Để in hoặc lưu trữ, chọn 95-100%. Dưới 70%, các hiện tượng nén trở nên đáng chú ý, đặc biệt xung quanh các cạnh sắc và văn bản, nên tránh chất lượng thấp cho hình ảnh có chi tiết tinh xảo.",
+    "convertPngToWebpHowTo": "Cách chuyển đổi PNG sang WebP",
+    "convertPngToWebpStep1": "Tải lên tệp PNG",
+    "convertPngToWebpStep1Desc": "Kéo thả hình ảnh PNG hoặc nhấp để duyệt. Hỗ trợ tất cả tệp PNG bao gồm cả tệp có độ trong suốt.",
+    "convertPngToWebpStep2": "Chọn định dạng WebP",
+    "convertPngToWebpStep2Desc": "Chọn WebP làm đầu ra. WebP bảo toàn độ trong suốt PNG trong khi cung cấp kích thước tệp nhỏ hơn đáng kể.",
+    "convertPngToWebpStep3": "Tải xuống kết quả WebP",
+    "convertPngToWebpStep3Desc": "Lưu hình ảnh WebP đã chuyển đổi. Tận hưởng tệp nhỏ hơn đến 45% với chất lượng hình ảnh giống hệt.",
+    "convertPngToWebpFaqTitle": "Câu hỏi thường gặp",
+    "convertPngToWebpFaq1Q": "WebP có hỗ trợ độ trong suốt như PNG không?",
+    "convertPngToWebpFaq1A": "Có, WebP hỗ trợ đầy đủ kênh alpha trong suốt giống như PNG. Ưu điểm chính là hình ảnh WebP trong suốt nhỏ hơn đáng kể so với PNG trong suốt tương đương, thường nhỏ hơn 40-50%, làm cho chúng lý tưởng cho logo, biểu tượng và đồ họa lớp phủ trên trang web.",
+    "convertPngToWebpFaq2Q": "Chuyển đổi PNG sang WebP có phải là không mất dữ liệu không?",
+    "convertPngToWebpFaq2A": "WebP hỗ trợ cả chế độ không mất dữ liệu và mất dữ liệu. WebP không mất dữ liệu bảo toàn mọi pixel giống hệt PNG gốc nhưng vẫn đạt được tệp nhỏ hơn 20-30%. WebP mất dữ liệu giảm kích thước hơn nữa với tác động hình ảnh tối thiểu, hoàn hảo cho tối ưu hóa hiệu suất web.",
+    "convertPngToWebpFaq3Q": "Tôi có nên thay thế tất cả hình ảnh PNG trên trang web bằng WebP không?",
+    "convertPngToWebpFaq3A": "Đối với hầu hết các trang web, chuyển đổi PNG sang WebP cải thiện đáng kể tốc độ tải trang và điểm Core Web Vitals. Sử dụng phần tử HTML picture để phục vụ WebP cho trình duyệt hiện đại với PNG dự phòng. Cách tiếp cận này đảm bảo tương thích trong khi tối đa hóa lợi ích hiệu suất.",
+    "convertWebpToJpgHowTo": "Cách chuyển đổi WebP sang JPG",
+    "convertWebpToJpgStep1": "Tải lên hình ảnh WebP",
+    "convertWebpToJpgStep1Desc": "Chọn tệp WebP bằng cách kéo vào hoặc duyệt thiết bị. Tất cả tệp WebP được hỗ trợ.",
+    "convertWebpToJpgStep2": "Chuyển đổi sang JPG",
+    "convertWebpToJpgStep2Desc": "Chọn JPG làm định dạng đích và bắt đầu chuyển đổi. Xử lý diễn ra ngay lập tức trong trình duyệt.",
+    "convertWebpToJpgStep3": "Tải xuống tệp JPG",
+    "convertWebpToJpgStep3Desc": "Lưu tệp JPG đã chuyển đổi. Giờ đây tương thích với mọi trình xem, trình chỉnh sửa và nền tảng.",
+    "convertWebpToJpgFaqTitle": "Câu hỏi thường gặp",
+    "convertWebpToJpgFaq1Q": "Tại sao tôi nên chuyển đổi WebP sang JPG?",
+    "convertWebpToJpgFaq1A": "Một số phần mềm cũ, ứng dụng email và nền tảng mạng xã hội không hỗ trợ đầy đủ WebP. Chuyển đổi sang JPG đảm bảo hình ảnh của bạn tương thích toàn cầu với mọi thiết bị, hệ điều hành và ứng dụng. JPG là định dạng hình ảnh được hỗ trợ rộng rãi nhất hiện nay.",
+    "convertWebpToJpgFaq2Q": "JPG có lớn hơn tệp WebP không?",
+    "convertWebpToJpgFaq2A": "Thường thì có, vì WebP sử dụng thuật toán nén hiệu quả hơn JPG. Ở chất lượng hình ảnh tương đương, tệp JPG thường lớn hơn 25-35%. Bạn có thể giảm kích thước tệp JPG bằng cách giảm thanh trượt chất lượng, mặc dù điều này gây ra nhiều hiện tượng nén nhìn thấy hơn.",
+    "convertWebpToJpgFaq3Q": "Tôi có thể chuyển đổi hàng loạt nhiều tệp WebP sang JPG không?",
+    "convertWebpToJpgFaq3A": "Có, bạn có thể tải lên nhiều tệp WebP và chuyển đổi tất cả sang JPG trong một phiên. Mỗi tệp được xử lý riêng lẻ trong trình duyệt mà không cần tải lên máy chủ. Điều này làm cho chuyển đổi hàng loạt nhanh chóng, riêng tư và miễn phí bất kể bạn cần chuyển đổi bao nhiêu hình ảnh.",
+    "convertWebpToPngHowTo": "Cách chuyển đổi WebP sang PNG",
+    "convertWebpToPngStep1": "Thêm tệp WebP của bạn",
+    "convertWebpToPngStep1Desc": "Tải lên hình ảnh WebP bạn muốn chuyển đổi. Hỗ trợ cả tệp WebP mất dữ liệu và không mất dữ liệu.",
+    "convertWebpToPngStep2": "Chuyển đổi sang định dạng PNG",
+    "convertWebpToPngStep2Desc": "Chọn PNG làm định dạng đầu ra. Bất kỳ độ trong suốt nào trong tệp WebP sẽ được bảo toàn đầy đủ trong kết quả PNG.",
+    "convertWebpToPngStep3": "Tải xuống hình ảnh PNG",
+    "convertWebpToPngStep3Desc": "Tệp PNG không mất dữ liệu đã sẵn sàng tải xuống. Sử dụng trong bất kỳ trình chỉnh sửa hoặc nền tảng nào mà không lo tương thích.",
+    "convertWebpToPngFaqTitle": "Câu hỏi thường gặp",
+    "convertWebpToPngFaq1Q": "Chuyển đổi WebP sang PNG có bảo toàn độ trong suốt không?",
+    "convertWebpToPngFaq1A": "Có, tất cả dữ liệu kênh alpha và độ trong suốt từ tệp WebP gốc được bảo toàn đầy đủ trong quá trình chuyển đổi PNG. PNG kết quả hỗ trợ cùng mức độ trong suốt, an toàn để chuyển đổi logo, biểu tượng và đồ họa lớp phủ mà không mất vùng trong suốt.",
+    "convertWebpToPngFaq2Q": "Tại sao PNG tốt hơn WebP để chỉnh sửa?",
+    "convertWebpToPngFaq2A": "PNG sử dụng nén không mất dữ liệu, nên việc mở và lưu tệp PNG nhiều lần không bao giờ làm giảm chất lượng. Một số trình chỉnh sửa hình ảnh cũng có hỗ trợ WebP hạn chế. Chuyển đổi sang PNG cho bạn khả năng tương thích tối đa với các công cụ chuyên nghiệp như Photoshop, GIMP và Illustrator.",
+    "convertWebpToPngFaq3Q": "Tệp PNG có lớn hơn WebP gốc không?",
+    "convertWebpToPngFaq3A": "Có, tệp PNG thường lớn hơn vì nén PNG kém hiệu quả hơn WebP. Tuy nhiên, đổi lại là khả năng tương thích toàn cầu và chất lượng không mất dữ liệu. Nếu kích thước tệp quan trọng, giữ phiên bản WebP cho sử dụng web và phiên bản PNG để chỉnh sửa và lưu trữ.",
+    "convertHeicToJpgHowTo": "Cách chuyển đổi HEIC sang JPG",
+    "convertHeicToJpgStep1": "Tải lên ảnh HEIC",
+    "convertHeicToJpgStep1Desc": "Chọn tệp ảnh HEIC/HEIF từ iPhone hoặc iPad. Bạn có thể tải trực tiếp từ thiết bị hoặc bộ nhớ đám mây.",
+    "convertHeicToJpgStep2": "Chuyển đổi sang JPG",
+    "convertHeicToJpgStep2Desc": "Công cụ tự động chuyển đổi tệp HEIC sang định dạng JPG tương thích toàn cầu trong trình duyệt của bạn.",
+    "convertHeicToJpgStep3": "Tải xuống ảnh JPG",
+    "convertHeicToJpgStep3Desc": "Lưu ảnh JPG đã chuyển đổi. Giờ đây có thể mở trên bất kỳ thiết bị nào, chia sẻ qua email hoặc tải lên bất cứ đâu.",
+    "convertHeicToJpgFaqTitle": "Câu hỏi thường gặp",
+    "convertHeicToJpgFaq1Q": "Định dạng HEIC là gì và tại sao Apple sử dụng?",
+    "convertHeicToJpgFaq1A": "HEIC (Vùng chứa Hình ảnh Hiệu quả Cao) là định dạng ảnh mặc định của Apple kể từ iOS 11. Nó tạo ra tệp nhỏ hơn khoảng 50% so với JPG ở chất lượng tương đương bằng nén HEVC. Apple áp dụng để tiết kiệm dung lượng lưu trữ trên iPhone trong khi duy trì chất lượng ảnh xuất sắc.",
+    "convertHeicToJpgFaq2Q": "Tại sao Windows không thể mở tệp HEIC?",
+    "convertHeicToJpgFaq2A": "Windows yêu cầu tiện ích mở rộng codec HEVC riêng để mở tệp HEIC, mà Microsoft tính phí trên Microsoft Store. Chuyển đổi HEIC sang JPG loại bỏ hoàn toàn vấn đề tương thích này, cho phép bạn xem và chia sẻ ảnh iPhone trên bất kỳ PC Windows nào mà không cần cài đặt phần mềm bổ sung.",
+    "convertHeicToJpgFaq3Q": "Chuyển đổi HEIC sang JPG có giảm chất lượng ảnh không?",
+    "convertHeicToJpgFaq3A": "Có giảm chất lượng tối thiểu vì JPG sử dụng nén mất dữ liệu. Ở cài đặt chất lượng cao như 90-95%, sự khác biệt hình ảnh không thể nhận thấy đối với hầu hết ảnh chụp. Việc chuyển đổi đánh đổi một chút chất lượng để có khả năng tương thích toàn cầu trên mọi thiết bị, nền tảng và ứng dụng.",
+    "convertBmpToJpgHowTo": "Cách chuyển đổi BMP sang JPG",
+    "convertBmpToJpgStep1": "Tải lên tệp BMP",
+    "convertBmpToJpgStep1Desc": "Chọn hình ảnh bitmap BMP. Tệp BMP thường rất lớn vì chúng lưu trữ dữ liệu pixel không nén.",
+    "convertBmpToJpgStep2": "Chuyển đổi sang JPG",
+    "convertBmpToJpgStep2Desc": "Chọn đầu ra JPG và điều chỉnh chất lượng. Ngay cả ở chất lượng tối đa, JPG sẽ nhỏ hơn đáng kể so với BMP.",
+    "convertBmpToJpgStep3": "Tải xuống JPG đã nén",
+    "convertBmpToJpgStep3Desc": "Lưu tệp JPG. Mong đợi giảm 90-95% kích thước tệp so với hình ảnh BMP không nén gốc.",
+    "convertBmpToJpgFaqTitle": "Câu hỏi thường gặp",
+    "convertBmpToJpgFaq1Q": "Tại sao tệp BMP lớn hơn nhiều so với JPG?",
+    "convertBmpToJpgFaq1A": "BMP lưu trữ mọi pixel dưới dạng dữ liệu thô, không nén mà không áp dụng thuật toán nén. Một hình ảnh BMP 1920x1080 chiếm khoảng 6MB. JPG giảm đáng kể xuống thường 200-500KB bằng cách thông minh loại bỏ thông tin hình ảnh mà con người không thể nhận thấy.",
+    "convertBmpToJpgFaq2Q": "Khi nào ai đó vẫn sử dụng định dạng BMP?",
+    "convertBmpToJpgFaq2A": "BMP đôi khi được sử dụng trong các ứng dụng Windows cũ, hệ thống nhúng và hình ảnh y tế nơi dữ liệu không nén là bắt buộc. Một số phần mềm máy quét cũ cũng xuất BMP theo mặc định. Đối với sử dụng hàng ngày như chia sẻ, xuất bản web hoặc email, chuyển đổi BMP sang JPG được khuyến nghị mạnh mẽ.",
+    "convertBmpToJpgFaq3Q": "Tôi có thể chuyển đổi BMP sang JPG mà không mất chất lượng không?",
+    "convertBmpToJpgFaq3A": "JPG vốn là mất dữ liệu, nên một số dữ liệu bị loại bỏ trong quá trình chuyển đổi. Tuy nhiên, ở chất lượng 95-100%, sự khác biệt hình ảnh gần như không thể phát hiện. Nếu bạn cần chuyển đổi thực sự không mất dữ liệu, hãy cân nhắc PNG thay vì JPG, mặc dù việc giảm kích thước tệp sẽ ít ấn tượng hơn.",
+    "convertMp4ToWebmHowTo": "Cách chuyển đổi MP4 sang WebM",
+    "convertMp4ToWebmStep1": "Tải lên video MP4",
+    "convertMp4ToWebmStep1Desc": "Chọn tệp video MP4. Tất cả xử lý diễn ra cục bộ trong trình duyệt bằng FFmpeg hỗ trợ WebAssembly.",
+    "convertMp4ToWebmStep2": "Chuyển đổi sang WebM",
+    "convertMp4ToWebmStep2Desc": "Chọn WebM làm định dạng đầu ra. Điều chỉnh cài đặt độ phân giải và chất lượng để tối ưu cho nhu cầu nhúng web.",
+    "convertMp4ToWebmStep3": "Tải xuống tệp WebM",
+    "convertMp4ToWebmStep3Desc": "Lưu video WebM đã chuyển đổi. Được tối ưu cho phát lại video HTML5 và nhúng trang web.",
+    "convertMp4ToWebmFaqTitle": "Câu hỏi thường gặp",
+    "convertMp4ToWebmFaq1Q": "Ưu điểm của WebM so với MP4 là gì?",
+    "convertMp4ToWebmFaq1A": "WebM là định dạng mở, không tính phí bản quyền do Google phát triển, lý tưởng cho sử dụng web mà không lo về giấy phép. Tệp WebM sử dụng codec VP9 cung cấp chất lượng tương đương MP4 H.264 ở kích thước tệp nhỏ hơn, cải thiện thời gian tải trang và giảm chi phí băng thông cho trang web.",
+    "convertMp4ToWebmFaq2Q": "Tất cả trình duyệt có thể phát video WebM không?",
+    "convertMp4ToWebmFaq2A": "Chrome, Firefox, Edge và Opera hỗ trợ đầy đủ phát lại WebM. Safari thêm hỗ trợ WebM từ phiên bản 14.1. Để tương thích tối đa, nhiều trang web phục vụ cả WebM và MP4 bằng phần tử video HTML5 với nhiều thẻ source, cho phép trình duyệt chọn định dạng chúng hỗ trợ tốt nhất.",
+    "convertMp4ToWebmFaq3Q": "Chuyển đổi MP4 sang WebM có mất thời gian lâu không?",
+    "convertMp4ToWebmFaq3A": "Thời gian chuyển đổi phụ thuộc vào độ dài video, độ phân giải và hiệu suất thiết bị. Clip ngắn dưới 2 phút thường chuyển đổi trong 30-60 giây. Vì xử lý chạy hoàn toàn trong trình duyệt qua WebAssembly, CPU nhanh hơn cho kết quả nhanh hơn. Không có dữ liệu video nào được tải lên máy chủ.",
+    "convertMp4ToAviHowTo": "Cách chuyển đổi MP4 sang AVI",
+    "convertMp4ToAviStep1": "Tải lên tệp MP4",
+    "convertMp4ToAviStep1Desc": "Chọn video MP4 bạn muốn chuyển đổi sang định dạng AVI. Hỗ trợ tất cả tệp MP4 với bất kỳ codec nào.",
+    "convertMp4ToAviStep2": "Chuyển đổi sang định dạng AVI",
+    "convertMp4ToAviStep2Desc": "Chọn AVI làm định dạng đầu ra. Bộ chuyển đổi xử lý chuyển mã codec tự động trong trình duyệt.",
+    "convertMp4ToAviStep3": "Tải xuống video AVI",
+    "convertMp4ToAviStep3Desc": "Lưu tệp AVI đã chuyển đổi. Giờ đây tương thích với các trình phát media cũ và phần mềm chỉnh sửa video cũ.",
+    "convertMp4ToAviFaqTitle": "Câu hỏi thường gặp",
+    "convertMp4ToAviFaq1Q": "Tại sao tôi nên chuyển đổi MP4 sang AVI?",
+    "convertMp4ToAviFaq1A": "AVI cần thiết để tương thích với một số phần mềm chỉnh sửa video cũ, trình phát media cũ và thiết bị phần cứng cụ thể không hỗ trợ MP4. Một số quy trình video chuyên nghiệp và công cụ tạo DVD cũ cũng yêu cầu định dạng đầu vào AVI để xử lý đúng cách.",
+    "convertMp4ToAviFaq2Q": "Chất lượng AVI có tốt hơn MP4 không?",
+    "convertMp4ToAviFaq2A": "AVI là định dạng container, không phải codec, nên chất lượng phụ thuộc vào codec được sử dụng bên trong. MP4 hiện đại với H.264 thường cung cấp hiệu suất nén tốt hơn so với các codec AVI phổ biến. Tệp AVI thường lớn hơn ở chất lượng tương đương vì chúng thường sử dụng phương pháp nén kém hiệu quả hơn.",
+    "convertMp4ToAviFaq3Q": "Tệp AVI có lớn hơn MP4 không?",
+    "convertMp4ToAviFaq3A": "Có, tệp AVI thường lớn hơn MP4 vì container AVI và codec điển hình kém hiệu quả hơn trong nén. Mong đợi đầu ra AVI lớn hơn 50-200% tùy thuộc vào codec và cài đặt được sử dụng. Đây là sự đánh đổi cho khả năng tương thích rộng hơn với các hệ thống cũ.",
+    "convertWebmToMp4HowTo": "Cách chuyển đổi WebM sang MP4",
+    "convertWebmToMp4Step1": "Tải lên video WebM",
+    "convertWebmToMp4Step1Desc": "Chọn tệp video WebM. Phổ biến cho video tải từ web hoặc được ghi bởi trình duyệt.",
+    "convertWebmToMp4Step2": "Chuyển đổi sang MP4",
+    "convertWebmToMp4Step2Desc": "Chọn MP4 làm định dạng đầu ra với mã hóa H.264 để tương thích thiết bị và nền tảng tối đa.",
+    "convertWebmToMp4Step3": "Tải xuống tệp MP4",
+    "convertWebmToMp4Step3Desc": "Lưu video MP4. Giờ đây có thể phát trên hầu hết mọi thiết bị, TV, điện thoại và trình phát media.",
+    "convertWebmToMp4FaqTitle": "Câu hỏi thường gặp",
+    "convertWebmToMp4Faq1Q": "Tại sao chuyển đổi WebM sang MP4?",
+    "convertWebmToMp4Faq1A": "MP4 là định dạng video tương thích phổ biến nhất, được hỗ trợ bởi tất cả smartphone, smart TV, trình phát media và nền tảng mạng xã hội. WebM có hỗ trợ hạn chế trên thiết bị Apple và một số hệ thống cũ. Chuyển đổi sang MP4 đảm bảo video của bạn phát mọi nơi mà không có vấn đề tương thích.",
+    "convertWebmToMp4Faq2Q": "Tôi có thể phát MP4 đã chuyển đổi trên iPhone không?",
+    "convertWebmToMp4Faq2A": "Có, MP4 với mã hóa H.264 được hỗ trợ gốc trên tất cả iPhone, iPad và thiết bị Apple. Sau khi chuyển đổi, bạn có thể phát video trực tiếp trong ứng dụng Ảnh, chia sẻ qua iMessage hoặc AirDrop, và tải lên bất kỳ nền tảng mạng xã hội nào mà không cần ứng dụng bổ sung.",
+    "convertWebmToMp4Faq3Q": "Có mất chất lượng khi chuyển đổi WebM sang MP4 không?",
+    "convertWebmToMp4Faq3A": "Có giảm chất lượng nhỏ vì video được mã hóa lại từ một codec mất dữ liệu sang codec khác. Ở cài đặt chất lượng cao, sự khác biệt này gần như không thể nhận thấy. Để có kết quả tốt nhất, giữ độ phân giải và bitrate đầu ra gần với thông số tệp WebM gốc.",
+    "convertMp4ToGifHowTo": "Cách chuyển đổi MP4 sang GIF",
+    "convertMp4ToGifStep1": "Tải lên video MP4",
+    "convertMp4ToGifStep1Desc": "Chọn clip video MP4 bạn muốn biến thành GIF động. Clip ngắn hơn cho kết quả tốt hơn.",
+    "convertMp4ToGifStep2": "Tùy chỉnh cài đặt GIF",
+    "convertMp4ToGifStep2Desc": "Đặt tốc độ khung hình, độ phân giải và cắt độ dài clip. Tốc độ khung hình thấp hơn và kích thước nhỏ hơn tạo tệp GIF nhỏ hơn.",
+    "convertMp4ToGifStep3": "Tải xuống GIF động",
+    "convertMp4ToGifStep3Desc": "Lưu GIF động. Chia sẻ trên mạng xã hội, ứng dụng nhắn tin, diễn đàn hoặc nhúng vào trang web và email.",
+    "convertMp4ToGifFaqTitle": "Câu hỏi thường gặp",
+    "convertMp4ToGifFaq1Q": "Độ dài lý tưởng cho một GIF là bao nhiêu?",
+    "convertMp4ToGifFaq1A": "GIF hiệu quả nhất dài 3-6 giây. Tệp GIF tăng nhanh theo thời lượng vì mỗi khung hình được lưu dưới dạng hình ảnh đầy đủ. GIF 10 giây ở 15 FPS có thể dễ dàng vượt quá 10MB. Giữ GIF ngắn và tập trung vào khoảnh khắc chính để cân bằng tốt nhất giữa chất lượng và kích thước tệp.",
+    "convertMp4ToGifFaq2Q": "Tại sao tệp GIF của tôi quá lớn?",
+    "convertMp4ToGifFaq2A": "Định dạng GIF sử dụng lưu trữ từng khung hình không mất dữ liệu với bảng màu 256 màu, vốn không hiệu quả cho nội dung video. Giảm kích thước tệp bằng cách giảm độ phân giải xuống 480px hoặc nhỏ hơn, giảm tốc độ khung hình xuống 10-12 FPS, và cắt clip xuống thời lượng ngắn nhất có thể.",
+    "convertMp4ToGifFaq3Q": "Làm thế nào để tạo GIF chất lượng cao hơn?",
+    "convertMp4ToGifFaq3A": "Bắt đầu với video nguồn chất lượng cao có ánh sáng tốt và hình ảnh ổn định. Sử dụng tốc độ khung hình cao hơn như 15-20 FPS cho hoạt ảnh mượt mà hơn. Giữ độ phân giải hợp lý ở chiều rộng tối đa 640px. Clip ngắn hơn cho phép nhiều khung hình mỗi giây trong giới hạn kích thước tệp hợp lý.",
+    "compressJpgHowTo": "Cách nén hình ảnh JPG",
+    "compressJpgStep1": "Tải lên hình ảnh JPG",
+    "compressJpgStep1Desc": "Kéo thả hoặc chọn một hoặc nhiều hình ảnh JPG/JPEG. Hỗ trợ nén hàng loạt cho nhiều tệp cùng lúc.",
+    "compressJpgStep2": "Điều chỉnh mức nén",
+    "compressJpgStep2Desc": "Đặt mức chất lượng mong muốn. Chất lượng thấp hơn nghĩa là kích thước tệp nhỏ hơn. Xem trước kết quả trước khi tải xuống.",
+    "compressJpgStep3": "Tải xuống tệp đã nén",
+    "compressJpgStep3Desc": "Lưu hình ảnh JPG đã tối ưu với kích thước tệp giảm đáng kể mà vẫn duy trì chất lượng hình ảnh.",
+    "compressJpgFaqTitle": "Câu hỏi thường gặp",
+    "compressJpgFaq1Q": "Nén JPG có thể giảm bao nhiêu kích thước tệp?",
+    "compressJpgFaq1A": "Nén JPG có thể giảm kích thước tệp 50-80% tùy thuộc vào cài đặt chất lượng và nội dung hình ảnh. Ảnh 5MB thường có thể nén xuống 500KB-1MB mà không mất chất lượng nhìn thấy. Hình ảnh có vùng đồng nhất lớn nén hiệu quả hơn kết cấu chi tiết cao.",
+    "compressJpgFaq2Q": "Nén JPG có giảm kích thước hình ảnh không?",
+    "compressJpgFaq2A": "Không, nén chỉ điều chỉnh chất lượng mã hóa mà không thay đổi kích thước pixel. Hình ảnh 4000x3000 vẫn là 4000x3000 pixel sau khi nén. Giảm kích thước tệp đến từ cách dữ liệu màu được lưu trữ, không phải từ giảm độ phân giải. Thay đổi kích thước là thao tác riêng biệt.",
+    "compressJpgFaq3Q": "Tôi có thể nén JPG nhiều lần không?",
+    "compressJpgFaq3A": "Có thể, nhưng mỗi lần nén JPG gây ra thêm mất chất lượng vì JPG là mất dữ liệu. Nén lại JPG đã nén làm giảm chất lượng thêm với mức giảm kích thước ngày càng ít. Để có kết quả tốt nhất, luôn nén từ tệp nguồn gốc chất lượng cao.",
+    "compressPngHowTo": "Cách nén hình ảnh PNG",
+    "compressPngStep1": "Tải lên tệp PNG",
+    "compressPngStep1Desc": "Chọn hình ảnh PNG bằng cách kéo vào hoặc duyệt. Hoạt động với tất cả tệp PNG bao gồm tệp trong suốt.",
+    "compressPngStep2": "Đặt cài đặt nén",
+    "compressPngStep2Desc": "Chọn mức nén. Công cụ tối ưu mã hóa PNG trong khi bảo toàn độ trong suốt và chất lượng hình ảnh.",
+    "compressPngStep3": "Tải xuống PNG đã tối ưu",
+    "compressPngStep3Desc": "Lưu tệp PNG đã nén. Độ trong suốt được bảo toàn đầy đủ với kích thước tệp giảm đáng kể.",
+    "compressPngFaqTitle": "Câu hỏi thường gặp",
+    "compressPngFaq1Q": "Nén PNG có bảo toàn độ trong suốt không?",
+    "compressPngFaq1A": "Có, nén PNG bảo toàn đầy đủ kênh alpha và tất cả dữ liệu trong suốt. Nén hoạt động bằng cách tối ưu cách dữ liệu pixel được mã hóa và lọc mà không xóa thông tin trong suốt. Logo, biểu tượng và đồ họa lớp phủ sẽ duy trì nền trong suốt hoàn hảo.",
+    "compressPngFaq2Q": "Nén PNG khác nén JPG như thế nào?",
+    "compressPngFaq2A": "PNG sử dụng nén không mất dữ liệu theo mặc định, nghĩa là không có dữ liệu pixel bị loại bỏ. JPG sử dụng nén mất dữ liệu loại bỏ vĩnh viễn dữ liệu để đạt kích thước nhỏ hơn. Nén PNG hoạt động bằng cách tìm cách mã hóa cùng dữ liệu hiệu quả hơn, trong khi nén JPG loại bỏ chi tiết hình ảnh.",
+    "compressPngFaq3Q": "Tại sao tệp PNG lớn hơn tệp JPG?",
+    "compressPngFaq3A": "PNG bảo toàn mọi pixel chính xác thông qua nén không mất dữ liệu, giới hạn mức tệp có thể nhỏ. JPG đạt kích thước nhỏ hơn bằng cách loại bỏ thông tin hình ảnh mà con người thường không nhận thấy. Đối với ảnh chụp, JPG hiệu quả hơn. Đối với đồ họa có cạnh sắc, logo và ảnh chụp màn hình, PNG được ưa chuộng.",
+    "compressWebpHowTo": "Cách nén hình ảnh WebP",
+    "compressWebpStep1": "Tải lên hình ảnh WebP",
+    "compressWebpStep1Desc": "Chọn tệp WebP bằng cách kéo thả hoặc duyệt. Hỗ trợ cả tệp WebP mất dữ liệu và không mất dữ liệu.",
+    "compressWebpStep2": "Điều chỉnh cài đặt chất lượng",
+    "compressWebpStep2Desc": "Tinh chỉnh mức nén để cân bằng kích thước tệp và chất lượng hình ảnh cho trường hợp sử dụng cụ thể.",
+    "compressWebpStep3": "Tải xuống WebP đã tối ưu",
+    "compressWebpStep3Desc": "Lưu hình ảnh WebP đã nén. Giảm thêm tệp WebP đã hiệu quả để đạt hiệu suất web tối đa.",
+    "compressWebpFaqTitle": "Câu hỏi thường gặp",
+    "compressWebpFaq1Q": "Tệp WebP có thể nén thêm không?",
+    "compressWebpFaq1A": "Có, đặc biệt tệp WebP xuất ở cài đặt chất lượng cao. Nén lại ở mức chất lượng thấp hơn một chút có thể giảm kích thước tệp 20-50% với tác động hình ảnh tối thiểu. Điều này hữu ích để tối ưu hình ảnh WebP xuất từ công cụ thiết kế ở cài đặt chất lượng cao không cần thiết.",
+    "compressWebpFaq2Q": "Cài đặt chất lượng nào tốt nhất cho hình ảnh web?",
+    "compressWebpFaq2A": "Đối với hầu hết hình ảnh web, cài đặt chất lượng WebP 75-85% cung cấp chất lượng hình ảnh xuất sắc với kích thước tệp tối ưu. Hình ảnh chính và ảnh sản phẩm có thể hưởng lợi từ 85-90%. Thumbnail và yếu tố trang trí có thể dùng 60-75%. Luôn xem trước kết quả nén để xác nhận chất lượng chấp nhận được.",
+    "compressWebpFaq3Q": "WebP có tốt hơn JPG cho hiệu suất trang web không?",
+    "compressWebpFaq3A": "WebP liên tục cung cấp tệp nhỏ hơn 25-35% so với JPG ở chất lượng hình ảnh tương đương, trực tiếp cải thiện tốc độ tải trang và điểm Core Web Vitals. Google khuyến nghị WebP cho hình ảnh web, và tất cả trình duyệt lớn hiện hỗ trợ. Tệp nhỏ hơn cũng giảm đáng kể chi phí băng thông hosting.",
+    "compressMp4HowTo": "Cách nén video MP4",
+    "compressMp4Step1": "Tải lên video MP4",
+    "compressMp4Step1Desc": "Chọn tệp video MP4. Công cụ chạy hoàn toàn trong trình duyệt, không có dữ liệu video nào được tải lên máy chủ.",
+    "compressMp4Step2": "Chọn cài đặt nén",
+    "compressMp4Step2Desc": "Điều chỉnh độ phân giải, bitrate và chất lượng. Độ phân giải và bitrate thấp hơn tạo tệp nhỏ hơn. Xem trước kích thước đầu ra ước tính.",
+    "compressMp4Step3": "Tải xuống video đã nén",
+    "compressMp4Step3Desc": "Lưu MP4 đã nén với kích thước tệp giảm. Chia sẻ qua email, ứng dụng nhắn tin hoặc tải lên mạng xã hội.",
+    "compressMp4FaqTitle": "Câu hỏi thường gặp",
+    "compressMp4Faq1Q": "Video MP4 có thể nén được bao nhiêu?",
+    "compressMp4Faq1A": "Nén MP4 có thể giảm kích thước tệp video 40-70% tùy thuộc vào mã hóa gốc, độ phân giải và chất lượng mục tiêu. Video 100MB thường có thể giảm xuống 30-50MB trong khi duy trì chất lượng xem được. Video ghi ở bitrate rất cao có mức giảm lớn nhất.",
+    "compressMp4Faq2Q": "Nén video có giảm độ phân giải không?",
+    "compressMp4Faq2A": "Không nhất thiết. Bạn có thể nén video bằng cách chỉ giảm bitrate mà giữ nguyên độ phân giải gốc. Tuy nhiên, giảm độ phân giải từ 1080p xuống 720p là cách hiệu quả để giảm đáng kể kích thước tệp. Trên màn hình di động, sự khác biệt hình ảnh giữa 720p và 1080p thường không thể nhận thấy.",
+    "compressMp4Faq3Q": "Độ phân giải tốt nhất để chia sẻ video trực tuyến là gì?",
+    "compressMp4Faq3A": "720p (1280x720) là điểm lý tưởng để chia sẻ qua email và ứng dụng nhắn tin, cung cấp chất lượng tốt ở kích thước tệp quản lý được. Đối với tải lên mạng xã hội, 1080p được khuyến nghị vì nền tảng áp dụng nén riêng. Đối với WhatsApp và ứng dụng tương tự có giới hạn kích thước, 480p giữ tệp dưới 16MB.",
+    "resizeInstagramHowTo": "Cách thay đổi kích thước hình ảnh cho Instagram",
+    "resizeInstagramStep1": "Tải lên ảnh của bạn",
+    "resizeInstagramStep1Desc": "Chọn hình ảnh bạn muốn thay đổi kích thước cho Instagram. Hỗ trợ JPG, PNG, WebP và các định dạng phổ biến khác.",
+    "resizeInstagramStep2": "Chọn kích thước Instagram",
+    "resizeInstagramStep2Desc": "Chọn kích thước mục tiêu: 1080x1080 cho bài đăng, 1080x1350 cho dọc, hoặc 1080x1920 cho story và reels.",
+    "resizeInstagramStep3": "Tải xuống hình ảnh đã thay đổi kích thước",
+    "resizeInstagramStep3Desc": "Lưu hình ảnh Instagram kích thước hoàn hảo. Tải trực tiếp lên Instagram mà không bị cắt bởi nền tảng.",
+    "resizeInstagramFaqTitle": "Câu hỏi thường gặp",
+    "resizeInstagramFaq1Q": "Kích thước ảnh tốt nhất cho bài đăng Instagram là gì?",
+    "resizeInstagramFaq1A": "Instagram hỗ trợ 1080x1080 (vuông), 1080x1350 (dọc 4:5) và 1080x566 (ngang). Dọc 1080x1350 chiếm nhiều không gian feed nhất và nhận tương tác cao nhất. Luôn tải lên ở chiều rộng tối thiểu 1080px để tránh Instagram hiển thị phiên bản mờ, phóng to.",
+    "resizeInstagramFaq2Q": "Kích thước Instagram story nên là bao nhiêu?",
+    "resizeInstagramFaq2A": "Instagram Story và Reels nên là 1080x1920 pixel ở tỷ lệ khung hình 9:16 để hiển thị toàn màn hình. Để lại 250 pixel lề an toàn ở trên và dưới để tránh nội dung bị che bởi thanh tên người dùng và vùng trả lời trên màn hình người xem.",
+    "resizeInstagramFaq3Q": "Instagram có nén hình ảnh tải lên không?",
+    "resizeInstagramFaq3A": "Có, Instagram nén tất cả hình ảnh tải lên để giảm chi phí máy chủ. Để giảm thiểu mất chất lượng, tải hình ảnh đúng kích thước khuyến nghị ở định dạng JPG chất lượng 95%. Hình ảnh quá lớn bị nén mạnh hơn, nên khớp chính xác độ phân giải mục tiêu cho kết quả sắc nét nhất.",
+    "resizeFacebookHowTo": "Cách thay đổi kích thước hình ảnh cho Facebook",
+    "resizeFacebookStep1": "Tải lên hình ảnh",
+    "resizeFacebookStep1Desc": "Chọn ảnh bạn muốn thay đổi kích thước cho Facebook. Hoạt động với tất cả định dạng hình ảnh phổ biến.",
+    "resizeFacebookStep2": "Chọn kích thước Facebook",
+    "resizeFacebookStep2Desc": "Chọn mục tiêu: 820x312 cho ảnh bìa, 1200x630 cho bài đăng chia sẻ, hoặc 170x170 cho ảnh đại diện.",
+    "resizeFacebookStep3": "Tải xuống hình ảnh sẵn sàng cho Facebook",
+    "resizeFacebookStep3Desc": "Lưu hình ảnh đã thay đổi kích thước đúng kích thước Facebook. Tải lên mà không bị cắt hoặc giảm chất lượng.",
+    "resizeFacebookFaqTitle": "Câu hỏi thường gặp",
+    "resizeFacebookFaq1Q": "Kích thước tốt nhất cho ảnh bìa Facebook là gì?",
+    "resizeFacebookFaq1A": "Ảnh bìa Facebook hiển thị 820x312 pixel trên desktop và 640x360 pixel trên di động. Thiết kế ở 820x462 để phù hợp cả hai, đặt nội dung quan trọng ở vùng giữa. Sử dụng PNG cho bìa có văn bản hoặc logo, và JPG cho bìa ảnh chụp.",
+    "resizeFacebookFaq2Q": "Kích thước nào tốt nhất cho ảnh chia sẻ Facebook?",
+    "resizeFacebookFaq2A": "Đối với ảnh xem trước liên kết và bài đăng chia sẻ, sử dụng 1200x630 pixel (tỷ lệ 1.91:1). Đây cũng là tiêu chuẩn Open Graph hiển thị đúng khi trang được chia sẻ. Đối với tải ảnh, độ phân giải tối đa 2048x2048 pixel được hỗ trợ, nhưng chiều rộng 1200px là tối ưu cho hiển thị news feed.",
+    "resizeFacebookFaq3Q": "Facebook có giảm chất lượng hình ảnh khi tải lên không?",
+    "resizeFacebookFaq3A": "Có, Facebook nén đáng kể hình ảnh tải lên. Để giảm thiểu mất chất lượng, tải tệp JPG dưới 100KB cho ảnh đại diện và dưới 1MB cho bài đăng. Sử dụng không gian màu sRGB và khớp kích thước khuyến nghị chính xác. Facebook áp dụng ít nén hơn cho hình ảnh đã đáp ứng thông số mục tiêu.",
+    "resizeTwitterHowTo": "Cách thay đổi kích thước hình ảnh cho Twitter/X",
+    "resizeTwitterStep1": "Tải lên hình ảnh",
+    "resizeTwitterStep1Desc": "Chọn hình ảnh bạn muốn tối ưu cho Twitter/X. Tất cả định dạng hình ảnh phổ biến được hỗ trợ.",
+    "resizeTwitterStep2": "Chọn kích thước Twitter",
+    "resizeTwitterStep2Desc": "Chọn mục tiêu: 1500x500 cho header, 1600x900 cho ảnh trong dòng, hoặc 400x400 cho ảnh đại diện.",
+    "resizeTwitterStep3": "Tải xuống hình ảnh đã tối ưu",
+    "resizeTwitterStep3Desc": "Lưu hình ảnh đã tối ưu cho Twitter. Sẽ hiển thị hoàn hảo trong dòng thời gian mà không bị cắt bất ngờ.",
+    "resizeTwitterFaqTitle": "Câu hỏi thường gặp",
+    "resizeTwitterFaq1Q": "Kích thước ảnh tốt nhất cho bài đăng Twitter/X là gì?",
+    "resizeTwitterFaq1A": "Twitter khuyến nghị 1600x900 pixel (tỷ lệ 16:9) cho tweet một ảnh hiển thị đầy đủ không bị cắt. Đối với hai ảnh, sử dụng 700x800 mỗi ảnh. Twitter hỗ trợ đến 5MB cho ảnh và 15MB cho GIF. Ảnh rộng hơn 4096 pixel được nền tảng tự động thu nhỏ.",
+    "resizeTwitterFaq2Q": "Kích thước header Twitter/X là gì?",
+    "resizeTwitterFaq2A": "Header Twitter nên là 1500x500 pixel (tỷ lệ 3:1). Giữ nội dung quan trọng ở giữa vì các cạnh có thể bị cắt trên các thiết bị và kích thước màn hình khác nhau. Ảnh đại diện chồng lên vùng dưới bên trái của header trên desktop, nên tránh đặt yếu tố quan trọng ở đó.",
+    "resizeTwitterFaq3Q": "Twitter cắt hình ảnh trong dòng thời gian như thế nào?",
+    "resizeTwitterFaq3A": "Twitter sử dụng thuật toán cắt thông minh dựa trên AI cố gắng tìm điểm tiêu cự hấp dẫn nhất. Để tránh cắt bất ngờ, sử dụng tỷ lệ khung hình 16:9 khuyến nghị cho ảnh đơn. Đặt chủ đề ở giữa và giữ yếu tố quan trọng xa các cạnh để đảm bảo chúng vẫn hiển thị sau khi cắt tự động.",
+    "resizeYoutubeHowTo": "Cách tạo thumbnail YouTube",
+    "resizeYoutubeStep1": "Tải lên hình ảnh",
+    "resizeYoutubeStep1Desc": "Chọn hình ảnh bạn muốn sử dụng làm thumbnail YouTube. Hình ảnh nguồn độ phân giải cao cho kết quả tốt nhất.",
+    "resizeYoutubeStep2": "Cắt thành 1280x720",
+    "resizeYoutubeStep2Desc": "Thay đổi kích thước và cắt hình ảnh theo kích thước thumbnail YouTube chính xác 1280x720 pixel ở tỷ lệ 16:9.",
+    "resizeYoutubeStep3": "Tải xuống thumbnail",
+    "resizeYoutubeStep3Desc": "Lưu thumbnail sẵn sàng cho YouTube. Tải trực tiếp lên YouTube Studio khi đăng hoặc chỉnh sửa video.",
+    "resizeYoutubeFaqTitle": "Câu hỏi thường gặp",
+    "resizeYoutubeFaq1Q": "Kích thước thumbnail YouTube lý tưởng là gì?",
+    "resizeYoutubeFaq1A": "Thumbnail YouTube nên chính xác 1280x720 pixel với tỷ lệ 16:9. Chiều rộng tối thiểu là 640 pixel và kích thước tệp tối đa là 2MB. Định dạng JPG, PNG và GIF được chấp nhận. Luôn thiết kế ở độ phân giải đầy đủ 1280x720 để hiển thị sắc nét nhất trên mọi thiết bị.",
+    "resizeYoutubeFaq2Q": "Điều gì khiến thumbnail YouTube được nhấp nhiều hơn?",
+    "resizeYoutubeFaq2A": "Thumbnail CTR cao sử dụng màu tương phản sáng, văn bản lớn dễ đọc (tối đa 3-5 từ), khuôn mặt biểu cảm và điểm tiêu cự rõ ràng. Tránh sự phức tạp và chi tiết nhỏ trở nên vô hình ở kích thước nhỏ. Kiểm tra thumbnail ở 120x67 pixel để xác nhận nó vẫn hấp dẫn và đọc được.",
+    "resizeYoutubeFaq3Q": "Thumbnail YouTube nên là JPG hay PNG?",
+    "resizeYoutubeFaq3A": "JPG được ưa chuộng cho thumbnail ảnh chụp vì giữ tệp dưới giới hạn 2MB. PNG tốt hơn cho thumbnail có lớp phủ văn bản, logo và yếu tố đồ họa nơi các cạnh sắc quan trọng. Nếu PNG vượt quá 2MB, nén hoặc chuyển sang JPG ở chất lượng 90-95%.",
+    "removeBgHowTo": "Cách xóa nền hình ảnh",
+    "removeBgStep1": "Tải lên hình ảnh",
+    "removeBgStep1Desc": "Chọn ảnh bạn muốn xóa nền. Hoạt động tốt nhất với chủ đề rõ ràng và độ tương phản tốt.",
+    "removeBgStep2": "AI xóa nền",
+    "removeBgStep2Desc": "AI tự động phát hiện chủ đề và xóa nền. Xử lý diễn ra hoàn toàn trong trình duyệt.",
+    "removeBgStep3": "Tải xuống PNG trong suốt",
+    "removeBgStep3Desc": "Lưu hình ảnh với nền trong suốt dưới dạng tệp PNG. Sẵn sàng cho ghép ảnh, thuyết trình hoặc danh sách sản phẩm.",
+    "removeBgFaqTitle": "Câu hỏi thường gặp",
+    "removeBgFaq1Q": "AI xóa nền hoạt động như thế nào?",
+    "removeBgFaq1A": "Mô hình AI phân tích hình ảnh để xác định chủ đề chính bằng phân đoạn ngữ nghĩa. Nó phân loại mỗi pixel là tiền cảnh hoặc nền, sau đó xóa pixel nền để tạo độ trong suốt. Mô hình AI hiện đại xử lý các cạnh phức tạp như tóc và lông với độ chính xác ấn tượng.",
+    "removeBgFaq2Q": "Loại hình ảnh nào hoạt động tốt nhất cho xóa nền?",
+    "removeBgFaq2A": "Hình ảnh có độ tương phản rõ ràng giữa chủ đề và nền cho kết quả tốt nhất. Ảnh chụp sáng tốt với một chủ đề chính hoạt động lý tưởng. Cảnh phức tạp với nhiều chủ đề chồng chéo, màu tiền cảnh và nền rất giống nhau, hoặc vật thể trong suốt như kính có thể cần chỉnh sửa thủ công.",
+    "removeBgFaq3Q": "Hình ảnh có được tải lên máy chủ để xử lý không?",
+    "removeBgFaq3A": "Không, toàn bộ quá trình xóa nền chạy cục bộ trong trình duyệt bằng mô hình AI WebAssembly. Hình ảnh không bao giờ rời thiết bị, đảm bảo quyền riêng tư hoàn toàn. Điều này đặc biệt quan trọng cho hình ảnh nhạy cảm như ảnh sản phẩm bảo mật hoặc chân dung cá nhân.",
+    "addWatermarkHowTo": "Cách thêm watermark vào ảnh",
+    "addWatermarkStep1": "Tải lên ảnh",
+    "addWatermarkStep1Desc": "Chọn một hoặc nhiều hình ảnh bạn muốn thêm watermark. Xử lý hàng loạt cho phép watermark nhiều ảnh cùng lúc.",
+    "addWatermarkStep2": "Tùy chỉnh watermark",
+    "addWatermarkStep2Desc": "Thêm văn bản hoặc tải logo. Điều chỉnh vị trí, kích thước, độ mờ và xoay để tạo vị trí watermark lý tưởng.",
+    "addWatermarkStep3": "Tải xuống hình ảnh có watermark",
+    "addWatermarkStep3Desc": "Lưu ảnh được bảo vệ với watermark. Tệp gốc chưa có watermark vẫn riêng tư trên thiết bị.",
+    "addWatermarkFaqTitle": "Câu hỏi thường gặp",
+    "addWatermarkFaq1Q": "Cài đặt độ mờ watermark tốt nhất là gì?",
+    "addWatermarkFaq1A": "Độ mờ 30-50% tạo sự cân bằng lý tưởng giữa hiển thị và tinh tế. Ở 30%, watermark có thể nhận thấy mà không làm phân tâm nội dung. Ở 50%, nó bảo vệ mạnh hơn chống sử dụng trái phép. Thử nghiệm các mức khác nhau để tìm ra phù hợp cho hình ảnh và nhu cầu thương hiệu cụ thể.",
+    "addWatermarkFaq2Q": "Tôi nên đặt watermark ở đâu trên ảnh?",
+    "addWatermarkFaq2A": "Góc dưới bên phải là vị trí phổ biến nhất, nhưng cũng dễ bị cắt bỏ nhất. Để bảo vệ tốt hơn, đặt watermark ở giữa hoặc sử dụng mẫu lặp chéo qua toàn bộ hình ảnh. Vị trí lý tưởng che phủ vùng nội dung quan trọng sẽ bị hỏng nếu watermark bị xóa.",
+    "addWatermarkFaq3Q": "Watermark có thể bị xóa khỏi ảnh không?",
+    "addWatermarkFaq3A": "Watermark bán trong suốt có thể bị xóa một phần bằng công cụ AI, nhưng watermark đặt tốt trên vùng chi tiết làm cho việc xóa sạch rất khó. Sử dụng mẫu lát gạch lặp lại, đặt watermark trên chi tiết quan trọng và kết hợp yếu tố văn bản với logo để tạo watermark chống lại nỗ lực xóa tự động.",
+    "mergePhotosHowTo": "Cách ghép ảnh trực tuyến",
+    "mergePhotosStep1": "Tải lên nhiều hình ảnh",
+    "mergePhotosStep1Desc": "Chọn hai hoặc nhiều ảnh bạn muốn kết hợp. Hỗ trợ JPG, PNG, WebP và các định dạng hình ảnh phổ biến khác.",
+    "mergePhotosStep2": "Sắp xếp bố cục",
+    "mergePhotosStep2Desc": "Chọn bố cục ngang, dọc hoặc lưới. Điều chỉnh khoảng cách, căn chỉnh và thứ tự hình ảnh bằng cách kéo để sắp xếp lại.",
+    "mergePhotosStep3": "Tải xuống hình ảnh kết hợp",
+    "mergePhotosStep3Desc": "Lưu ảnh đã ghép thành một tệp hình ảnh duy nhất. Hoàn hảo cho so sánh, collage và bài đăng mạng xã hội.",
+    "mergePhotosFaqTitle": "Câu hỏi thường gặp",
+    "mergePhotosFaq1Q": "Tôi có thể ghép bao nhiêu ảnh cùng lúc?",
+    "mergePhotosFaq1A": "Bạn có thể ghép nhiều ảnh tùy theo bộ nhớ trình duyệt cho phép, thường 10-20 hình ảnh độ phân giải cao mà không gặp vấn đề. Đối với lô rất lớn, công cụ có thể chậm tùy thuộc vào khả năng thiết bị. Kích thước hình ảnh đầu ra tăng với mỗi ảnh thêm vào, nên cân nhắc trường hợp sử dụng cuối cùng khi thêm nhiều hình ảnh.",
+    "mergePhotosFaq2Q": "Tôi có thể ghép ảnh có kích thước khác nhau không?",
+    "mergePhotosFaq2A": "Có, công cụ tự động xử lý hình ảnh kích thước khác nhau. Bạn có thể chọn thay đổi kích thước tất cả hình ảnh để khớp kích thước lớn nhất hoặc nhỏ nhất, hoặc giữ tỷ lệ gốc với padding. Bố cục ngang căn chỉnh hình ảnh theo chiều dọc, trong khi bố cục dọc căn chỉnh theo chiều ngang để có kết quả gọn gàng.",
+    "mergePhotosFaq3Q": "Bố cục nào tốt nhất cho so sánh trước-sau?",
+    "mergePhotosFaq3A": "Bố cục ngang cạnh nhau hoạt động tốt nhất cho so sánh trước-sau, đặt bản gốc bên trái và kết quả bên phải. Đảm bảo cả hai hình ảnh cùng chiều cao để có đường nối sạch. Thêm khoảng cách tối thiểu giữa các hình ảnh để người xem có thể dễ dàng so sánh chi tiết qua ranh giới.",
+    "extractMp3HowTo": "Cách trích xuất MP3 từ video",
+    "extractMp3Step1": "Tải lên tệp video",
+    "extractMp3Step1Desc": "Chọn tệp video ở định dạng MP4, WebM, AVI, MOV hoặc định dạng phổ biến khác. Bản âm thanh sẽ được trích xuất.",
+    "extractMp3Step2": "Trích xuất bản âm thanh",
+    "extractMp3Step2Desc": "Công cụ trích xuất luồng âm thanh từ video và chuyển đổi sang định dạng MP3 bằng FFmpeg trong trình duyệt.",
+    "extractMp3Step3": "Tải xuống tệp MP3",
+    "extractMp3Step3Desc": "Lưu tệp âm thanh MP3 đã trích xuất. Sử dụng làm podcast, bản nhạc, ghi âm giọng nói hoặc sao lưu âm thanh.",
+    "extractMp3FaqTitle": "Câu hỏi thường gặp",
+    "extractMp3Faq1Q": "Tôi có thể mong đợi chất lượng âm thanh nào từ MP3 trích xuất?",
+    "extractMp3Faq1A": "Chất lượng MP3 phụ thuộc vào bản âm thanh gốc của video. Hầu hết video chứa âm thanh ở 128-256 kbps. Quá trình trích xuất bảo toàn chất lượng này và mã hóa lại thành MP3 ở bitrate bạn chọn. Đối với nhạc, sử dụng 256-320 kbps. Đối với giọng nói và podcast, 128 kbps cung cấp chất lượng rõ ràng ở kích thước tệp nhỏ hơn.",
+    "extractMp3Faq2Q": "Tôi có thể trích xuất âm thanh từ video YouTube không?",
+    "extractMp3Faq2A": "Công cụ này trích xuất âm thanh từ tệp video lưu trên thiết bị. Bạn cần lưu tệp video cục bộ trước. Công cụ không tải video từ URL hoặc nền tảng streaming. Khi bạn có tệp video cục bộ, bạn có thể trích xuất bản âm thanh thành MP3 ngay lập tức.",
+    "extractMp3Faq3Q": "Video có được tải lên máy chủ trong quá trình trích xuất không?",
+    "extractMp3Faq3A": "Không, toàn bộ quá trình trích xuất chạy cục bộ trong trình duyệt bằng FFmpeg hỗ trợ WebAssembly. Tệp video không bao giờ rời thiết bị, đảm bảo quyền riêng tư hoàn toàn. Điều này đặc biệt quan trọng để trích xuất âm thanh từ bản ghi riêng tư, cuộc họp bảo mật hoặc nội dung video cá nhân."
   },
   "footer": {
     "tagline": "Cong cu truc tuyen mien phi cho hinh anh va video. 100% trong trinh duyet, tep cua ban khong bao gio roi khoi thiet bi.",
@@ -430,19 +766,19 @@
         "content": [
           {
             "heading": "Why Free Online Editors Matter in 2026",
-            "text": "Professional image editing no longer requires expensive software subscriptions or powerful desktop hardware. Free online image editors have matured to the point where they handle most everyday editing tasks with ease, from quick crops and resizes to advanced filters and batch processing.\n\nThe shift to browser-based tools has been driven by improvements in WebAssembly, browser APIs, and cloud computing. These technologies allow complex image processing to run directly in your browser or on lightweight servers, eliminating the need for heavy local installations. For freelancers, small business owners, students, and content creators on a budget, this means professional-quality results without any financial commitment.\n\nIn this guide, we compare five of the best free online image editors in 2026, evaluating them on features, ease of use, privacy, format support, and performance. Whether you need quick social media edits or serious batch processing, one of these tools will fit your workflow."
+            "text": "Professional image editing no longer requires expensive software subscriptions or powerful desktop hardware. Free online image editors have matured to the point where they handle most everyday editing tasks with ease, from quick crops and resizes to advanced filters and batch processing."
           },
           {
             "heading": "ToolPic and Canva Compared",
-            "text": "ToolPic is a privacy-first image and video toolkit that processes everything directly in your browser. Your files never leave your device, which makes it ideal for sensitive or proprietary images. It excels at core tasks like compression, format conversion, cropping, watermarking, background removal, and image merging, all with batch support and no file count limits.\n\nCanva takes a different approach as a design-focused platform. It provides thousands of templates for social media posts, presentations, and marketing materials. Its drag-and-drop interface is beginner-friendly, and the free tier is generous. However, Canva uploads your files to its servers, and some premium features require a paid subscription. It is better suited for graphic design than for technical image processing tasks like compression or format conversion.\n\nChoose ToolPic when you need fast, private image processing without accounts or uploads. Choose Canva when you need to design visual content from templates with text, shapes, and branding elements."
+            "text": "ToolPic is a privacy-first image and video toolkit that processes everything directly in your browser. Your files never leave your device, which makes it ideal for sensitive or proprietary images. It excels at core tasks like compression, format conversion, cropping, watermarking, background removal, and image merging, all with batch support and no file count limits."
           },
           {
             "heading": "Photopea, Pixlr, and Fotor",
-            "text": "Photopea is the closest thing to Photoshop available for free in a browser. It supports PSD, XCF, Sketch, and RAW files, along with layers, masks, blend modes, and advanced selection tools. It is the best choice for users who need Photoshop-level capabilities without the cost. The interface is complex, which creates a learning curve for beginners, but experienced editors will feel right at home.\n\nPixlr offers two editors: Pixlr X for quick edits and Pixlr E for more advanced work. Both feature AI-powered tools for background removal, object removal, and image enhancement. The free version includes ads and limits export resolution, but it covers most basic to intermediate editing needs well.\n\nFotor focuses on photo enhancement with one-click filters, portrait retouching, and collage creation. Its batch processing feature is helpful for processing multiple photos with the same adjustments. The interface is clean and intuitive, making it a good starting point for beginners who want attractive results with minimal effort."
+            "text": "Photopea is the closest thing to Photoshop available for free in a browser. It supports PSD, XCF, Sketch, and RAW files, along with layers, masks, blend modes, and advanced selection tools. It is the best choice for users who need Photoshop-level capabilities without the cost."
           },
           {
             "heading": "Which Editor Should You Choose?",
-            "text": "Your ideal editor depends on your primary use case. For privacy-focused image processing, compression, and format conversion, ToolPic is the clear winner since nothing leaves your browser. For graphic design and template-based content creation, Canva offers the most polished experience.\n\nIf you need advanced layer-based editing comparable to Photoshop, Photopea is unmatched among free tools. For AI-enhanced quick edits and casual photo improvement, Pixlr and Fotor both deliver solid results with minimal learning required.\n\nMany professionals use multiple tools in combination. They might compress and convert images with ToolPic, design social media graphics in Canva, and handle complex compositing in Photopea. Since all five tools are free and browser-based, there is no cost to trying each one and building a workflow that leverages the strengths of each."
+            "text": "Your ideal editor depends on your primary use case. For privacy-focused image processing, compression, and format conversion, ToolPic is the clear winner since nothing leaves your browser. For graphic design and template-based content creation, Canva offers the most polished experience."
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -455,19 +791,19 @@
         "content": [
           {
             "heading": "Why Thumbnails Make or Break Your Videos",
-            "text": "Your thumbnail is the single most important factor in whether someone clicks on your video. YouTube's own Creator Academy confirms that 90% of top-performing videos use custom thumbnails. Even with a compelling title, a weak thumbnail will cause viewers to scroll right past your content.\n\nThumbnails work like billboards on a highway. You have about two seconds to communicate what your video is about and why it is worth watching. In a feed filled with competing content, your thumbnail must be instantly readable, emotionally engaging, and visually distinct from everything around it.\n\nThe recommended dimensions for YouTube thumbnails are 1280 x 720 pixels with a minimum width of 640 pixels. The aspect ratio is 16:9, which matches most video players and device screens. File size should be under 2MB, and YouTube accepts JPG, GIF, and PNG formats."
+            "text": "Your thumbnail is the single most important factor in whether someone clicks on your video. YouTube's own Creator Academy confirms that 90% of top-performing videos use custom thumbnails. Even with a compelling title, a weak thumbnail will cause viewers to scroll right past your content."
           },
           {
             "heading": "Design Principles That Drive Clicks",
-            "text": "High-contrast colors are essential for thumbnail visibility. Use bright, saturated colors that pop against both light and dark backgrounds. Yellow, red, and orange draw the eye most effectively. Avoid muted tones and pastels that blend into the feed.\n\nFaces with clear emotions generate higher click-through rates. Studies show that thumbnails featuring expressive human faces receive significantly more clicks than those without. If your content involves a person, include a close-up showing surprise, excitement, curiosity, or another strong emotion.\n\nKeep text to three to five words maximum. Thumbnails are displayed at small sizes on mobile devices, so long text becomes unreadable. Use bold, sans-serif fonts with strong outlines or drop shadows so text remains legible at any size. The text should complement your title, not repeat it."
+            "text": "High-contrast colors are essential for thumbnail visibility. Use bright, saturated colors that pop against both light and dark backgrounds. Yellow, red, and orange draw the eye most effectively."
           },
           {
             "heading": "Color Psychology and Composition",
-            "text": "Color choices trigger specific psychological responses. Red creates urgency and excitement, making it effective for dramatic or time-sensitive content. Blue conveys trust and professionalism, suitable for educational content. Yellow grabs attention and communicates energy, while green suggests growth and money-related topics.\n\nUse the rule of thirds to position key elements. Place the main subject slightly off-center for a more dynamic composition. Leave space for text on one side and the subject on the other. Avoid cluttering the frame with too many elements, as simplicity reads better at small sizes.\n\nCreate depth by using a blurred or darkened background behind the main subject. This technique, borrowed from professional photography, makes the foreground subject pop and creates a three-dimensional effect that catches the eye in a flat feed of competing thumbnails."
+            "text": "Color choices trigger specific psychological responses. Red creates urgency and excitement, making it effective for dramatic or time-sensitive content. Blue conveys trust and professionalism, suitable for educational content."
           },
           {
             "heading": "Creating Thumbnails with ToolPic",
-            "text": "Start with a high-quality screenshot or photo that captures the key moment of your video. Open the Image Crop tool on ToolPic and crop it to the 16:9 aspect ratio at 1280 x 720 pixels. This ensures your thumbnail matches YouTube's recommended dimensions perfectly.\n\nUse the Image Watermark tool to add text overlays to your thumbnail. Choose a bold, readable font and position the text where it does not cover important parts of the image. Adjust the opacity and add a background strip behind the text if needed for better legibility.\n\nExport the final thumbnail as a high-quality JPG to keep the file size under 2MB while maintaining sharp details. Test how your thumbnail looks at small sizes by viewing it on your phone screen. If the text and subject are clear at mobile thumbnail size, your design is ready to upload."
+            "text": "Start with a high-quality screenshot or photo that captures the key moment of your video. Open the Image Crop tool on ToolPic and crop it to the 16:9 aspect ratio at 1280 x 720 pixels. This ensures your thumbnail matches YouTube's recommended dimensions perfectly."
           }
         ],
         "relatedToolIds": "image-crop,image-watermark"
@@ -480,19 +816,19 @@
         "content": [
           {
             "heading": "Why Batch Processing Saves You Hours",
-            "text": "Compressing images one at a time is tedious and impractical when you have dozens or hundreds of files to process. Whether you are optimizing product photos for an e-commerce store, preparing images for a website migration, or reducing the size of a photo library, batch processing is the only efficient approach.\n\nManual compression of a single image typically takes 30 to 60 seconds including upload, adjustment, and download. For 100 images, that adds up to over an hour of repetitive work. Batch compression tools handle the same workload in minutes by applying your chosen settings to all files simultaneously.\n\nBatch processing also ensures consistency. When every image in a set is compressed with the same quality settings, the visual appearance remains uniform across your website or product catalog. This consistency is especially important for professional presentations and e-commerce listings where mismatched image quality looks unprofessional."
+            "text": "Compressing images one at a time is tedious and impractical when you have dozens or hundreds of files to process. Whether you are optimizing product photos for an e-commerce store, preparing images for a website migration, or reducing the size of a photo library, batch processing is the only efficient approach."
           },
           {
             "heading": "Choosing the Right Batch Tool",
-            "text": "Browser-based tools like ToolPic offer the most convenient batch compression experience. You drag and drop your entire folder of images, set the quality level once, and the tool processes everything locally in your browser. There are no file count limits, no uploads to third-party servers, and no subscription fees.\n\nDesktop applications like ImageOptim (macOS) and FileOptimizer (Windows) are good alternatives for users who prefer native software. They integrate with your file system and can process folders directly, which is convenient for large batches. However, they require installation and are platform-specific.\n\nCommand-line tools like Sharp (Node.js) and ImageMagick are ideal for developers who want to integrate compression into automated build pipelines. They offer the most control and can process thousands of files, but they require technical knowledge to configure and run."
+            "text": "Browser-based tools like ToolPic offer the most convenient batch compression experience. You drag and drop your entire folder of images, set the quality level once, and the tool processes everything locally in your browser. There are no file count limits, no uploads to third-party servers, and no subscription fees."
           },
           {
             "heading": "Optimal Settings for Batch Compression",
-            "text": "For photographs and complex images, JPEG or WebP at 78-82% quality provides the best balance between file size and visual quality. This range typically achieves 60-75% size reduction while keeping images visually indistinguishable from the originals at normal viewing sizes.\n\nFor graphics, icons, and screenshots with sharp edges and text, PNG with lossless optimization is usually the better choice. If transparency is not needed, converting these to WebP lossless can reduce file sizes by an additional 20-30% compared to optimized PNG.\n\nAlways resize images to their maximum display dimensions before compressing. If your website displays product images at 800 pixels wide, there is no reason to compress and serve 3000-pixel-wide originals. Resizing first, then compressing, produces dramatically smaller files than compression alone. For a typical e-commerce store, this combination can reduce total image bandwidth by 80-90%."
+            "text": "For photographs and complex images, JPEG or WebP at 78-82% quality provides the best balance between file size and visual quality. This range typically achieves 60-75% size reduction while keeping images visually indistinguishable from the originals at normal viewing sizes."
           },
           {
             "heading": "Step-by-Step Batch Compression with ToolPic",
-            "text": "Open the Image Compressor tool on ToolPic. Click the upload area or drag and drop your entire selection of images. The tool accepts JPEG, PNG, WebP, and AVIF files in any combination. There is no limit on the number of files you can process.\n\nSet the quality slider to your desired level. For most use cases, 80% is an excellent default. The tool applies this setting to all images in the batch. You can see the original and compressed size for each file in the processing list.\n\nOnce all images are processed, review the results. The tool displays the total size savings across all files. Use the Download All button to save every compressed image at once. The entire process runs locally in your browser, meaning your images are never uploaded to any server. For a batch of 50 product photos, the process typically completes in under a minute."
+            "text": "Open the Image Compressor tool on ToolPic. Click the upload area or drag and drop your entire selection of images. The tool accepts JPEG, PNG, WebP, and AVIF files in any combination."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -505,19 +841,19 @@
         "content": [
           {
             "heading": "The Next Generation of Image Formats",
-            "text": "The web has relied on JPEG and PNG for decades, but these formats were designed in an era when bandwidth was expensive and processing power was limited. Modern formats like WebP and AVIF use advanced compression techniques that deliver the same visual quality at a fraction of the file size.\n\nWebP was released by Google in 2010, based on the VP8 video codec. It supports both lossy and lossless compression, transparency, and animation. It has been widely adopted across the web and is supported by all major browsers since 2020.\n\nAVIF arrived in 2019, built on the AV1 video codec developed by the Alliance for Open Media. It represents the cutting edge of image compression, offering even better compression ratios than WebP. AVIF is gaining browser support rapidly and is becoming a serious contender for the default web image format. Understanding how these two formats compare helps you make informed decisions about which to adopt for your projects."
+            "text": "The web has relied on JPEG and PNG for decades, but these formats were designed in an era when bandwidth was expensive and processing power was limited. Modern formats like WebP and AVIF use advanced compression techniques that deliver the same visual quality at a fraction of the file size."
           },
           {
             "heading": "Compression Quality Comparison",
-            "text": "In controlled comparisons, AVIF consistently outperforms WebP in compression efficiency. At equivalent visual quality, AVIF files are typically 20-30% smaller than WebP files and 50% smaller than JPEG. This advantage is most pronounced at lower bitrates, where AVIF maintains cleaner details and fewer artifacts.\n\nAVIF excels at preserving fine texture and gradient details that WebP sometimes smooths over. Photographs of natural scenes, portraits with skin texture, and images with subtle color gradations look noticeably better in AVIF at the same file size. For high-detail photographic content, AVIF is the superior format.\n\nWebP still holds advantages in specific scenarios. It encodes and decodes faster than AVIF, which matters for real-time applications and devices with limited processing power. WebP also handles sharp edges and text more predictably than AVIF at aggressive compression levels. For screenshots, UI elements, and graphics with crisp lines, WebP can produce more consistent results."
+            "text": "In controlled comparisons, AVIF consistently outperforms WebP in compression efficiency. At equivalent visual quality, AVIF files are typically 20-30% smaller than WebP files and 50% smaller than JPEG. This advantage is most pronounced at lower bitrates, where AVIF maintains cleaner details and fewer artifacts."
           },
           {
             "heading": "Browser Support and Adoption",
-            "text": "WebP has near-universal browser support in 2026, covering over 97% of global web users. Chrome, Firefox, Safari, Edge, and all major mobile browsers handle WebP without issues. This mature support makes WebP a safe, production-ready choice for any web project.\n\nAVIF support has expanded significantly and now covers approximately 92% of global users. Chrome and Firefox added support early, and Safari joined with version 16 in 2022. The remaining gap comes from older browser versions and some niche platforms.\n\nFor maximum compatibility, the best approach is to serve AVIF as the primary format with WebP as a fallback, using the HTML picture element. This ensures every visitor gets the smallest possible file their browser can handle. Content delivery networks like Cloudflare and Fastly can automate this format negotiation based on the Accept header, simplifying implementation."
+            "text": "WebP has near-universal browser support in 2026, covering over 97% of global web users. Chrome, Firefox, Safari, Edge, and all major mobile browsers handle WebP without issues. This mature support makes WebP a safe, production-ready choice for any web project."
           },
           {
             "heading": "Which Format Should You Use?",
-            "text": "Use AVIF as your primary format when targeting modern browsers and maximum compression is a priority. It is the best choice for photography-heavy websites, media galleries, and any project where bandwidth savings directly impact costs or user experience. The compression advantage over WebP translates into measurably faster page loads.\n\nUse WebP as your reliable fallback and as your primary format when encoding speed matters or when you need to support the broadest possible device range. WebP's faster encoding also makes it more practical for on-the-fly image processing in CDN pipelines.\n\nToolPic's Image Converter supports both AVIF and WebP, letting you convert images between formats instantly in your browser. You can compare the output quality and file size of both formats side by side to determine which works best for your specific images. Since conversion happens locally, you can experiment freely without uploading anything to external servers."
+            "text": "Use AVIF as your primary format when targeting modern browsers and maximum compression is a priority. It is the best choice for photography-heavy websites, media galleries, and any project where bandwidth savings directly impact costs or user experience. The compression advantage over WebP translates into measurably faster page loads."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -530,19 +866,19 @@
         "content": [
           {
             "heading": "Why Product Images Drive Sales",
-            "text": "In e-commerce, product images are your most powerful sales tool. Studies show that 75% of online shoppers rely on product photos when making purchase decisions. High-quality images build trust, reduce return rates, and directly increase conversion rates. A product with multiple clear, well-lit images can convert at two to three times the rate of one with a single low-quality photo.\n\nHowever, high-quality images come with a trade-off: file size. Unoptimized product photos can easily weigh 2-5MB each, and a typical category page displaying 20 to 40 products can require over 100MB of image data. This creates catastrophically slow page loads that drive customers away before they even see your products.\n\nThe solution is optimizing your images to maintain visual quality while drastically reducing file size. With the right format, dimensions, and compression settings, you can reduce image file sizes by 70-90% without any perceptible quality loss. Faster-loading pages mean lower bounce rates, better search rankings, and ultimately more sales."
+            "text": "In e-commerce, product images are your most powerful sales tool. Studies show that 75% of online shoppers rely on product photos when making purchase decisions. High-quality images build trust, reduce return rates, and directly increase conversion rates."
           },
           {
             "heading": "Recommended Sizes and Formats",
-            "text": "For main product images, use dimensions between 1000 and 2000 pixels on the longest side. This provides enough resolution for zoom functionality without being excessively large. Most e-commerce platforms recommend 1200 x 1200 or 1500 x 1500 pixels for square product images.\n\nWebP is the ideal format for product images in 2026. It offers 25-35% smaller files than JPEG at the same quality and supports transparency for products photographed on transparent backgrounds. For stores that need to support older browsers, serve WebP with a JPEG fallback.\n\nThumbnails in category listings should be 400-600 pixels wide. At this display size, a well-compressed WebP or JPEG at 80% quality typically produces files between 20KB and 50KB. For hero banners and lifestyle shots, keep file sizes under 150KB by using WebP at 78-82% quality."
+            "text": "For main product images, use dimensions between 1000 and 2000 pixels on the longest side. This provides enough resolution for zoom functionality without being excessively large. Most e-commerce platforms recommend 1200 x 1200 or 1500 x 1500 pixels for square product images."
           },
           {
             "heading": "Image SEO for E-commerce",
-            "text": "Search engines cannot see your images, but they read the text you associate with them. Descriptive file names like blue-cotton-t-shirt-front-view.jpg tell search engines exactly what the image shows, while generic names like IMG_4521.jpg provide no useful information.\n\nAlt text is critical for both accessibility and SEO. Write concise descriptions that include relevant keywords naturally. Instead of keyword-stuffing like best cheap blue shirt buy now, use descriptive text like Front view of men's blue cotton t-shirt with crew neck. This approach serves both screen reader users and search engine crawlers.\n\nImplement structured data markup for your product images using Schema.org Product type. This helps search engines display your products in rich results and image search. Include the image URL in your product schema along with other product details like price, availability, and reviews."
+            "text": "Search engines cannot see your images, but they read the text you associate with them. jpg provide no useful information."
           },
           {
             "heading": "Optimizing Product Images with ToolPic",
-            "text": "Start by cropping your product photos to a consistent aspect ratio using ToolPic's Image Crop tool. Square crops (1:1) work best for most e-commerce platforms and ensure a clean, uniform grid layout in category pages. Crop tightly around the product to maximize the visual impact at smaller display sizes.\n\nNext, use the Image Compressor to batch process your entire product catalog. Set the quality to 80% for the best balance of file size and visual clarity. The tool shows you the before-and-after file size for each image, so you can verify the savings. For a catalog of 200 products, batch compression typically saves 500MB or more in total image weight.\n\nAll processing happens locally in your browser, which means your proprietary product images never leave your device. This is especially valuable for stores that sell unique or unreleased products where image confidentiality matters. Export your optimized images and upload them to your store's media library for an immediate boost in page load performance."
+            "text": "Start by cropping your product photos to a consistent aspect ratio using ToolPic's Image Crop tool. Square crops (1:1) work best for most e-commerce platforms and ensure a clean, uniform grid layout in category pages. Crop tightly around the product to maximize the visual impact at smaller display sizes."
           }
         ],
         "relatedToolIds": "image-compressor,image-crop"
@@ -555,19 +891,19 @@
         "content": [
           {
             "heading": "Tại sao nén ảnh quan trọng",
-            "text": "Hình ảnh lớn là một trong những lý do hàng đầu khiến trang web tải chậm. Khi một trang mất hơn ba giây để tải, hơn một nửa khách truy cập sẽ rời đi trước khi họ nhìn thấy nội dung. Các công cụ tìm kiếm cũng tính tốc độ trang vào thuật toán xếp hạng, vì vậy hình ảnh nặng có thể ảnh hưởng trực tiếp đến thứ hạng tìm kiếm của bạn.\n\nNgoài hiệu suất trang web, ảnh đã nén dễ chia sẻ hơn qua email, ứng dụng nhắn tin và các nền tảng mạng xã hội có giới hạn kích thước tệp. Một bức ảnh 5MB từ điện thoại có thể trông tuyệt vời trên màn hình độ phân giải cao, nhưng lớn hơn nhiều so với cần thiết cho hầu hết các mục đích trực tuyến. Giảm xuống còn 500KB hoặc ít hơn có thể giúp tải nhanh hơn mười lần mà không có sự giảm chất lượng đáng chú ý.\n\nNén ảnh đặc biệt quan trọng đối với các cửa hàng thương mại điện tử, portfolio và blog nhiều nội dung, nơi hàng chục hình ảnh xuất hiện trên một trang. Ngay cả tiết kiệm nhỏ cho mỗi ảnh cũng cộng dồn thành cải thiện đáng kể cho hiệu suất tổng thể."
+            "text": "Hình ảnh lớn là một trong những lý do hàng đầu khiến trang web tải chậm. Khi một trang mất hơn ba giây để tải, hơn một nửa khách truy cập sẽ rời đi trước khi họ nhìn thấy nội dung. Các công cụ tìm kiếm cũng tính tốc độ trang vào thuật toán xếp hạng, vì vậy hình ảnh nặng có thể ảnh hưởng trực tiếp đến thứ hạng tìm kiếm của bạn."
           },
           {
             "heading": "Nén có mất dữ liệu và không mất dữ liệu",
-            "text": "Có hai cách tiếp cận cơ bản để nén ảnh: có mất dữ liệu (lossy) và không mất dữ liệu (lossless). Hiểu sự khác biệt giúp bạn chọn phương pháp phù hợp cho từng tình huống.\n\nNén không mất dữ liệu giảm kích thước tệp bằng cách tìm và loại bỏ các mẫu dữ liệu dư thừa mà không bỏ bất kỳ thông tin ảnh nào. Khi giải nén tệp, bạn nhận lại chính xác dữ liệu pixel gốc. PNG sử dụng nén không mất dữ liệu, lý tưởng cho đồ họa, logo và ảnh chụp màn hình cần giữ mọi chi tiết. Nhược điểm là nén không mất dữ liệu thường chỉ đạt mức giảm kích thước khiêm tốn, thường từ 10% đến 40%.\n\nNén có mất dữ liệu đạt mức giảm kích thước lớn hơn nhiều bằng cách loại bỏ vĩnh viễn dữ liệu ảnh mà mắt người khó nhận ra. JPEG là định dạng lossy phổ biến nhất, và các định dạng hiện đại như WebP cung cấp nén lossy tốt hơn. Ở mức chất lượng 75% đến 85%, hầu hết ảnh chụp không thể phân biệt với bản gốc trong khi nhỏ hơn 60% đến 80%."
+            "text": "Có hai cách tiếp cận cơ bản để nén ảnh: có mất dữ liệu (lossy) và không mất dữ liệu (lossless). Hiểu sự khác biệt giúp bạn chọn phương pháp phù hợp cho từng tình huống."
           },
           {
             "heading": "Thực hành tốt nhất cho nén ảnh",
-            "text": "Bắt đầu bằng cách chọn đúng định dạng cho nội dung. Sử dụng JPEG hoặc WebP cho ảnh chụp và hình ảnh phức tạp có gradient. Sử dụng PNG cho đồ họa có cạnh sắc nét, lớp phủ văn bản hoặc trong suốt. Tránh sử dụng PNG cho ảnh chụp vì nó tạo tệp lớn không cần thiết.\n\nThay đổi kích thước ảnh theo kích thước thực sự hiển thị trước khi nén. Không có lý do gì để phục vụ ảnh rộng 4000 pixel cho khung chỉ rộng 800 pixel. Thay đổi kích thước trước rồi nén hiệu quả hơn nhiều so với chỉ nén.\n\nĐối với web, hãy nhắm kích thước tệp dưới 200KB cho ảnh hero và dưới 100KB cho ảnh thu nhỏ và ảnh nội dung. Sử dụng mức chất lượng từ 75% đến 85% cho JPEG và WebP. Luôn so sánh phiên bản đã nén cạnh bản gốc để đảm bảo chất lượng đạt tiêu chuẩn."
+            "text": "Bắt đầu bằng cách chọn đúng định dạng cho nội dung. Sử dụng JPEG hoặc WebP cho ảnh chụp và hình ảnh phức tạp có gradient. Sử dụng PNG cho đồ họa có cạnh sắc nét, lớp phủ văn bản hoặc trong suốt."
           },
           {
             "heading": "Cách nén ảnh với ToolPic",
-            "text": "Bước 1: Mở công cụ Nén Hình Ảnh trên ToolPic. Bạn có thể kéo thả ảnh trực tiếp vào khu vực tải lên hoặc nhấp để duyệt tệp. Nhiều ảnh có thể được xử lý cùng lúc.\n\nBước 2: Điều chỉnh thanh trượt chất lượng để đặt mức nén mong muốn. Cài đặt mặc định 80% hoạt động tốt cho hầu hết ảnh chụp. Di chuyển thanh trượt thấp hơn cho tệp nhỏ hơn hoặc cao hơn để giữ nhiều chi tiết hơn. Công cụ hiển thị mức giảm kích thước tệp ước tính theo thời gian thực.\n\nBước 3: Sau khi xử lý hoàn tất, xem lại so sánh trước và sau để xác minh chất lượng chấp nhận được. Tải ảnh riêng lẻ hoặc sử dụng nút \"Tải tất cả\" để lưu mọi thứ cùng lúc. Tệp của bạn không bao giờ rời khỏi trình duyệt, nên toàn bộ quá trình hoàn toàn riêng tư."
+            "text": "Bước 1: Mở công cụ Nén Hình Ảnh trên ToolPic. Bạn có thể kéo thả ảnh trực tiếp vào khu vực tải lên hoặc nhấp để duyệt tệp. Nhiều ảnh có thể được xử lý cùng lúc."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -580,19 +916,19 @@
         "content": [
           {
             "heading": "Hiểu về các định dạng ảnh",
-            "text": "Chọn đúng định dạng ảnh có thể tạo ra sự khác biệt đáng kể về kích thước tệp, tốc độ tải và chất lượng hình ảnh. Mỗi định dạng được thiết kế cho các trường hợp sử dụng khác nhau, và sử dụng sai thường dẫn đến tệp lớn không cần thiết hoặc chất lượng ảnh giảm sút.\n\nBa định dạng quan trọng nhất cho web hiện nay là JPEG (JPG), PNG và WebP. JPEG đã là tiêu chuẩn cho ảnh chụp từ giữa những năm 1990. PNG trở thành định dạng ưa chuộng cho đồ họa và ảnh cần trong suốt. WebP, được Google phát triển, là định dạng hiện đại nhằm thay thế cả hai bằng cách cung cấp nén tốt hơn cho cả nội dung ảnh chụp và đồ họa.\n\nHiểu điểm mạnh và hạn chế của từng định dạng là điều cần thiết cho bất kỳ ai làm việc với hình ảnh, dù bạn đang xây dựng trang web, quản lý nội dung mạng xã hội, hay đơn giản là tiết kiệm dung lượng lưu trữ."
+            "text": "Chọn đúng định dạng ảnh có thể tạo ra sự khác biệt đáng kể về kích thước tệp, tốc độ tải và chất lượng hình ảnh. Mỗi định dạng được thiết kế cho các trường hợp sử dụng khác nhau, và sử dụng sai thường dẫn đến tệp lớn không cần thiết hoặc chất lượng ảnh giảm sút."
           },
           {
             "heading": "JPEG: Tiêu chuẩn cho ảnh chụp",
-            "text": "JPEG sử dụng nén có mất dữ liệu, vượt trội trong việc thể hiện ảnh chụp và hình ảnh có chuyển màu mượt mà. Nó có thể giảm kích thước ảnh tới 80% hoặc hơn trong khi vẫn duy trì chất lượng hình ảnh xuất sắc ở mức nén vừa phải.\n\nƯu điểm chính của JPEG là khả năng tương thích phổ quát. Mọi thiết bị, trình duyệt và ứng dụng đều hỗ trợ nó. Nó cũng rất linh hoạt, cho phép bạn chọn mức chất lượng từ nén tối thiểu đến giảm mạnh.\n\nTuy nhiên, JPEG có những hạn chế đáng chú ý. Nó không hỗ trợ trong suốt, nên bạn không thể đặt ảnh JPEG lên nền khác mà không có hình chữ nhật xung quanh. Nó cũng tạo ra hiện tượng nhiễu ở mức chất lượng thấp, đặc biệt quanh các cạnh sắc và văn bản. Mỗi lần chỉnh sửa và lưu lại JPEG, chất lượng giảm thêm do nén lại."
+            "text": "JPEG sử dụng nén có mất dữ liệu, vượt trội trong việc thể hiện ảnh chụp và hình ảnh có chuyển màu mượt mà. Nó có thể giảm kích thước ảnh tới 80% hoặc hơn trong khi vẫn duy trì chất lượng hình ảnh xuất sắc ở mức nén vừa phải."
           },
           {
             "heading": "PNG: Chất lượng không mất dữ liệu và trong suốt",
-            "text": "PNG sử dụng nén không mất dữ liệu, nghĩa là chất lượng ảnh được bảo toàn hoàn hảo bất kể bạn lưu bao nhiêu lần. Nó cũng hỗ trợ trong suốt alpha đầy đủ, cho phép pixel trong suốt một phần hoặc hoàn toàn.\n\nĐiều này khiến PNG là lựa chọn tốt nhất cho logo, biểu tượng, ảnh chụp màn hình, đồ họa có văn bản, và bất kỳ ảnh nào cần nền trong suốt. Nó cũng lý tưởng cho ảnh sẽ được chỉnh sửa nhiều lần, vì không mất chất lượng khi lưu lại.\n\nĐánh đổi là kích thước tệp. Tệp PNG thường lớn hơn gấp ba đến năm lần so với JPEG cho nội dung ảnh chụp. Điều này khiến PNG không thực tế cho ảnh lớn trên web, nơi tốc độ tải quan trọng. Sử dụng PNG khi chất lượng và trong suốt quan trọng hơn kích thước tệp."
+            "text": "PNG sử dụng nén không mất dữ liệu, nghĩa là chất lượng ảnh được bảo toàn hoàn hảo bất kể bạn lưu bao nhiêu lần. Nó cũng hỗ trợ trong suốt alpha đầy đủ, cho phép pixel trong suốt một phần hoặc hoàn toàn."
           },
           {
             "heading": "WebP: Lựa chọn hiện đại",
-            "text": "WebP được Google phát triển để cung cấp nén vượt trội cho ảnh web. Nó hỗ trợ cả nén có mất dữ liệu và không mất dữ liệu, cũng như trong suốt và hoạt ảnh, kết hợp hiệu quả các tính năng tốt nhất của JPEG, PNG và GIF vào một định dạng duy nhất.\n\nTrong thực tế, ảnh WebP lossy thường nhỏ hơn 25% đến 35% so với JPEG ở chất lượng hình ảnh tương đương. Ảnh WebP lossless nhỏ hơn khoảng 26% so với PNG. Điều này khiến WebP trở thành lựa chọn mặc định tuyệt vời cho web, giảm chi phí băng thông và cải thiện thời gian tải trang.\n\nHỗ trợ trình duyệt cho WebP hiện rất tốt, bao gồm Chrome, Firefox, Safari và Edge. Hạn chế chính là tương thích với phần mềm cũ và một số ứng dụng di động gốc. Khi cần tương thích tối đa, JPEG vẫn là lựa chọn an toàn hơn. Đối với xuất bản web nơi hiệu suất quan trọng, WebP là người chiến thắng rõ ràng. Bạn có thể sử dụng Trình chuyển đổi hình ảnh của ToolPic để dễ dàng chuyển đổi giữa các định dạng."
+            "text": "WebP được Google phát triển để cung cấp nén vượt trội cho ảnh web. Nó hỗ trợ cả nén có mất dữ liệu và không mất dữ liệu, cũng như trong suốt và hoạt ảnh, kết hợp hiệu quả các tính năng tốt nhất của JPEG, PNG và GIF vào một định dạng duy nhất."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -605,19 +941,19 @@
         "content": [
           {
             "heading": "Tại sao GIF vẫn phổ biến",
-            "text": "Mặc dù là định dạng từ năm 1987, GIF đã trở nên phổ biến hơn bao giờ hết. Chúng tự động phát trong hầu hết mọi ứng dụng nhắn tin, nền tảng mạng xã hội và trình đọc email mà không cần trình phát video. Khả năng phát liền mạch này khiến chúng hoàn hảo cho phản ứng, trình diễn và hướng dẫn nhanh.\n\nGIF cũng được sử dụng rộng rãi cho demo sản phẩm, hoạt ảnh giao diện người dùng và báo cáo lỗi trong bối cảnh chuyên nghiệp. Một GIF ngắn cho thấy tính năng phần mềm hoạt động truyền đạt hiệu quả hơn nhiều đoạn văn bản hoặc một loạt ảnh chụp tĩnh.\n\nHạn chế chính của định dạng là kích thước tệp. Vì GIF sử dụng phương pháp nén tương đối kém hiệu quả và bị giới hạn 256 màu mỗi khung hình, chúng có thể nhanh chóng trở nên lớn. Một GIF 5 giây được tối ưu tốt có thể là 1-2MB, trong khi GIF cấu hình kém có thể dễ dàng vượt quá 10MB."
+            "text": "Mặc dù là định dạng từ năm 1987, GIF đã trở nên phổ biến hơn bao giờ hết. Chúng tự động phát trong hầu hết mọi ứng dụng nhắn tin, nền tảng mạng xã hội và trình đọc email mà không cần trình phát video. Khả năng phát liền mạch này khiến chúng hoàn hảo cho phản ứng, trình diễn và hướng dẫn nhanh."
           },
           {
             "heading": "Chọn cài đặt phù hợp",
-            "text": "Ba cài đặt quan trọng nhất khi chuyển đổi video sang GIF là thời lượng, tốc độ khung hình và kích thước đầu ra. Thiết lập đúng tạo nên sự khác biệt giữa GIF sắc nét, dễ chia sẻ và tệp cồng kềnh tải mãi không xong.\n\nGiữ thời lượng GIF ngắn. Dưới 5 giây là lý tưởng, và hầu hết GIF hiệu quả dài từ 2 đến 4 giây. Clip dài hơn nên được cắt để tập trung vào khoảnh khắc quan trọng nhất.\n\nTốc độ khung hình có tác động lớn đến kích thước tệp. Video thường chạy ở 24-30 khung hình mỗi giây, nhưng GIF trông mượt ở chỉ 10-15 FPS. Giảm từ 30 FPS xuống 12 FPS cắt kích thước tệp hơn một nửa với tác động hình ảnh tối thiểu. Đối với hoạt ảnh đơn giản, thậm chí 8 FPS cũng có thể hoạt động tốt."
+            "text": "Ba cài đặt quan trọng nhất khi chuyển đổi video sang GIF là thời lượng, tốc độ khung hình và kích thước đầu ra. Thiết lập đúng tạo nên sự khác biệt giữa GIF sắc nét, dễ chia sẻ và tệp cồng kềnh tải mãi không xong."
           },
           {
             "heading": "Tối ưu kích thước tệp GIF",
-            "text": "Độ phân giải là yếu tố lớn nhất ảnh hưởng đến kích thước tệp GIF. GIF 1080p sẽ rất lớn. Đối với hầu hết mục đích sử dụng, chiều rộng 480 đến 640 pixel là đủ. Các nền tảng mạng xã hội và ứng dụng nhắn tin hiển thị GIF ở kích thước nhỏ, nên độ phân giải cao là lãng phí.\n\nGiảm màu cũng giúp ích. GIF hỗ trợ tối đa 256 màu mỗi khung hình. Nếu video nguồn có nhiều màu, quá trình chuyển đổi phải chọn 256 màu nào để giữ. Cảnh đơn giản hơn với ít màu tự nhiên tạo tệp nhỏ hơn.\n\nCuối cùng, hãy cân nhắc liệu bạn có thực sự cần GIF không. Các phương án hiện đại như hoạt ảnh WebP và vòng lặp MP4 ngắn tạo tệp nhỏ hơn nhiều với chất lượng tốt hơn. Tuy nhiên, GIF vẫn là tùy chọn tương thích phổ quát nhất cho ảnh động trên mọi nền tảng."
+            "text": "Độ phân giải là yếu tố lớn nhất ảnh hưởng đến kích thước tệp GIF. GIF 1080p sẽ rất lớn. Đối với hầu hết mục đích sử dụng, chiều rộng 480 đến 640 pixel là đủ."
           },
           {
             "heading": "Tạo GIF với ToolPic",
-            "text": "Mở công cụ Video sang GIF trên ToolPic và tải video lên. Công cụ hỗ trợ MP4, WebM và các định dạng video phổ biến khác. Sử dụng thanh trượt dòng thời gian để chọn chính xác điểm bắt đầu và thời lượng của clip bạn muốn chuyển đổi.\n\nĐặt chiều rộng đầu ra mong muốn. Đối với mạng xã hội và nhắn tin, 480px là điểm khởi đầu tốt. Điều chỉnh tốc độ khung hình xuống 10-12 FPS trừ khi bạn cần chuyển động mượt hơn. Công cụ xem trước kích thước tệp ước tính để bạn có thể tinh chỉnh cài đặt trước khi chuyển đổi.\n\nKhi hài lòng với bản xem trước, nhấp chuyển đổi và tải GIF đã tối ưu. Toàn bộ quá trình diễn ra trong trình duyệt, nên tệp video của bạn hoàn toàn riêng tư trên thiết bị."
+            "text": "Mở công cụ Video sang GIF trên ToolPic và tải video lên. Công cụ hỗ trợ MP4, WebM và các định dạng video phổ biến khác. Sử dụng thanh trượt dòng thời gian để chọn chính xác điểm bắt đầu và thời lượng của clip bạn muốn chuyển đổi."
           }
         ],
         "relatedToolIds": "video-to-gif"
@@ -630,19 +966,19 @@
         "content": [
           {
             "heading": "Điều gì tạo nên công cụ nén tốt",
-            "text": "Một công cụ nén ảnh tốt cần cân bằng ba yếu tố: tỷ lệ nén, chất lượng hình ảnh và dễ sử dụng. Các công cụ tốt nhất cho phép bạn giảm kích thước tệp đáng kể trong khi giữ ảnh không thể phân biệt với bản gốc ở kích thước xem bình thường.\n\nBảo mật cũng là yếu tố ngày càng quan trọng. Các công cụ xử lý ảnh trên máy chủ yêu cầu bạn tải tệp lên, nghĩa là ảnh của bạn đi qua hệ thống bên thứ ba. Đối với ảnh nhạy cảm hoặc độc quyền, các công cụ dựa trên trình duyệt xử lý mọi thứ cục bộ có lợi thế rõ ràng.\n\nCác yếu tố khác đáng xem xét bao gồm hỗ trợ xử lý hàng loạt, tùy chọn định dạng, giới hạn kích thước tệp tối đa và liệu công cụ có thêm watermark hoặc yêu cầu đăng ký hay không."
+            "text": "Một công cụ nén ảnh tốt cần cân bằng ba yếu tố: tỷ lệ nén, chất lượng hình ảnh và dễ sử dụng. Các công cụ tốt nhất cho phép bạn giảm kích thước tệp đáng kể trong khi giữ ảnh không thể phân biệt với bản gốc ở kích thước xem bình thường."
           },
           {
             "heading": "Công cụ dựa trên trình duyệt",
-            "text": "ToolPic xử lý ảnh hoàn toàn trong trình duyệt sử dụng công nghệ WebAssembly. Tệp của bạn không bao giờ rời khỏi thiết bị, khiến nó trở thành tùy chọn thân thiện với quyền riêng tư nhất. Nó hỗ trợ định dạng JPEG, PNG, WebP và AVIF với cài đặt chất lượng có thể điều chỉnh và xử lý hàng loạt. Không có giới hạn số lượng tệp hay watermark.\n\nSquoosh, được nhóm Google Chrome phát triển, là công cụ nén ảnh đơn tuyệt vời. Nó cung cấp chế độ so sánh song song độc đáo và hỗ trợ các định dạng hiện đại bao gồm AVIF và JPEG XL. Tuy nhiên, nó chỉ xử lý một ảnh mỗi lần, kém thực tế cho công việc hàng loạt.\n\nTinyPNG là công cụ web phổ biến xử lý tốt cả nén PNG và JPEG. Phiên bản miễn phí giới hạn 20 ảnh mỗi lần và 5MB mỗi ảnh, và ảnh được tải lên máy chủ để xử lý."
+            "text": "ToolPic xử lý ảnh hoàn toàn trong trình duyệt sử dụng công nghệ WebAssembly. Tệp của bạn không bao giờ rời khỏi thiết bị, khiến nó trở thành tùy chọn thân thiện với quyền riêng tư nhất. Nó hỗ trợ định dạng JPEG, PNG, WebP và AVIF với cài đặt chất lượng có thể điều chỉnh và xử lý hàng loạt."
           },
           {
             "heading": "Công cụ máy tính và dòng lệnh",
-            "text": "ImageOptim là ứng dụng máy tính miễn phí cho macOS nén ảnh bằng nhiều thuật toán tối ưu hóa. Nó đặc biệt giỏi tối ưu hóa tệp PNG và có thể xử lý toàn bộ thư mục cùng lúc. Là ứng dụng gốc, nó xử lý hàng loạt nhanh hơn các công cụ trình duyệt.\n\nSharpJS là thư viện xử lý ảnh Node.js hiệu suất cao mà nhà phát triển có thể tích hợp vào quy trình xây dựng. Nó cung cấp chất lượng nén tuyệt vời và hỗ trợ tất cả định dạng chính. Mặc dù cần kiến thức kỹ thuật để thiết lập, nó lý tưởng cho tự động hóa tối ưu ảnh trong quy trình phát triển web.\n\nĐối với hầu hết người dùng, công cụ trình duyệt cung cấp sự kết hợp tốt nhất giữa tiện lợi và chất lượng. Chúng không cần cài đặt, hoạt động trên mọi hệ điều hành và cung cấp kết quả ngay lập tức."
+            "text": "ImageOptim là ứng dụng máy tính miễn phí cho macOS nén ảnh bằng nhiều thuật toán tối ưu hóa. Nó đặc biệt giỏi tối ưu hóa tệp PNG và có thể xử lý toàn bộ thư mục cùng lúc. Là ứng dụng gốc, nó xử lý hàng loạt nhanh hơn các công cụ trình duyệt."
           },
           {
             "heading": "So sánh quyền riêng tư",
-            "text": "Khi chọn công cụ nén, hãy xem xét nơi ảnh của bạn được xử lý. Các công cụ dựa trên máy chủ như TinyPNG tải ảnh lên máy chủ từ xa để xử lý. Mặc dù các dịch vụ uy tín xóa tệp sau khi xử lý, ảnh của bạn vẫn tạm thời tồn tại trên hạ tầng bên thứ ba.\n\nCác công cụ trình duyệt như ToolPic và Squoosh không bao giờ tải tệp của bạn lên. Toàn bộ xử lý diễn ra cục bộ sử dụng CPU và bộ nhớ thiết bị. Điều này khiến chúng là lựa chọn rõ ràng cho ảnh bảo mật, công việc khách hàng, ảnh cá nhân và bất kỳ nội dung nào bạn không muốn rời khỏi thiết bị.\n\nĐối với nhiếp ảnh gia chuyên nghiệp, doanh nghiệp thương mại điện tử xử lý ảnh sản phẩm, và bất kỳ ai làm việc với nội dung độc quyền, xử lý trong trình duyệt loại bỏ hoàn toàn rủi ro lộ dữ liệu."
+            "text": "Khi chọn công cụ nén, hãy xem xét nơi ảnh của bạn được xử lý. Các công cụ dựa trên máy chủ như TinyPNG tải ảnh lên máy chủ từ xa để xử lý. Mặc dù các dịch vụ uy tín xóa tệp sau khi xử lý, ảnh của bạn vẫn tạm thời tồn tại trên hạ tầng bên thứ ba."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -655,19 +991,19 @@
         "content": [
           {
             "heading": "Cách xóa nền bằng AI hoạt động",
-            "text": "Các công cụ xóa nền hiện đại sử dụng mô hình học sâu đã được huấn luyện trên hàng triệu ảnh để phân biệt chủ thể tiền cảnh với nền. Các mạng nơ-ron này phân tích ảnh để xác định cạnh, gợi ý chiều sâu và thông tin ngữ cảnh để tạo mặt nạ cắt chính xác.\n\nCông nghệ đã cải thiện đáng kể trong những năm gần đây. Các công cụ trước đây yêu cầu chọn thủ công với công cụ magic wand hoặc lasso và gặp khó khăn với các cạnh phức tạp như tóc hoặc lông. Các mô hình AI ngày nay xử lý tự động các trường hợp khó này, tạo ra cắt ghép sạch trong vài giây mà trước đây cần nhiều phút chỉnh sửa cẩn thận.\n\nMột số công cụ xử lý ảnh trên máy chủ từ xa. Những công cụ khác, như ToolPic, chạy mô hình AI trực tiếp trong trình duyệt sử dụng WebAssembly, giữ ảnh hoàn toàn riêng tư trong khi vẫn mang lại kết quả chuyên nghiệp."
+            "text": "Các công cụ xóa nền hiện đại sử dụng mô hình học sâu đã được huấn luyện trên hàng triệu ảnh để phân biệt chủ thể tiền cảnh với nền. Các mạng nơ-ron này phân tích ảnh để xác định cạnh, gợi ý chiều sâu và thông tin ngữ cảnh để tạo mặt nạ cắt chính xác."
           },
           {
             "heading": "Các trường hợp sử dụng phổ biến",
-            "text": "Chụp ảnh sản phẩm thương mại điện tử là một trong những ứng dụng phổ biến nhất. Nền trắng hoặc trong suốt sạch là tiêu chuẩn cho các sàn thương mại như Amazon, eBay và Shopify. Thay vì thiết lập studio chụp ảnh chuyên nghiệp, người bán có thể chụp sản phẩm trên bất kỳ nền nào và xóa nó bằng kỹ thuật số.\n\nTạo nội dung mạng xã hội thường xuyên cần nền trong suốt để xếp lớp ảnh, tạo collage hoặc đặt chủ thể vào bối cảnh mới. Ảnh đại diện, đồ họa marketing và nội dung thương hiệu đều được hưởng lợi từ cắt ghép sạch.\n\nNhà thiết kế chuyên nghiệp sử dụng xóa nền làm điểm khởi đầu cho công việc ghép ảnh, đặt chủ thể vào môi trường mới, tạo tài liệu quảng cáo hoặc chuẩn bị ảnh cho in ấn."
+            "text": "Chụp ảnh sản phẩm thương mại điện tử là một trong những ứng dụng phổ biến nhất. Nền trắng hoặc trong suốt sạch là tiêu chuẩn cho các sàn thương mại như Amazon, eBay và Shopify. Thay vì thiết lập studio chụp ảnh chuyên nghiệp, người bán có thể chụp sản phẩm trên bất kỳ nền nào và xóa nó bằng kỹ thuật số."
           },
           {
             "heading": "Mẹo để có kết quả tốt nhất",
-            "text": "Chất lượng kết quả phụ thuộc một phần vào ảnh đầu vào. Ảnh có độ tương phản tốt giữa chủ thể và nền tạo ra cắt ghép sạch nhất. Ảnh được chiếu sáng tốt với nét rõ ràng cho mô hình AI các cạnh rõ ràng để làm việc.\n\nTránh ảnh mà màu chủ thể gần giống màu nền. Một người mặc áo xanh lá trên nền cây xanh sẽ khó xử lý chính xác hơn so với cùng người đó trên bức tường đơn giản.\n\nĐối với chụp ảnh sản phẩm, sử dụng nền tương phản khi chụp. Mặc dù bạn dự định xóa nền sau, bắt đầu với độ tương phản tốt giúp AI tạo cạnh sạch hơn. Phông nền trắng hoặc xám đơn giản hoạt động tốt cho hầu hết sản phẩm."
+            "text": "Chất lượng kết quả phụ thuộc một phần vào ảnh đầu vào. Ảnh có độ tương phản tốt giữa chủ thể và nền tạo ra cắt ghép sạch nhất. Ảnh được chiếu sáng tốt với nét rõ ràng cho mô hình AI các cạnh rõ ràng để làm việc."
           },
           {
             "heading": "Sử dụng ToolPic để xóa nền",
-            "text": "Mở công cụ Xóa Nền trên ToolPic và tải ảnh lên. Mô hình AI tải trong trình duyệt lần sử dụng đầu tiên, mất vài giây. Sau đó, xử lý gần như tức thì cho các ảnh tiếp theo.\n\nCông cụ tự động phát hiện chủ thể chính và xóa nền, tạo ra PNG trong suốt. Xem lại kết quả và tải ảnh xuống. Đối với xử lý hàng loạt, bạn có thể tải nhiều ảnh và xử lý tuần tự.\n\nVì AI chạy hoàn toàn trong trình duyệt, ảnh của bạn không bao giờ được gửi đến bất kỳ máy chủ nào. Điều này khiến nó an toàn để sử dụng với ảnh sản phẩm bảo mật, ảnh cá nhân hoặc công việc khách hàng mà không lo ngại về quyền riêng tư."
+            "text": "Mở công cụ Xóa Nền trên ToolPic và tải ảnh lên. Mô hình AI tải trong trình duyệt lần sử dụng đầu tiên, mất vài giây. Sau đó, xử lý gần như tức thì cho các ảnh tiếp theo."
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -680,19 +1016,19 @@
         "content": [
           {
             "heading": "Tại sao tệp video lại lớn",
-            "text": "Tệp video lớn vì chúng chứa chuỗi hình ảnh (khung hình) phát lại ở 24 đến 60 khung hình mỗi giây, cùng với dữ liệu âm thanh. Một phút video 1080p không nén ở 30 FPS sẽ cần khoảng 10GB dung lượng, đó là lý do nén video rất cần thiết.\n\nCác codec video hiện đại như H.264 và H.265 sử dụng kỹ thuật nén tinh vi để giảm đáng kể điều này. Chúng lưu trữ sự khác biệt giữa các khung hình liên tiếp thay vì mỗi khung hình độc lập, đạt tỷ lệ nén 100:1 hoặc tốt hơn trong khi duy trì chất lượng hình ảnh tốt.\n\nMặc dù có nén, các tệp video hàng ngày vẫn lớn theo tiêu chuẩn email. Một clip 1080p dài một phút quay trên điện thoại thông minh thường nặng từ 100MB đến 200MB, vượt xa giới hạn đính kèm 25MB mà hầu hết nhà cung cấp email áp dụng."
+            "text": "Tệp video lớn vì chúng chứa chuỗi hình ảnh (khung hình) phát lại ở 24 đến 60 khung hình mỗi giây, cùng với dữ liệu âm thanh. Một phút video 1080p không nén ở 30 FPS sẽ cần khoảng 10GB dung lượng, đó là lý do nén video rất cần thiết."
           },
           {
             "heading": "Hiểu về độ phân giải và bitrate",
-            "text": "Độ phân giải và bitrate là hai đòn bẩy chính để kiểm soát kích thước tệp video. Độ phân giải là số pixel trong mỗi khung hình. Các độ phân giải phổ biến bao gồm 4K (3840x2160), 1080p (1920x1080), 720p (1280x720) và 480p (854x480). Giảm một nửa độ phân giải giảm số pixel đi 75%, giảm đáng kể kích thước tệp.\n\nBitrate là lượng dữ liệu sử dụng mỗi giây video. Bitrate cao hơn nghĩa là nhiều dữ liệu và chất lượng tốt hơn, bitrate thấp hơn nghĩa là tệp nhỏ hơn với khả năng xuất hiện nhiễu nén. Đối với chia sẻ web, bitrate 2-4 Mbps cho nội dung 1080p cung cấp sự cân bằng tốt.\n\nĐối với tệp đính kèm email, giảm độ phân giải xuống 720p hoặc 480p thường là cách hiệu quả nhất. Hầu hết người nhận sẽ xem trên điện thoại hoặc trong bản xem trước email nhỏ, nơi độ phân giải thấp hơn hoàn toàn chấp nhận được."
+            "text": "Độ phân giải và bitrate là hai đòn bẩy chính để kiểm soát kích thước tệp video. Độ phân giải là số pixel trong mỗi khung hình. Các độ phân giải phổ biến bao gồm 4K (3840x2160), 1080p (1920x1080), 720p (1280x720) và 480p (854x480)."
           },
           {
             "heading": "Chọn định dạng phù hợp",
-            "text": "MP4 với mã hóa H.264 là định dạng video tương thích phổ quát nhất. Nó phát trên hầu như mọi thiết bị và nền tảng mà không cần phần mềm bổ sung. Để chia sẻ qua email hoặc nhắn tin, MP4 nên là lựa chọn mặc định.\n\nWebM cung cấp hiệu suất nén tốt hơn H.264, nghĩa là tệp nhỏ hơn ở cùng mức chất lượng. Tuy nhiên, tính tương thích kém hơn, đặc biệt với thiết bị cũ và một số trình đọc email. Sử dụng WebM khi bạn biết người nhận có thể phát nó.\n\nĐể có kích thước tệp nhỏ nhất có thể, H.265 (HEVC) cung cấp nén tốt hơn khoảng 50% so với H.264 ở cùng chất lượng. Hỗ trợ phổ biến trên thiết bị hiện đại nhưng không phổ quát. Nếu tương thích tối đa quan trọng hơn kích thước tệp tối thiểu, hãy giữ H.264 MP4."
+            "text": "264 là định dạng video tương thích phổ quát nhất. Nó phát trên hầu như mọi thiết bị và nền tảng mà không cần phần mềm bổ sung. Để chia sẻ qua email hoặc nhắn tin, MP4 nên là lựa chọn mặc định."
           },
           {
             "heading": "Nén từng bước với ToolPic",
-            "text": "Mở công cụ Nén Video trên ToolPic và kéo tệp video vào khu vực tải lên. Công cụ chấp nhận MP4, WebM, AVI, MOV và các định dạng phổ biến khác.\n\nChọn độ phân giải mục tiêu. Để chia sẻ email, 720p thường là điểm cân bằng lý tưởng giữa chất lượng và kích thước tệp. Cho ứng dụng nhắn tin, 480p thường đủ. Điều chỉnh thanh trượt chất lượng để kiểm soát bitrate. Cài đặt trung bình hoạt động tốt cho hầu hết nội dung.\n\nNhấp nén và chờ xử lý hoàn tất. Công cụ hiển thị tiến trình và kích thước tệp kết quả. Tải video đã nén và xác minh nó phát chính xác trước khi đính kèm email. Toàn bộ xử lý diễn ra cục bộ trong trình duyệt, nên nội dung video của bạn được bảo mật."
+            "text": "Mở công cụ Nén Video trên ToolPic và kéo tệp video vào khu vực tải lên. Công cụ chấp nhận MP4, WebM, AVI, MOV và các định dạng phổ biến khác."
           }
         ],
         "relatedToolIds": "video-compress"
@@ -705,19 +1041,19 @@
         "content": [
           {
             "heading": "Tại sao kích thước ảnh quan trọng",
-            "text": "Các nền tảng mạng xã hội hiển thị ảnh ở tỷ lệ khung hình và độ phân giải cụ thể. Khi bạn tải ảnh không khớp kích thước mong đợi, nền tảng sẽ tự động cắt ảnh. Điều này thường cắt mất phần quan trọng của ảnh, như văn bản, chi tiết sản phẩm hoặc một phần khuôn mặt.\n\nSử dụng đúng kích thước đảm bảo ảnh hiển thị chính xác như ý định trên mọi thiết bị. Nó cũng ngăn nền tảng áp dụng nén bổ sung để thay đổi kích thước ảnh, có thể giảm chất lượng hình ảnh.\n\nMỗi nền tảng có yêu cầu khác nhau cho các vị trí khác nhau. Ảnh đại diện có kích thước khác với ảnh bìa, khác với ảnh bài đăng. Theo dõi tất cả kích thước này rất quan trọng cho bất kỳ ai quản lý nội dung mạng xã hội chuyên nghiệp."
+            "text": "Các nền tảng mạng xã hội hiển thị ảnh ở tỷ lệ khung hình và độ phân giải cụ thể. Khi bạn tải ảnh không khớp kích thước mong đợi, nền tảng sẽ tự động cắt ảnh. Điều này thường cắt mất phần quan trọng của ảnh, như văn bản, chi tiết sản phẩm hoặc một phần khuôn mặt."
           },
           {
             "heading": "Kích thước Instagram",
-            "text": "Bài đăng vuông Instagram nên là 1080 x 1080 pixel. Đây là định dạng Instagram cổ điển và phù hợp với hầu hết nội dung. Bài đăng dọc có hiệu suất tốt nhất ở 1080 x 1350 pixel (tỷ lệ 4:5), chiếm nhiều không gian màn hình hơn trong bảng tin và có xu hướng tạo tương tác cao hơn.\n\nInstagram Stories và Reels sử dụng định dạng dọc 9:16 ở 1080 x 1920 pixel. Điều này lấp đầy toàn bộ màn hình điện thoại. Ảnh đại diện hiển thị trong hình tròn ở 320 x 320 pixel, mặc dù tải lên ở độ phân giải cao hơn như 500 x 500 đảm bảo sắc nét trên màn hình mật độ cao.\n\nBài đăng carousel có thể sử dụng bất kỳ kích thước bài đăng tiêu chuẩn nào, nhưng tất cả ảnh trong carousel phải chia sẻ cùng tỷ lệ khung hình. Ảnh đầu tiên xác định tỷ lệ khung hình cho toàn bộ carousel."
+            "text": "Bài đăng vuông Instagram nên là 1080 x 1080 pixel. Đây là định dạng Instagram cổ điển và phù hợp với hầu hết nội dung. Bài đăng dọc có hiệu suất tốt nhất ở 1080 x 1350 pixel (tỷ lệ 4:5), chiếm nhiều không gian màn hình hơn trong bảng tin và có xu hướng tạo tương tác cao hơn."
           },
           {
             "heading": "Facebook, Twitter/X và YouTube",
-            "text": "Ảnh bìa Facebook nên là 820 x 312 pixel trên máy tính, nhưng chúng hiển thị khác trên di động (640 x 360), vì vậy hãy giữ nội dung quan trọng ở giữa. Ảnh đại diện là 170 x 170 pixel trên máy tính. Ảnh chia sẻ trong bảng tin hoạt động tốt nhất ở 1200 x 630 pixel.\n\nẢnh header Twitter/X nên là 1500 x 500 pixel. Ảnh đại diện là 400 x 400 pixel. Ảnh trong tweet hiển thị tốt nhất ở 1200 x 675 pixel (tỷ lệ 16:9). Tweet ảnh đơn cũng có thể sử dụng 1200 x 1200 cho định dạng vuông.\n\nẢnh thu nhỏ YouTube nên chính xác là 1280 x 720 pixel với chiều rộng tối thiểu 640 pixel. Banner kênh là 2560 x 1440 pixel, nhưng vùng an toàn cho văn bản và logo là phần giữa 1546 x 423 pixel, vì phần còn lại có thể bị cắt trên các thiết bị khác nhau."
+            "text": "Ảnh bìa Facebook nên là 820 x 312 pixel trên máy tính, nhưng chúng hiển thị khác trên di động (640 x 360), vì vậy hãy giữ nội dung quan trọng ở giữa. Ảnh đại diện là 170 x 170 pixel trên máy tính. Ảnh chia sẻ trong bảng tin hoạt động tốt nhất ở 1200 x 630 pixel."
           },
           {
             "heading": "Cách thay đổi kích thước ảnh với ToolPic",
-            "text": "Mở công cụ Cắt & Thay đổi kích thước ảnh trên ToolPic và tải ảnh lên. Công cụ bao gồm các cài đặt sẵn cho tất cả nền tảng mạng xã hội lớn, nên bạn không cần nhớ kích thước cụ thể.\n\nChọn nền tảng và loại vị trí từ menu cài đặt sẵn. Công cụ tự động đặt đúng tỷ lệ khung hình và kích thước. Đặt vùng cắt lên phần ảnh bạn muốn giữ, sau đó áp dụng cắt.\n\nTải ảnh có kích thước hoàn hảo sẵn sàng để đăng. Bạn có thể xử lý nhiều ảnh liên tiếp mà không cần tải lại trang. Công cụ cắt giữ nguyên chất lượng ảnh gốc và xử lý mọi thứ cục bộ trong trình duyệt."
+            "text": "Mở công cụ Cắt & Thay đổi kích thước ảnh trên ToolPic và tải ảnh lên. Công cụ bao gồm các cài đặt sẵn cho tất cả nền tảng mạng xã hội lớn, nên bạn không cần nhớ kích thước cụ thể."
           }
         ],
         "relatedToolIds": "image-crop"
@@ -730,19 +1066,19 @@
         "content": [
           {
             "heading": "WebP là gì",
-            "text": "WebP là định dạng ảnh do Google phát triển và phát hành năm 2010 như sự thay thế hiện đại cho JPEG, PNG và GIF. Nó sử dụng thuật toán nén tiên tiến bắt nguồn từ codec video VP8 và VP9 để đạt kích thước tệp nhỏ hơn đáng kể so với các định dạng cũ.\n\nĐịnh dạng hỗ trợ cả chế độ nén có mất dữ liệu và không mất dữ liệu. Trong chế độ lossy, WebP tạo tệp thường nhỏ hơn 25-35% so với JPEG ở cùng chất lượng hình ảnh. Trong chế độ lossless, tệp WebP nhỏ hơn khoảng 26% so với PNG. Nó cũng hỗ trợ trong suốt (kênh alpha) và hoạt ảnh, khiến nó trở thành sự thay thế đa năng cho JPEG, PNG và GIF.\n\nWebP được thiết kế đặc biệt cho web, nơi kích thước tệp nhỏ hơn chuyển trực tiếp thành tải trang nhanh hơn, chi phí băng thông thấp hơn và trải nghiệm người dùng tốt hơn, đặc biệt trên kết nối di động."
+            "text": "WebP là định dạng ảnh do Google phát triển và phát hành năm 2010 như sự thay thế hiện đại cho JPEG, PNG và GIF. Nó sử dụng thuật toán nén tiên tiến bắt nguồn từ codec video VP8 và VP9 để đạt kích thước tệp nhỏ hơn đáng kể so với các định dạng cũ."
           },
           {
             "heading": "Ưu điểm so với JPEG và PNG",
-            "text": "Ưu điểm chính của WebP là hiệu suất nén. Đối với ảnh chụp, tệp WebP ở chất lượng 80% tương đương về mặt hình ảnh với JPEG ở 85-90% nhưng nhỏ hơn 30% về kích thước tệp. Đối với trang web có hàng trăm ảnh, điều này cộng dồn thành tiết kiệm băng thông đáng kể và thời gian tải nhanh hơn.\n\nKhác với JPEG, WebP hỗ trợ trong suốt mà không có mức phạt kích thước tệp của PNG. Ảnh sản phẩm với nền trong suốt lưu dạng WebP thường nhỏ hơn 3-5 lần so với tệp PNG tương đương. Điều này khiến WebP lý tưởng cho trang thương mại điện tử nơi ảnh sản phẩm trong suốt phổ biến.\n\nWebP cũng hỗ trợ hoạt ảnh như sự thay thế cho GIF. Tệp WebP hoạt ảnh nhỏ hơn đáng kể so với GIF tương đương trong khi hỗ trợ đầy đủ 24-bit màu thay vì giới hạn 256 màu của GIF. Đối với trang web sử dụng phần tử hoạt ảnh, chuyển từ GIF sang WebP có thể giảm kích thước tệp 50% hoặc hơn."
+            "text": "Ưu điểm chính của WebP là hiệu suất nén. Đối với ảnh chụp, tệp WebP ở chất lượng 80% tương đương về mặt hình ảnh với JPEG ở 85-90% nhưng nhỏ hơn 30% về kích thước tệp. Đối với trang web có hàng trăm ảnh, điều này cộng dồn thành tiết kiệm băng thông đáng kể và thời gian tải nhanh hơn."
           },
           {
             "heading": "Hỗ trợ trình duyệt năm 2026",
-            "text": "Tính đến năm 2026, WebP được hỗ trợ bởi tất cả trình duyệt lớn bao gồm Chrome, Firefox, Safari, Edge và Opera. Safari đã thêm hỗ trợ WebP trong phiên bản 14 (2020), là trình duyệt lớn cuối cùng bổ sung. Điều này có nghĩa WebP hiện hoạt động đáng tin cậy cho hơn 97% người dùng web trên toàn thế giới.\n\nHỗ trợ trình duyệt di động cũng toàn diện. Cả iOS Safari và Android Chrome đều hỗ trợ đầy đủ WebP, khiến nó an toàn để sử dụng cho trải nghiệm web di động mà không cần phương án dự phòng.\n\nCác lo ngại tương thích còn lại chủ yếu với phần mềm máy tính cũ. Một số trình chỉnh sửa ảnh, trình đọc email và hệ thống quản lý nội dung có thể không xử lý tệp WebP gốc. Trong những trường hợp này, giữ phiên bản JPEG hoặc PNG dự phòng là giải pháp thực tế."
+            "text": "Tính đến năm 2026, WebP được hỗ trợ bởi tất cả trình duyệt lớn bao gồm Chrome, Firefox, Safari, Edge và Opera. Safari đã thêm hỗ trợ WebP trong phiên bản 14 (2020), là trình duyệt lớn cuối cùng bổ sung. Điều này có nghĩa WebP hiện hoạt động đáng tin cậy cho hơn 97% người dùng web trên toàn thế giới."
           },
           {
             "heading": "Cách chuyển đổi ảnh sang WebP",
-            "text": "Chuyển đổi ảnh hiện có sang WebP rất đơn giản với Trình chuyển đổi hình ảnh của ToolPic. Tải lên bất kỳ ảnh JPEG, PNG, BMP hoặc AVIF nào và chọn WebP làm định dạng đầu ra. Công cụ giữ nguyên trong suốt từ nguồn PNG và cho phép bạn điều chỉnh mức chất lượng cho chuyển đổi lossy.\n\nĐể có kết quả tốt nhất, hãy bắt đầu với ảnh nguồn chất lượng cao nhất có sẵn. Chuyển đổi từ JPEG đã nén mạnh sang WebP sẽ không cải thiện chất lượng một cách kỳ diệu. Nếu bạn có phiên bản gốc chưa nén hoặc nén không mất dữ liệu, hãy chuyển đổi từ đó để có kết quả tối ưu.\n\nKhi di chuyển trang web sang WebP, sử dụng phần tử picture HTML hoặc CSS image-set để phục vụ WebP cho trình duyệt hỗ trợ trong khi cung cấp JPEG hoặc PNG dự phòng cho trình duyệt cũ. Hầu hết nhà cung cấp CDN và công cụ xây dựng có thể tự động hóa quá trình này."
+            "text": "Chuyển đổi ảnh hiện có sang WebP rất đơn giản với Trình chuyển đổi hình ảnh của ToolPic. Tải lên bất kỳ ảnh JPEG, PNG, BMP hoặc AVIF nào và chọn WebP làm định dạng đầu ra. Công cụ giữ nguyên trong suốt từ nguồn PNG và cho phép bạn điều chỉnh mức chất lượng cho chuyển đổi lossy."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -755,19 +1091,19 @@
         "content": [
           {
             "heading": "Định dạng HEIC là gì và tại sao iPhone sử dụng nó",
-            "text": "HEIC (High Efficiency Image Container) được Apple áp dụng làm định dạng ảnh mặc định từ iOS 11. Nó dựa trên tiêu chuẩn HEIF (High Efficiency Image Format) và sử dụng công nghệ nén của codec video H.265.\n\nƯu điểm lớn nhất của HEIC là cung cấp chất lượng tương đương hoặc tốt hơn JPEG với kích thước tệp nhỏ hơn khoảng 50%. Điều này có nghĩa bạn có thể lưu trữ nhiều ảnh hơn trên iPhone mà không hết dung lượng. Apple chọn định dạng này vì nó hỗ trợ độ sâu màu 10-bit, trong khi JPEG bị giới hạn ở 8-bit.\n\nTuy nhiên, vấn đề lớn nhất của HEIC là khả năng tương thích. Máy tính Windows, thiết bị Android cũ, nhiều trình duyệt web và hầu hết các trang web vẫn không thể mở trực tiếp tệp HEIC. Vì vậy việc chuyển đổi sang JPG thường trở nên cần thiết."
+            "text": "HEIC (High Efficiency Image Container) được Apple áp dụng làm định dạng ảnh mặc định từ iOS 11. 265."
           },
           {
             "heading": "Khi nào cần chuyển đổi HEIC sang JPG",
-            "text": "Tình huống phổ biến nhất xảy ra khi bạn muốn gửi ảnh iPhone cho người dùng Windows hoặc Android. Họ có thể gặp khó khăn khi mở tệp HEIC. Tương tự, nhiều ứng dụng email và nền tảng mạng xã hội không hiển thị HEIC đúng cách.\n\nCác trang thương mại điện tử thường yêu cầu tải ảnh sản phẩm ở định dạng JPG hoặc PNG. Nếu bạn chụp sản phẩm bằng iPhone, bạn cần chuyển đổi trước khi tải lên.\n\nDịch vụ in ấn cũng thường không chấp nhận HEIC. Trước khi in ảnh, tạo canvas hoặc đặt album ảnh, cần chuyển đổi sang JPG. Đối với nhà phát triển web, JPG thực tế hơn vì tất cả trình duyệt đều hỗ trợ mà không cần plugin bổ sung."
+            "text": "Tình huống phổ biến nhất xảy ra khi bạn muốn gửi ảnh iPhone cho người dùng Windows hoặc Android. Họ có thể gặp khó khăn khi mở tệp HEIC. Tương tự, nhiều ứng dụng email và nền tảng mạng xã hội không hiển thị HEIC đúng cách."
           },
           {
             "heading": "Mẹo giữ chất lượng khi chuyển đổi",
-            "text": "Khi chuyển đổi từ HEIC sang JPG cần lưu ý một số điều. Trước hết, JPEG là định dạng lossy nên một chút mất chất lượng là không tránh khỏi. Tuy nhiên, ở cài đặt chất lượng 85-95%, sự khác biệt gần như không thể nhìn thấy bằng mắt thường.\n\nLưu ý rằng HEIC hỗ trợ độ sâu màu 10-bit trong khi JPG chỉ 8-bit. Điều này có nghĩa ở các gradient màu cực kỳ tinh tế có thể có chút khác biệt, nhưng trong sử dụng thông thường không đáng chú ý.\n\nĐối với chuyển đổi hàng loạt, một cài đặt chất lượng duy nhất hoạt động tốt cho tất cả ảnh. Chất lượng 90% là điểm khởi đầu tuyệt vời cân bằng hoàn hảo giữa kích thước tệp và chất lượng hình ảnh."
+            "text": "Khi chuyển đổi từ HEIC sang JPG cần lưu ý một số điều. Trước hết, JPEG là định dạng lossy nên một chút mất chất lượng là không tránh khỏi. Tuy nhiên, ở cài đặt chất lượng 85-95%, sự khác biệt gần như không thể nhìn thấy bằng mắt thường."
           },
           {
             "heading": "Chuyển đổi HEIC sang JPG với ToolPic",
-            "text": "Mở Trình chuyển đổi hình ảnh của ToolPic và kéo thả tệp HEIC hoặc duyệt để tải lên. Bạn có thể tải nhiều tệp cùng lúc để chuyển đổi hàng loạt dễ dàng.\n\nChọn JPG làm định dạng đầu ra và điều chỉnh thanh trượt chất lượng. Cài đặt mặc định 80% phù hợp cho hầu hết mục đích sử dụng. Nếu cần chất lượng cao nhất, tăng thanh trượt lên 90-95%.\n\nKhi chuyển đổi hoàn tất, tải xuống từng tệp hoặc tất cả cùng lúc bằng nút 'Tải tất cả'. Toàn bộ quá trình diễn ra trong trình duyệt — không có tệp nào được tải lên máy chủ, giữ cho ảnh cá nhân của bạn hoàn toàn an toàn."
+            "text": "Mở Trình chuyển đổi hình ảnh của ToolPic và kéo thả tệp HEIC hoặc duyệt để tải lên. Bạn có thể tải nhiều tệp cùng lúc để chuyển đổi hàng loạt dễ dàng."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -780,19 +1116,19 @@
         "content": [
           {
             "heading": "Sự trỗi dậy của công cụ ảnh AI",
-            "text": "Trong vài năm qua, trí tuệ nhân tạo đã cách mạng hóa lĩnh vực xử lý hình ảnh. Những tác vụ trước đây mất hàng giờ và đòi hỏi kỹ năng chuyên môn giờ được hoàn thành tự động trong vài giây. Xóa nền là ví dụ rõ ràng nhất.\n\nVới phương pháp truyền thống, xóa nền của ảnh phức tạp đòi hỏi sử dụng công cụ pen, magic wand hoặc layer mask trong phần mềm như Photoshop. Với ảnh có tóc, vật thể trong suốt hoặc cạnh phức tạp, quá trình có thể mất 15-30 phút hoặc hơn.\n\nCông cụ dựa trên AI sử dụng mô hình deep learning được huấn luyện trên hàng triệu hình ảnh. Các mô hình này tự động nhận diện sự khác biệt giữa chủ thể và nền, và trong hầu hết trường hợp tạo ra kết quả chất lượng chuyên nghiệp."
+            "text": "Trong vài năm qua, trí tuệ nhân tạo đã cách mạng hóa lĩnh vực xử lý hình ảnh. Những tác vụ trước đây mất hàng giờ và đòi hỏi kỹ năng chuyên môn giờ được hoàn thành tự động trong vài giây. Xóa nền là ví dụ rõ ràng nhất."
           },
           {
             "heading": "AI vượt trội ở đâu",
-            "text": "Lợi thế lớn nhất của công cụ AI là tốc độ và khả năng tiếp cận. Bất kỳ ai cũng có thể đạt kết quả chuyên nghiệp chỉ với vài cú nhấp chuột mà không cần đào tạo kỹ thuật. Điều này đặc biệt có giá trị cho doanh nghiệp nhỏ, quản lý mạng xã hội và người bán hàng thương mại điện tử.\n\nXử lý hàng loạt là một điểm mạnh khác của AI. Xử lý hàng chục hoặc hàng trăm ảnh theo cùng cách — như xóa nền tất cả ảnh sản phẩm — chỉ mất vài phút. Với phương pháp truyền thống, cùng công việc sẽ mất nhiều ngày.\n\nCông cụ AI không ngừng cải thiện. Với mỗi bản cập nhật mô hình, phát hiện cạnh chính xác hơn, tóc và vật thể trong suốt được xử lý tốt hơn, và chất lượng đầu ra tổng thể tiếp tục được nâng cao."
+            "text": "Lợi thế lớn nhất của công cụ AI là tốc độ và khả năng tiếp cận. Bất kỳ ai cũng có thể đạt kết quả chuyên nghiệp chỉ với vài cú nhấp chuột mà không cần đào tạo kỹ thuật. Điều này đặc biệt có giá trị cho doanh nghiệp nhỏ, quản lý mạng xã hội và người bán hàng thương mại điện tử."
           },
           {
             "heading": "Chỉnh sửa truyền thống vẫn cần thiết ở đâu",
-            "text": "Giới hạn của AI xuất hiện khi cần kiểm soát cực kỳ chính xác và tùy chỉnh. Trong nhiếp ảnh chuyên nghiệp, chiến dịch quảng cáo và phương tiện in ấn, chỉnh sửa hoàn hảo từng pixel là bắt buộc. AI đôi khi mắc lỗi ở các chi tiết tinh tế.\n\nVới các tác vụ như compositing sáng tạo, color grading, retouching và hiệu ứng nghệ thuật, phán đoán con người và tầm nhìn nghệ thuật vẫn không thể thay thế. AI có thể xác định chủ thể nhưng không biết tầm nhìn sáng tạo của bạn.\n\nThao tác ảnh phức tạp như thêm đối tượng mới vào cảnh, thay đổi ánh sáng hoặc tạo bóng chân thực vẫn đòi hỏi kỹ năng chuyên môn và phần mềm truyền thống."
+            "text": "Giới hạn của AI xuất hiện khi cần kiểm soát cực kỳ chính xác và tùy chỉnh. Trong nhiếp ảnh chuyên nghiệp, chiến dịch quảng cáo và phương tiện in ấn, chỉnh sửa hoàn hảo từng pixel là bắt buộc. AI đôi khi mắc lỗi ở các chi tiết tinh tế."
           },
           {
             "heading": "Sử dụng xóa nền AI của ToolPic",
-            "text": "Công cụ Xóa nền của ToolPic kết hợp sức mạnh AI với quyền riêng tư dựa trên trình duyệt. Tải ảnh lên và mô hình AI tự động nhận diện chủ thể để xóa nền. Toàn bộ quá trình diễn ra trong trình duyệt sử dụng WebAssembly.\n\nLần đầu sử dụng, mô hình AI mất vài giây để tải, nhưng các ảnh tiếp theo được xử lý gần như tức thì. Kết quả là tệp PNG trong suốt mà bạn có thể sử dụng trên bất kỳ nền nào.\n\nCông cụ AI không phải là sự thay thế hoàn toàn cho chỉnh sửa truyền thống mà là bổ sung mạnh mẽ. Dùng AI cho tác vụ nhanh và chuyển sang phần mềm truyền thống khi cần kiểm soát hoàn hảo từng pixel. Kết hợp cả hai tạo nên quy trình làm việc hiệu quả nhất."
+            "text": "Công cụ Xóa nền của ToolPic kết hợp sức mạnh AI với quyền riêng tư dựa trên trình duyệt. Tải ảnh lên và mô hình AI tự động nhận diện chủ thể để xóa nền. Toàn bộ quá trình diễn ra trong trình duyệt sử dụng WebAssembly."
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -805,19 +1141,19 @@
         "content": [
           {
             "heading": "Tại sao tối ưu hóa hình ảnh quan trọng cho tốc độ website",
-            "text": "Một trang web trung bình nặng khoảng 2MB, trong đó hình ảnh chiếm hơn 50%. Nếu hình ảnh chưa được tối ưu, website sẽ tải chậm, tỷ lệ thoát tăng và xếp hạng SEO bị ảnh hưởng.\n\nCore Web Vitals của Google hiện đo trực tiếp tốc độ trang như yếu tố xếp hạng. Chỉ số Largest Contentful Paint (LCP) đặc biệt bị ảnh hưởng bởi tải hình ảnh. LCP dưới 2,5 giây được coi là tốt, và hình ảnh chưa tối ưu có thể dễ dàng khiến bạn trượt mục tiêu này.\n\nĐối với người dùng di động điều này còn quan trọng hơn. Trên kết nối mạng chậm, tệp hình ảnh lớn mất nhiều thời gian tải khiến người dùng rời trang. Tối ưu hóa hình ảnh không chỉ là cải tiến kỹ thuật mà còn là con đường đến trải nghiệm người dùng tốt hơn và nhiều chuyển đổi hơn."
+            "text": "Một trang web trung bình nặng khoảng 2MB, trong đó hình ảnh chiếm hơn 50%. Nếu hình ảnh chưa được tối ưu, website sẽ tải chậm, tỷ lệ thoát tăng và xếp hạng SEO bị ảnh hưởng."
           },
           {
             "heading": "Chọn đúng định dạng hình ảnh",
-            "text": "Chọn định dạng là bước đầu tiên và có tác động lớn nhất của tối ưu hóa. Cho ảnh chụp và hình ảnh phức tạp, WebP là lựa chọn tốt nhất — tạo tệp nhỏ hơn JPEG 25-35% ở cùng chất lượng. Nếu không hỗ trợ WebP, dùng JPEG.\n\nCho logo, icon và đồ họa cạnh sắc, PNG hoặc SVG tốt hơn. SVG dựa trên vector nên luôn sắc nét ở mọi kích thước với tệp rất nhỏ. PNG hỗ trợ trong suốt nhưng quá lớn cho ảnh chụp.\n\nAVIF là định dạng mới cung cấp nén tốt hơn cả WebP. Hỗ trợ trình duyệt đang tăng nhanh và năm 2026 hầu hết trình duyệt hiện đại đều hỗ trợ. Để áp dụng dần, dùng phần tử picture với AVIF là chính và WebP hoặc JPEG là dự phòng."
+            "text": "Chọn định dạng là bước đầu tiên và có tác động lớn nhất của tối ưu hóa. Cho ảnh chụp và hình ảnh phức tạp, WebP là lựa chọn tốt nhất — tạo tệp nhỏ hơn JPEG 25-35% ở cùng chất lượng. Nếu không hỗ trợ WebP, dùng JPEG."
           },
           {
             "heading": "Phương pháp tốt nhất cho nén và thay đổi kích thước",
-            "text": "Đừng giữ hình ảnh lớn hơn kích thước hiển thị. Nếu ảnh hiển thị rộng 800px thì không có lý do phục vụ ảnh rộng 4000px. Thay đổi kích thước trước rồi nén là cách tiếp cận hiệu quả nhất.\n\nVới JPEG và WebP, cài đặt chất lượng 75-85% lý tưởng cho hầu hết ảnh web. Trong khoảng này, kích thước tệp giảm 60-80% mà chất lượng hình ảnh không có sự khác biệt đáng chú ý.\n\nCho hình ảnh responsive, dùng thuộc tính srcset để trình duyệt tải ảnh phù hợp theo kích thước màn hình thiết bị. Phục vụ ảnh lớn cho desktop và nhỏ cho di động giảm đáng kể thời gian tải cho người dùng di động."
+            "text": "Đừng giữ hình ảnh lớn hơn kích thước hiển thị. Nếu ảnh hiển thị rộng 800px thì không có lý do phục vụ ảnh rộng 4000px. Thay đổi kích thước trước rồi nén là cách tiếp cận hiệu quả nhất."
           },
           {
             "heading": "Tối ưu hóa ảnh website với ToolPic",
-            "text": "Trình nén hình ảnh của ToolPic là cách đơn giản nhất để tối ưu hóa ảnh website. Tải ảnh lên, đặt thanh trượt chất lượng và tải xuống phiên bản nén ngay lập tức. Xử lý hàng loạt tối ưu nhiều ảnh cùng lúc.\n\nĐể chuyển đổi định dạng, dùng Trình chuyển đổi hình ảnh. Chuyển tệp JPEG hoặc PNG sang WebP để tiết kiệm thêm 25-35% kích thước ngay lập tức. Công cụ giữ nguyên trong suốt.\n\nToàn bộ xử lý diễn ra cục bộ trong trình duyệt. Không có tệp nào được tải lên máy chủ, giữ nội dung website và dữ liệu khách hàng hoàn toàn riêng tư. ToolPic là công cụ miễn phí không có giới hạn tệp, watermark hay yêu cầu đăng ký."
+            "text": "Trình nén hình ảnh của ToolPic là cách đơn giản nhất để tối ưu hóa ảnh website. Tải ảnh lên, đặt thanh trượt chất lượng và tải xuống phiên bản nén ngay lập tức. Xử lý hàng loạt tối ưu nhiều ảnh cùng lúc."
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -831,19 +1167,19 @@
         "content": [
           {
             "heading": "Tại sao carousel Instagram quan trọng",
-            "text": "Bài đăng carousel trên Instagram nhận được lượng tương tác gấp khoảng ba lần so với bài đăng chỉ có một hình ảnh. Với carousel, bạn có thể thêm tối đa 10 slide trong một bài đăng, cho phép bạn kể câu chuyện một cách chi tiết và hấp dẫn.\n\nĐịnh dạng này lý tưởng cho hướng dẫn, trưng bày sản phẩm, so sánh trước và sau, cũng như nội dung giáo dục. Thuật toán của Instagram ưu tiên carousel vì người dùng dành nhiều thời gian hơn cho chúng, giúp tăng khả năng hiển thị tự nhiên.\n\nSử dụng kích thước và tỷ lệ chính xác là điều quan trọng để hình ảnh của bạn hiển thị rõ nét và chuyên nghiệp trên Instagram."
+            "text": "Bài đăng carousel trên Instagram nhận được lượng tương tác gấp khoảng ba lần so với bài đăng chỉ có một hình ảnh. Với carousel, bạn có thể thêm tối đa 10 slide trong một bài đăng, cho phép bạn kể câu chuyện một cách chi tiết và hấp dẫn."
           },
           {
             "heading": "Kích thước và tỷ lệ đúng cho carousel",
-            "text": "Kích thước khuyến nghị cho carousel Instagram là 1080x1080 pixel (tỷ lệ 1:1) hoặc 1080x1350 pixel (tỷ lệ 4:5). Tỷ lệ 4:5 chiếm nhiều không gian hơn trong bảng tin, giúp thu hút sự chú ý dễ dàng hơn.\n\nTất cả các slide phải có cùng kích thước. Nếu slide đầu tiên là 1080x1350 thì tất cả các slide khác cũng phải cùng kích thước. Sử dụng công cụ Image Crop của ToolPic, bạn có thể dễ dàng cắt tất cả hình ảnh về cùng kích thước trong vài giây.\n\nVề định dạng file, sử dụng JPEG cho ảnh chụp và PNG cho đồ họa có nhiều chữ. Giữ kích thước file dưới 30MB cho mỗi slide."
+            "text": "Kích thước khuyến nghị cho carousel Instagram là 1080x1080 pixel (tỷ lệ 1:1) hoặc 1080x1350 pixel (tỷ lệ 4:5). Tỷ lệ 4:5 chiếm nhiều không gian hơn trong bảng tin, giúp thu hút sự chú ý dễ dàng hơn."
           },
           {
             "heading": "Mẹo thiết kế tăng tương tác",
-            "text": "Slide đầu tiên là quan trọng nhất - nó cần thu hút sự chú ý ngay lập tức. Sử dụng tiêu đề hấp dẫn hoặc hình ảnh thú vị để khuyến khích mọi người vuốt sang các slide tiếp theo.\n\nDuy trì bảng màu và phong cách chữ nhất quán. Sử dụng màu thương hiệu của bạn để xây dựng nhận diện. Không đặt quá nhiều chữ trên mỗi slide - giữ thiết kế gọn gàng và đơn giản.\n\nVới công cụ Image Merge của ToolPic, bạn có thể kết hợp nhiều hình ảnh thành collage hoặc tạo hiệu ứng trước và sau. Ở slide cuối cùng, luôn thêm lời kêu gọi hành động như lưu, chia sẻ hoặc bình luận."
+            "text": "Slide đầu tiên là quan trọng nhất - nó cần thu hút sự chú ý ngay lập tức. Sử dụng tiêu đề hấp dẫn hoặc hình ảnh thú vị để khuyến khích mọi người vuốt sang các slide tiếp theo."
           },
           {
             "heading": "Cách tạo carousel với ToolPic",
-            "text": "Tạo carousel với các công cụ miễn phí của ToolPic rất đơn giản. Đầu tiên, chuẩn bị hình ảnh của bạn và mở công cụ Image Crop. Chọn tỷ lệ 1:1 hoặc 4:5 và cắt tất cả hình ảnh đồng nhất.\n\nNếu bạn cần kết hợp nhiều hình ảnh vào một slide, hãy sử dụng công cụ Image Merge. Tại đây bạn có thể chọn bố cục cạnh nhau hoặc bố cục lưới.\n\nMọi thứ diễn ra trong trình duyệt - không có file nào được tải lên máy chủ và không cần đăng ký. Tải xuống hình ảnh đã hoàn thành và tạo bài đăng carousel trong ứng dụng Instagram. Chỉ cần nhấn nút dấu cộng, chọn nhiều ảnh và chọn các hình ảnh đã cắt của bạn."
+            "text": "Tạo carousel với các công cụ miễn phí của ToolPic rất đơn giản. Đầu tiên, chuẩn bị hình ảnh của bạn và mở công cụ Image Crop. Chọn tỷ lệ 1:1 hoặc 4:5 và cắt tất cả hình ảnh đồng nhất."
           }
         ]
       },
@@ -856,19 +1192,19 @@
         "content": [
           {
             "heading": "Tại sao nền trong suốt quan trọng",
-            "text": "Hình ảnh có nền trong suốt là thiết yếu trong thiết kế web, thương mại điện tử, thiết kế logo và đồ họa mạng xã hội. Khi nền trong suốt, hình ảnh hòa hợp hoàn hảo trên bất kỳ màu sắc hay hoa văn nào.\n\nĐịnh dạng PNG hỗ trợ tính trong suốt (kênh alpha) trong khi JPEG thì không. Vì vậy PNG là định dạng phù hợp nhất cho logo, biểu tượng và các thành phần đồ họa cần đặt chồng lên nội dung khác.\n\nTrước đây, việc tạo nền trong suốt đòi hỏi phần mềm đắt tiền như Photoshop. Ngày nay, các công cụ trực tuyến miễn phí như ToolPic cho phép thực hiện việc này trong vài giây ngay trên trình duyệt."
+            "text": "Hình ảnh có nền trong suốt là thiết yếu trong thiết kế web, thương mại điện tử, thiết kế logo và đồ họa mạng xã hội. Khi nền trong suốt, hình ảnh hòa hợp hoàn hảo trên bất kỳ màu sắc hay hoa văn nào."
           },
           {
             "heading": "Quy trình xóa nền hình ảnh",
-            "text": "Công cụ Image Background Remove của ToolPic sử dụng công nghệ AI để tự động nhận diện và xóa nền. Chỉ cần tải hình ảnh lên và công cụ sẽ xóa nền trong vài giây.\n\nCông cụ có khả năng nhận diện người, sản phẩm, động vật và các đối tượng khác nhau. Nó xử lý chính xác cả những nền phức tạp như viền tóc hoặc vật thể bán trong suốt.\n\nToàn bộ quá trình xử lý diễn ra trong trình duyệt của bạn. Hình ảnh của bạn không bao giờ được tải lên bất kỳ máy chủ nào, đảm bảo quyền riêng tư hoàn toàn."
+            "text": "Công cụ Image Background Remove của ToolPic sử dụng công nghệ AI để tự động nhận diện và xóa nền. Chỉ cần tải hình ảnh lên và công cụ sẽ xóa nền trong vài giây."
           },
           {
             "heading": "Lưu đúng định dạng",
-            "text": "Sau khi xóa nền, bước quan trọng nhất là lưu đúng định dạng. Để giữ tính trong suốt, hãy sử dụng định dạng PNG. Nếu hình ảnh gốc của bạn ở định dạng JPEG, hãy chuyển đổi sang PNG bằng công cụ Image Converter của ToolPic.\n\nĐịnh dạng WebP cũng hỗ trợ tính trong suốt và cho kích thước file nhỏ hơn PNG. Đối với việc sử dụng trên web, WebP có thể là lựa chọn tốt hơn.\n\nLưu ý rằng nếu lưu dưới dạng JPEG, tính trong suốt sẽ bị mất và được thay thế bằng nền trắng. Luôn chọn PNG hoặc WebP để giữ nền trong suốt."
+            "text": "Sau khi xóa nền, bước quan trọng nhất là lưu đúng định dạng. Để giữ tính trong suốt, hãy sử dụng định dạng PNG. Nếu hình ảnh gốc của bạn ở định dạng JPEG, hãy chuyển đổi sang PNG bằng công cụ Image Converter của ToolPic."
           },
           {
             "heading": "Mẹo sử dụng PNG trong suốt",
-            "text": "Trong thương mại điện tử, nền trong suốt là tiêu chuẩn cho ảnh sản phẩm. Các nền tảng như Amazon và Shopee yêu cầu nền trắng hoặc trong suốt. Xóa nền trước, sau đó thêm nền trắng nếu cần.\n\nKhi tạo logo, luôn lưu ở định dạng PNG với nền trong suốt. Điều này cho phép logo được sử dụng dễ dàng trên bất kỳ trang web, danh thiếp hay tài liệu tiếp thị nào.\n\nPNG trong suốt cũng rất hữu ích cho việc tạo sticker và overlay trên mạng xã hội. Với các công cụ miễn phí của ToolPic, bạn có thể tạo hình ảnh trong suốt chất lượng chuyên nghiệp hoàn toàn miễn phí."
+            "text": "Trong thương mại điện tử, nền trong suốt là tiêu chuẩn cho ảnh sản phẩm. Các nền tảng như Amazon và Shopee yêu cầu nền trắng hoặc trong suốt. Xóa nền trước, sau đó thêm nền trắng nếu cần."
           }
         ]
       },
@@ -881,19 +1217,19 @@
         "content": [
           {
             "heading": "Hiểu giới hạn video của WhatsApp",
-            "text": "WhatsApp có giới hạn dung lượng file tối đa 16MB cho việc gửi video. Đây thường là vấn đề vì điện thoại thông minh hiện đại quay video 4K hoặc 1080p có thể vượt quá 16MB chỉ sau vài giây ghi hình.\n\nĐối với WhatsApp Status, video không được dài quá 30 giây và dung lượng file cũng phải nằm trong giới hạn 16MB. Do đó, việc nén video trở nên cần thiết.\n\nWhatsApp tự động nén video được gửi nhưng chất lượng kết quả thường rất thấp. Tốt hơn là bạn tự nén video để kiểm soát chất lượng đầu ra."
+            "text": "WhatsApp có giới hạn dung lượng file tối đa 16MB cho việc gửi video. Đây thường là vấn đề vì điện thoại thông minh hiện đại quay video 4K hoặc 1080p có thể vượt quá 16MB chỉ sau vài giây ghi hình."
           },
           {
             "heading": "Cài đặt tối ưu cho nén video",
-            "text": "Khi nén video cho WhatsApp, đặt độ phân giải ở mức 720p (1280x720). Chất lượng hiển thị trên màn hình điện thoại hoàn toàn sắc nét và dung lượng file giảm đáng kể.\n\nGiữ bitrate trong khoảng 1-2 Mbps. Tốc độ khung hình 30fps là đủ. Codec H.264 cung cấp khả năng tương thích tốt nhất vì được hỗ trợ bởi hầu hết các thiết bị.\n\nĐịnh dạng container MP4 là phù hợp nhất. Sử dụng codec âm thanh AAC với bitrate âm thanh 128kbps. Với các cài đặt này, video một phút dễ dàng nằm dưới 10MB."
+            "text": "Khi nén video cho WhatsApp, đặt độ phân giải ở mức 720p (1280x720). Chất lượng hiển thị trên màn hình điện thoại hoàn toàn sắc nét và dung lượng file giảm đáng kể."
           },
           {
             "heading": "Nén video với ToolPic",
-            "text": "Mở công cụ Video Compress của ToolPic và kéo thả video của bạn vào. Công cụ sẽ tự động hiển thị thông tin file bao gồm dung lượng gốc, thời lượng và độ phân giải.\n\nSử dụng thanh trượt chất lượng để chọn mức độ nén. Chất lượng trung bình cung cấp sự cân bằng lý tưởng cho WhatsApp. Bắt đầu xử lý và video sẽ được nén ngay trong trình duyệt của bạn.\n\nKhông có file nào được tải lên máy chủ. Nhờ công nghệ WebAssembly (FFmpeg WASM), toàn bộ quá trình xử lý diễn ra trên thiết bị của bạn. Sau khi hoàn tất, kiểm tra dung lượng file mới và tải xuống."
+            "text": "Mở công cụ Video Compress của ToolPic và kéo thả video của bạn vào. Công cụ sẽ tự động hiển thị thông tin file bao gồm dung lượng gốc, thời lượng và độ phân giải."
           },
           {
             "heading": "Mẹo giữ chất lượng video",
-            "text": "Nếu video vẫn còn quá lớn, hãy chia thành các đoạn ngắn hơn. Gửi nhiều video ngắn trên WhatsApp tốt hơn là gửi một video dài chất lượng thấp.\n\nNếu video ít chuyển động như bài thuyết trình hoặc ghi màn hình, bạn có thể giảm tốc độ khung hình xuống 24fps. Dung lượng file sẽ giảm thêm mà không có sự khác biệt rõ ràng.\n\nCũng có tùy chọn gửi dưới dạng tài liệu. Khi gửi video dưới dạng tài liệu trên WhatsApp, giới hạn tăng lên 100MB và WhatsApp không áp dụng nén bổ sung. Tuy nhiên, người nhận sẽ cần tải file xuống trước khi xem."
+            "text": "Nếu video vẫn còn quá lớn, hãy chia thành các đoạn ngắn hơn. Gửi nhiều video ngắn trên WhatsApp tốt hơn là gửi một video dài chất lượng thấp."
           }
         ]
       },
@@ -906,19 +1242,19 @@
         "content": [
           {
             "heading": "Tại sao watermark quan trọng",
-            "text": "Trong thế giới số, việc đánh cắp hình ảnh và sử dụng trái phép là vấn đề nghiêm trọng. Watermark đặt dấu hiệu sở hữu lên ảnh và đồ họa của bạn, ngăn cản việc sử dụng trái phép.\n\nĐối với nhiếp ảnh gia, nhà thiết kế đồ họa, người bán hàng trực tuyến và nhà sáng tạo nội dung, watermark cực kỳ quan trọng. Nó không chỉ cung cấp bảo vệ mà còn xây dựng nhận diện thương hiệu.\n\nWatermark được áp dụng đúng cách sẽ bảo vệ hình ảnh mà không làm giảm vẻ đẹp hay tác động thị giác của nó."
+            "text": "Trong thế giới số, việc đánh cắp hình ảnh và sử dụng trái phép là vấn đề nghiêm trọng. Watermark đặt dấu hiệu sở hữu lên ảnh và đồ họa của bạn, ngăn cản việc sử dụng trái phép."
           },
           {
             "heading": "Các loại watermark",
-            "text": "Watermark chữ là đơn giản nhất. Bạn có thể thêm tên, tên thương hiệu hoặc thông báo bản quyền. Giữ độ trong suốt ở mức 30-50% để hình ảnh chính vẫn hiển thị rõ.\n\nWatermark logo trông chuyên nghiệp hơn. Chuẩn bị logo thương hiệu ở định dạng PNG với nền trong suốt. Bạn có thể đặt nó ở góc hoặc giữa hình ảnh.\n\nWatermark dạng lặp được lặp lại trên toàn bộ hình ảnh. Đây là loại bảo vệ mạnh nhất vì gần như không thể xóa bằng cách cắt ảnh. Các trang web ảnh stock thường sử dụng phương pháp này."
+            "text": "Watermark chữ là đơn giản nhất. Bạn có thể thêm tên, tên thương hiệu hoặc thông báo bản quyền. Giữ độ trong suốt ở mức 30-50% để hình ảnh chính vẫn hiển thị rõ."
           },
           {
             "heading": "Thêm watermark với ToolPic",
-            "text": "Công cụ Image Watermark của ToolPic cho phép bạn thêm cả watermark chữ và logo. Tải hình ảnh lên, chọn loại watermark và tùy chỉnh theo nhu cầu.\n\nVới watermark chữ, bạn có thể thay đổi phông chữ, kích thước, màu sắc và độ trong suốt. Với watermark logo, tải logo lên và điều chỉnh kích thước cùng vị trí.\n\nXử lý hàng loạt cho phép thêm watermark vào nhiều hình ảnh cùng lúc. Mọi thứ diễn ra trong trình duyệt nên hình ảnh của bạn hoàn toàn an toàn."
+            "text": "Công cụ Image Watermark của ToolPic cho phép bạn thêm cả watermark chữ và logo. Tải hình ảnh lên, chọn loại watermark và tùy chỉnh theo nhu cầu."
           },
           {
             "heading": "Thực hành tốt nhất khi thêm watermark",
-            "text": "Vị trí watermark rất quan trọng. Nếu đặt ở góc, nó có thể dễ dàng bị xóa bằng cách cắt ảnh. Đặt ở giữa hoặc lệch tâm một chút sẽ bảo vệ hiệu quả hơn.\n\nCân bằng độ trong suốt phù hợp. Quá trong suốt thì watermark không hiển thị, quá đậm thì làm hỏng hình ảnh. Độ trong suốt từ 30% đến 50% là lý tưởng cho hầu hết trường hợp.\n\nLuôn thêm watermark trước khi chia sẻ trên mạng xã hội. Trên trang portfolio cũng nên có watermark nhỏ. Hãy nhớ rằng watermark không thay thế bảo vệ pháp lý, hãy đăng ký bản quyền cho tác phẩm của bạn."
+            "text": "Vị trí watermark rất quan trọng. Nếu đặt ở góc, nó có thể dễ dàng bị xóa bằng cách cắt ảnh. Đặt ở giữa hoặc lệch tâm một chút sẽ bảo vệ hiệu quả hơn."
           }
         ]
       },
@@ -931,19 +1267,19 @@
         "content": [
           {
             "heading": "Yêu cầu kỹ thuật video TikTok",
-            "text": "Định dạng lý tưởng cho video TikTok là dọc 9:16 với độ phân giải 1080x1920 pixel. Tỷ lệ này phủ kín toàn bộ màn hình điện thoại và nhận được nhiều lượt xem nhất.\n\nCả MP4 và MOV đều được chấp nhận nhưng MP4 hoạt động tốt nhất. Định dạng MP4 với codec H.264 tương thích nhất với nền tảng.\n\nThời lượng tối đa là 10 phút nhưng video từ 15 đến 60 giây có hiệu suất tốt nhất. Dung lượng file không được vượt quá 287MB. Giữ tốc độ khung hình ở 30fps hoặc 60fps."
+            "text": "Định dạng lý tưởng cho video TikTok là dọc 9:16 với độ phân giải 1080x1920 pixel. Tỷ lệ này phủ kín toàn bộ màn hình điện thoại và nhận được nhiều lượt xem nhất."
           },
           {
             "heading": "Chuyển đổi định dạng video",
-            "text": "Nếu video của bạn ở định dạng AVI, MKV, WMV hoặc định dạng khác, hãy chuyển đổi sang MP4 bằng công cụ Video Convert của ToolPic. Quy trình cực kỳ đơn giản.\n\nTải video lên, chọn MP4 làm định dạng đầu ra và bắt đầu chuyển đổi. Nhờ công nghệ WebAssembly, toàn bộ quá trình xử lý diễn ra trong trình duyệt - không có file nào được tải lên máy chủ.\n\nTrong cài đặt chất lượng, giữ độ phân giải ở 1080x1920. Nếu video gốc là ngang, bạn sẽ cần cắt hoặc định khung lại để phù hợp với định dạng dọc."
+            "text": "Nếu video của bạn ở định dạng AVI, MKV, WMV hoặc định dạng khác, hãy chuyển đổi sang MP4 bằng công cụ Video Convert của ToolPic. Quy trình cực kỳ đơn giản."
           },
           {
             "heading": "Chuyển video ngang thành video dọc",
-            "text": "Hầu hết máy ảnh và bản ghi màn hình tạo video ở định dạng ngang 16:9. Đối với TikTok, cần chuyển chúng sang định dạng dọc 9:16.\n\nSử dụng công cụ Image Crop của ToolPic để cắt hình thu nhỏ và ảnh bìa video theo tỷ lệ 9:16. Đây là ấn tượng đầu tiên của video bạn trên TikTok.\n\nKhi chuyển video sang dọc, giữ chủ thể chính ở giữa khung hình. Phần trên và dưới hiển thị tên người dùng TikTok và chú thích, vì vậy hãy đặt nội dung quan trọng ở vùng giữa."
+            "text": "Hầu hết máy ảnh và bản ghi màn hình tạo video ở định dạng ngang 16:9. Đối với TikTok, cần chuyển chúng sang định dạng dọc 9:16."
           },
           {
             "heading": "Mẹo tối ưu hóa video TikTok",
-            "text": "Tải lên video chất lượng cao. TikTok tự áp dụng nén nên bắt đầu với chất lượng cao sẽ cho kết quả cuối cùng tốt hơn. Tối thiểu cần độ phân giải 720p nhưng 1080p là lý tưởng.\n\n3 giây đầu tiên là quan trọng nhất. Người xem quyết định trong khoảng thời gian đó liệu có tiếp tục xem hay cuộn qua. Vì vậy hãy làm phần mở đầu thật hấp dẫn và thu hút ngay lập tức.\n\nĐối với SEO trên TikTok, sử dụng hashtag phù hợp, chú thích hiệu quả và âm thanh xu hướng. Chất lượng kỹ thuật và nội dung kết hợp cùng nhau để tăng cơ hội viral. Sử dụng các công cụ miễn phí của ToolPic để làm cho video của bạn hoàn hảo về mặt kỹ thuật."
+            "text": "Tải lên video chất lượng cao. TikTok tự áp dụng nén nên bắt đầu với chất lượng cao sẽ cho kết quả cuối cùng tốt hơn. Tối thiểu cần độ phân giải 720p nhưng 1080p là lý tưởng."
           }
         ]
       },
@@ -956,19 +1292,19 @@
         "content": [
           {
             "heading": "Tại sao việc thay đổi kích thước ảnh quan trọng",
-            "text": "Trong thế giới số, việc có ảnh đúng kích thước là vô cùng quan trọng. Ảnh quá lớn trên website làm chậm tốc độ tải trang, khiến khách truy cập rời đi trước khi xem được nội dung. Các nền tảng mạng xã hội có kích thước riêng và việc tải ảnh sai kích thước khiến nền tảng tự động cắt hoặc kéo giãn, làm giảm chất lượng.\n\nĐối với cửa hàng thương mại điện tử, ảnh sản phẩm có kích thước đồng nhất là điều bắt buộc để trông chuyên nghiệp. Trong email marketing, file ảnh quá nặng ảnh hưởng đến việc gửi email và trải nghiệm người dùng.\n\nThay đổi kích thước không chỉ là thu nhỏ. Đôi khi bạn cần phóng to ảnh nhỏ để in ấn hoặc hiển thị trên màn hình lớn. Trong cả hai trường hợp, sử dụng kỹ thuật đúng là cần thiết để ảnh luôn sắc nét và rõ ràng."
+            "text": "Trong thế giới số, việc có ảnh đúng kích thước là vô cùng quan trọng. Ảnh quá lớn trên website làm chậm tốc độ tải trang, khiến khách truy cập rời đi trước khi xem được nội dung. Các nền tảng mạng xã hội có kích thước riêng và việc tải ảnh sai kích thước khiến nền tảng tự động cắt hoặc kéo giãn, làm giảm chất lượng."
           },
           {
             "heading": "Tại sao mất chất lượng và cách ngăn chặn",
-            "text": "Khi bạn phóng to ảnh vượt quá kích thước gốc, phần mềm phải tạo ra các pixel mới. Quá trình này gọi là nội suy và có thể làm ảnh bị mờ hoặc bị vỡ hạt. Cách tốt nhất là luôn bắt đầu từ độ phân giải cao nhất có sẵn và thu nhỏ xuống.\n\nNgay cả khi thu nhỏ cũng có thể mất chất lượng nếu không dùng thuật toán đúng. Nội suy song tuyến và song khối là các phương pháp phổ biến nhất cho kết quả mượt mà. Thuật toán Lanczos cho độ sắc nét tốt hơn và được các chuyên gia ưa chuộng.\n\nGiữ nguyên tỷ lệ khung hình là cực kỳ quan trọng. Nếu bạn thay đổi chiều rộng và chiều cao với tỷ lệ khác nhau, ảnh sẽ bị kéo giãn hoặc bóp méo. Luôn sử dụng tùy chọn khóa tỷ lệ hoặc cắt theo tỷ lệ định sẵn."
+            "text": "Khi bạn phóng to ảnh vượt quá kích thước gốc, phần mềm phải tạo ra các pixel mới. Quá trình này gọi là nội suy và có thể làm ảnh bị mờ hoặc bị vỡ hạt. Cách tốt nhất là luôn bắt đầu từ độ phân giải cao nhất có sẵn và thu nhỏ xuống."
           },
           {
             "heading": "Kích thước đúng cho từng mục đích sử dụng",
-            "text": "Ảnh hero trên website nên là 1920x1080 pixel. Ảnh bài blog nên là 1200x800 pixel. Ảnh thumbnail 400x300 pixel là đủ. Thay đổi kích thước theo các kích cỡ này giúp cải thiện đáng kể tốc độ tải trang.\n\nĐối với mạng xã hội, mỗi nền tảng có yêu cầu riêng. Bài đăng Instagram 1080x1080 pixel vuông, ảnh bìa Facebook 820x312, header Twitter 1500x500 và banner LinkedIn 1584x396 pixel.\n\nĐối với in ấn, độ phân giải cần đạt 300 DPI. Bản in 10x15 cm cần ảnh khoảng 1200x1800 pixel. Poster và banner lớn cần độ phân giải cao hơn nữa. Luôn xem xét mục đích sử dụng cuối cùng trước khi thay đổi kích thước."
+            "text": "Ảnh hero trên website nên là 1920x1080 pixel. Ảnh bài blog nên là 1200x800 pixel. Ảnh thumbnail 400x300 pixel là đủ."
           },
           {
             "heading": "Thay đổi kích thước ảnh với ToolPic",
-            "text": "Công cụ Image Crop của ToolPic là giải pháp đơn giản nhất để thay đổi kích thước ảnh. Tải ảnh lên và chọn tỷ lệ khung hình mong muốn: 1:1 vuông, 16:9 rộng, 4:5 dọc hoặc kích thước tùy chỉnh. Công cụ khóa tỷ lệ khung hình để tránh bất kỳ biến dạng nào.\n\nKéo để điều chỉnh vùng cắt và kiểm tra kết quả cuối cùng trong bản xem trước. Khi hài lòng, áp dụng và tải xuống ở chất lượng cao.\n\nToàn bộ xử lý diễn ra trong trình duyệt, nên ảnh của bạn không bao giờ được tải lên bất kỳ máy chủ nào. Điều này đảm bảo quyền riêng tư tuyệt đối. Với xử lý hàng loạt, bạn có thể thay đổi kích thước nhiều ảnh cùng lúc về cùng một kích cỡ, tiết kiệm hàng giờ làm việc thủ công."
+            "text": "Công cụ Image Crop của ToolPic là giải pháp đơn giản nhất để thay đổi kích thước ảnh. Tải ảnh lên và chọn tỷ lệ khung hình mong muốn: 1:1 vuông, 16:9 rộng, 4:5 dọc hoặc kích thước tùy chỉnh. Công cụ khóa tỷ lệ khung hình để tránh bất kỳ biến dạng nào."
           }
         ]
       },
@@ -981,19 +1317,19 @@
         "content": [
           {
             "heading": "Tại sao nội dung hình ảnh trên LinkedIn quan trọng",
-            "text": "LinkedIn là mạng lưới chuyên nghiệp lớn nhất thế giới với hơn 900 triệu người dùng. Bài đăng có hình ảnh nhận được gấp đôi tương tác so với bài chỉ có văn bản. Ảnh đúng kích thước trông chuyên nghiệp và tăng uy tín của bạn trong mạng lưới.\n\nTải ảnh sai kích thước khiến LinkedIn tự động cắt hoặc thay đổi kích thước, có thể cắt mất phần quan trọng hoặc làm ảnh bị mờ. Điều này trông thiếu chuyên nghiệp và có thể ảnh hưởng đến hình ảnh thương hiệu của bạn.\n\nLinkedIn yêu cầu kích thước khác nhau cho các phần khác nhau: ảnh hồ sơ, banner nền, ảnh bài đăng, ảnh bìa bài viết và trang công ty. Biết kích thước đúng cho từng phần là điều cần thiết."
+            "text": "LinkedIn là mạng lưới chuyên nghiệp lớn nhất thế giới với hơn 900 triệu người dùng. Bài đăng có hình ảnh nhận được gấp đôi tương tác so với bài chỉ có văn bản. Ảnh đúng kích thước trông chuyên nghiệp và tăng uy tín của bạn trong mạng lưới."
           },
           {
             "heading": "Kích thước hồ sơ và banner LinkedIn",
-            "text": "Ảnh hồ sơ nên là 400x400 pixel. LinkedIn cắt nó thành hình tròn nên hãy đặt khuôn mặt ở giữa và chừa khoảng trống ở viền. Tải lên dưới định dạng JPG hoặc PNG, dung lượng dưới 8MB.\n\nẢnh banner nền nên là 1584x396 pixel với tỷ lệ 4:1. Trên điện thoại, một số phần banner bị cắt nên hãy đặt văn bản và đồ họa quan trọng ở vùng trung tâm.\n\nLogo trang công ty nên là 300x300 pixel và ảnh bìa công ty là 1128x191 pixel. Tuân thủ các kích thước này đảm bảo hồ sơ và trang công ty của bạn luôn sắc nét và chuyên nghiệp trên mọi thiết bị."
+            "text": "Ảnh hồ sơ nên là 400x400 pixel. LinkedIn cắt nó thành hình tròn nên hãy đặt khuôn mặt ở giữa và chừa khoảng trống ở viền. Tải lên dưới định dạng JPG hoặc PNG, dung lượng dưới 8MB."
           },
           {
             "heading": "Kích thước ảnh bài đăng và bài viết LinkedIn",
-            "text": "Ảnh bài đăng trên feed nên là 1200x627 pixel (tỷ lệ 1.91:1). Ảnh vuông 1200x1200 cũng hoạt động tốt và chiếm nhiều không gian màn hình hơn trên điện thoại. Ảnh dọc 1200x1500 (tỷ lệ 4:5) chiếm nhiều diện tích màn hình nhất.\n\nẢnh bìa bài viết LinkedIn nên là 1200x644 pixel. Ảnh trong bài viết nên rộng 1200 pixel để hiển thị sắc nét.\n\nĐối với tài liệu carousel (slide PDF), sử dụng 1080x1080 hoặc 1080x1350 pixel. Những định dạng này nhận được tương tác rất cao trên LinkedIn. Văn bản trên mỗi slide phải lớn và dễ đọc vì hầu hết mọi người xem trên điện thoại."
+            "text": "91:1). Ảnh vuông 1200x1200 cũng hoạt động tốt và chiếm nhiều không gian màn hình hơn trên điện thoại. Ảnh dọc 1200x1500 (tỷ lệ 4:5) chiếm nhiều diện tích màn hình nhất."
           },
           {
             "heading": "Chuẩn bị ảnh LinkedIn với ToolPic",
-            "text": "Dùng công cụ Image Crop của ToolPic để cắt ảnh theo kích thước LinkedIn chính xác. Đặt tỷ lệ khung hình tùy chỉnh: 1:1 cho ảnh hồ sơ, 4:1 cho banner hoặc 1.91:1 cho ảnh bài đăng. Công cụ hiển thị kích thước pixel chính xác để bạn có được kích cỡ hoàn hảo.\n\nDùng Image Compressor để giảm dung lượng file mà không mất chất lượng nhìn thấy được. Cài đặt chất lượng 80-85% là lý tưởng cho ảnh LinkedIn. File nhỏ hơn tải lên nhanh hơn và LinkedIn áp dụng ít nén bổ sung hơn.\n\nCả hai công cụ đều hoạt động hoàn toàn trong trình duyệt. Không cần đăng ký, không cần tải lên, không giới hạn. Chuẩn bị tất cả ảnh LinkedIn của bạn ở kích thước chuyên nghiệp chỉ trong vài phút."
+            "text": "Dùng công cụ Image Crop của ToolPic để cắt ảnh theo kích thước LinkedIn chính xác. 91:1 cho ảnh bài đăng. Công cụ hiển thị kích thước pixel chính xác để bạn có được kích cỡ hoàn hảo."
           }
         ]
       },
@@ -1006,19 +1342,19 @@
         "content": [
           {
             "heading": "Tại sao watermark tồn tại",
-            "text": "Watermark là công cụ quan trọng để bảo vệ tài sản trí tuệ của nhiếp ảnh gia và nhà sáng tạo nội dung. Các trang web ảnh stock đặt watermark trên ảnh xem trước để ngăn việc sử dụng mà không trả phí. Nhiếp ảnh gia dùng watermark để cho khách hàng xem trước khi thanh toán.\n\nXóa watermark khỏi ảnh của người khác là bất hợp pháp ở hầu hết các quốc gia. Đây được coi là vi phạm bản quyền và có thể dẫn đến hậu quả pháp lý nghiêm trọng. Theo DMCA và luật bản quyền, việc xóa watermark là hành vi phạm pháp có thể bị truy tố.\n\nVì vậy, thay vì xóa watermark, hãy cân nhắc các phương án thay thế hợp pháp. Có nhiều cách để có được ảnh chất lượng cao không watermark mà không gặp bất kỳ vấn đề pháp lý nào."
+            "text": "Watermark là công cụ quan trọng để bảo vệ tài sản trí tuệ của nhiếp ảnh gia và nhà sáng tạo nội dung. Các trang web ảnh stock đặt watermark trên ảnh xem trước để ngăn việc sử dụng mà không trả phí. Nhiếp ảnh gia dùng watermark để cho khách hàng xem trước khi thanh toán."
           },
           {
             "heading": "Cách hợp pháp để có ảnh không watermark",
-            "text": "Cách trực tiếp nhất là mua giấy phép. Các trang như Shutterstock, Adobe Stock, Getty Images cung cấp ảnh sạch, độ phân giải cao sau khi mua giấy phép. Giá bắt đầu từ vài đô la mỗi ảnh và rẻ hơn nhiều với gói đăng ký.\n\nCác trang ảnh stock miễn phí là lựa chọn tuyệt vời. Unsplash, Pexels, Pixabay cung cấp hàng triệu ảnh chất lượng cao không watermark và miễn phí. Hầu hết đều được phép sử dụng cho mục đích thương mại.\n\nẢnh có giấy phép Creative Commons cũng là một lựa chọn. Trên Flickr và Wikimedia Commons, nhiều ảnh có sẵn dưới giấy phép CC cho phép sử dụng miễn phí, miễn là bạn ghi nguồn tác giả gốc."
+            "text": "Cách trực tiếp nhất là mua giấy phép. Các trang như Shutterstock, Adobe Stock, Getty Images cung cấp ảnh sạch, độ phân giải cao sau khi mua giấy phép. Giá bắt đầu từ vài đô la mỗi ảnh và rẻ hơn nhiều với gói đăng ký."
           },
           {
             "heading": "Tạo ảnh chuyên nghiệp của riêng bạn",
-            "text": "Camera điện thoại thông minh đã tiên tiến đến mức bạn có thể tự chụp ảnh chất lượng chuyên nghiệp. Với ánh sáng tốt, tay vững và bố cục đúng, điện thoại của bạn có thể tạo ra ảnh ngang tầm ảnh stock.\n\nCác công cụ tạo ảnh AI như DALL-E, Midjourney và Stable Diffusion cho phép bạn tạo ảnh độc đáo từ mô tả văn bản. Những ảnh này hoàn toàn gốc và không có vấn đề bản quyền hay watermark.\n\nCông cụ thiết kế như Canva, Figma cho phép tạo đồ họa và minh họa tùy chỉnh. Chúng cung cấp mẫu và phần tử miễn phí để tạo đồ họa chuyên nghiệp cho mọi nhu cầu."
+            "text": "Camera điện thoại thông minh đã tiên tiến đến mức bạn có thể tự chụp ảnh chất lượng chuyên nghiệp. Với ánh sáng tốt, tay vững và bố cục đúng, điện thoại của bạn có thể tạo ra ảnh ngang tầm ảnh stock."
           },
           {
             "heading": "Làm chuyên nghiệp ảnh của bạn với ToolPic",
-            "text": "Nếu bạn tự chụp ảnh, hãy dùng công cụ Image Watermark của ToolPic để thêm watermark của riêng bạn. Thêm tên, thương hiệu hoặc logo làm watermark để bảo vệ ảnh và duy trì bản sắc của bạn.\n\nTrước khi thêm watermark, dùng Image Crop để cắt ảnh đúng kích thước và tỷ lệ. Chọn kích cỡ phù hợp cho mạng xã hội, website hoặc bài thuyết trình.\n\nTất cả công cụ ToolPic hoạt động trong trình duyệt và hoàn toàn miễn phí. Ảnh của bạn không bao giờ được tải lên bất kỳ máy chủ bên ngoài nào. Điều này đảm bảo quyền riêng tư và bảo mật hoàn toàn. Tạo ảnh gốc của riêng bạn và bảo vệ chúng một cách chuyên nghiệp."
+            "text": "Nếu bạn tự chụp ảnh, hãy dùng công cụ Image Watermark của ToolPic để thêm watermark của riêng bạn. Thêm tên, thương hiệu hoặc logo làm watermark để bảo vệ ảnh và duy trì bản sắc của bạn."
           }
         ]
       },
@@ -1031,19 +1367,19 @@
         "content": [
           {
             "heading": "Sự khác biệt giữa GIF và video",
-            "text": "GIF (Graphics Interchange Format) là định dạng ảnh động tồn tại từ năm 1987. Nó tự động lặp lại, không có âm thanh và hỗ trợ tối đa 256 màu. Ưu điểm lớn nhất của GIF là hoạt động trên hầu hết mọi nền tảng mà không cần trình phát riêng.\n\nCác định dạng video như MP4, WebM hỗ trợ hàng triệu màu, nén tốt hơn nhiều và có thể bao gồm âm thanh. Định dạng MP4 với codec H.264 là định dạng video được hỗ trợ rộng rãi nhất.\n\nSự khác biệt về dung lượng file rất lớn. Một clip 5 giây ở 720p dạng GIF có thể nặng 10-20MB trong khi cùng nội dung ở MP4 chỉ 500KB-1MB. Sự chênh lệch 10-20 lần này có tác động lớn đến tốc độ tải và băng thông."
+            "text": "GIF (Graphics Interchange Format) là định dạng ảnh động tồn tại từ năm 1987. Nó tự động lặp lại, không có âm thanh và hỗ trợ tối đa 256 màu. Ưu điểm lớn nhất của GIF là hoạt động trên hầu hết mọi nền tảng mà không cần trình phát riêng."
           },
           {
             "heading": "Khi nào GIF tốt hơn",
-            "text": "GIF hoàn hảo cho phản ứng trên mạng xã hội và meme. Chia sẻ GIF trên WhatsApp, Telegram, Slack và Discord cực kỳ dễ dàng và chúng phát ngay lập tức. Sticker động nhỏ và hoạt ảnh kiểu emoji hoạt động tốt nhất ở định dạng GIF.\n\nTrong email marketing, GIF rất hiệu quả. Hầu hết ứng dụng email không hỗ trợ video nhưng hỗ trợ GIF. Thêm GIF vào email như demo sản phẩm hoặc yếu tố thu hút sự chú ý có thể tăng đáng kể tỷ lệ click.\n\nTrong hướng dẫn UI/UX và demo phần mềm, GIF ngắn rất hiệu quả. Chèn GIF vào file README GitHub, tài liệu và bài hỗ trợ là cách đơn giản nhất để minh họa quy trình mà không cần trình phát video riêng."
+            "text": "GIF hoàn hảo cho phản ứng trên mạng xã hội và meme. Chia sẻ GIF trên WhatsApp, Telegram, Slack và Discord cực kỳ dễ dàng và chúng phát ngay lập tức. Sticker động nhỏ và hoạt ảnh kiểu emoji hoạt động tốt nhất ở định dạng GIF."
           },
           {
             "heading": "Khi nào video tốt hơn",
-            "text": "Đối với nội dung dài, video luôn tốt hơn. Bất kỳ clip nào dài hơn 10 giây đều nên dùng định dạng video vì dung lượng GIF sẽ trở nên quá lớn không thực tế.\n\nVề hiệu suất website, video tốt hơn nhiều. Phần tử video HTML5 với các thuộc tính autoplay, loop và muted hoạt động như GIF nhưng dung lượng file nhỏ hơn 90%. Điều này cải thiện đáng kể tốc độ tải trang.\n\nỞ những nơi cần âm thanh, video là lựa chọn duy nhất. Đối với hướng dẫn, đánh giá sản phẩm, phỏng vấn và bất kỳ nội dung nào có giọng nói, hãy chọn video. Nội dung hình ảnh chất lượng cao như trưng bày ảnh hoặc clip điện ảnh cũng nên dùng video."
+            "text": "Đối với nội dung dài, video luôn tốt hơn. Bất kỳ clip nào dài hơn 10 giây đều nên dùng định dạng video vì dung lượng GIF sẽ trở nên quá lớn không thực tế."
           },
           {
             "heading": "Chuyển đổi giữa GIF và video với ToolPic",
-            "text": "Công cụ Video to GIF của ToolPic dễ dàng chuyển video thành GIF. Tải video lên, chọn thời điểm bắt đầu và kết thúc, điều chỉnh tốc độ khung hình và kích thước rồi chuyển đổi. Công cụ tạo GIF tối ưu với sự cân bằng đúng giữa chất lượng và dung lượng file.\n\nDùng Video Compress để giảm dung lượng video mà không mất chất lượng. Điều chỉnh độ phân giải và bitrate để tối ưu video cho mạng xã hội hoặc ứng dụng nhắn tin.\n\nCả hai công cụ đều dựa trên công nghệ WebAssembly (FFmpeg) và hoạt động hoàn toàn trong trình duyệt. Không file nào được tải lên máy chủ, không giới hạn dung lượng và không cần đăng ký. Tạo GIF hoặc nén video, tất cả miễn phí và hoàn toàn riêng tư."
+            "text": "Công cụ Video to GIF của ToolPic dễ dàng chuyển video thành GIF. Tải video lên, chọn thời điểm bắt đầu và kết thúc, điều chỉnh tốc độ khung hình và kích thước rồi chuyển đổi. Công cụ tạo GIF tối ưu với sự cân bằng đúng giữa chất lượng và dung lượng file."
           }
         ]
       },
@@ -1056,19 +1392,19 @@
         "content": [
           {
             "heading": "Tại sao cần trích xuất âm thanh từ video",
-            "text": "Có nhiều tình huống bạn chỉ cần phần âm thanh của video. Người làm podcast trích xuất âm thanh từ phỏng vấn video để tạo tập chỉ có audio. Nhạc sĩ tách track âm thanh từ bản ghi video biểu diễn trực tiếp. Sinh viên trích xuất âm thanh từ video bài giảng để nghe khi di chuyển.\n\nFile âm thanh nhỏ hơn video rất nhiều. Video 10 phút ở 1080p có thể nặng 200MB trong khi âm thanh MP3 của nó chỉ 10MB. Điều này tiết kiệm không gian lưu trữ và giảm tiêu thụ dữ liệu di động.\n\nTrích xuất âm thanh cũng hữu ích trong biên tập video. Để chỉnh sửa riêng nhạc nền, lời thoại hoặc hiệu ứng âm thanh, trước tiên cần tách chúng ra từ video gốc."
+            "text": "Có nhiều tình huống bạn chỉ cần phần âm thanh của video. Người làm podcast trích xuất âm thanh từ phỏng vấn video để tạo tập chỉ có audio. Nhạc sĩ tách track âm thanh từ bản ghi video biểu diễn trực tiếp."
           },
           {
             "heading": "Hiểu về các định dạng âm thanh",
-            "text": "MP3 là định dạng âm thanh phổ biến nhất. Nó sử dụng nén có mất dữ liệu và cho chất lượng tốt ở bitrate 128-320 kbps. Hầu như mọi thiết bị và ứng dụng đều hỗ trợ MP3, khiến nó trở thành lựa chọn phổ quát nhất.\n\nAAC (Advanced Audio Coding) cho chất lượng tốt hơn MP3, đặc biệt ở bitrate thấp. Đây là định dạng mặc định trên thiết bị Apple và YouTube cũng sử dụng audio AAC.\n\nWAV và FLAC là định dạng không mất dữ liệu, không giảm chất lượng âm thanh. Được ưa chuộng trong sản xuất âm thanh chuyên nghiệp nhưng dung lượng file gấp 5-10 lần MP3. OGG Vorbis là lựa chọn mã nguồn mở cung cấp sự cân bằng tốt giữa chất lượng và dung lượng."
+            "text": "MP3 là định dạng âm thanh phổ biến nhất. Nó sử dụng nén có mất dữ liệu và cho chất lượng tốt ở bitrate 128-320 kbps. Hầu như mọi thiết bị và ứng dụng đều hỗ trợ MP3, khiến nó trở thành lựa chọn phổ quát nhất."
           },
           {
             "heading": "Trích xuất âm thanh hợp pháp",
-            "text": "Trích xuất âm thanh từ file video của chính bạn là hoàn toàn hợp pháp. Nếu bạn đã ghi video hoặc có giấy phép sử dụng, bạn có thể dùng âm thanh theo bất kỳ cách nào bạn muốn.\n\nTải nội dung từ các nền tảng như YouTube có thể vi phạm điều khoản dịch vụ của họ. Tải nội dung có bản quyền mà không được phép có thể gây ra vấn đề pháp lý nghiêm trọng. Luôn xin phép chủ sở hữu nội dung hoặc sử dụng nội dung có giấy phép Creative Commons.\n\nCách an toàn nhất là trích xuất âm thanh từ file video đã có sẵn trên thiết bị. Bản ghi màn hình, video cá nhân, nội dung có giấy phép hoặc video do bạn tạo đều là nguồn hoàn toàn hợp pháp."
+            "text": "Trích xuất âm thanh từ file video của chính bạn là hoàn toàn hợp pháp. Nếu bạn đã ghi video hoặc có giấy phép sử dụng, bạn có thể dùng âm thanh theo bất kỳ cách nào bạn muốn."
           },
           {
             "heading": "Trích xuất âm thanh với ToolPic",
-            "text": "Công cụ Video Extract Audio của ToolPic là cách đơn giản nhất để trích xuất âm thanh từ video. Tải file video (MP4, WebM, MOV, AVI v.v.) lên và chọn định dạng đầu ra. Công cụ tách track âm thanh từ video và lưu ở định dạng đã chọn.\n\nXử lý diễn ra hoàn toàn trong trình duyệt qua công nghệ WebAssembly (FFmpeg). File video của bạn không bao giờ được tải lên bất kỳ máy chủ nào. Đây là phương pháp tốt nhất cho quyền riêng tư và bảo mật.\n\nCông cụ có thể xuất sang MP3, AAC, WAV và các định dạng âm thanh khác. Điều chỉnh bitrate và cài đặt chất lượng theo nhu cầu. Khi xử lý hoàn tất, file âm thanh có sẵn để tải xuống ngay. Không cần đăng ký, không giới hạn, hoàn toàn miễn phí."
+            "text": "Công cụ Video Extract Audio của ToolPic là cách đơn giản nhất để trích xuất âm thanh từ video. ) lên và chọn định dạng đầu ra. Công cụ tách track âm thanh từ video và lưu ở định dạng đã chọn."
           }
         ]
       }

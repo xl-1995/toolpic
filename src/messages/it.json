@@ -356,55 +356,391 @@
     }
   },
   "seoPages": {
-    "privacy": "Your files are processed locally in your browser. Nothing is uploaded to any server.",
-    "convertJpgToPng": "Convert JPG to PNG Online - Free",
-    "convertJpgToPngDesc": "Convert JPG/JPEG images to PNG format online for free. Preserve transparency and quality. No upload needed, 100% browser-based.",
-    "convertJpgToWebp": "Convert JPG to WebP Online - Free",
-    "convertJpgToWebpDesc": "Convert JPG images to WebP format for smaller file sizes with the same quality. Perfect for web optimization.",
-    "convertPngToJpg": "Convert PNG to JPG Online - Free",
-    "convertPngToJpgDesc": "Convert PNG images to JPG format online for free. Reduce file size while maintaining visual quality. No software needed.",
-    "convertPngToWebp": "Convert PNG to WebP Online - Free",
-    "convertPngToWebpDesc": "Convert PNG images to WebP format for significantly smaller file sizes. Ideal for faster website loading.",
-    "convertWebpToJpg": "Convert WebP to JPG Online - Free",
-    "convertWebpToJpgDesc": "Convert WebP images to JPG format online for free. Make your images compatible with all devices and software.",
-    "convertWebpToPng": "Convert WebP to PNG Online - Free",
-    "convertWebpToPngDesc": "Convert WebP images to PNG format online for free. Get lossless quality with full transparency support.",
-    "convertHeicToJpg": "Convert HEIC to JPG Online - Free",
-    "convertHeicToJpgDesc": "Convert iPhone HEIC/HEIF photos to JPG format online for free. Make your Apple photos universally compatible.",
-    "convertBmpToJpg": "Convert BMP to JPG Online - Free",
-    "convertBmpToJpgDesc": "Convert BMP bitmap images to JPG format online for free. Dramatically reduce file size from uncompressed BMP files.",
-    "convertMp4ToWebm": "Convert MP4 to WebM Online - Free",
-    "convertMp4ToWebmDesc": "Convert MP4 videos to WebM format online for free. WebM offers smaller file sizes ideal for web embedding.",
-    "convertMp4ToAvi": "Convert MP4 to AVI Online - Free",
-    "convertMp4ToAviDesc": "Convert MP4 videos to AVI format online for free. AVI provides wide compatibility with older media players and editors.",
-    "convertWebmToMp4": "Convert WebM to MP4 Online - Free",
-    "convertWebmToMp4Desc": "Convert WebM videos to MP4 format online for free. MP4 is the most universally compatible video format.",
-    "convertMp4ToGif": "Convert MP4 to GIF Online - Free",
-    "convertMp4ToGifDesc": "Convert MP4 video clips to animated GIF online for free. Create shareable GIFs from any video. Custom frame rate and size.",
-    "compressJpg": "Compress JPG Images Online - Free",
-    "compressJpgDesc": "Compress JPG/JPEG images online for free. Reduce file size up to 80% without visible quality loss. No upload required.",
-    "compressPng": "Compress PNG Images Online - Free",
-    "compressPngDesc": "Compress PNG images online for free. Reduce PNG file size while preserving transparency and quality. 100% browser-based.",
-    "compressWebp": "Compress WebP Images Online - Free",
-    "compressWebpDesc": "Compress WebP images online for free. Optimize WebP file size for faster web performance without sacrificing quality.",
-    "compressMp4": "Compress MP4 Videos Online - Free",
-    "compressMp4Desc": "Compress MP4 video files online for free. Reduce video size by up to 70% while maintaining watchable quality. No server upload.",
-    "resizeInstagram": "Resize Image for Instagram - Free Online Tool",
-    "resizeInstagramDesc": "Resize and crop images to perfect Instagram dimensions online for free. Supports posts (1080x1080), stories (1080x1920), and reels.",
-    "resizeFacebook": "Resize Image for Facebook - Free Online Tool",
-    "resizeFacebookDesc": "Resize images for Facebook cover photos, profile pictures, and posts online for free. Get the perfect dimensions every time.",
-    "resizeTwitter": "Resize Image for Twitter/X - Free Online Tool",
-    "resizeTwitterDesc": "Resize images for Twitter/X headers (1500x500), posts, and profile pictures online for free. Optimized for the platform.",
-    "resizeYoutube": "Resize Image for YouTube Thumbnail - Free",
-    "resizeYoutubeDesc": "Create perfect YouTube thumbnails at 1280x720 pixels online for free. Crop and resize images to the ideal thumbnail size.",
-    "removeBg": "Remove Image Background Online - Free AI Tool",
-    "removeBgDesc": "Remove backgrounds from images online for free using AI. Get transparent PNG in seconds. Works with people, products, and objects.",
-    "addWatermark": "Add Watermark to Photos Online - Free",
-    "addWatermarkDesc": "Add text or logo watermarks to your photos online for free. Protect your images with custom watermarks. Batch processing supported.",
-    "mergePhotos": "Merge Photos Online - Free Image Combiner",
-    "mergePhotosDesc": "Combine and merge multiple photos into one image online for free. Create collages, side-by-side comparisons, and long images.",
-    "extractMp3": "Extract MP3 from Video Online - Free",
-    "extractMp3Desc": "Extract audio from video files and save as MP3 online for free. Works with MP4, WebM, AVI, and other video formats."
+    "privacy": "I tuoi file vengono elaborati localmente nel tuo browser. Nulla viene caricato su alcun server.",
+    "convertJpgToPng": "Converti JPG in PNG Online - Gratis",
+    "convertJpgToPngDesc": "Converti immagini JPG/JPEG in formato PNG online gratuitamente. Preserva trasparenza e qualità. Nessun caricamento necessario, 100% basato su browser.",
+    "convertJpgToWebp": "Converti JPG in WebP Online - Gratis",
+    "convertJpgToWebpDesc": "Converti immagini JPG in formato WebP per file più piccoli con la stessa qualità. Perfetto per l'ottimizzazione web.",
+    "convertPngToJpg": "Converti PNG in JPG Online - Gratis",
+    "convertPngToJpgDesc": "Converti immagini PNG in formato JPG online gratuitamente. Riduci le dimensioni del file mantenendo la qualità visiva. Nessun software necessario.",
+    "convertPngToWebp": "Converti PNG in WebP Online - Gratis",
+    "convertPngToWebpDesc": "Converti immagini PNG in formato WebP per dimensioni file significativamente inferiori. Ideale per un caricamento più veloce del sito web.",
+    "convertWebpToJpg": "Converti WebP in JPG Online - Gratis",
+    "convertWebpToJpgDesc": "Converti immagini WebP in formato JPG online gratuitamente. Rendi le tue immagini compatibili con tutti i dispositivi e software.",
+    "convertWebpToPng": "Converti WebP in PNG Online - Gratis",
+    "convertWebpToPngDesc": "Converti immagini WebP in formato PNG online gratuitamente. Ottieni qualità senza perdita con pieno supporto alla trasparenza.",
+    "convertHeicToJpg": "Converti HEIC in JPG Online - Gratis",
+    "convertHeicToJpgDesc": "Converti foto HEIC/HEIF dell'iPhone in formato JPG online gratuitamente. Rendi le tue foto Apple universalmente compatibili.",
+    "convertBmpToJpg": "Converti BMP in JPG Online - Gratis",
+    "convertBmpToJpgDesc": "Converti immagini bitmap BMP in formato JPG online gratuitamente. Riduci drasticamente le dimensioni dei file BMP non compressi.",
+    "convertMp4ToWebm": "Converti MP4 in WebM Online - Gratis",
+    "convertMp4ToWebmDesc": "Converti video MP4 in formato WebM online gratuitamente. WebM offre dimensioni file più piccole ideali per l'incorporamento web.",
+    "convertMp4ToAvi": "Converti MP4 in AVI Online - Gratis",
+    "convertMp4ToAviDesc": "Converti video MP4 in formato AVI online gratuitamente. AVI offre ampia compatibilità con lettori multimediali e editor più datati.",
+    "convertWebmToMp4": "Converti WebM in MP4 Online - Gratis",
+    "convertWebmToMp4Desc": "Converti video WebM in formato MP4 online gratuitamente. MP4 è il formato video più universalmente compatibile.",
+    "convertMp4ToGif": "Converti MP4 in GIF Online - Gratis",
+    "convertMp4ToGifDesc": "Converti clip video MP4 in GIF animate online gratuitamente. Crea GIF condivisibili da qualsiasi video. Frame rate e dimensioni personalizzabili.",
+    "compressJpg": "Comprimi Immagini JPG Online - Gratis",
+    "compressJpgDesc": "Comprimi immagini JPG/JPEG online gratuitamente. Riduci le dimensioni del file fino all'80% senza perdita di qualità visibile. Nessun caricamento richiesto.",
+    "compressPng": "Comprimi Immagini PNG Online - Gratis",
+    "compressPngDesc": "Comprimi immagini PNG online gratuitamente. Riduci le dimensioni dei file PNG preservando trasparenza e qualità. 100% basato su browser.",
+    "compressWebp": "Comprimi Immagini WebP Online - Gratis",
+    "compressWebpDesc": "Comprimi immagini WebP online gratuitamente. Ottimizza le dimensioni dei file WebP per prestazioni web più veloci senza sacrificare la qualità.",
+    "compressMp4": "Comprimi Video MP4 Online - Gratis",
+    "compressMp4Desc": "Comprimi file video MP4 online gratuitamente. Riduci le dimensioni del video fino al 70% mantenendo una qualità visibile. Nessun caricamento sul server.",
+    "resizeInstagram": "Ridimensiona Immagine per Instagram - Strumento Online Gratuito",
+    "resizeInstagramDesc": "Ridimensiona e ritaglia immagini alle dimensioni perfette di Instagram online gratuitamente. Supporta post (1080x1080), storie (1080x1920) e reel.",
+    "resizeFacebook": "Ridimensiona Immagine per Facebook - Strumento Online Gratuito",
+    "resizeFacebookDesc": "Ridimensiona immagini per foto di copertina, immagini del profilo e post di Facebook online gratuitamente. Ottieni le dimensioni perfette ogni volta.",
+    "resizeTwitter": "Ridimensiona Immagine per Twitter/X - Strumento Online Gratuito",
+    "resizeTwitterDesc": "Ridimensiona immagini per intestazioni Twitter/X (1500x500), post e foto profilo online gratuitamente. Ottimizzato per la piattaforma.",
+    "resizeYoutube": "Ridimensiona Immagine per Miniatura YouTube - Gratis",
+    "resizeYoutubeDesc": "Crea miniature YouTube perfette a 1280x720 pixel online gratuitamente. Ritaglia e ridimensiona le immagini alla dimensione ideale della miniatura.",
+    "removeBg": "Rimuovi Sfondo Immagine Online - Strumento AI Gratuito",
+    "removeBgDesc": "Rimuovi sfondi dalle immagini online gratuitamente usando l'IA. Ottieni PNG trasparente in pochi secondi. Funziona con persone, prodotti e oggetti.",
+    "addWatermark": "Aggiungi Filigrana alle Foto Online - Gratis",
+    "addWatermarkDesc": "Aggiungi filigrane di testo o logo alle tue foto online gratuitamente. Proteggi le tue immagini con filigrane personalizzate. Elaborazione batch supportata.",
+    "mergePhotos": "Unisci Foto Online - Combinatore di Immagini Gratuito",
+    "mergePhotosDesc": "Combina e unisci più foto in un'unica immagine online gratuitamente. Crea collage, confronti affiancati e immagini lunghe.",
+    "extractMp3": "Estrai MP3 da Video Online - Gratis",
+    "extractMp3Desc": "Estrai l'audio dai file video e salva come MP3 online gratuitamente. Funziona con MP4, WebM, AVI e altri formati video.",
+    "convertJpgToPngHowTo": "Come Convertire JPG in PNG",
+    "convertJpgToPngStep1": "Carica Immagine JPG",
+    "convertJpgToPngStep1Desc": "Trascina e rilascia o clicca per selezionare il tuo file immagine JPG/JPEG dal tuo dispositivo.",
+    "convertJpgToPngStep2": "Converti in PNG",
+    "convertJpgToPngStep2Desc": "Seleziona PNG come formato di output e clicca Avvia per iniziare il processo di conversione.",
+    "convertJpgToPngStep3": "Scarica File PNG",
+    "convertJpgToPngStep3Desc": "Il tuo file PNG convertito è pronto. Scaricalo istantaneamente sul tuo dispositivo.",
+    "convertJpgToPngFaqTitle": "Domande Frequenti",
+    "convertJpgToPngFaq1Q": "Convertire JPG in PNG migliora la qualità dell'immagine?",
+    "convertJpgToPngFaq1A": "Convertire JPG in PNG non recupera la qualità persa durante la compressione JPG. Tuttavia, PNG utilizza la compressione senza perdita, quindi la tua immagine non perderà ulteriore qualità nei salvataggi futuri. Questo rende PNG ideale per immagini che prevedi di modificare ripetutamente.",
+    "convertJpgToPngFaq2Q": "Perché il file PNG è più grande del JPG originale?",
+    "convertJpgToPngFaq2A": "PNG utilizza la compressione senza perdita che preserva ogni pixel esattamente, risultando in dimensioni file più grandi. JPG ottiene file più piccoli scartando dati dell'immagine attraverso la compressione con perdita. Il compromesso è che PNG offre qualità pixel-perfetta con supporto alla trasparenza.",
+    "convertJpgToPngFaq3Q": "Quando dovrei usare PNG invece di JPG?",
+    "convertJpgToPngFaq3A": "Usa PNG per immagini che richiedono trasparenza, loghi, screenshot, sovrapposizioni di testo o grafiche che verranno modificate più volte. JPG è più adatto per fotografie e immagini grandi dove dimensioni file più piccole contano più della conservazione pixel-perfetta.",
+    "convertJpgToWebpHowTo": "Come Convertire JPG in WebP",
+    "convertJpgToWebpStep1": "Carica il Tuo File JPG",
+    "convertJpgToWebpStep1Desc": "Trascina e rilascia o sfoglia per selezionare l'immagine JPG che vuoi convertire in formato WebP.",
+    "convertJpgToWebpStep2": "Scegli Output WebP",
+    "convertJpgToWebpStep2Desc": "Seleziona WebP come formato di destinazione. Regola le impostazioni di qualità se necessario per una riduzione ottimale delle dimensioni.",
+    "convertJpgToWebpStep3": "Scarica Immagine WebP",
+    "convertJpgToWebpStep3Desc": "Il tuo file WebP ottimizzato è pronto. Scaricalo e goditi dimensioni file significativamente più piccole per l'uso web.",
+    "convertJpgToWebpFaqTitle": "Domande Frequenti",
+    "convertJpgToWebpFaq1Q": "Quanto è più piccolo WebP rispetto a JPG?",
+    "convertJpgToWebpFaq1A": "Le immagini WebP sono tipicamente il 25-35% più piccole dei file JPG equivalenti alla stessa qualità visiva. Questa riduzione deriva dall'algoritmo di compressione più efficiente di WebP, rendendolo ideale per l'ottimizzazione dei siti web dove tempi di caricamento più veloci migliorano SEO ed esperienza utente.",
+    "convertJpgToWebpFaq2Q": "Tutti i browser supportano il formato WebP?",
+    "convertJpgToWebpFaq2A": "Tutti i browser moderni inclusi Chrome, Firefox, Safari, Edge e Opera supportano pienamente WebP. Browser legacy come Internet Explorer non lo supportano. Per i siti web, puoi servire WebP con un fallback JPG usando l'elemento HTML picture per garantire compatibilità universale.",
+    "convertJpgToWebpFaq3Q": "Convertire JPG in WebP comporta perdita di qualità?",
+    "convertJpgToWebpFaq3A": "WebP supporta sia la compressione con perdita che senza perdita. Con WebP con perdita a impostazioni di qualità equivalenti, la differenza visiva rispetto a JPG è impercettibile all'occhio umano offrendo dimensioni file più piccole. WebP senza perdita preserva ogni pixel ma produce file più grandi della modalità con perdita.",
+    "convertPngToJpgHowTo": "Come Convertire PNG in JPG",
+    "convertPngToJpgStep1": "Seleziona Immagine PNG",
+    "convertPngToJpgStep1Desc": "Carica il tuo file PNG trascinandolo nella zona di rilascio o cliccando per sfogliare i tuoi file.",
+    "convertPngToJpgStep2": "Converti in Formato JPG",
+    "convertPngToJpgStep2Desc": "Scegli JPG come formato di output e regola il cursore della qualità per bilanciare dimensioni del file e nitidezza dell'immagine.",
+    "convertPngToJpgStep3": "Salva il Tuo File JPG",
+    "convertPngToJpgStep3Desc": "Scarica l'immagine JPG convertita. Le dimensioni dei file sono tipicamente il 50-80% più piccole del PNG originale.",
+    "convertPngToJpgFaqTitle": "Domande Frequenti",
+    "convertPngToJpgFaq1Q": "Cosa succede alla trasparenza quando si converte PNG in JPG?",
+    "convertPngToJpgFaq1A": "JPG non supporta la trasparenza, quindi le aree trasparenti nel tuo PNG verranno riempite con un colore di sfondo solido, tipicamente bianco. Se hai bisogno di preservare la trasparenza, considera di convertire in WebP, che supporta sia la trasparenza che dimensioni file più piccole.",
+    "convertPngToJpgFaq2Q": "Quanto posso ridurre le dimensioni del file convertendo PNG in JPG?",
+    "convertPngToJpgFaq2A": "Convertire PNG in JPG riduce tipicamente le dimensioni del file del 50-90%, a seconda della complessità dell'immagine e delle impostazioni di qualità JPG. Le fotografie vedono le maggiori riduzioni perché la compressione con perdita di JPG eccelle nella codifica di contenuti fotografici con transizioni di colore graduali.",
+    "convertPngToJpgFaq3Q": "Quale impostazione di qualità JPG dovrei usare?",
+    "convertPngToJpgFaq3A": "Per immagini web, una qualità dell'80-85% offre il miglior equilibrio tra fedeltà visiva e dimensioni del file. Per stampa o uso archivistico, scegli 95-100%. Sotto il 70%, gli artefatti di compressione diventano evidenti, specialmente intorno ai bordi netti e al testo, quindi evita basse qualità per immagini con dettagli fini.",
+    "convertPngToWebpHowTo": "Come Convertire PNG in WebP",
+    "convertPngToWebpStep1": "Carica File PNG",
+    "convertPngToWebpStep1Desc": "Trascina e rilascia la tua immagine PNG o clicca per sfogliare. Supporta tutti i file PNG inclusi quelli con trasparenza.",
+    "convertPngToWebpStep2": "Seleziona Formato WebP",
+    "convertPngToWebpStep2Desc": "Scegli WebP come output. WebP preserva la trasparenza PNG offrendo dimensioni file drasticamente più piccole.",
+    "convertPngToWebpStep3": "Scarica Risultato WebP",
+    "convertPngToWebpStep3Desc": "Salva la tua immagine WebP convertita. Goditi file fino al 45% più piccoli con qualità visiva identica.",
+    "convertPngToWebpFaqTitle": "Domande Frequenti",
+    "convertPngToWebpFaq1Q": "WebP supporta la trasparenza come PNG?",
+    "convertPngToWebpFaq1A": "Sì, WebP supporta pienamente la trasparenza del canale alfa proprio come PNG. Il vantaggio chiave è che le immagini WebP trasparenti sono significativamente più piccole dei PNG trasparenti equivalenti, spesso il 40-50% più piccole, rendendole ideali per loghi, icone e grafiche overlay dei siti web.",
+    "convertPngToWebpFaq2Q": "La conversione da PNG a WebP è senza perdita?",
+    "convertPngToWebpFaq2A": "WebP supporta sia la modalità senza perdita che con perdita. WebP senza perdita preserva ogni pixel identicamente al PNG originale ottenendo comunque file il 20-30% più piccoli. WebP con perdita riduce ulteriormente le dimensioni con impatto visivo minimo, perfetto per l'ottimizzazione delle prestazioni web.",
+    "convertPngToWebpFaq3Q": "Dovrei sostituire tutte le immagini PNG sul mio sito web con WebP?",
+    "convertPngToWebpFaq3A": "Per la maggior parte dei siti web, convertire i PNG in WebP migliora significativamente la velocità di caricamento e i punteggi Core Web Vitals. Usa l'elemento HTML picture per servire WebP ai browser moderni con PNG come fallback. Questo approccio garantisce compatibilità massimizzando i benefici prestazionali.",
+    "convertWebpToJpgHowTo": "Come Convertire WebP in JPG",
+    "convertWebpToJpgStep1": "Carica Immagine WebP",
+    "convertWebpToJpgStep1Desc": "Seleziona il tuo file WebP trascinandolo o sfogliando il tuo dispositivo. Tutti i file WebP sono supportati.",
+    "convertWebpToJpgStep2": "Converti in JPG",
+    "convertWebpToJpgStep2Desc": "Scegli JPG come formato di destinazione e avvia la conversione. L'elaborazione avviene istantaneamente nel tuo browser.",
+    "convertWebpToJpgStep3": "Scarica File JPG",
+    "convertWebpToJpgStep3Desc": "Salva il file JPG convertito. È ora compatibile con ogni visualizzatore di immagini, editor e piattaforma.",
+    "convertWebpToJpgFaqTitle": "Domande Frequenti",
+    "convertWebpToJpgFaq1Q": "Perché dovrei convertire WebP in JPG?",
+    "convertWebpToJpgFaq1A": "Alcuni software più datati, client email e piattaforme social non supportano pienamente WebP. Convertire in JPG garantisce che la tua immagine sia universalmente compatibile con ogni dispositivo, sistema operativo e applicazione. JPG è il formato immagine più ampiamente supportato disponibile oggi.",
+    "convertWebpToJpgFaq2Q": "Il JPG sarà più grande del file WebP?",
+    "convertWebpToJpgFaq2A": "Di solito sì, perché WebP utilizza un algoritmo di compressione più efficiente di JPG. A qualità visiva equivalente, i file JPG sono tipicamente il 25-35% più grandi. Puoi ridurre le dimensioni del file JPG abbassando il cursore della qualità, anche se questo introduce più artefatti di compressione visibili.",
+    "convertWebpToJpgFaq3Q": "Posso convertire in batch più file WebP in JPG?",
+    "convertWebpToJpgFaq3A": "Sì, puoi caricare più file WebP e convertirli tutti in JPG in una sessione. Ogni file viene elaborato individualmente nel tuo browser senza caricamento sul server. Questo rende la conversione batch veloce, privata e gratuita indipendentemente dal numero di immagini da convertire.",
+    "convertWebpToPngHowTo": "Come Convertire WebP in PNG",
+    "convertWebpToPngStep1": "Aggiungi il Tuo File WebP",
+    "convertWebpToPngStep1Desc": "Carica l'immagine WebP che vuoi convertire. Supporta sia file WebP con perdita che senza perdita.",
+    "convertWebpToPngStep2": "Converti in Formato PNG",
+    "convertWebpToPngStep2Desc": "Seleziona PNG come formato di output. Qualsiasi trasparenza nel tuo file WebP viene completamente preservata nel risultato PNG.",
+    "convertWebpToPngStep3": "Scarica Immagine PNG",
+    "convertWebpToPngStep3Desc": "Il tuo file PNG senza perdita è pronto per il download. Usalo in qualsiasi editor di immagini o piattaforma senza problemi di compatibilità.",
+    "convertWebpToPngFaqTitle": "Domande Frequenti",
+    "convertWebpToPngFaq1Q": "Convertire WebP in PNG preserva la trasparenza?",
+    "convertWebpToPngFaq1A": "Sì, tutti i dati di trasparenza e canale alfa dal file WebP originale vengono completamente preservati durante la conversione PNG. Il PNG risultante supporta gli stessi livelli di trasparenza, rendendo sicura la conversione di loghi, icone e grafiche overlay senza perdere le aree trasparenti.",
+    "convertWebpToPngFaq2Q": "Perché PNG è migliore di WebP per l'editing?",
+    "convertWebpToPngFaq2A": "PNG utilizza la compressione senza perdita, quindi aprire e salvare ripetutamente un file PNG non degrada mai la qualità. Alcuni editor di immagini hanno anche supporto WebP limitato. Convertire in PNG offre la massima compatibilità con strumenti professionali come Photoshop, GIMP e Illustrator.",
+    "convertWebpToPngFaq3Q": "Il file PNG è più grande del WebP originale?",
+    "convertWebpToPngFaq3A": "Sì, i file PNG sono tipicamente più grandi perché la compressione PNG è meno efficiente di WebP. Tuttavia, il compromesso è compatibilità universale e qualità senza perdita. Se le dimensioni del file sono critiche, mantieni la versione WebP per l'uso web e la versione PNG per editing e archiviazione.",
+    "convertHeicToJpgHowTo": "Come Convertire HEIC in JPG",
+    "convertHeicToJpgStep1": "Carica Foto HEIC",
+    "convertHeicToJpgStep1Desc": "Seleziona il tuo file foto HEIC/HEIF da iPhone o iPad. Puoi caricare direttamente dal tuo dispositivo o dall'archivio cloud.",
+    "convertHeicToJpgStep2": "Converti in JPG",
+    "convertHeicToJpgStep2Desc": "Lo strumento converte automaticamente il tuo file HEIC in formato JPG universalmente compatibile nel tuo browser.",
+    "convertHeicToJpgStep3": "Scarica Foto JPG",
+    "convertHeicToJpgStep3Desc": "Salva la tua foto JPG convertita. Può ora essere aperta su qualsiasi dispositivo, condivisa via email o caricata ovunque.",
+    "convertHeicToJpgFaqTitle": "Domande Frequenti",
+    "convertHeicToJpgFaq1Q": "Cos'è il formato HEIC e perché Apple lo usa?",
+    "convertHeicToJpgFaq1A": "HEIC (High Efficiency Image Container) è il formato foto predefinito di Apple da iOS 11. Produce file circa il 50% più piccoli di JPG a qualità equivalente usando la compressione HEVC. Apple lo ha adottato per risparmiare spazio di archiviazione sugli iPhone mantenendo un'eccellente qualità fotografica.",
+    "convertHeicToJpgFaq2Q": "Perché Windows non può aprire i file HEIC?",
+    "convertHeicToJpgFaq2A": "Windows richiede un'estensione codec HEVC separata per aprire i file HEIC, che Microsoft fa pagare nel Microsoft Store. Convertire HEIC in JPG elimina completamente questo problema di compatibilità, permettendoti di visualizzare e condividere le tue foto iPhone su qualsiasi PC Windows senza installare software aggiuntivo.",
+    "convertHeicToJpgFaq3Q": "Convertire HEIC in JPG riduce la qualità della foto?",
+    "convertHeicToJpgFaq3A": "C'è una riduzione minima della qualità perché JPG usa la compressione con perdita. Con impostazioni di alta qualità come 90-95%, la differenza visiva è impercettibile per la maggior parte delle fotografie. La conversione scambia una leggera perdita di qualità per compatibilità universale su tutti i dispositivi, piattaforme e applicazioni.",
+    "convertBmpToJpgHowTo": "Come Convertire BMP in JPG",
+    "convertBmpToJpgStep1": "Carica File BMP",
+    "convertBmpToJpgStep1Desc": "Seleziona la tua immagine bitmap BMP. I file BMP sono spesso molto grandi poiché memorizzano dati pixel non compressi.",
+    "convertBmpToJpgStep2": "Converti in JPG",
+    "convertBmpToJpgStep2Desc": "Scegli l'output JPG e regola la qualità. Anche alla massima qualità, JPG sarà drasticamente più piccolo di BMP.",
+    "convertBmpToJpgStep3": "Scarica JPG Compresso",
+    "convertBmpToJpgStep3Desc": "Salva il tuo file JPG. Aspettati una riduzione delle dimensioni del file del 90-95% rispetto all'immagine BMP originale non compressa.",
+    "convertBmpToJpgFaqTitle": "Domande Frequenti",
+    "convertBmpToJpgFaq1Q": "Perché i file BMP sono molto più grandi di JPG?",
+    "convertBmpToJpgFaq1A": "BMP memorizza ogni pixel come dati grezzi, non compressi senza alcun algoritmo di compressione applicato. Un'immagine BMP 1920x1080 occupa circa 6MB di spazio. JPG applica la compressione con perdita per ridurre drasticamente questo, spesso a 200-500KB, scartando intelligentemente informazioni visive che gli umani non possono percepire.",
+    "convertBmpToJpgFaq2Q": "Quando qualcuno userebbe ancora il formato BMP?",
+    "convertBmpToJpgFaq2A": "BMP è occasionalmente usato in applicazioni Windows legacy, sistemi embedded e imaging medico dove sono richiesti dati non compressi. Alcuni software scanner più datati producono anche BMP per impostazione predefinita. Per l'uso quotidiano come condivisione, pubblicazione web o email, convertire BMP in JPG è fortemente raccomandato.",
+    "convertBmpToJpgFaq3Q": "Posso convertire BMP in JPG senza perdere qualità?",
+    "convertBmpToJpgFaq3A": "JPG è intrinsecamente con perdita, quindi alcuni dati vengono scartati durante la conversione. Tuttavia, al 95-100% di qualità, la differenza visiva è virtualmente non rilevabile. Se hai bisogno di una conversione veramente senza perdita, considera PNG invece di JPG, anche se la riduzione delle dimensioni del file sarà meno drastica.",
+    "convertMp4ToWebmHowTo": "Come Convertire MP4 in WebM",
+    "convertMp4ToWebmStep1": "Carica Video MP4",
+    "convertMp4ToWebmStep1Desc": "Seleziona il tuo file video MP4. Tutta l'elaborazione avviene localmente nel tuo browser usando FFmpeg alimentato da WebAssembly.",
+    "convertMp4ToWebmStep2": "Converti in WebM",
+    "convertMp4ToWebmStep2Desc": "Scegli WebM come formato di output. Regola risoluzione e impostazioni di qualità per ottimizzare le tue esigenze di incorporamento web.",
+    "convertMp4ToWebmStep3": "Scarica File WebM",
+    "convertMp4ToWebmStep3Desc": "Salva il tuo video WebM convertito. È ottimizzato per la riproduzione video HTML5 e l'incorporamento nelle pagine web.",
+    "convertMp4ToWebmFaqTitle": "Domande Frequenti",
+    "convertMp4ToWebmFaq1Q": "Quali sono i vantaggi di WebM rispetto a MP4?",
+    "convertMp4ToWebmFaq1A": "WebM è un formato aperto e royalty-free sviluppato da Google, rendendolo ideale per l'uso web senza preoccupazioni di licenza. I file WebM che usano il codec VP9 offrono qualità comparabile a MP4 H.264 con dimensioni file più piccole, migliorando i tempi di caricamento e riducendo i costi di banda per i siti web.",
+    "convertMp4ToWebmFaq2Q": "Tutti i browser possono riprodurre video WebM?",
+    "convertMp4ToWebmFaq2A": "Chrome, Firefox, Edge e Opera supportano pienamente la riproduzione WebM. Safari ha aggiunto il supporto WebM nella versione 14.1. Per la massima compatibilità, molti siti web servono sia WebM che MP4 usando l'elemento video HTML5 con più tag source, permettendo ai browser di scegliere il formato che supportano meglio.",
+    "convertMp4ToWebmFaq3Q": "La conversione da MP4 a WebM richiede molto tempo?",
+    "convertMp4ToWebmFaq3A": "Il tempo di conversione dipende dalla durata del video, dalla risoluzione e dalle prestazioni del tuo dispositivo. Clip brevi sotto i 2 minuti si convertono tipicamente in 30-60 secondi. Poiché l'elaborazione avviene interamente nel browser via WebAssembly, CPU più veloci producono risultati più rapidi. Nessun dato video viene caricato su alcun server.",
+    "convertMp4ToAviHowTo": "Come Convertire MP4 in AVI",
+    "convertMp4ToAviStep1": "Carica File MP4",
+    "convertMp4ToAviStep1Desc": "Seleziona il video MP4 che vuoi convertire in formato AVI. Supporta tutti i file MP4 con qualsiasi codec.",
+    "convertMp4ToAviStep2": "Converti in Formato AVI",
+    "convertMp4ToAviStep2Desc": "Scegli AVI come formato di output. Il convertitore gestisce automaticamente la transcodifica del codec nel tuo browser.",
+    "convertMp4ToAviStep3": "Scarica Video AVI",
+    "convertMp4ToAviStep3Desc": "Salva il file AVI convertito. È ora compatibile con lettori multimediali più datati e software di editing video legacy.",
+    "convertMp4ToAviFaqTitle": "Domande Frequenti",
+    "convertMp4ToAviFaq1Q": "Perché dovrei convertire MP4 in AVI?",
+    "convertMp4ToAviFaq1A": "AVI è necessario per la compatibilità con alcuni software di editing video più datati, lettori multimediali legacy e dispositivi hardware specifici che non supportano MP4. Alcuni flussi di lavoro video professionali e strumenti di authoring DVD più datati richiedono anche il formato di input AVI per una corretta elaborazione.",
+    "convertMp4ToAviFaq2Q": "AVI è di qualità migliore di MP4?",
+    "convertMp4ToAviFaq2A": "AVI è un formato contenitore, non un codec, quindi la qualità dipende dal codec usato al suo interno. MP4 moderno con H.264 offre tipicamente una migliore efficienza di compressione rispetto ai codec AVI comuni. I file AVI sono solitamente più grandi a qualità equivalente perché spesso usano metodi di compressione meno efficienti.",
+    "convertMp4ToAviFaq3Q": "Il file AVI sarà più grande dell'MP4?",
+    "convertMp4ToAviFaq3A": "Sì, i file AVI sono generalmente più grandi di MP4 perché il contenitore AVI e i suoi codec tipici sono meno efficienti nella compressione. Aspettati che l'output AVI sia il 50-200% più grande a seconda del codec e delle impostazioni usate. Questo è il compromesso per una più ampia compatibilità con i sistemi legacy.",
+    "convertWebmToMp4HowTo": "Come Convertire WebM in MP4",
+    "convertWebmToMp4Step1": "Carica Video WebM",
+    "convertWebmToMp4Step1Desc": "Seleziona il tuo file video WebM. Comune per video scaricati dal web o registrati dai browser.",
+    "convertWebmToMp4Step2": "Converti in MP4",
+    "convertWebmToMp4Step2Desc": "Scegli MP4 come formato di output con codifica H.264 per la massima compatibilità con dispositivi e piattaforme.",
+    "convertWebmToMp4Step3": "Scarica File MP4",
+    "convertWebmToMp4Step3Desc": "Salva il tuo video MP4. Può ora essere riprodotto su virtualmente ogni dispositivo, TV, telefono e lettore multimediale.",
+    "convertWebmToMp4FaqTitle": "Domande Frequenti",
+    "convertWebmToMp4Faq1Q": "Perché convertire WebM in MP4?",
+    "convertWebmToMp4Faq1A": "MP4 è il formato video più universalmente compatibile, supportato da tutti gli smartphone, smart TV, lettori multimediali e piattaforme social. WebM ha supporto limitato sui dispositivi Apple e alcuni sistemi più datati. Convertire in MP4 garantisce che il tuo video sia riproducibile ovunque senza problemi di compatibilità.",
+    "convertWebmToMp4Faq2Q": "Posso riprodurre l'MP4 convertito su iPhone?",
+    "convertWebmToMp4Faq2A": "Sì, MP4 con codifica H.264 è nativamente supportato su tutti gli iPhone, iPad e dispositivi Apple. Dopo la conversione, puoi riprodurre il video direttamente nell'app Foto, condividerlo via iMessage o AirDrop e caricarlo su qualsiasi piattaforma social senza app aggiuntive.",
+    "convertWebmToMp4Faq3Q": "C'è perdita di qualità quando si converte WebM in MP4?",
+    "convertWebmToMp4Faq3A": "C'è una piccola riduzione della qualità perché il video viene ricodificato da un codec con perdita a un altro. Con impostazioni di alta qualità, questa differenza è appena percepibile. Per i migliori risultati, mantieni la risoluzione di output e il bitrate vicini alle specifiche del file WebM originale.",
+    "convertMp4ToGifHowTo": "Come Convertire MP4 in GIF",
+    "convertMp4ToGifStep1": "Carica Video MP4",
+    "convertMp4ToGifStep1Desc": "Seleziona la clip video MP4 che vuoi trasformare in una GIF animata. Clip più brevi producono risultati migliori.",
+    "convertMp4ToGifStep2": "Personalizza Impostazioni GIF",
+    "convertMp4ToGifStep2Desc": "Imposta frame rate, risoluzione e taglia la durata della clip. Frame rate inferiori e dimensioni più piccole creano file GIF più piccoli.",
+    "convertMp4ToGifStep3": "Scarica GIF Animata",
+    "convertMp4ToGifStep3Desc": "Salva la tua GIF animata. Condividila sui social media, app di messaggistica, forum o incorporala in siti web ed email.",
+    "convertMp4ToGifFaqTitle": "Domande Frequenti",
+    "convertMp4ToGifFaq1Q": "Qual è la durata ideale per una GIF?",
+    "convertMp4ToGifFaq1A": "Le GIF più efficaci durano 3-6 secondi. I file GIF crescono rapidamente con la durata perché ogni fotogramma viene memorizzato come un'immagine completa. Una GIF di 10 secondi a 15 FPS può facilmente superare i 10MB. Mantieni le GIF brevi e focalizzate sul momento chiave per il miglior equilibrio tra qualità e dimensioni del file.",
+    "convertMp4ToGifFaq2Q": "Perché il mio file GIF è così grande?",
+    "convertMp4ToGifFaq2A": "Il formato GIF usa l'archiviazione senza perdita fotogramma per fotogramma con una palette di 256 colori, che è intrinsecamente inefficiente per il contenuto video. Riduci le dimensioni del file abbassando la risoluzione a 480px di larghezza o meno, riducendo il frame rate a 10-12 FPS e tagliando la clip alla durata più breve possibile.",
+    "convertMp4ToGifFaq3Q": "Come posso creare una GIF di qualità superiore?",
+    "convertMp4ToGifFaq3A": "Inizia con un video sorgente di alta qualità con buona illuminazione e riprese stabili. Usa un frame rate più alto come 15-20 FPS per un'animazione più fluida. Mantieni la risoluzione ragionevole a 640px di larghezza massima. Clip più brevi permettono più fotogrammi al secondo entro un limite ragionevole di dimensioni del file.",
+    "compressJpgHowTo": "Come Comprimere Immagini JPG",
+    "compressJpgStep1": "Carica Immagini JPG",
+    "compressJpgStep1Desc": "Trascina e rilascia o seleziona una o più immagini JPG/JPEG. La compressione batch è supportata per più file contemporaneamente.",
+    "compressJpgStep2": "Regola il Livello di Compressione",
+    "compressJpgStep2Desc": "Imposta il livello di qualità desiderato. Qualità inferiore significa dimensioni file più piccole. Visualizza l'anteprima del risultato prima di scaricare.",
+    "compressJpgStep3": "Scarica File Compressi",
+    "compressJpgStep3Desc": "Salva le tue immagini JPG ottimizzate con dimensioni file drasticamente ridotte mantenendo la qualità visiva.",
+    "compressJpgFaqTitle": "Domande Frequenti",
+    "compressJpgFaq1Q": "Quanto può ridurre la compressione JPG le dimensioni del file?",
+    "compressJpgFaq1A": "La compressione JPG può ridurre le dimensioni dei file del 50-80% a seconda delle impostazioni di qualità e del contenuto dell'immagine. Una foto da 5MB può tipicamente essere compressa a 500KB-1MB senza perdita di qualità percepibile. Le immagini con grandi aree uniformi si comprimono più efficientemente delle texture altamente dettagliate.",
+    "compressJpgFaq2Q": "La compressione di un JPG riduce le dimensioni dell'immagine?",
+    "compressJpgFaq2A": "No, la compressione regola solo la qualità di codifica senza cambiare le dimensioni in pixel. La tua immagine 4000x3000 rimane 4000x3000 pixel dopo la compressione. La riduzione delle dimensioni del file deriva da come i dati del colore vengono memorizzati, non dalla riduzione della risoluzione. Il ridimensionamento è un'operazione separata.",
+    "compressJpgFaq3Q": "Posso comprimere un JPG più volte?",
+    "compressJpgFaq3A": "Puoi, ma ogni ciclo di compressione JPG introduce ulteriore perdita di qualità perché JPG è con perdita. Ricomprimere un JPG già compresso degrada ulteriormente la qualità producendo riduzioni di dimensioni decrescenti. Per i migliori risultati, comprimi sempre dal file sorgente originale di alta qualità.",
+    "compressPngHowTo": "Come Comprimere Immagini PNG",
+    "compressPngStep1": "Carica File PNG",
+    "compressPngStep1Desc": "Seleziona le tue immagini PNG trascinandole o sfogliando. Funziona con tutti i file PNG inclusi quelli trasparenti.",
+    "compressPngStep2": "Imposta le Impostazioni di Compressione",
+    "compressPngStep2Desc": "Scegli il tuo livello di compressione. Lo strumento ottimizza la codifica PNG preservando trasparenza e qualità visiva.",
+    "compressPngStep3": "Scarica PNG Ottimizzati",
+    "compressPngStep3Desc": "Salva i tuoi file PNG compressi. La trasparenza è completamente preservata con dimensioni file significativamente ridotte.",
+    "compressPngFaqTitle": "Domande Frequenti",
+    "compressPngFaq1Q": "La compressione PNG può preservare la trasparenza?",
+    "compressPngFaq1A": "Sì, la compressione PNG preserva completamente il canale alfa e tutti i dati di trasparenza. La compressione funziona ottimizzando come i dati dei pixel vengono codificati e filtrati senza rimuovere le informazioni di trasparenza. I tuoi loghi, icone e grafiche overlay manterranno perfettamente i loro sfondi trasparenti.",
+    "compressPngFaq2Q": "In cosa differisce la compressione PNG dalla compressione JPG?",
+    "compressPngFaq2A": "PNG usa la compressione senza perdita per impostazione predefinita, il che significa che nessun dato pixel viene scartato. JPG usa la compressione con perdita che rimuove permanentemente i dati per ottenere dimensioni più piccole. La compressione PNG funziona trovando modi più efficienti per codificare gli stessi dati, mentre la compressione JPG scarta dettagli visivi.",
+    "compressPngFaq3Q": "Perché i file PNG sono più grandi dei file JPG?",
+    "compressPngFaq3A": "PNG preserva ogni pixel esattamente attraverso la compressione senza perdita, il che limita quanto possono diventare piccoli i file. JPG ottiene dimensioni più piccole scartando informazioni visive che gli umani tipicamente non notano. Per le fotografie, JPG è più efficiente. Per grafiche, loghi e screenshot con bordi netti, PNG è preferito.",
+    "compressWebpHowTo": "Come Comprimere Immagini WebP",
+    "compressWebpStep1": "Carica Immagini WebP",
+    "compressWebpStep1Desc": "Seleziona i tuoi file WebP trascinandoli e rilasciandoli o sfogliando. Sono supportati sia i file WebP con perdita che senza perdita.",
+    "compressWebpStep2": "Regola le Impostazioni di Qualità",
+    "compressWebpStep2Desc": "Regola finemente il livello di compressione per bilanciare dimensioni del file e qualità visiva per il tuo caso d'uso specifico.",
+    "compressWebpStep3": "Scarica WebP Ottimizzato",
+    "compressWebpStep3Desc": "Salva le tue immagini WebP compresse. Riduci ulteriormente i file WebP già efficienti per le massime prestazioni web.",
+    "compressWebpFaqTitle": "Domande Frequenti",
+    "compressWebpFaq1Q": "I file WebP possono essere ulteriormente compressi?",
+    "compressWebpFaq1A": "Sì, specialmente i file WebP esportati con impostazioni di alta qualità. Ricomprimere a un livello di qualità leggermente inferiore può ridurre le dimensioni del file del 20-50% con impatto visivo minimo. Questo è utile per ottimizzare immagini WebP esportate da strumenti di design con impostazioni di qualità inutilmente alte.",
+    "compressWebpFaq2Q": "Quale impostazione di qualità è migliore per le immagini web?",
+    "compressWebpFaq2A": "Per la maggior parte delle immagini web, un'impostazione di qualità WebP del 75-85% fornisce un'eccellente qualità visiva con dimensioni file ottimali. Le immagini hero e le foto dei prodotti possono beneficiare dell'85-90%. Le miniature e gli elementi decorativi possono usare il 60-75%. Visualizza sempre l'anteprima dei risultati compressi per verificare una qualità accettabile.",
+    "compressWebpFaq3Q": "WebP è migliore di JPG per le prestazioni del sito web?",
+    "compressWebpFaq3A": "WebP offre costantemente file il 25-35% più piccoli di JPG a qualità visiva equivalente, migliorando direttamente la velocità di caricamento e i punteggi Core Web Vitals. Google raccomanda WebP per le immagini web, e tutti i principali browser ora lo supportano. I file più piccoli riducono anche significativamente i costi di banda dell'hosting.",
+    "compressMp4HowTo": "Come Comprimere Video MP4",
+    "compressMp4Step1": "Carica Video MP4",
+    "compressMp4Step1Desc": "Seleziona il tuo file video MP4. Lo strumento funziona interamente nel tuo browser, quindi nessun dato video viene caricato su alcun server.",
+    "compressMp4Step2": "Scegli le Impostazioni di Compressione",
+    "compressMp4Step2Desc": "Regola risoluzione, bitrate e qualità. Risoluzione e bitrate inferiori producono file più piccoli. Visualizza l'anteprima delle dimensioni di output stimate.",
+    "compressMp4Step3": "Scarica Video Compresso",
+    "compressMp4Step3Desc": "Salva il tuo MP4 compresso con dimensioni file ridotte. Condividilo via email, app di messaggistica o carica sui social media.",
+    "compressMp4FaqTitle": "Domande Frequenti",
+    "compressMp4Faq1Q": "Quanto può essere compresso un video MP4?",
+    "compressMp4Faq1A": "La compressione MP4 può ridurre le dimensioni dei file video del 40-70% a seconda della codifica originale, della risoluzione e della qualità target. Un video da 100MB può spesso essere ridotto a 30-50MB mantenendo una qualità guardabile. I video originariamente registrati a bitrate molto alti vedono le maggiori riduzioni.",
+    "compressMp4Faq2Q": "La compressione video riduce la risoluzione?",
+    "compressMp4Faq2A": "Non necessariamente. Puoi comprimere il video riducendo solo il bitrate mantenendo la risoluzione originale. Tuttavia, ridurre la risoluzione da 1080p a 720p è un modo efficace per tagliare drasticamente le dimensioni del file. Sugli schermi mobili, la differenza visiva tra 720p e 1080p è spesso impercettibile.",
+    "compressMp4Faq3Q": "Qual è la migliore risoluzione per condividere video online?",
+    "compressMp4Faq3A": "720p (1280x720) è il punto ideale per la condivisione via email e app di messaggistica, offrendo buona qualità a dimensioni file gestibili. Per i caricamenti sui social media, 1080p è raccomandato poiché le piattaforme applicano la propria compressione. Per WhatsApp e app simili con limiti di dimensione, 480p mantiene i file sotto i 16MB.",
+    "resizeInstagramHowTo": "Come Ridimensionare Immagini per Instagram",
+    "resizeInstagramStep1": "Carica la Tua Foto",
+    "resizeInstagramStep1Desc": "Seleziona l'immagine che vuoi ridimensionare per Instagram. Supporta JPG, PNG, WebP e altri formati comuni.",
+    "resizeInstagramStep2": "Scegli le Dimensioni Instagram",
+    "resizeInstagramStep2Desc": "Seleziona la dimensione target: 1080x1080 per i post, 1080x1350 per il ritratto, o 1080x1920 per storie e reel.",
+    "resizeInstagramStep3": "Scarica Immagine Ridimensionata",
+    "resizeInstagramStep3Desc": "Salva la tua immagine Instagram perfettamente dimensionata. Caricala direttamente su Instagram senza problemi di ritaglio della piattaforma.",
+    "resizeInstagramFaqTitle": "Domande Frequenti",
+    "resizeInstagramFaq1Q": "Qual è la migliore dimensione immagine per i post Instagram?",
+    "resizeInstagramFaq1A": "Instagram supporta 1080x1080 (quadrato), 1080x1350 (ritratto 4:5) e 1080x566 (panoramico). Il ritratto 1080x1350 occupa più spazio nel feed e ottiene il maggior engagement. Carica sempre a larghezza minima di 1080px per evitare che Instagram mostri una versione sfocata e ingrandita.",
+    "resizeInstagramFaq2Q": "Quale dimensione dovrebbero avere le storie Instagram?",
+    "resizeInstagramFaq2A": "Le Storie e i Reel di Instagram dovrebbero essere 1080x1920 pixel con un rapporto d'aspetto 9:16 per la visualizzazione a schermo intero. Lascia 250 pixel di margine sicuro in alto e in basso per evitare che il tuo contenuto sia coperto dalla barra del nome utente e dall'area di risposta sugli schermi degli spettatori.",
+    "resizeInstagramFaq3Q": "Instagram comprime le immagini caricate?",
+    "resizeInstagramFaq3A": "Sì, Instagram comprime tutte le immagini caricate per ridurre i costi del server. Per minimizzare la perdita di qualità, carica immagini esattamente alle dimensioni raccomandate in formato JPG al 95% di qualità. Le immagini sovradimensionate subiscono una compressione più aggressiva, quindi corrispondere alla risoluzione target esatta produce i risultati più nitidi.",
+    "resizeFacebookHowTo": "Come Ridimensionare Immagini per Facebook",
+    "resizeFacebookStep1": "Carica la Tua Immagine",
+    "resizeFacebookStep1Desc": "Seleziona la foto che vuoi ridimensionare per Facebook. Funziona con tutti i formati immagine comuni.",
+    "resizeFacebookStep2": "Seleziona le Dimensioni Facebook",
+    "resizeFacebookStep2Desc": "Scegli il target: 820x312 per la foto di copertina, 1200x630 per i post condivisi, o 170x170 per l'immagine del profilo.",
+    "resizeFacebookStep3": "Scarica Immagine Pronta per Facebook",
+    "resizeFacebookStep3Desc": "Salva la tua immagine ridimensionata alle esatte dimensioni Facebook. Carica senza ritaglio o degradazione della qualità.",
+    "resizeFacebookFaqTitle": "Domande Frequenti",
+    "resizeFacebookFaq1Q": "Qual è la migliore dimensione per le foto di copertina Facebook?",
+    "resizeFacebookFaq1A": "Le foto di copertina Facebook vengono visualizzate a 820x312 pixel su desktop e 640x360 pixel su mobile. Progetta a 820x462 per adattarsi a entrambe le visualizzazioni, centrando il contenuto importante nell'area centrale. Usa il formato PNG per copertine con testo o loghi, e JPG per copertine fotografiche.",
+    "resizeFacebookFaq2Q": "Quali dimensioni funzionano meglio per le immagini condivise su Facebook?",
+    "resizeFacebookFaq2A": "Per le immagini di anteprima link e i post condivisi, usa 1200x630 pixel (rapporto 1.91:1). Questo è anche lo standard Open Graph che viene visualizzato correttamente quando la tua pagina viene condivisa. Per i caricamenti foto, la risoluzione massima supportata è 2048x2048 pixel, ma 1200px di larghezza è ottimale per la visualizzazione nel feed.",
+    "resizeFacebookFaq3Q": "Facebook riduce la qualità dell'immagine durante il caricamento?",
+    "resizeFacebookFaq3A": "Sì, Facebook comprime significativamente le immagini caricate. Per minimizzare la perdita di qualità, carica file JPG sotto 100KB per le foto profilo e sotto 1MB per i post. Usa lo spazio colore sRGB e corrisponde alle dimensioni raccomandate esatte. Facebook applica meno compressione alle immagini che già soddisfano le sue specifiche target.",
+    "resizeTwitterHowTo": "Come Ridimensionare Immagini per Twitter/X",
+    "resizeTwitterStep1": "Carica la Tua Immagine",
+    "resizeTwitterStep1Desc": "Seleziona l'immagine che vuoi ottimizzare per Twitter/X. Tutti i formati immagine comuni sono supportati.",
+    "resizeTwitterStep2": "Scegli le Dimensioni Twitter",
+    "resizeTwitterStep2Desc": "Seleziona il target: 1500x500 per l'intestazione, 1600x900 per le immagini nel feed, o 400x400 per la foto profilo.",
+    "resizeTwitterStep3": "Scarica Immagine Ottimizzata",
+    "resizeTwitterStep3Desc": "Salva la tua immagine ottimizzata per Twitter. Verrà visualizzata perfettamente nelle timeline senza ritaglio inaspettato.",
+    "resizeTwitterFaqTitle": "Domande Frequenti",
+    "resizeTwitterFaq1Q": "Qual è la migliore dimensione immagine per i post Twitter/X?",
+    "resizeTwitterFaq1A": "Twitter raccomanda 1600x900 pixel (rapporto 16:9) per tweet con singola immagine che si visualizzano completamente senza ritaglio. Per due immagini, usa 700x800 ciascuna. Twitter supporta fino a 5MB per le foto e 15MB per le GIF. Le immagini più larghe di 4096 pixel vengono automaticamente ridimensionate dalla piattaforma.",
+    "resizeTwitterFaq2Q": "Quali sono le dimensioni dell'intestazione Twitter/X?",
+    "resizeTwitterFaq2A": "Le intestazioni Twitter dovrebbero essere 1500x500 pixel (rapporto 3:1). Mantieni il contenuto importante centrato perché i bordi possono essere ritagliati su diversi dispositivi e dimensioni dello schermo. La foto profilo si sovrappone all'area inferiore sinistra dell'intestazione su desktop, quindi evita di posizionare elementi chiave lì.",
+    "resizeTwitterFaq3Q": "Come ritaglia Twitter le immagini nella timeline?",
+    "resizeTwitterFaq3A": "Twitter usa un algoritmo di ritaglio intelligente basato sull'IA che tenta di trovare il punto focale visivamente più interessante. Per evitare ritagli inaspettati, usa il rapporto d'aspetto 16:9 raccomandato per le singole immagini. Centra il soggetto e mantieni gli elementi importanti lontano dai bordi per assicurarti che rimangano visibili dopo il ritaglio automatico.",
+    "resizeYoutubeHowTo": "Come Creare Miniature YouTube",
+    "resizeYoutubeStep1": "Carica la Tua Immagine",
+    "resizeYoutubeStep1Desc": "Seleziona l'immagine che vuoi usare come miniatura YouTube. Immagini sorgente ad alta risoluzione producono i migliori risultati.",
+    "resizeYoutubeStep2": "Ritaglia a 1280x720",
+    "resizeYoutubeStep2Desc": "Ridimensiona e ritaglia la tua immagine alle esatte dimensioni della miniatura YouTube di 1280x720 pixel con rapporto d'aspetto 16:9.",
+    "resizeYoutubeStep3": "Scarica Miniatura",
+    "resizeYoutubeStep3Desc": "Salva la tua miniatura pronta per YouTube. Caricala direttamente in YouTube Studio quando pubblichi o modifichi il tuo video.",
+    "resizeYoutubeFaqTitle": "Domande Frequenti",
+    "resizeYoutubeFaq1Q": "Qual è la dimensione ideale per le miniature YouTube?",
+    "resizeYoutubeFaq1A": "Le miniature YouTube dovrebbero essere esattamente 1280x720 pixel con un rapporto d'aspetto 16:9. La larghezza minima è 640 pixel e la dimensione massima del file è 2MB. I formati JPG, PNG e GIF sono accettati. Progetta sempre alla risoluzione completa 1280x720 per la visualizzazione più nitida su tutti i dispositivi.",
+    "resizeYoutubeFaq2Q": "Cosa rende una miniatura YouTube più cliccata?",
+    "resizeYoutubeFaq2A": "Le miniature con alto CTR usano colori vivaci e contrastanti, testo grande e leggibile (massimo 3-5 parole), volti umani espressivi e un chiaro punto focale. Evita il disordine e i piccoli dettagli che diventano invisibili a dimensioni ridotte. Testa la tua miniatura a 120x67 pixel per verificare che rimanga convincente e leggibile.",
+    "resizeYoutubeFaq3Q": "Le miniature YouTube dovrebbero essere JPG o PNG?",
+    "resizeYoutubeFaq3A": "JPG è preferito per le miniature fotografiche perché mantiene i file ben sotto il limite di 2MB. PNG è migliore per miniature con sovrapposizioni di testo, loghi ed elementi grafici dove i bordi netti contano. Se il tuo PNG supera i 2MB, comprimilo o passa a JPG al 90-95% di qualità.",
+    "removeBgHowTo": "Come Rimuovere lo Sfondo dell'Immagine",
+    "removeBgStep1": "Carica la Tua Immagine",
+    "removeBgStep1Desc": "Seleziona la foto da cui vuoi rimuovere lo sfondo. Funziona meglio con soggetti chiari e buon contrasto.",
+    "removeBgStep2": "Rimozione Sfondo con IA",
+    "removeBgStep2Desc": "L'IA rileva automaticamente il soggetto e rimuove lo sfondo. L'elaborazione avviene interamente nel tuo browser.",
+    "removeBgStep3": "Scarica PNG Trasparente",
+    "removeBgStep3Desc": "Salva la tua immagine con sfondo trasparente come file PNG. Pronta per compositing, presentazioni o inserzioni di prodotti.",
+    "removeBgFaqTitle": "Domande Frequenti",
+    "removeBgFaq1Q": "Come funziona la rimozione dello sfondo con IA?",
+    "removeBgFaq1A": "Il modello IA analizza la tua immagine per identificare il soggetto principale usando la segmentazione semantica. Classifica ogni pixel come primo piano o sfondo, poi rimuove i pixel dello sfondo per creare la trasparenza. I modelli IA moderni gestiscono bordi complessi come capelli e pelliccia con precisione impressionante.",
+    "removeBgFaq2Q": "Quali tipi di immagini funzionano meglio per la rimozione dello sfondo?",
+    "removeBgFaq2A": "Le immagini con chiaro contrasto tra soggetto e sfondo producono i migliori risultati. Foto ben illuminate con un singolo soggetto principale funzionano idealmente. Scene complesse con più soggetti sovrapposti, colori molto simili tra primo piano e sfondo, o oggetti trasparenti come il vetro possono richiedere ritocchi manuali.",
+    "removeBgFaq3Q": "La mia immagine viene caricata su un server per l'elaborazione?",
+    "removeBgFaq3A": "No, l'intero processo di rimozione dello sfondo viene eseguito localmente nel tuo browser usando un modello IA WebAssembly. Le tue immagini non lasciano mai il tuo dispositivo, garantendo completa privacy. Questo è particolarmente importante per immagini sensibili come foto di prodotti confidenziali o ritratti personali.",
+    "addWatermarkHowTo": "Come Aggiungere una Filigrana alle Foto",
+    "addWatermarkStep1": "Carica le Tue Foto",
+    "addWatermarkStep1Desc": "Seleziona una o più immagini a cui vuoi aggiungere la filigrana. L'elaborazione batch ti permette di applicare la filigrana a più foto contemporaneamente.",
+    "addWatermarkStep2": "Personalizza la Filigrana",
+    "addWatermarkStep2Desc": "Aggiungi testo o carica un logo. Regola posizione, dimensione, opacità e rotazione per creare il posizionamento ideale della filigrana.",
+    "addWatermarkStep3": "Scarica Immagini con Filigrana",
+    "addWatermarkStep3Desc": "Salva le tue foto protette con la filigrana applicata. I file originali senza filigrana rimangono privati sul tuo dispositivo.",
+    "addWatermarkFaqTitle": "Domande Frequenti",
+    "addWatermarkFaq1Q": "Qual è la migliore impostazione di opacità per la filigrana?",
+    "addWatermarkFaq1A": "Un'opacità del 30-50% offre l'equilibrio ideale tra visibilità e discrezione. Al 30%, la filigrana è notabile senza distrarre dal contenuto dell'immagine. Al 50%, fornisce una protezione più forte contro l'uso non autorizzato. Testa diversi livelli per trovare quello che funziona per le tue immagini specifiche e le esigenze di branding.",
+    "addWatermarkFaq2Q": "Dove dovrei posizionare una filigrana su una foto?",
+    "addWatermarkFaq2A": "L'angolo in basso a destra è il posizionamento più comune, ma è anche il più facile da ritagliare. Per una migliore protezione, posiziona le filigrane al centro o usa un pattern diagonale ripetuto su tutta l'immagine. Il posizionamento ideale copre aree di contenuto importanti che verrebbero rovinate se la filigrana fosse rimossa.",
+    "addWatermarkFaq3Q": "Le filigrane possono essere rimosse dalle foto?",
+    "addWatermarkFaq3A": "Le filigrane semi-trasparenti possono essere parzialmente rimosse usando strumenti IA, ma una filigrana ben posizionata su aree dettagliate rende la rimozione pulita molto difficile. Usa pattern a piastrelle ripetuti, posiziona le filigrane su dettagli chiave e combina elementi di testo e logo per creare filigrane che resistano ai tentativi di rimozione automatizzata.",
+    "mergePhotosHowTo": "Come Unire Foto Online",
+    "mergePhotosStep1": "Carica Più Immagini",
+    "mergePhotosStep1Desc": "Seleziona due o più foto che vuoi combinare. Supporta JPG, PNG, WebP e altri formati immagine comuni.",
+    "mergePhotosStep2": "Organizza il Layout",
+    "mergePhotosStep2Desc": "Scegli layout orizzontale, verticale o a griglia. Regola spaziatura, allineamento e ordine delle immagini trascinando per riorganizzare.",
+    "mergePhotosStep3": "Scarica Immagine Combinata",
+    "mergePhotosStep3Desc": "Salva la tua foto unita come singolo file immagine. Perfetto per confronti, collage e post sui social media.",
+    "mergePhotosFaqTitle": "Domande Frequenti",
+    "mergePhotosFaq1Q": "Quante foto posso unire contemporaneamente?",
+    "mergePhotosFaq1A": "Puoi unire tante foto quante la memoria del tuo browser consente, tipicamente 10-20 immagini ad alta risoluzione senza problemi. Per batch molto grandi, lo strumento potrebbe rallentare a seconda delle capacità del tuo dispositivo. Le dimensioni dell'immagine di output crescono con ogni foto aggiunta, quindi considera il tuo caso d'uso finale quando aggiungi molte immagini.",
+    "mergePhotosFaq2Q": "Posso unire foto di dimensioni diverse?",
+    "mergePhotosFaq2A": "Sì, lo strumento gestisce automaticamente immagini di dimensioni diverse. Puoi scegliere di ridimensionare tutte le immagini per corrispondere alla dimensione più grande o più piccola, o mantenere le proporzioni originali con padding. I layout orizzontali allineano le immagini verticalmente, mentre i layout verticali le allineano orizzontalmente per un risultato pulito.",
+    "mergePhotosFaq3Q": "Qual è il miglior layout per confronti prima-e-dopo?",
+    "mergePhotosFaq3A": "Il layout orizzontale affiancato funziona meglio per i confronti prima-e-dopo, posizionando l'originale a sinistra e il risultato a destra. Assicurati che entrambe le immagini abbiano la stessa altezza per una giunzione pulita. Aggiungi spaziatura minima tra le immagini così gli spettatori possano facilmente confrontare i dettagli lungo il confine.",
+    "extractMp3HowTo": "Come Estrarre MP3 da Video",
+    "extractMp3Step1": "Carica File Video",
+    "extractMp3Step1Desc": "Seleziona il tuo file video in formato MP4, WebM, AVI, MOV o altro formato comune. La traccia audio verrà estratta.",
+    "extractMp3Step2": "Estrai Traccia Audio",
+    "extractMp3Step2Desc": "Lo strumento estrae il flusso audio dal tuo video e lo converte in formato MP3 usando FFmpeg basato su browser.",
+    "extractMp3Step3": "Scarica File MP3",
+    "extractMp3Step3Desc": "Salva il file audio MP3 estratto. Usalo come podcast, traccia musicale, registrazione vocale o backup audio.",
+    "extractMp3FaqTitle": "Domande Frequenti",
+    "extractMp3Faq1Q": "Quale qualità audio posso aspettarmi dall'MP3 estratto?",
+    "extractMp3Faq1A": "La qualità dell'MP3 dipende dalla traccia audio del video originale. La maggior parte dei video contiene audio a 128-256 kbps. L'estrazione preserva questa qualità e la ricodifica come MP3 al bitrate scelto. Per la musica, usa 256-320 kbps. Per discorsi e podcast, 128 kbps fornisce una qualità chiara a dimensioni file più piccole.",
+    "extractMp3Faq2Q": "Posso estrarre l'audio dai video di YouTube?",
+    "extractMp3Faq2A": "Questo strumento estrae l'audio da file video memorizzati sul tuo dispositivo. Dovresti prima avere il file video salvato localmente. Lo strumento non scarica video da URL o piattaforme di streaming. Una volta che hai un file video locale, puoi estrarre la sua traccia audio in MP3 istantaneamente.",
+    "extractMp3Faq3Q": "Il video viene caricato su un server durante l'estrazione?",
+    "extractMp3Faq3A": "No, l'intero processo di estrazione viene eseguito localmente nel tuo browser usando FFmpeg alimentato da WebAssembly. Il tuo file video non lascia mai il tuo dispositivo, garantendo completa privacy. Questo è particolarmente importante per estrarre audio da registrazioni private, riunioni confidenziali o contenuti video personali."
   },
   "footer": {
     "tagline": "Strumenti online gratuiti per immagini e video. 100% nel browser, i tuoi file non lasciano mai il tuo dispositivo.",
@@ -430,19 +766,19 @@
         "content": [
           {
             "heading": "Perché gli editor gratuiti online contano nel 2026",
-            "text": "L'editing professionale delle immagini non richiede più costosi abbonamenti software o hardware potente. Gli editor di immagini gratuiti online sono maturati per gestire la maggior parte delle attività di editing quotidiane.\n\nIl passaggio agli strumenti basati su browser è stato favorito dai progressi di WebAssembly, API del browser e cloud computing.\n\nIn questa guida, confrontiamo cinque dei migliori editor di immagini gratuiti online del 2026."
+            "text": "L'editing professionale delle immagini non richiede più costosi abbonamenti software o hardware potente. Gli editor di immagini gratuiti online sono maturati per gestire la maggior parte delle attività di editing quotidiane."
           },
           {
             "heading": "ToolPic e Canva a confronto",
-            "text": "ToolPic è un toolkit per immagini e video orientato alla privacy che elabora tutto direttamente nel browser. I file non lasciano mai il dispositivo.\n\nCanva è una piattaforma di design con migliaia di modelli. Tuttavia, Canva carica i file sui suoi server.\n\nScegli ToolPic per l'elaborazione rapida e privata. Scegli Canva per il design basato su modelli."
+            "text": "ToolPic è un toolkit per immagini e video orientato alla privacy che elabora tutto direttamente nel browser. I file non lasciano mai il dispositivo."
           },
           {
             "heading": "Photopea, Pixlr e Fotor",
-            "text": "Photopea è il più vicino a Photoshop disponibile gratuitamente nel browser. Supporta file PSD, XCF, Sketch e RAW con livelli e maschere.\n\nPixlr offre due editor: Pixlr X per modifiche rapide e Pixlr E per lavoro avanzato.\n\nFotor si concentra sul miglioramento foto con filtri one-click e ritocco ritratti."
+            "text": "Photopea è il più vicino a Photoshop disponibile gratuitamente nel browser. Supporta file PSD, XCF, Sketch e RAW con livelli e maschere."
           },
           {
             "heading": "Quale editor scegliere?",
-            "text": "Per la privacy: ToolPic. Per il design grafico: Canva. Per l'editing avanzato: Photopea. Per modifiche rapide con IA: Pixlr e Fotor.\n\nMolti professionisti combinano più strumenti per ottimizzare il workflow."
+            "text": "Per la privacy: ToolPic. Per il design grafico: Canva. Per l'editing avanzato: Photopea."
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -455,15 +791,15 @@
         "content": [
           {
             "heading": "Perché le miniature determinano il successo dei video",
-            "text": "La miniatura è il fattore più importante per determinare se qualcuno clicca sul tuo video. Il 90% dei video più performanti usa miniature personalizzate.\n\nDimensioni raccomandate: 1280 x 720 pixel, rapporto 16:9, file sotto 2MB."
+            "text": "La miniatura è il fattore più importante per determinare se qualcuno clicca sul tuo video. Il 90% dei video più performanti usa miniature personalizzate."
           },
           {
             "heading": "Principi di design per più clic",
-            "text": "Colori ad alto contrasto sono essenziali. Usa colori vivaci e saturi. Giallo, rosso e arancione attirano lo sguardo.\n\nI volti con emozioni chiare generano più clic.\n\nTesto massimo 3-5 parole con font sans-serif grassetto."
+            "text": "Colori ad alto contrasto sono essenziali. Usa colori vivaci e saturi. Giallo, rosso e arancione attirano lo sguardo."
           },
           {
             "heading": "Psicologia del colore e composizione",
-            "text": "Rosso crea urgenza, blu trasmette fiducia, giallo cattura attenzione, verde suggerisce crescita.\n\nUsa la regola dei terzi. Sfondo sfocato o scurito dietro il soggetto principale per creare profondità."
+            "text": "Rosso crea urgenza, blu trasmette fiducia, giallo cattura attenzione, verde suggerisce crescita."
           },
           {
             "heading": "Creare miniature con ToolPic",
@@ -480,19 +816,19 @@
         "content": [
           {
             "heading": "Perché l'elaborazione in batch fa risparmiare ore",
-            "text": "Comprimere immagini una alla volta è noioso e impraticabile con decine di file. L'elaborazione in batch è l'unico approccio efficiente.\n\nLa compressione manuale richiede 30-60 secondi per immagine. Gli strumenti batch completano in minuti.\n\nIl batch garantisce anche coerenza visiva."
+            "text": "Comprimere immagini una alla volta è noioso e impraticabile con decine di file. L'elaborazione in batch è l'unico approccio efficiente."
           },
           {
             "heading": "Scegliere lo strumento giusto",
-            "text": "Strumenti browser come ToolPic offrono la massima comodità. Trascina e rilascia, imposta la qualità una volta.\n\nApp desktop come ImageOptim e FileOptimizer sono buone alternative.\n\nStrumenti CLI come Sharp e ImageMagick per gli sviluppatori."
+            "text": "Strumenti browser come ToolPic offrono la massima comodità. Trascina e rilascia, imposta la qualità una volta."
           },
           {
             "heading": "Impostazioni ottimali",
-            "text": "JPEG o WebP al 78-82% per fotografie. Riduzione del 60-75%.\n\nPNG con ottimizzazione lossless per grafiche con bordi netti.\n\nRidimensiona sempre prima di comprimere."
+            "text": "JPEG o WebP al 78-82% per fotografie. Riduzione del 60-75%."
           },
           {
             "heading": "Passo dopo passo con ToolPic",
-            "text": "Apri il Compressore Immagini di ToolPic. Trascina tutte le immagini. Qualità all'80%.\n\nUsa Scarica Tutto per salvare. Tutto è elaborato localmente."
+            "text": "Apri il Compressore Immagini di ToolPic. Trascina tutte le immagini. Qualità all'80%."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -505,11 +841,11 @@
         "content": [
           {
             "heading": "La nuova generazione di formati immagine",
-            "text": "Il web ha usato JPEG e PNG per decenni. Formati moderni come WebP e AVIF usano compressione avanzata.\n\nWebP: Google 2010, codec VP8. AVIF: 2019, codec AV1, compressione ancora migliore."
+            "text": "Il web ha usato JPEG e PNG per decenni. Formati moderni come WebP e AVIF usano compressione avanzata."
           },
           {
             "heading": "Confronto qualità di compressione",
-            "text": "AVIF supera WebP: file 20-30% più piccoli, 50% più piccoli di JPEG. Migliore preservazione di texture e gradienti.\n\nWebP più veloce nella codifica e migliore con bordi netti."
+            "text": "AVIF supera WebP: file 20-30% più piccoli, 50% più piccoli di JPEG. Migliore preservazione di texture e gradienti."
           },
           {
             "heading": "Supporto browser",
@@ -530,15 +866,15 @@
         "content": [
           {
             "heading": "Perché le immagini prodotto guidano le vendite",
-            "text": "Il 75% degli acquirenti online si affida alle foto dei prodotti. Immagini non ottimizzate possono pesare 2-5MB ciascuna.\n\nL'ottimizzazione può ridurre le dimensioni del 70-90% senza perdita visibile di qualità."
+            "text": "Il 75% degli acquirenti online si affida alle foto dei prodotti. Immagini non ottimizzate possono pesare 2-5MB ciascuna."
           },
           {
             "heading": "Dimensioni e formati raccomandati",
-            "text": "Immagini principali: 1000-2000 pixel. Raccomandato: 1200 x 1200 o 1500 x 1500.\n\nWebP ideale per 2026. File 25-35% più piccoli di JPEG.\n\nMiniature: 400-600 pixel di larghezza."
+            "text": "Immagini principali: 1000-2000 pixel. Raccomandato: 1200 x 1200 o 1500 x 1500."
           },
           {
             "heading": "SEO immagini per e-commerce",
-            "text": "Nomi file descrittivi e testo alt sono cruciali per il SEO. Usa Schema.org Product per dati strutturati."
+            "text": "Nomi file descrittivi e testo alt sono cruciali per il SEO. org Product per dati strutturati."
           },
           {
             "heading": "Ottimizzare con ToolPic",
@@ -555,19 +891,19 @@
         "content": [
           {
             "heading": "Perché la compressione delle immagini è importante",
-            "text": "Le immagini grandi sono una delle principali cause di caricamento lento dei siti web. Quando una pagina impiega più di tre secondi per caricarsi, oltre la metà dei visitatori se ne va prima ancora di vedere il contenuto. I motori di ricerca tengono conto anche della velocità della pagina nei loro algoritmi di classificazione, quindi le immagini pesanti possono danneggiare direttamente la tua visibilità nei risultati di ricerca.\n\nOltre alle prestazioni del sito web, le immagini compresse sono più facili da condividere via email, app di messaggistica e piattaforme di social media che impongono limiti di dimensione dei file. Una foto da 5MB dal tuo telefono può sembrare ottima su uno schermo ad alta risoluzione, ma è molto più grande del necessario per la maggior parte degli usi online. Ridurla a 500KB o meno può farla caricare dieci volte più velocemente senza alcun calo evidente nella qualità visiva.\n\nLa compressione delle immagini è particolarmente importante per i negozi e-commerce, i portfolio e i blog ricchi di contenuti dove decine di immagini appaiono su una singola pagina. Anche piccoli risparmi per immagine si sommano a miglioramenti significativi nelle prestazioni complessive della pagina."
+            "text": "Le immagini grandi sono una delle principali cause di caricamento lento dei siti web. Quando una pagina impiega più di tre secondi per caricarsi, oltre la metà dei visitatori se ne va prima ancora di vedere il contenuto. I motori di ricerca tengono conto anche della velocità della pagina nei loro algoritmi di classificazione, quindi le immagini pesanti possono danneggiare direttamente la tua visibilità nei risultati di ricerca."
           },
           {
             "heading": "Compressione lossy vs lossless",
-            "text": "Esistono due approcci fondamentali alla compressione delle immagini: lossy e lossless. Comprendere la differenza ti aiuta a scegliere il metodo giusto per ogni situazione.\n\nLa compressione lossless riduce le dimensioni del file trovando ed eliminando pattern di dati ridondanti senza scartare alcuna informazione dell'immagine. Quando decomprimi il file, ottieni esattamente i dati pixel originali. PNG utilizza la compressione lossless, rendendolo ideale per grafica, loghi e screenshot dove ogni dettaglio conta. Lo svantaggio è che la compressione lossless tipicamente ottiene solo modeste riduzioni di dimensione, solitamente tra il 10% e il 40%.\n\nLa compressione lossy ottiene riduzioni di dimensione molto maggiori rimuovendo permanentemente dati dell'immagine che l'occhio umano difficilmente noterebbe. JPEG è il formato lossy più comune, e formati moderni come WebP offrono una compressione lossy ancora migliore. Con impostazioni di qualità tra il 75% e l'85%, la maggior parte delle fotografie è visivamente indistinguibile dall'originale pur essendo dal 60% all'80% più piccola."
+            "text": "Esistono due approcci fondamentali alla compressione delle immagini: lossy e lossless. Comprendere la differenza ti aiuta a scegliere il metodo giusto per ogni situazione."
           },
           {
             "heading": "Migliori pratiche per la compressione delle immagini",
-            "text": "Inizia scegliendo il formato giusto per il tuo contenuto. Usa JPEG o WebP per fotografie e immagini complesse con sfumature. Usa PNG per grafica con bordi netti, sovrapposizioni di testo o trasparenza. Evita di usare PNG per le fotografie, poiché produce file inutilmente grandi.\n\nRidimensiona le immagini alle dimensioni a cui verranno effettivamente visualizzate prima di comprimerle. Non ha senso servire un'immagine larga 4000 pixel a un contenitore largo solo 800 pixel. Ridimensionare prima e poi comprimere è molto più efficace della sola compressione.\n\nPer l'uso web, punta a dimensioni di file inferiori a 200KB per le immagini hero e inferiori a 100KB per miniature e immagini di contenuto. Usa impostazioni di qualità tra il 75% e l'85% per JPEG e WebP. Confronta sempre la versione compressa affiancata all'originale per assicurarti che la qualità soddisfi i tuoi standard."
+            "text": "Inizia scegliendo il formato giusto per il tuo contenuto. Usa JPEG o WebP per fotografie e immagini complesse con sfumature. Usa PNG per grafica con bordi netti, sovrapposizioni di testo o trasparenza."
           },
           {
             "heading": "Come comprimere le immagini con ToolPic",
-            "text": "Passo 1: Apri lo strumento Compressore Immagini su ToolPic. Puoi trascinare le tue immagini direttamente nell'area di caricamento, o cliccare per sfogliare i tuoi file. Più immagini possono essere elaborate contemporaneamente.\n\nPasso 2: Regola il cursore della qualità per impostare il livello di compressione desiderato. L'impostazione predefinita dell'80% funziona bene per la maggior parte delle fotografie. Sposta il cursore più in basso per file più piccoli o più in alto per preservare più dettagli. Lo strumento mostra la riduzione stimata delle dimensioni del file in tempo reale.\n\nPasso 3: Una volta completata l'elaborazione, esamina il confronto prima e dopo per verificare che la qualità sia accettabile. Scarica le immagini singolarmente o usa il pulsante \"Scarica tutto\" per salvare tutto in una volta. I tuoi file non lasciano mai il browser, quindi l'intero processo è completamente privato."
+            "text": "Passo 1: Apri lo strumento Compressore Immagini su ToolPic. Puoi trascinare le tue immagini direttamente nell'area di caricamento, o cliccare per sfogliare i tuoi file. Più immagini possono essere elaborate contemporaneamente."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -580,19 +916,19 @@
         "content": [
           {
             "heading": "Comprendere i formati immagine",
-            "text": "Scegliere il formato immagine giusto può fare una differenza significativa in termini di dimensione del file, velocità di caricamento e qualità visiva. Ogni formato è stato progettato per diversi casi d'uso, e usare quello sbagliato spesso significa file inutilmente grandi o qualità dell'immagine degradata.\n\nI tre formati più importanti per il web oggi sono JPEG (JPG), PNG e WebP. JPEG è lo standard per le fotografie dalla metà degli anni '90. PNG è diventato il formato di riferimento per la grafica e le immagini che richiedono trasparenza. WebP, sviluppato da Google, è un formato moderno che mira a sostituire entrambi offrendo una compressione migliore sia per contenuti fotografici che grafici.\n\nComprendere i punti di forza e le limitazioni di ciascun formato è essenziale per chiunque lavori con le immagini, che tu stia costruendo un sito web, gestendo contenuti sui social media, o semplicemente cercando di risparmiare spazio di archiviazione sui tuoi dispositivi."
+            "text": "Scegliere il formato immagine giusto può fare una differenza significativa in termini di dimensione del file, velocità di caricamento e qualità visiva. Ogni formato è stato progettato per diversi casi d'uso, e usare quello sbagliato spesso significa file inutilmente grandi o qualità dell'immagine degradata."
           },
           {
             "heading": "JPEG: lo standard fotografico",
-            "text": "JPEG utilizza la compressione lossy che eccelle nel rappresentare fotografie e immagini con transizioni di colore morbide. Può ridurre le dimensioni dei file foto dell'80% o più mantenendo un'eccellente qualità visiva a livelli di compressione moderati.\n\nIl principale vantaggio di JPEG è la sua compatibilità universale. Ogni dispositivo, browser e applicazione lo supporta. È anche altamente configurabile, permettendoti di scegliere un livello di qualità da compressione minima a riduzione aggressiva.\n\nTuttavia, JPEG ha limitazioni notevoli. Non supporta la trasparenza, quindi non puoi posizionare un'immagine JPEG su uno sfondo diverso senza un rettangolo visibile attorno ad essa. Introduce anche artefatti visibili a impostazioni di qualità inferiori, in particolare attorno a bordi netti e testo. Ogni volta che modifichi e risalvi un JPEG, la qualità si degrada ulteriormente a causa della ricompressione."
+            "text": "JPEG utilizza la compressione lossy che eccelle nel rappresentare fotografie e immagini con transizioni di colore morbide. Può ridurre le dimensioni dei file foto dell'80% o più mantenendo un'eccellente qualità visiva a livelli di compressione moderati."
           },
           {
             "heading": "PNG: qualità lossless e trasparenza",
-            "text": "PNG utilizza la compressione lossless, il che significa che la qualità dell'immagine è perfettamente preservata indipendentemente da quante volte la salvi. Supporta anche la trasparenza alfa completa, permettendo ai pixel di essere parzialmente o completamente trasparenti.\n\nQuesto rende PNG la scelta migliore per loghi, icone, screenshot, grafica con testo e qualsiasi immagine dove hai bisogno di uno sfondo trasparente. È anche ideale per immagini che verranno modificate più volte, poiché non c'è perdita di qualità dal salvataggio ripetuto.\n\nIl compromesso è la dimensione del file. I file PNG sono tipicamente da tre a cinque volte più grandi dei file JPEG per contenuti fotografici. Questo rende PNG impraticabile per fotografie grandi sul web, dove la velocità di caricamento è critica. Usa PNG quando qualità e trasparenza contano più della dimensione del file."
+            "text": "PNG utilizza la compressione lossless, il che significa che la qualità dell'immagine è perfettamente preservata indipendentemente da quante volte la salvi. Supporta anche la trasparenza alfa completa, permettendo ai pixel di essere parzialmente o completamente trasparenti."
           },
           {
             "heading": "WebP: la scelta moderna",
-            "text": "WebP è stato sviluppato da Google per fornire una compressione superiore per le immagini web. Supporta sia la compressione lossy che lossless, oltre a trasparenza e animazione, combinando efficacemente le migliori caratteristiche di JPEG, PNG e GIF in un unico formato.\n\nIn pratica, le immagini WebP lossy sono tipicamente dal 25% al 35% più piccole di JPEG a qualità visiva equivalente. Le immagini WebP lossless sono circa il 26% più piccole di PNG. Questo rende WebP un'eccellente scelta predefinita per l'uso web, riducendo i costi di banda e migliorando i tempi di caricamento delle pagine.\n\nIl supporto browser per WebP è ora eccellente, coprendo Chrome, Firefox, Safari ed Edge. La limitazione principale è la compatibilità con software più vecchio e alcune app mobile native. Quando è richiesta la massima compatibilità, JPEG rimane la scelta più sicura. Per la pubblicazione web dove le prestazioni contano, WebP è il chiaro vincitore. Puoi usare il Convertitore di Immagini di ToolPic per passare facilmente tra qualsiasi di questi formati."
+            "text": "WebP è stato sviluppato da Google per fornire una compressione superiore per le immagini web. Supporta sia la compressione lossy che lossless, oltre a trasparenza e animazione, combinando efficacemente le migliori caratteristiche di JPEG, PNG e GIF in un unico formato."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -605,19 +941,19 @@
         "content": [
           {
             "heading": "Perché le GIF rimangono popolari",
-            "text": "Nonostante sia un formato del 1987, le GIF sono diventate più popolari che mai. Si riproducono automaticamente in quasi ogni app di messaggistica, piattaforma social e client email senza richiedere un lettore video. Questa riproduzione fluida le rende perfette per reazioni, dimostrazioni e tutorial rapidi.\n\nLe GIF sono anche ampiamente utilizzate per demo di prodotti, animazioni UI e segnalazioni di bug in contesti professionali. Una breve GIF che mostra una funzionalità software in azione comunica più efficacemente di paragrafi di testo o una serie di screenshot statici.\n\nLa principale limitazione del formato è la dimensione del file. Poiché le GIF utilizzano un metodo di compressione relativamente inefficiente e sono limitate a 256 colori per frame, possono diventare rapidamente grandi. Una GIF ben ottimizzata di 5 secondi potrebbe essere 1-2MB, mentre una mal configurata può facilmente superare i 10MB."
+            "text": "Nonostante sia un formato del 1987, le GIF sono diventate più popolari che mai. Si riproducono automaticamente in quasi ogni app di messaggistica, piattaforma social e client email senza richiedere un lettore video. Questa riproduzione fluida le rende perfette per reazioni, dimostrazioni e tutorial rapidi."
           },
           {
             "heading": "Scegliere le impostazioni giuste",
-            "text": "Le tre impostazioni più importanti quando si converte un video in GIF sono la durata, il frame rate e le dimensioni di output. Impostarle correttamente fa la differenza tra una GIF nitida e condivisibile e un file ingombrante che impiega un'eternità a caricarsi.\n\nMantieni la tua GIF breve. Qualsiasi cosa sotto i 5 secondi è ideale, e la maggior parte delle GIF efficaci dura tra 2 e 4 secondi. Le clip più lunghe dovrebbero essere tagliate per concentrarsi sul momento più importante.\n\nIl frame rate ha un impatto enorme sulla dimensione del file. I video tipicamente girano a 24-30 fotogrammi al secondo, ma le GIF appaiono fluide già a 10-15 FPS. Passare da 30 FPS a 12 FPS riduce la dimensione del file di più della metà con un impatto visivo minimo. Per animazioni semplici, anche 8 FPS possono funzionare bene."
+            "text": "Le tre impostazioni più importanti quando si converte un video in GIF sono la durata, il frame rate e le dimensioni di output. Impostarle correttamente fa la differenza tra una GIF nitida e condivisibile e un file ingombrante che impiega un'eternità a caricarsi."
           },
           {
             "heading": "Ottimizzare la dimensione del file GIF",
-            "text": "La risoluzione è il singolo fattore più importante nella dimensione del file GIF. Una GIF a 1080p sarà enorme. Per la maggior parte degli usi, una larghezza di 480-640 pixel è sufficiente. Le piattaforme social e le app di messaggistica visualizzano comunque le GIF a dimensioni ridotte, quindi l'alta risoluzione è sprecata.\n\nAnche la riduzione dei colori aiuta. Le GIF supportano un massimo di 256 colori per frame. Se il video sorgente ha molti colori, il processo di conversione deve scegliere quali 256 mantenere. Scene più semplici con meno colori producono naturalmente file più piccoli.\n\nInfine, considera se hai veramente bisogno di una GIF. Alternative moderne come le animazioni WebP e i brevi loop MP4 producono file molto più piccoli con qualità migliore. Tuttavia, le GIF rimangono l'opzione più universalmente compatibile per immagini animate su tutte le piattaforme."
+            "text": "La risoluzione è il singolo fattore più importante nella dimensione del file GIF. Una GIF a 1080p sarà enorme. Per la maggior parte degli usi, una larghezza di 480-640 pixel è sufficiente."
           },
           {
             "heading": "Creare GIF con ToolPic",
-            "text": "Apri lo strumento Video in GIF su ToolPic e carica il tuo file video. Lo strumento supporta MP4, WebM e altri formati video comuni. Usa il cursore della timeline per selezionare il punto di inizio esatto e la durata della clip che vuoi convertire.\n\nImposta la larghezza di output desiderata. Per social media e messaggistica, 480px è un buon punto di partenza. Regola il frame rate a 10-12 FPS a meno che non ti serva un movimento più fluido. Lo strumento mostra un'anteprima della dimensione stimata del file così puoi perfezionare le impostazioni prima della conversione.\n\nQuando sei soddisfatto dell'anteprima, clicca converti e scarica la tua GIF ottimizzata. L'intero processo avviene nel tuo browser, quindi i tuoi file video rimangono completamente privati sul tuo dispositivo."
+            "text": "Apri lo strumento Video in GIF su ToolPic e carica il tuo file video. Lo strumento supporta MP4, WebM e altri formati video comuni. Usa il cursore della timeline per selezionare il punto di inizio esatto e la durata della clip che vuoi convertire."
           }
         ],
         "relatedToolIds": "video-to-gif"
@@ -630,19 +966,19 @@
         "content": [
           {
             "heading": "Cosa rende buono uno strumento di compressione",
-            "text": "Un buon strumento di compressione immagini dovrebbe bilanciare tre cose: rapporto di compressione, qualità visiva e facilità d'uso. I migliori strumenti ti permettono di ridurre significativamente le dimensioni dei file mantenendo le immagini visivamente indistinguibili dagli originali a dimensioni di visualizzazione normali.\n\nAnche la privacy è una considerazione sempre più importante. Gli strumenti che elaborano le immagini sui loro server richiedono di caricare i tuoi file, il che significa che le tue immagini passano attraverso un sistema di terze parti. Per immagini sensibili o proprietarie, gli strumenti basati su browser che elaborano tutto localmente offrono un chiaro vantaggio.\n\nAltri fattori da considerare includono il supporto per l'elaborazione batch, le opzioni di formato, i limiti massimi di dimensione dei file e se lo strumento aggiunge watermark o richiede la registrazione."
+            "text": "Un buon strumento di compressione immagini dovrebbe bilanciare tre cose: rapporto di compressione, qualità visiva e facilità d'uso. I migliori strumenti ti permettono di ridurre significativamente le dimensioni dei file mantenendo le immagini visivamente indistinguibili dagli originali a dimensioni di visualizzazione normali."
           },
           {
             "heading": "Strumenti basati su browser",
-            "text": "ToolPic elabora le immagini interamente nel tuo browser utilizzando la tecnologia WebAssembly. I tuoi file non lasciano mai il tuo dispositivo, rendendolo l'opzione più rispettosa della privacy disponibile. Supporta formati JPEG, PNG, WebP e AVIF con impostazioni di qualità regolabili ed elaborazione batch. Nessun limite al numero di file o watermark.\n\nSquoosh, sviluppato dal team di Google Chrome, è un eccellente strumento per la compressione di singole immagini. Offre una vista di confronto affiancata unica e supporta formati moderni inclusi AVIF e JPEG XL. Tuttavia, elabora solo un'immagine alla volta, rendendolo meno pratico per il lavoro batch.\n\nTinyPNG è uno strumento web popolare che gestisce bene la compressione sia PNG che JPEG. Utilizza una compressione lossy intelligente che produce risultati eccellenti. La versione gratuita ti limita a 20 immagini per batch e 5MB per immagine, e le immagini vengono caricate sui loro server per l'elaborazione."
+            "text": "ToolPic elabora le immagini interamente nel tuo browser utilizzando la tecnologia WebAssembly. I tuoi file non lasciano mai il tuo dispositivo, rendendolo l'opzione più rispettosa della privacy disponibile. Supporta formati JPEG, PNG, WebP e AVIF con impostazioni di qualità regolabili ed elaborazione batch."
           },
           {
             "heading": "Strumenti desktop e CLI",
-            "text": "ImageOptim è un'applicazione desktop gratuita per macOS che comprime le immagini utilizzando molteplici algoritmi di ottimizzazione. È particolarmente buono nell'ottimizzare file PNG e può elaborare intere cartelle contemporaneamente. Essendo un'applicazione nativa, gestisce batch grandi più velocemente degli strumenti basati su browser.\n\nSharpJS è una libreria di elaborazione immagini ad alte prestazioni per Node.js che gli sviluppatori possono integrare nelle loro pipeline di build. Offre un'eccellente qualità di compressione e supporta tutti i principali formati. Sebbene richieda conoscenze tecniche per la configurazione, è ideale per automatizzare l'ottimizzazione delle immagini nei flussi di lavoro di sviluppo web.\n\nPer la maggior parte degli utenti, gli strumenti basati su browser offrono la migliore combinazione di comodità e qualità. Non richiedono installazione, funzionano su qualsiasi sistema operativo e forniscono risultati immediati."
+            "text": "ImageOptim è un'applicazione desktop gratuita per macOS che comprime le immagini utilizzando molteplici algoritmi di ottimizzazione. È particolarmente buono nell'ottimizzare file PNG e può elaborare intere cartelle contemporaneamente. Essendo un'applicazione nativa, gestisce batch grandi più velocemente degli strumenti basati su browser."
           },
           {
             "heading": "Confronto sulla privacy",
-            "text": "Quando scegli uno strumento di compressione, considera dove vengono elaborate le tue immagini. Strumenti basati su server come TinyPNG caricano le tue immagini su server remoti per l'elaborazione. Sebbene i servizi affidabili eliminino i file dopo l'elaborazione, le tue immagini esistono brevemente su infrastrutture di terze parti.\n\nGli strumenti basati su browser come ToolPic e Squoosh non caricano mai i tuoi file. Tutta l'elaborazione avviene localmente utilizzando la CPU e la memoria del tuo dispositivo. Questo li rende la scelta chiara per immagini riservate, lavori per clienti, foto personali e qualsiasi contenuto che non vuoi far uscire dal tuo dispositivo.\n\nPer fotografi professionisti, aziende e-commerce che gestiscono immagini di prodotti e chiunque lavori con contenuti proprietari, l'elaborazione basata su browser elimina completamente il rischio di esposizione dei dati. La qualità della compressione basata su browser è migliorata enormemente e ora corrisponde o supera la maggior parte delle alternative basate su server."
+            "text": "Quando scegli uno strumento di compressione, considera dove vengono elaborate le tue immagini. Strumenti basati su server come TinyPNG caricano le tue immagini su server remoti per l'elaborazione. Sebbene i servizi affidabili eliminino i file dopo l'elaborazione, le tue immagini esistono brevemente su infrastrutture di terze parti."
           }
         ],
         "relatedToolIds": "image-compressor"
@@ -655,19 +991,19 @@
         "content": [
           {
             "heading": "Come funziona la rimozione dello sfondo con IA",
-            "text": "Gli strumenti moderni di rimozione dello sfondo utilizzano modelli di deep learning addestrati su milioni di immagini per distinguere i soggetti in primo piano dagli sfondi. Queste reti neurali analizzano l'immagine per identificare bordi, indizi di profondità e informazioni contestuali per creare maschere di ritaglio precise.\n\nLa tecnologia è migliorata enormemente negli ultimi anni. Gli strumenti precedenti richiedevano la selezione manuale con bacchetta magica o strumenti lazo e faticavano con bordi complessi come capelli o pelliccia. I modelli IA odierni gestiscono automaticamente questi casi impegnativi, producendo ritagli puliti in pochi secondi che prima avrebbero richiesto minuti di accurata modifica manuale.\n\nAlcuni strumenti elaborano le immagini su server remoti, inviando le tue foto all'infrastruttura cloud per l'elaborazione IA. Altri, come ToolPic, eseguono il modello IA direttamente nel tuo browser usando WebAssembly, mantenendo le tue immagini completamente private pur offrendo risultati di qualità professionale."
+            "text": "Gli strumenti moderni di rimozione dello sfondo utilizzano modelli di deep learning addestrati su milioni di immagini per distinguere i soggetti in primo piano dagli sfondi. Queste reti neurali analizzano l'immagine per identificare bordi, indizi di profondità e informazioni contestuali per creare maschere di ritaglio precise."
           },
           {
             "heading": "Casi d'uso comuni",
-            "text": "La fotografia di prodotti per l'e-commerce è una delle applicazioni più popolari. Sfondi bianchi puliti o trasparenti sono lo standard per marketplace come Amazon, eBay e negozi Shopify. Invece di allestire uno studio fotografico professionale, i venditori possono fotografare i prodotti su qualsiasi sfondo e rimuoverlo digitalmente.\n\nLa creazione di contenuti per i social media richiede frequentemente sfondi trasparenti per sovrapporre immagini, creare collage o posizionare soggetti in nuove ambientazioni. Foto profilo, grafiche di marketing e contenuti brandizzati beneficiano tutti di ritagli puliti.\n\nI designer professionisti usano la rimozione dello sfondo come punto di partenza per lavori di compositing, posizionando soggetti in nuovi ambienti, creando materiali promozionali o preparando immagini per la stampa dove sono richiesti specifici colori o pattern di sfondo."
+            "text": "La fotografia di prodotti per l'e-commerce è una delle applicazioni più popolari. Sfondi bianchi puliti o trasparenti sono lo standard per marketplace come Amazon, eBay e negozi Shopify. Invece di allestire uno studio fotografico professionale, i venditori possono fotografare i prodotti su qualsiasi sfondo e rimuoverlo digitalmente."
           },
           {
             "heading": "Consigli per i migliori risultati",
-            "text": "La qualità dei risultati dipende in parte dall'immagine di input. Le foto con un buon contrasto tra soggetto e sfondo producono i ritagli più puliti. Immagini ben illuminate con messa a fuoco nitida danno al modello IA bordi chiari su cui lavorare.\n\nEvita immagini dove il colore del soggetto corrisponde strettamente al colore dello sfondo. Una persona che indossa una maglietta verde su fogliame verde sarà più difficile da elaborare per qualsiasi strumento rispetto alla stessa persona davanti a una parete semplice.\n\nPer la fotografia di prodotti, usa uno sfondo contrastante durante lo scatto. Anche se prevedi di rimuovere lo sfondo in seguito, partire con un buon contrasto aiuta l'IA a produrre bordi più puliti. Uno sfondo semplice bianco o grigio funziona bene per la maggior parte dei prodotti."
+            "text": "La qualità dei risultati dipende in parte dall'immagine di input. Le foto con un buon contrasto tra soggetto e sfondo producono i ritagli più puliti. Immagini ben illuminate con messa a fuoco nitida danno al modello IA bordi chiari su cui lavorare."
           },
           {
             "heading": "Usare ToolPic per la rimozione dello sfondo",
-            "text": "Apri lo strumento Rimuovi Sfondo su ToolPic e carica la tua immagine. Il modello IA si carica nel tuo browser al primo utilizzo, il che richiede qualche secondo. Successivamente, l'elaborazione è quasi istantanea per le immagini successive.\n\nLo strumento rileva automaticamente il soggetto principale e rimuove lo sfondo, producendo un PNG trasparente. Esamina il risultato e scarica l'immagine. Per l'elaborazione batch, puoi caricare più immagini ed elaborarle sequenzialmente.\n\nPoiché l'IA funziona interamente nel tuo browser, le tue immagini non vengono mai inviate ad alcun server. Questo lo rende sicuro da usare con foto di prodotti riservate, immagini personali o lavori per clienti senza alcuna preoccupazione sulla privacy."
+            "text": "Apri lo strumento Rimuovi Sfondo su ToolPic e carica la tua immagine. Il modello IA si carica nel tuo browser al primo utilizzo, il che richiede qualche secondo. Successivamente, l'elaborazione è quasi istantanea per le immagini successive."
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -680,19 +1016,19 @@
         "content": [
           {
             "heading": "Perché i file video sono così grandi",
-            "text": "I file video sono grandi perché contengono una sequenza di immagini (frame) riprodotti a 24-60 fotogrammi al secondo, insieme ai dati audio. Un singolo minuto di video 1080p non compresso a 30 FPS richiederebbe circa 10GB di spazio, ecco perché la compressione video è essenziale.\n\nI codec video moderni come H.264 e H.265 utilizzano tecniche di compressione sofisticate per ridurre questo drasticamente. Memorizzano le differenze tra frame consecutivi anziché ogni frame indipendentemente, raggiungendo rapporti di compressione di 100:1 o migliori mantenendo una buona qualità visiva.\n\nNonostante questa compressione, i file video quotidiani rimangono grandi per gli standard email. Un clip di un minuto a 1080p registrato su smartphone tipicamente va da 100MB a 200MB, superando di gran lunga il limite di allegati di 25MB che la maggior parte dei provider email impone."
+            "text": "I file video sono grandi perché contengono una sequenza di immagini (frame) riprodotti a 24-60 fotogrammi al secondo, insieme ai dati audio. Un singolo minuto di video 1080p non compresso a 30 FPS richiederebbe circa 10GB di spazio, ecco perché la compressione video è essenziale."
           },
           {
             "heading": "Comprendere risoluzione e bitrate",
-            "text": "Risoluzione e bitrate sono le due leve principali per controllare la dimensione del file video. La risoluzione si riferisce al numero di pixel in ogni frame. Le risoluzioni comuni includono 4K (3840x2160), 1080p (1920x1080), 720p (1280x720) e 480p (854x480). Dimezzare la risoluzione riduce il conteggio dei pixel del 75%, il che riduce drasticamente la dimensione del file.\n\nIl bitrate è la quantità di dati utilizzata per secondo di video. Un bitrate più alto significa più dati e migliore qualità, mentre un bitrate più basso significa file più piccoli con artefatti di compressione potenzialmente visibili. Per la condivisione web, un bitrate di 2-4 Mbps per contenuti 1080p offre un buon equilibrio.\n\nPer gli allegati email, ridurre la risoluzione a 720p o 480p è solitamente l'approccio più efficace. La maggior parte dei destinatari guarderà sul telefono o in una piccola anteprima email, dove la risoluzione inferiore è perfettamente accettabile."
+            "text": "Risoluzione e bitrate sono le due leve principali per controllare la dimensione del file video. La risoluzione si riferisce al numero di pixel in ogni frame. Le risoluzioni comuni includono 4K (3840x2160), 1080p (1920x1080), 720p (1280x720) e 480p (854x480)."
           },
           {
             "heading": "Scegliere il formato giusto",
-            "text": "MP4 con codifica H.264 è il formato video più universalmente compatibile. Si riproduce su praticamente ogni dispositivo e piattaforma senza richiedere software aggiuntivo. Per la condivisione via email o messaggistica, MP4 dovrebbe essere la tua scelta predefinita.\n\nWebM offre un'efficienza di compressione migliore rispetto a H.264, il che significa file più piccoli alla stessa qualità. Tuttavia, la compatibilità è meno universale, in particolare con dispositivi più vecchi e alcuni client email. Usa WebM quando sai che il destinatario può riprodurlo.\n\nPer la dimensione di file più piccola possibile, H.265 (HEVC) fornisce circa il 50% di compressione in più rispetto a H.264 alla stessa qualità. Il supporto è diffuso sui dispositivi moderni ma non universale. Se la massima compatibilità conta più della dimensione minima del file, resta con H.264 MP4."
+            "text": "264 è il formato video più universalmente compatibile. Si riproduce su praticamente ogni dispositivo e piattaforma senza richiedere software aggiuntivo. Per la condivisione via email o messaggistica, MP4 dovrebbe essere la tua scelta predefinita."
           },
           {
             "heading": "Compressione passo dopo passo con ToolPic",
-            "text": "Apri lo strumento Compressore Video su ToolPic e trascina il tuo file video nell'area di caricamento. Lo strumento accetta MP4, WebM, AVI, MOV e altri formati comuni.\n\nScegli la risoluzione target. Per la condivisione email, 720p è solitamente il punto ideale tra qualità e dimensione del file. Per le app di messaggistica, 480p è spesso sufficiente. Regola il cursore della qualità per controllare il bitrate. L'impostazione media funziona bene per la maggior parte dei contenuti.\n\nClicca comprimi e attendi il completamento dell'elaborazione. Lo strumento mostra il progresso e la dimensione del file risultante. Scarica il video compresso e verifica che si riproduca correttamente prima di allegarlo alla tua email. Tutta l'elaborazione avviene localmente nel tuo browser, quindi il tuo contenuto video rimane privato."
+            "text": "Apri lo strumento Compressore Video su ToolPic e trascina il tuo file video nell'area di caricamento. Lo strumento accetta MP4, WebM, AVI, MOV e altri formati comuni."
           }
         ],
         "relatedToolIds": "video-compress"
@@ -705,19 +1041,19 @@
         "content": [
           {
             "heading": "Perché le dimensioni delle immagini contano",
-            "text": "Le piattaforme social media visualizzano le immagini a proporzioni e risoluzioni specifiche. Quando carichi un'immagine che non corrisponde alle dimensioni previste, la piattaforma la ritaglierà automaticamente. Questo spesso taglia parti importanti della tua immagine, come testo, dettagli del prodotto o parti del viso di una persona.\n\nUsare le dimensioni corrette assicura che le tue immagini vengano visualizzate esattamente come previsto su tutti i dispositivi. Impedisce anche alla piattaforma di applicare compressione aggiuntiva per ridimensionare la tua immagine, il che può ridurre la qualità visiva.\n\nOgni piattaforma ha requisiti diversi per posizionamenti diversi. Un'immagine del profilo ha dimensioni diverse da una foto di copertina, che differisce da un'immagine del post. Tenere traccia di tutte queste dimensioni è essenziale per chiunque gestisca contenuti sui social media professionalmente."
+            "text": "Le piattaforme social media visualizzano le immagini a proporzioni e risoluzioni specifiche. Quando carichi un'immagine che non corrisponde alle dimensioni previste, la piattaforma la ritaglierà automaticamente. Questo spesso taglia parti importanti della tua immagine, come testo, dettagli del prodotto o parti del viso di una persona."
           },
           {
             "heading": "Dimensioni Instagram",
-            "text": "I post quadrati di Instagram dovrebbero essere 1080 x 1080 pixel. Questo è il formato classico di Instagram e funziona bene per la maggior parte dei contenuti. I post in formato ritratto funzionano meglio a 1080 x 1350 pixel (rapporto 4:5), che occupa più spazio sullo schermo nel feed e tende a generare un engagement più alto.\n\nLe Storie e i Reel di Instagram usano un formato verticale 9:16 a 1080 x 1920 pixel. Questo riempie l'intero schermo del telefono. Le immagini del profilo vengono visualizzate in un cerchio a 320 x 320 pixel, anche se caricare a una risoluzione più alta come 500 x 500 assicura la nitidezza su display ad alta densità.\n\nI post carosello possono usare qualsiasi dimensione standard dei post, ma tutte le immagini in un carosello devono condividere lo stesso rapporto d'aspetto. La prima immagine determina il rapporto d'aspetto per l'intero carosello."
+            "text": "I post quadrati di Instagram dovrebbero essere 1080 x 1080 pixel. Questo è il formato classico di Instagram e funziona bene per la maggior parte dei contenuti. I post in formato ritratto funzionano meglio a 1080 x 1350 pixel (rapporto 4:5), che occupa più spazio sullo schermo nel feed e tende a generare un engagement più alto."
           },
           {
             "heading": "Facebook, Twitter/X e YouTube",
-            "text": "Le foto di copertina di Facebook dovrebbero essere 820 x 312 pixel su desktop, ma vengono visualizzate diversamente su mobile (640 x 360), quindi mantieni il contenuto importante al centro. Le foto del profilo sono 170 x 170 pixel su desktop. Le immagini condivise nel feed funzionano meglio a 1200 x 630 pixel.\n\nLe immagini dell'header di Twitter/X dovrebbero essere 1500 x 500 pixel. Le foto del profilo sono 400 x 400 pixel. Le immagini nei tweet vengono visualizzate meglio a 1200 x 675 pixel (rapporto 16:9). I tweet con una singola immagine possono anche usare 1200 x 1200 per il formato quadrato.\n\nLe miniature di YouTube dovrebbero essere esattamente 1280 x 720 pixel con una larghezza minima di 640 pixel. I banner dei canali sono 2560 x 1440 pixel, ma l'area sicura per testo e loghi è il centro 1546 x 423 pixel, poiché il resto potrebbe essere ritagliato su diversi dispositivi."
+            "text": "Le foto di copertina di Facebook dovrebbero essere 820 x 312 pixel su desktop, ma vengono visualizzate diversamente su mobile (640 x 360), quindi mantieni il contenuto importante al centro. Le foto del profilo sono 170 x 170 pixel su desktop. Le immagini condivise nel feed funzionano meglio a 1200 x 630 pixel."
           },
           {
             "heading": "Come ridimensionare le immagini con ToolPic",
-            "text": "Apri lo strumento Ritaglia e Ridimensiona su ToolPic e carica la tua immagine. Lo strumento include preset integrati per tutte le principali piattaforme social media, quindi non devi ricordare dimensioni specifiche.\n\nSeleziona la piattaforma e il tipo di posizionamento dal menu dei preset. Lo strumento imposta automaticamente il rapporto d'aspetto e le dimensioni corrette. Posiziona l'area di ritaglio sulla parte dell'immagine che vuoi mantenere, poi applica il ritaglio.\n\nScarica l'immagine perfettamente dimensionata pronta per il caricamento. Puoi elaborare più immagini in sequenza senza ricaricare la pagina. Lo strumento di ritaglio preserva la qualità originale dell'immagine ed elabora tutto localmente nel tuo browser."
+            "text": "Apri lo strumento Ritaglia e Ridimensiona su ToolPic e carica la tua immagine. Lo strumento include preset integrati per tutte le principali piattaforme social media, quindi non devi ricordare dimensioni specifiche."
           }
         ],
         "relatedToolIds": "image-crop"
@@ -730,19 +1066,19 @@
         "content": [
           {
             "heading": "Cos'è WebP",
-            "text": "WebP è un formato immagine sviluppato da Google e rilasciato nel 2010 come sostituto moderno di JPEG, PNG e GIF. Utilizza algoritmi di compressione avanzati derivati dai codec video VP8 e VP9 per ottenere dimensioni di file significativamente più piccole rispetto ai formati più vecchi.\n\nIl formato supporta sia modalità di compressione lossy che lossless. In modalità lossy, WebP produce file tipicamente dal 25% al 35% più piccoli di JPEG alla stessa qualità visiva. In modalità lossless, i file WebP sono circa il 26% più piccoli dei file PNG. Supporta anche la trasparenza (canale alfa) e l'animazione, rendendolo un sostituto versatile di JPEG, PNG e GIF.\n\nWebP è stato specificamente progettato per il web, dove dimensioni di file più piccole si traducono direttamente in caricamenti di pagina più veloci, costi di banda inferiori e migliore esperienza utente, specialmente su connessioni mobile."
+            "text": "WebP è un formato immagine sviluppato da Google e rilasciato nel 2010 come sostituto moderno di JPEG, PNG e GIF. Utilizza algoritmi di compressione avanzati derivati dai codec video VP8 e VP9 per ottenere dimensioni di file significativamente più piccole rispetto ai formati più vecchi."
           },
           {
             "heading": "Vantaggi rispetto a JPEG e PNG",
-            "text": "Il vantaggio principale di WebP è l'efficienza di compressione. Per le immagini fotografiche, un file WebP all'80% di qualità è visivamente equivalente a un JPEG all'85-90% di qualità ma il 30% più piccolo in dimensione. Per un sito web con centinaia di immagini, questo si somma a significativi risparmi di banda e tempi di caricamento più veloci.\n\nA differenza di JPEG, WebP supporta la trasparenza senza la penalità di dimensione del file del PNG. Un'immagine di prodotto con sfondo trasparente salvata come WebP è tipicamente da 3 a 5 volte più piccola del file PNG equivalente. Questo rende WebP ideale per siti e-commerce dove le immagini di prodotto trasparenti sono comuni.\n\nWebP supporta anche l'animazione come alternativa a GIF. I file WebP animati sono significativamente più piccoli dei GIF equivalenti pur supportando colori a 24 bit completi invece del limite di 256 colori delle GIF. Per i siti web che usano elementi animati, passare da GIF a WebP può ridurre le dimensioni dei file del 50% o più."
+            "text": "Il vantaggio principale di WebP è l'efficienza di compressione. Per le immagini fotografiche, un file WebP all'80% di qualità è visivamente equivalente a un JPEG all'85-90% di qualità ma il 30% più piccolo in dimensione. Per un sito web con centinaia di immagini, questo si somma a significativi risparmi di banda e tempi di caricamento più veloci."
           },
           {
             "heading": "Supporto browser nel 2026",
-            "text": "Al 2026, WebP è supportato da tutti i principali browser inclusi Chrome, Firefox, Safari, Edge e Opera. Safari ha aggiunto il supporto WebP nella versione 14 (2020), che era l'ultimo grande browser mancante. Questo significa che WebP ora funziona in modo affidabile per oltre il 97% degli utenti web nel mondo.\n\nIl supporto dei browser mobile è altrettanto completo. Sia iOS Safari che Android Chrome supportano pienamente WebP, rendendolo sicuro da usare per le esperienze web mobile senza fallback.\n\nLe preoccupazioni di compatibilità rimanenti riguardano principalmente software desktop più vecchio. Alcuni editor di immagini, client email e sistemi di gestione dei contenuti potrebbero non gestire i file WebP nativamente. Per questi casi, mantenere una versione JPEG o PNG come fallback è una soluzione pratica. La maggior parte dei flussi di lavoro di sviluppo web moderni genera automaticamente sia WebP che formati di fallback."
+            "text": "Al 2026, WebP è supportato da tutti i principali browser inclusi Chrome, Firefox, Safari, Edge e Opera. Safari ha aggiunto il supporto WebP nella versione 14 (2020), che era l'ultimo grande browser mancante. Questo significa che WebP ora funziona in modo affidabile per oltre il 97% degli utenti web nel mondo."
           },
           {
             "heading": "Come convertire le immagini in WebP",
-            "text": "Convertire le tue immagini esistenti in WebP è semplice con il Convertitore di Immagini di ToolPic. Carica qualsiasi immagine JPEG, PNG, BMP o AVIF e seleziona WebP come formato di output. Lo strumento preserva la trasparenza dalle sorgenti PNG e ti permette di regolare il livello di qualità per la conversione lossy.\n\nPer i migliori risultati, inizia con l'immagine sorgente della qualità più alta disponibile. Convertire un JPEG fortemente compresso in WebP non migliorerà magicamente la qualità. Se hai la versione originale non compressa o compressa senza perdita, converti da quella per risultati ottimali.\n\nQuando migri un sito web a WebP, usa l'elemento HTML picture o CSS image-set per servire WebP ai browser supportati fornendo fallback JPEG o PNG per i client più vecchi. La maggior parte dei provider CDN e degli strumenti di build possono automatizzare questo processo. Lo sforzo iniziale di conversione in WebP si ripaga rapidamente attraverso costi di banda ridotti e prestazioni di pagina migliorate."
+            "text": "Convertire le tue immagini esistenti in WebP è semplice con il Convertitore di Immagini di ToolPic. Carica qualsiasi immagine JPEG, PNG, BMP o AVIF e seleziona WebP come formato di output. Lo strumento preserva la trasparenza dalle sorgenti PNG e ti permette di regolare il livello di qualità per la conversione lossy."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -755,19 +1091,19 @@
         "content": [
           {
             "heading": "Cos'e il formato HEIC e perche l'iPhone lo utilizza",
-            "text": "HEIC (High Efficiency Image Container) e stato adottato da Apple come formato fotografico predefinito a partire da iOS 11. Si basa sullo standard HEIF (High Efficiency Image Format) e utilizza la tecnologia di compressione del codec video H.265.\n\nIl principale vantaggio di HEIC e che offre qualita uguale o superiore a JPEG con file circa il 50% piu piccoli. Questo significa che puoi archiviare piu foto sul tuo iPhone senza esaurire lo spazio. Apple ha scelto questo formato perche supporta la profondita colore a 10 bit, mentre JPEG e limitato a 8 bit.\n\nTuttavia, il problema principale di HEIC e la compatibilita. Computer Windows, vecchi dispositivi Android, molti browser web e la maggior parte dei siti web non possono ancora aprire direttamente i file HEIC. Per questo la conversione in JPG diventa spesso necessaria."
+            "text": "HEIC (High Efficiency Image Container) e stato adottato da Apple come formato fotografico predefinito a partire da iOS 11. 265."
           },
           {
             "heading": "Quando serve convertire HEIC in JPG",
-            "text": "La situazione piu comune si verifica quando vuoi inviare le tue foto iPhone a qualcuno che usa Windows o Android. Potrebbe avere difficolta ad aprire il file HEIC. Allo stesso modo, molti client email e piattaforme social non visualizzano correttamente i file HEIC.\n\nI siti di e-commerce richiedono generalmente il caricamento delle foto prodotto in formato JPG o PNG. Se scatti i prodotti con il tuo iPhone, dovrai convertire prima del caricamento.\n\nAnche i servizi di stampa spesso non accettano HEIC. Prima di stampare foto, creare tele o ordinare album fotografici, e necessario convertire in JPG. Per gli sviluppatori web, JPG e piu pratico perche tutti i browser lo supportano senza plugin aggiuntivi."
+            "text": "La situazione piu comune si verifica quando vuoi inviare le tue foto iPhone a qualcuno che usa Windows o Android. Potrebbe avere difficolta ad aprire il file HEIC. Allo stesso modo, molti client email e piattaforme social non visualizzano correttamente i file HEIC."
           },
           {
             "heading": "Consigli per mantenere la qualita nella conversione",
-            "text": "Nella conversione da HEIC a JPG e importante tenere presente alcuni aspetti. Innanzitutto, JPEG e un formato lossy, quindi una leggera perdita di qualita e inevitabile. Tuttavia, con impostazioni di qualita dell'85-95%, la differenza e praticamente invisibile a occhio nudo.\n\nConsiderate che HEIC supporta la profondita colore a 10 bit mentre JPG solo 8 bit. Questo significa che nei gradienti di colore estremamente sottili potrebbe esserci una leggera differenza, ma nell'uso comune non e percepibile.\n\nPer la conversione batch, una singola impostazione di qualita funziona bene per tutte le foto. Il 90% di qualita e un eccellente punto di partenza che bilancia perfettamente dimensione del file e qualita visiva."
+            "text": "Nella conversione da HEIC a JPG e importante tenere presente alcuni aspetti. Innanzitutto, JPEG e un formato lossy, quindi una leggera perdita di qualita e inevitabile. Tuttavia, con impostazioni di qualita dell'85-95%, la differenza e praticamente invisibile a occhio nudo."
           },
           {
             "heading": "Come convertire HEIC in JPG con ToolPic",
-            "text": "Apri il Convertitore di Immagini di ToolPic e trascina i tuoi file HEIC oppure sfoglia per caricarli. Puoi caricare piu file contemporaneamente per una facile conversione batch.\n\nSeleziona JPG come formato di output e regola il cursore della qualita. L'impostazione predefinita dell'80% va bene per la maggior parte degli usi. Se hai bisogno della massima qualita, sposta il cursore al 90-95%.\n\nUna volta completata la conversione, scarica i file singolarmente o tutti insieme con il pulsante 'Scarica tutto'. L'intero processo avviene nel tuo browser — nessun file viene caricato su alcun server, mantenendo le tue foto personali completamente al sicuro."
+            "text": "Apri il Convertitore di Immagini di ToolPic e trascina i tuoi file HEIC oppure sfoglia per caricarli. Puoi caricare piu file contemporaneamente per una facile conversione batch."
           }
         ],
         "relatedToolIds": "image-converter"
@@ -780,19 +1116,19 @@
         "content": [
           {
             "heading": "L'ascesa degli strumenti AI per le immagini",
-            "text": "Negli ultimi anni l'intelligenza artificiale ha rivoluzionato il campo dell'elaborazione delle immagini. Compiti che prima richiedevano ore e competenze specialistiche vengono ora completati automaticamente in pochi secondi. La rimozione dello sfondo e l'esempio piu evidente.\n\nCon i metodi tradizionali, rimuovere lo sfondo di un'immagine complessa richiedeva l'uso dello strumento penna, bacchetta magica o maschere di livello in software come Photoshop. Per immagini con capelli, oggetti trasparenti o bordi complessi, il processo poteva richiedere 15-30 minuti o piu.\n\nGli strumenti basati su AI utilizzano modelli di deep learning addestrati su milioni di immagini. Questi modelli riconoscono automaticamente la differenza tra soggetto e sfondo e nella maggior parte dei casi producono risultati di livello professionale."
+            "text": "Negli ultimi anni l'intelligenza artificiale ha rivoluzionato il campo dell'elaborazione delle immagini. Compiti che prima richiedevano ore e competenze specialistiche vengono ora completati automaticamente in pochi secondi. La rimozione dello sfondo e l'esempio piu evidente."
           },
           {
             "heading": "Dove gli strumenti AI eccellono",
-            "text": "Il principale vantaggio degli strumenti AI e la velocita e l'accessibilita. Chiunque puo ottenere risultati professionali con pochi clic senza alcuna formazione tecnica. Questo e particolarmente prezioso per piccole imprese, social media manager e venditori e-commerce.\n\nL'elaborazione batch e un altro punto di forza degli strumenti AI. Elaborare decine o centinaia di immagini allo stesso modo — come rimuovere lo sfondo da tutte le foto prodotto — richiede pochi minuti. Con i metodi tradizionali, lo stesso lavoro richiederebbe giorni.\n\nGli strumenti AI migliorano costantemente. Con ogni aggiornamento del modello, il rilevamento dei bordi diventa piu preciso, capelli e oggetti trasparenti vengono gestiti meglio e la qualita complessiva dell'output continua a migliorare."
+            "text": "Il principale vantaggio degli strumenti AI e la velocita e l'accessibilita. Chiunque puo ottenere risultati professionali con pochi clic senza alcuna formazione tecnica. Questo e particolarmente prezioso per piccole imprese, social media manager e venditori e-commerce."
           },
           {
             "heading": "Dove l'editing tradizionale resta essenziale",
-            "text": "I limiti degli strumenti AI emergono quando sono necessari un controllo estremamente preciso e personalizzato. Nella fotografia professionale, nelle campagne pubblicitarie e nella stampa, l'editing pixel-perfect e indispensabile. L'AI puo occasionalmente commettere errori nei dettagli piu sottili.\n\nPer attivita come il compositing creativo, il color grading, il ritocco e gli effetti artistici, il giudizio umano e la visione artistica restano insostituibili. L'AI puo identificare il soggetto, ma non conosce la tua visione creativa.\n\nLa manipolazione fotografica complessa, come aggiungere nuovi oggetti a una scena, modificare l'illuminazione o creare ombre realistiche, richiede ancora competenze specialistiche e software tradizionale."
+            "text": "I limiti degli strumenti AI emergono quando sono necessari un controllo estremamente preciso e personalizzato. Nella fotografia professionale, nelle campagne pubblicitarie e nella stampa, l'editing pixel-perfect e indispensabile. L'AI puo occasionalmente commettere errori nei dettagli piu sottili."
           },
           {
             "heading": "Usare la rimozione sfondo AI di ToolPic",
-            "text": "Lo strumento Rimuovi Sfondo di ToolPic combina la potenza dell'AI con la privacy dell'elaborazione nel browser. Carica la tua immagine e il modello AI identifica automaticamente il soggetto e rimuove lo sfondo. L'intero processo avviene nel tuo browser utilizzando WebAssembly.\n\nAl primo utilizzo il modello AI impiega qualche secondo per caricarsi, ma le immagini successive vengono elaborate quasi istantaneamente. Il risultato e un file PNG trasparente che puoi usare su qualsiasi sfondo.\n\nGli strumenti AI non sono un sostituto completo dell'editing tradizionale, ma un potente complemento. Usa l'AI per le attivita rapide e passa al software tradizionale quando serve un controllo pixel-perfect. Combinare entrambi gli approcci crea il flusso di lavoro piu efficace."
+            "text": "Lo strumento Rimuovi Sfondo di ToolPic combina la potenza dell'AI con la privacy dell'elaborazione nel browser. Carica la tua immagine e il modello AI identifica automaticamente il soggetto e rimuove lo sfondo. L'intero processo avviene nel tuo browser utilizzando WebAssembly."
           }
         ],
         "relatedToolIds": "image-bg-remove"
@@ -805,19 +1141,19 @@
         "content": [
           {
             "heading": "Perche l'ottimizzazione delle immagini e cruciale per la velocita del sito",
-            "text": "Una pagina web media pesa circa 2MB, di cui le immagini contribuiscono per oltre il 50%. Se le tue immagini non sono ottimizzate, il tuo sito si carichera lentamente, il bounce rate aumentera e il posizionamento SEO ne risentira.\n\nI Core Web Vitals di Google ora misurano direttamente la velocita della pagina come fattore di ranking. La metrica Largest Contentful Paint (LCP) e particolarmente influenzata dal caricamento delle immagini. Un LCP inferiore a 2,5 secondi e considerato buono, e le immagini non ottimizzate possono facilmente far fallire questo obiettivo.\n\nPer gli utenti mobile questo e ancora piu critico. Su connessioni di rete lente, i file immagine grandi impiegano molto tempo a caricarsi, portando gli utenti ad abbandonare la pagina. L'ottimizzazione delle immagini non e solo un miglioramento tecnico, ma anche un percorso verso una migliore esperienza utente e piu conversioni."
+            "text": "Una pagina web media pesa circa 2MB, di cui le immagini contribuiscono per oltre il 50%. Se le tue immagini non sono ottimizzate, il tuo sito si carichera lentamente, il bounce rate aumentera e il posizionamento SEO ne risentira."
           },
           {
             "heading": "Scegliere il formato immagine giusto",
-            "text": "La scelta del formato e il primo e piu impattante passo dell'ottimizzazione. Per fotografie e immagini complesse, WebP e la scelta migliore — crea file dal 25% al 35% piu piccoli di JPEG a qualita equivalente. Se WebP non e supportato, usa JPEG.\n\nPer loghi, icone e grafiche con bordi netti, PNG o SVG sono migliori. SVG e basato su vettori quindi resta nitido a qualsiasi dimensione con file molto piccoli. PNG supporta la trasparenza ma e inutilmente grande per le fotografie.\n\nAVIF e un formato recente che offre compressione ancora migliore di WebP. Il supporto browser sta crescendo rapidamente e nel 2026 la maggior parte dei browser moderni lo supporta. Per un'adozione progressiva, usa l'elemento picture con AVIF come primario e WebP o JPEG come fallback."
+            "text": "La scelta del formato e il primo e piu impattante passo dell'ottimizzazione. Per fotografie e immagini complesse, WebP e la scelta migliore — crea file dal 25% al 35% piu piccoli di JPEG a qualita equivalente. Se WebP non e supportato, usa JPEG."
           },
           {
             "heading": "Migliori pratiche per compressione e ridimensionamento",
-            "text": "Non tenere le immagini piu grandi delle dimensioni di visualizzazione. Se un'immagine viene visualizzata a 800px di larghezza, non ha senso servire un'immagine larga 4000px. Ridimensionare prima e poi comprimere e l'approccio piu efficace.\n\nPer JPEG e WebP, impostazioni di qualita del 75-85% sono ideali per la maggior parte delle immagini web. In questo intervallo si ottiene una riduzione del 60-80% della dimensione del file senza differenze visive percepibili.\n\nPer le immagini responsive, usa l'attributo srcset cosi il browser carica l'immagine appropriata in base alle dimensioni dello schermo del dispositivo. Servire immagini grandi per desktop e piccole per mobile riduce significativamente il tempo di caricamento per gli utenti mobile."
+            "text": "Non tenere le immagini piu grandi delle dimensioni di visualizzazione. Se un'immagine viene visualizzata a 800px di larghezza, non ha senso servire un'immagine larga 4000px. Ridimensionare prima e poi comprimere e l'approccio piu efficace."
           },
           {
             "heading": "Ottimizza le immagini del sito con ToolPic",
-            "text": "Il Compressore Immagini di ToolPic e il modo piu semplice per ottimizzare le immagini del tuo sito web. Carica le immagini, imposta il cursore della qualita e scarica istantaneamente le versioni compresse. L'elaborazione batch ottimizza piu immagini contemporaneamente.\n\nPer la conversione di formato, usa il Convertitore di Immagini. Converti i tuoi file JPEG o PNG in WebP per risparmiare istantaneamente un ulteriore 25-35% di dimensione. Lo strumento preserva la trasparenza.\n\nTutta l'elaborazione avviene localmente nel tuo browser. Nessun file viene caricato su alcun server, mantenendo i contenuti del tuo sito e i dati dei clienti completamente riservati. ToolPic e uno strumento gratuito senza limiti di file, watermark o necessita di registrazione."
+            "text": "Il Compressore Immagini di ToolPic e il modo piu semplice per ottimizzare le immagini del tuo sito web. Carica le immagini, imposta il cursore della qualita e scarica istantaneamente le versioni compresse. L'elaborazione batch ottimizza piu immagini contemporaneamente."
           }
         ],
         "relatedToolIds": "image-compressor,image-converter"
@@ -831,19 +1167,19 @@
         "content": [
           {
             "heading": "Perché i caroselli Instagram sono importanti",
-            "text": "I caroselli Instagram generano circa tre volte più engagement rispetto ai post con singola immagine. Con un carosello puoi inserire fino a 10 slide in un unico post, permettendoti di raccontare una storia completa e coinvolgente.\n\nQuesto formato è ideale per tutorial, vetrine di prodotti, confronti prima e dopo e contenuti educativi. L'algoritmo di Instagram favorisce i caroselli perché gli utenti trascorrono più tempo su di essi, aumentando la visibilità organica del tuo profilo.\n\nUtilizzare le dimensioni e le proporzioni corrette è fondamentale affinché le tue immagini appaiano nitide e professionali nel feed di Instagram."
+            "text": "I caroselli Instagram generano circa tre volte più engagement rispetto ai post con singola immagine. Con un carosello puoi inserire fino a 10 slide in un unico post, permettendoti di raccontare una storia completa e coinvolgente."
           },
           {
             "heading": "Dimensioni e proporzioni corrette per i caroselli",
-            "text": "Le dimensioni consigliate per un carosello Instagram sono 1080x1080 pixel (rapporto 1:1) oppure 1080x1350 pixel (rapporto 4:5). Il formato 4:5 occupa più spazio nel feed, attirando maggiormente l'attenzione degli utenti.\n\nTutte le slide devono avere le stesse dimensioni. Se la prima slide è 1080x1350, tutte le altre devono essere identiche. Con lo strumento Image Crop di ToolPic puoi ritagliare facilmente tutte le immagini alle stesse dimensioni in pochi secondi.\n\nPer il formato file, usa JPEG per le fotografie e PNG per grafiche con testo. Mantieni la dimensione del file sotto i 30MB per slide."
+            "text": "Le dimensioni consigliate per un carosello Instagram sono 1080x1080 pixel (rapporto 1:1) oppure 1080x1350 pixel (rapporto 4:5). Il formato 4:5 occupa più spazio nel feed, attirando maggiormente l'attenzione degli utenti."
           },
           {
             "heading": "Consigli di design per aumentare il coinvolgimento",
-            "text": "La prima slide è la più importante: deve catturare l'attenzione immediatamente. Usa un titolo accattivante o un'immagine intrigante che invogli le persone a scorrere.\n\nMantieni una palette di colori e uno stile tipografico coerenti. Utilizza i colori del tuo brand per costruire riconoscibilità. Non sovraccaricare ogni slide con troppo testo: mantieni il design pulito e semplice.\n\nCon lo strumento Image Merge di ToolPic puoi combinare più immagini in un collage o creare effetti prima e dopo. Nell'ultima slide inserisci sempre una call-to-action come salva, condividi o commenta."
+            "text": "La prima slide è la più importante: deve catturare l'attenzione immediatamente. Usa un titolo accattivante o un'immagine intrigante che invogli le persone a scorrere."
           },
           {
             "heading": "Come creare un carosello con ToolPic",
-            "text": "Creare un carosello con gli strumenti gratuiti di ToolPic è semplicissimo. Per prima cosa prepara le tue immagini e apri lo strumento Image Crop. Seleziona il rapporto 1:1 o 4:5 e ritaglia tutte le immagini in modo uniforme.\n\nSe devi combinare più immagini in una singola slide, usa lo strumento Image Merge. Qui puoi scegliere layout affiancati o a griglia per creare composizioni accattivanti.\n\nTutto avviene nel browser: nessun file viene caricato su server esterni e non serve registrarsi. Scarica le immagini pronte e crea il tuo carosello nell'app Instagram. Basta toccare il pulsante più, selezionare multiplo e scegliere le immagini ritagliate."
+            "text": "Creare un carosello con gli strumenti gratuiti di ToolPic è semplicissimo. Per prima cosa prepara le tue immagini e apri lo strumento Image Crop. Seleziona il rapporto 1:1 o 4:5 e ritaglia tutte le immagini in modo uniforme."
           }
         ]
       },
@@ -856,19 +1192,19 @@
         "content": [
           {
             "heading": "Perché lo sfondo trasparente è essenziale",
-            "text": "Le immagini con sfondo trasparente sono indispensabili nel web design, nell'e-commerce, nella progettazione di loghi e nella grafica per i social media. Quando lo sfondo è trasparente, l'immagine si integra perfettamente su qualsiasi colore o pattern.\n\nIl formato PNG supporta la trasparenza (canale alpha), mentre il JPEG no. Per questo motivo il PNG è il formato ideale per loghi, icone ed elementi grafici che devono essere sovrapposti ad altri contenuti.\n\nIn passato servivano software costosi come Photoshop per creare sfondi trasparenti. Oggi, strumenti online gratuiti come ToolPic permettono di farlo in pochi secondi direttamente dal browser."
+            "text": "Le immagini con sfondo trasparente sono indispensabili nel web design, nell'e-commerce, nella progettazione di loghi e nella grafica per i social media. Quando lo sfondo è trasparente, l'immagine si integra perfettamente su qualsiasi colore o pattern."
           },
           {
             "heading": "Come rimuovere lo sfondo da un'immagine",
-            "text": "Lo strumento Image Background Remove di ToolPic utilizza la tecnologia AI per riconoscere e rimuovere automaticamente lo sfondo. Basta caricare l'immagine e in pochi secondi lo sfondo viene eliminato.\n\nLo strumento riconosce persone, prodotti, animali e oggetti diversi. Gestisce con precisione anche sfondi complessi come i bordi dei capelli o oggetti semitrasparenti.\n\nTutta l'elaborazione avviene nel tuo browser. Le tue immagini non vengono mai caricate su alcun server, garantendo la massima privacy e sicurezza dei tuoi file."
+            "text": "Lo strumento Image Background Remove di ToolPic utilizza la tecnologia AI per riconoscere e rimuovere automaticamente lo sfondo. Basta caricare l'immagine e in pochi secondi lo sfondo viene eliminato."
           },
           {
             "heading": "Salvare nel formato corretto",
-            "text": "Dopo aver rimosso lo sfondo, il passaggio più importante è salvare nel formato giusto. Per mantenere la trasparenza, usa il formato PNG. Se la tua immagine originale è in JPEG, convertila in PNG con lo strumento Image Converter di ToolPic.\n\nAnche il formato WebP supporta la trasparenza e offre file di dimensioni inferiori rispetto al PNG. Per l'uso sul web, WebP può essere un'alternativa migliore.\n\nRicorda che salvando in JPEG la trasparenza andrà persa e verrà sostituita da uno sfondo bianco. Scegli sempre PNG o WebP per mantenere lo sfondo trasparente."
+            "text": "Dopo aver rimosso lo sfondo, il passaggio più importante è salvare nel formato giusto. Per mantenere la trasparenza, usa il formato PNG. Se la tua immagine originale è in JPEG, convertila in PNG con lo strumento Image Converter di ToolPic."
           },
           {
             "heading": "Consigli per l'uso di PNG trasparenti",
-            "text": "Nell'e-commerce, lo sfondo trasparente è lo standard per le foto dei prodotti. Piattaforme come Amazon e eBay richiedono sfondi bianchi o trasparenti. Rimuovi prima lo sfondo, poi aggiungi uno sfondo bianco se necessario.\n\nQuando crei un logo, salvalo sempre in formato PNG con sfondo trasparente. In questo modo potrà essere utilizzato facilmente su siti web, biglietti da visita e materiale di marketing.\n\nI PNG trasparenti sono utilissimi anche per creare sticker e overlay per i social media. Con gli strumenti gratuiti di ToolPic puoi creare immagini trasparenti di qualità professionale senza alcun costo."
+            "text": "Nell'e-commerce, lo sfondo trasparente è lo standard per le foto dei prodotti. Piattaforme come Amazon e eBay richiedono sfondi bianchi o trasparenti. Rimuovi prima lo sfondo, poi aggiungi uno sfondo bianco se necessario."
           }
         ]
       },
@@ -881,19 +1217,19 @@
         "content": [
           {
             "heading": "Comprendere i limiti video di WhatsApp",
-            "text": "WhatsApp impone un limite massimo di 16MB per l'invio di video. Questo limite è spesso un problema perché gli smartphone moderni registrano video in 4K o 1080p che superano i 16MB in pochi secondi di registrazione.\n\nPer gli stati WhatsApp, il video non può durare più di 30 secondi e deve comunque rientrare nel limite di 16MB. La compressione diventa quindi una necessità quotidiana per chi condivide video regolarmente.\n\nWhatsApp comprime automaticamente i video inviati, ma la qualità risultante è spesso molto bassa. È meglio comprimere personalmente il video per mantenere il controllo sulla qualità finale."
+            "text": "WhatsApp impone un limite massimo di 16MB per l'invio di video. Questo limite è spesso un problema perché gli smartphone moderni registrano video in 4K o 1080p che superano i 16MB in pochi secondi di registrazione."
           },
           {
             "heading": "Impostazioni ottimali per la compressione video",
-            "text": "Per comprimere video per WhatsApp, imposta la risoluzione a 720p (1280x720). Su uno schermo mobile la qualità è perfettamente nitida e la dimensione del file si riduce notevolmente rispetto al Full HD.\n\nMantieni il bitrate tra 1-2 Mbps. Un frame rate di 30fps è più che sufficiente. Il codec H.264 offre la migliore compatibilità poiché è supportato praticamente da tutti i dispositivi.\n\nUsa il formato contenitore MP4 con codec audio AAC e bitrate audio di 128kbps. Con queste impostazioni, un video di un minuto rientra facilmente sotto i 10MB."
+            "text": "Per comprimere video per WhatsApp, imposta la risoluzione a 720p (1280x720). Su uno schermo mobile la qualità è perfettamente nitida e la dimensione del file si riduce notevolmente rispetto al Full HD."
           },
           {
             "heading": "Comprimere video con ToolPic",
-            "text": "Apri lo strumento Video Compress di ToolPic e trascina il tuo video nell'area di caricamento. Lo strumento mostrerà automaticamente le informazioni del file, incluse dimensione originale, durata e risoluzione.\n\nUsa il cursore della qualità per scegliere il livello di compressione. La qualità media offre il bilanciamento ideale per WhatsApp. Avvia l'elaborazione e il video verrà compresso direttamente nel tuo browser.\n\nNessun file viene caricato su server esterni. Grazie alla tecnologia WebAssembly (FFmpeg WASM), tutta l'elaborazione avviene sul tuo dispositivo. Al termine, verifica la nuova dimensione del file e scaricalo."
+            "text": "Apri lo strumento Video Compress di ToolPic e trascina il tuo video nell'area di caricamento. Lo strumento mostrerà automaticamente le informazioni del file, incluse dimensione originale, durata e risoluzione."
           },
           {
             "heading": "Consigli per mantenere la qualità",
-            "text": "Se il video è ancora troppo grande, suddividilo in parti più brevi. Inviare più video brevi su WhatsApp è meglio che inviarne uno lungo di bassa qualità.\n\nSe il video ha poco movimento, come una presentazione o una registrazione dello schermo, puoi ridurre il frame rate a 24fps. La dimensione del file si ridurrà ulteriormente senza differenze visibili.\n\nEsiste anche l'opzione di inviare come documento. Inviando un video come documento su WhatsApp, il limite sale a 100MB e WhatsApp non applica compressione aggiuntiva. Tuttavia, il destinatario dovrà scaricare il file manualmente prima di poterlo visualizzare."
+            "text": "Se il video è ancora troppo grande, suddividilo in parti più brevi. Inviare più video brevi su WhatsApp è meglio che inviarne uno lungo di bassa qualità."
           }
         ]
       },
@@ -906,19 +1242,19 @@
         "content": [
           {
             "heading": "Perché la filigrana è importante",
-            "text": "Nel mondo digitale, il furto di immagini e l'uso non autorizzato rappresentano un problema serio. La filigrana appone un segno di proprietà sulle tue foto e grafiche, scoraggiando l'uso non autorizzato e proteggendo il tuo lavoro creativo.\n\nPer fotografi, grafici, venditori e-commerce e content creator, la filigrana è uno strumento fondamentale. Non solo offre protezione, ma contribuisce anche a costruire il riconoscimento del brand.\n\nUna filigrana applicata correttamente protegge l'immagine senza comprometterne la bellezza o l'impatto visivo."
+            "text": "Nel mondo digitale, il furto di immagini e l'uso non autorizzato rappresentano un problema serio. La filigrana appone un segno di proprietà sulle tue foto e grafiche, scoraggiando l'uso non autorizzato e proteggendo il tuo lavoro creativo."
           },
           {
             "heading": "Tipi di filigrana",
-            "text": "La filigrana testuale è la più semplice. Puoi aggiungere il tuo nome, il nome del brand o un avviso di copyright. Mantieni l'opacità tra il 30% e il 50% in modo che l'immagine principale resti ben visibile.\n\nLa filigrana con logo appare più professionale. Prepara il logo del tuo brand in formato PNG con sfondo trasparente. Puoi posizionarlo in un angolo o al centro dell'immagine.\n\nLa filigrana a pattern viene ripetuta su tutta l'immagine. Offre la protezione più forte perché è praticamente impossibile rimuoverla ritagliando. I siti di stock fotografico utilizzano spesso questo metodo."
+            "text": "La filigrana testuale è la più semplice. Puoi aggiungere il tuo nome, il nome del brand o un avviso di copyright. Mantieni l'opacità tra il 30% e il 50% in modo che l'immagine principale resti ben visibile."
           },
           {
             "heading": "Aggiungere filigrane con ToolPic",
-            "text": "Lo strumento Image Watermark di ToolPic ti permette di aggiungere sia filigrane testuali che con logo. Carica la tua immagine, scegli il tipo di filigrana e personalizzala secondo le tue esigenze.\n\nPer le filigrane testuali puoi modificare font, dimensione, colore e opacità. Per le filigrane con logo, carica il tuo logo e regola dimensione e posizione come preferisci.\n\nCon l'elaborazione batch puoi applicare la filigrana a più immagini contemporaneamente. Tutto avviene nel browser, quindi le tue immagini rimangono completamente al sicuro."
+            "text": "Lo strumento Image Watermark di ToolPic ti permette di aggiungere sia filigrane testuali che con logo. Carica la tua immagine, scegli il tipo di filigrana e personalizzala secondo le tue esigenze."
           },
           {
             "heading": "Best practice per le filigrane",
-            "text": "La posizione della filigrana è cruciale. Se posizionata in un angolo, può essere facilmente rimossa ritagliando l'immagine. È meglio posizionarla al centro o leggermente decentrata per una protezione efficace.\n\nTrova il giusto equilibrio di opacità. Se troppo trasparente, la filigrana non sarà visibile; se troppo opaca, rovinerà l'immagine. Un'opacità tra il 30% e il 50% è l'ideale nella maggior parte dei casi.\n\nApplica sempre la filigrana prima di condividere sui social media. Anche sul tuo sito portfolio, una piccola filigrana è una buona pratica. Ricorda che la filigrana non sostituisce la protezione legale: registra comunque il copyright delle tue opere."
+            "text": "La posizione della filigrana è cruciale. Se posizionata in un angolo, può essere facilmente rimossa ritagliando l'immagine. È meglio posizionarla al centro o leggermente decentrata per una protezione efficace."
           }
         ]
       },
@@ -931,19 +1267,19 @@
         "content": [
           {
             "heading": "Requisiti tecnici dei video TikTok",
-            "text": "Il formato ideale per i video TikTok è il verticale 9:16 con risoluzione 1080x1920 pixel. Questo rapporto copre l'intero schermo del telefono e ottiene il maggior numero di visualizzazioni.\n\nSia MP4 che MOV sono formati accettati, ma MP4 funziona meglio. Il formato MP4 con codec H.264 è il più compatibile con la piattaforma.\n\nLa durata massima è di 10 minuti, ma i video da 15 a 60 secondi hanno le performance migliori. La dimensione del file non deve superare i 287MB. Mantieni il frame rate a 30fps o 60fps."
+            "text": "Il formato ideale per i video TikTok è il verticale 9:16 con risoluzione 1080x1920 pixel. Questo rapporto copre l'intero schermo del telefono e ottiene il maggior numero di visualizzazioni."
           },
           {
             "heading": "Come convertire il formato video",
-            "text": "Se il tuo video è in formato AVI, MKV, WMV o altro, convertilo in MP4 con lo strumento Video Convert di ToolPic. Il processo è semplicissimo.\n\nCarica il video, seleziona MP4 come formato di output e avvia la conversione. Grazie alla tecnologia WebAssembly, tutta l'elaborazione avviene nel tuo browser senza caricare file su server esterni.\n\nNelle impostazioni di qualità, mantieni la risoluzione a 1080x1920. Se il video originale è orizzontale, dovrai ritagliarlo o riformattarlo per adattarlo al formato verticale."
+            "text": "Se il tuo video è in formato AVI, MKV, WMV o altro, convertilo in MP4 con lo strumento Video Convert di ToolPic. Il processo è semplicissimo."
           },
           {
             "heading": "Convertire video orizzontali in verticali",
-            "text": "La maggior parte delle fotocamere e delle registrazioni schermo produce video in formato orizzontale 16:9. Per TikTok è necessario convertirli nel formato verticale 9:16.\n\nUsa lo strumento Image Crop di ToolPic per ritagliare le miniature e le immagini di copertina dei video nel rapporto 9:16. Questo crea la prima impressione del tuo video su TikTok.\n\nQuando converti un video in verticale, mantieni il soggetto principale al centro del fotogramma. Nelle zone superiore e inferiore TikTok mostra username e didascalie, quindi posiziona il contenuto importante nella parte centrale."
+            "text": "La maggior parte delle fotocamere e delle registrazioni schermo produce video in formato orizzontale 16:9. Per TikTok è necessario convertirli nel formato verticale 9:16."
           },
           {
             "heading": "Consigli per ottimizzare i video TikTok",
-            "text": "Carica video di alta qualità. TikTok applica la propria compressione, quindi partire con una qualità elevata garantisce un risultato finale migliore. La risoluzione minima è 720p, ma 1080p è l'ideale.\n\nI primi 3 secondi sono decisivi. Gli spettatori decidono in quel momento se guardare il video o scorrere oltre. Quindi rendi l'inizio immediatamente coinvolgente e accattivante.\n\nPer la SEO su TikTok, usa hashtag pertinenti, didascalie efficaci e suoni di tendenza. La qualità tecnica e il contenuto lavorano insieme per aumentare le possibilità di diventare virali. Usa gli strumenti gratuiti di ToolPic per rendere i tuoi video tecnicamente perfetti."
+            "text": "Carica video di alta qualità. TikTok applica la propria compressione, quindi partire con una qualità elevata garantisce un risultato finale migliore. La risoluzione minima è 720p, ma 1080p è l'ideale."
           }
         ]
       },
@@ -956,19 +1292,19 @@
         "content": [
           {
             "heading": "Perché il ridimensionamento delle immagini è importante",
-            "text": "Nel mondo digitale, avere immagini della dimensione giusta è fondamentale. Immagini troppo grandi rallentano il caricamento delle pagine web, facendo abbandonare i visitatori prima ancora di vedere il contenuto. Le piattaforme social hanno dimensioni specifiche e caricare immagini di dimensioni errate porta a ritagli automatici o stretching che rovinano la qualità.\n\nPer gli e-commerce, avere immagini prodotto di dimensioni uniformi è essenziale per un aspetto professionale. Nell'email marketing, file immagine troppo pesanti possono influire sulla consegna delle email e sull'esperienza utente.\n\nRidimensionare non significa solo rimpicciolire. A volte è necessario ingrandire immagini piccole per la stampa o per display di grandi dimensioni. In entrambi i casi, utilizzare la tecnica corretta è fondamentale per mantenere nitidezza e chiarezza dell'immagine."
+            "text": "Nel mondo digitale, avere immagini della dimensione giusta è fondamentale. Immagini troppo grandi rallentano il caricamento delle pagine web, facendo abbandonare i visitatori prima ancora di vedere il contenuto. Le piattaforme social hanno dimensioni specifiche e caricare immagini di dimensioni errate porta a ritagli automatici o stretching che rovinano la qualità."
           },
           {
             "heading": "Perché si perde qualità e come evitarlo",
-            "text": "Quando ingrandisci un'immagine oltre le sue dimensioni originali, il software deve creare nuovi pixel. Questo processo, chiamato interpolazione, può rendere l'immagine sfocata o pixelata. La soluzione migliore è partire sempre dalla risoluzione più alta disponibile e ridimensionare verso il basso.\n\nAnche rimpicciolendo si può perdere qualità se non si usa l'algoritmo corretto. L'interpolazione bilineare e bicubica sono i metodi più comuni che producono risultati fluidi. L'algoritmo Lanczos offre una nitidezza ancora migliore ed è preferito dai professionisti.\n\nMantenere le proporzioni dell'immagine è fondamentale. Se modifichi larghezza e altezza con proporzioni diverse, l'immagine risulterà stirata o compressa. Usa sempre l'opzione di blocco proporzioni o ritaglia con un rapporto predefinito per evitare distorsioni."
+            "text": "Quando ingrandisci un'immagine oltre le sue dimensioni originali, il software deve creare nuovi pixel. Questo processo, chiamato interpolazione, può rendere l'immagine sfocata o pixelata. La soluzione migliore è partire sempre dalla risoluzione più alta disponibile e ridimensionare verso il basso."
           },
           {
             "heading": "Dimensioni corrette per ogni utilizzo",
-            "text": "Per le immagini hero dei siti web, 1920x1080 pixel è l'ideale. Le immagini dei blog post dovrebbero essere 1200x800 pixel. I thumbnail a 400x300 pixel sono sufficienti. Ridimensionare a queste misure migliora significativamente la velocità di caricamento.\n\nPer i social media, ogni piattaforma ha i propri requisiti. I post Instagram richiedono 1080x1080 pixel quadrati, le copertine Facebook 820x312, gli header Twitter 1500x500 e i banner LinkedIn 1584x396 pixel.\n\nPer la stampa, la risoluzione deve essere di 300 DPI. Una stampa 10x15 cm richiede un'immagine di circa 1200x1800 pixel. Poster e banner di grandi dimensioni richiedono risoluzioni ancora più alte. Considera sempre l'utilizzo finale prima di ridimensionare."
+            "text": "Per le immagini hero dei siti web, 1920x1080 pixel è l'ideale. Le immagini dei blog post dovrebbero essere 1200x800 pixel. I thumbnail a 400x300 pixel sono sufficienti."
           },
           {
             "heading": "Ridimensionare le immagini con ToolPic",
-            "text": "Lo strumento Image Crop di ToolPic è la soluzione più semplice per il ridimensionamento. Carica la tua immagine e seleziona il rapporto d'aspetto desiderato: 1:1 quadrato, 16:9 widescreen, 4:5 ritratto o dimensioni personalizzate. Lo strumento blocca le proporzioni per evitare qualsiasi distorsione.\n\nRegola l'area di ritaglio trascinandola e verifica il risultato finale nell'anteprima. Quando sei soddisfatto, applica le modifiche e scarica in alta qualità. Lo strumento preserva la massima nitidezza possibile durante il processo.\n\nTutta l'elaborazione avviene nel tuo browser, quindi le tue immagini non vengono mai caricate su alcun server. Questo garantisce la massima privacy. Con l'elaborazione batch puoi ridimensionare più immagini contemporaneamente alla stessa dimensione, risparmiando ore di lavoro manuale."
+            "text": "Lo strumento Image Crop di ToolPic è la soluzione più semplice per il ridimensionamento. Carica la tua immagine e seleziona il rapporto d'aspetto desiderato: 1:1 quadrato, 16:9 widescreen, 4:5 ritratto o dimensioni personalizzate. Lo strumento blocca le proporzioni per evitare qualsiasi distorsione."
           }
         ]
       },
@@ -981,19 +1317,19 @@
         "content": [
           {
             "heading": "Perché i contenuti visivi su LinkedIn sono importanti",
-            "text": "LinkedIn è la più grande rete professionale al mondo con oltre 900 milioni di utenti. I post con immagini ricevono più del doppio dell'engagement rispetto ai post di solo testo. Immagini delle dimensioni corrette appaiono professionali e aumentano la tua credibilità nel network.\n\nCaricare immagini di dimensioni errate porta LinkedIn a ritagliarle o ridimensionarle automaticamente, rischiando di tagliare parti importanti o rendere l'immagine sfocata. Questo appare poco professionale e può danneggiare la tua immagine di brand.\n\nLinkedIn richiede dimensioni diverse per ogni sezione: foto profilo, banner di sfondo, immagini dei post, copertine degli articoli e pagina aziendale. Conoscere le misure corrette per ciascuna è essenziale per una presenza professionale."
+            "text": "LinkedIn è la più grande rete professionale al mondo con oltre 900 milioni di utenti. I post con immagini ricevono più del doppio dell'engagement rispetto ai post di solo testo. Immagini delle dimensioni corrette appaiono professionali e aumentano la tua credibilità nel network."
           },
           {
             "heading": "Dimensioni profilo e banner LinkedIn",
-            "text": "La foto profilo deve essere di 400x400 pixel. LinkedIn la ritaglia in forma circolare, quindi posiziona il viso al centro e lascia un po' di margine ai bordi. Carica in formato JPG o PNG con dimensione file inferiore a 8MB.\n\nL'immagine di sfondo del banner deve essere di 1584x396 pixel con rapporto d'aspetto 4:1. Su mobile, alcune parti del banner vengono tagliate, quindi posiziona testo e grafiche importanti nella zona centrale.\n\nIl logo della pagina aziendale deve essere di 300x300 pixel e la copertina aziendale di 1128x191 pixel. Rispettare queste dimensioni garantisce che il tuo profilo e la pagina aziendale appaiano nitidi e professionali su tutti i dispositivi."
+            "text": "La foto profilo deve essere di 400x400 pixel. LinkedIn la ritaglia in forma circolare, quindi posiziona il viso al centro e lascia un po' di margine ai bordi. Carica in formato JPG o PNG con dimensione file inferiore a 8MB."
           },
           {
             "heading": "Dimensioni immagini per post e articoli LinkedIn",
-            "text": "Per le immagini dei post nel feed, 1200x627 pixel (rapporto 1.91:1) è il formato ottimale. Le immagini quadrate 1200x1200 funzionano bene e occupano più spazio su mobile. Le immagini verticali 1200x1500 (rapporto 4:5) coprono la massima area dello schermo.\n\nLe copertine degli articoli LinkedIn dovrebbero essere di 1200x644 pixel. Le immagini all'interno degli articoli dovrebbero essere larghe 1200 pixel per apparire nitide su tutti gli schermi.\n\nPer i documenti carosello (slide PDF), usa 1080x1080 o 1080x1350 pixel. Questi formati ottengono un engagement molto elevato su LinkedIn. Il testo di ogni slide deve essere grande e facilmente leggibile, poiché la maggior parte delle persone visualizza da mobile."
+            "text": "91:1) è il formato ottimale. Le immagini quadrate 1200x1200 funzionano bene e occupano più spazio su mobile. Le immagini verticali 1200x1500 (rapporto 4:5) coprono la massima area dello schermo."
           },
           {
             "heading": "Preparare immagini per LinkedIn con ToolPic",
-            "text": "Con lo strumento Image Crop di ToolPic, ritaglia le tue immagini alle dimensioni LinkedIn corrette. Imposta il rapporto d'aspetto personalizzato: 1:1 per la foto profilo, 4:1 per il banner o 1.91:1 per le immagini dei post. Lo strumento mostra le dimensioni esatte in pixel per ottenere la misura perfetta.\n\nCon Image Compressor riduci le dimensioni del file senza perdita di qualità visibile. Un'impostazione di qualità dell'80-85% è ideale per le immagini LinkedIn. File più piccoli si caricano più velocemente e LinkedIn applica meno compressione aggiuntiva.\n\nEntrambi gli strumenti funzionano interamente nel browser. Nessuna registrazione, nessun upload, nessun limite. Prepara tutte le tue immagini LinkedIn in dimensioni professionali in pochi minuti."
+            "text": "Con lo strumento Image Crop di ToolPic, ritaglia le tue immagini alle dimensioni LinkedIn corrette. 91:1 per le immagini dei post. Lo strumento mostra le dimensioni esatte in pixel per ottenere la misura perfetta."
           }
         ]
       },
@@ -1006,19 +1342,19 @@
         "content": [
           {
             "heading": "Perché le filigrane esistono",
-            "text": "Le filigrane sono uno strumento fondamentale per proteggere la proprietà intellettuale di fotografi e creatori di contenuti. I siti di foto stock applicano filigrane sulle immagini di anteprima per impedire l'uso senza pagamento. I fotografi le usano per mostrare prove ai clienti prima del pagamento finale.\n\nRimuovere la filigrana dalla foto di un'altra persona è illegale nella maggior parte dei paesi. Costituisce una violazione del copyright e può avere serie conseguenze legali. Il Digital Millennium Copyright Act (DMCA) e le leggi europee sul diritto d'autore considerano la rimozione delle filigrane un reato punibile.\n\nInvece di rimuovere filigrane altrui, è molto meglio considerare le alternative legali disponibili. Esistono numerosi modi per ottenere immagini di alta qualità senza filigrana e senza problemi legali."
+            "text": "Le filigrane sono uno strumento fondamentale per proteggere la proprietà intellettuale di fotografi e creatori di contenuti. I siti di foto stock applicano filigrane sulle immagini di anteprima per impedire l'uso senza pagamento. I fotografi le usano per mostrare prove ai clienti prima del pagamento finale."
           },
           {
             "heading": "Modi legali per ottenere immagini senza filigrana",
-            "text": "Il modo più diretto è acquistare una licenza. Siti come Shutterstock, Adobe Stock e Getty Images offrono immagini pulite e ad alta risoluzione dopo l'acquisto della licenza. I prezzi partono da pochi euro per immagine e sono ancora più convenienti con gli abbonamenti.\n\nI siti di foto stock gratuite sono un'ottima alternativa. Unsplash, Pexels e Pixabay offrono milioni di immagini di alta qualità senza filigrana e senza costi. La maggior parte è utilizzabile anche per scopi commerciali senza restrizioni.\n\nLe immagini con licenza Creative Commons sono un'altra opzione. Su Flickr e Wikimedia Commons molte immagini sono disponibili sotto licenze CC che permettono l'uso gratuito, a condizione di attribuire il credito all'autore originale."
+            "text": "Il modo più diretto è acquistare una licenza. Siti come Shutterstock, Adobe Stock e Getty Images offrono immagini pulite e ad alta risoluzione dopo l'acquisto della licenza. I prezzi partono da pochi euro per immagine e sono ancora più convenienti con gli abbonamenti."
           },
           {
             "heading": "Creare le proprie immagini professionali",
-            "text": "Le fotocamere degli smartphone sono diventate così avanzate che puoi scattare foto di qualità professionale da solo. Con una buona illuminazione, mano ferma e composizione corretta, il tuo telefono può produrre immagini paragonabili alle foto stock.\n\nI generatori di immagini AI come DALL-E, Midjourney e Stable Diffusion permettono di creare immagini uniche da prompt testuali. Queste immagini sono completamente originali e non presentano problemi di copyright o filigrana.\n\nStrumenti di design come Canva e Figma permettono di creare grafiche e illustrazioni personalizzate. Offrono template ed elementi gratuiti con cui creare grafiche professionali per qualsiasi esigenza comunicativa."
+            "text": "Le fotocamere degli smartphone sono diventate così avanzate che puoi scattare foto di qualità professionale da solo. Con una buona illuminazione, mano ferma e composizione corretta, il tuo telefono può produrre immagini paragonabili alle foto stock."
           },
           {
             "heading": "Rendere professionali le tue immagini con ToolPic",
-            "text": "Se scatti le tue foto, usa lo strumento Image Watermark di ToolPic per apporre la tua filigrana. Aggiungi il tuo nome, brand o logo come watermark per proteggere le tue immagini e mantenere la tua identità visiva.\n\nPrima di applicare la filigrana, usa Image Crop per ritagliare l'immagine nelle dimensioni e proporzioni corrette. Scegli le misure giuste per social media, sito web o presentazioni.\n\nTutti gli strumenti ToolPic funzionano nel browser e sono completamente gratuiti. Le tue immagini non vengono mai caricate su alcun server esterno. Questo ti garantisce privacy e sicurezza totali. Crea le tue immagini originali e proteggile professionalmente."
+            "text": "Se scatti le tue foto, usa lo strumento Image Watermark di ToolPic per apporre la tua filigrana. Aggiungi il tuo nome, brand o logo come watermark per proteggere le tue immagini e mantenere la tua identità visiva."
           }
         ]
       },
@@ -1031,19 +1367,19 @@
         "content": [
           {
             "heading": "Differenze tra GIF e video",
-            "text": "Il GIF (Graphics Interchange Format) è un formato di immagine animata che esiste dal 1987. Si riproduce automaticamente in loop, non ha audio e supporta un massimo di 256 colori. Il punto di forza del GIF è che funziona praticamente su qualsiasi piattaforma senza bisogno di un player dedicato.\n\nI formati video come MP4 e WebM supportano milioni di colori, offrono una compressione molto migliore e possono includere audio. Il formato MP4 con codec H.264 è il formato video più ampiamente supportato al mondo.\n\nLa differenza nelle dimensioni dei file è enorme. Una clip di 5 secondi a 720p in formato GIF può pesare 10-20MB, mentre lo stesso contenuto in MP4 occupa solo 500KB-1MB. Questa differenza di 10-20 volte ha un impatto significativo sulla velocità di caricamento e sul consumo di banda."
+            "text": "Il GIF (Graphics Interchange Format) è un formato di immagine animata che esiste dal 1987. Si riproduce automaticamente in loop, non ha audio e supporta un massimo di 256 colori. Il punto di forza del GIF è che funziona praticamente su qualsiasi piattaforma senza bisogno di un player dedicato."
           },
           {
             "heading": "Quando il GIF è la scelta migliore",
-            "text": "Per reazioni sui social media e meme, il GIF è perfetto. Condividere GIF su WhatsApp, Telegram, Slack e Discord è facilissimo e si riproducono istantaneamente. Piccoli sticker animati e animazioni in stile emoji funzionano al meglio in formato GIF.\n\nNell'email marketing, i GIF sono molto efficaci. La maggior parte dei client email non supporta i video ma supporta i GIF. Aggiungere un GIF nell'email come demo prodotto o elemento di attenzione può aumentare significativamente il click-through rate.\n\nNei tutorial UI/UX e nelle demo software, brevi GIF sono molto efficaci. Inserire GIF nei file README di GitHub, nella documentazione e negli articoli di supporto è il modo più semplice per mostrare processi senza bisogno di un player video separato."
+            "text": "Per reazioni sui social media e meme, il GIF è perfetto. Condividere GIF su WhatsApp, Telegram, Slack e Discord è facilissimo e si riproducono istantaneamente. Piccoli sticker animati e animazioni in stile emoji funzionano al meglio in formato GIF."
           },
           {
             "heading": "Quando il video è la scelta migliore",
-            "text": "Per contenuti lunghi, il video è sempre superiore. Per qualsiasi clip oltre i 10 secondi, il formato video è la scelta corretta perché le dimensioni del GIF diventerebbero impraticabili.\n\nPer le prestazioni del sito web, il video è molto migliore. L'elemento video HTML5 con gli attributi autoplay, loop e muted si comporta come un GIF ma con dimensioni file ridotte del 90%. Questo migliora drasticamente la velocità di caricamento della pagina.\n\nDove l'audio è necessario, il video è l'unica opzione. Per tutorial, recensioni prodotto, interviste e qualsiasi contenuto che include voce, scegli il video. Anche per contenuti visivi di alta qualità come showcase fotografici o clip cinematografiche il video è superiore."
+            "text": "Per contenuti lunghi, il video è sempre superiore. Per qualsiasi clip oltre i 10 secondi, il formato video è la scelta corretta perché le dimensioni del GIF diventerebbero impraticabili."
           },
           {
             "heading": "Convertire tra GIF e video con ToolPic",
-            "text": "Lo strumento Video to GIF di ToolPic converte facilmente i tuoi video in GIF. Carica il video, seleziona il punto di inizio e fine, regola frame rate e dimensioni e converti. Lo strumento crea GIF ottimizzate con il giusto equilibrio tra qualità e dimensione file.\n\nCon Video Compress riduci le dimensioni dei tuoi video senza perdere qualità. Regola risoluzione e bitrate per ottimizzare i video per social media o app di messaggistica istantanea.\n\nEntrambi gli strumenti sono basati su tecnologia WebAssembly (FFmpeg) e funzionano interamente nel tuo browser. Nessun file viene caricato su server, nessun limite di dimensione e nessuna registrazione necessaria. Crea GIF o comprimi video, tutto gratuitamente e in totale privacy."
+            "text": "Lo strumento Video to GIF di ToolPic converte facilmente i tuoi video in GIF. Carica il video, seleziona il punto di inizio e fine, regola frame rate e dimensioni e converti. Lo strumento crea GIF ottimizzate con il giusto equilibrio tra qualità e dimensione file."
           }
         ]
       },
@@ -1056,19 +1392,19 @@
         "content": [
           {
             "heading": "Perché estrarre l'audio dai video",
-            "text": "Ci sono molte situazioni in cui serve solo la parte audio di un video. I podcaster estraggono l'audio dalle video interviste per creare episodi solo audio. I musicisti separano le tracce audio dalle registrazioni video di performance dal vivo. Gli studenti estraggono l'audio dalle lezioni video per ascoltarle in mobilità.\n\nI file audio sono molto più piccoli dei video. Un video di 10 minuti a 1080p può pesare 200MB, mentre il suo audio MP3 è solo 10MB. Questo risparmia spazio di archiviazione e riduce il consumo di dati mobili.\n\nL'estrazione audio è utile anche nel montaggio video. Per editare separatamente musica di sottofondo, voiceover o effetti sonori, è necessario prima estrarli dal video originale."
+            "text": "Ci sono molte situazioni in cui serve solo la parte audio di un video. I podcaster estraggono l'audio dalle video interviste per creare episodi solo audio. I musicisti separano le tracce audio dalle registrazioni video di performance dal vivo."
           },
           {
             "heading": "Comprendere i formati audio",
-            "text": "MP3 è il formato audio più popolare. Utilizza compressione lossy e offre buona qualità a bitrate tra 128 e 320 kbps. Praticamente ogni dispositivo e applicazione supporta MP3, rendendolo la scelta più universale.\n\nAAC (Advanced Audio Coding) offre qualità migliore rispetto all'MP3, specialmente a bitrate bassi. È il formato predefinito sui dispositivi Apple e anche YouTube utilizza audio AAC per i suoi video.\n\nWAV e FLAC sono formati lossless che non riducono la qualità audio in alcun modo. Sono preferiti nella produzione audio professionale ma le dimensioni dei file sono 5-10 volte superiori all'MP3. OGG Vorbis è un'alternativa open source che offre un buon equilibrio tra qualità e dimensioni del file."
+            "text": "MP3 è il formato audio più popolare. Utilizza compressione lossy e offre buona qualità a bitrate tra 128 e 320 kbps. Praticamente ogni dispositivo e applicazione supporta MP3, rendendolo la scelta più universale."
           },
           {
             "heading": "Estrarre audio in modo legale",
-            "text": "Estrarre l'audio dai propri file video è perfettamente legale. Se hai registrato il video o possiedi la licenza, puoi utilizzare l'audio in qualsiasi modo desideri senza alcuna restrizione.\n\nScaricare contenuti da piattaforme come YouTube può violare i loro termini di servizio. Scaricare contenuti protetti da copyright senza autorizzazione può causare problemi legali seri. Chiedi sempre il permesso al proprietario del contenuto o utilizza contenuti con licenza Creative Commons.\n\nIl modo più sicuro è estrarre l'audio dai file video già presenti sul tuo dispositivo. Registrazioni dello schermo, video personali, contenuti con licenza o video creati da te sono tutti fonti perfettamente legittime per l'estrazione audio."
+            "text": "Estrarre l'audio dai propri file video è perfettamente legale. Se hai registrato il video o possiedi la licenza, puoi utilizzare l'audio in qualsiasi modo desideri senza alcuna restrizione."
           },
           {
             "heading": "Estrarre audio con ToolPic",
-            "text": "Lo strumento Video Extract Audio di ToolPic è il modo più semplice per estrarre l'audio dai video. Carica il tuo file video (MP4, WebM, MOV, AVI ecc.) e seleziona il formato di output. Lo strumento separa la traccia audio dal video e la salva nel formato scelto.\n\nL'elaborazione avviene interamente nel tuo browser tramite tecnologia WebAssembly (FFmpeg). Il tuo file video non viene mai caricato su alcun server. Questo è il metodo migliore per privacy e sicurezza dei tuoi contenuti.\n\nLo strumento può esportare in MP3, AAC, WAV e altri formati audio. Regola bitrate e impostazioni di qualità secondo le tue esigenze. Al termine dell'elaborazione, il file audio è disponibile per il download immediato. Nessuna registrazione, nessun limite, completamente gratuito."
+            "text": "Lo strumento Video Extract Audio di ToolPic è il modo più semplice per estrarre l'audio dai video. ) e seleziona il formato di output. Lo strumento separa la traccia audio dal video e la salva nel formato scelto."
           }
         ]
       }

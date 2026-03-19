@@ -101,6 +101,21 @@ export default async function SeoLandingPage({ params }: Props) {
     },
   };
 
+  // FAQPage structured data for rich results
+  const faqItems = [];
+  for (let i = 1; i <= 3; i++) {
+    try {
+      const q = t(`${page.titleKey}Faq${i}Q`);
+      const a = t(`${page.titleKey}Faq${i}A`);
+      if (q && a) faqItems.push({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } });
+    } catch { /* key missing */ }
+  }
+  const faqJsonLd = faqItems.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems,
+  } : null;
+
   // BreadcrumbList JSON-LD
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -117,6 +132,12 @@ export default async function SeoLandingPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
