@@ -30,6 +30,35 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/robots.txt": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/plain",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/robots.txt/layout,_N_T_/robots.txt/route,_N_T_/robots.txt"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/robots.txt",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/_not-found": {
       "initialStatus": 404,
       "experimentalBypassFor": [
@@ -526,35 +555,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/[locale]",
       "dataRoute": "/zh.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/robots.txt": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "text/plain",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/robots.txt/layout,_N_T_/robots.txt/route,_N_T_/robots.txt"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/robots.txt",
-      "dataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -29974,8 +29974,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "e4c32a6f2e9f82e30dd10000bd3ced53",
-    "previewModeSigningKey": "f68728d0660cbcb04225ebfb4624e5dbee504cbf91eed8695403718b805a13c6",
-    "previewModeEncryptionKey": "a6b1eece50b6dd18accb0520589fb3885e52fa7dcc17fe17c7ebebc52961979f"
+    "previewModeId": "0bb6f436f5d0f0f65d9e1319fd8b602b",
+    "previewModeSigningKey": "90b4b7e905b518e8d83169b409cce6e6be571a1387002ef234fb2c740a23d6cb",
+    "previewModeEncryptionKey": "a85f020df192813c84a8248bde895483cd23fc28f2463a65e271bfb58d19e3cd"
   }
 }
