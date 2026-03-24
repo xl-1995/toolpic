@@ -6,6 +6,11 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'best-mp4-to-gif-converters-2026', date: '2026-03-24', readTime: 5, heroImage: '/blog/best-gif-converters-hero.jpg' },
+  { slug: 'how-to-create-perfect-gif-from-video', date: '2026-03-24', readTime: 5, heroImage: '/blog/perfect-gif-hero.jpg' },
+  { slug: 'compress-images-for-email-guide', date: '2026-03-24', readTime: 4, heroImage: '/blog/compress-email-hero.jpg' },
+  { slug: 'free-online-photo-editor-no-signup', date: '2026-03-24', readTime: 5, heroImage: '/blog/no-signup-editor-hero.jpg' },
+  { slug: 'how-to-merge-photos-into-collage', date: '2026-03-24', readTime: 4, heroImage: '/blog/merge-collage-hero.jpg' },
   { slug: 'how-to-resize-image-without-losing-quality', date: '2026-03-19', readTime: 5, heroImage: '/blog/resize-quality-hero.jpg' },
   { slug: 'linkedin-image-sizes-guide', date: '2026-03-19', readTime: 4, heroImage: '/blog/linkedin-sizes-hero.jpg' },
   { slug: 'how-to-remove-watermark-from-photo', date: '2026-03-19', readTime: 5, heroImage: '/blog/watermark-ethics-hero.jpg' },
