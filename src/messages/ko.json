@@ -26,7 +26,10 @@
     "originalSize": "원본: {size}",
     "newSize": "변환 후: {size}",
     "savedPercent": "{percent}% 절약",
-    "relatedToolsTitle": "추천 도구"
+    "relatedToolsTitle": "추천 도구",
+    "relatedArticlesTitle": "관련 글",
+    "latestArticlesTitle": "최신 글",
+    "latestArticlesDesc": "이미지와 동영상을 최대한 활용하는 팁, 가이드, 튜토리얼."
   },
   "nav": {
     "home": "홈",

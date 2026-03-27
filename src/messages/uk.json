@@ -26,7 +26,10 @@
     "originalSize": "Оригінал: {size}",
     "newSize": "Новий: {size}",
     "savedPercent": "Збережено {percent}%",
-    "relatedToolsTitle": "Вам також може сподобатися"
+    "relatedToolsTitle": "Вам також може сподобатися",
+    "relatedArticlesTitle": "Пов'язані статті",
+    "latestArticlesTitle": "Останні статті",
+    "latestArticlesDesc": "Поради, інструкції та навчальні матеріали для максимально ефективного використання зображень та відео."
   },
   "nav": {
     "home": "Головна",

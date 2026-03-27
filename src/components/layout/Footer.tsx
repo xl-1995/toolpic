@@ -1,8 +1,10 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import { getToolSlug } from '@/data/tools';
 
 export default function Footer() {
   const t = useTranslations();
+  const locale = useLocale();
   const footerT = t.raw('footer');
   const toolKeys = ['image-compressor', 'image-converter', 'image-crop', 'image-watermark', 'image-bg-remove', 'video-compress', 'video-convert', 'video-to-gif'] as const;
 
@@ -25,16 +27,19 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">{footerT.tools}</h3>
             <ul className="space-y-3">
-              {toolKeys.map((key) => (
-                <li key={key}>
-                  <Link
-                    href={`/tools/${key}`}
-                    className="text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-300"
-                  >
-                    {t(`tools.${key}.title`)}
-                  </Link>
-                </li>
-              ))}
+              {toolKeys.map((key) => {
+                const slug = getToolSlug(key, locale);
+                return (
+                  <li key={key}>
+                    <Link
+                      href={`/tools/${slug}`}
+                      className="text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-300"
+                    >
+                      {t(`tools.${key}.title`)}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

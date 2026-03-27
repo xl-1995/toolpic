@@ -3,6 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { tools, getToolSlug } from '@/data/tools';
+import { getBlogPostsForTool } from '@/data/blog';
 import ImageCompressor from '@/components/tools/ImageCompressor';
 import ImageConverter from '@/components/tools/ImageConverter';
 import ImageCrop from '@/components/tools/ImageCrop';
@@ -46,6 +47,7 @@ export default function ToolPageClient({ toolId }: { toolId: string }) {
   const toolT = t.raw(`tools.${toolId}`);
   const ToolComponent = toolComponents[toolId] || PlaceholderTool;
   const relatedTools = getRelatedTools(toolId);
+  const relatedBlogPosts = getBlogPostsForTool(toolId);
 
   return (
     <>
@@ -127,6 +129,47 @@ export default function ToolPageClient({ toolId }: { toolId: string }) {
             </div>
           </section>
         )}
+      </div>
+    )}
+
+    {/* Related Blog Posts */}
+    {relatedBlogPosts.length > 0 && (
+      <div className="max-w-[900px] mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <h2 className="text-2xl font-bold mb-8 gradient-text">{t('common.relatedArticlesTitle')}</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {relatedBlogPosts.map((post) => {
+            let postTitle: string;
+            let postExcerpt: string;
+            try {
+              postTitle = t(`blog.posts.${post.slug}.title`);
+              postExcerpt = t(`blog.posts.${post.slug}.excerpt`);
+            } catch {
+              postTitle = post.slug.replace(/-/g, ' ');
+              postExcerpt = '';
+            }
+            return (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="glass-card p-5 block hover:border-[var(--color-border-hover)] transition-all duration-300 group"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[var(--color-purple)]/10 to-[var(--color-blue)]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <i className="fas fa-newspaper text-sm text-[var(--color-text)]"></i>
+                  </div>
+                  <div className="min-w-0">
+                    <h3 className="font-semibold text-[0.95rem] mb-1.5 group-hover:text-[var(--color-purple)] transition-colors line-clamp-2">
+                      {postTitle}
+                    </h3>
+                    <p className="text-sm text-[var(--color-text-muted)] leading-relaxed line-clamp-2">
+                      {postExcerpt}
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
       </div>
     )}
 

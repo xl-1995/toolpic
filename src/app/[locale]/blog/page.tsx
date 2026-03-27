@@ -104,7 +104,7 @@ export default async function BlogListPage({ params }: Props) {
               >
                 {post.heroImage && (
                   <div className="w-full h-48 sm:h-56 overflow-hidden">
-                    <img src={post.heroImage} alt={postTitle} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <img src={post.heroImage} alt={postTitle} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" width={600} height={315} loading="lazy" />
                   </div>
                 )}
                 <div className="p-6 sm:p-8">

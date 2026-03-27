@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
-import { locales, localeNames, type Locale } from '@/i18n/config';
+import { locales, localeNames } from '@/i18n/config';
+import { getToolBySlug } from '@/data/tools';
 
 export default function Header() {
   const t = useTranslations('nav');
@@ -20,6 +21,19 @@ export default function Header() {
 
   function handleLocaleChange(e: React.ChangeEvent<HTMLSelectElement>) {
     const newLocale = e.target.value;
+
+    // For tool pages, translate the slug to the target locale
+    const toolMatch = pathname.match(/^\/tools\/([^/]+)$/);
+    if (toolMatch) {
+      const currentSlug = toolMatch[1];
+      const tool = getToolBySlug(currentSlug, locale);
+      if (tool) {
+        const newSlug = tool.slugs[newLocale] || tool.slugs['en'];
+        window.location.href = `/${newLocale}/tools/${newSlug}`;
+        return;
+      }
+    }
+
     window.location.href = `/${newLocale}${pathname}`;
   }
 

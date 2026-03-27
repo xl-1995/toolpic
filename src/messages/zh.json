@@ -26,7 +26,10 @@
     "originalSize": "原始：{size}",
     "newSize": "压缩后：{size}",
     "savedPercent": "节省 {percent}%",
-    "relatedToolsTitle": "你可能还喜欢"
+    "relatedToolsTitle": "你可能还喜欢",
+    "relatedArticlesTitle": "相关文章",
+    "latestArticlesTitle": "最新文章",
+    "latestArticlesDesc": "帮助你充分利用图片和视频的技巧、指南和教程。"
   },
   "nav": {
     "home": "首页",

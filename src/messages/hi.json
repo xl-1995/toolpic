@@ -26,7 +26,10 @@
     "originalSize": "मूल: {size}",
     "newSize": "नया: {size}",
     "savedPercent": "{percent}% बचत",
-    "relatedToolsTitle": "आपको ये भी पसंद आ सकते हैं"
+    "relatedToolsTitle": "आपको ये भी पसंद आ सकते हैं",
+    "relatedArticlesTitle": "संबंधित लेख",
+    "latestArticlesTitle": "नवीनतम लेख",
+    "latestArticlesDesc": "अपनी छवियों और वीडियो का अधिकतम लाभ उठाने के लिए टिप्स, गाइड और ट्यूटोरियल।"
   },
   "nav": {
     "home": "होम",

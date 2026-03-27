@@ -26,7 +26,10 @@
     "originalSize": "Orijinal: {size}",
     "newSize": "Yeni: {size}",
     "savedPercent": "%{percent} tasarruf",
-    "relatedToolsTitle": "Bunları da beğenebilirsiniz"
+    "relatedToolsTitle": "Bunları da beğenebilirsiniz",
+    "relatedArticlesTitle": "İlgili Makaleler",
+    "latestArticlesTitle": "Son Makaleler",
+    "latestArticlesDesc": "Görsellerinizden ve videolarınızdan en iyi şekilde yararlanmanız için ipuçları, rehberler ve öğreticiler."
   },
   "nav": {
     "home": "Ana Sayfa",

@@ -26,15 +26,21 @@ export async function generateMetadata({ params }: Props) {
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
 
-  const t = await getTranslations({ locale, namespace: 'blog' });
-
   let metaTitle: string;
   let metaDescription: string;
   try {
+    const t = await getTranslations({ locale, namespace: 'blog' });
     metaTitle = t(`posts.${slug}.metaTitle`);
     metaDescription = t(`posts.${slug}.metaDescription`);
   } catch {
-    return {};
+    try {
+      const tEn = await getTranslations({ locale: 'en', namespace: 'blog' });
+      metaTitle = tEn(`posts.${slug}.metaTitle`);
+      metaDescription = tEn(`posts.${slug}.metaDescription`);
+    } catch {
+      metaTitle = 'ToolPic Blog - Image & Video Tips';
+      metaDescription = 'Tips and guides for working with images and videos online.';
+    }
   }
 
   const url = `${baseUrl}/${locale}/blog/${slug}`;
@@ -80,6 +86,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   const t = await getTranslations({ locale, namespace: 'blog' });
   const toolsT = await getTranslations({ locale, namespace: 'tools' });
+  const commonT = await getTranslations({ locale, namespace: 'common' });
 
   let title: string;
   let contentSections: Array<{ heading: string; text: string }>;
@@ -178,7 +185,7 @@ export default async function BlogPostPage({ params }: Props) {
         {/* Hero image */}
         {post.heroImage && (
           <div className="mb-12 rounded-2xl overflow-hidden">
-            <img src={post.heroImage} alt={title} className="w-full h-auto" />
+            <img src={post.heroImage} alt={title} className="w-full h-auto" width={1200} height={630} loading="eager" fetchPriority="high" />
           </div>
         )}
 
@@ -238,6 +245,59 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
           </div>
         )}
+
+        {/* More Articles */}
+        {(() => {
+          const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
+          if (otherPosts.length === 0) return null;
+          return (
+            <div className="mt-12 pt-10 border-t border-[var(--color-border)]">
+              <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
+                <i className="fas fa-newspaper text-[var(--color-purple)]"></i>
+                {commonT('relatedArticlesTitle')}
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {otherPosts.map((otherPost) => {
+                  let otherTitle: string;
+                  try {
+                    otherTitle = t(`posts.${otherPost.slug}.title`);
+                  } catch {
+                    otherTitle = otherPost.slug.replace(/-/g, ' ');
+                  }
+                  const otherDate = new Date(otherPost.date).toLocaleDateString(locale, {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric',
+                  });
+                  return (
+                    <Link
+                      key={otherPost.slug}
+                      href={`/blog/${otherPost.slug}`}
+                      className="glass-card p-4 block hover:border-[var(--color-border-hover)] transition-all duration-300 group"
+                    >
+                      {otherPost.heroImage && (
+                        <div className="rounded-lg overflow-hidden mb-3 aspect-[16/9]">
+                          <img
+                            src={otherPost.heroImage}
+                            alt={otherTitle}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            width={400}
+                            height={225}
+                            loading="lazy"
+                          />
+                        </div>
+                      )}
+                      <h4 className="font-semibold text-sm mb-1.5 line-clamp-2 group-hover:text-[var(--color-purple)] transition-colors">
+                        {otherTitle}
+                      </h4>
+                      <span className="text-xs text-[var(--color-text-muted)]">{otherDate}</span>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })()}
       </article>
     </>
   );

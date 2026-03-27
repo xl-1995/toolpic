@@ -26,7 +26,10 @@
     "originalSize": "Asli: {size}",
     "newSize": "Baru: {size}",
     "savedPercent": "Hemat {percent}%",
-    "relatedToolsTitle": "Anda mungkin juga suka"
+    "relatedToolsTitle": "Anda mungkin juga suka",
+    "relatedArticlesTitle": "Artikel Terkait",
+    "latestArticlesTitle": "Artikel Terbaru",
+    "latestArticlesDesc": "Tips, panduan, dan tutorial untuk membantu Anda memaksimalkan gambar dan video."
   },
   "nav": {
     "home": "Beranda",

@@ -26,7 +26,10 @@
     "originalSize": "ต้นฉบับ: {size}",
     "newSize": "ใหม่: {size}",
     "savedPercent": "ประหยัด {percent}%",
-    "relatedToolsTitle": "คุณอาจชอบสิ่งเหล่านี้"
+    "relatedToolsTitle": "คุณอาจชอบสิ่งเหล่านี้",
+    "relatedArticlesTitle": "บทความที่เกี่ยวข้อง",
+    "latestArticlesTitle": "บทความล่าสุด",
+    "latestArticlesDesc": "เคล็ดลับ คู่มือ และบทแนะนำเพื่อช่วยให้คุณใช้ประโยชน์จากรูปภาพและวิดีโอได้อย่างเต็มที่"
   },
   "nav": {
     "home": "หน้าแรก",

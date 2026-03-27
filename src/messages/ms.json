@@ -26,7 +26,10 @@
     "originalSize": "Asal: {size}",
     "newSize": "Baharu: {size}",
     "savedPercent": "Dijimatkan {percent}%",
-    "relatedToolsTitle": "Anda mungkin juga suka"
+    "relatedToolsTitle": "Anda mungkin juga suka",
+    "relatedArticlesTitle": "Artikel Berkaitan",
+    "latestArticlesTitle": "Artikel Terkini",
+    "latestArticlesDesc": "Petua, panduan dan tutorial untuk membantu anda memanfaatkan sepenuhnya imej dan video anda."
   },
   "nav": {
     "home": "Laman Utama",

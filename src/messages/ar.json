@@ -26,7 +26,10 @@
     "originalSize": "الأصلي: {size}",
     "newSize": "الجديد: {size}",
     "savedPercent": "تم توفير {percent}%",
-    "relatedToolsTitle": "قد يعجبك أيضاً"
+    "relatedToolsTitle": "قد يعجبك أيضاً",
+    "relatedArticlesTitle": "مقالات ذات صلة",
+    "latestArticlesTitle": "أحدث المقالات",
+    "latestArticlesDesc": "نصائح وأدلة ودروس تعليمية لمساعدتك في الاستفادة القصوى من صورك ومقاطع الفيديو."
   },
   "nav": {
     "home": "الرئيسية",

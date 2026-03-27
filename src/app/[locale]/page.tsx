@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { tools, getToolSlug } from '@/data/tools';
+import { blogPosts } from '@/data/blog';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -127,6 +128,29 @@ function HomeContent({ locale }: { locale: string }) {
             />
           </div>
         </section>
+
+        {/* Latest Articles */}
+        <section id="latest-articles" className="py-16 sm:py-24">
+          <h2 className="text-3xl sm:text-[2.5rem] font-extrabold text-center mb-4 gradient-text">
+            {t('common.latestArticlesTitle')}
+          </h2>
+          <p className="text-lg text-[var(--color-text-muted)] text-center max-w-xl mx-auto mb-12">
+            {t('common.latestArticlesDesc')}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {blogPosts.slice(0, 4).map((post) => (
+              <BlogCard key={post.slug} post={post} t={t} />
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-2 px-6 py-3 text-base font-semibold rounded-[var(--radius-btn)] border border-[var(--color-border-hover)] text-[var(--color-text)] hover:bg-[var(--color-bg-card)] hover:border-[var(--color-text-muted)] transition-all duration-300"
+            >
+              {t('nav.blog')} <i className="fas fa-arrow-right text-sm"></i>
+            </Link>
+          </div>
+        </section>
       </div>
     </>
   );
@@ -151,6 +175,45 @@ function ToolCard({
       </div>
       <h3 className="text-xl font-semibold mb-2">{toolT.title}</h3>
       <p className="text-[0.95rem] text-[var(--color-text-muted)] leading-relaxed">{toolT.description}</p>
+    </Link>
+  );
+}
+
+function BlogCard({
+  post,
+  t,
+}: {
+  post: (typeof blogPosts)[number];
+  t: any;
+}) {
+  let postTitle: string;
+  let postExcerpt: string;
+  try {
+    postTitle = t(`blog.posts.${post.slug}.title`);
+    postExcerpt = t(`blog.posts.${post.slug}.excerpt`);
+  } catch {
+    postTitle = post.slug.replace(/-/g, ' ');
+    postExcerpt = '';
+  }
+
+  return (
+    <Link href={`/blog/${post.slug}`} className="tool-card glass-card p-6 block group">
+      {post.heroImage && (
+        <div className="rounded-lg overflow-hidden mb-4 aspect-[16/9]">
+          <img
+            src={post.heroImage}
+            alt={postTitle}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            width={400}
+            height={225}
+            loading="lazy"
+          />
+        </div>
+      )}
+      <h3 className="text-[0.95rem] font-semibold mb-2 line-clamp-2 group-hover:text-[var(--color-purple)] transition-colors">
+        {postTitle}
+      </h3>
+      <p className="text-sm text-[var(--color-text-muted)] leading-relaxed line-clamp-2">{postExcerpt}</p>
     </Link>
   );
 }

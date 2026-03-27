@@ -26,7 +26,10 @@
     "originalSize": "Original : {size}",
     "newSize": "Nouveau : {size}",
     "savedPercent": "{percent}% economise",
-    "relatedToolsTitle": "Vous aimerez aussi"
+    "relatedToolsTitle": "Vous aimerez aussi",
+    "relatedArticlesTitle": "Articles connexes",
+    "latestArticlesTitle": "Derniers articles",
+    "latestArticlesDesc": "Conseils, guides et tutoriels pour tirer le meilleur parti de vos images et vidéos."
   },
   "nav": {
     "home": "Accueil",

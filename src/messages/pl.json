@@ -26,7 +26,10 @@
     "originalSize": "Oryginal: {size}",
     "newSize": "Nowy: {size}",
     "savedPercent": "Zaoszczedzono {percent}%",
-    "relatedToolsTitle": "Może Ci się także spodobać"
+    "relatedToolsTitle": "Może Ci się także spodobać",
+    "relatedArticlesTitle": "Powiązane artykuły",
+    "latestArticlesTitle": "Najnowsze artykuły",
+    "latestArticlesDesc": "Porady, przewodniki i samouczki, które pomogą Ci w pełni wykorzystać obrazy i filmy."
   },
   "nav": {
     "home": "Strona glowna",

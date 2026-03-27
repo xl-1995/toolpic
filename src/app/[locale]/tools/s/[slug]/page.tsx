@@ -25,7 +25,22 @@ export async function generateMetadata({ params }: Props) {
   const page = seoPages.find((p) => p.slug === slug);
   if (!page) return {};
 
-  const t = await getTranslations({ locale, namespace: 'seoPages' });
+  let metaTitle: string;
+  let metaDescription: string;
+  try {
+    const t = await getTranslations({ locale, namespace: 'seoPages' });
+    metaTitle = t(page.titleKey);
+    metaDescription = t(page.descKey);
+  } catch {
+    try {
+      const tEn = await getTranslations({ locale: 'en', namespace: 'seoPages' });
+      metaTitle = tEn(page.titleKey);
+      metaDescription = tEn(page.descKey);
+    } catch {
+      metaTitle = 'ToolPic - Free Online Image & Video Tools';
+      metaDescription = 'Free browser-based image and video tools. No uploads, 100% private.';
+    }
+  }
 
   const url = locale === 'en'
     ? `${baseUrl}/tools/s/${slug}`
@@ -41,15 +56,15 @@ export async function generateMetadata({ params }: Props) {
   languages['x-default'] = `${baseUrl}/tools/s/${slug}`;
 
   return {
-    title: t(page.titleKey),
-    description: t(page.descKey),
+    title: metaTitle,
+    description: metaDescription,
     alternates: {
       canonical: url,
       languages,
     },
     openGraph: {
-      title: t(page.titleKey),
-      description: t(page.descKey),
+      title: metaTitle,
+      description: metaDescription,
       url,
       siteName: 'ToolPic',
       type: 'website',
@@ -65,8 +80,8 @@ export async function generateMetadata({ params }: Props) {
     },
     twitter: {
       card: 'summary_large_image' as const,
-      title: t(page.titleKey),
-      description: t(page.descKey),
+      title: metaTitle,
+      description: metaDescription,
       images: ['https://toolpic.me/og-image.jpg'],
     },
   };

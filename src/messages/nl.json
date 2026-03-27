@@ -26,7 +26,10 @@
     "originalSize": "Origineel: {size}",
     "newSize": "Nieuw: {size}",
     "savedPercent": "{percent}% bespaard",
-    "relatedToolsTitle": "Misschien vind je dit ook leuk"
+    "relatedToolsTitle": "Misschien vind je dit ook leuk",
+    "relatedArticlesTitle": "Gerelateerde artikelen",
+    "latestArticlesTitle": "Laatste artikelen",
+    "latestArticlesDesc": "Tips, handleidingen en tutorials om het meeste uit je afbeeldingen en video's te halen."
   },
   "nav": {
     "home": "Home",

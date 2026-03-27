@@ -26,7 +26,10 @@
     "originalSize": "元のサイズ：{size}",
     "newSize": "圧縮後：{size}",
     "savedPercent": "{percent}%削減",
-    "relatedToolsTitle": "おすすめツール"
+    "relatedToolsTitle": "おすすめツール",
+    "relatedArticlesTitle": "関連記事",
+    "latestArticlesTitle": "最新の記事",
+    "latestArticlesDesc": "画像や動画を最大限に活用するためのヒント、ガイド、チュートリアル。"
   },
   "nav": {
     "home": "ホーム",
