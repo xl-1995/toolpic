@@ -42,18 +42,14 @@ export async function generateMetadata({ params }: Props) {
     }
   }
 
-  const url = locale === 'en'
-    ? `${baseUrl}/tools/s/${slug}`
-    : `${baseUrl}/${locale}/tools/s/${slug}`;
+  const url = `${baseUrl}/${locale}/tools/s/${slug}`;
 
   // Build alternates for all locales
   const languages: Record<string, string> = {};
   for (const loc of locales) {
-    languages[loc] = loc === 'en'
-      ? `${baseUrl}/tools/s/${slug}`
-      : `${baseUrl}/${loc}/tools/s/${slug}`;
+    languages[loc] = `${baseUrl}/${loc}/tools/s/${slug}`;
   }
-  languages['x-default'] = `${baseUrl}/tools/s/${slug}`;
+  languages['x-default'] = `${baseUrl}/en/tools/s/${slug}`;
 
   return {
     title: metaTitle,
@@ -96,9 +92,7 @@ export default async function SeoLandingPage({ params }: Props) {
 
   const t = await getTranslations({ locale, namespace: 'seoPages' });
 
-  const url = locale === 'en'
-    ? `${baseUrl}/tools/s/${slug}`
-    : `${baseUrl}/${locale}/tools/s/${slug}`;
+  const url = `${baseUrl}/${locale}/tools/s/${slug}`;
 
   // WebApplication JSON-LD
   const jsonLd = {
