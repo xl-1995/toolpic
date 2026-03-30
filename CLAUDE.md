@@ -78,9 +78,9 @@ npx wrangler deploy                # Deploy to Cloudflare
 ## Page Count
 - Homepage: 20 (1 × 20 locales)
 - Tool pages: 200 (10 × 20)
-- SEO pages: 480 (24 × 20)
-- Blog: 180 (9 pages × 20)
-- **Total: 885 static pages**
+- SEO pages: 760 (38 × 20)
+- Blog: 680 (34 pages × 20)
+- **Total: 1,660 static pages**
 
 ## Tools (10)
 Image: compressor, converter, crop, watermark, bg-remove, merge

@@ -752,6 +752,81 @@
     "readMore": "Read more",
     "relatedTools": "Related Tools",
     "posts": {
+      "how-to-combine-photos-side-by-side": {
+        "title": "How to Combine Photos Side by Side Online (Free & Easy)",
+        "metaTitle": "How to Combine Photos Side by Side Online for Free | ToolPic Blog",
+        "metaDescription": "Learn how to merge two or more photos side by side online without installing software. Perfect for before/after shots, comparisons, and social media posts.",
+        "excerpt": "Want to put two photos next to each other? Here's how to combine images side by side online in seconds — no downloads, no signups.",
+        "content": [
+          {
+            "heading": "Why Combine Photos Side by Side?",
+            "text": "Placing photos side by side is one of the simplest yet most effective ways to tell a visual story. Think before-and-after transformations, product comparisons, or showing progress over time. Real estate agents use it to show renovation results. Fitness creators love it for transformation posts. It also works great for social media — Instagram carousels and Facebook posts with comparison images tend to get way more engagement than single shots. Honestly, once you start merging photos this way, you'll find uses everywhere."
+          },
+          {
+            "heading": "Different Ways to Combine Photos",
+            "text": "There are three main layouts people use when combining photos. Horizontal (side by side) is the most common — great for comparisons and before/after shots. Vertical stacking works well for Pinterest pins or tall infographics. Then there's grid layout, where you arrange 4, 6, or even 9 images in a collage. Each layout serves a different purpose. For social media, horizontal usually works best on Twitter and Facebook, while vertical is ideal for Pinterest and Instagram Stories. Pick the layout that fits your platform and your story."
+          },
+          {
+            "heading": "Tips for Getting the Best Results",
+            "text": "A few small things make a huge difference when merging photos. First, try to use images that are roughly the same size — a tiny photo next to a massive one looks awkward. Second, keep the lighting consistent across photos. If one image is bright and warm while the other is dark and cool, the combination feels off. Adding a thin border or gap between photos helps them read as separate images rather than one confusing picture. And don't forget about aspect ratios — square images merge more cleanly than mixing portrait and landscape orientations."
+          },
+          {
+            "heading": "Step-by-Step: Using ToolPic's Image Merge Tool",
+            "text": "Here's how to do it with ToolPic's free online tool. Open the Image Merge tool and drag in your photos — you can add two or more at once. Choose your layout: horizontal, vertical, or grid. Adjust spacing between images if you want borders or gaps. Preview the result and tweak the order by dragging thumbnails around. When you're happy with it, hit download. The whole process happens in your browser, so your photos never get uploaded to any server. It takes about 30 seconds from start to finish, which honestly beats opening Photoshop every time."
+          }
+        ],
+        "relatedToolIds": "image-merge,image-crop"
+      },
+      "best-free-video-compressor-no-watermark": {
+        "title": "Best Free Video Compressors With No Watermark (2026)",
+        "metaTitle": "Best Free Video Compressors Without Watermarks in 2026 | ToolPic Blog",
+        "metaDescription": "Find the best free online video compressors that won't add watermarks to your videos. Compare tools for privacy, quality, and ease of use.",
+        "excerpt": "Tired of free video compressors slapping their logo on your work? Here are the best options that actually stay free — no watermarks, no tricks.",
+        "content": [
+          {
+            "heading": "Why Do Most Free Tools Add Watermarks?",
+            "text": "Let's be real — running a video compression service costs money. Servers, bandwidth, processing power... it all adds up. So most free tools use watermarks as a nudge toward their paid plans. It's basically a freemium strategy: give you a taste of what the tool can do, then put their branding on your output unless you pay. Some tools are sneakier about it — they only add watermarks on videos longer than 2 minutes or above a certain resolution. The good news? Not every service does this, and some genuinely free alternatives exist."
+          },
+          {
+            "heading": "What to Look for in a Video Compressor",
+            "text": "Beyond the obvious no-watermark requirement, there are a few things worth checking. Privacy matters — does the tool upload your video to their servers, or does it process locally? Format support is another big one; you want something that handles MP4, WebM, and MOV at minimum. Look at the compression options too. Can you control the output quality or bitrate? Some tools only offer generic \"high/medium/low\" presets, which doesn't give you much control. File size limits are another gotcha — many free tools cap uploads at 100MB or 500MB."
+          },
+          {
+            "heading": "Top Free Options Compared",
+            "text": "There are several solid choices out there right now. Browser-based tools like ToolPic stand out because they process everything on your device — your video never leaves your computer, which is a huge privacy win. HandBrake is a great desktop option if you don't mind installing software. VLC can also compress videos, though the interface isn't exactly intuitive for that. Cloud-based options exist too, but remember: if your video goes to their server, someone else has access to it. For sensitive content — client recordings, personal videos — local processing is the way to go."
+          },
+          {
+            "heading": "How to Compress Without Losing Quality",
+            "text": "Here's the thing most people get wrong: compression always involves some quality loss. The trick is making that loss invisible to the human eye. Start by lowering the bitrate gradually — going from 10Mbps to 5Mbps often cuts file size in half with barely noticeable quality change. Reducing resolution helps too if your video doesn't need to be 4K. Going from 4K to 1080p can shrink files by 75%. Use H.264 or H.265 codec for the best quality-to-size ratio. And here's a pro tip: two-pass encoding takes longer but produces better results at lower bitrates."
+          }
+        ],
+        "relatedToolIds": "video-compress,video-convert"
+      },
+      "remove-background-product-photos-free": {
+        "title": "Remove Backgrounds From Product Photos for Free (Ecommerce Guide)",
+        "metaTitle": "Remove Background From Product Photos Free — Ecommerce Guide | ToolPic Blog",
+        "metaDescription": "Learn how to remove backgrounds from product photos for free. Perfect for Amazon, eBay, and Shopify sellers who need clean white backgrounds.",
+        "excerpt": "Clean product photos sell more. Here's how to remove backgrounds for free — no Photoshop skills needed, and it works right in your browser.",
+        "content": [
+          {
+            "heading": "Why Clean Backgrounds Matter for Ecommerce",
+            "text": "Product photos with messy backgrounds are conversion killers. Amazon actually requires a pure white background for main listing images — fail to comply and your listing might get suppressed. eBay and Etsy have similar guidelines. But beyond marketplace rules, clean backgrounds just look more professional. Studies show products on white backgrounds convert 20-30% better than those shot on cluttered surfaces. Shoppers want to see the product, not your kitchen table. A clean background removes distractions and lets the item speak for itself. It's the easiest upgrade most sellers overlook."
+          },
+          {
+            "heading": "AI-Powered vs Manual Background Removal",
+            "text": "Back in the day, removing backgrounds meant hours in Photoshop with the pen tool, carefully tracing around every edge. Now AI handles it in seconds, and honestly, the results are impressive. Modern AI models can detect edges around complex shapes — hair, fur, translucent objects — that would take a human designer ages to mask properly. Manual editing still wins for tricky edge cases like glass bottles or products with fine mesh patterns. But for 90% of standard product photos, AI removal gets you there faster and cheaper. The technology has gotten remarkably good in the past couple of years."
+          },
+          {
+            "heading": "Tips for Getting the Best Results",
+            "text": "Even with AI doing the heavy lifting, your input photo matters a lot. Shoot your product against a high-contrast background — a dark product on a light surface, or vice versa. Good, even lighting reduces shadows that can confuse the AI. Avoid placing products on textured surfaces like wood grain or patterned fabric. Keep the product fully in frame with some breathing room around the edges. If you're shooting clothing, use a mannequin or lay it flat rather than bunching it up. These small changes in your photography setup can dramatically improve the AI's accuracy."
+          },
+          {
+            "heading": "Using ToolPic's Background Remover",
+            "text": "ToolPic's background remover runs entirely in your browser using client-side AI — meaning your product photos never get uploaded to any server. That's a big deal if you're handling unreleased products or sensitive inventory photos. Just open the tool, drop in your image, and watch the AI work. It typically takes 2-5 seconds per image. You can download the result as a PNG with a transparent background, which is perfect for placing on white or any color background later. The tool works great on most product categories — electronics, clothing, accessories, and food packaging all get clean results."
+          }
+        ],
+        "relatedToolIds": "image-bg-remove,image-compressor"
+      },
       "best-mp4-to-gif-converters-2026": {
         "title": "5 Best MP4 to GIF Converters in 2026: Free Online Tools",
         "metaTitle": "5 Best MP4 to GIF Converters in 2026: Free Online Tools | ToolPic Blog",

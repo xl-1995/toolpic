@@ -761,6 +761,81 @@
     "readMore": "Đọc thêm",
     "relatedTools": "Công cụ liên quan",
     "posts": {
+      "how-to-combine-photos-side-by-side": {
+        "title": "Cách ghép ảnh cạnh nhau miễn phí trực tuyến",
+        "metaTitle": "Ghép ảnh cạnh nhau miễn phí online — không cần cài phần mềm | ToolPic Blog",
+        "metaDescription": "Hướng dẫn cách ghép hai hay nhiều ảnh thành một bức ảnh nằm cạnh nhau. Hoàn toàn miễn phí, ngay trên trình duyệt.",
+        "excerpt": "Muốn đặt hai ảnh cạnh nhau để so sánh hoặc làm collage? Đây là cách đơn giản nhất — không cần tải app nào cả.",
+        "content": [
+          {
+            "heading": "Tại sao nên ghép ảnh cạnh nhau?",
+            "text": "So sánh trước-sau có lẽ là lý do phổ biến nhất — kết quả tập gym, sửa nhà, chỉnh ảnh. Hai tấm hình đặt cạnh nhau nói lên tất cả mà chẳng cần giải thích dài dòng. Trên mạng xã hội, dạng nội dung này luôn thu hút tương tác — carousel Instagram, thumbnail YouTube, collage Pinterest. Trong công việc cũng vậy, bạn có thể dùng cho slide thuyết trình hay báo cáo để khách hàng thấy mọi thứ trong một cái nhìn, không phải mở từng file riêng. Chỉ mất một phút làm nhưng hiệu quả thì rất rõ ràng."
+          },
+          {
+            "heading": "Các cách ghép: ngang, dọc và lưới",
+            "text": "Ghép ngang là kiểu cổ điển — hai ảnh nằm cùng hàng, sự khác biệt thấy ngay lập tức. Ghép dọc phù hợp hơn cho Stories và TikTok vì khung dọc lấp đầy màn hình điện thoại. Nếu có ba ảnh trở lên, thử dạng lưới 2×2 hoặc 3×3 — bạn sẽ có một tấm collage hoàn chỉnh. Chọn cách nào tùy vào ngữ cảnh: ảnh sản phẩm thì ngang, blog thì lưới, nội dung mobile thì dọc. Quyết định trước khi bắt đầu để chọn đúng tỷ lệ khung hình nhé."
+          },
+          {
+            "heading": "Mẹo để có kết quả đẹp nhất",
+            "text": "Quy tắc đầu tiên — kích thước phải đều nhau. Nếu một ảnh 800×600 mà ảnh kia 1920×1080, kết quả sẽ bị lệch và xấu. Chỉnh cả hai về cùng resolution trước khi ghép. Thứ hai — ánh sáng và tông màu phải đồng nhất. Cân bằng trắng khác nhau sẽ lộ ngay, trông rất nghiệp dư. Thứ ba — thêm một viền trắng mỏng giữa các ảnh, nó tạo cảm giác gọn gàng và chuyên nghiệp hẳn. Cuối cùng, lưu PNG nếu cần nét, JPEG nếu cần file nhẹ. Toàn chi tiết nhỏ thôi nhưng đó là sự khác biệt giữa amateur và pro."
+          },
+          {
+            "heading": "Cách sử dụng công cụ Ghép Ảnh của ToolPic",
+            "text": "Mở trang Image Merge trên ToolPic rồi kéo thả ảnh vào. Chọn hướng ghép — ngang hoặc dọc. Điều chỉnh khoảng cách giữa các ảnh nếu muốn. Bản xem trước hiện ra ngay lập tức và mọi thứ được xử lý ngay trên trình duyệt — không file nào được upload lên server cả. Khi đã ưng ý, bấm Tải về là xong. Toàn bộ quá trình mất đúng một phút. Không cần đăng ký, không watermark — chỉ là một công cụ hoạt động đúng như mong đợi."
+          }
+        ],
+        "relatedToolIds": "image-merge,image-crop"
+      },
+      "best-free-video-compressor-no-watermark": {
+        "title": "Nén Video Miễn Phí Không Dính Watermark Tốt Nhất 2026",
+        "metaTitle": "Nén video miễn phí không watermark — Top công cụ 2026 | ToolPic Blog",
+        "metaDescription": "Đánh giá các công cụ nén video online miễn phí không thêm watermark. Bảo mật riêng tư, chất lượng giữ nguyên.",
+        "excerpt": "Nén video xong thấy dính watermark — chán chưa? Xem ngay những công cụ miễn phí thật sự không có chiêu trò ẩn.",
+        "content": [
+          {
+            "heading": "Tại sao đa số công cụ miễn phí đều dính watermark?",
+            "text": "Lý do rất đơn giản — đó là mô hình kinh doanh. Bản miễn phí có watermark hoạt động như quảng cáo: muốn video sạch thì trả tiền. Một số trang giới hạn dung lượng file, số khác giảm resolution, có chỗ còn cố tình làm chậm tốc độ xử lý. Nên «miễn phí» nhiều khi thực chất là «bản demo». Nhưng vẫn có những công cụ lương thiện, kiếm tiền bằng quảng cáo trên site hoặc tính năng premium, không đụng vào nội dung của bạn. Đó chính là những công cụ chúng ta cần, vì gửi video có watermark cho khách hàng thì thật sự không chấp nhận được."
+          },
+          {
+            "heading": "Những tiêu chí quan trọng khi chọn",
+            "text": "Đầu tiên — không watermark, điều này hiển nhiên. Thứ hai — bảo mật: video của bạn đi đâu và ai truy cập được? Tốt nhất là xử lý ngay trên trình duyệt. Thứ ba — hỗ trợ định dạng: ít nhất MP4, WebM, MOV. Thứ tư — tùy chọn điều khiển: có thể chọn bitrate, resolution, codec. Và thứ năm — tốc độ. Nếu nén video 1 phút mà mất 20 phút thì chẳng có ích gì. Một công cụ nén tốt đáp ứng tất cả những điều này mà không yêu cầu đăng ký hay nhập thẻ tín dụng."
+          },
+          {
+            "heading": "So sánh các lựa chọn miễn phí hàng đầu",
+            "text": "Các trang xử lý trên server thường nhanh hơn, nhưng video của bạn đi lên server của người ta — vấn đề lòng tin. Phần mềm desktop như HandBrake thì mạnh nhưng phải cài đặt. Còn công cụ trình duyệt chạy trên WebAssembly, như ToolPic, là giải pháp cân bằng nhất. File không rời máy tính của bạn, xử lý qua FFmpeg ngay trong trình duyệt. Không upload, không giới hạn số lượng file. Với hầu hết nhu cầu — nén video gửi email hoặc Zalo — thế là quá đủ rồi."
+          },
+          {
+            "heading": "Nén video không mất chất lượng: mẹo thực tế",
+            "text": "«Không mất chất lượng» hơi quá lời — mọi nén đều bỏ bớt gì đó. Nhưng bạn có thể giảm thiểu thiệt hại. Bắt đầu với bitrate: video 1080p thường cần 5-8 Mbps là đủ, thấp hơn sẽ thấy artifact. Nếu video gửi qua tin nhắn, hạ resolution xuống 720p — trên màn hình điện thoại không ai thấy khác biệt. Codec H.264 vẫn là lựa chọn phổ biến nhất, H.265 nén tốt hơn nhưng không phải thiết bị nào cũng hỗ trợ. Và quan trọng nhất — đừng nén video đã nén lần nữa, mỗi lần qua là chất lượng giảm thêm. Luôn làm việc với bản gốc."
+          }
+        ],
+        "relatedToolIds": "video-compress,video-convert"
+      },
+      "remove-background-product-photos-free": {
+        "title": "Xóa Phông Nền Ảnh Sản Phẩm Miễn Phí: Hướng Dẫn Cho Người Bán",
+        "metaTitle": "Xóa phông nền ảnh sản phẩm miễn phí — cho bán hàng online | ToolPic Blog",
+        "metaDescription": "Hướng dẫn từng bước xóa phông nền ảnh sản phẩm. Miễn phí, dùng AI, ngay trên trình duyệt — lý tưởng cho thương mại điện tử.",
+        "excerpt": "Nền trắng sạch cho ảnh sản phẩm là yêu cầu của hầu hết sàn thương mại điện tử. Học cách xóa phông miễn phí chỉ trong vài giây.",
+        "content": [
+          {
+            "heading": "Tại sao nền sạch quan trọng đến vậy với doanh số",
+            "text": "Shopee yêu cầu nền trắng cho ảnh chính. Lazada và Tiki cũng tương tự. Mà không chỉ là quy định của sàn — sản phẩm trên nền sạch trông chuyên nghiệp hơn hẳn, người mua tập trung ngay vào sản phẩm thay vì mớ hỗn độn phía sau. Nghiên cứu cho thấy ảnh sản phẩm chất lượng cao nhận được nhiều hơn 30-40% lượt click. Nếu bán trên website riêng, nền sạch giúp thiết kế catalog dễ hơn và trang tải nhanh hơn — file không có nền phức tạp sẽ nhẹ hơn. Năm phút xử lý ảnh có thể chuyển đổi thành doanh số thực."
+          },
+          {
+            "heading": "Xóa phông bằng AI so với chỉnh tay",
+            "text": "Ngày xưa phải cắt phông thủ công trong Photoshop — dùng pen tool, pixel từng pixel, mất hàng giờ. Giờ AI làm trong vài giây và kết quả nhiều khi không thua gì làm tay. Các model như U-Net được huấn luyện trên hàng triệu ảnh, nhận diện viền đối tượng rất chính xác. Chỉnh tay vẫn cần cho các trường hợp khó — vật thể trong suốt, lông thú, tóc. Nhưng với ảnh sản phẩm thông thường — cốc, đồ điện tử, quần áo — AI xử lý hoàn hảo. Tiết kiệm thời gian cực lớn, nhất là khi có nhiều sản phẩm cần xử lý hàng loạt."
+          },
+          {
+            "heading": "Mẹo để có kết quả hoàn hảo",
+            "text": "Ngay cả AI tốt nhất cũng làm việc tốt hơn với ảnh gốc chất lượng. Chụp trên nền tương phản — sản phẩm sáng trên nền tối và ngược lại. Ánh sáng đều, không bóng đổ mạnh là chìa khóa để cắt nền sạch. Tránh nền phức tạp có nhiều chi tiết gần sản phẩm. Chụp ở độ phân giải cao — model AI hoạt động chính xác hơn với ảnh chi tiết. Sau khi xóa phông, kiểm tra viền: đôi khi còn sót quầng nhẹ, crop thêm 1-2 pixel là xử lý được. Mấy mẹo đơn giản này tiết kiệm rất nhiều thời gian hậu kỳ."
+          },
+          {
+            "heading": "Cách xóa phông trong ToolPic: hướng dẫn từng bước",
+            "text": "Mở trang Xóa Phông Nền trên ToolPic và tải ảnh sản phẩm lên. Model AI chạy ngay trên trình duyệt — ảnh của bạn không được gửi đi đâu cả, hoàn toàn riêng tư. Trong vài giây bạn sẽ thấy kết quả với nền trong suốt. Nếu muốn nền trắng thay vì trong suốt, lưu dưới dạng JPEG — tự động thành trắng. Để xử lý nhiều ảnh, thêm từng tấm một — mỗi ảnh được xử lý độc lập. Tải về PNG cho nền trong suốt hoặc JPEG cho nền trắng. Không watermark, không giới hạn."
+          }
+        ],
+        "relatedToolIds": "image-bg-remove,image-compressor"
+      },
       "best-mp4-to-gif-converters-2026": {
         "title": "5 Trình Chuyển Đổi MP4 Sang GIF Tốt Nhất 2026: Công Cụ Trực Tuyến Miễn Phí",
         "metaTitle": "5 Trình Chuyển Đổi MP4 Sang GIF Tốt Nhất 2026: Công Cụ Trực Tuyến Miễn Phí | ToolPic Blog",

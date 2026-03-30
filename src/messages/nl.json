@@ -761,6 +761,81 @@
     "readMore": "Lees meer",
     "relatedTools": "Gerelateerde tools",
     "posts": {
+      "how-to-combine-photos-side-by-side": {
+        "title": "Foto's naast elkaar zetten: gratis online gids",
+        "metaTitle": "Foto's naast elkaar zetten: gratis online gids | ToolPic Blog",
+        "metaDescription": "Leer hoe je twee of meer foto's naast elkaar kunt combineren zonder software te installeren. Perfect voor vergelijkingen en social media posts.",
+        "excerpt": "Een praktische gids voor het combineren van foto's naast elkaar online, van voor-en-na vergelijkingen tot collages voor social media.",
+        "content": [
+          {
+            "heading": "Waarom foto's naast elkaar zetten",
+            "text": "Twee foto's naast elkaar plaatsen is een van de makkelijkste manieren om een visuele vergelijking te maken die meteen opvalt. Denk aan voor-en-na foto's van een verbouwing of een fitness-transformatie — dat soort content trekt gewoon de aandacht. Op social media scoren vergelijkingsbeelden over het algemeen beter dan losse foto's. Merken gebruiken deze techniek om producten vanuit verschillende hoeken te laten zien of modellen naast elkaar te vergelijken. Of je nu een portfolio samenstelt, content maakt voor je webshop, of gewoon iets leuks wilt delen met vrienden — foto's combineren vertelt het verhaal sneller dan woorden."
+          },
+          {
+            "heading": "Verschillende manieren om foto's te combineren",
+            "text": "Je hebt een paar lay-out opties, afhankelijk van wat je nodig hebt. Horizontaal is de klassieker: twee foto's naast elkaar, links en rechts. Simpel en duidelijk. Verticaal werkt goed voor Instagram Stories of Pinterest, waar je dat langwerpige formaat nodig hebt. Heb je meer dan twee foto's? Dan is een grid-layout ideaal. Handig voor productcollecties of een overzicht van je vakantie. De meeste online tools ondersteunen alle drie de opties. Je hoeft alleen maar je lay-out te kiezen, foto's erin te slepen en klaar. Geen designervaring nodig."
+          },
+          {
+            "heading": "Tips voor het beste resultaat",
+            "text": "Allereerst: gebruik foto's die ongeveer even groot zijn. Als de ene foto veel groter is dan de andere, ziet het totaalplaatje er scheef uit. Crop ze eerst naar dezelfde verhoudingen. Belichting is ook belangrijk — als de ene foto heel licht is en de andere donker, klopt het niet. Probeer de helderheid gelijk te trekken voordat je combineert. Een dunne rand tussen de foto's helpt om ze visueel te scheiden. Voor de achtergrondkleur kun je het beste iets neutraals kiezen, zoals wit of lichtgrijs. Felle kleuren leiden af van de foto's zelf."
+          },
+          {
+            "heading": "Image Merge van ToolPic gebruiken",
+            "text": "Open de Image Merge pagina op ToolPic en sleep je foto's naar het uploadgebied. JPG, PNG en WebP worden allemaal ondersteund. Kies de lay-out die je wilt — horizontaal, verticaal of grid. Je kunt de ruimte tussen foto's en de achtergrondkleur helemaal zelf instellen. Het mooie is dat alles in je browser wordt verwerkt. Je foto's worden nergens naartoe geüpload, dus je privacy is gewaarborgd. Tevreden met het resultaat? Gewoon downloaden. Het is gratis, onbeperkt te gebruiken, en je hoeft geen account aan te maken."
+          }
+        ],
+        "relatedToolIds": "image-merge,image-crop"
+      },
+      "best-free-video-compressor-no-watermark": {
+        "title": "Beste gratis videocompressors zonder watermerk",
+        "metaTitle": "Beste gratis videocompressors zonder watermerk | ToolPic Blog",
+        "metaDescription": "Ontdek de beste gratis online videocompressors die geen watermerk toevoegen. Vergelijk functies, privacy en outputkwaliteit.",
+        "excerpt": "Op zoek naar een gratis videocompressor zonder vervelend watermerk? Hier vind je de beste opties plus tips om te comprimeren zonder kwaliteitsverlies.",
+        "content": [
+          {
+            "heading": "Waarom de meeste gratis tools een watermerk toevoegen",
+            "text": "Software ontwikkelen kost geld — hosting, development, onderhoud, het is allemaal niet goedkoop. Daarom kiezen veel gratis tools ervoor om een watermerk toe te voegen als verdienmodel. Het is eigenlijk een advertentie die op jouw video wordt geplakt. Sommige tools bieden een gratis versie met beperkte resolutie of lengte, en voor de volledige functionaliteit moet je betalen. Best frustrerend, vooral als je de video professioneel wilt gebruiken. Een watermerk maakt het meteen minder serieus. Gelukkig zijn er nog steeds opties die écht gratis zijn zonder dat watermerk."
+          },
+          {
+            "heading": "Waar je op moet letten",
+            "text": "Naast het ontbreken van een watermerk is het belangrijk om te kijken welke bestandsformaten worden ondersteund. MP4 is standaard, maar ondersteuning voor WebM, AVI en MOV is een plus. Privacy is cruciaal. Tools die je video uploaden naar een server betekenen dat iemand anders bij je bestanden kan. Browser-gebaseerde tools zijn veel veiliger omdat je video je apparaat nooit verlaat. Check ook of je instellingen kunt aanpassen zoals bitrate, resolutie en doelbestandsgrootte. Hoe meer controle je hebt, hoe beter je het resultaat kunt afstemmen op wat je nodig hebt."
+          },
+          {
+            "heading": "De beste gratis opties vergeleken",
+            "text": "Tussen alle beschikbare tools springt ToolPic eruit omdat alle compressie direct in je browser plaatsvindt. Je video wordt nergens naartoe gestuurd, dus er is geen risico op datalekken. Andere tools op de markt zijn soms prima, maar beperken vaak de bestandsgrootte of het aantal keren dat je ze kunt gebruiken. Sommige beweren gratis te zijn maar hebben verborgen limieten zodra je ze uitprobeert. Wat browser-gebaseerde tools zoals ToolPic onderscheidt: geen registratie nodig, geen limieten, en je video blijft gedurende het hele proces op jouw apparaat."
+          },
+          {
+            "heading": "Video comprimeren zonder kwaliteitsverlies",
+            "text": "De belangrijkste tip: verlaag niet meteen de resolutie als dat niet hoeft. Door alleen de bitrate een beetje te verlagen kun je de bestandsgrootte al flink verkleinen zonder dat je het verschil ziet. Begin met 20-30% minder en bekijk het resultaat. Nog steeds goed? Dan kun je verder gaan. Voor video's die op een telefoon worden bekeken is 720p meestal ruim voldoende — niet alles hoeft 4K te zijn. H.264 is nog steeds een solide standaard, maar H.265 levert kleinere bestanden op bij dezelfde kwaliteit. Probeer beide uit en vergelijk zelf."
+          }
+        ],
+        "relatedToolIds": "video-compress,video-convert"
+      },
+      "remove-background-product-photos-free": {
+        "title": "Achtergrond verwijderen van productfoto's: gratis voor webshops",
+        "metaTitle": "Achtergrond verwijderen productfoto's gratis | ToolPic Blog",
+        "metaDescription": "Leer hoe je gratis de achtergrond van productfoto's verwijdert met AI. Ideaal voor webshops, Bol.com, Amazon en andere marktplaatsen.",
+        "excerpt": "Productfoto's met een schone achtergrond verkopen beter. Leer hoe je gratis achtergronden verwijdert met AI, zonder designkennis.",
+        "content": [
+          {
+            "heading": "Waarom een schone achtergrond belangrijk is voor webshops",
+            "text": "Productfoto's zijn het eerste wat een klant ziet, en die eerste indruk telt enorm. Foto's met een rommelige achtergrond ogen onprofessioneel en wekken minder vertrouwen. Platforms als Amazon en Bol.com eisen dat de hoofdfoto een witte achtergrond heeft. Voldoe je daar niet aan, dan kan je listing worden afgekeurd of minder goed vindbaar zijn. Onderzoek toont aan dat kwalitatieve productfoto's de conversie met wel 30% kunnen verhogen. Een strakke achtergrond zorgt ervoor dat de aandacht op het product zelf valt, niet op de rommel erachter."
+          },
+          {
+            "heading": "AI versus handmatig achtergrond verwijderen",
+            "text": "Vroeger moest je in Photoshop foto voor foto de achtergrond wegknippen — dat kostte al snel minuten per afbeelding. Bij honderden producten werd dat een enorme klus. Tegenwoordig kan AI het in een paar seconden. Machine learning technologie herkent het hoofdobject en scheidt het automatisch van de achtergrond. Het is niet altijd 100% perfect, maar voor de meeste productfoto's is het meer dan goed genoeg. Zeker als de originele foto goed is genomen. Voor complexere situaties, zoals fijn haar of transparante objecten, kan het zijn dat je een kleine handmatige aanpassing nodig hebt."
+          },
+          {
+            "heading": "Tips voor foto's waar AI goed mee werkt",
+            "text": "Fotografeer je product op een effen achtergrond van één kleur. Het hoeft niet per se wit te zijn, als het maar contrasteert met het product. Belichting is essentieel — gebruik natuurlijk licht of studiolampen die gelijkmatig verlichten. Vermijd harde schaduwen, want die kunnen de AI in de war brengen. Positioneer het product in het midden van het frame en zorg dat er geen delen worden afgesneden. Hoe groter het contrast tussen product en achtergrond, hoe nauwkeuriger het resultaat. Bij transparante of zeer dunne producten, zoals glazen vazen, is extra nabewerking soms nodig."
+          },
+          {
+            "heading": "De Background Remover van ToolPic gebruiken",
+            "text": "Open de Background Remover op ToolPic en upload je productfoto. De AI analyseert het beeld en verwijdert de achtergrond automatisch binnen enkele seconden. Het grote voordeel: de AI draait volledig in je browser. Je foto's worden niet naar externe servers gestuurd, dus je productdata blijft veilig. Download het resultaat als PNG met transparante achtergrond, klaar om direct te gebruiken in je webshop. Helemaal gratis, onbeperkt aantal foto's, en geen registratie vereist. Geschikt voor zowel startende verkopers als grote webshops."
+          }
+        ],
+        "relatedToolIds": "image-bg-remove,image-compressor"
+      },
       "best-mp4-to-gif-converters-2026": {
         "title": "5 Beste MP4 naar GIF Converters in 2026: Gratis Online Tools",
         "metaTitle": "5 Beste MP4 naar GIF Converters in 2026: Gratis Online Tools | ToolPic Blog",

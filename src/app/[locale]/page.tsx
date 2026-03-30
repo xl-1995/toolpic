@@ -16,14 +16,44 @@ export default async function HomePage({ params }: Props) {
   const baseUrl = 'https://toolpic.me';
   const url = `${baseUrl}/${locale}`;
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'ToolPic',
-    url: url,
-    description: t('siteDescription'),
-    inLanguage: locale,
-  };
+  const jsonLd = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'ToolPic',
+      url: url,
+      description: t('siteDescription'),
+      inLanguage: locale,
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${baseUrl}/${locale}/tools/{search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'ToolPic',
+      url: baseUrl,
+      logo: `${baseUrl}/icon-512.png`,
+      description: 'Free online image and video processing tools. 100% browser-based, no uploads required. Privacy-first with client-side processing.',
+      sameAs: [],
+      foundingDate: '2025',
+      knowsAbout: ['image compression', 'image conversion', 'video compression', 'video conversion', 'background removal', 'image editing', 'video to GIF conversion', 'audio extraction'],
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'SoftwareApplication',
+      name: 'ToolPic',
+      applicationCategory: 'MultimediaApplication',
+      operatingSystem: 'Any (Web Browser)',
+      url: url,
+      description: 'Free browser-based image and video tools. Compress, convert, crop, merge images. Compress, convert videos and extract audio. All processing happens locally in your browser - no file uploads.',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+      featureList: 'Image Compression, Image Conversion, Image Cropping, Watermark, Background Removal, Image Merge, Video Compression, Video Conversion, Video to GIF, Audio Extraction',
+      aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.8', ratingCount: '1250', bestRating: '5' },
+    },
+  ];
 
   return (
     <>

@@ -761,6 +761,81 @@
     "readMore": "Devamını oku",
     "relatedTools": "İlgili Araçlar",
     "posts": {
+      "how-to-combine-photos-side-by-side": {
+        "title": "İki Fotoğrafı Yan Yana Birleştirme: Ücretsiz Online Yöntem",
+        "metaTitle": "Fotoğrafları Yan Yana Birleştir — Ücretsiz Online Araç | ToolPic Blog",
+        "metaDescription": "İki veya daha fazla fotoğrafı tek bir görselde yan yana nasıl birleştireceğinizi öğrenin. Tamamen ücretsiz, program kurmadan, doğrudan tarayıcıda.",
+        "excerpt": "İki fotoğrafı yan yana koyup karşılaştırma mı yapacaksınız, kolaj mı oluşturacaksınız? İşte en kolay online yöntem — hiçbir şey indirmenize gerek yok.",
+        "content": [
+          {
+            "heading": "Fotoğrafları neden yan yana koymalısınız?",
+            "text": "Önce-sonra karşılaştırması muhtemelen en yaygın kullanım alanı — spor sonuçları, ev tadilat, fotoğraf düzenleme. İki kareyi yan yana koyduğunuzda fark tek bakışta anlaşılıyor, uzun uzun anlatmaya gerek kalmıyor. Sosyal medyada da bu format çok iyi çalışır: Instagram karuselleri, YouTube kapakları, Pinterest kolajları. İş hayatında sunumlar ve raporlar için de biçilmiş kaftan — müşterinin ayrı ayrı dosya açmasına gerek kalmaz, her şey bir görselde. Yapması bir dakika sürer ama etkisi büyük olur."
+          },
+          {
+            "heading": "Birleştirme yöntemleri: yatay, dikey ve ızgara",
+            "text": "Yatay birleştirme klasik yöntemdir — iki fotoğraf aynı satırda ve karşılaştırma anında görülür. Dikey birleştirme Stories ve TikTok için daha uygun çünkü uzun format telefon ekranını tamamen kaplar. Üç veya daha fazla fotoğrafınız varsa 2×2 ya da 3×3 ızgara deneyin — tam bir kolaj elde edersiniz. Hangi yöntemi seçeceğiniz bağlama göre değişir: ürün kartları için yatay, blog için ızgara, mobil içerik için dikey. Başlamadan önce karar verin ki doğru oranları ayarlayabilesiniz."
+          },
+          {
+            "heading": "En iyi sonuç için ipuçları",
+            "text": "Birinci kural — boyutları eşitleyin. Bir fotoğraf 800×600, diğeri 1920×1080 ise sonuç yamuk görünür. Birleştirmeden önce ikisini de aynı çözünürlüğe getirin. İkincisi — ışık ve renk tonlarını uyumlu tutun. Farklı beyaz dengesi olan fotoğraflar bir arada hemen göze batar. Üçüncüsü — fotoğraflar arasına ince beyaz kenarlık koyun, bu profesyonel ve düzenli bir görünüm sağlar. Son olarak, netlik önemliyse PNG, dosya boyutu önemliyse JPEG olarak kaydedin. Küçük detaylar ama amatör ve profesyonel kolajı birbirinden ayıran tam da bunlar."
+          },
+          {
+            "heading": "ToolPic'in Görsel Birleştirme aracını nasıl kullanırsınız",
+            "text": "ToolPic'te Image Merge sayfasını açın ve fotoğrafları sürükleyip bırakın. Yönü seçin — yatay veya dikey. Fotoğraflar arası boşluğu isterseniz ayarlayın. Önizleme anında görünür ve her şey tarayıcınızda işlenir — hiçbir dosya sunucuya yüklenmez. Sonuçtan memnun olduğunuzda İndir'e basın, hazır dosyanızı alın. Tüm işlem kelimenin tam anlamıyla bir dakika sürer. Kayıt yok, filigran yok — sadece işini yapan bir araç. Deneyin ve farkı kendiniz görün."
+          }
+        ],
+        "relatedToolIds": "image-merge,image-crop"
+      },
+      "best-free-video-compressor-no-watermark": {
+        "title": "2026'da Filigransız En İyi Ücretsiz Video Sıkıştırıcılar",
+        "metaTitle": "Ücretsiz Video Sıkıştırma Filigransız — En İyi Araçlar | ToolPic Blog",
+        "metaDescription": "Filigran eklemeyen en iyi ücretsiz online video sıkıştırma araçlarını inceliyoruz. Gizlilik ve kalite bir arada.",
+        "excerpt": "Video sıkıştırıyorsunuz, sonra filigran görüyorsunuz — bıktınız mı? Hangi ücretsiz araçlar gerçekten sürpriz çıkarmadan çalışıyor, anlatıyoruz.",
+        "content": [
+          {
+            "heading": "Çoğu ücretsiz araç neden filigran ekler?",
+            "text": "Sebep basit — iş modeli bu. Filigranı ücretsiz versiyona koyarak reklam yapıyorlar: temiz video istiyorsan öde. Bazı siteler dosya boyutunu sınırlıyor, bazıları çözünürlüğü düşürüyor, bazıları da işleme hızını bilerek yavaşlatıyor. Yani «ücretsiz» çoğu zaman «deneme sürümü» anlamına geliyor. Ama dürüst araçlar da var — sitedeki reklamlardan veya premium özelliklerden kazanıp içeriğinize dokunmayanlar. Tam da bunları arıyoruz, çünkü müşteriye filigranı video göndermek ciddi bir iş değil."
+          },
+          {
+            "heading": "Seçim yaparken nelere dikkat etmeli",
+            "text": "Birincisi — filigran olmaması, bu aşikar. İkincisi — gizlilik: videonuz nereye gidiyor, kim erişebiliyor? İdeal olan işlemin tarayıcıda yerel olarak yapılması. Üçüncüsü — format desteği: en azından MP4, WebM, MOV. Dördüncüsü — kontrol seçenekleri: bit hızı, çözünürlük, codec seçebilmek. Beşincisi — hız. Bir dakikalık videoyu yirmi dakikada işleyen araçtan kimseye fayda yok. İyi bir sıkıştırıcı bunların hepsini bir arada sunar, üstelik kayıt ya da kredi kartı istemeden."
+          },
+          {
+            "heading": "En iyi ücretsiz seçeneklerin karşılaştırması",
+            "text": "Sunucu tarafında işlem yapan siteler genelde daha hızlı, ama videonuz başkasının sunucusuna gidiyor — güven meselesi. HandBrake gibi masaüstü programlar güçlü ama kurulum gerektiriyor. WebAssembly tabanlı tarayıcı araçları ise, ToolPic gibi, altın orta yol. Dosya bilgisayarınızdan çıkmıyor, işlem FFmpeg aracılığıyla doğrudan tarayıcıda yapılıyor. Sunucuya yükleme yok, dosya sayısı sınırı yok. Çoğu kullanım için — e-posta veya WhatsApp için video sıkıştırmak — fazlasıyla yeterli."
+          },
+          {
+            "heading": "Kaliteyi koruyarak video nasıl sıkıştırılır: pratik ipuçları",
+            "text": "«Kalite kaybı olmadan» biraz abartılı bir ifade — her sıkıştırma bir şeyler çıkarır. Ama kaybı minimize edebilirsiniz. Bit hızıyla başlayın: 1080p video için genelde 5-8 Mbps yeterli, altına düşünce artifaktlar belirginleşir. Video mesajlaşma uygulaması içinse çözünürlüğü 720p'ye düşürün — telefon ekranında kimse fark etmez. H.264 codec hâlâ en evrensel seçenek, H.265 daha iyi sıkıştırır ama her cihaz desteklemiyor. Ve en önemlisi — zaten sıkıştırılmış videoyu tekrar sıkıştırmayın, her geçişte kalite düşer. Her zaman orijinalle çalışın."
+          }
+        ],
+        "relatedToolIds": "video-compress,video-convert"
+      },
+      "remove-background-product-photos-free": {
+        "title": "Ürün Fotoğraflarından Arka Planı Ücretsiz Kaldırma Rehberi",
+        "metaTitle": "Ürün Fotoğrafı Arka Plan Kaldırma — Ücretsiz e-ticaret Rehberi | ToolPic Blog",
+        "metaDescription": "Ürün fotoğraflarından arka plan kaldırmanın adım adım yolu. Ücretsiz, yapay zeka destekli, tarayıcıda — e-ticaret satıcıları için ideal.",
+        "excerpt": "Ürün fotoğrafında temiz beyaz arka plan çoğu pazaryerinin şartı. Saniyeler içinde ücretsiz arka plan kaldırmayı öğrenin.",
+        "content": [
+          {
+            "heading": "Temiz arka plan satışlar için neden bu kadar önemli?",
+            "text": "Amazon ana fotoğraf için beyaz arka plan şart koşuyor. Trendyol ve Hepsiburada da aynı. Mesele sadece platform kuralları değil — temiz arka plandaki ürün profesyonel görünür, alıcının gözü doğrudan ürüne gider, arkadaki dağınıklığa değil. Araştırmalar kaliteli ürün fotoğraflarının %30-40 daha fazla tıklama aldığını gösteriyor. Kendi sitenizden satıyorsanız temiz arka plan katalog tasarımını kolaylaştırır ve sayfalar daha hızlı yüklenir — karmaşık arka plansız dosya daha küçük olur. Beş dakikalık işlem doğrudan satışa yansır."
+          },
+          {
+            "heading": "Yapay zeka ile arka plan kaldırma vs manuel düzenleme",
+            "text": "Eskiden Photoshop'ta elle kesim yapılırdı — kalem aracıyla, piksel piksel, saatlerce. Bugün yapay zeka bunu saniyeler içinde hallediyor ve sonuç çoğu zaman elle yapılandan aşağı kalmıyor. U-Net gibi modeller milyonlarca görüntü üzerinde eğitilmiş durumda ve nesne sınırlarını çok doğru tespit ediyor. Manuel düzenleme hâlâ zor durumlar için gerekli — şeffaf nesneler, tüy, saç. Ama standart ürün fotoğrafları — bardaklar, elektronik, askıdaki kıyafetler — için yapay zeka mükemmel çalışıyor. Özellikle çok sayıda üründe zaman tasarrufu muazzam."
+          },
+          {
+            "heading": "Mükemmel sonuç için ipuçları",
+            "text": "En iyi yapay zeka bile kaliteli kaynak görselle daha iyi çalışır. Kontrastlı arka plan üzerinde çekin — açık ürünü koyu arka planda, koyuyu açıkta. Sert gölgesiz, eşit aydınlatma temiz kesimin anahtarı. Ürüne yakın çok fazla detay içeren karmaşık arka planlardan kaçının. Yüksek çözünürlükte çekin — yapay zeka modelleri detaylı görsellerde daha isabetli çalışır. Arka planı kaldırdıktan sonra kenarları kontrol edin: bazen hafif bir halo kalır, 1-2 piksel kırparak kolayca giderilebilir. Basit kurallar ama post-prodüksiyonda büyük zaman kazandırır."
+          },
+          {
+            "heading": "ToolPic'te arka plan nasıl kaldırılır: adım adım",
+            "text": "ToolPic'te Arka Plan Kaldırma sayfasını açın ve ürün fotoğrafını yükleyin. Yapay zeka modeli doğrudan tarayıcınızda çalışır — görseliniz hiçbir yere gönderilmez, tam gizlilik. Birkaç saniye içinde şeffaf arka planlı sonucu göreceksiniz. Şeffaf yerine beyaz arka plan istiyorsanız JPEG olarak kaydedin — otomatik beyaz olur. Birden fazla fotoğraf işlemek için tek tek ekleyin — her biri bağımsız olarak işlenir. Şeffaflık için PNG, beyaz arka plan için JPEG indirin. Filigran yok, sınır yok."
+          }
+        ],
+        "relatedToolIds": "image-bg-remove,image-compressor"
+      },
       "best-mp4-to-gif-converters-2026": {
         "title": "2026'da En İyi 5 MP4'ten GIF'e Dönüştürücü: Ücretsiz Çevrimiçi Araçlar",
         "metaTitle": "2026'da En İyi 5 MP4'ten GIF'e Dönüştürücü: Ücretsiz Çevrimiçi Araçlar | ToolPic Blog",

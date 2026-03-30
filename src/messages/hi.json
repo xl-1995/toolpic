@@ -761,6 +761,81 @@
     "readMore": "और पढ़ें",
     "relatedTools": "संबंधित टूल",
     "posts": {
+      "how-to-combine-photos-side-by-side": {
+        "title": "दो फोटो को साइड बाय साइड कैसे जोड़ें — फ्री ऑनलाइन तरीका",
+        "metaTitle": "फोटो को साइड बाय साइड जोड़ें फ्री में ऑनलाइन | ToolPic Blog",
+        "metaDescription": "जानिए कैसे दो या ज़्यादा फोटो को एक इमेज में जोड़ सकते हैं। बिल्कुल फ्री, बिना किसी सॉफ्टवेयर के, सीधे ब्राउज़र में।",
+        "excerpt": "दो फोटो को बगल में रखकर तुलना करनी है या कोलाज बनाना है? यहाँ सीखिए सबसे आसान ऑनलाइन तरीका — कोई ऐप डाउनलोड नहीं करना।",
+        "content": [
+          {
+            "heading": "फोटो को साइड बाय साइड क्यों रखें?",
+            "text": "Before-after comparison शायद सबसे कॉमन use है — फिटनेस रिज़ल्ट्स, घर की रीनोवेशन, या फोटो एडिटिंग। दो तस्वीरें बगल में रखो और फर्क साफ दिखता है बिना कुछ बोले। सोशल मीडिया पर भी ये फॉर्मेट बहुत अच्छा काम करता है — Instagram कैरोसेल, YouTube थंबनेल, Pinterest कोलाज। ऑफिस के काम में भी ये helpful है — प्रेज़ेंटेशन और रिपोर्ट में क्लाइंट को अलग-अलग फाइलें खोलने की ज़रूरत नहीं, सब कुछ एक नज़र में दिख जाता है। बस एक मिनट लगता है और impact काफी बड़ा होता है।"
+          },
+          {
+            "heading": "जोड़ने के तरीके: horizontal, vertical, और grid",
+            "text": "Horizontal merge क्लासिक है — दो फोटो एक लाइन में और तुलना तुरंत दिखती है। Vertical merge Stories और TikTok के लिए बेहतर है क्योंकि लंबा फॉर्मेट फोन की पूरी स्क्रीन भर देता है। अगर तीन या ज़्यादा फोटो हैं तो 2×2 या 3×3 grid ट्राई करें — पूरा कोलाज बन जाएगा। कौन सा तरीका चुनें ये context पर depend करता है: प्रोडक्ट कार्ड के लिए horizontal, ब्लॉग के लिए grid, मोबाइल कंटेंट के लिए vertical। शुरू करने से पहले decide कर लें ताकि सही proportions सेट कर सकें।"
+          },
+          {
+            "heading": "बेहतर रिज़ल्ट के लिए टिप्स",
+            "text": "पहला नियम — दोनों फोटो का साइज़ बराबर रखें। अगर एक 800×600 है और दूसरी 1920×1080, तो रिज़ल्ट अजीब दिखेगा। जोड़ने से पहले दोनों को same resolution पर ला लें। दूसरा — लाइटिंग और कलर टोन मैच करें। अलग-अलग white balance तुरंत नज़र आता है। तीसरा — फोटो के बीच में एक पतली सफेद बॉर्डर रखें, ये neat और professional लुक देता है। और आखिरी बात — PNG में save करें अगर sharpness चाहिए, JPEG में अगर file size कम रखना है। छोटी-छोटी बातें हैं लेकिन फर्क बहुत पड़ता है।"
+          },
+          {
+            "heading": "ToolPic के Image Merge टूल का इस्तेमाल कैसे करें",
+            "text": "ToolPic पर Image Merge पेज खोलें और फोटो को drag करके डालें। Direction चुनें — horizontal या vertical। फोटो के बीच spacing adjust करें अगर चाहें। Preview तुरंत दिखता है और सब कुछ आपके ब्राउज़र में ही process होता है — कोई फाइल किसी सर्वर पर नहीं जाती। जब result पसंद आ जाए, Download बटन दबाएं और तैयार फाइल ले लें। पूरा काम literally एक मिनट में हो जाता है। कोई sign-up नहीं, कोई watermark नहीं — बस एक tool जो काम करता है।"
+          }
+        ],
+        "relatedToolIds": "image-merge,image-crop"
+      },
+      "best-free-video-compressor-no-watermark": {
+        "title": "2026 में बिना वॉटरमार्क के बेस्ट फ्री वीडियो कंप्रेसर",
+        "metaTitle": "फ्री वीडियो कंप्रेसर बिना वॉटरमार्क — टॉप टूल्स 2026 | ToolPic Blog",
+        "metaDescription": "बेस्ट फ्री ऑनलाइन वीडियो कंप्रेसर जो वॉटरमार्क नहीं लगाते। प्राइवेसी और क्वालिटी दोनों बरकरार।",
+        "excerpt": "वीडियो compress करो तो वॉटरमार्क लग जाता है — थक गए इससे? जानिए कौन से फ्री टूल्स सच में बिना किसी झंझट काम करते हैं।",
+        "content": [
+          {
+            "heading": "ज़्यादातर फ्री टूल्स वॉटरमार्क क्यों लगाते हैं?",
+            "text": "बात सीधी है — ये उनका बिज़नेस मॉडल है। फ्री वर्ज़न में वॉटरमार्क लगाकर वो advertise करते हैं: क्लीन वीडियो चाहिए तो पैसे दो। कुछ साइट्स file size लिमिट करती हैं, कुछ resolution घटाती हैं, और कुछ processing स्पीड जानबूझकर धीमी कर देती हैं। मतलब «फ्री» का असल मतलब अक्सर «demo version» होता है। लेकिन कुछ ईमानदार टूल्स भी हैं जो दूसरे तरीकों से earn करते हैं — साइट पर ads या premium features — आपके कंटेंट को छुए बिना। यही टूल्स हमें चाहिए, क्योंकि क्लाइंट को वॉटरमार्क वाला वीडियो भेजना बस unprofessional है।"
+          },
+          {
+            "heading": "चुनते वक्त किन बातों का ध्यान रखें",
+            "text": "पहला — वॉटरमार्क न हो, ये obvious है। दूसरा — privacy: आपका वीडियो कहाँ जा रहा है और किसकी access है? सबसे अच्छा है अगर processing browser में ही हो। तीसरा — format support: MP4, WebM, MOV कम से कम। चौथा — control options: bitrate, resolution, codec चुनने की freedom। और पाँचवां — speed। अगर एक मिनट का वीडियो compress होने में बीस मिनट लगें तो कोई फायदा नहीं। अच्छा compressor ये सब देता है बिना sign-up और बिना credit card माँगे।"
+          },
+          {
+            "heading": "टॉप फ्री ऑप्शन्स की तुलना",
+            "text": "Server-based ऑनलाइन टूल्स आमतौर पर तेज़ होते हैं, लेकिन वीडियो किसी और के सर्वर पर जाता है — trust का सवाल है। Desktop सॉफ्टवेयर जैसे HandBrake powerful है लेकिन install करना पड़ता है। और browser-based tools जो WebAssembly पर चलते हैं, जैसे ToolPic — ये golden middle हैं। फाइल आपके कंप्यूटर से बाहर नहीं जाती, processing FFmpeg के ज़रिए ब्राउज़र में होती है। कोई upload नहीं, files पर कोई limit नहीं। ज़्यादातर काम — email या WhatsApp के लिए वीडियो compress करना — इसके लिए ये काफी से ज़्यादा है।"
+          },
+          {
+            "heading": "क्वालिटी बचाते हुए वीडियो कैसे compress करें: practical टिप्स",
+            "text": "«बिना quality loss» थोड़ा misleading है — हर compression कुछ न कुछ हटाता है। लेकिन नुकसान minimize कर सकते हैं। Bitrate से शुरू करें: 1080p वीडियो के लिए 5-8 Mbps आमतौर पर enough है, इससे कम पर artifacts दिखने लगते हैं। अगर वीडियो WhatsApp के लिए है तो 720p कर दें — फोन स्क्रीन पर कोई फर्क नहीं पड़ता। H.264 codec सबसे universal है, H.265 बेहतर compression देता है लेकिन हर device support नहीं करता। सबसे ज़रूरी बात — पहले से compressed वीडियो को दोबारा compress मत करो, हर बार quality और गिरती है। हमेशा original से काम करो।"
+          }
+        ],
+        "relatedToolIds": "video-compress,video-convert"
+      },
+      "remove-background-product-photos-free": {
+        "title": "प्रोडक्ट फोटो से बैकग्राउंड कैसे हटाएं — फ्री में",
+        "metaTitle": "प्रोडक्ट फोटो का बैकग्राउंड फ्री में हटाएं — ecommerce गाइड | ToolPic Blog",
+        "metaDescription": "प्रोडक्ट फोटो से बैकग्राउंड हटाने का step-by-step तरीका। फ्री, AI-powered, ब्राउज़र में — ecommerce sellers के लिए।",
+        "excerpt": "प्रोडक्ट फोटो पर साफ सफेद बैकग्राउंड — ज़्यादातर marketplace की शर्त है। सीखिए कैसे सेकंडों में फ्री में बैकग्राउंड हटाएं।",
+        "content": [
+          {
+            "heading": "साफ बैकग्राउंड sales के लिए इतना ज़रूरी क्यों है",
+            "text": "Amazon मेन फोटो के लिए white background माँगता है। Flipkart और Meesho भी। और बात सिर्फ platform की rules की नहीं है — clean background पर प्रोडक्ट professional दिखता है, buyer का ध्यान सीधे प्रोडक्ट पर जाता है न कि पीछे के कबाड़ पर। Research बताती है कि अच्छी quality की प्रोडक्ट फोटो पर 30-40% ज़्यादा clicks आते हैं। और अगर अपनी website से बेचते हैं, तो clean background catalogue design आसान बनाता है और pages तेज़ लोड होती हैं — बिना complex background के file छोटी होती है। पाँच मिनट की processing sales में convert होती है।"
+          },
+          {
+            "heading": "AI background removal बनाम manual editing",
+            "text": "पहले Photoshop में manually background काटना पड़ता था — pen tool से, pixel by pixel, घंटों लगते थे। आज AI ये काम seconds में कर देता है और result अक्सर manual work जितना ही अच्छा होता है। U-Net जैसे models करोड़ों images पर trained हैं और objects की boundaries बहुत accurately पहचानते हैं। Manual editing अभी भी ज़रूरी है कुछ मुश्किल cases में — transparent चीज़ें, fur, बाल। लेकिन normal product photos — mugs, gadgets, कपड़े — के लिए AI perfectly काम करता है। Time savings बहुत बड़ी है, especially जब बहुत सारे products हों।"
+          },
+          {
+            "heading": "बेस्ट रिज़ल्ट के लिए टिप्स",
+            "text": "सबसे अच्छा AI भी अच्छे source image के साथ बेहतर काम करता है। Contrasting background पर shoot करें — light product को dark background पर, dark को light पर। Even lighting बिना harsh shadows — ये clean cutting की कुंजी है। Complex backgrounds avoid करें जहाँ product के पास बहुत सारी details हों। High resolution में shoot करें — AI models detailed images पर ज़्यादा accurate काम करते हैं। Background हटाने के बाद edges check करें: कभी-कभी हल्की halo रह जाती है जो 1-2 pixels crop करके हटाई जा सकती है। ये simple tips post-processing का काफी time बचाती हैं।"
+          },
+          {
+            "heading": "ToolPic में बैकग्राउंड कैसे हटाएं: step-by-step",
+            "text": "ToolPic पर Background Remover पेज खोलें और product की फोटो upload करें। AI model आपके browser में ही चलता है — image कहीं नहीं भेजी जाती, पूरी privacy। कुछ seconds में transparent background वाला result दिखेगा। अगर white background चाहिए transparent की जगह, तो JPEG में save करें — automatically white हो जाएगा। Multiple photos process करने के लिए एक-एक करके add करें — हर photo independently process होती है। PNG download करें transparency के लिए या JPEG white background के लिए। कोई watermark नहीं, कोई limit नहीं।"
+          }
+        ],
+        "relatedToolIds": "image-bg-remove,image-compressor"
+      },
       "best-mp4-to-gif-converters-2026": {
         "title": "2026 में 5 सर्वश्रेष्ठ MP4 से GIF कन्वर्टर: मुफ्त ऑनलाइन टूल",
         "metaTitle": "2026 में 5 सर्वश्रेष्ठ MP4 से GIF कन्वर्टर: मुफ्त ऑनलाइन टूल | ToolPic Blog",
