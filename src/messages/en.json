@@ -746,8 +746,8 @@
     "extractMp3Faq3A": "No, the entire extraction process runs locally in your browser using WebAssembly-powered FFmpeg. Your video file never leaves your device, ensuring complete privacy. This is particularly important for extracting audio from private recordings, confidential meetings, or personal video content."
   },
   "blog": {
-    "title": "Blog",
-    "subtitle": "Tips, guides, and tutorials for image and video processing",
+    "title": "Image & Video Processing Tips",
+    "subtitle": "Free guides, tutorials, and expert tips for compressing, converting, and editing images and videos online",
     "readTime": "{minutes} min read",
     "readMore": "Read more",
     "relatedTools": "Related Tools",

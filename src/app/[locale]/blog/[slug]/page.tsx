@@ -123,7 +123,12 @@ export default async function BlogPostPage({ params }: Props) {
       '@type': 'Organization',
       name: 'ToolPic',
       url: baseUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/icon-512.png`,
+      },
     },
+    image: `${baseUrl}${post.heroImage}`,
     url,
     mainEntityOfPage: url,
   };

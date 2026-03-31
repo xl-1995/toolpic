@@ -171,6 +171,13 @@ const toolSlugs: Record<string, Record<string, string>> = {
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  // Root path: 301 permanent redirect to /en (instead of next-intl's default 307)
+  if (pathname === '/') {
+    const url = request.nextUrl.clone();
+    url.pathname = '/en';
+    return NextResponse.redirect(url, 301);
+  }
+
   // Handle /{locale}/tools/{slug} with wrong slug for locale
   const localeToolMatch = pathname.match(/^\/(en|zh|ja|ko|es|fr|de|pt|ru|ar|hi|it|tr|vi|th|id|nl|pl|uk|ms)\/tools\/([^/]+)$/);
   if (localeToolMatch) {

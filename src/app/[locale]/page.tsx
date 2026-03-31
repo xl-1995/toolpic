@@ -51,7 +51,6 @@ export default async function HomePage({ params }: Props) {
       description: 'Free browser-based image and video tools. Compress, convert, crop, merge images. Compress, convert videos and extract audio. All processing happens locally in your browser - no file uploads.',
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
       featureList: 'Image Compression, Image Conversion, Image Cropping, Watermark, Background Removal, Image Merge, Video Compression, Video Conversion, Video to GIF, Audio Extraction',
-      aggregateRating: { '@type': 'AggregateRating', ratingValue: '4.8', ratingCount: '1250', bestRating: '5' },
     },
   ];
 
