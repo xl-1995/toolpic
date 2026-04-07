@@ -761,6 +761,19 @@
     "readMore": "Baca lagi",
     "relatedTools": "Alat Berkaitan",
     "posts": {
+      "instagram-story-image-size-resize-guide": {
+        "title": "Saiz Gambar Instagram Story yang Betul dan Cara Resize (Panduan 2026)",
+        "metaTitle": "Saiz Gambar Instagram Story dan Cara Resize 2026 | ToolPic Blog",
+        "metaDescription": "Berapakah saiz foto yang betul untuk Instagram Story? Ketahui dimensi 1080x1920, cara resize dan tips untuk Story yang sempurna.",
+        "excerpt": "Foto yang dimuat naik ke Instagram Story terpotong atau kabur? Ketahui saiz yang betul dan cara resize supaya setiap Story nampak cantik.",
+        "content": [
+          {"heading": "Dimensi Instagram Story pada 2026", "text": "Saiz ideal untuk Instagram Story ialah 1080x1920 piksel dengan nisbah aspek 9:16. Resolusi minimum yang disyorkan ialah 720x1280 piksel, kalau kurang daripada itu gambar akan kelihatan kabur. Letakkan teks dan kandungan penting dalam zon selamat 80% di bahagian tengah skrin. Bahagian 10% atas dan bawah akan ditutup oleh nama pengguna, bar balasan dan butang swipe up. Format JPG dan PNG kedua-duanya boleh digunakan, saiz fail maksimum 30MB."},
+          {"heading": "Apa yang Berlaku Bila Muat Naik Saiz Salah", "text": "Kalau anda muat naik foto dengan saiz yang salah, Instagram akan potong atau regangkan gambar secara automatik. Foto segi empat sama (1:1) akan dapat bar hitam di atas dan bawah yang nampak buruk. Foto landskap kehilangan bahagian atas dan bawah sebab dipotong. Yang paling menyakitkan ialah bila teks penting tersembunyi di sebalik elemen UI seperti ikon profil atau bar mesej. Jadi lebih baik resize dulu sebelum muat naik."},
+          {"heading": "Cara Resize untuk Instagram Stories", "text": "Langkah pertama, crop gambar kepada nisbah 9:16. Tetapkan lebar kepada 1080 piksel dan tinggi akan jadi 1920 secara automatik. Pastikan saiz fail di bawah 8MB supaya muat naik laju dan kualiti terjaga. Gunakan color profile sRGB kerana Instagram menukar profile lain kepada sRGB yang boleh menyebabkan warna berubah. Simpan dalam format JPEG dengan kualiti 85-90% untuk keseimbangan antara saiz fail kecil dan paparan yang tajam."},
+          {"heading": "Resize Pantas dengan ToolPic", "text": "Buka alat Image Crop di ToolPic dan pilih preset Instagram Story. Nisbah 9:16 akan ditetapkan secara automatik. Seret foto ke posisi yang sesuai lalu crop. Lepas itu masukkan ke Image Compressor untuk kurangkan saiz fail di bawah 8MB. Keseluruhan proses berjalan dalam pelayar anda, tiada foto dimuat naik ke mana-mana pelayan. Dalam dua minit, gambar sedia untuk dipos ke Story."}
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
       "how-to-combine-photos-side-by-side": {
         "title": "Cara Gabungkan Foto Bersebelahan Secara Online Percuma",
         "metaTitle": "Cara Gabungkan Foto Bersebelahan Secara Online Percuma | ToolPic Blog",

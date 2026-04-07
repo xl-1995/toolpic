@@ -7,6 +7,7 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'instagram-story-image-size-resize-guide', date: '2026-04-07', readTime: 5, heroImage: '/blog/instagram-story-size-hero.jpg', relatedToolIds: ['image-crop', 'image-compressor'] },
   { slug: 'how-to-combine-photos-side-by-side', date: '2026-03-30', readTime: 5, heroImage: '/blog/combine-photos-hero.jpg', relatedToolIds: ['image-merge', 'image-crop'] },
   { slug: 'best-free-video-compressor-no-watermark', date: '2026-03-30', readTime: 5, heroImage: '/blog/video-compressor-hero.jpg', relatedToolIds: ['video-compress', 'video-convert'] },
   { slug: 'remove-background-product-photos-free', date: '2026-03-30', readTime: 5, heroImage: '/blog/product-bg-remove-hero.jpg', relatedToolIds: ['image-bg-remove', 'image-compressor'] },

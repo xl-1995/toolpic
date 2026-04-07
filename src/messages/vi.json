@@ -761,6 +761,19 @@
     "readMore": "Đọc thêm",
     "relatedTools": "Công cụ liên quan",
     "posts": {
+      "instagram-story-image-size-resize-guide": {
+        "title": "Kích thước ảnh Instagram Story chuẩn và cách resize (Hướng dẫn 2026)",
+        "metaTitle": "Kích thước ảnh Instagram Story chuẩn và cách resize 2026 | ToolPic Blog",
+        "metaDescription": "Kích thước ảnh chuẩn cho Instagram Story là bao nhiêu? Tìm hiểu kích thước 1080x1920, cách resize và mẹo tối ưu ảnh Story.",
+        "excerpt": "Ảnh đăng Instagram Story bị cắt xén hoặc mờ? Tìm hiểu kích thước chuẩn và cách resize để Story luôn đẹp hoàn hảo.",
+        "content": [
+          {"heading": "Kích thước Instagram Story năm 2026", "text": "Kích thước lý tưởng cho Instagram Story là 1080x1920 pixel, tỷ lệ 9:16. Tối thiểu phải đạt 720x1280 pixel, nếu không ảnh sẽ bị mờ. Giữ chữ và nội dung quan trọng trong vùng an toàn 80% ở giữa màn hình. Phần 10% trên và dưới sẽ bị che bởi tên người dùng, thanh trả lời và nút vuốt lên. Cả JPG và PNG đều được chấp nhận, dung lượng file không quá 30MB."},
+          {"heading": "Chuyện gì xảy ra khi đăng sai kích thước", "text": "Khi bạn đăng ảnh sai kích thước, Instagram tự động cắt hoặc kéo giãn ảnh. Ảnh vuông (1:1) sẽ có viền đen trên dưới trông rất xấu. Ảnh ngang bị cắt mất phần trên và dưới. Phiền nhất là khi chữ quan trọng bị ẩn sau các thành phần giao diện như avatar hay thanh nhắn tin. Nên resize trước khi đăng luôn cho chắc ăn."},
+          {"heading": "Cách resize ảnh cho Instagram Stories", "text": "Bước đầu tiên là crop ảnh theo tỷ lệ 9:16. Đặt chiều rộng 1080 pixel, chiều cao sẽ tự động là 1920. Giữ dung lượng file dưới 8MB để upload nhanh và giữ chất lượng. Dùng color profile sRGB vì Instagram chuyển đổi các profile khác sang sRGB, có thể làm lệch màu. Lưu dạng JPEG chất lượng 85-90% là đủ đẹp mà file nhẹ."},
+          {"heading": "Resize nhanh với ToolPic", "text": "Mở công cụ Image Crop của ToolPic và chọn preset Instagram Story. Tỷ lệ 9:16 sẽ được đặt tự động. Kéo ảnh đến vị trí ưng ý rồi crop. Sau đó dùng Image Compressor để giảm dung lượng xuống dưới 8MB. Toàn bộ quá trình diễn ra ngay trên trình duyệt, ảnh không bị upload lên đâu cả. Chỉ hai phút là có ảnh sẵn sàng đăng Story."}
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
       "how-to-combine-photos-side-by-side": {
         "title": "Cách ghép ảnh cạnh nhau miễn phí trực tuyến",
         "metaTitle": "Ghép ảnh cạnh nhau miễn phí online — không cần cài phần mềm | ToolPic Blog",

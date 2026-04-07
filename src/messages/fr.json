@@ -761,6 +761,19 @@
     "readMore": "Lire la suite",
     "relatedTools": "Outils associés",
     "posts": {
+      "instagram-story-image-size-resize-guide": {
+        "title": "Taille d'image pour les Stories Instagram : guide complet pour redimensionner vos photos",
+        "metaTitle": "Taille d'image Stories Instagram et comment redimensionner | ToolPic Blog",
+        "metaDescription": "Découvrez les dimensions exactes des Stories Instagram en 2026 et apprenez à redimensionner vos photos pour un rendu parfait sans recadrage ni bandes noires.",
+        "excerpt": "Vos photos sont coupées ou déformées dans les Stories ? Voici les bonnes dimensions et la méthode pour adapter n'importe quelle image au bon format.",
+        "content": [
+          {"heading": "Dimensions des Stories Instagram en 2026", "text": "Le format standard pour les Stories est 1080x1920 pixels, soit un ratio de 9:16. La résolution minimale acceptable est 720x1280. En dessous, Instagram agrandit l'image et le résultat est flou. Gardez le texte et les éléments clés dans les 80% centraux de l'image, car l'interface recouvre le haut et le bas. Les formats acceptés sont JPG et PNG, avec une limite de 30 Mo par fichier. Le plus simple reste de prendre vos photos en mode portrait directement depuis le téléphone."},
+          {"heading": "Ce qui se passe quand la taille est mauvaise", "text": "Si vous publiez une photo carrée, Instagram ajoute des bandes noires en haut et en bas pour remplir l'espace. Avec une photo paysage, c'est pire : le haut et le bas sont coupés de manière agressive, et vous risquez de perdre des visages ou du texte. Les images verticales trop hautes sont compressées pour tenir dans le cadre, ce qui réduit la netteté. Les boutons de l'appli (nom d'utilisateur, réponses, stickers) masquent environ 250 pixels à chaque extrémité. Si votre texte tombe dans cette zone, personne ne le verra."},
+          {"heading": "Comment redimensionner pour les Stories Instagram", "text": "Commencez par recadrer votre image au ratio 9:16. Ensuite, réglez la largeur à 1080 pixels et la hauteur sera automatiquement de 1920. Compressez le fichier pour qu'il fasse moins de 8 Mo, car les fichiers lourds mettent du temps à charger et Instagram les recompresse avec plus de perte. Utilisez le profil couleur sRGB pour que les couleurs restent fidèles sur tous les écrans. Si vous partez d'une photo paysage, choisissez quelle zone garder avant de redimensionner pour ne pas couper le sujet principal."},
+          {"heading": "Redimensionner rapidement avec ToolPic", "text": "Ouvrez l'outil Recadrage d'image sur ToolPic et sélectionnez le preset Story Instagram (9:16). Déplacez le cadre pour choisir la zone à conserver, puis appliquez le recadrage. Passez ensuite l'image dans le Compresseur pour réduire le poids sans perte de qualité visible. Tout se fait dans votre navigateur, vos photos ne sont jamais envoyées sur un serveur. En moins d'une minute, votre image est prête à être publiée."}
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
       "how-to-combine-photos-side-by-side": {
         "title": "Comment combiner des photos côte à côte gratuitement en ligne",
         "metaTitle": "Comment combiner des photos côte à côte gratuitement | ToolPic Blog",

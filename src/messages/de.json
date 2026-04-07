@@ -761,6 +761,19 @@
     "readMore": "Weiterlesen",
     "relatedTools": "Verwandte Tools",
     "posts": {
+      "instagram-story-image-size-resize-guide": {
+        "title": "Bildgröße für Instagram Stories: Komplette Anleitung zum Zuschneiden und Anpassen",
+        "metaTitle": "Instagram Story Bildgröße und richtig zuschneiden | ToolPic Blog",
+        "metaDescription": "Erfahre die genauen Maße für Instagram Stories 2026 und wie du deine Fotos richtig zuschneidest, damit nichts abgeschnitten oder verzerrt wird.",
+        "excerpt": "Werden deine Fotos in Stories abgeschnitten oder gestaucht? Hier findest du die richtigen Maße und eine schnelle Methode zum Anpassen.",
+        "content": [
+          {"heading": "Instagram Story Abmessungen 2026", "text": "Das Standardformat für Stories ist 1080x1920 Pixel im Seitenverhältnis 9:16. Die Mindestauflösung liegt bei 720x1280. Alles darunter wird von Instagram hochskaliert und sieht unscharf aus. Halte Text und wichtige Elemente im mittleren 80%-Bereich des Bildes, weil die Benutzeroberfläche oben und unten überdeckt. Unterstützt werden JPG und PNG mit maximal 30 MB pro Datei. Am einfachsten ist es, Fotos direkt im Hochformat mit dem Handy aufzunehmen."},
+          {"heading": "Was passiert bei falscher Bildgröße", "text": "Lädst du ein quadratisches Bild hoch, fügt Instagram schwarze Balken oben und unten hinzu. Bei Querformat-Bildern wird es problematischer: Oben und unten wird stark beschnitten, wobei Gesichter oder Text verloren gehen können. Zu hohe Hochformat-Bilder werden zusammengestaucht und verlieren an Schärfe. Außerdem verdecken die App-Buttons (Benutzername, Antworten, Sticker) etwa 250 Pixel an jedem Ende. Text in diesen Bereichen ist praktisch unsichtbar."},
+          {"heading": "So passt du Fotos für Instagram Stories an", "text": "Schneide dein Bild zuerst auf das Verhältnis 9:16 zu. Stelle dann die Breite auf 1080 Pixel ein, die Höhe ergibt sich automatisch mit 1920. Komprimiere die Datei auf unter 8 MB, da große Dateien langsam laden und Instagram sie mit mehr Qualitätsverlust nachkomprimiert. Verwende das Farbprofil sRGB, damit die Farben auf allen Geräten gleich aussehen. Bei einem Querformat-Foto wähle zuerst den passenden Ausschnitt, bevor du die Größe änderst, um das Hauptmotiv zu behalten."},
+          {"heading": "Schnell zuschneiden mit ToolPic", "text": "Öffne das Bild-Zuschneiden-Tool auf ToolPic und wähle die Vorlage Instagram Story (9:16). Verschiebe den Rahmen, um den gewünschten Bereich auszuwählen, und wende den Zuschnitt an. Danach zieh das Bild durch den Kompressor, um die Dateigröße ohne sichtbaren Qualitätsverlust zu reduzieren. Alles läuft direkt in deinem Browser, deine Fotos werden nie auf einen Server hochgeladen. In weniger als einer Minute ist dein Bild fertig zum Posten."}
+        ],
+        "relatedToolIds": "image-crop,image-compressor"
+      },
       "how-to-combine-photos-side-by-side": {
         "title": "Fotos nebeneinander zusammenfügen – kostenlos und online",
         "metaTitle": "Fotos nebeneinander zusammenfügen – kostenlos online | ToolPic Blog",
