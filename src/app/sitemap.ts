@@ -6,16 +6,42 @@ import { blogPosts } from '@/data/blog';
 
 const baseUrl = 'https://toolpic.me';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const entries: MetadataRoute.Sitemap = [];
-  const now = new Date();
+// Split sitemap into multiple files to avoid Cloudflare Workers response size truncation
+// Next.js will auto-generate a sitemap index at /sitemap.xml pointing to /sitemap/0.xml, /sitemap/1.xml, etc.
+export async function generateSitemaps() {
+  return [
+    { id: 0 }, // homepage (20 entries)
+    { id: 1 }, // tool pages (200 entries)
+    { id: 2 }, // SEO landing pages (480 entries)
+    { id: 3 }, // blog listing + blog posts (720 entries)
+  ];
+}
 
-  // Homepage - all 20 locales (priority 1.0, weekly)
-  const homepageLanguages: Record<string, string> = {};
-  for (const locale of locales) {
-    homepageLanguages[locale] = `${baseUrl}/${locale}`;
+export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
+  const now = new Date();
+  const numId = Number(id);
+
+  switch (numId) {
+    case 0:
+      return generateHomepageSitemap(now);
+    case 1:
+      return generateToolsSitemap(now);
+    case 2:
+      return generateSeoPagesSitemap(now);
+    case 3:
+      return generateBlogSitemap(now);
+    default:
+      return [];
   }
-  homepageLanguages['x-default'] = `${baseUrl}/en`;
+}
+
+function generateHomepageSitemap(now: Date): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [];
+  const languages: Record<string, string> = {};
+  for (const locale of locales) {
+    languages[locale] = `${baseUrl}/${locale}`;
+  }
+  languages['x-default'] = `${baseUrl}/en`;
 
   for (const locale of locales) {
     entries.push({
@@ -23,19 +49,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 1.0,
-      alternates: { languages: homepageLanguages },
+      alternates: { languages },
     });
   }
+  return entries;
+}
 
-  // Tool pages - all 10 tools × 20 locales = 200 entries
-  // English: priority 0.9, Others: priority 0.8
+function generateToolsSitemap(now: Date): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [];
   for (const tool of tools) {
-    const toolLanguages: Record<string, string> = {};
+    const languages: Record<string, string> = {};
     for (const locale of locales) {
       const slug = tool.slugs[locale] || tool.slugs['en'];
-      toolLanguages[locale] = `${baseUrl}/${locale}/tools/${slug}`;
+      languages[locale] = `${baseUrl}/${locale}/tools/${slug}`;
     }
-    toolLanguages['x-default'] = `${baseUrl}/en/tools/${tool.slugs['en']}`;
+    languages['x-default'] = `${baseUrl}/en/tools/${tool.slugs['en']}`;
 
     for (const locale of locales) {
       const slug = tool.slugs[locale] || tool.slugs['en'];
@@ -44,19 +72,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: 'monthly',
         priority: locale === 'en' ? 0.9 : 0.8,
-        alternates: { languages: toolLanguages },
+        alternates: { languages },
       });
     }
   }
+  return entries;
+}
 
-  // SEO landing pages - all 24 pages × 20 locales = 480 entries
-  // English: priority 0.7, Others: priority 0.6
+function generateSeoPagesSitemap(now: Date): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [];
   for (const page of seoPages) {
-    const seoLanguages: Record<string, string> = {};
+    const languages: Record<string, string> = {};
     for (const locale of locales) {
-      seoLanguages[locale] = `${baseUrl}/${locale}/tools/s/${page.slug}`;
+      languages[locale] = `${baseUrl}/${locale}/tools/s/${page.slug}`;
     }
-    seoLanguages['x-default'] = `${baseUrl}/en/tools/s/${page.slug}`;
+    languages['x-default'] = `${baseUrl}/en/tools/s/${page.slug}`;
 
     for (const locale of locales) {
       entries.push({
@@ -64,13 +94,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: 'monthly',
         priority: locale === 'en' ? 0.7 : 0.6,
-        alternates: { languages: seoLanguages },
+        alternates: { languages },
       });
     }
   }
+  return entries;
+}
 
-  // Blog listing page - all locales
-  // English: priority 0.7, Others: priority 0.5
+function generateBlogSitemap(now: Date): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [];
+
+  // Blog listing pages
   const blogLanguages: Record<string, string> = {};
   for (const locale of locales) {
     blogLanguages[locale] = `${baseUrl}/${locale}/blog`;
@@ -87,8 +121,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Blog post entries - all locales
-  // English: priority 0.7, Others: priority 0.5
+  // Blog post pages
   for (const post of blogPosts) {
     const postLanguages: Record<string, string> = {};
     for (const locale of locales) {

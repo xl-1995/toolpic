@@ -15,6 +15,11 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: 'CCBot', disallow: '/' },
       { userAgent: 'Bytespider', disallow: '/' },
     ],
-    sitemap: 'https://toolpic.me/sitemap.xml',
+    sitemap: [
+      'https://toolpic.me/sitemap/0.xml',
+      'https://toolpic.me/sitemap/1.xml',
+      'https://toolpic.me/sitemap/2.xml',
+      'https://toolpic.me/sitemap/3.xml',
+    ],
   };
 }
