@@ -41,6 +41,8 @@
   "home": {
     "h1": "Cong cu hinh anh va video truc tuyen mien phi",
     "subtitle": "Nén, chuyển đổi và chỉnh sửa tệp đa phương tiện ngay lập tức. Không tải lên, không đăng ký, không giới hạn. Miễn phí 100% và riêng tư.",
+    "newBadgeLabel": "Mới",
+    "gptImage2Badge": "GPT Image 2 của OpenAI đã ra mắt — đọc hướng dẫn đầy đủ của chúng tôi",
     "startNow": "Bắt đầu ngay",
     "learnMore": "Tìm hiểu thêm",
     "imageSection": "Cong cu hinh anh",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "Tôi có thể trích xuất âm thanh từ video YouTube không?",
     "extractMp3Faq2A": "Công cụ này trích xuất âm thanh từ tệp video lưu trên thiết bị. Bạn cần lưu tệp video cục bộ trước. Công cụ không tải video từ URL hoặc nền tảng streaming. Khi bạn có tệp video cục bộ, bạn có thể trích xuất bản âm thanh thành MP3 ngay lập tức.",
     "extractMp3Faq3Q": "Video có được tải lên máy chủ trong quá trình trích xuất không?",
-    "extractMp3Faq3A": "Không, toàn bộ quá trình trích xuất chạy cục bộ trong trình duyệt bằng FFmpeg hỗ trợ WebAssembly. Tệp video không bao giờ rời thiết bị, đảm bảo quyền riêng tư hoàn toàn. Điều này đặc biệt quan trọng để trích xuất âm thanh từ bản ghi riêng tư, cuộc họp bảo mật hoặc nội dung video cá nhân."
+    "extractMp3Faq3A": "Không, toàn bộ quá trình trích xuất chạy cục bộ trong trình duyệt bằng FFmpeg hỗ trợ WebAssembly. Tệp video không bao giờ rời thiết bị, đảm bảo quyền riêng tư hoàn toàn. Điều này đặc biệt quan trọng để trích xuất âm thanh từ bản ghi riêng tư, cuộc họp bảo mật hoặc nội dung video cá nhân.",
+    "compressGptImage2": "Nén đầu ra GPT Image 2 trực tuyến - Miễn phí",
+    "compressGptImage2Desc": "Nén đầu ra PNG của GPT Image 2 từ mô hình hình ảnh mới của OpenAI. Giảm kích thước đầu ra 4K từ 12MB xuống dưới 300KB mà không mất chất lượng nhìn thấy được.",
+    "compressGptImage2HowTo": "Cách nén đầu ra GPT Image 2",
+    "compressGptImage2Step1": "Tải lên tệp GPT Image 2 của bạn",
+    "compressGptImage2Step1Desc": "Kéo và thả PNG hoặc JPG bạn tạo bằng GPT Image 2 của OpenAI hoặc ChatGPT. Hỗ trợ tệp lên đến 50MB.",
+    "compressGptImage2Step2": "Điều chỉnh mức nén",
+    "compressGptImage2Step2Desc": "Đặt chất lượng từ 75-90%. Đầu ra GPT Image 2 nén rất tốt — 82% thường trông giống hệt bản gốc của OpenAI.",
+    "compressGptImage2Step3": "Tải xuống ảnh đã nén",
+    "compressGptImage2Step3Desc": "Lưu tệp đã tối ưu. Một ảnh PNG 4K từ GPT Image 2 của OpenAI 12MB thường giảm xuống dưới 300KB.",
+    "compressGptImage2FaqTitle": "Câu hỏi thường gặp",
+    "compressGptImage2Faq1Q": "Vì sao đầu ra GPT Image 2 của OpenAI lại lớn như vậy?",
+    "compressGptImage2Faq1A": "GPT Image 2 tạo hình ảnh ở độ phân giải gốc 2048x2048 hoặc 4096x4096 và xuất ra dưới dạng PNG không nén theo mặc định, tạo ra tệp 8-15MB mỗi ảnh. Đối với trang web, email và mạng xã hội, bạn sẽ muốn nén đầu ra GPT Image 2 xuống mức 200-500KB mà vẫn không thấy mất chất lượng.",
+    "compressGptImage2Faq2Q": "Nén có phá vỡ siêu dữ liệu watermark C2PA của OpenAI không?",
+    "compressGptImage2Faq2A": "OpenAI nhúng siêu dữ liệu nguồn gốc C2PA vào đầu ra của GPT Image 2. Nén JPEG thường bảo toàn siêu dữ liệu này. Nếu bạn cần loại bỏ siêu dữ liệu hoàn toàn, hãy dùng công cụ chuyển đổi ảnh để mã hóa lại sang định dạng mới, nhưng lưu ý điều này sẽ xóa chữ ký xác thực mà OpenAI gắn vào các bản render GPT Image 2.",
+    "compressGptImage2Faq3Q": "Đầu ra GPT Image 2 của tôi có được tải lên máy chủ không?",
+    "compressGptImage2Faq3A": "Không. Toàn bộ việc nén chạy cục bộ trong trình duyệt bằng WebAssembly. Đầu ra GPT Image 2 của OpenAI không bao giờ rời thiết bị của bạn, điều này rất quan trọng nếu prompt có chứa tham chiếu bảo mật, sản phẩm chưa phát hành hoặc thương hiệu độc quyền.",
+    "resizeAiImage": "Đổi cỡ ảnh AI — GPT Image 2, Midjourney, DALL-E",
+    "resizeAiImageDesc": "Thay đổi kích thước ảnh do AI tạo từ GPT Image 2, ChatGPT, DALL-E, Midjourney hoặc Nano Banana theo kích thước Instagram, Twitter, Facebook, YouTube.",
+    "resizeAiImageHowTo": "Cách thay đổi kích thước ảnh do AI tạo",
+    "resizeAiImageStep1": "Tải lên ảnh AI",
+    "resizeAiImageStep1Desc": "Thả vào bất kỳ ảnh PNG hoặc JPG nào do AI tạo từ GPT Image 2, OpenAI ChatGPT, Midjourney, DALL-E hoặc Nano Banana Pro.",
+    "resizeAiImageStep2": "Chọn kích thước mục tiêu",
+    "resizeAiImageStep2Desc": "Chọn mẫu cho mạng xã hội — 1080x1080 Instagram, 1200x630 OG card, 1500x500 tiêu đề X/Twitter — hoặc đặt kích thước tùy chỉnh.",
+    "resizeAiImageStep3": "Tải xuống ảnh đã đổi kích thước",
+    "resizeAiImageStep3Desc": "Cắt và tải xuống. Tải trực tiếp kết quả lên nền tảng mục tiêu mà không bị bất ngờ khi cắt ảnh.",
+    "resizeAiImageFaqTitle": "Câu hỏi thường gặp",
+    "resizeAiImageFaq1Q": "Thay đổi kích thước có làm mất chất lượng ảnh AI không?",
+    "resizeAiImageFaq1A": "Thu nhỏ từ đầu ra GPT Image 2 độ phân giải 2K hoặc 4K xuống 1080px thực tế không mất chất lượng — bạn chỉ loại bỏ những pixel mà nền tảng đích sẽ bỏ đi. Phóng to từ đầu ra nhỏ mới khiến chất lượng giảm, vì vậy luôn tạo bản render GPT Image 2 ở độ phân giải cao nhất mà OpenAI hỗ trợ.",
+    "resizeAiImageFaq2Q": "Nên render kích thước nào trong GPT Image 2 cho Instagram?",
+    "resizeAiImageFaq2A": "Tạo ở 2048x2048 trong GPT Image 2 rồi cắt còn 1080x1080 cho bài Instagram, 1080x1350 cho bài chân dung 4:5 hoặc 1080x1920 cho Stories và Reels. Số pixel dư giúp bạn linh hoạt khi cắt mà không cần tạo lại trong OpenAI.",
+    "resizeAiImageFaq3Q": "Có hoạt động với đầu ra Midjourney và DALL-E không?",
+    "resizeAiImageFaq3A": "Có. Công cụ thay đổi kích thước xử lý mọi hình ảnh bất kể nguồn. PNG từ GPT Image 2, WebP từ Nano Banana Pro, JPG từ Midjourney — tất cả đều hoạt động giống nhau. Tệp gốc của bạn không được gửi đi đâu cả.",
+    "watermarkAiImage": "Đóng dấu watermark ảnh AI trực tuyến - Miễn phí cho GPT Image 2 & Midjourney",
+    "watermarkAiImageDesc": "Thêm watermark văn bản hoặc logo tùy chỉnh vào ảnh AI từ GPT Image 2, OpenAI DALL-E, Midjourney hoặc Nano Banana. Bảo vệ và công khai tác phẩm AI trước khi chia sẻ.",
+    "watermarkAiImageHowTo": "Cách đóng watermark ảnh AI",
+    "watermarkAiImageStep1": "Tải lên ảnh do AI tạo",
+    "watermarkAiImageStep1Desc": "Thả vào ảnh PNG hoặc JPG từ GPT Image 2, OpenAI ChatGPT, Midjourney hoặc bất kỳ trình tạo ảnh AI nào.",
+    "watermarkAiImageStep2": "Thêm văn bản hoặc logo",
+    "watermarkAiImageStep2Desc": "Nhập văn bản watermark hoặc tải logo. Đặt độ mờ, vị trí, cỡ chữ và màu sắc cho kết quả chuyên nghiệp.",
+    "watermarkAiImageStep3": "Tải xuống ảnh có watermark",
+    "watermarkAiImageStep3Desc": "Lưu ảnh đã bảo vệ. Chia sẻ trên mạng xã hội hoặc portfolio mà vẫn rõ nguồn gốc.",
+    "watermarkAiImageFaqTitle": "Câu hỏi thường gặp",
+    "watermarkAiImageFaq1Q": "Có cần đóng watermark cho đầu ra GPT Image 2 không?",
+    "watermarkAiImageFaq1A": "Về mặt đạo đức và thường là pháp lý, có. Các nền tảng như X, Instagram và các dịch vụ của Meta ngày càng yêu cầu công khai khi nội dung được tạo bởi AI. Một watermark nhỏ '#AI' hoặc 'Generated with GPT Image 2' trên đầu ra OpenAI giúp bạn tuân thủ và minh bạch với khán giả.",
+    "watermarkAiImageFaq2Q": "Watermark có ảnh hưởng đến siêu dữ liệu C2PA của OpenAI không?",
+    "watermarkAiImageFaq2A": "Chỉnh sửa pixel làm hỏng chữ ký C2PA vì hash tệp thay đổi. Đây là hành vi đúng theo thiết kế. Nếu cần giữ chữ ký nguồn gốc của OpenAI trên đầu ra GPT Image 2, hãy giữ một bản lưu trữ riêng với C2PA gốc còn nguyên vẹn.",
+    "watermarkAiImageFaq3Q": "Tôi có thể đóng watermark nhiều ảnh AI cùng lúc không?",
+    "watermarkAiImageFaq3A": "Có. Watermark hàng loạt được hỗ trợ. Tải lên một thư mục đầu ra GPT Image 2 hoặc Midjourney, cấu hình watermark một lần, rồi áp dụng cho toàn bộ lô. Xử lý chạy cục bộ trong trình duyệt của bạn.",
+    "removeBgAiImage": "Xóa nền ảnh AI - Công cụ trực tuyến miễn phí",
+    "removeBgAiImageDesc": "Xóa nền từ đầu ra của OpenAI GPT Image 2, DALL-E, Midjourney hoặc ChatGPT chỉ bằng một cú nhấp. Dùng AI, chạy trong trình duyệt. Kết quả PNG trong suốt hoàn hảo.",
+    "removeBgAiImageHowTo": "Cách xóa nền ảnh AI",
+    "removeBgAiImageStep1": "Tải lên ảnh AI",
+    "removeBgAiImageStep1Desc": "Thả vào ảnh do AI tạo từ GPT Image 2, OpenAI ChatGPT, Midjourney hoặc bất kỳ trình tạo ảnh nào.",
+    "removeBgAiImageStep2": "AI xóa nền",
+    "removeBgAiImageStep2Desc": "AI phía máy khách của chúng tôi phát hiện chủ thể chính và tự động xóa nền trong 2-5 giây.",
+    "removeBgAiImageStep3": "Tải xuống PNG trong suốt",
+    "removeBgAiImageStep3Desc": "Lưu ảnh cắt dưới dạng PNG trong suốt, sẵn sàng đặt lên bất kỳ nền nào hoặc đưa vào mockup sản phẩm.",
+    "removeBgAiImageFaqTitle": "Câu hỏi thường gặp",
+    "removeBgAiImageFaq1Q": "Xóa nền có hoạt động tốt với đầu ra GPT Image 2 không?",
+    "removeBgAiImageFaq1A": "Có — đầu ra sạch, sáng rõ của GPT Image 2 là lý tưởng để xóa nền. Mô hình của OpenAI tạo chủ thể với viền sắc nét và độ tương phản nền-chủ thể tốt, khiến việc cắt ảnh bằng AI chính xác hơn cả ảnh chụp thực tế.",
+    "removeBgAiImageFaq2Q": "Có thể xóa nền khỏi các cảnh AI phức tạp không?",
+    "removeBgAiImageFaq2A": "Với cảnh có nhiều chủ thể hoặc nền phức tạp, AI sẽ trích xuất chủ thể tiền cảnh nổi bật nhất. Nếu GPT Image 2 tạo chân dung với nền phức tạp thì việc xóa vẫn hoạt động tốt. Với cảnh đa chủ thể, hãy prompt lại trong OpenAI với nền đơn giản hơn trước.",
+    "removeBgAiImageFaq3Q": "Ảnh có được tải lên máy chủ không?",
+    "removeBgAiImageFaq3A": "Không. Xóa nền chạy hoàn toàn trong trình duyệt bằng AI phía máy khách. Đầu ra GPT Image 2 và bất kỳ prompt bảo mật nào được nhúng trong siêu dữ liệu đều không rời thiết bị của bạn.",
+    "convertGptImageToJpg": "Chuyển đổi GPT Image 2 PNG sang JPG trực tuyến - Miễn phí",
+    "convertGptImageToJpgDesc": "Chuyển đổi đầu ra PNG của OpenAI GPT Image 2, DALL-E hoặc ChatGPT sang định dạng JPG. Giảm kích thước tệp tới 80% và tối đa hóa tương thích thiết bị.",
+    "convertGptImageToJpgHowTo": "Cách chuyển đổi GPT Image 2 PNG sang JPG",
+    "convertGptImageToJpgStep1": "Tải lên GPT Image 2 PNG",
+    "convertGptImageToJpgStep1Desc": "Thả tệp PNG tạo bởi OpenAI GPT Image 2, ChatGPT hoặc OpenAI Image API.",
+    "convertGptImageToJpgStep2": "Chọn định dạng JPG",
+    "convertGptImageToJpgStep2Desc": "Chọn JPG làm định dạng đầu ra và đặt chất lượng từ 85-95%. Chất lượng cao giữ chi tiết; 85% giảm một nửa kích thước tệp.",
+    "convertGptImageToJpgStep3": "Tải xuống tệp JPG",
+    "convertGptImageToJpgStep3Desc": "Lưu tệp JPG đã chuyển. Một ảnh PNG GPT Image 2 12MB từ OpenAI thường chuyển thành JPG 1-2MB với chất lượng gần như giống hệt.",
+    "convertGptImageToJpgFaqTitle": "Câu hỏi thường gặp",
+    "convertGptImageToJpgFaq1Q": "Vì sao nên chuyển GPT Image 2 PNG của OpenAI sang JPG?",
+    "convertGptImageToJpgFaq1A": "PNG không mất dữ liệu nhưng tạo tệp rất lớn. Đầu ra PNG gốc của GPT Image 2 từ OpenAI nằm ở mức 8-15MB. JPG nén nội dung ảnh xuống còn 10-20% kích thước PNG mà không thấy mất chất lượng. Với web, email và mạng xã hội, JPG là lựa chọn thực tế.",
+    "convertGptImageToJpgFaq2Q": "Chuyển đổi có làm mất chất lượng ảnh không?",
+    "convertGptImageToJpgFaq2A": "JPG dùng nén có mất mát nên về mặt kỹ thuật có mất chút chất lượng. Nhưng ở chất lượng 90%, sự khác biệt là vô hình với mắt người trên nội dung ảnh như đầu ra GPT Image 2. Với đồ họa có viền sắc hoặc trong suốt, nên giữ lại PNG.",
+    "convertGptImageToJpgFaq3Q": "Tôi có mất độ trong suốt khi chuyển sang JPG không?",
+    "convertGptImageToJpgFaq3A": "Có — JPG không hỗ trợ trong suốt. Nếu đầu ra OpenAI GPT Image 2 của bạn có nền trong suốt, JPG sẽ tô trắng. Hãy dùng WebP hoặc giữ PNG cho ảnh cắt trong suốt."
   },
   "footer": {
     "tagline": "Cong cu truc tuyen mien phi cho hinh anh va video. 100% trong trinh duyet, tep cua ban khong bao gio roi khoi thiet bi.",
@@ -761,16 +843,94 @@
     "readMore": "Đọc thêm",
     "relatedTools": "Công cụ liên quan",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2: Mọi điều chúng ta biết về mô hình ảnh mới của OpenAI (Tháng 4/2026)",
+        "metaTitle": "Hướng dẫn GPT Image 2: mô hình ảnh mới của OpenAI (2026)",
+        "metaDescription": "Hướng dẫn đầy đủ về GPT Image 2 của OpenAI (tháng 4/2026). Tính năng, ngày phát hành, giá, so sánh với GPT Image 1.5 và Nano Banana Pro.",
+        "excerpt": "GPT Image 2 của OpenAI đang được triển khai cho người dùng ChatGPT Plus từ tháng 4/2026. Dưới đây là mọi rò rỉ đã xác nhận về GPT Image 2, timeline phát hành thực tế của OpenAI và cách nó so sánh với GPT Image 1.5 và Nano Banana Pro.",
+        "content": [
+          {
+            "heading": "GPT Image 2 là gì?",
+            "text": "GPT Image 2 là mô hình tạo ảnh thế hệ tiếp theo của OpenAI, dự kiến thay thế GPT Image 1.5 hiện tại. Khác với các mô hình ảnh trước đây của OpenAI như DALL-E 3 hay trình tạo ảnh native của GPT-4o, GPT Image 2 chạy trên một kiến trúc hoàn toàn mới và độc lập — nó không còn được gắn vào pipeline của GPT-4o nữa. Sự tách biệt này là một bước lớn, vì nó cho phép OpenAI tối ưu GPT Image 2 chuyên cho chất lượng ảnh thay vì phải đánh đổi đa phương thức. Đối với người dùng ChatGPT thông thường, GPT Image 2 có nghĩa là ảnh sắc nét hơn, chính xác hơn và render chữ tốt hơn rất nhiều. Đối với nhà phát triển, nó sẽ sớm có nghĩa là một endpoint API OpenAI riêng biệt khi GPT Image 2 chính thức ra mắt. Điều này đặc biệt quan trọng với những ai cần tạo ảnh thương mại hay trưng bày chất lượng cao từ OpenAI."
+          },
+          {
+            "heading": "Ngày phát hành GPT Image 2 & trạng thái hiện tại (tháng 4/2026)",
+            "text": "OpenAI vẫn chưa chính thức công bố GPT Image 2, nhưng ba mô hình ẩn danh — có tên mã maskingtape-alpha, gaffertape-alpha và packingtape-alpha — đã xuất hiện trên LM Arena đầu tháng 4/2026 và nhanh chóng được cộng đồng xác định là mô hình ảnh kế tiếp của OpenAI. Đến ngày 16/4, GPT Image 2 được phát hiện trong các bài test A/B bên trong giao diện web ChatGPT, và đến ngày 19/4 các thuê bao ChatGPT Plus và Pro có phí bắt đầu báo cáo họ đã được cấp quyền truy cập GPT Image 2. Cửa sổ phát hành công khai đồng thuận là cuối tháng 4 đến giữa tháng 5/2026. OpenAI cũng đã lên lịch đóng cửa hoàn toàn DALL-E 2 và DALL-E 3 vào ngày 12/5/2026 — ngày này có lẽ không phải trùng hợp. Dòng GPT Image, với GPT Image 2 là flagship, sẽ là con đường chuyển đổi chính thức duy nhất cho những ai vẫn dùng DALL-E qua OpenAI API."
+          },
+          {
+            "heading": "Các tính năng mới trong GPT Image 2 thực sự quan trọng",
+            "text": "Nâng cấp chính trong GPT Image 2 là render chữ. Các mô hình ảnh trước đó của OpenAI dừng ở mức 90-95% độ chính xác, nghe có vẻ tốt cho đến khi bạn thử tạo biển hiệu cửa hàng hoặc mockup UI và một nửa chữ cái bị lỗi. Người dùng thử nghiệm sớm cho biết GPT Image 2 vượt 99% độ chính xác chữ, nghĩa là biển hiệu có thể đọc được, nhãn rõ ràng và mockup giao diện trông như thật trực tiếp từ OpenAI. GPT Image 2 cũng đã loại bỏ sắc vàng ám ảnh đầu ra GPT-4o — trắng cuối cùng cũng là trắng, không phải kem ấm. Độ phân giải tối đa là 2048x2048 hoặc thậm chí 4096x4096 native, một bước tiến lớn cho bất kỳ ai tạo hero image, poster hoặc tài sản in từ OpenAI. Thêm vào đó là nhúng nhân vật bền vững (cùng một khuôn mặt qua nhiều prompt GPT Image 2), kiến thức thế giới tốt hơn, và tuân thủ hướng dẫn sạch sẽ hơn, GPT Image 2 trông như mô hình ảnh đầu tiên của OpenAI có thể thực sự cạnh tranh với Midjourney và Nano Banana Pro của Google trên đầu ra thương mại."
+          },
+          {
+            "heading": "GPT Image 2 vs GPT Image 1.5 vs Nano Banana Pro",
+            "text": "So với tiền nhiệm của chính mình, GPT Image 2 đè bẹp GPT Image 1.5 về render chữ, độ chính xác màu sắc và tuân thủ prompt. Cuộc đối đầu thú vị hơn là GPT Image 2 vs Nano Banana Pro (Gemini 3 Pro Image của Google, ra mắt tháng 11/2025). Trong các bài test mù trên LM Arena, GPT Image 2 dẫn đầu về độ chính xác chữ, phục hồi UI và kiến thức thế giới. Nano Banana Pro vẫn vượt trội ở một số nhiệm vụ suy luận không gian — phản chiếu gương của Rubik's Cube, che khuất phức tạp và các trường hợp biên tương tự. Về giá, tín hiệu sớm từ phía OpenAI cho thấy GPT Image 2 sẽ có giá 0,15-0,20 USD mỗi ảnh qua API, so với 0,045-0,151 USD của Nano Banana 2. Vì vậy GPT Image 2 được định vị là lựa chọn cao cấp. Với hầu hết trường hợp sử dụng thương mại — sáng tạo quảng cáo, bài đăng xã hội, mockup sản phẩm — khoảng cách chất lượng GPT Image 2 xứng đáng với chi phí thêm. Với workflow tạo hàng loạt, Nano Banana Pro vẫn thắng về kinh tế."
+          },
+          {
+            "heading": "Cách truy cập GPT Image 2 hôm nay",
+            "text": "Tính đến tháng 4/2026, quyền truy cập vào GPT Image 2 bị hạn chế. Con đường dễ nhất là gói ChatGPT Plus hoặc Pro — OpenAI đang triển khai quyền truy cập A/B vào GPT Image 2 dần dần, nên một số người dùng có và một số thì không. Nếu bạn chưa thấy GPT Image 2, hãy thử prompt ChatGPT với 'high-resolution image with text' và kiểm tra xem chất lượng đầu ra có nhảy vọt không. Khi OpenAI bật công khai, GPT Image 2 sẽ có thể truy cập trong cả ChatGPT và qua OpenAI Image API (thay thế gpt-image-1.5). Nhà phát triển nên kỳ vọng một model ID gpt-image-2 riêng. Lưu ý rằng OpenAI chưa công bố tài liệu API GPT Image 2, vì vậy bất kỳ 'GPT Image 2 API wrapper' bên thứ ba nào bạn thấy ngay bây giờ đều không chính thức và rủi ro — hãy chờ OpenAI ra mắt chính thức nếu bạn đang xây dựng trên nó."
+          },
+          {
+            "heading": "Hậu xử lý đầu ra GPT Image 2 của bạn",
+            "text": "Đây là vấn đề thực tế với đầu ra GPT Image 2 4K native: các tệp PNG rất lớn. Một bản render GPT Image 2 4096x4096 đơn lẻ nằm ở khoảng 8-15MB, quá lớn cho trang web hoặc email. Bạn sẽ muốn nén đầu ra GPT Image 2 xuống dưới 300KB cho hầu hết trường hợp sử dụng. Trình nén ảnh của ToolPic xử lý việc này ngay trong trình duyệt — thả PNG GPT Image 2 vào, đặt chất lượng 82-88% và bạn nhận được tệp trông giống hệt với kích thước chỉ 10-15% bản gốc. Nếu bạn dùng đầu ra GPT Image 2 cho mạng xã hội, bạn cũng sẽ cần thay đổi kích thước: 1080x1080 cho Instagram, 1200x630 cho OpenGraph, 1500x500 cho tiêu đề X/Twitter. Công cụ crop ảnh của ToolPic có preset cho tất cả. Cần bản trong suốt của mockup sản phẩm GPT Image 2? Trình xóa nền hoạt động trên mọi đầu ra GPT Image 2. Mọi thứ chạy trong trình duyệt, nên ảnh do OpenAI tạo không bao giờ bị tải lên máy chủ của chúng tôi — điều này quan trọng nếu prompt GPT Image 2 có chứa bất kỳ thông tin bảo mật nào."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "Prompt GPT Image 2 hay nhất: 30+ ví dụ viral từ mô hình mới của OpenAI (2026)",
+        "metaTitle": "Prompt GPT Image 2 hay nhất — Ví dụ viral & mẫu (2026)",
+        "metaDescription": "Hơn 30 prompt GPT Image 2 viral từ cộng đồng OpenAI. Mẫu prompt chân dung, mockup UI, cảnh đô thị và render chữ cho GPT Image 2 bạn có thể sao chép và chế",
+        "excerpt": "Rò rỉ GPT Image 2 từ OpenAI đã tạo nên làn sóng prompt viral trên X/Twitter. Dưới đây là những prompt GPT Image 2 hay nhất, phân loại — sao chép, dán và chế lại cho ảnh AI của riêng bạn từ OpenAI.",
+        "content": [
+          {
+            "heading": "Vì sao prompt GPT Image 2 khác biệt",
+            "text": "Nếu bạn đã viết prompt cho DALL-E 3, Midjourney hoặc GPT Image 1.5, tin tốt là GPT Image 2 phần lớn vẫn theo cùng quy tắc. Phần bất ngờ là GPT Image 2 của OpenAI phản hồi prompt dày đặc, cụ thể, nhiều mệnh đề tốt hơn rất nhiều. Với các mô hình cũ, nhồi quá nhiều chi tiết vào một prompt thường khiến nó bỏ qua phần tử. GPT Image 2 xử lý được prompt 200 từ mô tả cảnh, chủ thể, ánh sáng, góc máy và bảng màu cùng lúc — và thực sự render từng phần tử. Thay đổi khác là chữ. Giờ bạn có thể viết prompt GPT Image 2 như 'một biển quán cà phê ghi BLUE BOTTLE, với bảng menu bên dưới liệt kê espresso, cappuccino và cortado' và mô hình OpenAI sẽ tái tạo chữ đó rõ ràng. Điều đó không đáng tin cậy trước GPT Image 2. Mỗi danh mục prompt dưới đây tận dụng một trong những điểm mạnh này của GPT Image 2."
+          },
+          {
+            "heading": "Prompt GPT Image 2 viral hàng đầu từ X/Twitter",
+            "text": "Ví dụ GPT Image 2 được chia sẻ nhiều nhất trên X là cảnh Minecraft góc nhìn thứ nhất đặt ở Manhattan — prompt GPT Image 2 pha trộn thẩm mỹ game với địa lý thực tế và nailed cả hai. Một hit khác là 'Tài liệu nội bộ Claude Opus 5' giả render bên trong một thế giới Minecraft, đạt 439K lượt xem. Một prompt GPT Image 2 về Times Square với 150+ người đi bộ đa dạng, taxi vàng, vỉa hè ướt và điểm sáng đặc biệt đã viral vì mô hình OpenAI xử lý mọi phần tử và chữ trên biển vẫn được viết đúng chính tả. Các prompt GPT Image 2 theo phong cách thời kỳ cũng trở nên thịnh hành: 'Oda Nobunaga soạn một bài đăng X vào đêm trước sự cố Honno-ji' là một trong các ví dụ viral ban đầu, kết hợp độ chính xác lịch sử với bố cục UI mạng xã hội hiện đại. Điểm chung qua các prompt GPT Image 2 viral: các cảnh mà OpenAI phải xây dựng từ kiến thức thế giới, không phải chỉ sao chép từ dữ liệu huấn luyện."
+          },
+          {
+            "heading": "Prompt GPT Image 2 cho chân dung & nhân vật",
+            "text": "Với chân dung, nhúng nhân vật bền vững của GPT Image 2 có nghĩa là bạn có thể giữ cùng một khuôn mặt qua nhiều bản render OpenAI. Bắt đầu prompt GPT Image 2 bằng mô tả nhân vật chi tiết — tuổi, dân tộc, đặc điểm nổi bật, phong cách trang phục — sau đó thêm ánh sáng và tâm trạng. Ví dụ prompt GPT Image 2: 'Chân dung editorial của một phụ nữ Hàn Quốc 34 tuổi tóc đen cắt ngắn và hoa tai bạc lục giác, ánh sáng cửa sổ mềm từ bên trái, độ sâu trường ảnh nông, gam màu teal và đào nhạt, chụp bằng ống kính 85mm f/1.8.' Trong các prompt GPT Image 2 tiếp theo, mô tả đúng những đặc điểm đó để duy trì tính nhất quán giữa các bản render. Với nhân vật được cách điệu, tham chiếu đến nghệ sĩ hoặc thời đại cụ thể: 'phong cách art nouveau Mucha', 'nền Studio Ghibli', 'anime cel-shaded thập niên 1980'. GPT Image 2 tốt hơn đáng kể so với GPT Image 1.5 trong việc tôn trọng các thẻ phong cách này từ OpenAI."
+          },
+          {
+            "heading": "Prompt GPT Image 2 cho mockup UI & sản phẩm",
+            "text": "Mockup UI là nơi GPT Image 2 thực sự tách biệt khỏi các mô hình OpenAI cũ. Thử prompt GPT Image 2 này: 'Một màn hình ứng dụng iOS sạch cho ứng dụng thiền định, hiển thị màn hình phiên hàng ngày. Thanh trên cùng có mũi tên quay lại và biểu tượng cài đặt. Trung tâm: bộ đếm thời gian hình tròn lớn hiển thị 12:34 còn lại. Bên dưới: ba chip tùy chọn ghi Breath, Body Scan, Sleep. Thanh tab dưới cùng có các tab Home, Sessions, Profile.' Trong GPT Image 2 chữ sẽ render đúng, bố cục sẽ hợp lý và khoảng cách sẽ đáng tin. Với ảnh sản phẩm trong GPT Image 2: 'Ảnh sản phẩm tối giản của một cốc cà phê gốm đen mờ trên bề mặt bê tông, ánh sáng định hướng mềm từ phía trên bên trái, hơi nước nhẹ bốc lên, độ sâu trường ảnh nông, hạt nhẹ, phong cách tạp chí editorial.' GPT Image 2 xử lý render chất liệu — mờ vs bóng, gốm vs kim loại — tốt hơn đáng kể so với các mô hình ảnh OpenAI trước đó."
+          },
+          {
+            "heading": "Prompt GPT Image 2 nặng chữ (Poster, Biển, Tài liệu)",
+            "text": "Đây là danh mục mà đột phá render chữ của GPT Image 2 thực sự được đền đáp. Ví dụ prompt poster GPT Image 2: 'Poster du lịch cổ điển cho Kyoto, phong cách thập niên 1950. Chữ serif lớn trên đỉnh ghi KYOTO. Phụ đề chữ nhỏ hơn ghi Ancient Capital of Japan. Chữ thanh dưới cùng ghi Japan National Railways. Minh họa hoa anh đào và chùa năm tầng.' GPT Image 2 sẽ render cả ba khối chữ đúng từ OpenAI — điều đó gần như không thể trước đây. Với bìa tạp chí, thanh tin tức, biển đường phố hoặc mặt tiền cửa hàng trong GPT Image 2, luôn đánh vần chính xác chữ nào nên xuất hiện, trong dấu ngoặc kép, kèm gợi ý font nếu bạn quan tâm ('sans-serif', 'script', 'condensed caps'). Càng cụ thể vị trí chữ trong prompt GPT Image 2 của bạn, đầu ra OpenAI càng đáng tin."
+          },
+          {
+            "heading": "Kết quả hoàn hảo: Các mẫu prompt GPT Image 2 hoạt động",
+            "text": "Ba mẫu liên tục tạo ra đầu ra GPT Image 2 mạnh. Đầu tiên: cảnh rồi chủ thể rồi phong cách. 'Sương mù buổi sáng tại một đồn điền cà phê Việt Nam, một nông dân trẻ đổ hạt vào trống kim loại, ánh sáng giờ vàng, phong cách điện ảnh siêu thực.' Thứ hai: độ phân giải và tỷ lệ khung hình rõ ràng trong prompt GPT Image 2 của bạn. Thêm 'tỷ lệ 16:9, chi tiết 4K, lấy nét sắc vào chủ thể'. GPT Image 2 thực sự tôn trọng những điều này giờ đây. Thứ ba: ràng buộc phủ định. 'Không chữ, không watermark, không logo' ngăn GPT Image 2 của OpenAI thêm biển hiệu thừa. Nếu bạn tạo nhiều biến thể GPT Image 2, tái sử dụng cùng seed hoặc ảnh tham chiếu để giữ phong cách nhất quán. Khi bạn có đầu ra GPT Image 2 ưng ý, tải xuống và hậu xử lý với ToolPic — nén PNG 4K xuống dưới 300KB bằng trình nén ảnh, cắt theo kích thước mục tiêu bằng công cụ crop, hoặc xóa nền bằng công cụ bg-remove nếu bạn cần ảnh cắt từ bản render GPT Image 2."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Kích thước ảnh Instagram Story chuẩn và cách resize (Hướng dẫn 2026)",
         "metaTitle": "Kích thước ảnh Instagram Story chuẩn và cách resize 2026 | ToolPic Blog",
         "metaDescription": "Kích thước ảnh chuẩn cho Instagram Story là bao nhiêu? Tìm hiểu kích thước 1080x1920, cách resize và mẹo tối ưu ảnh Story.",
         "excerpt": "Ảnh đăng Instagram Story bị cắt xén hoặc mờ? Tìm hiểu kích thước chuẩn và cách resize để Story luôn đẹp hoàn hảo.",
         "content": [
-          {"heading": "Kích thước Instagram Story năm 2026", "text": "Kích thước lý tưởng cho Instagram Story là 1080x1920 pixel, tỷ lệ 9:16. Tối thiểu phải đạt 720x1280 pixel, nếu không ảnh sẽ bị mờ. Giữ chữ và nội dung quan trọng trong vùng an toàn 80% ở giữa màn hình. Phần 10% trên và dưới sẽ bị che bởi tên người dùng, thanh trả lời và nút vuốt lên. Cả JPG và PNG đều được chấp nhận, dung lượng file không quá 30MB."},
-          {"heading": "Chuyện gì xảy ra khi đăng sai kích thước", "text": "Khi bạn đăng ảnh sai kích thước, Instagram tự động cắt hoặc kéo giãn ảnh. Ảnh vuông (1:1) sẽ có viền đen trên dưới trông rất xấu. Ảnh ngang bị cắt mất phần trên và dưới. Phiền nhất là khi chữ quan trọng bị ẩn sau các thành phần giao diện như avatar hay thanh nhắn tin. Nên resize trước khi đăng luôn cho chắc ăn."},
-          {"heading": "Cách resize ảnh cho Instagram Stories", "text": "Bước đầu tiên là crop ảnh theo tỷ lệ 9:16. Đặt chiều rộng 1080 pixel, chiều cao sẽ tự động là 1920. Giữ dung lượng file dưới 8MB để upload nhanh và giữ chất lượng. Dùng color profile sRGB vì Instagram chuyển đổi các profile khác sang sRGB, có thể làm lệch màu. Lưu dạng JPEG chất lượng 85-90% là đủ đẹp mà file nhẹ."},
-          {"heading": "Resize nhanh với ToolPic", "text": "Mở công cụ Image Crop của ToolPic và chọn preset Instagram Story. Tỷ lệ 9:16 sẽ được đặt tự động. Kéo ảnh đến vị trí ưng ý rồi crop. Sau đó dùng Image Compressor để giảm dung lượng xuống dưới 8MB. Toàn bộ quá trình diễn ra ngay trên trình duyệt, ảnh không bị upload lên đâu cả. Chỉ hai phút là có ảnh sẵn sàng đăng Story."}
+          {
+            "heading": "Kích thước Instagram Story năm 2026",
+            "text": "Kích thước lý tưởng cho Instagram Story là 1080x1920 pixel, tỷ lệ 9:16. Tối thiểu phải đạt 720x1280 pixel, nếu không ảnh sẽ bị mờ. Giữ chữ và nội dung quan trọng trong vùng an toàn 80% ở giữa màn hình. Phần 10% trên và dưới sẽ bị che bởi tên người dùng, thanh trả lời và nút vuốt lên. Cả JPG và PNG đều được chấp nhận, dung lượng file không quá 30MB."
+          },
+          {
+            "heading": "Chuyện gì xảy ra khi đăng sai kích thước",
+            "text": "Khi bạn đăng ảnh sai kích thước, Instagram tự động cắt hoặc kéo giãn ảnh. Ảnh vuông (1:1) sẽ có viền đen trên dưới trông rất xấu. Ảnh ngang bị cắt mất phần trên và dưới. Phiền nhất là khi chữ quan trọng bị ẩn sau các thành phần giao diện như avatar hay thanh nhắn tin. Nên resize trước khi đăng luôn cho chắc ăn."
+          },
+          {
+            "heading": "Cách resize ảnh cho Instagram Stories",
+            "text": "Bước đầu tiên là crop ảnh theo tỷ lệ 9:16. Đặt chiều rộng 1080 pixel, chiều cao sẽ tự động là 1920. Giữ dung lượng file dưới 8MB để upload nhanh và giữ chất lượng. Dùng color profile sRGB vì Instagram chuyển đổi các profile khác sang sRGB, có thể làm lệch màu. Lưu dạng JPEG chất lượng 85-90% là đủ đẹp mà file nhẹ."
+          },
+          {
+            "heading": "Resize nhanh với ToolPic",
+            "text": "Mở công cụ Image Crop của ToolPic và chọn preset Instagram Story. Tỷ lệ 9:16 sẽ được đặt tự động. Kéo ảnh đến vị trí ưng ý rồi crop. Sau đó dùng Image Compressor để giảm dung lượng xuống dưới 8MB. Toàn bộ quá trình diễn ra ngay trên trình duyệt, ảnh không bị upload lên đâu cả. Chỉ hai phút là có ảnh sẵn sàng đăng Story."
+          }
         ],
         "relatedToolIds": "image-crop,image-compressor"
       },

@@ -35,6 +35,12 @@ export const seoPages: SeoPage[] = [
   { slug: 'add-watermark-to-photo', toolId: 'image-watermark', titleKey: 'addWatermark', descKey: 'addWatermarkDesc' },
   { slug: 'merge-photos-online', toolId: 'image-merge', titleKey: 'mergePhotos', descKey: 'mergePhotosDesc' },
   { slug: 'extract-mp3-from-video', toolId: 'video-extract-audio', titleKey: 'extractMp3', descKey: 'extractMp3Desc' },
+  // GPT Image 2 / AI image post-processing
+  { slug: 'compress-gpt-image-2-output', toolId: 'image-compressor', titleKey: 'compressGptImage2', descKey: 'compressGptImage2Desc' },
+  { slug: 'resize-ai-generated-image', toolId: 'image-crop', titleKey: 'resizeAiImage', descKey: 'resizeAiImageDesc' },
+  { slug: 'watermark-ai-generated-image', toolId: 'image-watermark', titleKey: 'watermarkAiImage', descKey: 'watermarkAiImageDesc' },
+  { slug: 'remove-background-ai-image', toolId: 'image-bg-remove', titleKey: 'removeBgAiImage', descKey: 'removeBgAiImageDesc' },
+  { slug: 'convert-gpt-image-to-jpg', toolId: 'image-converter', titleKey: 'convertGptImageToJpg', descKey: 'convertGptImageToJpgDesc' },
 ];
 
 export function getSeoPageBySlug(slug: string): SeoPage | undefined {

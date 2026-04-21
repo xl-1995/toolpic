@@ -41,6 +41,8 @@
   "home": {
     "h1": "Gratis online afbeelding- en videotools",
     "subtitle": "Comprimeer, converteer en bewerk uw mediabestanden direct. Geen uploads, geen registratie, geen limieten. 100% gratis en privé.",
+    "newBadgeLabel": "Nieuw",
+    "gptImage2Badge": "GPT Image 2 van OpenAI is er — lees onze volledige gids",
     "startNow": "Nu beginnen",
     "learnMore": "Meer weten",
     "imageSection": "Afbeeldingstools",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "Kan ik audio uit YouTube-video's extraheren?",
     "extractMp3Faq2A": "Deze tool extraheert audio uit videobestanden die op je apparaat zijn opgeslagen. Je moet het videobestand eerst lokaal hebben opgeslagen. De tool downloadt geen video's van URL's of streamingplatformen. Zodra je een lokaal videobestand hebt, kun je de audiotrack direct naar MP3 extraheren.",
     "extractMp3Faq3Q": "Wordt de video tijdens extractie naar een server geüpload?",
-    "extractMp3Faq3A": "Nee, het volledige extractieproces draait lokaal in je browser met WebAssembly-aangedreven FFmpeg. Je videobestand verlaat nooit je apparaat, wat volledige privacy garandeert. Dit is vooral belangrijk voor het extraheren van audio uit privé-opnames, vertrouwelijke vergaderingen of persoonlijke video-inhoud."
+    "extractMp3Faq3A": "Nee, het volledige extractieproces draait lokaal in je browser met WebAssembly-aangedreven FFmpeg. Je videobestand verlaat nooit je apparaat, wat volledige privacy garandeert. Dit is vooral belangrijk voor het extraheren van audio uit privé-opnames, vertrouwelijke vergaderingen of persoonlijke video-inhoud.",
+    "compressGptImage2": "Comprimeer GPT Image 2-output online — gratis",
+    "compressGptImage2Desc": "Comprimeer PNG-output van OpenAI's nieuwe beeldmodel GPT Image 2. Verklein 4K-output van 12 MB naar onder de 300 KB zonder zichtbaar kwaliteitsverlies.",
+    "compressGptImage2HowTo": "Zo comprimeer je GPT Image 2-output",
+    "compressGptImage2Step1": "Upload je GPT Image 2-bestand",
+    "compressGptImage2Step1Desc": "Sleep de PNG of JPG die je met OpenAI's GPT Image 2 of ChatGPT hebt gegenereerd. Bestanden tot 50 MB worden ondersteund.",
+    "compressGptImage2Step2": "Stel het compressieniveau in",
+    "compressGptImage2Step2Desc": "Zet de kwaliteit tussen 75 en 90%. GPT Image 2-output comprimeert goed — bij 82% is het resultaat meestal niet van het OpenAI-origineel te onderscheiden.",
+    "compressGptImage2Step3": "Download de gecomprimeerde afbeelding",
+    "compressGptImage2Step3Desc": "Bewaar je geoptimaliseerde bestand. Een 12 MB GPT Image 2 4K PNG van OpenAI krimpt doorgaans tot onder de 300 KB.",
+    "compressGptImage2FaqTitle": "Veelgestelde vragen",
+    "compressGptImage2Faq1Q": "Waarom is GPT Image 2-output van OpenAI zo groot?",
+    "compressGptImage2Faq1A": "GPT Image 2 genereert op een native resolutie van 2048x2048 of 4096x4096 en exporteert standaard als ongecomprimeerde PNG, wat bestanden van 8–15 MB per afbeelding oplevert. Voor webpagina's, e-mail en social media wil je GPT Image 2-output comprimeren naar 200–500 KB zonder zichtbaar kwaliteitsverlies.",
+    "compressGptImage2Faq2Q": "Verstoort comprimeren OpenAI's C2PA-watermerkmetadata?",
+    "compressGptImage2Faq2A": "OpenAI plaatst C2PA-herkomstmetadata in GPT Image 2-output. JPEG-compressie behoudt deze metadata meestal. Wil je de metadata volledig verwijderen, gebruik dan de afbeeldingsconverter om het bestand te hercoderen naar een nieuw formaat, maar let op: dat haalt de echtheidshandtekening weg die OpenAI aan GPT Image 2-renders toevoegt.",
+    "compressGptImage2Faq3Q": "Wordt mijn GPT Image 2-output naar een server geüpload?",
+    "compressGptImage2Faq3A": "Nee. Alle compressie draait lokaal in je browser via WebAssembly. Je OpenAI GPT Image 2-output verlaat nooit je apparaat, wat belangrijk is als je prompt vertrouwelijke referenties, niet-uitgebrachte producten of eigen branding bevatte.",
+    "resizeAiImage": "AI-afbeelding resizen — GPT Image 2, Midjourney, DALL-E",
+    "resizeAiImageDesc": "Formatteer AI-gegenereerde afbeeldingen uit GPT Image 2, ChatGPT, DALL-E, Midjourney of Nano Banana naar Instagram-, Twitter-, Facebook- en",
+    "resizeAiImageHowTo": "Zo formatteer je AI-gegenereerde afbeeldingen",
+    "resizeAiImageStep1": "Upload de AI-afbeelding",
+    "resizeAiImageStep1Desc": "Sleep een AI-gegenereerde PNG of JPG van GPT Image 2, OpenAI ChatGPT, Midjourney, DALL-E of Nano Banana Pro.",
+    "resizeAiImageStep2": "Kies het doelformaat",
+    "resizeAiImageStep2Desc": "Kies een social media-preset — 1080x1080 voor Instagram, 1200x630 voor OG-kaarten, 1500x500 voor de X/Twitter-header — of geef eigen afmetingen op.",
+    "resizeAiImageStep3": "Download de verkleinde afbeelding",
+    "resizeAiImageStep3Desc": "Bijsnijden en downloaden. Upload het resultaat direct naar je doelplatform zonder vervelende bijsnijverrassingen.",
+    "resizeAiImageFaqTitle": "Veelgestelde vragen",
+    "resizeAiImageFaq1Q": "Gaat er kwaliteit verloren bij het herformatteren van AI-beelden?",
+    "resizeAiImageFaq1A": "Een 2K of 4K GPT Image 2-output terugschalen naar 1080px is in de praktijk zonder verlies — je gooit pixels weg die het doelplatform toch al zou weggooien. Kwaliteit lijdt vooral bij het opschalen van kleine output, dus genereer GPT Image 2-renders altijd op de hoogste resolutie die OpenAI ondersteunt.",
+    "resizeAiImageFaq2Q": "In welk formaat moet ik renderen in GPT Image 2 voor Instagram?",
+    "resizeAiImageFaq2A": "Genereer in GPT Image 2 op 2048x2048 en snij vervolgens bij tot 1080x1080 voor Instagram-posts, 1080x1350 voor 4:5-portretposts of 1080x1920 voor Stories en Reels. De extra pixels geven je flexibiliteit om bij te snijden zonder opnieuw te hoeven genereren in OpenAI.",
+    "resizeAiImageFaq3Q": "Werkt dit ook voor output uit Midjourney en DALL-E?",
+    "resizeAiImageFaq3A": "Ja. De resize-tool verwerkt elke afbeelding, ongeacht de bron. PNG uit GPT Image 2, WebP uit Nano Banana Pro, JPG uit Midjourney — alles werkt hetzelfde. Je originele bestand wordt nergens naartoe verzonden.",
+    "watermarkAiImage": "Watermerk op AI-gegenereerde afbeelding — gratis voor GPT Image 2 en Midjourney",
+    "watermarkAiImageDesc": "Voeg aangepaste tekst- of logowatermerken toe aan AI-gegenereerde afbeeldingen uit GPT Image 2, OpenAI DALL-E, Midjourney of Nano Banana. Bescherm en markeer je AI-werk voordat je het deelt.",
+    "watermarkAiImageHowTo": "Zo plaats je een watermerk op AI-afbeeldingen",
+    "watermarkAiImageStep1": "Upload de AI-afbeelding",
+    "watermarkAiImageStep1Desc": "Sleep je PNG of JPG uit GPT Image 2, OpenAI ChatGPT, Midjourney of een andere AI-beeldgenerator.",
+    "watermarkAiImageStep2": "Voeg tekst of logo toe",
+    "watermarkAiImageStep2Desc": "Typ je watermerktekst of upload een logo. Regel dekking, positie, lettergrootte en kleur voor een nette afwerking.",
+    "watermarkAiImageStep3": "Download de afbeelding met watermerk",
+    "watermarkAiImageStep3Desc": "Bewaar je beschermde afbeelding. Deel hem op social media of in je portfolio terwijl de attributie helder blijft.",
+    "watermarkAiImageFaqTitle": "Veelgestelde vragen",
+    "watermarkAiImageFaq1Q": "Moet ik GPT Image 2-output van een watermerk voorzien?",
+    "watermarkAiImageFaq1A": "Ethisch en vaak juridisch gezien wel. Platforms zoals X, Instagram en Meta-diensten eisen steeds vaker dat je aangeeft dat iets AI-gegenereerd is. Een klein '#AI'- of 'Generated with GPT Image 2'-watermerk op je OpenAI-output houdt je compliant en transparant naar je publiek.",
+    "watermarkAiImageFaq2Q": "Beïnvloedt een watermerk de C2PA-metadata van OpenAI?",
+    "watermarkAiImageFaq2A": "Pixels bewerken breekt C2PA-handtekeningen omdat de bestandshash verandert. Dat is verwacht gedrag. Wil je de herkomsthandtekeningen van OpenAI op GPT Image 2-output behouden, bewaar dan een aparte archiefkopie met de originele C2PA intact.",
+    "watermarkAiImageFaq3Q": "Kan ik meerdere AI-afbeeldingen tegelijk voorzien van een watermerk?",
+    "watermarkAiImageFaq3A": "Ja. Batch-watermerken wordt ondersteund. Upload een map met GPT Image 2- of Midjourney-output, stel het watermerk één keer in en pas het toe op de hele batch. Het verwerken gebeurt lokaal in je browser.",
+    "removeBgAiImage": "Verwijder de achtergrond van een AI-gegenereerde afbeelding — gratis online tool",
+    "removeBgAiImageDesc": "Verwijder achtergronden uit OpenAI GPT Image 2-, DALL-E-, Midjourney- of ChatGPT-output met één klik. AI-gedreven, draait in je browser. Perfect transparant PNG-resultaat.",
+    "removeBgAiImageHowTo": "Zo verwijder je de achtergrond van AI-afbeeldingen",
+    "removeBgAiImageStep1": "Upload de AI-afbeelding",
+    "removeBgAiImageStep1Desc": "Sleep je AI-gegenereerde afbeelding uit GPT Image 2, OpenAI ChatGPT, Midjourney of een andere beeldgenerator.",
+    "removeBgAiImageStep2": "AI verwijdert de achtergrond",
+    "removeBgAiImageStep2Desc": "Onze client-side AI detecteert het hoofdonderwerp en verwijdert de achtergrond automatisch in 2–5 seconden.",
+    "removeBgAiImageStep3": "Download de transparante PNG",
+    "removeBgAiImageStep3Desc": "Bewaar je uitsnede als transparante PNG, klaar om op elke achtergrond te plaatsen of in een productmockup te zetten.",
+    "removeBgAiImageFaqTitle": "Veelgestelde vragen",
+    "removeBgAiImageFaq1Q": "Werkt achtergrondverwijdering goed op GPT Image 2-output?",
+    "removeBgAiImageFaq1A": "Ja — de schone, goed belichte output van GPT Image 2 is ideaal voor achtergrondverwijdering. Het OpenAI-model genereert onderwerpen met scherpe randen en goed contrast tussen onderwerp en achtergrond, waardoor de AI-uitsnede zelfs preciezer uitvalt dan op fotorealistische foto's.",
+    "removeBgAiImageFaq2Q": "Kan ik de achtergrond verwijderen uit complexe AI-scènes?",
+    "removeBgAiImageFaq2A": "Bij scènes met meerdere onderwerpen of een ingewikkelde achtergrond pakt de AI het meest prominente voorgrondonderwerp. Als GPT Image 2 een portret met complexe achtergrond heeft gegenereerd, werkt verwijderen goed. Voor scènes met meerdere onderwerpen kun je in OpenAI beter opnieuw prompten met een simpelere achtergrond.",
+    "removeBgAiImageFaq3Q": "Wordt de afbeelding naar een server geüpload?",
+    "removeBgAiImageFaq3A": "Nee. Achtergrondverwijdering draait volledig in je browser met client-side AI. Je GPT Image 2-output en eventuele vertrouwelijke gegevens in prompt-metadata verlaten nooit je apparaat.",
+    "convertGptImageToJpg": "Converteer GPT Image 2 PNG naar JPG online — gratis",
+    "convertGptImageToJpgDesc": "Converteer PNG-output van OpenAI GPT Image 2, DALL-E of ChatGPT naar JPG. Verklein het bestand met 80% en maximaliseer apparaatcompatibiliteit.",
+    "convertGptImageToJpgHowTo": "Zo converteer je GPT Image 2 PNG naar JPG",
+    "convertGptImageToJpgStep1": "Upload de GPT Image 2 PNG",
+    "convertGptImageToJpgStep1Desc": "Sleep het PNG-bestand dat is gegenereerd door OpenAI GPT Image 2, ChatGPT of de OpenAI Image API.",
+    "convertGptImageToJpgStep2": "Selecteer JPG als formaat",
+    "convertGptImageToJpgStep2Desc": "Kies JPG als uitvoerformaat en zet de kwaliteit tussen 85 en 95%. Hogere kwaliteit behoudt details; 85% halveert het bestand.",
+    "convertGptImageToJpgStep3": "Download het JPG-bestand",
+    "convertGptImageToJpgStep3Desc": "Bewaar je geconverteerde JPG. Een 12 MB GPT Image 2 PNG van OpenAI wordt doorgaans een 1–2 MB JPG met visueel dezelfde kwaliteit.",
+    "convertGptImageToJpgFaqTitle": "Veelgestelde vragen",
+    "convertGptImageToJpgFaq1Q": "Waarom GPT Image 2 PNG van OpenAI naar JPG converteren?",
+    "convertGptImageToJpgFaq1A": "PNG is lossless maar levert enorme bestanden op. De native PNG-output van GPT Image 2 van OpenAI komt uit op 8–15 MB. JPG comprimeert fotografische content tot 10–20% van de PNG-grootte zonder zichtbaar kwaliteitsverlies. Voor web, e-mail en social is JPG de praktische keuze.",
+    "convertGptImageToJpgFaq2Q": "Gaat er bij conversie beeldkwaliteit verloren?",
+    "convertGptImageToJpgFaq2A": "JPG gebruikt lossy compressie, dus technisch gaat er iets aan kwaliteit verloren. Maar op 90% kwaliteit is het verschil onzichtbaar voor het menselijk oog bij fotografische content zoals GPT Image 2-output. Voor graphics met scherpe randen of transparantie blijf je beter bij PNG.",
+    "convertGptImageToJpgFaq3Q": "Verlies ik transparantie bij het converteren naar JPG?",
+    "convertGptImageToJpgFaq3A": "Ja — JPG ondersteunt geen transparantie. Als je OpenAI GPT Image 2-output een transparante achtergrond heeft, vult JPG die met wit. Gebruik WebP voor transparante uitsnedes of blijf bij PNG."
   },
   "footer": {
     "tagline": "Gratis online tools voor afbeeldingen en video's. 100% in de browser, uw bestanden verlaten nooit uw apparaat.",
@@ -761,16 +843,94 @@
     "readMore": "Lees meer",
     "relatedTools": "Gerelateerde tools",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2: alles wat we weten over OpenAI's nieuwe beeldmodel (april 2026)",
+        "metaTitle": "GPT Image 2-gids: OpenAI's nieuwe beeldmodel (2026)",
+        "metaDescription": "Volledige gids voor OpenAI's GPT Image 2 (april 2026). Functies, releasedatum, prijzen, vergelijking met GPT Image 1.5 en Nano Banana Pro.",
+        "excerpt": "OpenAI's GPT Image 2 wordt vanaf april 2026 geleidelijk uitgerold naar ChatGPT Plus-gebruikers. Hier lees je elke bevestigde leak over GPT Image 2, de echte releasetijdlijn van OpenAI en hoe het zich verhoudt tot GPT Image 1.5 en Nano Banana Pro.",
+        "content": [
+          {
+            "heading": "Wat is GPT Image 2?",
+            "text": "GPT Image 2 is het nieuwe beeldgeneratiemodel van OpenAI en gaat naar verwachting de huidige GPT Image 1.5 vervangen. Anders dan eerdere OpenAI-modellen zoals DALL-E 3 of de native beeldgenerator in GPT-4o, draait GPT Image 2 op een compleet nieuwe, zelfstandige architectuur — het is niet langer aan de GPT-4o-pipeline vastgeplakt. Dat maakt veel uit, want het stelt OpenAI in staat GPT Image 2 specifiek te optimaliseren voor beeldkwaliteit zonder een multimodale trade-off te maken. Voor de doorsnee ChatGPT-gebruiker betekent GPT Image 2 simpelweg scherpere, nauwkeurigere beelden met aanzienlijk betere tekstweergave. Voor developers betekent het uiteindelijk een dedicated API-endpoint van OpenAI, zodra GPT Image 2 officieel gelanceerd is."
+          },
+          {
+            "heading": "GPT Image 2-releasedatum en huidige status (april 2026)",
+            "text": "OpenAI heeft GPT Image 2 nog niet officieel aangekondigd, maar drie anonieme modellen — met de codenamen maskingtape-alpha, gaffertape-alpha en packingtape-alpha — doken begin april 2026 op LM Arena op en werden door de community snel geïdentificeerd als het nieuwe OpenAI-beeldmodel. Op 16 april verscheen GPT Image 2 in A/B-tests binnen de ChatGPT-webinterface, en vanaf 19 april meldden betalende ChatGPT Plus- en Pro-abonnees dat ze toegang hadden tot GPT Image 2. Het consensus-releasevenster voor de publieke lancering ligt tussen eind april en midden mei 2026. OpenAI heeft daarnaast de volledige afsluiting van DALL-E 2 en DALL-E 3 ingepland op 12 mei 2026 — die datum is waarschijnlijk geen toeval. De GPT Image-lijn, met GPT Image 2 als vlaggenschip, wordt het enige officiële migratiepad voor iedereen die nog DALL-E via de OpenAI API gebruikt."
+          },
+          {
+            "heading": "Nieuwe functies in GPT Image 2 die er echt toe doen",
+            "text": "De kop-upgrade in GPT Image 2 is tekstweergave. Eerdere OpenAI-beeldmodellen zaten rond 90–95% nauwkeurigheid, wat prima klinkt totdat je een winkelgevel of UI-mockup wilt genereren en de helft van de letters verhaspeld is. Vroege testers melden dat GPT Image 2 de drempel van 99% tekstnauwkeurigheid doorbreekt: leesbare borden, duidelijke labels en functionele interface-mockups rechtstreeks uit OpenAI. GPT Image 2 heeft ook de gele kleurzweem gedood die GPT-4o-output teisterde — wit is eindelijk echt wit, geen warme crèmekleur. De resolutie loopt op tot native 2048x2048 of zelfs 4096x4096, een grote stap voor iedereen die hero-beelden, posters of printmateriaal uit OpenAI genereert. Voeg daar persistent character embeddings aan toe (hetzelfde gezicht in meerdere GPT Image 2-prompts), betere wereldkennis en strakker prompt-opvolgen, en GPT Image 2 oogt als het eerste OpenAI-beeldmodel dat écht kan concurreren met Midjourney en Google's Nano Banana Pro op commerciële output."
+          },
+          {
+            "heading": "GPT Image 2 vs GPT Image 1.5 vs Nano Banana Pro",
+            "text": "Ten opzichte van de eigen voorganger verplettert GPT Image 2 GPT Image 1.5 op tekstweergave, kleurnauwkeurigheid en prompt-trouw. De interessantere match is GPT Image 2 vs Nano Banana Pro (Google's Gemini 3 Pro Image, uitgebracht in november 2025). In blinde tests op LM Arena gaat GPT Image 2 voorop op tekstnauwkeurigheid, UI-restauratie en wereldkennis. Nano Banana Pro wint nog steeds op bepaalde ruimtelijke redeneertaken — spiegelreflecties van Rubik's Cubes, complexe occlusies en vergelijkbare randgevallen. Qua prijzen wijzen vroege signalen vanuit OpenAI erop dat GPT Image 2 via API tussen $0.15-$0.20 per afbeelding gaat kosten, tegenover $0.045-$0.151 voor Nano Banana 2. GPT Image 2 wordt dus gepositioneerd als de premium-optie. Voor de meeste commerciële use cases — ad-creatives, social posts, productmockups — is het kwaliteitsverschil van GPT Image 2 de meerprijs waard. Voor bulkgeneratie-workflows wint Nano Banana Pro nog steeds op economie."
+          },
+          {
+            "heading": "Hoe krijg je vandaag toegang tot GPT Image 2",
+            "text": "Per april 2026 is de toegang tot GPT Image 2 beperkt. De makkelijkste route is een ChatGPT Plus- of Pro-abonnement — OpenAI rolt A/B-toegang tot GPT Image 2 geleidelijk uit, dus sommige gebruikers hebben het en anderen niet. Zie je GPT Image 2 nog niet, vraag ChatGPT dan iets als 'high-resolution image with text' en kijk of de outputkwaliteit opeens omhoog schiet. Zodra OpenAI publiek de knop omzet, wordt GPT Image 2 beschikbaar in zowel ChatGPT als via de OpenAI Image API (ter vervanging van gpt-image-1.5). Developers mogen een dedicated model-ID gpt-image-2 verwachten. Let op: OpenAI heeft nog geen GPT Image 2 API-documentatie gepubliceerd, dus alle 'GPT Image 2 API-wrappers' van derden die je nu ziet zijn onofficieel en riskant — bouw je erop, wacht dan op de officiële OpenAI-launch."
+          },
+          {
+            "heading": "Nabewerking van je GPT Image 2-output",
+            "text": "Het praktische probleem met native 4K GPT Image 2-output: de PNG-bestanden zijn enorm. Een enkele 4096x4096 GPT Image 2-render komt uit op ongeveer 8–15 MB, wat veel te groot is voor een webpagina of e-mail. Voor de meeste use cases wil je GPT Image 2-output comprimeren naar onder de 300 KB. De image compressor van ToolPic regelt dit in je browser — zet de GPT Image 2 PNG erin, zet de kwaliteit op 82–88% en je krijgt een visueel identiek bestand op 10–15% van de oorspronkelijke grootte. Gebruik je GPT Image 2-output voor social media, dan moet je ook resizen: 1080x1080 voor Instagram, 1200x630 voor OpenGraph-kaarten, 1500x500 voor X/Twitter-headers. De Image Crop-tool van ToolPic heeft presets voor al deze formaten. Heb je een transparante versie nodig van een GPT Image 2-productmockup? De background remover werkt op elke GPT Image 2-output. Alles draait in je browser, dus je met OpenAI gegenereerde beelden worden nooit naar onze servers geüpload — belangrijk als de GPT Image 2-prompt iets vertrouwelijks bevatte."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "Beste GPT Image 2-prompts: 30+ virale voorbeelden van OpenAI's nieuwe model (2026)",
+        "metaTitle": "Beste GPT Image 2-prompts: virale voorbeelden (2026)",
+        "metaDescription": "30+ virale GPT Image 2-prompts uit de OpenAI-community. Templates voor portret-, UI-mockup-, stadsscènes en tekst-render-prompts voor GPT Image 2 om te",
+        "excerpt": "De GPT Image 2-leak van OpenAI zorgde voor een golf virale prompts op X/Twitter. Hier zijn de beste GPT Image 2-prompts, gecategoriseerd — kopieer, plak en remix voor je eigen AI-beelden uit OpenAI.",
+        "content": [
+          {
+            "heading": "Waarom GPT Image 2-prompts anders zijn",
+            "text": "Als je al prompts schreef voor DALL-E 3, Midjourney of GPT Image 1.5, is er goed nieuws: GPT Image 2 speelt grotendeels hetzelfde spel. Het verrassende is hoe veel beter OpenAI's GPT Image 2 reageert op dichte, specifieke, meerledige prompts. Bij oudere modellen leidde te veel detail in één prompt vaak tot het weglaten van elementen. GPT Image 2 verwerkt prompts van 200 woorden die tegelijk scène, onderwerp, licht, camerahoek en kleurpalet beschrijven — en rendert elk element daadwerkelijk. De andere verschuiving is tekst. Je kunt nu GPT Image 2-prompts schrijven als 'een koffiezaakbord met BLUE BOTTLE erop en daaronder een menubord met espresso, cappuccino en cortado' en het OpenAI-model reproduceert die tekst netjes. Dat was vóór GPT Image 2 niet betrouwbaar. Elke promptcategorie hieronder benut een van deze sterke kanten van GPT Image 2."
+          },
+          {
+            "heading": "Top virale GPT Image 2-prompts van X/Twitter",
+            "text": "Het meest gedeelde GPT Image 2-voorbeeld op X was een Minecraft-scène in de eerste persoon, gesitueerd in Manhattan — de GPT Image 2-prompt combineerde een game-esthetiek met echte geografie en raakte ze allebei. Een andere hit was een nep 'Claude Opus 5 Internal Document' gerenderd in een Minecraft-wereld, goed voor 439K views. Een Times Square GPT Image 2-prompt met 150+ uiteenlopende voetgangers, gele taxi's, nat asfalt en spiegelglans ging viraal omdat het OpenAI-model elk element aankon en de tekst op borden correct gespeld bleef. Ook historische GPT Image 2-prompts scoorden: 'Oda Nobunaga die een X-post typt de avond voor het Honno-ji-incident' was een van de vroege virale voorbeelden, met historische nauwkeurigheid in een moderne social media-UI. De rode draad bij virale GPT Image 2-prompts: scènes die OpenAI uit wereldkennis moet opbouwen, niet uit trainingsdata kan kopiëren."
+          },
+          {
+            "heading": "Portret- en karakterprompts voor GPT Image 2",
+            "text": "Voor portretten zorgen de persistent character embeddings in GPT Image 2 dat je hetzelfde gezicht kunt vasthouden over meerdere OpenAI-renders. Begin je GPT Image 2-prompt met een gedetailleerde karakterbeschrijving — leeftijd, etniciteit, opvallende kenmerken, kledingstijl — en voeg daarna licht en stemming toe. Voorbeeld van een GPT Image 2-prompt: 'Editorial portret van een 34-jarige Koreaanse vrouw met kortgeknipt zwart haar en zeshoekige zilveren oorbellen, zacht raamlicht van links, ondiepe scherptediepte, gedempte kleurgrading in teal en perzik, geschoten op 85mm bij f/1.8.' Herhaal in volgende GPT Image 2-prompts precies dezelfde kenmerken om consistentie over de renders te behouden. Voor gestileerde personages verwijs je naar specifieke kunstenaars of tijdperken: 'Mucha-art nouveau', 'Studio Ghibli-achtergrond', 'jaren-80 anime cel-shaded'. GPT Image 2 respecteert deze stijltags van OpenAI merkbaar beter dan GPT Image 1.5."
+          },
+          {
+            "heading": "UI-mockup- en productprompts voor GPT Image 2",
+            "text": "UI-mockups zijn het gebied waar GPT Image 2 zich echt onderscheidt van oudere OpenAI-modellen. Probeer deze GPT Image 2-prompt: 'Een strak iOS-appscherm voor een meditatie-app, met het dagelijkse sessiescherm. Bovenbalk met terug-pijl en instellingen-icoon. Midden: grote ronde timer die 12:34 resterend toont. Daaronder: drie optie-chips met de labels Breath, Body Scan, Sleep. Onderaan een tabbalk met Home, Sessions en Profile.' In GPT Image 2 rendert de tekst correct, klopt de layout en zijn de afstanden geloofwaardig. Voor productshots in GPT Image 2: 'Minimalistische productfoto van een matzwarte keramische koffiekop op een betonnen ondergrond, zacht gericht licht van linksboven, subtiele stoom, ondiepe scherptediepte, lichte korrel, editorial magazinestijl.' GPT Image 2 behandelt materiaalweergave — mat vs glanzend, keramiek vs metaal — merkbaar beter dan eerdere OpenAI-beeldmodellen."
+          },
+          {
+            "heading": "Tekstzware GPT Image 2-prompts (posters, borden, documenten)",
+            "text": "Dit is de categorie waar de tekstweergave-doorbraak van GPT Image 2 zich echt uitbetaalt. GPT Image 2-posterpromptvoorbeeld: 'Vintage reisposter voor Kyoto, jaren 50-stijl. Grote schreeftekst bovenaan luidt KYOTO. Subtitel in kleinere tekst luidt Ancient Capital of Japan. Onderbalk luidt Japan National Railways. Illustratie met kersenbloesems en een pagode van vijf verdiepingen.' GPT Image 2 rendert alle drie de tekstblokken correct vanuit OpenAI — vroeger bijna onmogelijk. Voor magazinecovers, newstickers, straatborden of etalages in GPT Image 2 spel je altijd letterlijk uit welke tekst moet verschijnen, tussen aanhalingstekens, met font-hints als het ertoe doet ('schreefloos', 'handschrift', 'smalle kapitalen'). Hoe specifieker de tekstplaatsing in je GPT Image 2-prompt, hoe betrouwbaarder de OpenAI-output."
+          },
+          {
+            "heading": "Perfecte resultaten: GPT Image 2-promptpatronen die werken",
+            "text": "Drie patronen leveren steevast sterke GPT Image 2-output. Ten eerste: eerst scène, dan onderwerp, dan stijl. 'Ochtendmist op een Vietnamese koffieplantage, een jonge boer giet bonen in een metalen drum, gouden uur licht, hyperrealistische cinematische stijl.' Ten tweede: zet expliciet resolutie en beeldverhouding in je GPT Image 2-prompt. Voeg toe '16:9 beeldverhouding, 4K detail, scherpe focus op het onderwerp'. GPT Image 2 respecteert dit nu echt. Ten derde: negatieve beperkingen. 'Geen tekst, geen watermerk, geen logo' voorkomt dat OpenAI's GPT Image 2 overbodige tekstjes toevoegt. Genereer je meerdere GPT Image 2-variaties, hergebruik dan dezelfde seed of referentieafbeelding om de stijl consistent te houden. Zodra je een GPT Image 2-output hebt die je bevalt, download hem en bewerk verder met ToolPic — comprimeer de 4K PNG naar onder de 300 KB in de image compressor, snij bij tot je doelafmetingen met de image crop-tool of strip de achtergrond met de bg-remove-tool als je een uitsnede van je GPT Image 2-render nodig hebt."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Instagram Story afbeeldingsformaat en hoe je foto's kunt resizen (Gids 2026)",
         "metaTitle": "Instagram Story afbeeldingsformaat en resize gids 2026 | ToolPic Blog",
         "metaDescription": "Wat is het juiste fotoformaat voor Instagram Stories? Leer over de 1080x1920 afmetingen, hoe je foto's resizet en beste praktijken.",
         "excerpt": "Worden je foto's bijgesneden of wazig op Instagram Stories? Ontdek het juiste formaat en leer hoe je foto's kunt resizen voor perfecte Stories.",
         "content": [
-          {"heading": "Instagram Story afmetingen in 2026", "text": "Het ideale formaat voor Instagram Stories is 1080x1920 pixels, oftewel een 9:16 beeldverhouding. Gebruik minimaal 720x1280 pixels, anders wordt je afbeelding wazig. Houd tekst en belangrijke content in de veilige zone van 80% in het midden van het scherm. De bovenste en onderste 10% wordt bedekt door de gebruikersnaam, reactiebalk en swipe-up knop. Zowel JPG als PNG worden geaccepteerd en het bestand mag niet groter zijn dan 30MB."},
-          {"heading": "Wat er gebeurt als je het verkeerde formaat uploadt", "text": "Als je een foto met het verkeerde formaat uploadt, snijdt Instagram deze automatisch bij of rekt hem uit. Een vierkante (1:1) afbeelding krijgt zwarte balken boven en onder, wat er niet mooi uitziet. Bij een liggend formaat worden de boven- en onderkant afgesneden. Het vervelendste is wanneer belangrijke tekst verdwijnt achter UI-elementen zoals het profielpictogram of de berichtenbalk. Daarom is het veel beter om je foto vooraf te resizen."},
-          {"heading": "Hoe je resizet voor Instagram Stories", "text": "Begin met het bijsnijden van je afbeelding naar 9:16. Stel de breedte in op 1080 pixels, de hoogte wordt automatisch 1920. Houd het bestand kleiner dan 8MB voor snel uploaden en goede kwaliteit. Gebruik het sRGB kleurprofiel omdat Instagram andere profielen naar sRGB converteert, wat kleurverschuivingen kan veroorzaken. Sla op als JPEG met 85-90% kwaliteit voor de beste balans tussen bestandsgrootte en scherpte."},
-          {"heading": "Snel resizen met ToolPic", "text": "Open de Image Crop tool van ToolPic en selecteer de Instagram Story preset. De 9:16 verhouding wordt automatisch ingesteld. Sleep je foto naar de juiste positie en snij bij. Gebruik daarna de Image Compressor om de bestandsgrootte onder 8MB te krijgen. Het hele proces draait in je browser, er worden geen foto's geüpload naar een server. Binnen twee minuten heb je een Story-klare afbeelding."}
+          {
+            "heading": "Instagram Story afmetingen in 2026",
+            "text": "Het ideale formaat voor Instagram Stories is 1080x1920 pixels, oftewel een 9:16 beeldverhouding. Gebruik minimaal 720x1280 pixels, anders wordt je afbeelding wazig. Houd tekst en belangrijke content in de veilige zone van 80% in het midden van het scherm. De bovenste en onderste 10% wordt bedekt door de gebruikersnaam, reactiebalk en swipe-up knop. Zowel JPG als PNG worden geaccepteerd en het bestand mag niet groter zijn dan 30MB."
+          },
+          {
+            "heading": "Wat er gebeurt als je het verkeerde formaat uploadt",
+            "text": "Als je een foto met het verkeerde formaat uploadt, snijdt Instagram deze automatisch bij of rekt hem uit. Een vierkante (1:1) afbeelding krijgt zwarte balken boven en onder, wat er niet mooi uitziet. Bij een liggend formaat worden de boven- en onderkant afgesneden. Het vervelendste is wanneer belangrijke tekst verdwijnt achter UI-elementen zoals het profielpictogram of de berichtenbalk. Daarom is het veel beter om je foto vooraf te resizen."
+          },
+          {
+            "heading": "Hoe je resizet voor Instagram Stories",
+            "text": "Begin met het bijsnijden van je afbeelding naar 9:16. Stel de breedte in op 1080 pixels, de hoogte wordt automatisch 1920. Houd het bestand kleiner dan 8MB voor snel uploaden en goede kwaliteit. Gebruik het sRGB kleurprofiel omdat Instagram andere profielen naar sRGB converteert, wat kleurverschuivingen kan veroorzaken. Sla op als JPEG met 85-90% kwaliteit voor de beste balans tussen bestandsgrootte en scherpte."
+          },
+          {
+            "heading": "Snel resizen met ToolPic",
+            "text": "Open de Image Crop tool van ToolPic en selecteer de Instagram Story preset. De 9:16 verhouding wordt automatisch ingesteld. Sleep je foto naar de juiste positie en snij bij. Gebruik daarna de Image Compressor om de bestandsgrootte onder 8MB te krijgen. Het hele proces draait in je browser, er worden geen foto's geüpload naar een server. Binnen twee minuten heb je een Story-klare afbeelding."
+          }
         ],
         "relatedToolIds": "image-crop,image-compressor"
       },

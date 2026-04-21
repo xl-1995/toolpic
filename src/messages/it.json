@@ -41,6 +41,8 @@
   "home": {
     "h1": "Strumenti gratuiti per immagini e video online",
     "subtitle": "Comprimi, converti e modifica i tuoi file multimediali istantaneamente. Nessun caricamento, nessuna registrazione, nessun limite. 100% gratuito e privato.",
+    "newBadgeLabel": "Nuovo",
+    "gptImage2Badge": "GPT Image 2 di OpenAI è arrivato — leggi la nostra guida completa",
     "startNow": "Inizia ora",
     "learnMore": "Scopri di più",
     "imageSection": "Strumenti immagine",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "Posso estrarre l'audio dai video di YouTube?",
     "extractMp3Faq2A": "Questo strumento estrae l'audio da file video memorizzati sul tuo dispositivo. Dovresti prima avere il file video salvato localmente. Lo strumento non scarica video da URL o piattaforme di streaming. Una volta che hai un file video locale, puoi estrarre la sua traccia audio in MP3 istantaneamente.",
     "extractMp3Faq3Q": "Il video viene caricato su un server durante l'estrazione?",
-    "extractMp3Faq3A": "No, l'intero processo di estrazione viene eseguito localmente nel tuo browser usando FFmpeg alimentato da WebAssembly. Il tuo file video non lascia mai il tuo dispositivo, garantendo completa privacy. Questo è particolarmente importante per estrarre audio da registrazioni private, riunioni confidenziali o contenuti video personali."
+    "extractMp3Faq3A": "No, l'intero processo di estrazione viene eseguito localmente nel tuo browser usando FFmpeg alimentato da WebAssembly. Il tuo file video non lascia mai il tuo dispositivo, garantendo completa privacy. Questo è particolarmente importante per estrarre audio da registrazioni private, riunioni confidenziali o contenuti video personali.",
+    "compressGptImage2": "Comprimi output di GPT Image 2 online - Gratis",
+    "compressGptImage2Desc": "Comprimi l'output PNG di GPT Image 2, il nuovo modello di immagini di OpenAI. Riduci le immagini 4K da 12MB a meno di 300KB senza perdita di qualità visibile.",
+    "compressGptImage2HowTo": "Come comprimere l'output di GPT Image 2",
+    "compressGptImage2Step1": "Carica il tuo file di GPT Image 2",
+    "compressGptImage2Step1Desc": "Trascina e rilascia il PNG o JPG che hai generato con GPT Image 2 di OpenAI o con ChatGPT. Sono supportati file fino a 50MB.",
+    "compressGptImage2Step2": "Regola il livello di compressione",
+    "compressGptImage2Step2Desc": "Imposta la qualità tra il 75 e il 90%. L'output di GPT Image 2 si comprime molto bene — all'82% di solito risulta identico all'originale di OpenAI.",
+    "compressGptImage2Step3": "Scarica l'immagine compressa",
+    "compressGptImage2Step3Desc": "Salva il tuo file ottimizzato. Un PNG 4K di GPT Image 2 da 12MB di solito scende sotto i 300KB.",
+    "compressGptImage2FaqTitle": "Domande frequenti",
+    "compressGptImage2Faq1Q": "Perché l'output di GPT Image 2 di OpenAI è così grande?",
+    "compressGptImage2Faq1A": "GPT Image 2 genera in risoluzione nativa 2048x2048 o 4096x4096 ed esporta di default come PNG non compresso, producendo file da 8-15MB per immagine. Per pagine web, email e social media vorrai comprimere l'output di GPT Image 2 nel range 200-500KB senza perdere qualità visibile, ed è proprio in questa fascia che il nostro strumento dà il meglio con i file di OpenAI.",
+    "compressGptImage2Faq2Q": "La compressione rompe i metadati C2PA di OpenAI?",
+    "compressGptImage2Faq2A": "OpenAI incorpora metadati di provenienza C2PA negli output di GPT Image 2. La compressione JPEG di solito preserva questi metadati. Se devi rimuovere completamente i metadati, usa il convertitore di immagini per ricodificare in un nuovo formato, ma tieni presente che questo elimina la firma di autenticità che OpenAI allega ai rendering di GPT Image 2.",
+    "compressGptImage2Faq3Q": "Il mio output di GPT Image 2 viene caricato su un server?",
+    "compressGptImage2Faq3A": "No. Tutta la compressione viene eseguita localmente nel tuo browser tramite WebAssembly. I tuoi output di GPT Image 2 di OpenAI non lasciano mai il tuo dispositivo, cosa che conta particolarmente se il prompt conteneva riferimenti riservati, prodotti non ancora lanciati o branding proprietario che non vuoi far uscire.",
+    "resizeAiImage": "Ridimensiona immagine IA — GPT Image 2, Midjourney, DALL-E",
+    "resizeAiImageDesc": "Ridimensiona immagini generate da IA da GPT Image 2, ChatGPT, DALL-E, Midjourney o Nano Banana alle dimensioni di Instagram, Twitter, Facebook o YouTube.",
+    "resizeAiImageHowTo": "Come ridimensionare immagini generate da IA",
+    "resizeAiImageStep1": "Carica l'immagine IA",
+    "resizeAiImageStep1Desc": "Rilascia qualunque PNG o JPG generato da IA da GPT Image 2, OpenAI ChatGPT, Midjourney, DALL-E o Nano Banana Pro.",
+    "resizeAiImageStep2": "Scegli la dimensione di destinazione",
+    "resizeAiImageStep2Desc": "Seleziona un preset social — 1080x1080 per Instagram, 1200x630 per card OG, 1500x500 per header X/Twitter — oppure imposta dimensioni personalizzate.",
+    "resizeAiImageStep3": "Scarica l'immagine ridimensionata",
+    "resizeAiImageStep3Desc": "Ritaglia e scarica. Carica il risultato direttamente sulla piattaforma di destinazione senza sorprese di ritaglio.",
+    "resizeAiImageFaqTitle": "Domande frequenti",
+    "resizeAiImageFaq1Q": "Il ridimensionamento fa perdere qualità alle immagini generate da IA?",
+    "resizeAiImageFaq1A": "Ridurre un output 2K o 4K di GPT Image 2 a 1080px è praticamente senza perdite — stai scartando pixel che la piattaforma di destinazione avrebbe eliminato comunque. I problemi arrivano quando si ingrandisce da output piccoli, quindi genera sempre i rendering di GPT Image 2 alla risoluzione massima supportata da OpenAI per avere margine di manovra.",
+    "resizeAiImageFaq2Q": "Quale dimensione devo impostare in GPT Image 2 per Instagram?",
+    "resizeAiImageFaq2A": "Genera in 2048x2048 con GPT Image 2 e poi ritaglia a 1080x1080 per i post quadrati di Instagram, 1080x1350 per post in formato 4:5 verticale o 1080x1920 per Stories e Reels. I pixel extra ti danno flessibilità di ritaglio senza dover rigenerare l'immagine in OpenAI, risparmiando credito e tempo.",
+    "resizeAiImageFaq3Q": "Funziona anche con gli output di Midjourney e DALL-E?",
+    "resizeAiImageFaq3A": "Sì. Lo strumento di ridimensionamento gestisce qualunque immagine indipendentemente dalla sorgente. PNG da GPT Image 2, WebP da Nano Banana Pro, JPG da Midjourney — tutti funzionano allo stesso modo. Il tuo file originale non viene inviato da nessuna parte, tutto avviene dentro il browser.",
+    "watermarkAiImage": "Aggiungi filigrana a immagine IA - Gratis per GPT Image 2 e Midjourney",
+    "watermarkAiImageDesc": "Aggiungi filigrane di testo o logo personalizzate alle immagini generate da IA da GPT Image 2, OpenAI DALL-E, Midjourney o Nano Banana. Proteggi e dichiara le tue opere IA prima di condividerle.",
+    "watermarkAiImageHowTo": "Come applicare filigrane alle immagini IA",
+    "watermarkAiImageStep1": "Carica l'immagine generata da IA",
+    "watermarkAiImageStep1Desc": "Rilascia il tuo PNG o JPG da GPT Image 2, OpenAI ChatGPT, Midjourney o da qualsiasi generatore di immagini IA.",
+    "watermarkAiImageStep2": "Aggiungi testo o logo",
+    "watermarkAiImageStep2Desc": "Scrivi il testo della filigrana o carica un logo. Regola opacità, posizione, dimensione del font e colore per una resa professionale.",
+    "watermarkAiImageStep3": "Scarica l'immagine con filigrana",
+    "watermarkAiImageStep3Desc": "Salva la tua immagine protetta. Condividila sui social o nel portfolio mantenendo chiara l'attribuzione.",
+    "watermarkAiImageFaqTitle": "Domande frequenti",
+    "watermarkAiImageFaq1Q": "Devo mettere la filigrana agli output di GPT Image 2?",
+    "watermarkAiImageFaq1A": "Eticamente e sempre più spesso anche legalmente, sì. Piattaforme come X, Instagram e le property del gruppo Meta richiedono sempre più una dichiarazione quando un contenuto è generato da IA. Una piccola filigrana '#IA' o 'Generato con GPT Image 2' sui tuoi output di OpenAI ti tiene conforme e trasparente con il tuo pubblico, evitando penalizzazioni e perdita di reach.",
+    "watermarkAiImageFaq2Q": "La filigrana influisce sui metadati C2PA di OpenAI?",
+    "watermarkAiImageFaq2A": "Modificare i pixel rompe le firme C2PA perché cambia l'hash del file. È un comportamento atteso. Se devi preservare le firme di provenienza di OpenAI sull'output di GPT Image 2, conserva una copia d'archivio separata con il C2PA originale intatto prima di applicare la filigrana.",
+    "watermarkAiImageFaq3Q": "Posso applicare la filigrana a più immagini IA in una volta?",
+    "watermarkAiImageFaq3A": "Sì. Il batch è supportato. Carica una cartella di output di GPT Image 2 o Midjourney, configura la filigrana una volta e applicala a tutto il lotto. L'elaborazione avviene localmente nel tuo browser senza alcun upload su server.",
+    "removeBgAiImage": "Rimuovi lo sfondo da immagine IA - Strumento online gratuito",
+    "removeBgAiImageDesc": "Rimuovi lo sfondo dagli output di OpenAI GPT Image 2, DALL-E, Midjourney o ChatGPT con un clic. Alimentato da IA, gira nel tuo browser. Risultato PNG trasparente perfetto.",
+    "removeBgAiImageHowTo": "Come rimuovere lo sfondo dalle immagini IA",
+    "removeBgAiImageStep1": "Carica l'immagine IA",
+    "removeBgAiImageStep1Desc": "Rilascia la tua immagine generata da IA da GPT Image 2, OpenAI ChatGPT, Midjourney o da qualsiasi generatore di immagini.",
+    "removeBgAiImageStep2": "L'IA rimuove lo sfondo",
+    "removeBgAiImageStep2Desc": "La nostra IA lato client rileva il soggetto principale e rimuove lo sfondo in automatico in 2-5 secondi.",
+    "removeBgAiImageStep3": "Scarica il PNG trasparente",
+    "removeBgAiImageStep3Desc": "Salva il tuo ritaglio come PNG trasparente, pronto per essere sovrapposto a qualunque sfondo o inserito in un mockup di prodotto.",
+    "removeBgAiImageFaqTitle": "Domande frequenti",
+    "removeBgAiImageFaq1Q": "La rimozione dello sfondo funziona bene con l'output di GPT Image 2?",
+    "removeBgAiImageFaq1A": "Sì — gli output puliti e ben illuminati di GPT Image 2 sono ideali per la rimozione dello sfondo. Il modello di OpenAI genera soggetti con bordi nitidi e buon contrasto soggetto-sfondo, il che rende il ritaglio IA ancora più accurato che sulle foto fotografiche reali scattate in camera.",
+    "removeBgAiImageFaq2Q": "Posso rimuovere lo sfondo da scene IA complesse?",
+    "removeBgAiImageFaq2A": "Per scene con più soggetti o sfondi intricati, l'IA estrae il soggetto più in primo piano. Se GPT Image 2 ha generato un ritratto con sfondo complesso, la rimozione funziona bene. Per scene multi-soggetto, riformula il prompt in OpenAI con uno sfondo più semplice per ottenere il miglior risultato.",
+    "removeBgAiImageFaq3Q": "L'immagine viene caricata su un server?",
+    "removeBgAiImageFaq3A": "No. La rimozione dello sfondo viene eseguita interamente nel tuo browser tramite IA lato client. I tuoi output di GPT Image 2 e qualunque prompt confidenziale incorporato nei metadati non lasciano mai il tuo dispositivo.",
+    "convertGptImageToJpg": "Converti PNG di GPT Image 2 in JPG online - Gratis",
+    "convertGptImageToJpgDesc": "Converti gli output PNG di OpenAI GPT Image 2, DALL-E o ChatGPT in formato JPG. Riduci la dimensione del file dell'80% e massimizza la compatibilità tra",
+    "convertGptImageToJpgHowTo": "Come convertire un PNG di GPT Image 2 in JPG",
+    "convertGptImageToJpgStep1": "Carica il PNG di GPT Image 2",
+    "convertGptImageToJpgStep1Desc": "Rilascia il file PNG generato da OpenAI GPT Image 2, ChatGPT o dall'OpenAI Image API.",
+    "convertGptImageToJpgStep2": "Seleziona il formato JPG",
+    "convertGptImageToJpgStep2Desc": "Scegli JPG come formato di uscita e imposta la qualità tra l'85 e il 95%. Qualità più alta preserva i dettagli; 85% dimezza la dimensione del file.",
+    "convertGptImageToJpgStep3": "Scarica il file JPG",
+    "convertGptImageToJpgStep3Desc": "Salva il tuo JPG convertito. Un PNG da 12MB di GPT Image 2 di OpenAI diventa tipicamente un JPG da 1-2MB con qualità visivamente identica.",
+    "convertGptImageToJpgFaqTitle": "Domande frequenti",
+    "convertGptImageToJpgFaq1Q": "Perché convertire un PNG di GPT Image 2 di OpenAI in JPG?",
+    "convertGptImageToJpgFaq1A": "PNG è senza perdite ma produce file enormi. L'output PNG nativo di GPT Image 2 di OpenAI arriva a 8-15MB. JPG comprime i contenuti fotografici al 10-20% della dimensione del PNG senza perdita di qualità visibile. Per web, email e social, JPG è la scelta pratica sia per velocità di caricamento sia per costo di banda.",
+    "convertGptImageToJpgFaq2Q": "La conversione fa perdere qualità?",
+    "convertGptImageToJpgFaq2A": "JPG usa una compressione con perdita, quindi tecnicamente c'è un po' di perdita di qualità. Ma al 90% la differenza è invisibile all'occhio umano su contenuti fotografici come l'output di GPT Image 2. Per grafiche con bordi netti o trasparenza, rimani su PNG, altrimenti gli artefatti JPG si vedranno ai margini.",
+    "convertGptImageToJpgFaq3Q": "Perderò la trasparenza convertendo in JPG?",
+    "convertGptImageToJpgFaq3A": "Sì — JPG non supporta la trasparenza. Se il tuo output di OpenAI GPT Image 2 ha sfondo trasparente, JPG lo riempirà di bianco. Usa WebP o rimani su PNG per i ritagli con trasparenza."
   },
   "footer": {
     "tagline": "Strumenti online gratuiti per immagini e video. 100% nel browser, i tuoi file non lasciano mai il tuo dispositivo.",
@@ -761,16 +843,94 @@
     "readMore": "Leggi di più",
     "relatedTools": "Strumenti correlati",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2: tutto quello che sappiamo sul nuovo modello di immagini di OpenAI (aprile 2026)",
+        "metaTitle": "Guida GPT Image 2: nuovo modello immagini OpenAI (2026)",
+        "metaDescription": "Guida completa a GPT Image 2 di OpenAI (aprile 2026). Funzionalità, data di lancio, prezzi, confronto con GPT Image 1.5 e Nano Banana Pro.",
+        "excerpt": "GPT Image 2 di OpenAI sta arrivando agli utenti ChatGPT Plus da aprile 2026. Ecco ogni leak confermato su GPT Image 2, la vera timeline di lancio di OpenAI e come si confronta con GPT Image 1.5 e Nano Banana Pro.",
+        "content": [
+          {
+            "heading": "Cos'è GPT Image 2?",
+            "text": "GPT Image 2 è il modello di generazione immagini di nuova generazione di OpenAI, destinato a sostituire l'attuale GPT Image 1.5. A differenza dei precedenti modelli di immagini di OpenAI come DALL-E 3 o il generatore nativo di GPT-4o, GPT Image 2 gira su un'architettura completamente nuova e indipendente — non è più imbullonato sulla pipeline di GPT-4o. Questa separazione è importante, perché consente a OpenAI di ottimizzare GPT Image 2 specificamente per la qualità dell'immagine, senza imporre un compromesso multimodale. Per l'utente medio di ChatGPT, GPT Image 2 significa semplicemente immagini più nitide, più accurate e con un rendering del testo nettamente migliore. Per gli sviluppatori, significherà nel tempo un endpoint dedicato nell'API di OpenAI una volta che GPT Image 2 sarà ufficialmente lanciato, con la propria documentazione, nuovi parametri di controllo e una fatturazione separata dagli altri modelli di OpenAI."
+          },
+          {
+            "heading": "Data di lancio e stato attuale di GPT Image 2 (aprile 2026)",
+            "text": "OpenAI non ha ancora annunciato ufficialmente GPT Image 2, ma tre modelli anonimi — con i nomi in codice maskingtape-alpha, gaffertape-alpha e packingtape-alpha — sono apparsi su LM Arena a inizio aprile 2026 e sono stati rapidamente identificati dalla community come il prossimo modello di immagini di OpenAI. Il 16 aprile GPT Image 2 è stato avvistato in test A/B all'interno dell'interfaccia web di ChatGPT, e dal 19 aprile gli abbonati paganti ChatGPT Plus e Pro hanno iniziato a segnalare di aver ricevuto l'accesso a GPT Image 2. Il consenso sulla finestra di lancio pubblico punta a fine aprile o metà maggio 2026. OpenAI ha inoltre programmato lo spegnimento completo di DALL-E 2 e DALL-E 3 per il 12 maggio 2026 — quella data probabilmente non è una coincidenza. La linea GPT Image, con GPT Image 2 come ammiraglia, sarà l'unico percorso ufficiale di migrazione per chi usa ancora DALL-E tramite l'API di OpenAI."
+          },
+          {
+            "heading": "Nuove funzionalità di GPT Image 2 che contano davvero",
+            "text": "L'upgrade di punta in GPT Image 2 è il rendering del testo. I precedenti modelli di immagini di OpenAI si aggiravano sul 90-95% di accuratezza, il che suona bene finché non provi a generare l'insegna di un negozio o un mockup di UI e metà delle lettere escono illeggibili. I primi tester riferiscono che GPT Image 2 supera il 99% di accuratezza sul testo, il che significa insegne leggibili, etichette chiare e mockup di interfaccia funzionali direttamente da OpenAI. GPT Image 2 ha anche eliminato la dominante giallastra che affliggeva gli output di GPT-4o — il bianco è finalmente bianco, non crema caldo. La risoluzione arriva fino a 2048x2048 o addirittura 4096x4096 in nativo, un grande salto per chi genera immagini hero, poster o materiali da stampa da OpenAI. Aggiungi embedding persistenti di personaggio (lo stesso volto su più prompt di GPT Image 2), migliore conoscenza del mondo e un'adesione alle istruzioni più pulita, e GPT Image 2 si presenta come il primo modello di immagini di OpenAI capace di competere seriamente con Midjourney e Nano Banana Pro di Google nella produzione commerciale."
+          },
+          {
+            "heading": "GPT Image 2 vs GPT Image 1.5 vs Nano Banana Pro",
+            "text": "Contro il suo stesso predecessore, GPT Image 2 schianta GPT Image 1.5 su rendering del testo, accuratezza dei colori e aderenza al prompt. Lo scontro più interessante è GPT Image 2 contro Nano Banana Pro (il Gemini 3 Pro Image di Google, rilasciato a novembre 2025). Nei test a cieco su LM Arena, GPT Image 2 guida sulla precisione del testo, il restauro di UI e la conoscenza del mondo. Nano Banana Pro resta avanti su alcuni compiti di ragionamento spaziale — riflessi a specchio di Cubi di Rubik, occlusioni complesse e altri casi limite simili. Sul prezzo, i primi segnali dal campo di OpenAI suggeriscono che GPT Image 2 costerà tra $0,15 e $0,20 per immagine via API, contro gli $0,045-0,151 di Nano Banana 2. In altre parole, GPT Image 2 si posiziona come opzione premium. Per la maggior parte degli usi commerciali — creatività pubblicitarie, post social, mockup di prodotto — il divario di qualità di GPT Image 2 vale il costo extra. Per workflow di generazione di massa, Nano Banana Pro resta in vantaggio sull'economia pura."
+          },
+          {
+            "heading": "Come accedere a GPT Image 2 oggi",
+            "text": "Ad aprile 2026, l'accesso a GPT Image 2 è limitato. La strada più facile è un abbonamento ChatGPT Plus o Pro — OpenAI sta distribuendo l'accesso A/B a GPT Image 2 in modo graduale, quindi alcuni utenti ce l'hanno già e altri no. Se non vedi ancora GPT Image 2, prova a chiedere a ChatGPT 'un'immagine ad alta risoluzione con testo' e osserva se la qualità fa un salto. Quando OpenAI premerà l'interruttore pubblicamente, GPT Image 2 sarà accessibile sia in ChatGPT sia tramite OpenAI Image API (sostituendo gpt-image-1.5). Gli sviluppatori dovrebbero aspettarsi un ID modello dedicato gpt-image-2. Nota bene: OpenAI non ha ancora pubblicato la documentazione API di GPT Image 2, quindi qualsiasi 'wrapper GPT Image 2 API' di terze parti che vedi ora è non ufficiale e rischioso — aspetta il lancio ufficiale di OpenAI se vuoi costruirci sopra."
+          },
+          {
+            "heading": "Post-elaborare l'output di GPT Image 2",
+            "text": "Ecco il problema pratico con l'output 4K nativo di GPT Image 2: i file PNG sono enormi. Un singolo render 4096x4096 di GPT Image 2 arriva sugli 8-15MB, troppo grande per una pagina web o una email. Vorrai comprimere l'output di GPT Image 2 sotto i 300KB per la maggior parte degli usi. Il compressore di immagini di ToolPic se ne occupa nel tuo browser — rilascia il PNG di GPT Image 2, imposta la qualità all'82-88% e ottieni un file visivamente identico al 10-15% della dimensione originale. Se usi gli output di GPT Image 2 per i social media, dovrai anche ridimensionare: 1080x1080 per Instagram, 1200x630 per card OpenGraph, 1500x500 per header X/Twitter. Lo strumento di ritaglio di ToolPic ha preset per tutti questi formati. Hai bisogno di una versione trasparente di un mockup di prodotto GPT Image 2? Il rimuovi-sfondo funziona su qualunque output di GPT Image 2. Tutto gira nel browser, quindi le tue immagini generate da OpenAI non vengono mai caricate sui nostri server — cosa che conta se il prompt di GPT Image 2 conteneva qualcosa di riservato."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "I migliori prompt per GPT Image 2: oltre 30 esempi virali dal nuovo modello di OpenAI (2026)",
+        "metaTitle": "Migliori prompt GPT Image 2: esempi virali (2026)",
+        "metaDescription": "Oltre 30 prompt virali di GPT Image 2 dalla community OpenAI. Template di prompt per ritratto, mockup UI, scena urbana e rendering testo per GPT Image 2 da",
+        "excerpt": "Il leak di GPT Image 2 da parte di OpenAI ha generato un'ondata di prompt virali su X/Twitter. Ecco i migliori prompt per GPT Image 2, suddivisi per categoria — copia, incolla e remixa per le tue immagini IA da OpenAI.",
+        "content": [
+          {
+            "heading": "Perché i prompt per GPT Image 2 sono diversi",
+            "text": "Se già scrivi prompt per DALL-E 3, Midjourney o GPT Image 1.5, la buona notizia è che GPT Image 2 gioca quasi con le stesse regole. La parte sorprendente è quanto meglio GPT Image 2 di OpenAI risponda a prompt densi, specifici e a più clausole. Con i modelli più vecchi, infilare troppo dettaglio in un unico prompt spesso faceva saltare qualche elemento. GPT Image 2 gestisce prompt da 200 parole che descrivono scena, soggetto, illuminazione, angolo di camera e palette colore tutto insieme — e renderizza davvero ogni elemento. L'altro cambiamento è il testo. Ora puoi scrivere prompt per GPT Image 2 come 'l'insegna di una caffetteria con scritto BLUE BOTTLE, con un tabellone del menu sotto che elenca espresso, cappuccino e cortado' e il modello di OpenAI riproduce quel testo pulitissimo. Prima di GPT Image 2 non era affidabile. Ogni categoria di prompt qui sotto sfrutta uno di questi punti di forza di GPT Image 2."
+          },
+          {
+            "heading": "Migliori prompt virali di GPT Image 2 da X/Twitter",
+            "text": "L'esempio di GPT Image 2 più condiviso su X è stata una scena di Minecraft in prima persona ambientata a Manhattan — il prompt di GPT Image 2 mescolava estetica videoludica e geografia reale e ha centrato entrambe. Un altro successo è stato un finto 'Documento Interno di Claude Opus 5' renderizzato dentro un mondo Minecraft, che ha accumulato 439mila visualizzazioni. Un prompt di GPT Image 2 su Times Square con oltre 150 pedoni diversi, taxi gialli, asfalto bagnato e riflessi speculari è diventato virale perché il modello di OpenAI ha gestito ogni elemento e il testo sulle insegne è rimasto scritto correttamente. Anche i prompt d'epoca hanno spinto forte: 'Oda Nobunaga che scrive un post su X la notte prima dell'incidente di Honno-ji' è stato uno dei primi esempi virali, combinando precisione storica e layout di UI social moderna. Il filo conduttore dei prompt virali di GPT Image 2: scene che OpenAI deve costruire da conoscenza del mondo, non semplicemente copiare dai dati di addestramento."
+          },
+          {
+            "heading": "Prompt di ritratto e personaggio per GPT Image 2",
+            "text": "Per i ritratti, gli embedding persistenti di personaggio di GPT Image 2 permettono di mantenere lo stesso volto su più render di OpenAI. Inizia il tuo prompt di GPT Image 2 con una descrizione dettagliata del personaggio — età, etnia, tratti distintivi, stile di abbigliamento — e poi aggiungi illuminazione e atmosfera. Esempio di prompt per GPT Image 2: 'Ritratto editoriale di una donna coreana di 34 anni con capelli neri corti e orecchini esagonali d'argento, luce morbida dalla finestra a sinistra, profondità di campo ridotta, color grading teal e pesca attenuati, scatto con obiettivo 85mm a f/1.8.' Nei prompt di follow-up con GPT Image 2, descrivi esattamente gli stessi tratti per mantenere coerenza tra i render. Per personaggi stilizzati, richiama artisti o epoche specifiche: 'art nouveau stile Mucha', 'sfondo Studio Ghibli', 'anime cel-shaded anni '80'. GPT Image 2 è molto migliore di GPT Image 1.5 nel rispettare queste tag di stile provenienti da OpenAI."
+          },
+          {
+            "heading": "Prompt per mockup UI e prodotto con GPT Image 2",
+            "text": "I mockup di UI sono l'area in cui GPT Image 2 stacca davvero i vecchi modelli di OpenAI. Prova questo prompt di GPT Image 2: 'Schermata pulita di app iOS per un'app di meditazione, che mostra la schermata della sessione giornaliera. Barra superiore con freccia indietro e icona impostazioni. Al centro: grande timer circolare che mostra 12:34 rimanenti. Sotto: tre chip di opzione etichettati Respiro, Body Scan, Sonno. Barra delle tab in basso con Home, Sessioni, Profilo.' In GPT Image 2 il testo verrà renderizzato correttamente, il layout avrà senso e le spaziature saranno credibili. Per gli scatti di prodotto in GPT Image 2: 'Foto di prodotto minimalista di una tazzina da caffè in ceramica nera opaca su superficie in cemento, luce direzionale morbida da sopra a sinistra, vapore sottile che sale, profondità di campo ridotta, grana leggera, stile da rivista editoriale.' GPT Image 2 gestisce il rendering dei materiali — opaco vs lucido, ceramica vs metallo — molto meglio dei precedenti modelli di immagini di OpenAI."
+          },
+          {
+            "heading": "Prompt con molto testo in GPT Image 2 (poster, insegne, documenti)",
+            "text": "Questa è la categoria in cui il salto di GPT Image 2 nel rendering del testo paga davvero. Esempio di prompt poster per GPT Image 2: 'Poster di viaggio vintage per Kyoto, stile anni 50. Grande testo con grazie in alto con scritto KYOTO. Sottotitolo in testo più piccolo con scritto Antica Capitale del Giappone. Testo della barra inferiore con scritto Japan National Railways. Illustrazione con fiori di ciliegio e una pagoda a cinque piani.' GPT Image 2 renderizzerà i tre blocchi di testo correttamente da OpenAI — prima era quasi impossibile. Per copertine di riviste, ticker di notizie, cartelli stradali o vetrine in GPT Image 2, scrivi sempre esattamente quale testo deve apparire, tra virgolette, con indicazioni di font se ti interessano ('sans-serif', 'corsivo', 'maiuscole condensate'). Più è precisa la posizione del testo nel tuo prompt di GPT Image 2, più l'output di OpenAI sarà affidabile."
+          },
+          {
+            "heading": "Risultati perfetti: pattern di prompt che funzionano con GPT Image 2",
+            "text": "Tre pattern producono costantemente output forti in GPT Image 2. Primo: scena, poi soggetto, poi stile. 'Nebbia mattutina in una piantagione di caffè vietnamita, un giovane agricoltore che versa chicchi in un tamburo di metallo, luce dell'ora dorata, stile cinematografico iperrealistico.' Secondo: risoluzione e rapporto d'aspetto espliciti nel tuo prompt di GPT Image 2. Aggiungi 'rapporto 16:9, dettaglio 4K, messa a fuoco nitida sul soggetto'. GPT Image 2 ora rispetta davvero queste indicazioni. Terzo: vincoli negativi. 'Nessun testo, nessuna filigrana, nessun logo' evita che GPT Image 2 di OpenAI aggiunga insegne spurie. Se stai generando più varianti in GPT Image 2, riutilizza lo stesso seed o la stessa immagine di riferimento per mantenere lo stile coerente. Una volta ottenuto un output di GPT Image 2 che ti piace, scaricalo e post-elaboralo con ToolPic — comprimi il PNG 4K sotto i 300KB con il compressore di immagini, ritaglia alle dimensioni target con lo strumento di crop o rimuovi lo sfondo con lo strumento bg-remove se ti serve un ritaglio del tuo render di GPT Image 2."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Dimensioni immagine per le Storie Instagram: guida completa per ridimensionare le foto",
         "metaTitle": "Dimensioni immagine Storie Instagram e come ridimensionare | ToolPic Blog",
         "metaDescription": "Scopri le dimensioni esatte delle Storie Instagram nel 2026 e come ridimensionare le foto per un risultato perfetto senza ritagli o bande nere.",
         "excerpt": "Le tue foto vengono tagliate o deformate nelle Storie? Ecco le misure giuste e i passaggi per adattare qualsiasi immagine al formato corretto.",
         "content": [
-          {"heading": "Dimensioni delle Storie Instagram nel 2026", "text": "Il formato standard per le Storie è 1080x1920 pixel, con un rapporto di 9:16. La risoluzione minima accettabile è 720x1280. Sotto questa soglia, Instagram ingrandisce l'immagine e il risultato appare sfocato. Tieni testo ed elementi chiave nell'80% centrale dell'immagine, perché l'interfaccia copre i bordi superiore e inferiore. I formati supportati sono JPG e PNG, con un limite di 30 MB per file. Il modo più semplice è scattare direttamente in verticale dal telefono."},
-          {"heading": "Cosa succede con le dimensioni sbagliate", "text": "Se pubblichi una foto quadrata, Instagram aggiunge bande nere sopra e sotto per riempire lo spazio. Con le foto orizzontali va peggio: il ritaglio è aggressivo in alto e in basso, e rischi di perdere volti o testo. Le immagini verticali troppo alte vengono compresse per entrare nel riquadro, perdendo nitidezza. In più, i pulsanti dell'app (nome utente, risposte, sticker) coprono circa 250 pixel a ogni estremità. Se il tuo testo finisce in quella zona, nessuno lo leggerà."},
-          {"heading": "Come ridimensionare le foto per le Storie Instagram", "text": "Per prima cosa ritaglia l'immagine al rapporto 9:16. Poi imposta la larghezza a 1080 pixel e l'altezza sarà automaticamente 1920. Comprimi il file sotto gli 8 MB, perché i file pesanti caricano lentamente e Instagram li ricomprime con maggiore perdita di qualità. Usa il profilo colore sRGB per mantenere i colori fedeli su tutti i dispositivi. Se parti da una foto orizzontale, scegli quale area conservare prima di ridimensionare per non tagliare il soggetto principale."},
-          {"heading": "Ridimensionare velocemente con ToolPic", "text": "Apri lo strumento Ritaglia Immagine su ToolPic e seleziona il preset Storia Instagram (9:16). Trascina la cornice per inquadrare l'area che vuoi conservare e applica il ritaglio. Poi passa l'immagine nel Compressore per ridurre il peso senza perdita di qualità visibile. Tutto avviene nel tuo browser, le tue foto non vengono mai caricate su nessun server. In meno di un minuto la tua immagine è pronta per essere pubblicata."}
+          {
+            "heading": "Dimensioni delle Storie Instagram nel 2026",
+            "text": "Il formato standard per le Storie è 1080x1920 pixel, con un rapporto di 9:16. La risoluzione minima accettabile è 720x1280. Sotto questa soglia, Instagram ingrandisce l'immagine e il risultato appare sfocato. Tieni testo ed elementi chiave nell'80% centrale dell'immagine, perché l'interfaccia copre i bordi superiore e inferiore. I formati supportati sono JPG e PNG, con un limite di 30 MB per file. Il modo più semplice è scattare direttamente in verticale dal telefono."
+          },
+          {
+            "heading": "Cosa succede con le dimensioni sbagliate",
+            "text": "Se pubblichi una foto quadrata, Instagram aggiunge bande nere sopra e sotto per riempire lo spazio. Con le foto orizzontali va peggio: il ritaglio è aggressivo in alto e in basso, e rischi di perdere volti o testo. Le immagini verticali troppo alte vengono compresse per entrare nel riquadro, perdendo nitidezza. In più, i pulsanti dell'app (nome utente, risposte, sticker) coprono circa 250 pixel a ogni estremità. Se il tuo testo finisce in quella zona, nessuno lo leggerà."
+          },
+          {
+            "heading": "Come ridimensionare le foto per le Storie Instagram",
+            "text": "Per prima cosa ritaglia l'immagine al rapporto 9:16. Poi imposta la larghezza a 1080 pixel e l'altezza sarà automaticamente 1920. Comprimi il file sotto gli 8 MB, perché i file pesanti caricano lentamente e Instagram li ricomprime con maggiore perdita di qualità. Usa il profilo colore sRGB per mantenere i colori fedeli su tutti i dispositivi. Se parti da una foto orizzontale, scegli quale area conservare prima di ridimensionare per non tagliare il soggetto principale."
+          },
+          {
+            "heading": "Ridimensionare velocemente con ToolPic",
+            "text": "Apri lo strumento Ritaglia Immagine su ToolPic e seleziona il preset Storia Instagram (9:16). Trascina la cornice per inquadrare l'area che vuoi conservare e applica il ritaglio. Poi passa l'immagine nel Compressore per ridurre il peso senza perdita di qualità visibile. Tutto avviene nel tuo browser, le tue foto non vengono mai caricate su nessun server. In meno di un minuto la tua immagine è pronta per essere pubblicata."
+          }
         ],
         "relatedToolIds": "image-crop,image-compressor"
       },
@@ -780,10 +940,22 @@
         "metaDescription": "Scopri come combinare due o più foto affiancate gratuitamente. Perfetto per confronti prima/dopo e post sui social media.",
         "excerpt": "Hai bisogno di mettere più foto una accanto all'altra? Ecco i metodi più semplici per farlo senza installare nulla.",
         "content": [
-          {"heading": "Perché unire le foto affiancate?", "text": "Le ragioni per mettere due foto una accanto all'altra sono tantissime. Il caso più classico è il confronto prima e dopo: ristrutturazione, progressi in palestra, ritocco fotografico. Funziona benissimo anche per confrontare prodotti, mostrare angolazioni diverse dello stesso oggetto o creare contenuti d'impatto per Instagram e altri social. Invece di pubblicare più immagini separate, una composizione affiancata racconta tutta la storia in un colpo d'occhio. Il pubblico capisce subito il messaggio. E la cosa bella è che oggi non serve più Photoshop per ottenere risultati del genere."},
-          {"heading": "I metodi: orizzontale, verticale e a griglia", "text": "La disposizione orizzontale è la più comune: le foto sono allineate una accanto all'altra sulla stessa riga. È ideale per confronti diretti tra due o tre immagini. Quella verticale impila le foto dall'alto verso il basso, perfetta per tutorial passo passo o le storie di Instagram. Quando hai quattro o più foto, la griglia diventa la scelta migliore: organizza le immagini in righe e colonne per un risultato equilibrato. La scelta dipende da cosa vuoi comunicare. Un prima/dopo funziona meglio in orizzontale, mentre un processo a più fasi si legge meglio in verticale. Sperimenta per trovare la soluzione giusta."},
-          {"heading": "Consigli per risultati migliori", "text": "Prima di tutto, assicurati che le foto abbiano dimensioni simili. Un'immagine molto più grande dell'altra darà un risultato sbilanciato. Ritaglia o ridimensiona prima, se serve. Anche l'illuminazione conta parecchio: accostare una foto scura a una molto luminosa non dà un bell'effetto. Un bordo sottile tra le immagini aiuta a separarle visivamente. E un dettaglio che molti dimenticano: mantieni coerenza nello stile cromatico. Se usi filtri, applica lo stesso a tutte le foto del gruppo. Sono questi piccoli accorgimenti che fanno la differenza tra un collage amatoriale e un risultato davvero professionale."},
-          {"heading": "Come usare lo strumento Unisci Immagini di ToolPic", "text": "Con ToolPic puoi combinare foto in pochi secondi, senza registrazione. Apri lo strumento per unire le immagini, trascina le foto che vuoi combinare e scegli la disposizione: orizzontale, verticale o a griglia. Puoi regolare lo spazio tra le immagini e il colore di sfondo. Tutto il processo avviene direttamente nel tuo browser, quindi le tue foto non vengono mai caricate su nessun server. Quando sei soddisfatto del risultato, scaricalo in PNG o JPG con un solo clic. Nessuna filigrana, nessun limite di utilizzo, completamente gratuito. Semplice e immediato."}
+          {
+            "heading": "Perché unire le foto affiancate?",
+            "text": "Le ragioni per mettere due foto una accanto all'altra sono tantissime. Il caso più classico è il confronto prima e dopo: ristrutturazione, progressi in palestra, ritocco fotografico. Funziona benissimo anche per confrontare prodotti, mostrare angolazioni diverse dello stesso oggetto o creare contenuti d'impatto per Instagram e altri social. Invece di pubblicare più immagini separate, una composizione affiancata racconta tutta la storia in un colpo d'occhio. Il pubblico capisce subito il messaggio. E la cosa bella è che oggi non serve più Photoshop per ottenere risultati del genere."
+          },
+          {
+            "heading": "I metodi: orizzontale, verticale e a griglia",
+            "text": "La disposizione orizzontale è la più comune: le foto sono allineate una accanto all'altra sulla stessa riga. È ideale per confronti diretti tra due o tre immagini. Quella verticale impila le foto dall'alto verso il basso, perfetta per tutorial passo passo o le storie di Instagram. Quando hai quattro o più foto, la griglia diventa la scelta migliore: organizza le immagini in righe e colonne per un risultato equilibrato. La scelta dipende da cosa vuoi comunicare. Un prima/dopo funziona meglio in orizzontale, mentre un processo a più fasi si legge meglio in verticale. Sperimenta per trovare la soluzione giusta."
+          },
+          {
+            "heading": "Consigli per risultati migliori",
+            "text": "Prima di tutto, assicurati che le foto abbiano dimensioni simili. Un'immagine molto più grande dell'altra darà un risultato sbilanciato. Ritaglia o ridimensiona prima, se serve. Anche l'illuminazione conta parecchio: accostare una foto scura a una molto luminosa non dà un bell'effetto. Un bordo sottile tra le immagini aiuta a separarle visivamente. E un dettaglio che molti dimenticano: mantieni coerenza nello stile cromatico. Se usi filtri, applica lo stesso a tutte le foto del gruppo. Sono questi piccoli accorgimenti che fanno la differenza tra un collage amatoriale e un risultato davvero professionale."
+          },
+          {
+            "heading": "Come usare lo strumento Unisci Immagini di ToolPic",
+            "text": "Con ToolPic puoi combinare foto in pochi secondi, senza registrazione. Apri lo strumento per unire le immagini, trascina le foto che vuoi combinare e scegli la disposizione: orizzontale, verticale o a griglia. Puoi regolare lo spazio tra le immagini e il colore di sfondo. Tutto il processo avviene direttamente nel tuo browser, quindi le tue foto non vengono mai caricate su nessun server. Quando sei soddisfatto del risultato, scaricalo in PNG o JPG con un solo clic. Nessuna filigrana, nessun limite di utilizzo, completamente gratuito. Semplice e immediato."
+          }
         ],
         "relatedToolIds": "image-merge,image-crop"
       },
@@ -793,10 +965,22 @@
         "metaDescription": "Scopri i migliori compressori video online gratuiti che non aggiungono filigrane. Riduci le dimensioni dei tuoi video mantenendo la qualità.",
         "excerpt": "Stufo degli strumenti gratuiti che rovinano i tuoi video con filigrane? Scopri quali non lo fanno e come comprimere al meglio.",
         "content": [
-          {"heading": "Perché la maggior parte degli strumenti gratuiti aggiunge filigrane", "text": "È frustrante ma comprensibile: far funzionare un servizio di compressione video costa. Server potenti, banda, manutenzione... tutto questo va pagato in qualche modo. La filigrana è il metodo più diffuso per spingere gli utenti verso il piano a pagamento. Ti lasciano comprimere gratis, ma ci stampano sopra il loro logo come promemoria costante. Alcuni applicano la filigrana solo oltre una certa durata o dimensione del file. Il trucco per aggirare il problema? Cercare strumenti che usano un modello diverso, come quelli che elaborano tutto nel browser senza bisogno di server."},
-          {"heading": "Caratteristiche chiave da verificare", "text": "La prima cosa, ovviamente: niente filigrana, nemmeno nella versione gratuita. Ma c'è altro da considerare. La privacy è fondamentale: i tuoi video vengono caricati su un server o elaborati in locale? Gli strumenti basati sul browser sono decisamente più sicuri da questo punto di vista. Controlla anche i formati supportati: MP4, WebM, AVI come minimo. Il limite sulla dimensione del file è spesso la trappola delle versioni gratuite: alcune permettono solo 50 MB, il che è ridicolo per i video. Infine, poter regolare la qualità di output ti dà il controllo sul compromesso tra dimensione e qualità visiva."},
-          {"heading": "Confronto tra le migliori opzioni gratuite", "text": "Tra le opzioni disponibili, poche soddisfano tutti i requisiti. Molti strumenti online richiedono di caricare il video sui loro server, il che pone problemi di privacy e richiede tempo. Altri limitano il numero di compressioni giornaliere. ToolPic si distingue perché tutta l'elaborazione avviene nel browser grazie a FFmpeg WebAssembly. In pratica, il tuo video non lascia mai il tuo computer. Non ci sono limiti reali di dimensione, nessuna filigrana, e su un PC moderno la velocità è sorprendentemente buona anche con video lunghi. Per chi lavora con contenuti sensibili o file pesanti, è un vantaggio notevole."},
-          {"heading": "Come comprimere senza perdita visibile di qualità", "text": "Il segreto sta nel trovare il giusto equilibrio. Ridurre il bitrate è ciò che impatta di più sulla dimensione del file. Un video a 8 Mbps può spesso scendere a 4 Mbps senza che la maggior parte delle persone noti alcuna differenza. Per i social media, passare a 1080p o addirittura 720p è più che sufficiente. Anche il formato conta: H.264 offre una buona compressione con compatibilità universale, mentre H.265 comprime di più ma non è riprodotto ovunque. Fai diverse prove con impostazioni diverse. Spesso si riesce a dimezzare le dimensioni senza che nessuno se ne accorga."}
+          {
+            "heading": "Perché la maggior parte degli strumenti gratuiti aggiunge filigrane",
+            "text": "È frustrante ma comprensibile: far funzionare un servizio di compressione video costa. Server potenti, banda, manutenzione... tutto questo va pagato in qualche modo. La filigrana è il metodo più diffuso per spingere gli utenti verso il piano a pagamento. Ti lasciano comprimere gratis, ma ci stampano sopra il loro logo come promemoria costante. Alcuni applicano la filigrana solo oltre una certa durata o dimensione del file. Il trucco per aggirare il problema? Cercare strumenti che usano un modello diverso, come quelli che elaborano tutto nel browser senza bisogno di server."
+          },
+          {
+            "heading": "Caratteristiche chiave da verificare",
+            "text": "La prima cosa, ovviamente: niente filigrana, nemmeno nella versione gratuita. Ma c'è altro da considerare. La privacy è fondamentale: i tuoi video vengono caricati su un server o elaborati in locale? Gli strumenti basati sul browser sono decisamente più sicuri da questo punto di vista. Controlla anche i formati supportati: MP4, WebM, AVI come minimo. Il limite sulla dimensione del file è spesso la trappola delle versioni gratuite: alcune permettono solo 50 MB, il che è ridicolo per i video. Infine, poter regolare la qualità di output ti dà il controllo sul compromesso tra dimensione e qualità visiva."
+          },
+          {
+            "heading": "Confronto tra le migliori opzioni gratuite",
+            "text": "Tra le opzioni disponibili, poche soddisfano tutti i requisiti. Molti strumenti online richiedono di caricare il video sui loro server, il che pone problemi di privacy e richiede tempo. Altri limitano il numero di compressioni giornaliere. ToolPic si distingue perché tutta l'elaborazione avviene nel browser grazie a FFmpeg WebAssembly. In pratica, il tuo video non lascia mai il tuo computer. Non ci sono limiti reali di dimensione, nessuna filigrana, e su un PC moderno la velocità è sorprendentemente buona anche con video lunghi. Per chi lavora con contenuti sensibili o file pesanti, è un vantaggio notevole."
+          },
+          {
+            "heading": "Come comprimere senza perdita visibile di qualità",
+            "text": "Il segreto sta nel trovare il giusto equilibrio. Ridurre il bitrate è ciò che impatta di più sulla dimensione del file. Un video a 8 Mbps può spesso scendere a 4 Mbps senza che la maggior parte delle persone noti alcuna differenza. Per i social media, passare a 1080p o addirittura 720p è più che sufficiente. Anche il formato conta: H.264 offre una buona compressione con compatibilità universale, mentre H.265 comprime di più ma non è riprodotto ovunque. Fai diverse prove con impostazioni diverse. Spesso si riesce a dimezzare le dimensioni senza che nessuno se ne accorga."
+          }
         ],
         "relatedToolIds": "video-compress,video-convert"
       },
@@ -806,10 +990,22 @@
         "metaDescription": "Rimuovi lo sfondo delle tue foto prodotto gratuitamente con l'IA. Ideale per negozi online, Amazon, eBay e altro.",
         "excerpt": "Uno sfondo pulito può fare la differenza nelle tue vendite online. Scopri come rimuovere gli sfondi gratis in modo professionale.",
         "content": [
-          {"heading": "Perché uno sfondo pulito è cruciale nell'e-commerce", "text": "I dati parlano chiaro: i prodotti con sfondo bianco o trasparente vendono di più. Amazon richiede uno sfondo bianco puro per le foto principali, eBay lo raccomanda con insistenza. Ed è logico, pensandoci bene. Uno sfondo neutro elimina le distrazioni e mette il prodotto al centro dell'attenzione. L'acquirente vede esattamente cosa riceverà, senza elementi che confondano. Inoltre, uno sfondo uniforme dona coerenza visiva al negozio, genera fiducia e facilita la navigazione nel catalogo. Non è un caso che i grandi brand investano così tanto in fotografie prodotto con sfondi impeccabili."},
-          {"heading": "Rimozione con IA vs. rimozione manuale", "text": "Fino a pochi anni fa, togliere lo sfondo significava ore di lavoro certosino con lo strumento penna in Photoshop. Si ritagliava pixel per pixel, contorno per contorno. Oggi l'intelligenza artificiale sbriga questo lavoro in pochi secondi. I modelli di IA moderni identificano automaticamente il soggetto principale e separano lo sfondo con una precisione impressionante. È sempre perfetto? Non sempre. Sui bordi complicati come capelli o oggetti trasparenti, a volte serve un ritocco. Ma per la stragrande maggioranza dei prodotti e-commerce con contorni definiti, il risultato è più che soddisfacente. La differenza nei tempi è abissale."},
-          {"heading": "Consigli per ottenere i migliori risultati", "text": "L'IA funziona meglio quando le si facilita il compito. Fotografa i tuoi prodotti con illuminazione uniforme, senza ombre nette. Uno sfondo che contrasti con il prodotto aiuta enormemente: non fotografare un oggetto bianco su sfondo bianco. Evita sfondi con texture complicate o troppi colori. Assicurati che il prodotto sia interamente nell'inquadratura e ben a fuoco. Anche le immagini ad alta risoluzione danno risultati migliori, perché l'IA ha più informazioni su cui lavorare. Seguendo questi semplici accorgimenti, il ritaglio automatico risulterà quasi perfetto al primo tentativo."},
-          {"heading": "Usare il Rimuovi Sfondo di ToolPic", "text": "Lo strumento di ToolPic utilizza un'intelligenza artificiale che gira direttamente nel tuo browser. Questo significa che le tue foto prodotto non vengono mai inviate a server esterni — un aspetto cruciale se lavori con immagini di prodotti non ancora lanciati. Basta trascinare la foto, attendere qualche secondo mentre l'IA elabora l'immagine e scaricare il risultato con sfondo trasparente in formato PNG. Puoi elaborare quante immagini vuoi, senza limiti e senza registrazione. È completamente gratuito, senza filigrana e nel pieno rispetto della privacy del tuo catalogo prodotti."}
+          {
+            "heading": "Perché uno sfondo pulito è cruciale nell'e-commerce",
+            "text": "I dati parlano chiaro: i prodotti con sfondo bianco o trasparente vendono di più. Amazon richiede uno sfondo bianco puro per le foto principali, eBay lo raccomanda con insistenza. Ed è logico, pensandoci bene. Uno sfondo neutro elimina le distrazioni e mette il prodotto al centro dell'attenzione. L'acquirente vede esattamente cosa riceverà, senza elementi che confondano. Inoltre, uno sfondo uniforme dona coerenza visiva al negozio, genera fiducia e facilita la navigazione nel catalogo. Non è un caso che i grandi brand investano così tanto in fotografie prodotto con sfondi impeccabili."
+          },
+          {
+            "heading": "Rimozione con IA vs. rimozione manuale",
+            "text": "Fino a pochi anni fa, togliere lo sfondo significava ore di lavoro certosino con lo strumento penna in Photoshop. Si ritagliava pixel per pixel, contorno per contorno. Oggi l'intelligenza artificiale sbriga questo lavoro in pochi secondi. I modelli di IA moderni identificano automaticamente il soggetto principale e separano lo sfondo con una precisione impressionante. È sempre perfetto? Non sempre. Sui bordi complicati come capelli o oggetti trasparenti, a volte serve un ritocco. Ma per la stragrande maggioranza dei prodotti e-commerce con contorni definiti, il risultato è più che soddisfacente. La differenza nei tempi è abissale."
+          },
+          {
+            "heading": "Consigli per ottenere i migliori risultati",
+            "text": "L'IA funziona meglio quando le si facilita il compito. Fotografa i tuoi prodotti con illuminazione uniforme, senza ombre nette. Uno sfondo che contrasti con il prodotto aiuta enormemente: non fotografare un oggetto bianco su sfondo bianco. Evita sfondi con texture complicate o troppi colori. Assicurati che il prodotto sia interamente nell'inquadratura e ben a fuoco. Anche le immagini ad alta risoluzione danno risultati migliori, perché l'IA ha più informazioni su cui lavorare. Seguendo questi semplici accorgimenti, il ritaglio automatico risulterà quasi perfetto al primo tentativo."
+          },
+          {
+            "heading": "Usare il Rimuovi Sfondo di ToolPic",
+            "text": "Lo strumento di ToolPic utilizza un'intelligenza artificiale che gira direttamente nel tuo browser. Questo significa che le tue foto prodotto non vengono mai inviate a server esterni — un aspetto cruciale se lavori con immagini di prodotti non ancora lanciati. Basta trascinare la foto, attendere qualche secondo mentre l'IA elabora l'immagine e scaricare il risultato con sfondo trasparente in formato PNG. Puoi elaborare quante immagini vuoi, senza limiti e senza registrazione. È completamente gratuito, senza filigrana e nel pieno rispetto della privacy del tuo catalogo prodotti."
+          }
         ],
         "relatedToolIds": "image-bg-remove,image-compressor"
       },

@@ -41,6 +41,8 @@
   "home": {
     "h1": "免费在线图片视频工具",
     "subtitle": "即时压缩、转换和编辑媒体文件。无需上传，无需注册，无任何限制。100%免费且私密。",
+    "newBadgeLabel": "新",
+    "gptImage2Badge": "OpenAI 全新 GPT Image 2 已登场 —— 查看完整解读",
     "startNow": "立即开始",
     "learnMore": "了解更多",
     "imageSection": "图片工具",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "支持哪些视频格式？",
     "extractMp3Faq2A": "支持所有常见的视频格式，包括 MP4、WebM、AVI、MOV 和 MKV。只要视频包含音频轨道，就可以提取为 MP3。",
     "extractMp3Faq3Q": "提取过程需要多长时间？",
-    "extractMp3Faq3A": "提取时间取决于视频文件的大小和时长。通常几秒到几分钟不等。由于处理在浏览器中进行，建议视频文件不超过 500MB。"
+    "extractMp3Faq3A": "提取时间取决于视频文件的大小和时长。通常几秒到几分钟不等。由于处理在浏览器中进行，建议视频文件不超过 500MB。",
+    "compressGptImage2": "在线压缩 GPT Image 2 生成图 - 免费工具",
+    "compressGptImage2Desc": "专为 OpenAI 新一代 GPT Image 2 模型导出的 PNG 设计的在线压缩工具。把 4K GPT Image 2 原图从 12MB 压到 300KB 以内，肉眼几乎看不出差别。全程浏览器处理，无需上传。",
+    "compressGptImage2HowTo": "如何压缩 GPT Image 2 输出图",
+    "compressGptImage2Step1": "上传你的 GPT Image 2 文件",
+    "compressGptImage2Step1Desc": "把用 OpenAI GPT Image 2 或 ChatGPT 生成的 PNG、JPG 拖进来即可，单文件支持最大 50MB。",
+    "compressGptImage2Step2": "调整压缩强度",
+    "compressGptImage2Step2Desc": "建议把质量设在 75-90%。GPT Image 2 的图片压缩收益很高，设成 82% 时通常和 OpenAI 原图完全看不出差别。",
+    "compressGptImage2Step3": "下载压缩后的图片",
+    "compressGptImage2Step3Desc": "保存优化后的文件。一张 12MB 的 GPT Image 2 4K PNG 通常能压到 300KB 以内。",
+    "compressGptImage2FaqTitle": "常见问题",
+    "compressGptImage2Faq1Q": "为什么 OpenAI 的 GPT Image 2 导出文件这么大？",
+    "compressGptImage2Faq1A": "GPT Image 2 默认按 2048x2048 甚至 4096x4096 原生分辨率生成，并且导出的是未压缩 PNG，所以单张文件通常在 8-15MB 之间。对网页、邮件、社交媒体来说这显然太大，你需要把 GPT Image 2 输出压到 200-500KB 区间，同时几乎不损失画质。",
+    "compressGptImage2Faq2Q": "压缩会不会破坏 OpenAI 的 C2PA 水印元数据？",
+    "compressGptImage2Faq2A": "OpenAI 会在 GPT Image 2 的输出里嵌入 C2PA 溯源信息。常规的 JPEG 压缩通常能保留这段元数据。如果你想彻底去掉元数据，可以用图片转换工具重新编码为另一种格式，但这意味着 OpenAI 给 GPT Image 2 加的真实性签名也会一并消失。",
+    "compressGptImage2Faq3Q": "GPT Image 2 的图会上传到服务器吗？",
+    "compressGptImage2Faq3A": "不会。压缩全部在你的浏览器里用 WebAssembly 完成，OpenAI GPT Image 2 生成的原图始终留在你的设备上。如果你的提示词里涉及保密素材、未发布产品或品牌机密，这一点尤其重要。",
+    "resizeAiImage": "在线调整 AI 图片尺寸 — GPT Image 2 / Midjourney / DALL-E",
+    "resizeAiImageDesc": "把 GPT Image 2、ChatGPT、DALL-E、Midjourney、Nano Banana 的 AI 图一键调整到 Instagram、Twitter、Facebook、YouTube 等平台尺寸。免费、浏览器处理、无需上传。",
+    "resizeAiImageHowTo": "如何调整 AI 生成图片的尺寸",
+    "resizeAiImageStep1": "上传 AI 图片",
+    "resizeAiImageStep1Desc": "拖入任何 AI 生成的 PNG 或 JPG 即可，支持 GPT Image 2、OpenAI ChatGPT、Midjourney、DALL-E、Nano Banana Pro 等所有模型。",
+    "resizeAiImageStep2": "选择目标尺寸",
+    "resizeAiImageStep2Desc": "直接选内置社交媒体预设——1080x1080 Instagram 方图、1200x630 OG 卡片、1500x500 X/Twitter 头图——也可以手动输入自定义尺寸。",
+    "resizeAiImageStep3": "下载调整后的图片",
+    "resizeAiImageStep3Desc": "裁好直接下载，上传到目标平台时不会再出现被截掉构图主体的尴尬情况。",
+    "resizeAiImageFaqTitle": "常见问题",
+    "resizeAiImageFaq1Q": "缩放 AI 图片会不会损失画质？",
+    "resizeAiImageFaq1A": "把 2K 或 4K 的 GPT Image 2 输出缩到 1080px，基本上是无损的——你丢掉的像素本来也会被目标平台自己压缩掉。真正掉画质的是把小图放大，所以建议始终用 OpenAI 支持的最高分辨率去生成 GPT Image 2。",
+    "resizeAiImageFaq2Q": "在 GPT Image 2 里为 Instagram 渲染应该选多大？",
+    "resizeAiImageFaq2A": "建议用 GPT Image 2 以 2048x2048 生成，然后根据用途裁成 1080x1080（Instagram 正方形帖）、1080x1350（4:5 竖图帖）或 1080x1920（Stories 和 Reels）。多出来的像素给你留足构图余量，不用回去 OpenAI 重跑。",
+    "resizeAiImageFaq3Q": "这个工具对 Midjourney 和 DALL-E 的图也适用吗？",
+    "resizeAiImageFaq3A": "完全没问题。尺寸调整工具和图片来源无关，GPT Image 2 的 PNG、Nano Banana Pro 的 WebP、Midjourney 的 JPG 都能照样处理。你的原图不会上传到任何服务器。",
+    "watermarkAiImage": "AI 生成图在线加水印 - 免费支持 GPT Image 2 和 Midjourney",
+    "watermarkAiImageDesc": "为 GPT Image 2、OpenAI DALL-E、Midjourney、Nano Banana 生成的 AI 图一键加上自定义文字或 logo 水印。发图前保护版权、标注 AI 属性更合规。",
+    "watermarkAiImageHowTo": "如何给 AI 生成图加水印",
+    "watermarkAiImageStep1": "上传 AI 生成的图片",
+    "watermarkAiImageStep1Desc": "拖入你从 GPT Image 2、OpenAI ChatGPT、Midjourney 或任何 AI 绘图工具生成的 PNG 或 JPG 即可。",
+    "watermarkAiImageStep2": "添加文字或 logo",
+    "watermarkAiImageStep2Desc": "输入水印文字或上传 logo 图片，自由调节透明度、位置、字号和颜色，做出专业感的成品。",
+    "watermarkAiImageStep3": "下载带水印的成品",
+    "watermarkAiImageStep3Desc": "保存带水印的图片，发到社媒或作品集时，归属信息始终清晰可见。",
+    "watermarkAiImageFaqTitle": "常见问题",
+    "watermarkAiImageFaq1Q": "需要给 GPT Image 2 的图加水印吗？",
+    "watermarkAiImageFaq1A": "从伦理和日渐收紧的法规来看都建议加。X、Instagram 和 Meta 系产品对 AI 内容的强制披露要求越来越严格。给 OpenAI 输出加一个小小的「#AI」或「由 GPT Image 2 生成」水印，既合规又对观众保持透明。",
+    "watermarkAiImageFaq2Q": "加水印会影响 OpenAI 的 C2PA 元数据吗？",
+    "watermarkAiImageFaq2A": "会。一旦改动像素，文件哈希就变了，C2PA 签名自然失效，这是正常行为。如果你要保留 OpenAI 给 GPT Image 2 输出签的原始溯源信息，请另存一份未改动的原图作为存档。",
+    "watermarkAiImageFaq3Q": "能不能批量给多张 AI 图加水印？",
+    "watermarkAiImageFaq3A": "可以。支持批量水印，上传一整文件夹的 GPT Image 2 或 Midjourney 图，只设置一次水印参数就能统一应用到所有图上。所有处理在你自己的浏览器里完成。",
+    "removeBgAiImage": "AI 生成图一键抠图 - 免费在线去背景工具",
+    "removeBgAiImageDesc": "一键移除 OpenAI GPT Image 2、DALL-E、Midjourney 或 ChatGPT 图片的背景。全程浏览器 AI 处理，输出干净的透明 PNG。",
+    "removeBgAiImageHowTo": "如何去除 AI 图的背景",
+    "removeBgAiImageStep1": "上传 AI 图片",
+    "removeBgAiImageStep1Desc": "拖入你从 GPT Image 2、OpenAI ChatGPT、Midjourney 或其他 AI 生成器得到的图片即可。",
+    "removeBgAiImageStep2": "AI 自动去背景",
+    "removeBgAiImageStep2Desc": "客户端 AI 会自动识别主体并在 2-5 秒内去掉背景，全程不离开浏览器。",
+    "removeBgAiImageStep3": "下载透明 PNG",
+    "removeBgAiImageStep3Desc": "保存带 alpha 通道的透明 PNG，可以直接叠加到任意背景或放进产品样机里。",
+    "removeBgAiImageFaqTitle": "常见问题",
+    "removeBgAiImageFaq1Q": "抠图对 GPT Image 2 的输出效果好不好？",
+    "removeBgAiImageFaq1A": "非常好。GPT Image 2 生成的图干净、光照稳定，主体边缘锐利、与背景对比度高，这些特征对抠图来说是理想条件，AI 抠 GPT Image 2 的图甚至比抠真实照片更准。",
+    "removeBgAiImageFaq2Q": "复杂场景的 AI 图也能抠吗？",
+    "removeBgAiImageFaq2A": "对于包含多个主体或复杂背景的场景，AI 会默认提取最突出的前景主体。如果 GPT Image 2 生成的是一张有复杂背景的人像，抠图效果会很好；对于多人或多主体场景，建议回到 OpenAI 重写提示词先生成更简单的背景。",
+    "removeBgAiImageFaq3Q": "图片会被上传到服务器吗？",
+    "removeBgAiImageFaq3A": "不会。抠图完全用客户端 AI 在你的浏览器里运行，GPT Image 2 的原图和元数据里可能包含的敏感提示词都不会离开你的设备。",
+    "convertGptImageToJpg": "在线把 GPT Image 2 PNG 转成 JPG - 免费",
+    "convertGptImageToJpgDesc": "一键把 OpenAI GPT Image 2、DALL-E、ChatGPT 导出的 PNG 转换成 JPG。文件体积直降 80%，兼容性拉满。免费浏览器处理，无需上传。",
+    "convertGptImageToJpgHowTo": "如何把 GPT Image 2 的 PNG 转成 JPG",
+    "convertGptImageToJpgStep1": "上传 GPT Image 2 的 PNG",
+    "convertGptImageToJpgStep1Desc": "把 OpenAI GPT Image 2、ChatGPT 或 OpenAI Image API 导出的 PNG 文件拖进来即可。",
+    "convertGptImageToJpgStep2": "选择 JPG 格式",
+    "convertGptImageToJpgStep2Desc": "把输出格式改成 JPG，质量建议设在 85-95%。越高越保留细节，85% 通常就能把体积直接减半。",
+    "convertGptImageToJpgStep3": "下载 JPG 文件",
+    "convertGptImageToJpgStep3Desc": "保存转换好的 JPG。一张 12MB 的 GPT Image 2 PNG 在 OpenAI 原始画质下通常会转成 1-2MB 的 JPG，肉眼几乎看不出区别。",
+    "convertGptImageToJpgFaqTitle": "常见问题",
+    "convertGptImageToJpgFaq1Q": "为什么要把 OpenAI 的 GPT Image 2 PNG 转 JPG？",
+    "convertGptImageToJpgFaq1A": "PNG 是无损的，所以体积特别大。GPT Image 2 从 OpenAI 原生导出的 PNG 动辄 8-15MB。JPG 能把照片类内容压到 PNG 大小的 10-20%，而肉眼几乎看不出差别。对网页、邮件、社媒场景而言，JPG 是最实用的选择。",
+    "convertGptImageToJpgFaq2Q": "转换会损失画质吗？",
+    "convertGptImageToJpgFaq2A": "JPG 属于有损压缩，严格来说确实会有一点画质损失。但 90% 质量下，肉眼在 GPT Image 2 这种照片级内容上几乎无法区分。如果是有锐利边缘或带透明度的图形素材，就老老实实用 PNG。",
+    "convertGptImageToJpgFaq3Q": "转 JPG 会丢失透明通道吗？",
+    "convertGptImageToJpgFaq3A": "会的——JPG 不支持透明。如果你的 OpenAI GPT Image 2 输出是透明背景，转成 JPG 后透明区域会被填充成白色。需要保留透明效果，请改用 WebP 或继续保持 PNG。"
   },
   "footer": {
     "tagline": "免费在线图片视频工具。100% 浏览器处理，文件不会离开您的设备。",
@@ -761,6 +843,72 @@
     "readMore": "阅读全文",
     "relatedTools": "相关工具",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2 全解读：关于 OpenAI 新一代图像模型我们已知的一切（2026年4月）",
+        "metaTitle": "GPT Image 2 完整指南 —— OpenAI 新图像生成模型深度解析",
+        "metaDescription": "OpenAI GPT Image 2（2026年4月）完整指南。功能、发布时间、定价、与 GPT Image 1.5 和 Nano Banana Pro 的对比。持续跟进 ChatGPT A/B 测试中的最新泄漏。",
+        "excerpt": "OpenAI 的 GPT Image 2 从 2026 年 4 月起开始向 ChatGPT Plus 用户分批推送。这篇文章梳理所有已证实的 GPT Image 2 泄漏、OpenAI 真实的发布节奏，以及 GPT Image 2 与 GPT Image 1.5、Nano Banana Pro 的横向对比。",
+        "content": [
+          {
+            "heading": "GPT Image 2 到底是什么？",
+            "text": "GPT Image 2 是 OpenAI 下一代图像生成模型，预计用来替换目前的 GPT Image 1.5。和 DALL-E 3、GPT-4o 原生图像生成这些更早的 OpenAI 模型不同，GPT Image 2 跑在一套完全独立的新架构上——它不再挂在 GPT-4o 这条多模态管线后面。这一点看似不起眼，实则非常关键，因为这意味着 OpenAI 可以专门针对图像质量来优化 GPT Image 2，而不用再为多模态任务做折中。对普通 ChatGPT 用户来说，GPT Image 2 意味着更锐利、更符合提示词的画面，以及几乎重写规则的文字渲染能力；对开发者而言，一旦 GPT Image 2 正式发布，就会有独立的 OpenAI API 端点。换句话说，GPT Image 2 是 OpenAI 把「图像生成」这件事单独拎出来做的第一次严肃尝试。"
+          },
+          {
+            "heading": "GPT Image 2 发布时间与当前状态（2026年4月）",
+            "text": "截至目前 OpenAI 尚未正式宣布 GPT Image 2，但在 2026 年 4 月初，三个匿名模型——代号 maskingtape-alpha、gaffertape-alpha 和 packingtape-alpha——出现在 LM Arena 上，很快就被社区辨认出是 OpenAI 的下一代图像模型，也就是 GPT Image 2。到 4 月 16 日，ChatGPT 网页端 A/B 测试里已经出现 GPT Image 2 的身影；4 月 19 日起，付费的 ChatGPT Plus 和 Pro 订阅用户陆续反馈已经拿到 GPT Image 2 的访问权限。业内普遍认为 GPT Image 2 的公开发布窗口落在 2026 年 4 月底到 5 月中旬之间。OpenAI 同时把 DALL-E 2 和 DALL-E 3 的完全下线日期定在 2026 年 5 月 12 日——时间巧合的可能性非常小。以 GPT Image 2 为旗舰的 GPT Image 系列，将成为所有仍在使用 DALL-E OpenAI API 用户唯一的官方迁移路径。"
+          },
+          {
+            "heading": "GPT Image 2 真正值得关注的新特性",
+            "text": "GPT Image 2 最大的升级是文字渲染。此前 OpenAI 的图像模型文字准确度在 90-95% 左右，听起来不错，但一旦你要生成店面招牌、界面样机就会发现半边字母都错。早期测试者反馈 GPT Image 2 把文字准确度推到了 99% 以上，招牌清晰、标签可读、UI 样机直接拿出 OpenAI 就能用。GPT Image 2 同时彻底干掉了 GPT-4o 图像输出一直被吐槽的那层黄色色偏——白色终于是白色，而不是发暖的奶油色。原生分辨率最高可达 2048x2048 甚至 4096x4096，对要做头图、海报、印刷物料的用户来说是一次大跃进。再加上持续的角色嵌入（同一个人物脸在多张 GPT Image 2 提示里保持一致）、更广的世界知识，以及更干净的指令遵循能力，GPT Image 2 看上去是 OpenAI 第一款真正能和 Midjourney、Google Nano Banana Pro 在商用场景里硬碰硬的图像模型。"
+          },
+          {
+            "heading": "GPT Image 2 对比 GPT Image 1.5 与 Nano Banana Pro",
+            "text": "对比自家前代，GPT Image 2 在文字渲染、色准、提示词遵循上全面碾压 GPT Image 1.5。真正值得一看的较量是 GPT Image 2 对 Nano Banana Pro（Google Gemini 3 Pro Image，2025 年 11 月发布）。LM Arena 上的盲测显示，GPT Image 2 在文字准确性、UI 复原、世界知识上领先；Nano Banana Pro 在一些空间推理任务上仍有优势——比如魔方镜面反射、复杂遮挡等边缘情况。价格方面，OpenAI 端的早期信号显示 GPT Image 2 API 调用单价约 $0.15-$0.20，而 Nano Banana 2 为 $0.045-$0.151，所以 GPT Image 2 被定位为「高端选项」。对广告创意、社媒贴图、产品样机这类商用场景，GPT Image 2 的画质提升值那点差价；对需要批量出图的工作流，Nano Banana Pro 在性价比上依然占优。"
+          },
+          {
+            "heading": "如何在今天就用上 GPT Image 2",
+            "text": "截至 2026 年 4 月，GPT Image 2 的访问仍相对受限。最简单的路径是订阅 ChatGPT Plus 或 Pro——OpenAI 正以 A/B 的方式逐步放量 GPT Image 2，有人已经拿到，有人还没。如果你暂时看不到 GPT Image 2，可以让 ChatGPT 生成一张「高分辨率带大段文字的图片」，观察输出品质是否明显跃升。一旦 OpenAI 全量开放，GPT Image 2 就会同时出现在 ChatGPT 与 OpenAI Image API 中（取代 gpt-image-1.5），开发者可以预期一个独立的 gpt-image-2 模型 ID。注意 OpenAI 尚未公布 GPT Image 2 的 API 文档，所以现在市面上那些「GPT Image 2 API 包装器」几乎都是非官方的，风险很高——如果你要在它上面搭业务，建议等 OpenAI 正式发布。"
+          },
+          {
+            "heading": "GPT Image 2 输出图的后期处理",
+            "text": "GPT Image 2 原生 4K 输出有个非常现实的问题：PNG 文件太大。单张 4096x4096 的 GPT Image 2 渲染通常在 8-15MB 上下，直接放网页或发邮件完全不现实。大多数场景下你需要把 GPT Image 2 的输出压到 300KB 以下。ToolPic 的图片压缩工具完全在浏览器里处理——把 GPT Image 2 的 PNG 拖进来，质量设在 82-88%，你会拿到一张画质几乎无差别、体积只剩原来 10-15% 的成品。如果要发社媒，还要调整尺寸：Instagram 1080x1080、OpenGraph 卡 1200x630、X/Twitter 头图 1500x500，ToolPic 的裁剪工具对这些都提供了预设。GPT Image 2 产品样机需要透明背景？抠图工具对任意 GPT Image 2 输出都适用。全流程在浏览器里跑完，你的 OpenAI 生成图永远不会被上传到我们的服务器——如果 GPT Image 2 的提示词里涉及任何机密内容，这一点格外重要。"
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "最好用的 GPT Image 2 提示词：OpenAI 新模型下的 30+ 爆款示例（2026）",
+        "metaTitle": "最佳 GPT Image 2 提示词 —— 爆款示例与模板合集（2026）",
+        "metaDescription": "OpenAI 社区精选的 30+ 条爆款 GPT Image 2 提示词。人像、UI 样机、都市街景、文字渲染类模板全覆盖，可直接复制、改写成你自己的 GPT Image 2 提示词。",
+        "excerpt": "OpenAI GPT Image 2 的泄漏带火了一整波 X/Twitter 上的病毒级示例。下面是分好类的最佳 GPT Image 2 提示词，复制、粘贴、改成你自己的 OpenAI AI 图即可。",
+        "content": [
+          {
+            "heading": "GPT Image 2 的提示词和以前有什么不同？",
+            "text": "如果你过去一直在写 DALL-E 3、Midjourney 或 GPT Image 1.5 的提示词，那么好消息是 GPT Image 2 基本沿用同一套规则。但真正让人惊讶的是，OpenAI 的 GPT Image 2 对信息密度极高、多条子句的长提示词响应得格外好。过去把太多细节塞进一条 prompt，旧模型常常会漏掉其中一些元素；GPT Image 2 现在能稳定处理 200 词左右的提示词，把场景、主体、光线、镜头角度、色调全都写进去，最后输出的画面每一项都会兑现。另一个大转变是文字：你可以直接在 GPT Image 2 提示词里写「一块咖啡店招牌，上面写着 BLUE BOTTLE，下方菜单板列着 espresso、cappuccino、cortado」，OpenAI 的模型会把这些文字完整、正确地画出来。这是 GPT Image 2 之前几乎不可能稳定做到的。下面每一类提示词都在利用 GPT Image 2 的这些新强项。"
+          },
+          {
+            "heading": "X/Twitter 上最火的 GPT Image 2 爆款提示词",
+            "text": "X 上传播最广的 GPT Image 2 示例是一张以曼哈顿为背景的第一人称 Minecraft 场景——这条 GPT Image 2 提示词把游戏美术和真实地理混在一起，两边都打满分。另一条热门是「Claude Opus 5 内部文档」被渲染在 Minecraft 世界里，单条推文冲到 43.9 万阅读。一条以时代广场为背景、包含 150+ 多元行人、黄色出租车、湿路面和镜面高光的 GPT Image 2 提示词同样爆火，原因是 OpenAI 模型把每一个元素都撑起来了，招牌上的文字也没有一个拼错。历史题材的 GPT Image 2 提示词也在流行：「织田信长在本能寺之变前夜写 X 推文」这条早期示例把历史真实感和现代社媒 UI 叠在一起，戏剧性拉满。爆款 GPT Image 2 提示词的共同点是：场景必须靠 OpenAI 的世界知识重构出来，而不是从训练数据里直接搬一张相似图。"
+          },
+          {
+            "heading": "人像与角色类 GPT Image 2 提示词",
+            "text": "做人像的时候，GPT Image 2 的持久角色嵌入让你能在多张 OpenAI 渲染中保持同一张脸。建议在 GPT Image 2 提示词开头写详细的角色设定——年龄、族群、辨识度特征、服装风格——再往后加光线和氛围。参考 GPT Image 2 提示词示例：「一位 34 岁、短黑发、戴六边形银耳环的韩国女性编辑肖像，左侧柔和窗光，浅景深，青绿与桃色调色调，85mm 镜头 f/1.8 拍摄」。做续图时把一模一样的特征重复写一遍，能让 GPT Image 2 在多张输出间保持一致。风格化角色可以引用具体艺术家或年代：「Mucha 新艺术风」、「吉卜力工作室背景」、「1980 年代动画赛璐珞」。GPT Image 2 对这类风格标签的响应明显比 GPT Image 1.5 更准确。"
+          },
+          {
+            "heading": "UI 样机与产品类 GPT Image 2 提示词",
+            "text": "UI 样机是 GPT Image 2 把自己和旧款 OpenAI 模型真正拉开差距的战场。试试这条 GPT Image 2 提示词：「一个简洁的 iOS 冥想 App 主会话界面。顶栏是返回箭头和设置图标。中间是大圆形计时器，显示剩余 12:34。下方三个选项按钮分别标 Breath、Body Scan、Sleep。底部 Tab 栏是 Home、Sessions、Profile 三页。」GPT Image 2 会把文字渲染对，排版合理，间距可信。产品图方面也可以这样写：「一只哑光黑陶瓷咖啡杯摆在水泥桌面上的极简产品照，左上方柔和定向光，淡淡蒸汽升起，浅景深，轻微颗粒感，编辑级杂志风格」。GPT Image 2 对材质的区分——哑光 vs 亮面、陶瓷 vs 金属——明显比之前几代 OpenAI 图像模型更好。"
+          },
+          {
+            "heading": "文字密集类 GPT Image 2 提示词（海报、招牌、文件）",
+            "text": "这是 GPT Image 2 文字渲染大飞跃最值得炫耀的品类。海报 GPT Image 2 提示词示例：「京都 1950 年代复古旅行海报。顶部大号衬线字体写着 KYOTO，副标题小号字体写 Ancient Capital of Japan，底部色带写 Japan National Railways。画面是樱花与一座五重塔的插画。」GPT Image 2 会把三段文字全部正确地画出来——这在此之前 OpenAI 几乎不可能稳定做到。要做杂志封面、新闻滚动条、街道路牌、店铺招牌，请在 GPT Image 2 提示词里用引号明确写出要出现的文字，再加上字体线索（「无衬线」、「手写体」、「窄体大写」）。GPT Image 2 提示词里对文字位置写得越具体，OpenAI 的输出就越稳定。"
+          },
+          {
+            "heading": "稳定拿到好结果：GPT Image 2 提示词的三个通用模板",
+            "text": "有三种模式能稳定产出高质量 GPT Image 2 图。第一：场景-主体-风格。「越南咖啡种植园清晨的雾气中，一位年轻农民把咖啡豆倒进金属桶，黄金时段光线，超写实电影级风格。」第二：在 GPT Image 2 提示词里显式写出分辨率和画幅，例如「16:9 画幅，4K 细节，主体锐利」。GPT Image 2 现在是真的会遵守这些指令的。第三：负面约束。「不要文字、不要水印、不要 logo」能防止 OpenAI 的 GPT Image 2 无故加上多余招牌。要跑多张 GPT Image 2 变体，可以复用同一个 seed 或参考图来保持风格。一旦你拿到一张满意的 GPT Image 2 输出，就下载下来用 ToolPic 做后期——图片压缩工具把 4K PNG 压到 300KB 以下，裁剪工具按目标尺寸切好，抠图工具给你的 GPT Image 2 成品做透明背景都不在话下。"
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Instagram快拍图片尺寸指南：2026年照片调整完整攻略",
         "metaTitle": "Instagram快拍图片尺寸与裁剪指南（2026）| ToolPic博客",

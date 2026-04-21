@@ -41,6 +41,8 @@
   "home": {
     "h1": "Ucretsiz Cevrimici Gorsel ve Video Araclari",
     "subtitle": "Medya dosyalarınızı anında sıkıştırın, dönüştürün ve düzenleyin. Yükleme yok, kayıt yok, sınır yok. %100 ücretsiz ve gizli.",
+    "newBadgeLabel": "Yeni",
+    "gptImage2Badge": "OpenAI'nin GPT Image 2'si geldi — kapsamlı rehberimizi okuyun",
     "startNow": "Hemen Başla",
     "learnMore": "Daha Fazla",
     "imageSection": "Gorsel Araclari",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "YouTube videolarından ses çıkarabilir miyim?",
     "extractMp3Faq2A": "Bu araç, cihazınızda depolanan video dosyalarından ses çıkarır. Önce video dosyasını yerel olarak kaydetmeniz gerekir. Araç, URL'lerden veya yayın platformlarından video indirmez. Yerel bir video dosyanız olduğunda, ses parçasını anında MP3'e çıkarabilirsiniz.",
     "extractMp3Faq3Q": "Çıkarma sırasında video bir sunucuya yükleniyor mu?",
-    "extractMp3Faq3A": "Hayır, tüm çıkarma işlemi WebAssembly destekli FFmpeg kullanılarak tarayıcınızda yerel olarak çalışır. Video dosyanız cihazınızdan asla ayrılmaz, tam gizlilik sağlar. Bu, özel kayıtlardan, gizli toplantılardan veya kişisel video içeriğinden ses çıkarmak için özellikle önemlidir."
+    "extractMp3Faq3A": "Hayır, tüm çıkarma işlemi WebAssembly destekli FFmpeg kullanılarak tarayıcınızda yerel olarak çalışır. Video dosyanız cihazınızdan asla ayrılmaz, tam gizlilik sağlar. Bu, özel kayıtlardan, gizli toplantılardan veya kişisel video içeriğinden ses çıkarmak için özellikle önemlidir.",
+    "compressGptImage2": "GPT Image 2 Çıktısını Çevrimiçi Sıkıştır — Ücretsiz",
+    "compressGptImage2Desc": "OpenAI'nin yeni görüntü modeli GPT Image 2'nin PNG çıktılarını sıkıştırın. 4K çıktıyı 12 MB'dan 300 KB'ın altına görünür kalite kaybı olmadan küçültün.",
+    "compressGptImage2HowTo": "GPT Image 2 Çıktısı Nasıl Sıkıştırılır",
+    "compressGptImage2Step1": "GPT Image 2 Dosyanızı Yükleyin",
+    "compressGptImage2Step1Desc": "OpenAI'nin GPT Image 2 veya ChatGPT ile ürettiğiniz PNG ya da JPG dosyasını sürükleyip bırakın. 50 MB'a kadar dosyalar desteklenir.",
+    "compressGptImage2Step2": "Sıkıştırma Seviyesini Ayarlayın",
+    "compressGptImage2Step2Desc": "Kaliteyi %75–90 arasında belirleyin. GPT Image 2 çıktısı iyi sıkışır — %82 genellikle OpenAI orijinaliyle aynı görünür.",
+    "compressGptImage2Step3": "Sıkıştırılmış Görseli İndirin",
+    "compressGptImage2Step3Desc": "Optimize edilmiş dosyanızı kaydedin. 12 MB'lık 4K GPT Image 2 PNG'si genellikle 300 KB'ın altına düşer.",
+    "compressGptImage2FaqTitle": "Sıkça Sorulan Sorular",
+    "compressGptImage2Faq1Q": "OpenAI'nin GPT Image 2 çıktısı neden bu kadar büyük?",
+    "compressGptImage2Faq1A": "GPT Image 2, görüntüleri yerel olarak 2048x2048 veya 4096x4096 çözünürlükte üretir ve varsayılan olarak sıkıştırılmamış PNG olarak dışa aktarır; bu yüzden dosyalar görsel başına 8–15 MB olur. Web sayfaları, e-posta ve sosyal medya için GPT Image 2 çıktısını görünür kalite kaybı olmadan 200–500 KB aralığına sıkıştırmanız gerekir.",
+    "compressGptImage2Faq2Q": "Sıkıştırma, OpenAI'nin C2PA filigran üstverilerini bozar mı?",
+    "compressGptImage2Faq2A": "OpenAI, GPT Image 2 çıktılarına C2PA köken üstverilerini gömer. JPEG sıkıştırması genellikle bu üstverileri korur. Üstverileri tamamen kaldırmanız gerekirse görüntü dönüştürücü aracını kullanarak yeni bir formata yeniden kodlayabilirsiniz, ancak bunun OpenAI'nin GPT Image 2 render'larına eklediği kimlik imzasını sileceğini unutmayın.",
+    "compressGptImage2Faq3Q": "GPT Image 2 çıktım sunucuya yükleniyor mu?",
+    "compressGptImage2Faq3A": "Hayır. Tüm sıkıştırma, WebAssembly kullanılarak tarayıcınızda yerel olarak çalışır. OpenAI GPT Image 2 çıktılarınız asla cihazınızdan çıkmaz; bu, prompt'unuz gizli referanslar, yayınlanmamış ürünler veya özel markalama içeriyorsa kritik önem taşır.",
+    "resizeAiImage": "AI Görseli Yeniden Boyutlandır — GPT Image 2 & Midjourney",
+    "resizeAiImageDesc": "GPT Image 2, ChatGPT, DALL-E, Midjourney veya Nano Banana'dan gelen AI üretilmiş görselleri Instagram, Twitter, Facebook, YouTube boyutlarına yeniden",
+    "resizeAiImageHowTo": "AI Üretilmiş Görseller Nasıl Yeniden Boyutlandırılır",
+    "resizeAiImageStep1": "AI Görseli Yükleyin",
+    "resizeAiImageStep1Desc": "GPT Image 2, OpenAI ChatGPT, Midjourney, DALL-E veya Nano Banana Pro'dan üretilmiş herhangi bir PNG veya JPG'yi bırakın.",
+    "resizeAiImageStep2": "Hedef Boyutu Seçin",
+    "resizeAiImageStep2Desc": "Sosyal medya ön ayarlarından birini seçin — 1080x1080 Instagram, 1200x630 OG kartı, 1500x500 X/Twitter başlığı — veya özel boyutlar belirleyin.",
+    "resizeAiImageStep3": "Yeniden Boyutlandırılmış Görseli İndirin",
+    "resizeAiImageStep3Desc": "Kırpın ve indirin. Sonucu kırpma sürprizi olmadan doğrudan hedef platforma yükleyin.",
+    "resizeAiImageFaqTitle": "Sıkça Sorulan Sorular",
+    "resizeAiImageFaq1Q": "AI üretilmiş görselleri yeniden boyutlandırmak kaliteyi düşürür mü?",
+    "resizeAiImageFaq1A": "GPT Image 2'nin 2K veya 4K çıktısını 1080px'e küçültmek pratikte kayıpsızdır — hedef platformun zaten atacağı pikselleri atıyorsunuz. Kalite kaybı, küçük çıktıları büyüttüğünüzde yaşanır, bu yüzden GPT Image 2 render'larını OpenAI'nin desteklediği en yüksek çözünürlükte üretin.",
+    "resizeAiImageFaq2Q": "Instagram için GPT Image 2'de hangi boyutta üretmeliyim?",
+    "resizeAiImageFaq2A": "GPT Image 2'de 2048x2048 üretin, ardından Instagram gönderileri için 1080x1080, 4:5 dikey gönderiler için 1080x1350 veya Stories ve Reels için 1080x1920 olarak kırpın. Fazla pikseller, OpenAI'de yeniden üretmeden kırpma esnekliği sağlar.",
+    "resizeAiImageFaq3Q": "Bu araç Midjourney ve DALL-E çıktıları için de çalışır mı?",
+    "resizeAiImageFaq3A": "Evet. Yeniden boyutlandırma aracı, kaynağı ne olursa olsun her görseli işler. GPT Image 2'den PNG, Nano Banana Pro'dan WebP, Midjourney'den JPG — hepsi aynı şekilde çalışır. Orijinal dosyanız hiçbir yere gönderilmez.",
+    "watermarkAiImage": "AI Üretilmiş Görsele Filigran Ekle — GPT Image 2 ve Midjourney için Ücretsiz",
+    "watermarkAiImageDesc": "GPT Image 2, OpenAI DALL-E, Midjourney veya Nano Banana'dan gelen AI üretilmiş görsellere özel metin veya logo filigranları ekleyin. AI çalışmalarınızı paylaşmadan önce koruyun ve açıkça belirtin.",
+    "watermarkAiImageHowTo": "AI Üretilmiş Görseller Nasıl Filigranlanır",
+    "watermarkAiImageStep1": "AI Üretilmiş Görseli Yükleyin",
+    "watermarkAiImageStep1Desc": "GPT Image 2, OpenAI ChatGPT, Midjourney veya herhangi bir AI görsel üreticisinden gelen PNG veya JPG'nizi bırakın.",
+    "watermarkAiImageStep2": "Metin veya Logo Ekleyin",
+    "watermarkAiImageStep2Desc": "Filigran metninizi yazın veya bir logo yükleyin. Profesyonel bir görünüm için saydamlık, konum, font boyutu ve renk ayarlayın.",
+    "watermarkAiImageStep3": "Filigranlı Görseli İndirin",
+    "watermarkAiImageStep3Desc": "Korunan görselinizi kaydedin. Atıf netliğini koruyarak sosyal medyada veya portföyünüzde paylaşın.",
+    "watermarkAiImageFaqTitle": "Sıkça Sorulan Sorular",
+    "watermarkAiImageFaq1Q": "GPT Image 2 çıktılarına filigran eklemem gerekir mi?",
+    "watermarkAiImageFaq1A": "Etik ve çoğu zaman yasal olarak evet. X, Instagram ve Meta platformları gibi mecralar, içeriğin AI tarafından üretildiğini açıklamanızı giderek daha fazla zorunlu kılıyor. OpenAI çıktılarınıza küçük bir '#AI' veya 'Generated with GPT Image 2' filigranı eklemek, kurallara uymanızı ve izleyicinize karşı şeffaf kalmanızı sağlar.",
+    "watermarkAiImageFaq2Q": "Filigran eklemek OpenAI'nin C2PA üstverilerini etkiler mi?",
+    "watermarkAiImageFaq2A": "Pikselleri düzenlemek, dosya hash'i değiştiği için C2PA imzalarını bozar. Bu beklenen bir davranıştır. OpenAI'nin GPT Image 2 çıktısındaki köken imzalarını korumanız gerekiyorsa orijinal C2PA'yı bozulmamış şekilde tutan ayrı bir arşiv kopyası saklayın.",
+    "watermarkAiImageFaq3Q": "Birden çok AI görsele aynı anda filigran ekleyebilir miyim?",
+    "watermarkAiImageFaq3A": "Evet. Toplu filigranlama desteklenir. GPT Image 2 veya Midjourney çıktılarından oluşan bir klasör yükleyin, filigranı bir kez ayarlayın ve tüm grup için uygulayın. İşlem tarayıcınızda yerel olarak çalışır.",
+    "removeBgAiImage": "AI Üretilmiş Görselden Arka Planı Kaldır — Ücretsiz Çevrimiçi Araç",
+    "removeBgAiImageDesc": "OpenAI GPT Image 2, DALL-E, Midjourney veya ChatGPT çıktılarından arka planı tek tıkla kaldırın. AI destekli, tarayıcınızda çalışır. Mükemmel saydam PNG sonucu.",
+    "removeBgAiImageHowTo": "AI Görsellerden Arka Plan Nasıl Kaldırılır",
+    "removeBgAiImageStep1": "AI Görseli Yükleyin",
+    "removeBgAiImageStep1Desc": "GPT Image 2, OpenAI ChatGPT, Midjourney veya herhangi bir görsel üreticisinden AI üretilmiş görselinizi bırakın.",
+    "removeBgAiImageStep2": "AI Arka Planı Kaldırır",
+    "removeBgAiImageStep2Desc": "İstemci tarafı AI'mız ana özneyi algılar ve 2–5 saniyede arka planı otomatik olarak kaldırır.",
+    "removeBgAiImageStep3": "Saydam PNG İndirin",
+    "removeBgAiImageStep3Desc": "Kesiminizi saydam PNG olarak kaydedin; herhangi bir arka plana yerleştirmeye veya ürün mockup'ına eklemeye hazır.",
+    "removeBgAiImageFaqTitle": "Sıkça Sorulan Sorular",
+    "removeBgAiImageFaq1Q": "Arka plan kaldırma GPT Image 2 çıktısında iyi çalışır mı?",
+    "removeBgAiImageFaq1A": "Evet — GPT Image 2'nin temiz ve iyi aydınlatılmış çıktıları arka plan kaldırma için idealdir. OpenAI'nin modeli özneleri net kenarlar ve iyi özne–arka plan kontrastıyla üretir; bu nedenle AI kesimi fotorealistik fotoğraflara göre daha da isabetli olur.",
+    "removeBgAiImageFaq2Q": "Karmaşık AI sahnelerinde arka planı kaldırabilir miyim?",
+    "removeBgAiImageFaq2A": "Birden fazla özneye veya karmaşık arka plana sahip sahnelerde AI, en öne çıkan ön plan öznesini seçer. GPT Image 2 karmaşık arka planlı bir portre ürettiyse arka plan kaldırma iyi çalışır. Çok özneli sahneler için OpenAI'de daha sade bir arka planla yeniden prompt yazmak daha iyidir.",
+    "removeBgAiImageFaq3Q": "Görsel sunucuya yükleniyor mu?",
+    "removeBgAiImageFaq3A": "Hayır. Arka plan kaldırma, istemci tarafı AI ile tamamen tarayıcınızda çalışır. GPT Image 2 çıktılarınız ve üstverilerinizde bulunabilecek gizli prompt'lar cihazınızdan asla ayrılmaz.",
+    "convertGptImageToJpg": "GPT Image 2 PNG'yi JPG'ye Çevrimiçi Dönüştür — Ücretsiz",
+    "convertGptImageToJpgDesc": "OpenAI GPT Image 2, DALL-E veya ChatGPT PNG çıktılarını JPG formatına dönüştürün. Dosya boyutunu %80 azaltın ve cihaz uyumluluğunu en üst düzeye çıkarın.",
+    "convertGptImageToJpgHowTo": "GPT Image 2 PNG JPG'ye Nasıl Dönüştürülür",
+    "convertGptImageToJpgStep1": "GPT Image 2 PNG'yi Yükleyin",
+    "convertGptImageToJpgStep1Desc": "OpenAI GPT Image 2, ChatGPT veya OpenAI Image API tarafından üretilen PNG dosyasını bırakın.",
+    "convertGptImageToJpgStep2": "JPG Formatını Seçin",
+    "convertGptImageToJpgStep2Desc": "Çıktı formatı olarak JPG'yi seçin ve kaliteyi %85–95 arasında ayarlayın. Yüksek kalite detayı korur; %85 dosya boyutunu yarıya indirir.",
+    "convertGptImageToJpgStep3": "JPG Dosyasını İndirin",
+    "convertGptImageToJpgStep3Desc": "Dönüştürülmüş JPG'nizi kaydedin. OpenAI'den gelen 12 MB'lık GPT Image 2 PNG'si genellikle görsel olarak aynı kalitede 1–2 MB JPG'ye dönüşür.",
+    "convertGptImageToJpgFaqTitle": "Sıkça Sorulan Sorular",
+    "convertGptImageToJpgFaq1Q": "OpenAI GPT Image 2 PNG'yi neden JPG'ye dönüştüreyim?",
+    "convertGptImageToJpgFaq1A": "PNG kayıpsızdır ama devasa dosyalar üretir. OpenAI'den gelen GPT Image 2'nin yerel PNG çıktısı 8–15 MB civarındadır. JPG, fotoğraf tipi içeriği PNG boyutunun %10–20'sine sıkıştırır ve görünür kalite kaybı olmaz. Web, e-posta ve sosyal medya için JPG pratik seçimdir.",
+    "convertGptImageToJpgFaq2Q": "Dönüştürme görüntü kalitesini düşürür mü?",
+    "convertGptImageToJpgFaq2A": "JPG kayıplı sıkıştırma kullanır, bu yüzden teknik olarak bir miktar kalite kaybı vardır. Ancak %90 kalitede GPT Image 2 çıktısı gibi fotoğraf tipi içerikte fark insan gözüyle görünmez. Keskin kenarlı grafikler veya saydamlık için PNG'de kalın.",
+    "convertGptImageToJpgFaq3Q": "JPG'ye dönüştürürken saydamlığı kaybeder miyim?",
+    "convertGptImageToJpgFaq3A": "Evet — JPG saydamlığı desteklemez. OpenAI GPT Image 2 çıktınızın saydam arka planı varsa JPG onu beyazla doldurur. Saydam kesimler için WebP kullanın veya PNG'de kalın."
   },
   "footer": {
     "tagline": "Gorseller ve videolar icin ucretsiz cevrimici araclar. %100 tarayici tabanli, dosyalariniz cihazinizdan hic cikmaz.",
@@ -761,16 +843,94 @@
     "readMore": "Devamını oku",
     "relatedTools": "İlgili Araçlar",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2: OpenAI'nin Yeni Görüntü Modeli Hakkında Bildiğimiz Her Şey (Nisan 2026)",
+        "metaTitle": "GPT Image 2 Rehberi — OpenAI'nin Yeni Görüntü Üretim Modeli",
+        "metaDescription": "OpenAI GPT Image 2 için kapsamlı rehber (Nisan 2026). Özellikler, çıkış tarihi, fiyatlandırma, GPT Image 1.5 ve Nano Banana Pro karşılaştırması.",
+        "excerpt": "OpenAI'nin GPT Image 2'si Nisan 2026 itibarıyla ChatGPT Plus kullanıcılarına kademeli olarak açılıyor. İşte GPT Image 2 ile ilgili doğrulanmış her sızıntı, OpenAI'nin gerçek çıkış takvimi ve GPT Image 1.5 ile Nano Banana Pro karşılaştırması.",
+        "content": [
+          {
+            "heading": "GPT Image 2 Nedir?",
+            "text": "GPT Image 2, OpenAI'nin yeni nesil görüntü üretim modelidir ve mevcut GPT Image 1.5'ın yerini alması bekleniyor. DALL-E 3 veya GPT-4o içindeki yerel görüntü üreteci gibi önceki OpenAI modellerinin aksine, GPT Image 2 tamamen yeni ve bağımsız bir mimari üzerinde çalışır — artık GPT-4o hattına tutturulmuş değildir. Bu büyük bir fark yaratır, çünkü OpenAI'nin GPT Image 2'yi özellikle görüntü kalitesi için optimize etmesine izin verir ve çoklu modalite tavizine zorlamaz. Sıradan ChatGPT kullanıcıları için GPT Image 2 sadece daha keskin, daha isabetli görseller ve çok daha iyi metin render'ı anlamına gelir. Geliştiriciler içinse GPT Image 2 resmen çıktığında, OpenAI'den özel bir API uç noktası demektir."
+          },
+          {
+            "heading": "GPT Image 2 Çıkış Tarihi ve Mevcut Durumu (Nisan 2026)",
+            "text": "OpenAI henüz GPT Image 2'yi resmen duyurmadı, ancak maskingtape-alpha, gaffertape-alpha ve packingtape-alpha kod adlı üç anonim model Nisan 2026 başında LM Arena'da belirdi ve topluluk tarafından hızla OpenAI'nin yeni görüntü modeli olarak tanımlandı. 16 Nisan'a kadar GPT Image 2, ChatGPT web arayüzündeki A/B testlerinde görüldü; 19 Nisan itibarıyla ücretli ChatGPT Plus ve Pro aboneleri GPT Image 2'ye erişim verildiğini bildirmeye başladı. Kamuya açık lansman için üzerinde uzlaşılan pencere Nisan sonu ile Mayıs ortası 2026. OpenAI ayrıca DALL-E 2 ve DALL-E 3'ün tamamen kapatılmasını 12 Mayıs 2026 olarak planladı — bu tarih muhtemelen tesadüf değil. Flagman'i GPT Image 2 olan GPT Image serisi, hâlâ OpenAI API üzerinden DALL-E kullananlar için tek resmi geçiş yolu olacak."
+          },
+          {
+            "heading": "GPT Image 2'de Gerçekten Önemli Olan Yeni Özellikler",
+            "text": "GPT Image 2'deki manşet yükseltme metin render'ıdır. Önceki OpenAI görüntü modelleri %90–95 isabet civarındaydı; bu kulağa iyi geliyor ama bir mağaza tabelası ya da UI mockup'ı üretmeye kalktığınızda harflerin yarısı bozuk çıkıyordu. İlk test edenler, GPT Image 2'nin %99 metin isabet eşiğini geçtiğini raporluyor; yani doğrudan OpenAI'den okunaklı tabelalar, okunabilir etiketler ve gerçekten arayüz gibi duran mockup'lar. GPT Image 2 ayrıca GPT-4o çıktılarını bozan sarı renk tonundan kurtuldu — beyaz nihayet gerçekten beyaz, sıcak krem değil. Çözünürlük en yüksek olarak 2048x2048 veya hatta yerel 4096x4096'ya çıkıyor; OpenAI'den hero görseli, poster veya baskı materyali üretenler için büyük adım. Buna kalıcı karakter embedding'leri (birden fazla GPT Image 2 prompt'unda aynı yüz), daha iyi dünya bilgisi ve daha temiz talimat takibi ekleyin; GPT Image 2, ticari çıktıda Midjourney ve Google Nano Banana Pro ile gerçekten rekabet edebilen ilk OpenAI görüntü modeli gibi görünüyor."
+          },
+          {
+            "heading": "GPT Image 2 vs GPT Image 1.5 vs Nano Banana Pro",
+            "text": "Kendi selefine karşı GPT Image 2, metin render'ı, renk isabeti ve prompt'a bağlılıkta GPT Image 1.5'ı ezip geçiyor. Daha ilginç maç GPT Image 2 vs Nano Banana Pro (Google'ın Kasım 2025'te çıkan Gemini 3 Pro Image'i). LM Arena'daki kör testlerde GPT Image 2 metin isabeti, UI restorasyonu ve dünya bilgisinde öne geçiyor. Nano Banana Pro ise bazı uzamsal muhakeme görevlerinde — Rubik Küpü yansımaları, karmaşık örtüşmeler gibi uç durumlarda — hâlâ önde. Fiyatlandırmada OpenAI cephesinden gelen ilk sinyaller GPT Image 2'nin API üzerinden görsel başına $0.15-$0.20 tutacağını, Nano Banana 2'nin ise $0.045-$0.151 olduğunu gösteriyor. Yani GPT Image 2 premium seçenek olarak konumlanıyor. Ticari kullanımların çoğu için — reklam kreatifleri, sosyal medya gönderileri, ürün mockup'ları — GPT Image 2'nin kalite farkı ek maliyete değer. Yüksek hacimli üretim iş akışlarında ise ekonomik olarak Nano Banana Pro hâlâ kazanıyor."
+          },
+          {
+            "heading": "GPT Image 2'ye Bugün Nasıl Erişilir",
+            "text": "Nisan 2026 itibarıyla GPT Image 2'ye erişim sınırlıdır. En kolay yol ChatGPT Plus veya Pro aboneliğidir — OpenAI, GPT Image 2'ye A/B erişimi kademeli olarak açıyor, dolayısıyla bazı kullanıcılarda var, bazılarında yok. GPT Image 2'yi henüz görmüyorsanız ChatGPT'ye 'high-resolution image with text' tipi bir prompt verin ve çıktı kalitesinin sıçrayıp sıçramadığına bakın. OpenAI düğmeyi kamuya açtığında GPT Image 2 hem ChatGPT'de hem de OpenAI Image API üzerinden (gpt-image-1.5'ın yerini alarak) erişilebilir olacak. Geliştiriciler için özel bir gpt-image-2 model kimliği beklenebilir. OpenAI'nin henüz GPT Image 2 API belgelerini yayımlamadığını unutmayın; şu anda karşınıza çıkan üçüncü taraf 'GPT Image 2 API sarmalayıcıları' resmi değil ve risklidir. Üzerine inşa ediyorsanız OpenAI'nin resmi lansmanını bekleyin."
+          },
+          {
+            "heading": "GPT Image 2 Çıktınızın Son İşlemeleri",
+            "text": "Yerel 4K GPT Image 2 çıktısıyla ilgili pratik sorun şudur: PNG dosyaları devasadır. Tek bir 4096x4096 GPT Image 2 render'ı yaklaşık 8–15 MB tutar ki bu web sayfası veya e-posta için fazla büyüktür. Çoğu kullanım için GPT Image 2 çıktısını 300 KB'ın altına sıkıştırmak istersiniz. ToolPic'in görsel sıkıştırıcısı bunu tarayıcınızda halleder — GPT Image 2 PNG'sini bırakın, kaliteyi %82–88 olarak ayarlayın ve orijinalin %10–15'i boyutunda görsel olarak aynı bir dosya elde edin. GPT Image 2 çıktılarını sosyal medya için kullanıyorsanız yeniden boyutlandırmanız da gerekir: Instagram için 1080x1080, OpenGraph kartları için 1200x630, X/Twitter başlıkları için 1500x500. ToolPic'in Image Crop aracında hepsinin ön ayarı mevcut. GPT Image 2 ürün mockup'ının saydam versiyonunu mu istiyorsunuz? Arka plan kaldırıcı herhangi bir GPT Image 2 çıktısında çalışır. Her şey tarayıcınızda çalıştığı için OpenAI'den üretilmiş görselleriniz asla sunucularımıza yüklenmez — GPT Image 2 prompt'unuz gizli bir şey içeriyorsa bu önemli."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "En İyi GPT Image 2 Prompt'ları: OpenAI'nin Yeni Modelinden 30+ Viral Örnek (2026)",
+        "metaTitle": "En İyi GPT Image 2 Promptları: Viral Örnekler (2026)",
+        "metaDescription": "OpenAI topluluğundan 30+ viral GPT Image 2 prompt'u. GPT Image 2 için portre, UI mockup, kent sahnesi ve metin render prompt şablonlarını kopyalayın ve",
+        "excerpt": "OpenAI'nin GPT Image 2 sızıntısı X/Twitter'da bir viral prompt dalgası doğurdu. İşte en iyi GPT Image 2 prompt'ları kategorilere ayrılmış halde — OpenAI'de kendi AI görsellerinizi üretmek için kopyalayın, yapıştırın ve yeniden düzenleyin.",
+        "content": [
+          {
+            "heading": "GPT Image 2 Prompt'ları Neden Farklı",
+            "text": "DALL-E 3, Midjourney veya GPT Image 1.5 için prompt yazdıysanız iyi haber: GPT Image 2 büyük ölçüde aynı kurallarla çalışıyor. Şaşırtıcı olan, OpenAI'nin GPT Image 2'sinin yoğun, spesifik ve çok cümleli prompt'lara ne kadar daha iyi yanıt verdiğidir. Eski modellerde tek bir prompt'a fazla detay doldurmak çoğu zaman bazı öğelerin düşmesine yol açardı. GPT Image 2 ise sahneyi, özneyi, ışığı, kamera açısını ve renk paletini aynı anda tarif eden 200 kelimelik prompt'ları yutuyor ve her öğeyi gerçekten render ediyor. Diğer büyük değişim metin. Artık GPT Image 2 prompt'larını 'BLUE BOTTLE yazılı bir kahve dükkanı tabelası, altında espresso, cappuccino ve cortado içeren bir menü panosu' şeklinde yazabilirsiniz ve OpenAI modeli bu metinleri temiz biçimde render eder. GPT Image 2'den önce bu güvenilir değildi. Aşağıdaki her prompt kategorisi, GPT Image 2'nin bu güçlü yanlarından birini kullanır."
+          },
+          {
+            "heading": "X/Twitter'dan En Viral GPT Image 2 Prompt'ları",
+            "text": "X'te en çok paylaşılan GPT Image 2 örneği, Manhattan'da geçen birinci şahıs Minecraft sahnesiydi — GPT Image 2 prompt'u oyun estetiğini gerçek coğrafyayla harmanladı ve ikisine de isabet etti. Bir diğer hit, Minecraft dünyasının içine render edilmiş sahte bir 'Claude Opus 5 Internal Document' oldu ve 439 bin görüntüleme aldı. 150+ farklı yaya, sarı taksi, ıslak zemin ve spektral parıltılar içeren bir Times Square GPT Image 2 prompt'u viral oldu çünkü OpenAI modeli her öğeyle başa çıktı ve tabelalardaki metin doğru yazımla kaldı. Dönemsel GPT Image 2 prompt'ları da trend oldu: 'Oda Nobunaga, Honno-ji Olayı'ndan bir önceki gece bir X gönderisi yazıyor' ilk viral örneklerden biriydi; tarihsel doğruluğu modern bir sosyal medya UI yerleşimiyle birleştirdi. Viral GPT Image 2 prompt'larındaki ortak tema: OpenAI'nin eğitim verisinden kopyalayamayıp dünya bilgisinden inşa etmek zorunda olduğu sahneler."
+          },
+          {
+            "heading": "Portre ve Karakter GPT Image 2 Prompt'ları",
+            "text": "Portrelerde, GPT Image 2'nin kalıcı karakter embedding'leri birden fazla OpenAI render'ında aynı yüzü korumanızı sağlar. GPT Image 2 prompt'unuza ayrıntılı bir karakter tanımıyla başlayın — yaş, etnik köken, ayırt edici özellikler, giyim tarzı — ardından ışık ve atmosfer ekleyin. Örnek GPT Image 2 prompt'u: 'Kısa kesilmiş siyah saçlı ve altıgen gümüş küpeli 34 yaşında Koreli bir kadının editorial portresi, soldan yumuşak pencere ışığı, sığ alan derinliği, mat teal ve şeftali renk tonlaması, 85 mm lensle f/1.8'de çekim.' Sonraki GPT Image 2 takip prompt'larında render'lar arası tutarlılığı korumak için aynı özellikleri kelimesi kelimesine tekrarlayın. Stilize karakterler için belirli sanatçı veya dönemlere referans verin: 'Mucha tarzı art nouveau', 'Studio Ghibli arka planı', '1980'ler anime cel-shaded'. GPT Image 2, OpenAI'den gelen bu stil etiketlerine GPT Image 1.5'tan belirgin şekilde daha sadık."
+          },
+          {
+            "heading": "UI Mockup ve Ürün GPT Image 2 Prompt'ları",
+            "text": "UI mockup'ları, GPT Image 2'nin eski OpenAI modellerinden gerçekten ayrıldığı alan. Şu GPT Image 2 prompt'unu deneyin: 'Günlük seans ekranını gösteren bir meditasyon uygulaması için temiz bir iOS uygulama ekranı. Üst çubukta geri oku ve ayarlar simgesi. Merkezde: 12:34 kalan gösteren büyük dairesel zamanlayıcı. Altında: Breath, Body Scan, Sleep etiketli üç seçenek chip'i. Alt sekme çubuğunda Home, Sessions, Profile sekmeleri.' GPT Image 2'de metin doğru render olur, düzen mantıklıdır ve boşluklar inandırıcıdır. GPT Image 2'de ürün çekimleri için: 'Beton yüzeyde mat siyah seramik kahve fincanının minimalist ürün fotoğrafı, sol üstten yumuşak yönlü ışık, hafif yükselen buhar, sığ alan derinliği, hafif grenli, editorial dergi tarzı.' GPT Image 2, malzeme render'ında — mat vs parlak, seramik vs metal — önceki OpenAI görüntü modellerinden belirgin şekilde daha iyi."
+          },
+          {
+            "heading": "Metin Ağırlıklı GPT Image 2 Prompt'ları (Posterler, Tabelalar, Belgeler)",
+            "text": "GPT Image 2'nin metin render atılımının gerçekten kazandırdığı kategori burasıdır. GPT Image 2 poster prompt örneği: 'Kyoto için vintage seyahat afişi, 1950'ler tarzı. Üstte büyük serifli metin KYOTO yazıyor. Alt başlıkta daha küçük metinle Ancient Capital of Japan yazıyor. Alt bantta Japan National Railways yazıyor. İllüstrasyon kiraz çiçekleri ve beş katlı bir pagoda gösteriyor.' GPT Image 2, OpenAI'den üç metin bloğunu da doğru render edecektir — GPT Image 2'den önce bu neredeyse imkansızdı. GPT Image 2'de dergi kapakları, haber kuşakları, sokak tabelaları veya vitrinler için hangi metnin görünmesi gerektiğini tırnak içinde, önemseyip önemsemediğinize göre font ipucuyla ('sans-serif', 'el yazısı', 'sıkıştırılmış kapital') tam tam olarak yazın. GPT Image 2 prompt'unda metin yerleşimi ne kadar spesifikse, OpenAI çıktısı o kadar güvenilir olur."
+          },
+          {
+            "heading": "Mükemmel Sonuçlar: İşe Yarayan GPT Image 2 Prompt Kalıpları",
+            "text": "Üç kalıp tutarlı biçimde güçlü GPT Image 2 çıktıları üretir. Birincisi: önce sahne, sonra özne, sonra stil. 'Vietnam kahve plantasyonunda sabah sisi, genç bir çiftçi metal bir fıçıya kahve çekirdekleri döküyor, altın saat ışığı, hiperrealist sinematik stil.' İkincisi: GPT Image 2 prompt'unuzda çözünürlüğü ve en-boy oranını açıkça belirtin. '16:9 en-boy oranı, 4K detay, özneye keskin odak' ekleyin. GPT Image 2 artık bunlara gerçekten uyuyor. Üçüncüsü: negatif kısıtlamalar. 'Metin yok, filigran yok, logo yok' OpenAI'nin GPT Image 2'sini gereksiz tabela eklemekten alıkoyar. Birden fazla GPT Image 2 varyasyonu üretiyorsanız aynı seed'i veya referans görseli kullanarak stili tutarlı tutun. Beğendiğiniz bir GPT Image 2 çıktısı aldığınızda indirin ve ToolPic ile son işleyin — 4K PNG'yi görsel sıkıştırıcıda 300 KB'ın altına sıkıştırın, Image Crop ile hedef boyutlara kırpın veya GPT Image 2 render'ınızın kesimi gerekiyorsa bg-remove ile arka planı soyun."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Instagram Story İçin Doğru Görsel Boyutu ve Yeniden Boyutlandırma Rehberi (2026)",
         "metaTitle": "Instagram Story Görsel Boyutu ve Yeniden Boyutlandırma Rehberi 2026 | ToolPic Blog",
         "metaDescription": "Instagram Story için ideal fotoğraf boyutu nedir? 1080x1920 piksel boyutları, yeniden boyutlandırma yöntemleri ve en iyi uygulamaları öğrenin.",
         "excerpt": "Instagram Story'ye yüklediğiniz fotoğraflar kırpılıyor veya bulanık mı görünüyor? Doğru boyut ve yeniden boyutlandırma ipuçlarıyla mükemmel Story'ler oluşturun.",
         "content": [
-          {"heading": "2026'da Instagram Story Boyutları", "text": "Instagram Story için ideal boyut 1080x1920 piksel, yani 9:16 en-boy oranı. Minimum 720x1280 piksel çözünürlük kullanın, aksi takdirde görsel bulanık çıkar. Metin ve önemli içeriğinizi ekranın ortasındaki %80'lik güvenli bölgede tutun. Üst ve alt %10'luk kısımda kullanıcı adı, yanıt çubuğu ve yukarı kaydırma butonu yer alıyor ve bunlar içeriğinizi kapatabilir. JPG ve PNG formatları kabul edilir, dosya boyutu ise 30MB'ı geçmemeli."},
-          {"heading": "Yanlış Boyut Yükleyince Ne Olur", "text": "Yanlış boyutta bir fotoğraf yüklediğinizde Instagram otomatik olarak kırpma veya uzatma yapar. Kare (1:1) bir görsel yüklerseniz üstte ve altta siyah bantlar oluşur ki bu oldukça kötü görünür. Yatay fotoğraflarda üst ve alt kısımlar kesilir. En sinir bozucu durum ise önemli metinlerinizin arayüz elemanlarının arkasında kaybolmasıdır — profil simgesi veya mesaj çubuğu gibi. Bu yüzden önceden doğru boyutta hazırlamak çok daha mantıklı."},
-          {"heading": "Instagram Stories İçin Nasıl Boyutlandırılır", "text": "Önce görselinizi 9:16 oranında kırpın. Genişliği 1080 piksel yapın, yükseklik otomatik olarak 1920 olacaktır. Dosya boyutunu 8MB'ın altında tutun ki yükleme hızlı olsun ve kalite korunsun. Renk profilini sRGB olarak ayarlayın çünkü Instagram diğer profilleri sRGB'ye dönüştürür ve bu renk kaymasına yol açabilir. JPEG formatında %85-90 kalitede kaydedin — bu sayede dosya boyutu düşük kalır, kalite farkı gözle görülmez."},
-          {"heading": "ToolPic ile Hızlı Boyutlandırma", "text": "ToolPic'in Image Crop aracını açın ve Instagram Story ön ayarını seçin. Otomatik olarak 9:16 oranı ayarlanır. Fotoğrafı sürükleyerek doğru konuma getirin ve kırpın. Ardından Image Compressor'a atarak dosya boyutunu 8MB'ın altına düşürün. Tüm işlem tarayıcınızda gerçekleşir — fotoğraflarınız hiçbir sunucuya yüklenmez. İki dakika içinde Story'ye hazır görseliniz olur."}
+          {
+            "heading": "2026'da Instagram Story Boyutları",
+            "text": "Instagram Story için ideal boyut 1080x1920 piksel, yani 9:16 en-boy oranı. Minimum 720x1280 piksel çözünürlük kullanın, aksi takdirde görsel bulanık çıkar. Metin ve önemli içeriğinizi ekranın ortasındaki %80'lik güvenli bölgede tutun. Üst ve alt %10'luk kısımda kullanıcı adı, yanıt çubuğu ve yukarı kaydırma butonu yer alıyor ve bunlar içeriğinizi kapatabilir. JPG ve PNG formatları kabul edilir, dosya boyutu ise 30MB'ı geçmemeli."
+          },
+          {
+            "heading": "Yanlış Boyut Yükleyince Ne Olur",
+            "text": "Yanlış boyutta bir fotoğraf yüklediğinizde Instagram otomatik olarak kırpma veya uzatma yapar. Kare (1:1) bir görsel yüklerseniz üstte ve altta siyah bantlar oluşur ki bu oldukça kötü görünür. Yatay fotoğraflarda üst ve alt kısımlar kesilir. En sinir bozucu durum ise önemli metinlerinizin arayüz elemanlarının arkasında kaybolmasıdır — profil simgesi veya mesaj çubuğu gibi. Bu yüzden önceden doğru boyutta hazırlamak çok daha mantıklı."
+          },
+          {
+            "heading": "Instagram Stories İçin Nasıl Boyutlandırılır",
+            "text": "Önce görselinizi 9:16 oranında kırpın. Genişliği 1080 piksel yapın, yükseklik otomatik olarak 1920 olacaktır. Dosya boyutunu 8MB'ın altında tutun ki yükleme hızlı olsun ve kalite korunsun. Renk profilini sRGB olarak ayarlayın çünkü Instagram diğer profilleri sRGB'ye dönüştürür ve bu renk kaymasına yol açabilir. JPEG formatında %85-90 kalitede kaydedin — bu sayede dosya boyutu düşük kalır, kalite farkı gözle görülmez."
+          },
+          {
+            "heading": "ToolPic ile Hızlı Boyutlandırma",
+            "text": "ToolPic'in Image Crop aracını açın ve Instagram Story ön ayarını seçin. Otomatik olarak 9:16 oranı ayarlanır. Fotoğrafı sürükleyerek doğru konuma getirin ve kırpın. Ardından Image Compressor'a atarak dosya boyutunu 8MB'ın altına düşürün. Tüm işlem tarayıcınızda gerçekleşir — fotoğraflarınız hiçbir sunucuya yüklenmez. İki dakika içinde Story'ye hazır görseliniz olur."
+          }
         ],
         "relatedToolIds": "image-crop,image-compressor"
       },

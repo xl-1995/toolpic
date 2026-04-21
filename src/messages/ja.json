@@ -41,6 +41,8 @@
   "home": {
     "h1": "無料オンライン画像・動画ツール",
     "subtitle": "メディアファイルを即座に圧縮、変換、編集。アップロード不要、登録不要、制限なし。100%無料でプライベート。",
+    "newBadgeLabel": "新着",
+    "gptImage2Badge": "OpenAI の GPT Image 2 が登場 — 完全ガイドをチェック",
     "startNow": "今すぐ始める",
     "learnMore": "詳しく見る",
     "imageSection": "画像ツール",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "どの動画形式に対応していますか？",
     "extractMp3Faq2A": "MP4、WebM、AVI、MOV、MKV を含むすべての一般的な動画形式に対応しています。動画に音声トラックが含まれていれば、MP3 として抽出できます。",
     "extractMp3Faq3Q": "抽出にはどのくらい時間がかかりますか？",
-    "extractMp3Faq3A": "抽出時間は動画ファイルのサイズと長さに依存します。通常、数秒から数分程度です。処理はブラウザ内で行われるため、500MB 以下の動画ファイルを推奨します。"
+    "extractMp3Faq3A": "抽出時間は動画ファイルのサイズと長さに依存します。通常、数秒から数分程度です。処理はブラウザ内で行われるため、500MB 以下の動画ファイルを推奨します。",
+    "compressGptImage2": "GPT Image 2 の出力をオンラインで圧縮 - 無料ツール",
+    "compressGptImage2Desc": "OpenAI の新モデル GPT Image 2 が書き出す PNG 専用のオンライン圧縮ツール。4K の GPT Image 2 画像を 12MB から 300KB 以下まで、見た目の劣化をほぼ感じさせずに縮小できます。アップロード不要、すべてブラウザ内で処理。",
+    "compressGptImage2HowTo": "GPT Image 2 の出力を圧縮する手順",
+    "compressGptImage2Step1": "GPT Image 2 のファイルをアップロード",
+    "compressGptImage2Step1Desc": "OpenAI の GPT Image 2 や ChatGPT で生成した PNG または JPG をドラッグ＆ドロップするだけ。1 ファイルあたり最大 50MB まで対応しています。",
+    "compressGptImage2Step2": "圧縮レベルを調整",
+    "compressGptImage2Step2Desc": "品質は 75〜90% に設定するのがおすすめです。GPT Image 2 の出力は圧縮の効きが良く、82% 程度でも OpenAI の元画像とほぼ見分けがつきません。",
+    "compressGptImage2Step3": "圧縮後の画像をダウンロード",
+    "compressGptImage2Step3Desc": "最適化されたファイルを保存します。12MB 程度の GPT Image 2 4K PNG なら、通常 300KB 以下まで軽くできます。",
+    "compressGptImage2FaqTitle": "よくある質問",
+    "compressGptImage2Faq1Q": "なぜ OpenAI の GPT Image 2 は出力ファイルがここまで大きいのですか？",
+    "compressGptImage2Faq1A": "GPT Image 2 はネイティブで 2048x2048、場合によっては 4096x4096 の解像度で生成し、デフォルトで無圧縮の PNG として書き出されるため、1 枚あたり 8〜15MB になります。Web・メール・SNS にそのまま載せるには大きすぎるので、画質をほぼ保ったまま GPT Image 2 の出力を 200〜500KB 程度まで圧縮するのが定番です。",
+    "compressGptImage2Faq2Q": "圧縮すると OpenAI の C2PA 透かしメタデータは壊れませんか？",
+    "compressGptImage2Faq2A": "OpenAI は GPT Image 2 の出力に C2PA 由来メタデータを埋め込んでいます。通常の JPEG 圧縮ではこのメタデータは保持されることが多いです。メタデータを完全に削除したい場合は画像コンバーターで別フォーマットに再エンコードできますが、その時点で OpenAI が GPT Image 2 に付与した真正性シグネチャも失われる点には注意が必要です。",
+    "compressGptImage2Faq3Q": "GPT Image 2 の画像はサーバーにアップロードされますか？",
+    "compressGptImage2Faq3A": "いいえ。圧縮はすべて WebAssembly を使ってお使いのブラウザ内で完結します。OpenAI GPT Image 2 の出力があなたのデバイスを離れることはありません。プロンプトに機密資料・未発表製品・ブランド機密が含まれる場合、この点は特に重要です。",
+    "resizeAiImage": "AI画像のリサイズ — GPT Image 2 / Midjourney / DALL-E対応",
+    "resizeAiImageDesc": "GPT Image 2、ChatGPT、DALL-E、Midjourney、Nano Banana の AI 画像を、Instagram・Twitter・Facebook・YouTube などのサイズにワンクリックでリサイズ。無料でブラウザ完結、アップロード不要。",
+    "resizeAiImageHowTo": "AI 生成画像をリサイズする手順",
+    "resizeAiImageStep1": "AI 画像をアップロード",
+    "resizeAiImageStep1Desc": "GPT Image 2、OpenAI ChatGPT、Midjourney、DALL-E、Nano Banana Pro など、どの AI で生成した PNG・JPG でもそのままドロップできます。",
+    "resizeAiImageStep2": "目標サイズを選択",
+    "resizeAiImageStep2Desc": "SNS 用プリセットから選ぶか（1080x1080 Instagram、1200x630 OG カード、1500x500 X/Twitter ヘッダーなど）、カスタムサイズを直接入力することもできます。",
+    "resizeAiImageStep3": "リサイズした画像をダウンロード",
+    "resizeAiImageStep3Desc": "トリミングしてダウンロード。そのまま目標プラットフォームに投稿しても、構図が勝手に切られてしまう事故は起きません。",
+    "resizeAiImageFaqTitle": "よくある質問",
+    "resizeAiImageFaq1Q": "AI 生成画像をリサイズすると画質は落ちますか？",
+    "resizeAiImageFaq1A": "2K や 4K の GPT Image 2 出力を 1080px に縮小するのは実質的にロスレスです。そもそもアップロード先のプラットフォームが捨てるはずのピクセルを先に捨てているだけです。問題になるのは小さい画像を拡大する側なので、GPT Image 2 では OpenAI が許す最大解像度で生成するのが鉄則です。",
+    "resizeAiImageFaq2Q": "Instagram 用に GPT Image 2 で生成するなら何 px が最適ですか？",
+    "resizeAiImageFaq2A": "GPT Image 2 で 2048x2048 で生成してから、投稿先に合わせて 1080x1080（正方形投稿）、1080x1350（4:5 の縦投稿）、1080x1920（Stories・Reels）へ切り出すのがおすすめです。余分なピクセルがあるおかげで、OpenAI で再生成せずに構図を微調整できます。",
+    "resizeAiImageFaq3Q": "Midjourney や DALL-E の画像にも使えますか？",
+    "resizeAiImageFaq3A": "はい。リサイズツールは画像のソースを問いません。GPT Image 2 の PNG、Nano Banana Pro の WebP、Midjourney の JPG、どれも同じように扱えます。元ファイルはどこへも送信されません。",
+    "watermarkAiImage": "AI 生成画像にオンラインで透かしを追加 - GPT Image 2・Midjourney 対応無料ツール",
+    "watermarkAiImageDesc": "GPT Image 2、OpenAI DALL-E、Midjourney、Nano Banana で作成した AI 画像に、カスタムテキストやロゴの透かしを追加。公開前にクレジット保護と AI 生成の明示を両立できます。",
+    "watermarkAiImageHowTo": "AI 生成画像に透かしを入れる手順",
+    "watermarkAiImageStep1": "AI 生成画像をアップロード",
+    "watermarkAiImageStep1Desc": "GPT Image 2、OpenAI ChatGPT、Midjourney などで生成した PNG・JPG をドロップしてください。",
+    "watermarkAiImageStep2": "テキストまたはロゴを追加",
+    "watermarkAiImageStep2Desc": "透かしに使う文字を入力するかロゴをアップロードし、不透明度・位置・フォントサイズ・色を自由に調整。プロ仕様の見た目に仕上がります。",
+    "watermarkAiImageStep3": "透かし入り画像をダウンロード",
+    "watermarkAiImageStep3Desc": "守られた状態で保存。SNS やポートフォリオに投稿しても、クレジットが常に見えている状態を保てます。",
+    "watermarkAiImageFaqTitle": "よくある質問",
+    "watermarkAiImageFaq1Q": "GPT Image 2 の出力に透かしは必要ですか？",
+    "watermarkAiImageFaq1A": "倫理的にも、そして徐々に義務化が進む法規制の面からも、入れておくべきです。X、Instagram、Meta 系プラットフォームでは AI 生成コンテンツの開示を強く求める流れが強まっています。OpenAI の出力に「#AI」や「Generated with GPT Image 2」といった小さな透かしを入れるだけで、法令順守と視聴者への透明性を両立できます。",
+    "watermarkAiImageFaq2Q": "透かしを入れると OpenAI の C2PA メタデータは影響を受けますか？",
+    "watermarkAiImageFaq2A": "ピクセルを編集するとファイルのハッシュが変わるため、C2PA シグネチャは無効になります。これは仕様どおりの挙動です。OpenAI が GPT Image 2 に付けた来歴シグネチャを残しておきたい場合は、透かしを入れる前のオリジナルファイルを別途アーカイブしておいてください。",
+    "watermarkAiImageFaq3Q": "複数の AI 画像にまとめて透かしを入れられますか？",
+    "watermarkAiImageFaq3A": "はい。バッチ透かし処理に対応しています。GPT Image 2 や Midjourney の出力をフォルダごとアップロードし、透かしの設定を一度決めればまとめて全画像に適用できます。処理はお使いのブラウザ内で完結します。",
+    "removeBgAiImage": "AI 生成画像の背景をワンクリックで削除 - 無料オンラインツール",
+    "removeBgAiImageDesc": "OpenAI の GPT Image 2、DALL-E、Midjourney、ChatGPT 出力からワンクリックで背景を削除。AI がブラウザ内で処理し、クリーンな透過 PNG を出力します。",
+    "removeBgAiImageHowTo": "AI 画像の背景を削除する手順",
+    "removeBgAiImageStep1": "AI 画像をアップロード",
+    "removeBgAiImageStep1Desc": "GPT Image 2、OpenAI ChatGPT、Midjourney、その他の AI 画像生成ツールで作成した画像をドロップしてください。",
+    "removeBgAiImageStep2": "AI が自動で背景を削除",
+    "removeBgAiImageStep2Desc": "クライアントサイドの AI が主要な被写体を 2〜5 秒で検出し、背景を自動的に削除します。",
+    "removeBgAiImageStep3": "透過 PNG をダウンロード",
+    "removeBgAiImageStep3Desc": "アルファチャンネル付きの透過 PNG として保存。あらゆる背景に重ねたり、プロダクトモックアップに差し込んだりできます。",
+    "removeBgAiImageFaqTitle": "よくある質問",
+    "removeBgAiImageFaq1Q": "GPT Image 2 の出力でも背景削除はきちんと効きますか？",
+    "removeBgAiImageFaq1A": "はい、むしろ得意分野です。GPT Image 2 が出す画像はライティングがきれいで被写体のエッジも鋭く、背景とのコントラストも十分。OpenAI のモデルはこれらを揃えた画像を作ってくれるため、AI による切り抜きはリアル写真以上に精度が出ます。",
+    "removeBgAiImageFaq2Q": "複雑な AI シーンでも背景を削除できますか？",
+    "removeBgAiImageFaq2A": "複数の被写体や入り組んだ背景を含むシーンでは、AI は最も目立つ前景をひとつ抜き出します。GPT Image 2 で背景が複雑な人物ポートレートを生成した場合は問題なく抜けますが、複数被写体のシーンでは OpenAI 側でプロンプトを書き直してシンプルな背景で再生成する方が結果が安定します。",
+    "removeBgAiImageFaq3Q": "画像はサーバーにアップロードされますか？",
+    "removeBgAiImageFaq3A": "いいえ。背景削除は完全にクライアントサイド AI でブラウザ内で行われます。GPT Image 2 の出力も、メタデータに残る機密プロンプトも、あなたのデバイスから出ることはありません。",
+    "convertGptImageToJpg": "GPT Image 2 の PNG を JPG にオンライン変換 - 無料",
+    "convertGptImageToJpgDesc": "OpenAI GPT Image 2・DALL-E・ChatGPT が書き出した PNG を、ワンクリックで JPG に変換。ファイルサイズを約 80% カットしつつ、デバイス互換性も最大化。無料でブラウザ完結、アップロード不要。",
+    "convertGptImageToJpgHowTo": "GPT Image 2 の PNG を JPG に変換する手順",
+    "convertGptImageToJpgStep1": "GPT Image 2 の PNG をアップロード",
+    "convertGptImageToJpgStep1Desc": "OpenAI GPT Image 2、ChatGPT、または OpenAI Image API が出力した PNG ファイルをドロップしてください。",
+    "convertGptImageToJpgStep2": "JPG 形式を選択",
+    "convertGptImageToJpgStep2Desc": "出力形式を JPG に切り替え、品質を 85〜95% に設定します。品質を高くするほどディテールが残り、85% でもファイルサイズを半分程度にできます。",
+    "convertGptImageToJpgStep3": "JPG ファイルをダウンロード",
+    "convertGptImageToJpgStep3Desc": "変換後の JPG を保存します。12MB の GPT Image 2 PNG（OpenAI のオリジナル画質）なら、通常 1〜2MB の JPG になり、見た目の差はほとんど感じません。",
+    "convertGptImageToJpgFaqTitle": "よくある質問",
+    "convertGptImageToJpgFaq1Q": "なぜ OpenAI の GPT Image 2 PNG を JPG に変換するのですか？",
+    "convertGptImageToJpgFaq1A": "PNG はロスレスなぶんファイルが巨大になります。OpenAI から直接書き出される GPT Image 2 の PNG は 8〜15MB が普通です。写真系コンテンツなら JPG に変換することで PNG の 10〜20% まで軽量化できて、それでいて肉眼では劣化を感じません。Web・メール・SNS で運用するなら JPG が現実解です。",
+    "convertGptImageToJpgFaq2Q": "変換すると画質は落ちますか？",
+    "convertGptImageToJpgFaq2A": "JPG は非可逆圧縮なので、厳密には多少の画質劣化はあります。ただし品質 90% 設定なら、GPT Image 2 のような写真系コンテンツでは人間の目にはほぼ区別がつきません。鋭いエッジや透明部分のあるグラフィックなら、無理せず PNG のまま使うのが無難です。",
+    "convertGptImageToJpgFaq3Q": "JPG に変換すると透過情報は失われますか？",
+    "convertGptImageToJpgFaq3A": "はい。JPG は透過に対応していません。OpenAI GPT Image 2 の出力が透過背景だった場合、JPG に変換すると透過部分は白で塗りつぶされます。透過を残したい場合は WebP に変換するか、そのまま PNG を使い続けてください。"
   },
   "footer": {
     "tagline": "無料オンライン画像・動画ツール。100%ブラウザ処理、ファイルはデバイスから離れません。",
@@ -761,6 +843,72 @@
     "readMore": "続きを読む",
     "relatedTools": "関連ツール",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2 完全ガイド：OpenAI の新しい画像モデルについて現時点でわかっていることすべて（2026 年 4 月）",
+        "metaTitle": "GPT Image 2 ガイド — OpenAI の新画像生成モデルを徹底解説",
+        "metaDescription": "OpenAI GPT Image 2（2026 年 4 月）の完全ガイド。機能、リリース時期、価格、GPT Image 1.5 や Nano Banana Pro との比較。ChatGPT の A/B テストで確認された最新リークを継続更新。",
+        "excerpt": "OpenAI の GPT Image 2 は 2026 年 4 月から ChatGPT Plus ユーザー向けに段階的な配布が始まっています。この記事では確度の高い GPT Image 2 リーク情報、OpenAI の実際のリリースロードマップ、GPT Image 2 と GPT Image 1.5・Nano Banana Pro の比較を一気にまとめます。",
+        "content": [
+          {
+            "heading": "GPT Image 2 とは？",
+            "text": "GPT Image 2 は OpenAI の次世代画像生成モデルで、現行の GPT Image 1.5 を置き換える存在になると見られています。DALL-E 3 や GPT-4o のネイティブ画像生成機能など、これまでの OpenAI 画像モデルとは異なり、GPT Image 2 は完全に独立した新アーキテクチャで動作します。GPT-4o マルチモーダル・パイプラインに接続されていない点は地味に見えて大きな変化で、OpenAI が GPT Image 2 を「画像品質」だけに最適化できることを意味します。一般の ChatGPT ユーザーにとって GPT Image 2 は、より鮮明で指示に忠実な画像、そして抜群に改善されたテキストレンダリングを意味します。開発者にとっては、GPT Image 2 が正式リリースされれば専用の OpenAI API エンドポイントが提供されるということです。要するに GPT Image 2 は、OpenAI が「画像生成」を独立プロダクトとして本気で育て始めた最初の一歩と言えます。"
+          },
+          {
+            "heading": "GPT Image 2 のリリース時期と現状（2026 年 4 月時点）",
+            "text": "OpenAI は GPT Image 2 を正式発表していませんが、2026 年 4 月初旬に maskingtape-alpha、gaffertape-alpha、packingtape-alpha というコードネームの匿名モデル 3 種が LM Arena 上に出現し、コミュニティは即座にこれを OpenAI の次世代画像モデル、つまり GPT Image 2 と特定しました。4 月 16 日には ChatGPT の Web UI 内の A/B テストで GPT Image 2 の姿が確認され、4 月 19 日からは有料の ChatGPT Plus・Pro ユーザーが GPT Image 2 にアクセスできたと報告し始めました。公開ローンチは 2026 年 4 月末〜5 月中旬とするのがコミュニティの共通認識です。OpenAI は DALL-E 2・DALL-E 3 の完全停止日を 2026 年 5 月 12 日に設定しており、この日付は偶然ではないでしょう。GPT Image 2 を旗艦とする GPT Image シリーズが、OpenAI API 経由で DALL-E を使い続けている全ユーザーの唯一の公式移行先になります。"
+          },
+          {
+            "heading": "GPT Image 2 の本当に意味のある新機能",
+            "text": "GPT Image 2 最大の進化はテキストレンダリングです。これまでの OpenAI 画像モデルはテキスト精度 90〜95% 程度で、数字だけ見ると悪くないのですが、店舗の看板や UI モックアップを作ろうとすると文字が半分崩れる、というのが現実でした。GPT Image 2 は初期テスターの報告でテキスト精度が 99% を超えたとされ、読める看板・読めるラベル・そのまま使える UI モックアップが OpenAI から直接出てきます。GPT Image 2 では GPT-4o 画像生成で悩ましかった黄色い色カブリも解消されていて、白がきちんと白として出ます。ネイティブ解像度は最大 2048x2048、場合によっては 4096x4096 までカバーし、ヒーロー画像やポスター、印刷物用途にとっては大きな前進です。同一人物の顔を複数プロンプト間で維持する永続的キャラクターエンベディング、広がった世界知識、クリーンな指示遵守を加味すると、GPT Image 2 は Midjourney や Google Nano Banana Pro と商用品質で真正面から戦える最初の OpenAI 画像モデルと言えます。"
+          },
+          {
+            "heading": "GPT Image 2 vs GPT Image 1.5 vs Nano Banana Pro",
+            "text": "自社の前モデルと比べると、GPT Image 2 はテキストレンダリング・色再現・プロンプト遵守のいずれでも GPT Image 1.5 を圧倒しています。より興味深いのは GPT Image 2 と Nano Banana Pro（Google Gemini 3 Pro Image、2025 年 11 月公開）の対決です。LM Arena のブラインドテストでは、GPT Image 2 がテキスト精度・UI 復元・世界知識で先行し、Nano Banana Pro は空間推論系——ルービックキューブの鏡面反射や複雑なオクルージョンといったエッジケース——で依然として優位です。価格面では、OpenAI 寄りの初期シグナルによると GPT Image 2 は API 1 枚あたり $0.15-$0.20、Nano Banana 2 は $0.045-$0.151 とされています。つまり GPT Image 2 はプレミアム枠に位置付けられる見込みです。広告クリエイティブ、SNS 投稿、プロダクトモックアップなどの商用ユースなら、GPT Image 2 の画質向上は差額に見合います。一方、大量生成ワークフローでは Nano Banana Pro のコスト優位がまだ効きます。"
+          },
+          {
+            "heading": "今から GPT Image 2 を使うには",
+            "text": "2026 年 4 月時点で、GPT Image 2 へのアクセスは限定的です。いちばん近道なのは ChatGPT Plus または Pro に加入することです——OpenAI は A/B 方式で GPT Image 2 を段階展開しているので、当たった人はすでに使えて、当たっていない人はまだ見えません。GPT Image 2 が見当たらない場合は、ChatGPT に「高解像度で文字が多く入った画像」を生成させてみて、出力品質が明らかにジャンプしているかを確認してみてください。OpenAI が全面開放すれば、GPT Image 2 は ChatGPT と OpenAI Image API の両方で（gpt-image-1.5 の後継として）利用可能になり、開発者は独立した gpt-image-2 モデル ID を期待できます。OpenAI はまだ GPT Image 2 の API ドキュメントを公開していないので、いま流通している「GPT Image 2 API ラッパー」はほぼすべて非公式で、利用にはリスクがあります。プロダクトに組み込むなら OpenAI の正式リリースを待つのが賢明です。"
+          },
+          {
+            "heading": "GPT Image 2 の出力をどう後処理するか",
+            "text": "GPT Image 2 のネイティブ 4K 出力には現実的な問題があります——PNG が重すぎるのです。4096x4096 の GPT Image 2 レンダリングは 1 枚あたり 8〜15MB になり、そのまま Web やメールに載せるのは無理があります。ほとんどのユースケースでは GPT Image 2 の出力を 300KB 以下に圧縮する必要があります。ToolPic の画像圧縮ツールはすべてブラウザ内で処理します——GPT Image 2 の PNG をドロップして品質を 82〜88% に設定すれば、見た目はほぼ同じで元のサイズの 10〜15% のファイルが手に入ります。SNS 運用なら、Instagram 用 1080x1080、OpenGraph カード用 1200x630、X/Twitter ヘッダー用 1500x500 などサイズ調整も必要ですが、ToolPic の画像クロップツールには各プリセットが用意されています。GPT Image 2 のプロダクトモックアップを透過にしたい？背景除去ツールも GPT Image 2 出力に問題なく対応します。すべてブラウザ内で完結するので、OpenAI で生成した画像が弊社サーバーにアップロードされることはありません。GPT Image 2 のプロンプトに機密情報が含まれていた場合、この点は特に重要です。"
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "最強の GPT Image 2 プロンプト集：OpenAI 新モデルのバズった 30+ 事例（2026）",
+        "metaTitle": "厳選 GPT Image 2 プロンプト — バズ事例とテンプレート集（2026）",
+        "metaDescription": "OpenAI コミュニティで話題になった GPT Image 2 プロンプトを 30 件以上厳選。ポートレート、UI モックアップ、都市風景、テキスト多めの GPT Image 2 用テンプレートを、そのままコピペ＆アレンジ可能。",
+        "excerpt": "OpenAI の GPT Image 2 リーク情報は X/Twitter 上で一気に拡散し、大量のバズプロンプトを生み出しました。カテゴリ別に整理した厳選 GPT Image 2 プロンプトを、自分用の OpenAI AI 画像づくりにコピー＆リミックスして使ってください。",
+        "content": [
+          {
+            "heading": "GPT Image 2 のプロンプトはどこが違う？",
+            "text": "DALL-E 3、Midjourney、GPT Image 1.5 向けにプロンプトを書いてきた人にとっての朗報は、GPT Image 2 もおおむね同じルールで動くということです。驚くのは、OpenAI の GPT Image 2 が情報密度の高い、節の多い長文プロンプトに対してずっと素直に応えるようになっている点です。以前のモデルでは 1 つのプロンプトに情報を詰め込むと要素が落ちがちでしたが、GPT Image 2 はシーン、被写体、ライティング、カメラアングル、カラーパレットを詰め込んだ 200 語級のプロンプトを安定してさばき、指示要素をちゃんと全部拾います。もうひとつの大きな変化はテキストです。GPT Image 2 プロンプトに「BLUE BOTTLE と書かれたコーヒースタンドの看板と、下にエスプレッソ・カプチーノ・コルタドと書かれたメニューボード」と書けば、OpenAI のモデルはその文字を正しい綴りで描いてくれます。これは GPT Image 2 以前は安定して実現できなかったことです。以降のカテゴリはすべて、この GPT Image 2 の強みを活かした使い方です。"
+          },
+          {
+            "heading": "X/Twitter で話題になった GPT Image 2 のバズプロンプト",
+            "text": "X で最も拡散された GPT Image 2 の事例は、マンハッタンを舞台にした一人称視点の Minecraft シーンでした——GPT Image 2 プロンプトはゲーム美術と実在の地理を混ぜ、両方をしっかり描ききっています。もう一つの話題作は Minecraft 世界の中に描かれた架空の「Claude Opus 5 内部文書」で、単発投稿で 43.9 万回以上の表示を獲得しました。150 人以上の多様な歩行者、黄色いタクシー、濡れた路面、鏡面ハイライトを盛り込んだタイムズスクエアの GPT Image 2 プロンプトも、OpenAI モデルが全要素を破綻なく描き、看板の文字もちゃんと綴れていたおかげで大いにバズりました。時代ものでも「織田信長が本能寺の変の前夜に X の投稿を書いている」という GPT Image 2 プロンプトが初期の代表例として流行し、歴史考証と現代 SNS の UI レイアウトを一枚に同居させる遊び方が広がりました。バズる GPT Image 2 プロンプトに共通するのは、トレーニングデータから似た画像をそのまま引っ張ってくるのではなく、OpenAI の世界知識を組み合わせて作らないと描けないシーンであることです。"
+          },
+          {
+            "heading": "ポートレート・キャラクター系の GPT Image 2 プロンプト",
+            "text": "ポートレートでは、GPT Image 2 の永続的キャラクターエンベディングにより、複数の OpenAI レンダリング間で同じ顔をキープできます。GPT Image 2 プロンプトの冒頭に、年齢・民族・特徴・服装スタイルなど詳細なキャラクター設定を書き、そのあとにライティングやムードを追加するのがおすすめです。GPT Image 2 プロンプト例：「34 歳の韓国人女性の編集的ポートレート、ショートブラックヘア、六角形のシルバーピアス、左からの柔らかい窓明かり、浅い被写界深度、ティール＆ピーチのカラーグレーディング、85mm レンズ f/1.8 で撮影」。続きの GPT Image 2 出力でも、同じ特徴をそのまま繰り返し書くことで一貫性を保てます。スタイル化キャラクターでは具体的なアーティストや時代を引きます——「ミュシャ風アールヌーボー」「スタジオジブリ背景」「1980 年代セル画アニメ」。GPT Image 2 は GPT Image 1.5 と比べ、こうした OpenAI への指定スタイルタグを明確に忠実に再現します。"
+          },
+          {
+            "heading": "UI モックアップ・プロダクト系 GPT Image 2 プロンプト",
+            "text": "UI モックアップは、GPT Image 2 が旧 OpenAI 画像モデルから一気に差を付けた分野です。次の GPT Image 2 プロンプトを試してみてください：「瞑想アプリの日々のセッション画面を表す iOS 風のきれいな UI。上部に戻る矢印と設定アイコン、中央に残り 12:34 を表示する大きな円形タイマー、下に Breath・Body Scan・Sleep と書かれた 3 つのチップ、最下部に Home・Sessions・Profile のタブバー」。GPT Image 2 はテキストを正しく描き、レイアウトにも筋が通り、スペーシングも自然です。プロダクト写真では：「マットブラックのセラミックコーヒーカップをコンクリート面に置いたミニマル商品撮影、左上からの柔らかい指向性光、立ちのぼる湯気、浅い被写界深度、軽いグレイン、エディトリアル誌風」。GPT Image 2 はマット vs 光沢、セラミック vs 金属といった素材感の描き分けで、従来の OpenAI 画像モデルより明確に優れています。"
+          },
+          {
+            "heading": "文字多めの GPT Image 2 プロンプト（ポスター・看板・書類）",
+            "text": "GPT Image 2 のテキストレンダリング飛躍がいちばん効くのがこのカテゴリです。ポスター向け GPT Image 2 プロンプト例：「京都の 1950 年代風ビンテージ旅行ポスター。上部に大きなセリフ体で KYOTO、小さなサブタイトルで Ancient Capital of Japan、下部の帯に Japan National Railways。イラストには桜と五重塔を描写。」GPT Image 2 は 3 種類のテキストブロックをすべて正しく描きます——少し前まで OpenAI でこれを安定させるのは至難の業でした。雑誌の表紙、ニュースティッカー、路上標識、店舗サイネージといった題材では、GPT Image 2 プロンプトの中で表示したい文字列を引用符で具体的に書き、必要ならフォントの指定（「sans-serif」「script」「condensed caps」など）も添えます。GPT Image 2 プロンプトでテキストの位置を細かく指定するほど、OpenAI の出力は安定します。"
+          },
+          {
+            "heading": "確実に良い結果を出すための GPT Image 2 プロンプトパターン",
+            "text": "GPT Image 2 で安定して良い結果を出せるパターンが 3 つあります。1 つ目は「シーン → 被写体 → スタイル」：「ベトナムのコーヒー農園の朝霧、若い農家が金属製の樽にコーヒー豆を注ぎ込む、ゴールデンアワーの光、ハイパーリアリスティックな映画的スタイル」。2 つ目は解像度とアスペクト比を GPT Image 2 プロンプトに明示すること。「16:9 アスペクト、4K ディテール、被写体にシャープフォーカス」と書けば、GPT Image 2 は本当に反映します。3 つ目はネガティブ制約：「テキスト無し、透かし無し、ロゴ無し」と書くと、OpenAI の GPT Image 2 が余計な看板を勝手に足してしまうのを防げます。GPT Image 2 で複数バリエーションを生成するなら、同じシードか同じ参照画像を再利用してスタイルを揃えるのが効果的です。気に入った GPT Image 2 出力が得られたら、ダウンロードして ToolPic で後処理してください——画像圧縮ツールで 4K PNG を 300KB 以下に、画像クロップで目標サイズへ、背景除去ツールで GPT Image 2 画像を透過処理、といった流れがそのまま回ります。"
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Instagramストーリーの画像サイズガイド：2026年版リサイズ方法",
         "metaTitle": "Instagramストーリー画像サイズ＆リサイズガイド（2026）| ToolPicブログ",

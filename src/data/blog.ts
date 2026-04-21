@@ -7,6 +7,8 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'gpt-image-2-everything-we-know-2026-guide', date: '2026-04-21', readTime: 7, heroImage: '/blog/gpt-image-2-guide-hero.jpg', relatedToolIds: ['image-compressor', 'image-crop', 'image-bg-remove'] },
+  { slug: 'best-gpt-image-2-prompts-viral-examples', date: '2026-04-21', readTime: 8, heroImage: '/blog/gpt-image-2-prompts-hero.jpg', relatedToolIds: ['image-compressor', 'image-crop', 'image-bg-remove'] },
   { slug: 'instagram-story-image-size-resize-guide', date: '2026-04-07', readTime: 5, heroImage: '/blog/instagram-story-size-hero.jpg', relatedToolIds: ['image-crop', 'image-compressor'] },
   { slug: 'how-to-combine-photos-side-by-side', date: '2026-03-30', readTime: 5, heroImage: '/blog/combine-photos-hero.jpg', relatedToolIds: ['image-merge', 'image-crop'] },
   { slug: 'best-free-video-compressor-no-watermark', date: '2026-03-30', readTime: 5, heroImage: '/blog/video-compressor-hero.jpg', relatedToolIds: ['video-compress', 'video-convert'] },

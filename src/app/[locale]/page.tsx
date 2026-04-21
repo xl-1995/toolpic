@@ -77,6 +77,14 @@ function HomeContent({ locale }: { locale: string }) {
       {/* Hero */}
       <section className="relative text-center pt-24 pb-20 sm:pt-32 sm:pb-28">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <Link
+            href="/blog/gpt-image-2-everything-we-know-2026-guide"
+            className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full border border-[var(--color-purple)]/40 bg-gradient-to-r from-[var(--color-purple)]/10 to-[var(--color-blue)]/10 hover:border-[var(--color-purple)]/70 hover:from-[var(--color-purple)]/15 hover:to-[var(--color-blue)]/15 transition-all duration-300 text-sm"
+          >
+            <span className="px-2 py-0.5 rounded-full bg-gradient-to-r from-[var(--color-purple)] to-[var(--color-blue)] text-white text-xs font-bold">🔥 {t('home.newBadgeLabel')}</span>
+            <span className="text-[var(--color-text)]">{t('home.gptImage2Badge')}</span>
+            <i className="fas fa-arrow-right text-xs text-[var(--color-text-muted)]"></i>
+          </Link>
           <h1 className="text-4xl sm:text-5xl lg:text-[4.5rem] font-extrabold leading-tight tracking-tight mb-6 gradient-text">
             {t('home.h1')}
           </h1>

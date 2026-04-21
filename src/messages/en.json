@@ -41,6 +41,8 @@
   "home": {
     "h1": "Free Online Image & Video Tools",
     "subtitle": "Compress, convert, and edit your media files instantly. No uploads, no sign-ups, no limits. 100% free and private.",
+    "newBadgeLabel": "New",
+    "gptImage2Badge": "GPT Image 2 from OpenAI is here — read our full guide",
     "startNow": "Start Now",
     "learnMore": "Learn More",
     "imageSection": "Image Tools",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "Can I extract audio from YouTube videos?",
     "extractMp3Faq2A": "This tool extracts audio from video files stored on your device. You would first need to have the video file saved locally. The tool does not download videos from URLs or streaming platforms. Once you have a local video file, you can extract its audio track to MP3 instantly.",
     "extractMp3Faq3Q": "Is the video uploaded to a server during extraction?",
-    "extractMp3Faq3A": "No, the entire extraction process runs locally in your browser using WebAssembly-powered FFmpeg. Your video file never leaves your device, ensuring complete privacy. This is particularly important for extracting audio from private recordings, confidential meetings, or personal video content."
+    "extractMp3Faq3A": "No, the entire extraction process runs locally in your browser using WebAssembly-powered FFmpeg. Your video file never leaves your device, ensuring complete privacy. This is particularly important for extracting audio from private recordings, confidential meetings, or personal video content.",
+    "compressGptImage2": "Compress GPT Image 2 Output Online - Free",
+    "compressGptImage2Desc": "Compress GPT Image 2 PNG output from OpenAI's new image model. Shrink 4K output from 12MB down to under 300KB without visible quality loss.",
+    "compressGptImage2HowTo": "How to Compress GPT Image 2 Output",
+    "compressGptImage2Step1": "Upload Your GPT Image 2 File",
+    "compressGptImage2Step1Desc": "Drag and drop the PNG or JPG you generated with OpenAI's GPT Image 2 or ChatGPT. Files up to 50MB are supported.",
+    "compressGptImage2Step2": "Adjust Compression Level",
+    "compressGptImage2Step2Desc": "Set quality between 75-90%. GPT Image 2 output compresses well — 82% usually looks identical to the OpenAI original.",
+    "compressGptImage2Step3": "Download Compressed Image",
+    "compressGptImage2Step3Desc": "Save your optimized file. A 12MB GPT Image 2 4K PNG from OpenAI typically shrinks to under 300KB.",
+    "compressGptImage2FaqTitle": "Frequently Asked Questions",
+    "compressGptImage2Faq1Q": "Why is GPT Image 2 output from OpenAI so large?",
+    "compressGptImage2Faq1A": "GPT Image 2 generates at native 2048x2048 or 4096x4096 resolution and exports as uncompressed PNG by default, producing files of 8-15MB per image. For web pages, email, and social media you'll want to compress GPT Image 2 output down to the 200-500KB range without losing visible quality.",
+    "compressGptImage2Faq2Q": "Does compressing break OpenAI's C2PA watermark metadata?",
+    "compressGptImage2Faq2A": "OpenAI embeds C2PA provenance metadata in GPT Image 2 outputs. JPEG compression usually preserves this metadata. If you need to strip metadata entirely, use the image converter tool to re-encode to a new format, but note that this removes the authenticity signature OpenAI attaches to GPT Image 2 renders.",
+    "compressGptImage2Faq3Q": "Is my GPT Image 2 output uploaded to a server?",
+    "compressGptImage2Faq3A": "No. All compression runs locally in your browser using WebAssembly. Your OpenAI GPT Image 2 outputs never leave your device, which matters if the prompt included confidential references, unreleased products, or proprietary branding.",
+    "resizeAiImage": "Resize AI Image Online — GPT Image 2, Midjourney, DALL-E",
+    "resizeAiImageDesc": "Resize AI-generated images from GPT Image 2, ChatGPT, DALL-E, Midjourney, or Nano Banana to Instagram, Twitter, Facebook, YouTube dimensions.",
+    "resizeAiImageHowTo": "How to Resize AI-Generated Images",
+    "resizeAiImageStep1": "Upload AI Image",
+    "resizeAiImageStep1Desc": "Drop in any AI-generated PNG or JPG from GPT Image 2, OpenAI ChatGPT, Midjourney, DALL-E, or Nano Banana Pro.",
+    "resizeAiImageStep2": "Choose Target Size",
+    "resizeAiImageStep2Desc": "Pick a social media preset — 1080x1080 Instagram, 1200x630 OG card, 1500x500 X/Twitter header — or set custom dimensions.",
+    "resizeAiImageStep3": "Download Resized Image",
+    "resizeAiImageStep3Desc": "Crop and download. Upload the result directly to your target platform with no cropping surprises.",
+    "resizeAiImageFaqTitle": "Frequently Asked Questions",
+    "resizeAiImageFaq1Q": "Will resizing lose quality on AI-generated images?",
+    "resizeAiImageFaq1A": "Downscaling from 2K or 4K GPT Image 2 output to 1080px is effectively lossless — you're discarding pixels the target platform would throw away anyway. Upscaling from small output is where quality suffers, so always generate GPT Image 2 renders at the highest resolution OpenAI supports.",
+    "resizeAiImageFaq2Q": "What size should I render in GPT Image 2 for Instagram?",
+    "resizeAiImageFaq2A": "Generate at 2048x2048 in GPT Image 2 then crop to 1080x1080 for Instagram posts, 1080x1350 for 4:5 portrait posts, or 1080x1920 for Stories and Reels. The extra pixels give you cropping flexibility without regenerating in OpenAI.",
+    "resizeAiImageFaq3Q": "Does this work for Midjourney and DALL-E outputs too?",
+    "resizeAiImageFaq3A": "Yes. The resize tool handles any image regardless of source. PNG from GPT Image 2, WebP from Nano Banana Pro, JPG from Midjourney — all work identically. Your original file is not sent anywhere.",
+    "watermarkAiImage": "Watermark AI-Generated Image Online - Free for GPT Image 2 & Midjourney",
+    "watermarkAiImageDesc": "Add custom text or logo watermarks to AI-generated images from GPT Image 2, OpenAI DALL-E, Midjourney or Nano Banana. Protect and disclose your AI artwork before sharing.",
+    "watermarkAiImageHowTo": "How to Watermark AI-Generated Images",
+    "watermarkAiImageStep1": "Upload AI-Generated Image",
+    "watermarkAiImageStep1Desc": "Drop in your PNG or JPG from GPT Image 2, OpenAI ChatGPT, Midjourney, or any AI image generator.",
+    "watermarkAiImageStep2": "Add Text or Logo",
+    "watermarkAiImageStep2Desc": "Type your watermark text or upload a logo. Set opacity, position, font size, and color for a professional finish.",
+    "watermarkAiImageStep3": "Download Watermarked Image",
+    "watermarkAiImageStep3Desc": "Save your protected image. Share it on social media or portfolios while keeping attribution clear.",
+    "watermarkAiImageFaqTitle": "Frequently Asked Questions",
+    "watermarkAiImageFaq1Q": "Do I need to watermark GPT Image 2 outputs?",
+    "watermarkAiImageFaq1A": "Ethically and often legally, yes. Platforms like X, Instagram, and Meta properties increasingly require disclosure when content is AI-generated. A small '#AI' or 'Generated with GPT Image 2' watermark on your OpenAI outputs keeps you compliant and transparent with your audience.",
+    "watermarkAiImageFaq2Q": "Will watermarking affect C2PA metadata from OpenAI?",
+    "watermarkAiImageFaq2A": "Editing pixels breaks C2PA signatures because the file hash changes. This is expected behavior. If you need to preserve OpenAI's provenance signatures on GPT Image 2 output, keep a separate archival copy with the original C2PA intact.",
+    "watermarkAiImageFaq3Q": "Can I watermark multiple AI images at once?",
+    "watermarkAiImageFaq3A": "Yes. Batch watermarking is supported. Upload a folder of GPT Image 2 or Midjourney outputs, configure the watermark once, and apply it across the entire batch. Processing runs locally in your browser.",
+    "removeBgAiImage": "Remove Background From AI-Generated Image - Free Online Tool",
+    "removeBgAiImageDesc": "Remove backgrounds from OpenAI GPT Image 2, DALL-E, Midjourney, or ChatGPT outputs with one click. AI-powered, runs in your browser. Perfect transparent PNG result.",
+    "removeBgAiImageHowTo": "How to Remove Background From AI Images",
+    "removeBgAiImageStep1": "Upload AI Image",
+    "removeBgAiImageStep1Desc": "Drop in your AI-generated image from GPT Image 2, OpenAI ChatGPT, Midjourney, or any image generator.",
+    "removeBgAiImageStep2": "AI Removes Background",
+    "removeBgAiImageStep2Desc": "Our client-side AI detects the main subject and removes the background automatically in 2-5 seconds.",
+    "removeBgAiImageStep3": "Download Transparent PNG",
+    "removeBgAiImageStep3Desc": "Save your cutout as a transparent PNG, ready to overlay on any background or drop into a product mockup.",
+    "removeBgAiImageFaqTitle": "Frequently Asked Questions",
+    "removeBgAiImageFaq1Q": "Does background removal work well on GPT Image 2 output?",
+    "removeBgAiImageFaq1A": "Yes — GPT Image 2's clean, well-lit outputs are ideal for background removal. OpenAI's model generates subjects with crisp edges and good subject-background contrast, which makes the AI cutout even more accurate than on photo-realistic photos.",
+    "removeBgAiImageFaq2Q": "Can I remove background from complex AI scenes?",
+    "removeBgAiImageFaq2A": "For scenes with multiple subjects or intricate backgrounds, the AI extracts the most prominent foreground subject. If GPT Image 2 generated a portrait with a complex background, removal works well. For multi-subject scenes, re-prompt in OpenAI with a simpler background first.",
+    "removeBgAiImageFaq3Q": "Is the image uploaded to a server?",
+    "removeBgAiImageFaq3A": "No. Background removal runs entirely in your browser using client-side AI. Your GPT Image 2 outputs and any confidential prompts embedded in metadata never leave your device.",
+    "convertGptImageToJpg": "Convert GPT Image 2 PNG to JPG Online - Free",
+    "convertGptImageToJpgDesc": "Convert OpenAI GPT Image 2, DALL-E, or ChatGPT PNG outputs to JPG format. Shrink file size by 80% and maximize device compatibility.",
+    "convertGptImageToJpgHowTo": "How to Convert GPT Image 2 PNG to JPG",
+    "convertGptImageToJpgStep1": "Upload GPT Image 2 PNG",
+    "convertGptImageToJpgStep1Desc": "Drop in the PNG file generated by OpenAI GPT Image 2, ChatGPT, or the OpenAI Image API.",
+    "convertGptImageToJpgStep2": "Select JPG Format",
+    "convertGptImageToJpgStep2Desc": "Choose JPG as the output format and set quality between 85-95%. Higher quality preserves detail; 85% halves the file size.",
+    "convertGptImageToJpgStep3": "Download JPG File",
+    "convertGptImageToJpgStep3Desc": "Save your converted JPG. A 12MB GPT Image 2 PNG from OpenAI typically converts to a 1-2MB JPG at visually identical quality.",
+    "convertGptImageToJpgFaqTitle": "Frequently Asked Questions",
+    "convertGptImageToJpgFaq1Q": "Why convert GPT Image 2 PNG from OpenAI to JPG?",
+    "convertGptImageToJpgFaq1A": "PNG is lossless but produces huge files. GPT Image 2's native PNG output from OpenAI lands at 8-15MB. JPG compresses photographic content to 10-20% of PNG size with no visible quality loss. For web, email, and social, JPG is the practical choice.",
+    "convertGptImageToJpgFaq2Q": "Does converting lose image quality?",
+    "convertGptImageToJpgFaq2A": "JPG uses lossy compression, so there's technically some quality loss. But at 90% quality, the difference is invisible to the human eye on photographic content like GPT Image 2 output. For graphics with sharp edges or transparency, stick with PNG.",
+    "convertGptImageToJpgFaq3Q": "Will I lose transparency converting to JPG?",
+    "convertGptImageToJpgFaq3A": "Yes — JPG does not support transparency. If your OpenAI GPT Image 2 output has a transparent background, JPG will fill it with white. Use WebP or stick with PNG for transparent cutouts."
   },
   "blog": {
     "title": "Image & Video Processing Tips",
@@ -752,6 +834,72 @@
     "readMore": "Read more",
     "relatedTools": "Related Tools",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2: Everything We Know About OpenAI's New Image Model (April 2026)",
+        "metaTitle": "GPT Image 2 Guide: OpenAI's New Image Model (April 2026)",
+        "metaDescription": "Complete guide to OpenAI's GPT Image 2 (April 2026). Features, release date, pricing, comparison to GPT Image 1.5 and Nano Banana Pro.",
+        "excerpt": "OpenAI's GPT Image 2 is rolling out to ChatGPT Plus users as of April 2026. Here's every confirmed leak about GPT Image 2, the real release timeline from OpenAI, and how it compares to GPT Image 1.5 and Nano Banana Pro.",
+        "content": [
+          {
+            "heading": "What Is GPT Image 2?",
+            "text": "GPT Image 2 is OpenAI's next-generation image generation model, expected to replace the current GPT Image 1.5. Unlike earlier OpenAI image models like DALL-E 3 or the GPT-4o native image generator, GPT Image 2 runs on an entirely new, independent architecture — it is no longer bolted onto the GPT-4o pipeline. That separation is a big deal, because it lets OpenAI optimize GPT Image 2 specifically for image quality rather than forcing a multimodal tradeoff. For everyday ChatGPT users, GPT Image 2 just means sharper, more accurate images with far better text rendering. For developers, it eventually means a dedicated OpenAI API endpoint once GPT Image 2 is officially launched."
+          },
+          {
+            "heading": "GPT Image 2 Release Date & Current Status (April 2026)",
+            "text": "OpenAI has not officially announced GPT Image 2 yet, but three anonymous models — codenamed maskingtape-alpha, gaffertape-alpha, and packingtape-alpha — appeared on LM Arena in early April 2026 and were quickly identified by the community as OpenAI's next image model. By April 16, GPT Image 2 was spotted in A/B tests inside the ChatGPT web interface, and by April 19 paying ChatGPT Plus and Pro subscribers started reporting they had been granted access to GPT Image 2. The consensus release window for the public launch is late April to mid-May 2026. OpenAI has also scheduled DALL-E 2 and DALL-E 3 for full shutdown on May 12, 2026 — that date likely is not a coincidence. The GPT Image line, with GPT Image 2 as its flagship, will be the only official migration path for anyone still using DALL-E through the OpenAI API."
+          },
+          {
+            "heading": "New Features in GPT Image 2 That Actually Matter",
+            "text": "The headline upgrade in GPT Image 2 is text rendering. Previous OpenAI image models hovered around 90-95% accuracy, which sounds great until you try to generate a storefront sign or a UI mockup and half the letters come out garbled. Early testers report GPT Image 2 crosses 99% text accuracy, meaning legible signs, readable labels, and functional-looking interface mockups straight out of OpenAI. GPT Image 2 has also killed the yellow color cast that plagued GPT-4o image outputs — whites are finally white, not warm cream. Resolution tops out at 2048x2048 or even 4096x4096 native, a big step for anyone generating hero images, posters, or print assets from OpenAI. Add persistent character embeddings (the same face across multiple GPT Image 2 prompts), better world knowledge, and cleaner instruction-following, and GPT Image 2 looks like the first OpenAI image model that can genuinely compete with Midjourney and Google's Nano Banana Pro on commercial output."
+          },
+          {
+            "heading": "GPT Image 2 vs GPT Image 1.5 vs Nano Banana Pro",
+            "text": "Against its own predecessor, GPT Image 2 crushes GPT Image 1.5 in text rendering, color accuracy, and prompt adherence. The more interesting matchup is GPT Image 2 vs Nano Banana Pro (Google's Gemini 3 Pro Image, released November 2025). In blind tests on LM Arena, GPT Image 2 leads on text accuracy, UI restoration, and world knowledge. Nano Banana Pro still pulls ahead on certain spatial reasoning tasks — mirror reflections of Rubik's Cubes, complex occlusions, and similar edge cases. On pricing, early signals from the OpenAI camp suggest GPT Image 2 will cost $0.15-$0.20 per image via API, versus Nano Banana 2's $0.045-$0.151. So GPT Image 2 is positioned as the premium option. For most commercial use cases — ad creatives, social posts, product mockups — the GPT Image 2 quality gap is worth the extra cost. For bulk generation workflows, Nano Banana Pro still wins on economics."
+          },
+          {
+            "heading": "How to Access GPT Image 2 Today",
+            "text": "As of April 2026, access to GPT Image 2 is limited. The easiest path is a ChatGPT Plus or Pro subscription — OpenAI is rolling out A/B access to GPT Image 2 gradually, so some users have it and some do not. If you do not see GPT Image 2 yet, try prompting ChatGPT for 'high-resolution image with text' and check whether the output quality jumps. Once OpenAI flips the switch publicly, GPT Image 2 will be accessible in both ChatGPT and via the OpenAI Image API (replacing gpt-image-1.5). Developers should expect a dedicated gpt-image-2 model ID. Note that OpenAI has not published GPT Image 2 API documentation yet, so any third-party 'GPT Image 2 API wrappers' you see right now are unofficial and risky — wait for the official OpenAI launch if you are building on it."
+          },
+          {
+            "heading": "Post-Processing Your GPT Image 2 Output",
+            "text": "Here is the practical problem with native 4K GPT Image 2 output: the PNG files are huge. A single 4096x4096 GPT Image 2 render lands around 8-15MB, which is way too big for a web page or email. You will want to compress GPT Image 2 output down to under 300KB for most use cases. ToolPic's image compressor handles this in your browser — drop the GPT Image 2 PNG in, set quality to 82-88%, and you get a visually identical file at 10-15% of the original size. If you are using GPT Image 2 outputs for social media, you will also need to resize: 1080x1080 for Instagram, 1200x630 for OpenGraph cards, 1500x500 for X/Twitter headers. ToolPic's image crop tool has presets for all of them. Need a transparent version of a GPT Image 2 product mockup? The background remover works on any GPT Image 2 output. Everything runs in your browser, so your OpenAI-generated images never get uploaded to our servers — which matters if the GPT Image 2 prompt included anything confidential."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "Best GPT Image 2 Prompts: 30+ Viral Examples From OpenAI's New Model (2026)",
+        "metaTitle": "Best GPT Image 2 Prompts — Viral Examples & Templates (2026)",
+        "metaDescription": "30+ viral GPT Image 2 prompts from the OpenAI community. Portrait, UI mockup, urban scene, and text-rendering prompt templates for GPT Image 2 you can copy",
+        "excerpt": "The GPT Image 2 leak from OpenAI spawned a wave of viral prompts on X/Twitter. Here are the best GPT Image 2 prompts, categorized — copy, paste, and remix for your own AI images from OpenAI.",
+        "content": [
+          {
+            "heading": "Why GPT Image 2 Prompts Are Different",
+            "text": "If you have been writing prompts for DALL-E 3, Midjourney, or GPT Image 1.5, the good news is GPT Image 2 mostly plays by the same rules. The surprising part is how much better OpenAI's GPT Image 2 responds to dense, specific, multi-clause prompts. With older models, stuffing too much detail into one prompt often caused it to drop elements. GPT Image 2 handles 200-word prompts that describe scene, subject, lighting, camera angle, and color palette all at once — and actually renders every element. The other shift is text. You can now write GPT Image 2 prompts like 'a coffee shop sign that reads BLUE BOTTLE, with a menu board underneath listing espresso, cappuccino, and cortado' and OpenAI's model will reproduce that text cleanly. That was not reliable before GPT Image 2. Every prompt category below takes advantage of one of these GPT Image 2 strengths."
+          },
+          {
+            "heading": "Top Viral GPT Image 2 Prompts From X/Twitter",
+            "text": "The most-shared GPT Image 2 example on X was a first-person Minecraft scene set in Manhattan — the GPT Image 2 prompt mixed a game aesthetic with real geography and nailed both. Another hit was a fake 'Claude Opus 5 Internal Document' rendered inside a Minecraft world, which racked up 439K views. A Times Square GPT Image 2 prompt with 150+ diverse pedestrians, yellow taxis, wet pavement, and specular highlights went viral because the OpenAI model handled every element and the text on signs stayed correctly spelled. Period-piece GPT Image 2 prompts also trended: 'Oda Nobunaga composing an X post the night before the Honno-ji Incident' was one of the early viral examples, combining historical accuracy with a modern social-media UI layout. The common thread across viral GPT Image 2 prompts: scenes that OpenAI has to build from world knowledge, not just copy from training data."
+          },
+          {
+            "heading": "Portrait & Character GPT Image 2 Prompts",
+            "text": "For portraits, GPT Image 2's persistent character embeddings mean you can keep the same face across multiple OpenAI renders. Start your GPT Image 2 prompt with a detailed character description — age, ethnicity, distinctive features, clothing style — then add lighting and mood. Example GPT Image 2 prompt: 'Editorial portrait of a 34-year-old Korean woman with cropped black hair and hexagonal silver earrings, soft window light from left, shallow depth of field, muted teal and peach color grading, shot on 85mm lens at f/1.8.' In GPT Image 2 follow-ups, describe the exact same features to maintain consistency across renders. For stylized characters, reference specific artists or eras: 'Mucha-style art nouveau', 'Studio Ghibli background', '1980s anime cel-shaded'. GPT Image 2 is noticeably better than GPT Image 1.5 at respecting these style tags from OpenAI."
+          },
+          {
+            "heading": "UI Mockup & Product GPT Image 2 Prompts",
+            "text": "UI mockups are where GPT Image 2 really separates itself from older OpenAI models. Try this GPT Image 2 prompt: 'A clean iOS app screen for a meditation app, showing the daily session screen. Top bar with back arrow and settings icon. Center: large circular timer showing 12:34 remaining. Below: three option chips labeled Breath, Body Scan, Sleep. Bottom tab bar with Home, Sessions, Profile tabs.' In GPT Image 2 the text will render correctly, the layout will make sense, and spacing will be believable. For product shots in GPT Image 2: 'Minimalist product photo of a matte black ceramic coffee cup on concrete surface, soft directional light from above-left, subtle steam rising, shallow depth of field, slight grain, editorial magazine style.' GPT Image 2 handles material rendering — matte vs gloss, ceramic vs metal — noticeably better than previous OpenAI image models."
+          },
+          {
+            "heading": "Text-Heavy GPT Image 2 Prompts (Posters, Signs, Documents)",
+            "text": "This is the category where GPT Image 2's text rendering breakthrough really pays off. GPT Image 2 poster prompt example: 'Vintage travel poster for Kyoto, 1950s style. Large serif text at top reads KYOTO. Subtitle in smaller text reads Ancient Capital of Japan. Bottom bar text reads Japan National Railways. Illustration shows cherry blossoms and a five-story pagoda.' GPT Image 2 will render all three text blocks correctly from OpenAI — that was nearly impossible before. For magazine covers, news tickers, street signs, or storefronts in GPT Image 2, always spell out exactly what text should appear, in quotes, with font cues if you care ('sans-serif', 'script', 'condensed caps'). The more specific the text placement in your GPT Image 2 prompt, the more reliable the OpenAI output."
+          },
+          {
+            "heading": "Getting Perfect Results: GPT Image 2 Prompt Patterns That Work",
+            "text": "Three patterns consistently produce strong GPT Image 2 output. First: scene then subject then style. 'Morning fog in a Vietnamese coffee plantation, a young farmer pouring beans into a metal drum, golden hour light, hyperrealistic cinematic style.' Second: explicit resolution and aspect ratio in your GPT Image 2 prompt. Add '16:9 aspect ratio, 4K detail, sharp focus on subject'. GPT Image 2 actually respects these now. Third: negative constraints. 'No text, no watermark, no logo' prevents OpenAI's GPT Image 2 from adding spurious signage. If you are generating multiple GPT Image 2 variations, reuse the same seed or reference image to keep style consistent. Once you get a GPT Image 2 output you like, download and post-process with ToolPic — compress the 4K PNG to under 300KB with the image compressor, crop to your target dimensions with the image crop tool, or strip the background with the bg-remove tool if you need a cutout of your GPT Image 2 render."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Instagram Story Image Size Guide: Resize Photos for Stories in 2026",
         "metaTitle": "Instagram Story Image Size & Resize Guide (2026) | ToolPic Blog",

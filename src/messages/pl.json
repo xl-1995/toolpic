@@ -41,6 +41,8 @@
   "home": {
     "h1": "Darmowe narzedzia online do obrazow i wideo",
     "subtitle": "Kompresuj, konwertuj i edytuj pliki multimedialne błyskawicznie. Bez przesyłania, bez rejestracji, bez limitów. 100% za darmo i prywatnie.",
+    "newBadgeLabel": "Nowość",
+    "gptImage2Badge": "GPT Image 2 od OpenAI już jest — przeczytaj nasz pełny przewodnik",
     "startNow": "Zacznij teraz",
     "learnMore": "Dowiedz się więcej",
     "imageSection": "Narzedzia obrazow",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "Czy mogę wyodrębnić audio z filmów YouTube?",
     "extractMp3Faq2A": "To narzędzie wyodrębnia audio z plików wideo zapisanych na Twoim urządzeniu. Musisz najpierw mieć plik wideo zapisany lokalnie. Narzędzie nie pobiera filmów z adresów URL ani platform streamingowych. Gdy masz lokalny plik wideo, możesz natychmiast wyodrębnić jego ścieżkę audio do MP3.",
     "extractMp3Faq3Q": "Czy wideo jest przesyłane na serwer podczas wyodrębniania?",
-    "extractMp3Faq3A": "Nie, cały proces wyodrębniania odbywa się lokalnie w Twojej przeglądarce przy użyciu FFmpeg opartego na WebAssembly. Plik wideo nigdy nie opuszcza Twojego urządzenia, zapewniając pełną prywatność. Jest to szczególnie ważne dla wyodrębniania audio z prywatnych nagrań, poufnych spotkań lub osobistych treści wideo."
+    "extractMp3Faq3A": "Nie, cały proces wyodrębniania odbywa się lokalnie w Twojej przeglądarce przy użyciu FFmpeg opartego na WebAssembly. Plik wideo nigdy nie opuszcza Twojego urządzenia, zapewniając pełną prywatność. Jest to szczególnie ważne dla wyodrębniania audio z prywatnych nagrań, poufnych spotkań lub osobistych treści wideo.",
+    "compressGptImage2": "Kompresuj output GPT Image 2 online — za darmo",
+    "compressGptImage2Desc": "Kompresuj pliki PNG wygenerowane przez nowy model GPT Image 2 od OpenAI. Zmniejszaj output 4K z 12 MB do poniżej 300 KB bez widocznej utraty jakości.",
+    "compressGptImage2HowTo": "Jak skompresować output GPT Image 2",
+    "compressGptImage2Step1": "Wgraj plik z GPT Image 2",
+    "compressGptImage2Step1Desc": "Przeciągnij PNG lub JPG wygenerowany w GPT Image 2 od OpenAI lub ChatGPT. Obsługujemy pliki do 50 MB.",
+    "compressGptImage2Step2": "Dostosuj poziom kompresji",
+    "compressGptImage2Step2Desc": "Ustaw jakość między 75–90%. Output GPT Image 2 dobrze się kompresuje — przy 82% rezultat zwykle jest nie do odróżnienia od oryginału OpenAI.",
+    "compressGptImage2Step3": "Pobierz skompresowany obraz",
+    "compressGptImage2Step3Desc": "Zapisz zoptymalizowany plik. 12 MB 4K PNG z GPT Image 2 zwykle kurczy się do poniżej 300 KB.",
+    "compressGptImage2FaqTitle": "Najczęściej zadawane pytania",
+    "compressGptImage2Faq1Q": "Dlaczego output GPT Image 2 od OpenAI jest tak duży?",
+    "compressGptImage2Faq1A": "GPT Image 2 generuje obrazy w natywnej rozdzielczości 2048x2048 lub 4096x4096 i domyślnie eksportuje je jako nieskompresowany PNG, dlatego pliki ważą 8–15 MB. Na stronę WWW, maila czy media społecznościowe warto skompresować output GPT Image 2 do 200–500 KB bez widocznej utraty jakości.",
+    "compressGptImage2Faq2Q": "Czy kompresja niszczy metadane znaku wodnego C2PA od OpenAI?",
+    "compressGptImage2Faq2A": "OpenAI osadza metadane pochodzenia C2PA w outputach GPT Image 2. Kompresja JPEG zwykle zachowuje te metadane. Jeśli chcesz całkowicie usunąć metadane, użyj narzędzia do konwersji obrazów, by ponownie zakodować plik, ale pamiętaj: to usunie podpis autentyczności, który OpenAI dołącza do renderów GPT Image 2.",
+    "compressGptImage2Faq3Q": "Czy mój output GPT Image 2 trafia na serwer?",
+    "compressGptImage2Faq3A": "Nie. Cała kompresja odbywa się lokalnie w Twojej przeglądarce dzięki WebAssembly. Twoje outputy GPT Image 2 od OpenAI nigdy nie opuszczają urządzenia, co ma znaczenie, gdy prompt zawierał poufne referencje, niewydane produkty lub firmowy branding.",
+    "resizeAiImage": "Zmień rozmiar obrazu AI — GPT Image 2, Midjourney, DALL-E",
+    "resizeAiImageDesc": "Zmieniaj rozmiar obrazów AI z GPT Image 2, ChatGPT, DALL-E, Midjourney lub Nano Banana do wymiarów Instagrama, Twittera, Facebooka i YouTube.",
+    "resizeAiImageHowTo": "Jak zmienić rozmiar obrazów AI",
+    "resizeAiImageStep1": "Wgraj obraz AI",
+    "resizeAiImageStep1Desc": "Przeciągnij dowolny PNG lub JPG wygenerowany przez AI — z GPT Image 2, OpenAI ChatGPT, Midjourney, DALL-E czy Nano Banana Pro.",
+    "resizeAiImageStep2": "Wybierz docelowy rozmiar",
+    "resizeAiImageStep2Desc": "Wybierz preset mediów społecznościowych — 1080x1080 Instagram, 1200x630 karta OG, 1500x500 nagłówek X/Twitter — albo ustaw własne wymiary.",
+    "resizeAiImageStep3": "Pobierz zmieniony obraz",
+    "resizeAiImageStep3Desc": "Przytnij i pobierz. Wgraj rezultat prosto na docelową platformę bez przykrych niespodzianek z kadrowaniem.",
+    "resizeAiImageFaqTitle": "Najczęściej zadawane pytania",
+    "resizeAiImageFaq1Q": "Czy zmiana rozmiaru pogorszy jakość obrazów AI?",
+    "resizeAiImageFaq1A": "Zmniejszanie outputu 2K lub 4K z GPT Image 2 do 1080px jest praktycznie bezstratne — odrzucasz piksele, które platforma docelowa i tak by odcięła. Jakość cierpi dopiero przy powiększaniu małych obrazów, dlatego zawsze generuj rendery GPT Image 2 w najwyższej rozdzielczości, jaką obsługuje OpenAI.",
+    "resizeAiImageFaq2Q": "W jakim rozmiarze renderować w GPT Image 2 pod Instagram?",
+    "resizeAiImageFaq2A": "Generuj w GPT Image 2 w 2048x2048, a potem przytnij do 1080x1080 na posty Instagram, 1080x1350 na posty pionowe 4:5 lub 1080x1920 na Stories i Reels. Dodatkowe piksele dają swobodę kadrowania bez potrzeby ponownego generowania w OpenAI.",
+    "resizeAiImageFaq3Q": "Czy to działa też dla outputów Midjourney i DALL-E?",
+    "resizeAiImageFaq3A": "Tak. Narzędzie do zmiany rozmiaru obsługuje dowolny obraz niezależnie od źródła. PNG z GPT Image 2, WebP z Nano Banana Pro, JPG z Midjourney — wszystko działa tak samo. Twój oryginalny plik nigdzie nie jest wysyłany.",
+    "watermarkAiImage": "Dodaj znak wodny do obrazu AI — za darmo dla GPT Image 2 i Midjourney",
+    "watermarkAiImageDesc": "Dodawaj tekstowe lub graficzne znaki wodne do obrazów AI z GPT Image 2, OpenAI DALL-E, Midjourney lub Nano Banana. Chroń i oznaczaj swoje prace AI przed publikacją.",
+    "watermarkAiImageHowTo": "Jak dodać znak wodny do obrazów AI",
+    "watermarkAiImageStep1": "Wgraj obraz AI",
+    "watermarkAiImageStep1Desc": "Przeciągnij PNG lub JPG z GPT Image 2, OpenAI ChatGPT, Midjourney lub dowolnego innego generatora obrazów AI.",
+    "watermarkAiImageStep2": "Dodaj tekst lub logo",
+    "watermarkAiImageStep2Desc": "Wpisz tekst znaku wodnego lub wgraj logo. Ustaw przezroczystość, pozycję, rozmiar czcionki i kolor, by uzyskać profesjonalny efekt.",
+    "watermarkAiImageStep3": "Pobierz obraz ze znakiem wodnym",
+    "watermarkAiImageStep3Desc": "Zapisz chroniony obraz. Udostępniaj go w mediach społecznościowych lub portfolio, zachowując jasne oznaczenie autorstwa.",
+    "watermarkAiImageFaqTitle": "Najczęściej zadawane pytania",
+    "watermarkAiImageFaq1Q": "Czy muszę dodawać znak wodny do outputów GPT Image 2?",
+    "watermarkAiImageFaq1A": "Z punktu widzenia etyki i często prawa — tak. Platformy jak X, Instagram i usługi Meta coraz częściej wymagają ujawniania, że treść jest generowana przez AI. Mały znak wodny typu „#AI” lub „Generated with GPT Image 2” na Twoich outputach OpenAI pomaga spełniać regulacje i zachować przejrzystość wobec odbiorców.",
+    "watermarkAiImageFaq2Q": "Czy znak wodny wpłynie na metadane C2PA od OpenAI?",
+    "watermarkAiImageFaq2A": "Edycja pikseli łamie podpisy C2PA, ponieważ zmienia się hash pliku. To oczekiwane zachowanie. Jeśli chcesz zachować podpisy pochodzenia OpenAI na outputach GPT Image 2, trzymaj osobną kopię archiwalną z nietkniętymi metadanymi C2PA.",
+    "watermarkAiImageFaq3Q": "Czy mogę dodać znak wodny do wielu obrazów AI naraz?",
+    "watermarkAiImageFaq3A": "Tak. Obsługujemy przetwarzanie wsadowe. Wgraj folder z outputami GPT Image 2 lub Midjourney, skonfiguruj znak wodny raz i zastosuj go do całej paczki. Przetwarzanie odbywa się lokalnie w przeglądarce.",
+    "removeBgAiImage": "Usuń tło z obrazu AI — darmowe narzędzie online",
+    "removeBgAiImageDesc": "Usuwaj tło z outputów OpenAI GPT Image 2, DALL-E, Midjourney lub ChatGPT jednym kliknięciem. Oparte na AI, działa w Twojej przeglądarce. Idealny efekt — przezroczysty PNG.",
+    "removeBgAiImageHowTo": "Jak usunąć tło z obrazów AI",
+    "removeBgAiImageStep1": "Wgraj obraz AI",
+    "removeBgAiImageStep1Desc": "Przeciągnij obraz wygenerowany przez AI z GPT Image 2, OpenAI ChatGPT, Midjourney lub dowolnego innego generatora.",
+    "removeBgAiImageStep2": "AI usuwa tło",
+    "removeBgAiImageStep2Desc": "Nasze AI po stronie klienta wykrywa główny obiekt i automatycznie usuwa tło w 2–5 sekund.",
+    "removeBgAiImageStep3": "Pobierz przezroczysty PNG",
+    "removeBgAiImageStep3Desc": "Zapisz wycinek jako przezroczysty PNG, gotowy do nałożenia na dowolne tło lub wstawienia do mockupu produktu.",
+    "removeBgAiImageFaqTitle": "Najczęściej zadawane pytania",
+    "removeBgAiImageFaq1Q": "Czy usuwanie tła działa dobrze na outputach GPT Image 2?",
+    "removeBgAiImageFaq1A": "Tak — czyste, dobrze oświetlone obrazy GPT Image 2 świetnie nadają się do usuwania tła. Model OpenAI generuje obiekty z wyraźnymi krawędziami i dobrym kontrastem między obiektem a tłem, dlatego wycinek AI jest nawet dokładniejszy niż na fotorealistycznych zdjęciach.",
+    "removeBgAiImageFaq2Q": "Czy mogę usunąć tło ze złożonych scen AI?",
+    "removeBgAiImageFaq2A": "W scenach z wieloma obiektami lub skomplikowanym tłem AI wyodrębnia najbardziej wyrazisty plan pierwszy. Jeśli GPT Image 2 wygenerował portret ze złożonym tłem, usuwanie zadziała dobrze. Dla scen z wieloma osobami lepiej wygenerować ponownie w OpenAI z prostszym tłem.",
+    "removeBgAiImageFaq3Q": "Czy obraz trafia na serwer?",
+    "removeBgAiImageFaq3A": "Nie. Usuwanie tła odbywa się całkowicie w przeglądarce dzięki AI po stronie klienta. Twoje outputy GPT Image 2 i wszelkie poufne dane w metadanych promptu nigdy nie opuszczają urządzenia.",
+    "convertGptImageToJpg": "Konwertuj PNG z GPT Image 2 na JPG online — za darmo",
+    "convertGptImageToJpgDesc": "Konwertuj outputy PNG z OpenAI GPT Image 2, DALL-E lub ChatGPT na format JPG. Zmniejsz rozmiar pliku o 80% i zmaksymalizuj kompatybilność z urządzeniami.",
+    "convertGptImageToJpgHowTo": "Jak przekonwertować PNG z GPT Image 2 na JPG",
+    "convertGptImageToJpgStep1": "Wgraj PNG z GPT Image 2",
+    "convertGptImageToJpgStep1Desc": "Przeciągnij plik PNG wygenerowany przez OpenAI GPT Image 2, ChatGPT lub OpenAI Image API.",
+    "convertGptImageToJpgStep2": "Wybierz format JPG",
+    "convertGptImageToJpgStep2Desc": "Wybierz JPG jako format wyjściowy i ustaw jakość między 85–95%. Wyższa jakość zachowuje detale; 85% zmniejsza rozmiar pliku o połowę.",
+    "convertGptImageToJpgStep3": "Pobierz plik JPG",
+    "convertGptImageToJpgStep3Desc": "Zapisz skonwertowany JPG. 12 MB PNG z GPT Image 2 od OpenAI zwykle konwertuje się do 1–2 MB JPG o wizualnie identycznej jakości.",
+    "convertGptImageToJpgFaqTitle": "Najczęściej zadawane pytania",
+    "convertGptImageToJpgFaq1Q": "Po co konwertować PNG z GPT Image 2 od OpenAI na JPG?",
+    "convertGptImageToJpgFaq1A": "PNG jest bezstratny, ale daje ogromne pliki. Natywny output PNG z GPT Image 2 od OpenAI waży 8–15 MB. JPG kompresuje treść fotograficzną do 10–20% rozmiaru PNG bez widocznej utraty jakości. Do sieci, maila i social media JPG jest praktycznym wyborem.",
+    "convertGptImageToJpgFaq2Q": "Czy konwersja obniży jakość obrazu?",
+    "convertGptImageToJpgFaq2A": "JPG używa kompresji stratnej, więc technicznie jest niewielka strata jakości. Ale przy 90% jakości różnica jest niewidoczna dla oka na fotograficznej treści jak output GPT Image 2. Dla grafik z ostrymi krawędziami lub przezroczystością trzymaj się PNG.",
+    "convertGptImageToJpgFaq3Q": "Czy stracę przezroczystość przy konwersji na JPG?",
+    "convertGptImageToJpgFaq3A": "Tak — JPG nie obsługuje przezroczystości. Jeśli Twój output OpenAI GPT Image 2 ma przezroczyste tło, JPG wypełni je białym kolorem. Do przezroczystych wycinków używaj WebP lub zostań przy PNG."
   },
   "footer": {
     "tagline": "Darmowe narzedzia online do obrazow i wideo. 100% w przegladarce, Twoje pliki nigdy nie opuszczaja urzadzenia.",
@@ -761,16 +843,94 @@
     "readMore": "Czytaj więcej",
     "relatedTools": "Powiązane narzędzia",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2: wszystko, co wiemy o nowym modelu generowania obrazów od OpenAI (kwiecień 2026)",
+        "metaTitle": "Przewodnik GPT Image 2: nowy model OpenAI (2026)",
+        "metaDescription": "Kompletny przewodnik po GPT Image 2 od OpenAI (kwiecień 2026). Funkcje, data premiery, ceny, porównanie z GPT Image 1.5 i Nano Banana Pro.",
+        "excerpt": "GPT Image 2 od OpenAI jest stopniowo wdrażany dla subskrybentów ChatGPT Plus od kwietnia 2026. Oto wszystkie potwierdzone przecieki o GPT Image 2, rzeczywisty harmonogram OpenAI i porównanie z GPT Image 1.5 oraz Nano Banana Pro.",
+        "content": [
+          {
+            "heading": "Czym jest GPT Image 2?",
+            "text": "GPT Image 2 to model generowania obrazów nowej generacji od OpenAI, który ma zastąpić obecny GPT Image 1.5. W przeciwieństwie do wcześniejszych modeli OpenAI, jak DALL-E 3 czy natywny generator obrazów w GPT-4o, GPT Image 2 działa na całkowicie nowej, niezależnej architekturze — nie jest już przykręcony do pipeline'u GPT-4o. To istotna zmiana, ponieważ pozwala OpenAI optymalizować GPT Image 2 konkretnie pod jakość obrazów, bez konieczności kompromisów multimodalnych. Dla zwykłych użytkowników ChatGPT GPT Image 2 oznacza po prostu ostrzejsze i dokładniejsze obrazy ze znacznie lepszym renderowaniem tekstu. Dla deweloperów docelowo oznacza to dedykowany endpoint API od OpenAI, gdy tylko GPT Image 2 zostanie oficjalnie wydany."
+          },
+          {
+            "heading": "Data premiery i aktualny status GPT Image 2 (kwiecień 2026)",
+            "text": "OpenAI oficjalnie nie ogłosiło jeszcze GPT Image 2, ale trzy anonimowe modele pod kryptonimami maskingtape-alpha, gaffertape-alpha i packingtape-alpha pojawiły się na LM Arena na początku kwietnia 2026 i zostały szybko zidentyfikowane przez społeczność jako kolejny model obrazów OpenAI. Do 16 kwietnia GPT Image 2 zauważono w testach A/B wewnątrz interfejsu webowego ChatGPT, a do 19 kwietnia płatni subskrybenci ChatGPT Plus i Pro zaczęli zgłaszać, że uzyskali dostęp do GPT Image 2. Konsensusowe okno publicznej premiery to koniec kwietnia — połowa maja 2026. OpenAI zaplanowało również całkowite wyłączenie DALL-E 2 i DALL-E 3 na 12 maja 2026 — ta data prawdopodobnie nie jest przypadkowa. Linia GPT Image, z GPT Image 2 jako flagowcem, będzie jedyną oficjalną ścieżką migracji dla wszystkich, którzy wciąż używają DALL-E przez OpenAI API."
+          },
+          {
+            "heading": "Nowe funkcje GPT Image 2, które naprawdę mają znaczenie",
+            "text": "Główną zmianą w GPT Image 2 jest renderowanie tekstu. Poprzednie modele OpenAI osiągały 90–95% dokładności, co brzmi nieźle, dopóki nie spróbujesz wygenerować szyldu sklepu lub mockupu UI i połowa liter okaże się zniekształcona. Wcześni testerzy zgłaszają, że GPT Image 2 przekracza próg 99% dokładności tekstu: czytelne szyldy, rozpoznawalne etykiety i wiarygodne mockupy interfejsów prosto z OpenAI. GPT Image 2 pozbył się również żółtawego odcienia, który psuł wyjścia GPT-4o — biel jest wreszcie naprawdę biała, a nie ciepło kremowa. Maksymalna rozdzielczość to 2048x2048 lub nawet 4096x4096 natywnie — ogromny krok dla tych, którzy generują w OpenAI obrazy bohaterskie, plakaty czy materiały do druku. Dodaj do tego trwałe osadzenia postaci (ta sama twarz w wielu promptach GPT Image 2), lepszą wiedzę o świecie i precyzyjniejsze wykonywanie instrukcji — i GPT Image 2 wygląda na pierwszy model OpenAI, który naprawdę może konkurować z Midjourney i Nano Banana Pro od Google na poziomie komercyjnym."
+          },
+          {
+            "heading": "GPT Image 2 vs GPT Image 1.5 vs Nano Banana Pro",
+            "text": "Wobec własnego poprzednika GPT Image 2 miażdży GPT Image 1.5 pod względem renderowania tekstu, dokładności kolorów i wierności promptowi. Ciekawszym pojedynkiem jest GPT Image 2 kontra Nano Banana Pro (Google Gemini 3 Pro Image, wydany w listopadzie 2025). W ślepych testach na LM Arena GPT Image 2 wygrywa w dokładności tekstu, odtwarzaniu UI i wiedzy o świecie. Nano Banana Pro wciąż prowadzi w niektórych zadaniach rozumowania przestrzennego — odbicia lustrzane kostek Rubika, skomplikowane przesłonięcia i podobne przypadki brzegowe. Co do cen, wczesne sygnały z obozu OpenAI sugerują, że GPT Image 2 będzie kosztować $0.15-$0.20 za obraz przez API, kontra $0.045-$0.151 u Nano Banana 2. Zatem GPT Image 2 pozycjonowany jest jako opcja premium. Dla większości komercyjnych zastosowań — kreacji reklamowych, postów w social media, mockupów produktów — różnica w jakości GPT Image 2 jest warta dopłaty. Przy masowej generacji Nano Banana Pro wciąż wygrywa ekonomicznie."
+          },
+          {
+            "heading": "Jak uzyskać dostęp do GPT Image 2 już dziś",
+            "text": "Stan na kwiecień 2026: dostęp do GPT Image 2 jest ograniczony. Najprostszą drogą jest subskrypcja ChatGPT Plus lub Pro — OpenAI stopniowo wdraża dostęp A/B do GPT Image 2, więc niektórzy użytkownicy już go mają, a inni jeszcze nie. Jeśli nie widzisz jeszcze GPT Image 2, spróbuj poprosić ChatGPT o „high-resolution image with text” i sprawdź, czy jakość wyraźnie skoczyła. Gdy OpenAI publicznie przełączy wajchę, GPT Image 2 będzie dostępny zarówno w ChatGPT, jak i przez OpenAI Image API (zastępując gpt-image-1.5). Deweloperzy powinni oczekiwać dedykowanego identyfikatora modelu gpt-image-2. Pamiętaj, że OpenAI nie opublikowało jeszcze dokumentacji API GPT Image 2, więc wszelkie „wrappery API GPT Image 2” od firm trzecich, które widzisz teraz, są nieoficjalne i ryzykowne — jeśli budujesz na tym produkt, poczekaj na oficjalną premierę OpenAI."
+          },
+          {
+            "heading": "Post-processing outputu GPT Image 2",
+            "text": "Oto praktyczny problem z natywnym wyjściem 4K z GPT Image 2: pliki PNG są ogromne. Pojedynczy render GPT Image 2 w rozdzielczości 4096x4096 waży około 8–15 MB, co jest stanowczo za dużo na stronę WWW lub maila. W większości zastosowań będziesz chciał skompresować wyjście GPT Image 2 do poniżej 300 KB. Kompresor obrazów ToolPic obsługuje to w przeglądarce — wrzuć PNG z GPT Image 2, ustaw jakość na 82–88% i otrzymasz wizualnie identyczny plik o 10–15% oryginalnego rozmiaru. Jeśli używasz outputów GPT Image 2 do social media, będziesz też musiał zmienić rozmiar: 1080x1080 na Instagram, 1200x630 na karty OpenGraph, 1500x500 na nagłówki X/Twitter. Narzędzie Image Crop w ToolPic ma presety na wszystkie. Potrzebujesz przezroczystej wersji mockupu produktu z GPT Image 2? Usuwacz tła działa na każdym wyjściu GPT Image 2. Wszystko dzieje się w Twojej przeglądarce, więc obrazy wygenerowane w OpenAI nigdy nie trafiają na nasze serwery — co ma znaczenie, gdy prompt GPT Image 2 zawierał coś poufnego."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "Najlepsze prompty GPT Image 2: 30+ wiralowych przykładów z nowego modelu OpenAI (2026)",
+        "metaTitle": "Najlepsze prompty GPT Image 2: wiralowe przykłady (2026)",
+        "metaDescription": "30+ wiralowych promptów GPT Image 2 od społeczności OpenAI. Szablony portretów, mockupów UI, scen miejskich i renderowania tekstu w GPT Image 2, które możesz",
+        "excerpt": "Przeciek GPT Image 2 od OpenAI wywołał falę wiralowych promptów na X/Twitterze. Oto najlepsze prompty GPT Image 2 z podziałem na kategorie — kopiuj, wklejaj i remiksuj do własnych obrazów AI z OpenAI.",
+        "content": [
+          {
+            "heading": "Dlaczego prompty GPT Image 2 są inne",
+            "text": "Jeśli pisałeś prompty do DALL-E 3, Midjourney lub GPT Image 1.5, dobra wiadomość — GPT Image 2 w większości działa według tych samych zasad. Zaskakujące jest to, jak znacznie lepiej GPT Image 2 od OpenAI reaguje na gęste, konkretne, wieloklauzulowe prompty. W starszych modelach wciskanie zbyt wielu szczegółów do jednego promptu często powodowało, że część elementów po prostu znikała. GPT Image 2 radzi sobie z 200-słowowymi promptami opisującymi jednocześnie scenę, bohatera, oświetlenie, kąt kamery i paletę barw — i realnie renderuje każdy element. Druga zmiana to tekst. Teraz możesz pisać prompty GPT Image 2 typu „szyld kawiarni z napisem BLUE BOTTLE, pod nim tablica z menu zawierająca espresso, cappuccino i cortado” — a model OpenAI odtworzy ten tekst czysto. Przed GPT Image 2 nie było to niezawodne. Wszystkie kategorie promptów poniżej wykorzystują jedną z mocnych stron GPT Image 2."
+          },
+          {
+            "heading": "Wiralowe prompty GPT Image 2 z X/Twittera",
+            "text": "Najczęściej udostępnianym przykładem GPT Image 2 na X była scena w pierwszej osobie w stylu Minecrafta osadzona na Manhattanie — prompt GPT Image 2 połączył estetykę gry z prawdziwą geografią i trafił w obie. Kolejnym hitem był fałszywy „Claude Opus 5 Internal Document” wyrenderowany wewnątrz świata Minecrafta, który zebrał 439 tys. wyświetleń. Prompt GPT Image 2 z Times Square — 150+ zróżnicowanych pieszych, żółte taksówki, mokra nawierzchnia i odblaski — stał się wiralem, bo model OpenAI poradził sobie z każdym elementem, a tekst na szyldach pozostał poprawnie zapisany. W trendach były też historyczne prompty GPT Image 2: „Oda Nobunaga komponujący post na X w noc przed incydentem w Honno-ji” był jednym z pierwszych wiralowych przykładów, łączącym historyczną dokładność z nowoczesnym układem UI social media. Wspólna cecha wiralowych promptów GPT Image 2: to sceny, które OpenAI musi zbudować z wiedzy o świecie, a nie po prostu skopiować z danych treningowych."
+          },
+          {
+            "heading": "Prompty GPT Image 2 do portretów i postaci",
+            "text": "W portretach trwałe osadzenia postaci w GPT Image 2 pozwalają zachować tę samą twarz w wielu renderach OpenAI. Zacznij prompt GPT Image 2 od szczegółowego opisu postaci — wiek, pochodzenie etniczne, wyróżniające cechy, styl ubioru — a potem dodaj oświetlenie i nastrój. Przykładowy prompt GPT Image 2: „Redakcyjny portret 34-letniej Koreanki z krótko ściętymi czarnymi włosami i sześciokątnymi srebrnymi kolczykami, miękkie światło okienne od lewej, płytka głębia ostrości, stonowana korekcja barw w odcieniach morskiego i brzoskwiniowego, zrobiony na obiektywie 85 mm przy f/1.8”. W kolejnych promptach GPT Image 2 powtórz dokładnie te same cechy, by zachować spójność między renderami. Do stylizowanych postaci odwołuj się do konkretnych artystów lub epok: „w stylu secesji Muchy”, „tło w stylu Studio Ghibli”, „anime z lat 80. w cel-shading”. GPT Image 2 wyraźnie lepiej niż GPT Image 1.5 respektuje takie tagi stylu od OpenAI."
+          },
+          {
+            "heading": "Prompty GPT Image 2 do mockupów UI i produktów",
+            "text": "Mockupy UI to miejsce, gdzie GPT Image 2 naprawdę odrywa się od starszych modeli OpenAI. Wypróbuj taki prompt GPT Image 2: „Czysty ekran aplikacji iOS do medytacji pokazujący ekran codziennej sesji. Górna belka ze strzałką wstecz i ikoną ustawień. Na środku: duży okrągły timer pokazujący 12:34. Poniżej: trzy chipy z opcjami Breath, Body Scan, Sleep. Dolna belka zakładek z Home, Sessions, Profile”. W GPT Image 2 tekst wyrenderuje się poprawnie, układ będzie miał sens, a odstępy będą wiarygodne. Do zdjęć produktów w GPT Image 2: „Minimalistyczne zdjęcie produktowe matowej czarnej ceramicznej filiżanki na betonowej powierzchni, miękkie kierunkowe światło z góry po lewej, delikatna unosząca się para, płytka głębia ostrości, lekkie ziarno, redakcyjny styl magazynowy”. GPT Image 2 radzi sobie z renderowaniem materiałów — matowe vs błyszczące, ceramika vs metal — zauważalnie lepiej niż wcześniejsze modele obrazów OpenAI."
+          },
+          {
+            "heading": "Prompty GPT Image 2 z dużą ilością tekstu (plakaty, szyldy, dokumenty)",
+            "text": "To kategoria, w której przełom GPT Image 2 w renderowaniu tekstu naprawdę się opłaca. Przykładowy prompt plakatowy GPT Image 2: „Vintage'owy plakat turystyczny Kioto, styl lat 50. Duży szeryfowy tekst u góry brzmi KYOTO. Podtytuł mniejszą czcionką brzmi Ancient Capital of Japan. Dolny pasek brzmi Japan National Railways. Ilustracja pokazuje kwiaty wiśni i pięciopiętrową pagodę”. GPT Image 2 poprawnie wyrenderuje wszystkie trzy bloki tekstu od OpenAI — to było wcześniej prawie niemożliwe. Dla okładek magazynów, pasków informacyjnych, znaków ulicznych czy witryn w GPT Image 2 zawsze pisz dokładnie, jaki tekst ma się pojawić, w cudzysłowach, z wskazówkami dotyczącymi fontu („szeryfowy”, „ręczne pismo”, „wąskie kapitaliki”), jeśli to ważne. Im bardziej precyzyjne umiejscowienie tekstu w prompcie GPT Image 2, tym bardziej niezawodne wyjście od OpenAI."
+          },
+          {
+            "heading": "Doskonały efekt: działające wzorce promptów GPT Image 2",
+            "text": "Trzy wzorce konsekwentnie dają mocne wyjście GPT Image 2. Pierwszy: najpierw scena, potem bohater, potem styl. „Poranna mgła na wietnamskiej plantacji kawy, młody rolnik przesypuje ziarna do metalowej beczki, światło złotej godziny, hiperrealistyczny styl filmowy”. Drugi: wprost podaj rozdzielczość i proporcje w swoim prompcie GPT Image 2. Dodaj „proporcje 16:9, detal 4K, ostry focus na bohaterze”. GPT Image 2 teraz faktycznie to respektuje. Trzeci: ograniczenia negatywne. „Bez tekstu, bez znaku wodnego, bez logo” powstrzymuje OpenAI GPT Image 2 od dodawania zbędnych oznaczeń. Jeśli generujesz wiele wariantów GPT Image 2, używaj tego samego seeda lub obrazu referencyjnego, by zachować spójny styl. Gdy uzyskasz wyjście GPT Image 2, które Ci się podoba, pobierz je i dopracuj w ToolPic — skompresuj 4K PNG do poniżej 300 KB w kompresorze obrazów, przytnij do docelowych wymiarów narzędziem Image Crop lub wytnij tło z narzędziem bg-remove, jeśli potrzebujesz wycinka swojego renderu GPT Image 2."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Rozmiar zdjęcia na Instagram Story i jak zmienić wymiary (Poradnik 2026)",
         "metaTitle": "Rozmiar zdjęcia na Instagram Story i zmiana wymiarów 2026 | ToolPic Blog",
         "metaDescription": "Jaki jest prawidłowy rozmiar zdjęcia na Instagram Story? Poznaj wymiary 1080x1920, sposoby zmiany rozmiaru i najlepsze praktyki.",
         "excerpt": "Twoje zdjęcia na Instagram Story są przycinane lub rozmyte? Poznaj prawidłowe wymiary i naucz się zmieniać rozmiar zdjęć, by każde Story wyglądało idealnie.",
         "content": [
-          {"heading": "Wymiary Instagram Story w 2026 roku", "text": "Idealny rozmiar Instagram Story to 1080x1920 pikseli, czyli proporcje 9:16. Minimalna rozdzielczość to 720x1280 pikseli, bo przy mniejszej obraz będzie rozmyty. Tekst i ważne treści trzymaj w bezpiecznej strefie 80% pośrodku ekranu. Górne i dolne 10% zasłaniają nazwa użytkownika, pasek odpowiedzi i przycisk przesunięcia w górę. Akceptowane są formaty JPG i PNG, a rozmiar pliku nie powinien przekraczać 30MB."},
-          {"heading": "Co się dzieje przy złym rozmiarze", "text": "Gdy wrzucisz zdjęcie o złych wymiarach, Instagram automatycznie je przytnie lub rozciągnie. Kwadratowe zdjęcie (1:1) dostanie czarne paski u góry i dołu, co wygląda kiepsko. Przy zdjęciu poziomym obcięte zostaną górna i dolna część. Najgorsza sytuacja to gdy ważny tekst chowa się za elementami interfejsu jak ikona profilu czy pasek wiadomości. Dlatego warto zmienić rozmiar przed wrzuceniem."},
-          {"heading": "Jak zmienić rozmiar pod Instagram Stories", "text": "Na początek przytnij zdjęcie do proporcji 9:16. Ustaw szerokość na 1080 pikseli, wysokość automatycznie wyniesie 1920. Trzymaj rozmiar pliku poniżej 8MB, żeby upload był szybki i jakość się utrzymała. Użyj profilu kolorów sRGB, bo Instagram konwertuje inne profile na sRGB, co może zmienić kolory. Zapisz jako JPEG z jakością 85-90% dla dobrego balansu między rozmiarem pliku a ostrością."},
-          {"heading": "Szybka zmiana rozmiaru z ToolPic", "text": "Otwórz narzędzie Image Crop w ToolPic i wybierz preset Instagram Story. Proporcje 9:16 ustawią się automatycznie. Przeciągnij zdjęcie w odpowiednią pozycję i przytnij. Potem wrzuć do Image Compressor, żeby zmniejszyć rozmiar pliku poniżej 8MB. Cały proces odbywa się w przeglądarce, żadne zdjęcie nie jest wysyłane na serwer. W dwie minuty masz obraz gotowy do wrzucenia na Story."}
+          {
+            "heading": "Wymiary Instagram Story w 2026 roku",
+            "text": "Idealny rozmiar Instagram Story to 1080x1920 pikseli, czyli proporcje 9:16. Minimalna rozdzielczość to 720x1280 pikseli, bo przy mniejszej obraz będzie rozmyty. Tekst i ważne treści trzymaj w bezpiecznej strefie 80% pośrodku ekranu. Górne i dolne 10% zasłaniają nazwa użytkownika, pasek odpowiedzi i przycisk przesunięcia w górę. Akceptowane są formaty JPG i PNG, a rozmiar pliku nie powinien przekraczać 30MB."
+          },
+          {
+            "heading": "Co się dzieje przy złym rozmiarze",
+            "text": "Gdy wrzucisz zdjęcie o złych wymiarach, Instagram automatycznie je przytnie lub rozciągnie. Kwadratowe zdjęcie (1:1) dostanie czarne paski u góry i dołu, co wygląda kiepsko. Przy zdjęciu poziomym obcięte zostaną górna i dolna część. Najgorsza sytuacja to gdy ważny tekst chowa się za elementami interfejsu jak ikona profilu czy pasek wiadomości. Dlatego warto zmienić rozmiar przed wrzuceniem."
+          },
+          {
+            "heading": "Jak zmienić rozmiar pod Instagram Stories",
+            "text": "Na początek przytnij zdjęcie do proporcji 9:16. Ustaw szerokość na 1080 pikseli, wysokość automatycznie wyniesie 1920. Trzymaj rozmiar pliku poniżej 8MB, żeby upload był szybki i jakość się utrzymała. Użyj profilu kolorów sRGB, bo Instagram konwertuje inne profile na sRGB, co może zmienić kolory. Zapisz jako JPEG z jakością 85-90% dla dobrego balansu między rozmiarem pliku a ostrością."
+          },
+          {
+            "heading": "Szybka zmiana rozmiaru z ToolPic",
+            "text": "Otwórz narzędzie Image Crop w ToolPic i wybierz preset Instagram Story. Proporcje 9:16 ustawią się automatycznie. Przeciągnij zdjęcie w odpowiednią pozycję i przytnij. Potem wrzuć do Image Compressor, żeby zmniejszyć rozmiar pliku poniżej 8MB. Cały proces odbywa się w przeglądarce, żadne zdjęcie nie jest wysyłane na serwer. W dwie minuty masz obraz gotowy do wrzucenia na Story."
+          }
         ],
         "relatedToolIds": "image-crop,image-compressor"
       },

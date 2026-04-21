@@ -41,6 +41,8 @@
   "home": {
     "h1": "Alat Gambar & Video Online Gratis",
     "subtitle": "Kompres, konversi, dan edit file media Anda secara instan. Tanpa unggah, tanpa pendaftaran, tanpa batasan. 100% gratis dan pribadi.",
+    "newBadgeLabel": "Baru",
+    "gptImage2Badge": "GPT Image 2 dari OpenAI telah hadir — baca panduan lengkap kami",
     "startNow": "Mulai Sekarang",
     "learnMore": "Pelajari Lebih",
     "imageSection": "Alat Gambar",
@@ -743,7 +745,87 @@
     "extractMp3Faq2Q": "Bisakah saya mengekstrak audio dari video YouTube?",
     "extractMp3Faq2A": "Alat ini mengekstrak audio dari file video yang tersimpan di perangkat Anda. Anda perlu menyimpan file video secara lokal terlebih dahulu. Alat ini tidak mengunduh video dari URL atau platform streaming. Setelah Anda memiliki file video lokal, Anda bisa mengekstrak track audionya ke MP3 secara instan.",
     "extractMp3Faq3Q": "Apakah video diunggah ke server selama ekstraksi?",
-    "extractMp3Faq3A": "Tidak, seluruh proses ekstraksi berjalan secara lokal di browser Anda menggunakan FFmpeg bertenaga WebAssembly. File video tidak pernah meninggalkan perangkat, memastikan privasi lengkap. Ini sangat penting untuk mengekstrak audio dari rekaman pribadi, pertemuan rahasia, atau konten video pribadi."
+    "extractMp3Faq3A": "Tidak, seluruh proses ekstraksi berjalan secara lokal di browser Anda menggunakan FFmpeg bertenaga WebAssembly. File video tidak pernah meninggalkan perangkat, memastikan privasi lengkap. Ini sangat penting untuk mengekstrak audio dari rekaman pribadi, pertemuan rahasia, atau konten video pribadi.",
+    "compressGptImage2": "Kompres Output GPT Image 2 Online - Gratis",
+    "compressGptImage2Desc": "Kompres output PNG GPT Image 2 dari model gambar baru OpenAI. Kecilkan output 4K dari 12MB menjadi di bawah 300KB tanpa kehilangan kualitas yang terlihat.",
+    "compressGptImage2HowTo": "Cara Kompres Output GPT Image 2",
+    "compressGptImage2Step1": "Upload File GPT Image 2 Anda",
+    "compressGptImage2Step1Desc": "Seret dan jatuhkan PNG atau JPG yang Anda hasilkan dengan GPT Image 2 dari OpenAI atau ChatGPT. Mendukung file hingga 50MB.",
+    "compressGptImage2Step2": "Sesuaikan Level Kompresi",
+    "compressGptImage2Step2Desc": "Atur kualitas antara 75-90%. Output GPT Image 2 dikompres dengan baik — 82% biasanya terlihat identik dengan aslinya dari OpenAI.",
+    "compressGptImage2Step3": "Unduh Gambar Terkompres",
+    "compressGptImage2Step3Desc": "Simpan file yang sudah dioptimalkan. PNG 4K GPT Image 2 12MB dari OpenAI biasanya menyusut menjadi di bawah 300KB.",
+    "compressGptImage2FaqTitle": "Pertanyaan yang Sering Diajukan",
+    "compressGptImage2Faq1Q": "Mengapa output GPT Image 2 dari OpenAI sangat besar?",
+    "compressGptImage2Faq1A": "GPT Image 2 menghasilkan gambar pada resolusi asli 2048x2048 atau 4096x4096 dan mengekspor sebagai PNG tanpa kompresi secara default, menghasilkan file 8-15MB per gambar. Untuk halaman web, email, dan media sosial, Anda ingin mengompres output GPT Image 2 ke rentang 200-500KB tanpa kehilangan kualitas yang terlihat.",
+    "compressGptImage2Faq2Q": "Apakah kompresi merusak metadata watermark C2PA dari OpenAI?",
+    "compressGptImage2Faq2A": "OpenAI menyematkan metadata asal C2PA dalam output GPT Image 2. Kompresi JPEG biasanya mempertahankan metadata ini. Jika Anda perlu menghapus metadata sepenuhnya, gunakan alat konversi gambar untuk mengenkode ulang ke format baru, tetapi perhatikan bahwa ini menghapus tanda tangan keaslian yang dilampirkan OpenAI pada render GPT Image 2.",
+    "compressGptImage2Faq3Q": "Apakah output GPT Image 2 saya diunggah ke server?",
+    "compressGptImage2Faq3A": "Tidak. Semua kompresi berjalan secara lokal di browser Anda menggunakan WebAssembly. Output GPT Image 2 dari OpenAI tidak pernah meninggalkan perangkat Anda, yang penting jika prompt mencakup referensi rahasia, produk yang belum dirilis, atau branding eksklusif.",
+    "resizeAiImage": "Ubah Ukuran Gambar AI — GPT Image 2, Midjourney, DALL-E",
+    "resizeAiImageDesc": "Ubah ukuran gambar yang dihasilkan AI dari GPT Image 2, ChatGPT, DALL-E, Midjourney, atau Nano Banana ke dimensi Instagram, Twitter, Facebook, YouTube.",
+    "resizeAiImageHowTo": "Cara Mengubah Ukuran Gambar yang Dihasilkan AI",
+    "resizeAiImageStep1": "Upload Gambar AI",
+    "resizeAiImageStep1Desc": "Jatuhkan PNG atau JPG yang dihasilkan AI dari GPT Image 2, OpenAI ChatGPT, Midjourney, DALL-E, atau Nano Banana Pro.",
+    "resizeAiImageStep2": "Pilih Ukuran Target",
+    "resizeAiImageStep2Desc": "Pilih preset media sosial — 1080x1080 Instagram, 1200x630 OG card, 1500x500 header X/Twitter — atau atur dimensi kustom.",
+    "resizeAiImageStep3": "Unduh Gambar yang Diubah Ukuran",
+    "resizeAiImageStep3Desc": "Potong dan unduh. Upload hasilnya langsung ke platform target tanpa kejutan pemotongan.",
+    "resizeAiImageFaqTitle": "Pertanyaan yang Sering Diajukan",
+    "resizeAiImageFaq1Q": "Apakah mengubah ukuran menurunkan kualitas gambar AI?",
+    "resizeAiImageFaq1A": "Menurunkan skala dari output GPT Image 2 2K atau 4K ke 1080px secara efektif tanpa kehilangan — Anda hanya membuang piksel yang platform target akan buang juga. Meningkatkan skala dari output kecil adalah di mana kualitas menurun, jadi selalu hasilkan render GPT Image 2 pada resolusi tertinggi yang didukung OpenAI.",
+    "resizeAiImageFaq2Q": "Ukuran apa yang harus saya render di GPT Image 2 untuk Instagram?",
+    "resizeAiImageFaq2A": "Buat di 2048x2048 di GPT Image 2 lalu potong menjadi 1080x1080 untuk posting Instagram, 1080x1350 untuk posting potret 4:5, atau 1080x1920 untuk Stories dan Reels. Piksel ekstra memberi Anda fleksibilitas pemotongan tanpa perlu menghasilkan ulang di OpenAI.",
+    "resizeAiImageFaq3Q": "Apakah ini juga bekerja untuk output Midjourney dan DALL-E?",
+    "resizeAiImageFaq3A": "Ya. Alat ubah ukuran menangani gambar apa pun terlepas dari sumbernya. PNG dari GPT Image 2, WebP dari Nano Banana Pro, JPG dari Midjourney — semuanya bekerja identik. File asli Anda tidak dikirim ke mana pun.",
+    "watermarkAiImage": "Beri Watermark Gambar AI Online - Gratis untuk GPT Image 2 & Midjourney",
+    "watermarkAiImageDesc": "Tambahkan watermark teks atau logo kustom ke gambar AI dari GPT Image 2, OpenAI DALL-E, Midjourney, atau Nano Banana. Lindungi dan ungkapkan karya AI Anda sebelum dibagikan.",
+    "watermarkAiImageHowTo": "Cara Memberi Watermark Gambar AI",
+    "watermarkAiImageStep1": "Upload Gambar yang Dihasilkan AI",
+    "watermarkAiImageStep1Desc": "Jatuhkan PNG atau JPG Anda dari GPT Image 2, OpenAI ChatGPT, Midjourney, atau generator gambar AI mana pun.",
+    "watermarkAiImageStep2": "Tambahkan Teks atau Logo",
+    "watermarkAiImageStep2Desc": "Ketik teks watermark Anda atau upload logo. Atur opasitas, posisi, ukuran font, dan warna untuk hasil profesional.",
+    "watermarkAiImageStep3": "Unduh Gambar Berwatermark",
+    "watermarkAiImageStep3Desc": "Simpan gambar yang dilindungi. Bagikan di media sosial atau portofolio sambil menjaga atribusi tetap jelas.",
+    "watermarkAiImageFaqTitle": "Pertanyaan yang Sering Diajukan",
+    "watermarkAiImageFaq1Q": "Apakah saya perlu memberi watermark output GPT Image 2?",
+    "watermarkAiImageFaq1A": "Secara etis dan sering secara hukum, ya. Platform seperti X, Instagram, dan properti Meta semakin sering mewajibkan pengungkapan ketika konten dihasilkan AI. Watermark kecil '#AI' atau 'Generated with GPT Image 2' pada output OpenAI Anda menjaga Anda tetap patuh dan transparan dengan audiens.",
+    "watermarkAiImageFaq2Q": "Apakah watermark memengaruhi metadata C2PA dari OpenAI?",
+    "watermarkAiImageFaq2A": "Mengedit piksel merusak tanda tangan C2PA karena hash file berubah. Ini adalah perilaku yang diharapkan. Jika Anda perlu mempertahankan tanda tangan asal OpenAI pada output GPT Image 2, simpan salinan arsip terpisah dengan C2PA asli yang utuh.",
+    "watermarkAiImageFaq3Q": "Bisakah saya memberi watermark pada beberapa gambar AI sekaligus?",
+    "watermarkAiImageFaq3A": "Ya. Watermark batch didukung. Upload folder output GPT Image 2 atau Midjourney, konfigurasikan watermark sekali, dan terapkan ke seluruh batch. Pemrosesan berjalan secara lokal di browser Anda.",
+    "removeBgAiImage": "Hapus Latar Belakang dari Gambar AI - Alat Online Gratis",
+    "removeBgAiImageDesc": "Hapus latar belakang dari output OpenAI GPT Image 2, DALL-E, Midjourney, atau ChatGPT dengan sekali klik. Didukung AI, berjalan di browser. Hasil PNG transparan yang sempurna.",
+    "removeBgAiImageHowTo": "Cara Menghapus Latar Belakang dari Gambar AI",
+    "removeBgAiImageStep1": "Upload Gambar AI",
+    "removeBgAiImageStep1Desc": "Jatuhkan gambar AI Anda dari GPT Image 2, OpenAI ChatGPT, Midjourney, atau generator gambar mana pun.",
+    "removeBgAiImageStep2": "AI Menghapus Latar Belakang",
+    "removeBgAiImageStep2Desc": "AI sisi klien kami mendeteksi subjek utama dan menghapus latar belakang secara otomatis dalam 2-5 detik.",
+    "removeBgAiImageStep3": "Unduh PNG Transparan",
+    "removeBgAiImageStep3Desc": "Simpan hasil potongan sebagai PNG transparan, siap ditumpuk pada latar belakang apa pun atau dimasukkan ke mockup produk.",
+    "removeBgAiImageFaqTitle": "Pertanyaan yang Sering Diajukan",
+    "removeBgAiImageFaq1Q": "Apakah penghapusan latar belakang bekerja dengan baik pada output GPT Image 2?",
+    "removeBgAiImageFaq1A": "Ya — output GPT Image 2 yang bersih dan pencahayaan bagus sangat ideal untuk penghapusan latar belakang. Model OpenAI menghasilkan subjek dengan tepi tajam dan kontras subjek-latar belakang yang baik, yang membuat pemotongan AI bahkan lebih akurat daripada foto realistis.",
+    "removeBgAiImageFaq2Q": "Bisakah saya menghapus latar belakang dari adegan AI yang kompleks?",
+    "removeBgAiImageFaq2A": "Untuk adegan dengan beberapa subjek atau latar belakang rumit, AI mengekstrak subjek latar depan yang paling menonjol. Jika GPT Image 2 menghasilkan potret dengan latar belakang kompleks, penghapusan bekerja dengan baik. Untuk adegan multi-subjek, prompt ulang di OpenAI dengan latar belakang yang lebih sederhana terlebih dahulu.",
+    "removeBgAiImageFaq3Q": "Apakah gambar diunggah ke server?",
+    "removeBgAiImageFaq3A": "Tidak. Penghapusan latar belakang berjalan sepenuhnya di browser Anda menggunakan AI sisi klien. Output GPT Image 2 dan prompt rahasia apa pun yang disematkan dalam metadata tidak pernah meninggalkan perangkat Anda.",
+    "convertGptImageToJpg": "Konversi GPT Image 2 PNG ke JPG Online - Gratis",
+    "convertGptImageToJpgDesc": "Konversi output PNG OpenAI GPT Image 2, DALL-E, atau ChatGPT ke format JPG. Kecilkan ukuran file hingga 80% dan maksimalkan kompatibilitas perangkat.",
+    "convertGptImageToJpgHowTo": "Cara Konversi GPT Image 2 PNG ke JPG",
+    "convertGptImageToJpgStep1": "Upload GPT Image 2 PNG",
+    "convertGptImageToJpgStep1Desc": "Jatuhkan file PNG yang dihasilkan oleh OpenAI GPT Image 2, ChatGPT, atau OpenAI Image API.",
+    "convertGptImageToJpgStep2": "Pilih Format JPG",
+    "convertGptImageToJpgStep2Desc": "Pilih JPG sebagai format output dan atur kualitas antara 85-95%. Kualitas lebih tinggi mempertahankan detail; 85% mengurangi ukuran file menjadi setengah.",
+    "convertGptImageToJpgStep3": "Unduh File JPG",
+    "convertGptImageToJpgStep3Desc": "Simpan JPG yang dikonversi. PNG GPT Image 2 12MB dari OpenAI biasanya berkonversi menjadi JPG 1-2MB pada kualitas visual yang identik.",
+    "convertGptImageToJpgFaqTitle": "Pertanyaan yang Sering Diajukan",
+    "convertGptImageToJpgFaq1Q": "Mengapa mengonversi GPT Image 2 PNG dari OpenAI ke JPG?",
+    "convertGptImageToJpgFaq1A": "PNG bersifat lossless tetapi menghasilkan file besar. Output PNG asli GPT Image 2 dari OpenAI berada di 8-15MB. JPG mengompres konten fotografi menjadi 10-20% dari ukuran PNG tanpa kehilangan kualitas yang terlihat. Untuk web, email, dan sosial, JPG adalah pilihan praktis.",
+    "convertGptImageToJpgFaq2Q": "Apakah konversi menurunkan kualitas gambar?",
+    "convertGptImageToJpgFaq2A": "JPG menggunakan kompresi lossy, jadi secara teknis ada sedikit kehilangan kualitas. Tetapi pada kualitas 90%, perbedaannya tidak terlihat oleh mata manusia pada konten fotografi seperti output GPT Image 2. Untuk grafik dengan tepi tajam atau transparansi, tetap gunakan PNG.",
+    "convertGptImageToJpgFaq3Q": "Apakah saya akan kehilangan transparansi saat mengonversi ke JPG?",
+    "convertGptImageToJpgFaq3A": "Ya — JPG tidak mendukung transparansi. Jika output OpenAI GPT Image 2 Anda memiliki latar belakang transparan, JPG akan mengisinya dengan putih. Gunakan WebP atau tetap gunakan PNG untuk potongan transparan."
   },
   "footer": {
     "tagline": "Alat online gratis untuk gambar dan video. 100% di browser, file Anda tidak pernah meninggalkan perangkat.",
@@ -761,16 +843,94 @@
     "readMore": "Baca selengkapnya",
     "relatedTools": "Alat Terkait",
     "posts": {
+      "gpt-image-2-everything-we-know-2026-guide": {
+        "title": "GPT Image 2: Semua yang Kami Tahu Tentang Model Gambar Baru OpenAI (April 2026)",
+        "metaTitle": "Panduan GPT Image 2: Model Gambar Baru OpenAI (2026)",
+        "metaDescription": "Panduan lengkap untuk GPT Image 2 dari OpenAI (April 2026). Fitur, tanggal rilis, harga, perbandingan dengan GPT Image 1.5 dan Nano Banana Pro.",
+        "excerpt": "GPT Image 2 dari OpenAI sedang diluncurkan untuk pengguna ChatGPT Plus sejak April 2026. Berikut setiap bocoran terkonfirmasi tentang GPT Image 2, timeline rilis nyata dari OpenAI, dan bagaimana perbandingannya dengan GPT Image 1.5 dan Nano Banana Pro.",
+        "content": [
+          {
+            "heading": "Apa Itu GPT Image 2?",
+            "text": "GPT Image 2 adalah model generasi gambar generasi berikutnya dari OpenAI, diharapkan menggantikan GPT Image 1.5 saat ini. Tidak seperti model gambar OpenAI sebelumnya seperti DALL-E 3 atau generator gambar native GPT-4o, GPT Image 2 berjalan pada arsitektur yang sepenuhnya baru dan independen — ia tidak lagi dipasangkan ke pipeline GPT-4o. Pemisahan itu adalah hal besar, karena memungkinkan OpenAI untuk mengoptimalkan GPT Image 2 khusus untuk kualitas gambar daripada memaksakan tradeoff multimodal. Untuk pengguna ChatGPT sehari-hari, GPT Image 2 berarti gambar yang lebih tajam, lebih akurat dengan rendering teks yang jauh lebih baik. Bagi developer, akhirnya berarti endpoint API OpenAI khusus setelah GPT Image 2 resmi diluncurkan. Hal ini penting sekali bagi siapa pun yang membutuhkan gambar komersial berkualitas tinggi yang konsisten dari OpenAI."
+          },
+          {
+            "heading": "Tanggal Rilis GPT Image 2 & Status Saat Ini (April 2026)",
+            "text": "OpenAI belum mengumumkan GPT Image 2 secara resmi, tetapi tiga model anonim — dengan kode nama maskingtape-alpha, gaffertape-alpha, dan packingtape-alpha — muncul di LM Arena pada awal April 2026 dan dengan cepat diidentifikasi oleh komunitas sebagai model gambar berikutnya dari OpenAI. Pada 16 April, GPT Image 2 terlihat di A/B test di dalam antarmuka web ChatGPT, dan pada 19 April pelanggan ChatGPT Plus dan Pro berbayar mulai melaporkan bahwa mereka telah diberi akses ke GPT Image 2. Jendela rilis konsensus untuk peluncuran publik adalah akhir April hingga pertengahan Mei 2026. OpenAI juga telah menjadwalkan penutupan penuh DALL-E 2 dan DALL-E 3 pada 12 Mei 2026 — tanggal itu kemungkinan bukan kebetulan. Lini GPT Image, dengan GPT Image 2 sebagai flagship, akan menjadi satu-satunya jalur migrasi resmi bagi siapa pun yang masih menggunakan DALL-E melalui OpenAI API."
+          },
+          {
+            "heading": "Fitur Baru di GPT Image 2 yang Benar-Benar Penting",
+            "text": "Peningkatan utama di GPT Image 2 adalah rendering teks. Model gambar OpenAI sebelumnya berkisar antara 90-95% akurasi, yang terdengar bagus sampai Anda mencoba menghasilkan papan nama toko atau mockup UI dan setengah huruf keluar rusak. Penguji awal melaporkan GPT Image 2 melewati 99% akurasi teks, yang berarti papan nama yang dapat dibaca, label yang jelas, dan mockup antarmuka yang terlihat fungsional langsung dari OpenAI. GPT Image 2 juga telah membunuh cast warna kuning yang mewabah pada output gambar GPT-4o — putih akhirnya benar-benar putih, bukan krem hangat. Resolusi mencapai 2048x2048 atau bahkan 4096x4096 native, langkah besar bagi siapa pun yang menghasilkan hero image, poster, atau aset cetak dari OpenAI. Tambahkan embedding karakter persisten (wajah yang sama di beberapa prompt GPT Image 2), pengetahuan dunia yang lebih baik, dan pengikutan instruksi yang lebih bersih, dan GPT Image 2 terlihat seperti model gambar OpenAI pertama yang benar-benar dapat bersaing dengan Midjourney dan Nano Banana Pro dari Google pada output komersial."
+          },
+          {
+            "heading": "GPT Image 2 vs GPT Image 1.5 vs Nano Banana Pro",
+            "text": "Melawan pendahulunya sendiri, GPT Image 2 menghancurkan GPT Image 1.5 dalam rendering teks, akurasi warna, dan kepatuhan prompt. Pertarungan yang lebih menarik adalah GPT Image 2 vs Nano Banana Pro (Gemini 3 Pro Image dari Google, dirilis November 2025). Dalam tes buta di LM Arena, GPT Image 2 unggul dalam akurasi teks, restorasi UI, dan pengetahuan dunia. Nano Banana Pro masih unggul dalam tugas penalaran spasial tertentu — refleksi cermin Kubus Rubik, oklusi kompleks, dan kasus tepi serupa. Dalam hal harga, sinyal awal dari kubu OpenAI menyarankan GPT Image 2 akan berharga $0,15-$0,20 per gambar melalui API, versus $0,045-$0,151 dari Nano Banana 2. Jadi GPT Image 2 diposisikan sebagai pilihan premium. Untuk sebagian besar kasus penggunaan komersial — kreatif iklan, posting sosial, mockup produk — kesenjangan kualitas GPT Image 2 sepadan dengan biaya tambahan. Untuk alur kerja generasi massal, Nano Banana Pro masih menang secara ekonomi."
+          },
+          {
+            "heading": "Cara Mengakses GPT Image 2 Hari Ini",
+            "text": "Pada April 2026, akses ke GPT Image 2 terbatas. Jalur termudah adalah berlangganan ChatGPT Plus atau Pro — OpenAI sedang meluncurkan akses A/B untuk GPT Image 2 secara bertahap, jadi beberapa pengguna memilikinya dan beberapa tidak. Jika Anda belum melihat GPT Image 2, coba prompt ChatGPT untuk 'high-resolution image with text' dan periksa apakah kualitas output melonjak. Setelah OpenAI membalik tombol secara publik, GPT Image 2 akan dapat diakses di ChatGPT dan melalui OpenAI Image API (menggantikan gpt-image-1.5). Developer harus mengharapkan ID model gpt-image-2 khusus. Perhatikan bahwa OpenAI belum menerbitkan dokumentasi API GPT Image 2, jadi 'GPT Image 2 API wrappers' pihak ketiga mana pun yang Anda lihat saat ini tidak resmi dan berisiko — tunggu peluncuran resmi OpenAI jika Anda membangun di atasnya."
+          },
+          {
+            "heading": "Pasca-Pemrosesan Output GPT Image 2 Anda",
+            "text": "Inilah masalah praktis dengan output GPT Image 2 4K native: file PNG-nya sangat besar. Satu render GPT Image 2 4096x4096 sekitar 8-15MB, yang terlalu besar untuk halaman web atau email. Anda ingin mengompres output GPT Image 2 hingga di bawah 300KB untuk sebagian besar kasus penggunaan. Kompresor gambar ToolPic menangani ini di browser Anda — jatuhkan PNG GPT Image 2, atur kualitas ke 82-88%, dan Anda mendapatkan file yang terlihat identik pada 10-15% ukuran aslinya. Jika Anda menggunakan output GPT Image 2 untuk media sosial, Anda juga perlu mengubah ukuran: 1080x1080 untuk Instagram, 1200x630 untuk kartu OpenGraph, 1500x500 untuk header X/Twitter. Alat crop gambar ToolPic memiliki preset untuk semuanya. Butuh versi transparan dari mockup produk GPT Image 2? Penghapus latar belakang bekerja pada output GPT Image 2 mana pun. Semuanya berjalan di browser Anda, jadi gambar yang dihasilkan OpenAI tidak pernah diunggah ke server kami — yang penting jika prompt GPT Image 2 menyertakan sesuatu yang rahasia."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
+      "best-gpt-image-2-prompts-viral-examples": {
+        "title": "Prompt GPT Image 2 Terbaik: 30+ Contoh Viral dari Model Baru OpenAI (2026)",
+        "metaTitle": "Prompt GPT Image 2 Terbaik — Contoh Viral & Template (2026)",
+        "metaDescription": "30+ prompt GPT Image 2 viral dari komunitas OpenAI. Template prompt potret, mockup UI, adegan urban, dan rendering teks untuk GPT Image 2 yang dapat Anda",
+        "excerpt": "Bocoran GPT Image 2 dari OpenAI memunculkan gelombang prompt viral di X/Twitter. Berikut prompt GPT Image 2 terbaik, dikategorikan — salin, tempel, dan remix untuk gambar AI Anda sendiri dari OpenAI.",
+        "content": [
+          {
+            "heading": "Mengapa Prompt GPT Image 2 Berbeda",
+            "text": "Jika Anda telah menulis prompt untuk DALL-E 3, Midjourney, atau GPT Image 1.5, kabar baiknya adalah GPT Image 2 sebagian besar bermain dengan aturan yang sama. Bagian yang mengejutkan adalah seberapa baik GPT Image 2 dari OpenAI merespons prompt yang padat, spesifik, dan berklausa banyak. Dengan model lama, menjejalkan terlalu banyak detail ke dalam satu prompt sering menyebabkan elemen dihilangkan. GPT Image 2 menangani prompt 200 kata yang menggambarkan adegan, subjek, pencahayaan, sudut kamera, dan palet warna sekaligus — dan benar-benar merender setiap elemen. Perubahan lain adalah teks. Anda sekarang dapat menulis prompt GPT Image 2 seperti 'papan kedai kopi yang bertuliskan BLUE BOTTLE, dengan papan menu di bawahnya mencantumkan espresso, cappuccino, dan cortado' dan model OpenAI akan mereproduksi teks itu dengan bersih. Itu tidak dapat diandalkan sebelum GPT Image 2. Setiap kategori prompt di bawah ini memanfaatkan salah satu kekuatan GPT Image 2 ini."
+          },
+          {
+            "heading": "Prompt GPT Image 2 Viral Teratas dari X/Twitter",
+            "text": "Contoh GPT Image 2 yang paling banyak dibagikan di X adalah adegan Minecraft sudut pandang orang pertama yang berlatar di Manhattan — prompt GPT Image 2 mencampur estetika game dengan geografi nyata dan berhasil di keduanya. Hit lainnya adalah 'Dokumen Internal Claude Opus 5' palsu yang dirender di dalam dunia Minecraft, yang mengumpulkan 439K tampilan. Prompt GPT Image 2 Times Square dengan 150+ pejalan kaki beragam, taksi kuning, trotoar basah, dan sorotan spekular menjadi viral karena model OpenAI menangani setiap elemen dan teks pada rambu tetap dieja dengan benar. Prompt GPT Image 2 bertema periode juga trending: 'Oda Nobunaga menulis posting X pada malam sebelum Insiden Honno-ji' adalah salah satu contoh viral awal, menggabungkan akurasi historis dengan tata letak UI media sosial modern. Benang merah di seluruh prompt GPT Image 2 viral: adegan yang harus dibangun OpenAI dari pengetahuan dunia, bukan hanya menyalin dari data pelatihan."
+          },
+          {
+            "heading": "Prompt GPT Image 2 Potret & Karakter",
+            "text": "Untuk potret, embedding karakter persisten GPT Image 2 berarti Anda dapat mempertahankan wajah yang sama di beberapa render OpenAI. Mulai prompt GPT Image 2 Anda dengan deskripsi karakter terperinci — usia, etnis, ciri khas, gaya pakaian — lalu tambahkan pencahayaan dan suasana. Contoh prompt GPT Image 2: 'Potret editorial wanita Korea 34 tahun dengan rambut hitam pendek dan anting-anting perak heksagonal, cahaya jendela lembut dari kiri, kedalaman bidang dangkal, gradasi warna teal dan persik redup, diambil dengan lensa 85mm pada f/1.8.' Dalam tindak lanjut GPT Image 2, deskripsikan fitur yang sama persis untuk mempertahankan konsistensi di seluruh render. Untuk karakter bergaya, referensikan seniman atau era tertentu: 'gaya art nouveau Mucha', 'latar Studio Ghibli', 'anime cel-shaded tahun 1980-an'. GPT Image 2 terasa lebih baik daripada GPT Image 1.5 dalam menghormati tag gaya ini dari OpenAI."
+          },
+          {
+            "heading": "Prompt GPT Image 2 Mockup UI & Produk",
+            "text": "Mockup UI adalah tempat GPT Image 2 benar-benar memisahkan diri dari model OpenAI lama. Coba prompt GPT Image 2 ini: 'Layar aplikasi iOS bersih untuk aplikasi meditasi, menampilkan layar sesi harian. Bilah atas dengan panah kembali dan ikon pengaturan. Tengah: timer lingkaran besar menampilkan 12:34 tersisa. Di bawah: tiga chip opsi berlabel Breath, Body Scan, Sleep. Bilah tab bawah dengan tab Home, Sessions, Profile.' Dalam GPT Image 2 teks akan dirender dengan benar, tata letak akan masuk akal, dan jarak akan terasa kredibel. Untuk foto produk di GPT Image 2: 'Foto produk minimalis cangkir kopi keramik hitam matte di permukaan beton, cahaya terarah lembut dari atas-kiri, uap halus naik, kedalaman bidang dangkal, sedikit butiran, gaya majalah editorial.' GPT Image 2 menangani rendering material — matte vs gloss, keramik vs logam — jauh lebih baik daripada model gambar OpenAI sebelumnya."
+          },
+          {
+            "heading": "Prompt GPT Image 2 Berat Teks (Poster, Rambu, Dokumen)",
+            "text": "Ini adalah kategori di mana terobosan rendering teks GPT Image 2 benar-benar terbayar. Contoh prompt poster GPT Image 2: 'Poster perjalanan vintage untuk Kyoto, gaya tahun 1950-an. Teks serif besar di atas bertuliskan KYOTO. Subjudul dalam teks lebih kecil bertuliskan Ancient Capital of Japan. Teks bilah bawah bertuliskan Japan National Railways. Ilustrasi menunjukkan bunga sakura dan pagoda lima tingkat.' GPT Image 2 akan merender ketiga blok teks dengan benar dari OpenAI — itu hampir tidak mungkin sebelumnya. Untuk sampul majalah, news ticker, rambu jalan, atau etalase di GPT Image 2, selalu eja dengan tepat teks apa yang harus muncul, dalam tanda kutip, dengan petunjuk font jika Anda peduli ('sans-serif', 'script', 'condensed caps'). Semakin spesifik penempatan teks di prompt GPT Image 2 Anda, semakin andal output OpenAI."
+          },
+          {
+            "heading": "Mendapatkan Hasil Sempurna: Pola Prompt GPT Image 2 yang Berhasil",
+            "text": "Tiga pola secara konsisten menghasilkan output GPT Image 2 yang kuat. Pertama: adegan lalu subjek lalu gaya. 'Kabut pagi di perkebunan kopi Vietnam, petani muda menuangkan biji ke dalam drum logam, cahaya golden hour, gaya sinematik hiperrealistis.' Kedua: resolusi eksplisit dan rasio aspek dalam prompt GPT Image 2 Anda. Tambahkan 'rasio aspek 16:9, detail 4K, fokus tajam pada subjek'. GPT Image 2 sekarang benar-benar menghormati ini. Ketiga: batasan negatif. 'Tanpa teks, tanpa watermark, tanpa logo' mencegah GPT Image 2 dari OpenAI menambahkan papan nama palsu. Jika Anda menghasilkan beberapa variasi GPT Image 2, gunakan kembali seed atau gambar referensi yang sama untuk menjaga gaya tetap konsisten. Setelah Anda mendapatkan output GPT Image 2 yang Anda sukai, unduh dan proses pasca dengan ToolPic — kompres PNG 4K ke di bawah 300KB dengan kompresor gambar, potong ke dimensi target dengan alat crop gambar, atau hapus latar belakang dengan alat bg-remove jika Anda memerlukan potongan render GPT Image 2 Anda."
+          }
+        ],
+        "relatedToolIds": "image-compressor,image-crop,image-bg-remove"
+      },
       "instagram-story-image-size-resize-guide": {
         "title": "Ukuran Gambar Instagram Story yang Benar dan Cara Resize (Panduan 2026)",
         "metaTitle": "Ukuran Gambar Instagram Story dan Cara Resize 2026 | ToolPic Blog",
         "metaDescription": "Berapa ukuran foto yang tepat untuk Instagram Story? Pelajari dimensi 1080x1920, cara resize, dan tips agar Story tampil sempurna.",
         "excerpt": "Foto yang diupload ke Instagram Story terpotong atau buram? Pelajari ukuran yang benar dan cara resize supaya setiap Story terlihat bagus.",
         "content": [
-          {"heading": "Dimensi Instagram Story di 2026", "text": "Ukuran ideal untuk Instagram Story adalah 1080x1920 piksel dengan rasio aspek 9:16. Resolusi minimum yang disarankan 720x1280 piksel, kalau kurang dari itu gambar akan terlihat buram. Letakkan teks dan konten penting di zona aman 80% di bagian tengah layar. Area 10% atas dan bawah akan tertutup username, bar balasan, dan tombol swipe up. Format JPG dan PNG keduanya bisa dipakai, ukuran file maksimal 30MB."},
-          {"heading": "Apa yang Terjadi Kalau Upload Ukuran Salah", "text": "Kalau kamu upload foto dengan ukuran yang salah, Instagram akan otomatis memotong atau meregangkan gambar. Foto kotak (1:1) akan dapat bar hitam di atas dan bawah yang kelihatan jelek. Foto landscape kehilangan bagian atas dan bawah karena dipotong. Yang paling menyebalkan adalah ketika teks penting tersembunyi di balik elemen UI seperti ikon profil atau bar pesan. Maka dari itu, lebih baik resize dulu sebelum upload."},
-          {"heading": "Cara Resize untuk Instagram Stories", "text": "Langkah pertama, crop gambar ke rasio 9:16. Set lebar ke 1080 piksel dan tinggi otomatis jadi 1920. Jaga ukuran file di bawah 8MB supaya upload cepat dan kualitas tetap bagus. Gunakan color profile sRGB karena Instagram mengonversi profile lain ke sRGB yang bisa bikin warna bergeser. Simpan dalam format JPEG dengan kualitas 85-90% untuk keseimbangan antara ukuran file kecil dan tampilan yang tetap tajam."},
-          {"heading": "Resize Cepat dengan ToolPic", "text": "Buka tool Image Crop di ToolPic lalu pilih preset Instagram Story. Rasio 9:16 akan diatur secara otomatis. Drag foto ke posisi yang pas lalu crop. Setelah itu masukkan ke Image Compressor untuk menurunkan ukuran file di bawah 8MB. Seluruh proses berjalan di browser kamu, tidak ada foto yang diupload ke server manapun. Dalam dua menit, gambar siap diposting ke Story."}
+          {
+            "heading": "Dimensi Instagram Story di 2026",
+            "text": "Ukuran ideal untuk Instagram Story adalah 1080x1920 piksel dengan rasio aspek 9:16. Resolusi minimum yang disarankan 720x1280 piksel, kalau kurang dari itu gambar akan terlihat buram. Letakkan teks dan konten penting di zona aman 80% di bagian tengah layar. Area 10% atas dan bawah akan tertutup username, bar balasan, dan tombol swipe up. Format JPG dan PNG keduanya bisa dipakai, ukuran file maksimal 30MB."
+          },
+          {
+            "heading": "Apa yang Terjadi Kalau Upload Ukuran Salah",
+            "text": "Kalau kamu upload foto dengan ukuran yang salah, Instagram akan otomatis memotong atau meregangkan gambar. Foto kotak (1:1) akan dapat bar hitam di atas dan bawah yang kelihatan jelek. Foto landscape kehilangan bagian atas dan bawah karena dipotong. Yang paling menyebalkan adalah ketika teks penting tersembunyi di balik elemen UI seperti ikon profil atau bar pesan. Maka dari itu, lebih baik resize dulu sebelum upload."
+          },
+          {
+            "heading": "Cara Resize untuk Instagram Stories",
+            "text": "Langkah pertama, crop gambar ke rasio 9:16. Set lebar ke 1080 piksel dan tinggi otomatis jadi 1920. Jaga ukuran file di bawah 8MB supaya upload cepat dan kualitas tetap bagus. Gunakan color profile sRGB karena Instagram mengonversi profile lain ke sRGB yang bisa bikin warna bergeser. Simpan dalam format JPEG dengan kualitas 85-90% untuk keseimbangan antara ukuran file kecil dan tampilan yang tetap tajam."
+          },
+          {
+            "heading": "Resize Cepat dengan ToolPic",
+            "text": "Buka tool Image Crop di ToolPic lalu pilih preset Instagram Story. Rasio 9:16 akan diatur secara otomatis. Drag foto ke posisi yang pas lalu crop. Setelah itu masukkan ke Image Compressor untuk menurunkan ukuran file di bawah 8MB. Seluruh proses berjalan di browser kamu, tidak ada foto yang diupload ke server manapun. Dalam dua menit, gambar siap diposting ke Story."
+          }
         ],
         "relatedToolIds": "image-crop,image-compressor"
       },
