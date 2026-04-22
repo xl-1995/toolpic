@@ -89,14 +89,25 @@ export default async function BlogPostPage({ params }: Props) {
   const commonT = await getTranslations({ locale, namespace: 'common' });
 
   let title: string;
-  let contentSections: Array<{ heading: string; text: string }>;
   let relatedToolIds: string;
   try {
     title = t(`posts.${slug}.title`);
-    contentSections = t.raw(`posts.${slug}.content`) as Array<{ heading: string; text: string }>;
     relatedToolIds = t(`posts.${slug}.relatedToolIds`);
   } catch {
     notFound();
+  }
+
+  // Content bodies live in src/content/blog/{locale}/{slug}.json so they
+  // don't inflate the next-intl messages bundled into middleware.
+  let contentSections: Array<{ heading: string; text: string }>;
+  try {
+    contentSections = (await import(`@/content/blog/${locale}/${slug}.json`)).default;
+  } catch {
+    try {
+      contentSections = (await import(`@/content/blog/en/${slug}.json`)).default;
+    } catch {
+      notFound();
+    }
   }
 
   const url = `${baseUrl}/${locale}/blog/${slug}`;
