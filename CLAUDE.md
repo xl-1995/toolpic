@@ -63,11 +63,22 @@ All languages use URL prefix: `/{locale}/...`
 
 ## Build & Deploy
 ```bash
-rm -rf .next .open-next
-npx opennextjs-cloudflare build    # Build for Cloudflare Workers
-npx wrangler deploy                # Deploy to Cloudflare
+npm run deploy   # clean → opennext build → terser minify → wrangler deploy
 ```
+
+**重要：不要手工跑 `npx wrangler deploy`**。CF Workers 免费版 3 MiB 限制，
+OpenNext 出的 handler.mjs 只做 whitespace strip，gzip 后约 2.15 MiB，加上
+middleware 约 0.73 MiB，总 ~3.12 MiB gz 会被拒。`scripts/deploy.mjs` 在
+build 后强制跑一道 terser（mangle+compress），把总 gz 降到 ~2.60 MiB。
+
+脚本会在 combined gz 超过 3 MiB 时 abort，不会浪费 deploy 失败的时间。
+
 **wrangler.toml 必须包含 `account_id`**
+
+### 博客内容外置规则
+- 博客 `content` 字段 **不放在** `src/messages/{locale}.json` 里
+- 放 `src/content/blog/{locale}/{slug}.json`，页面通过 dynamic import 加载
+- 这样 next-intl middleware 不会把 1.2 MiB 文章正文打进 worker bundle
 
 ## Post-Deploy Checklist
 1. 验证关键页面返回 200
