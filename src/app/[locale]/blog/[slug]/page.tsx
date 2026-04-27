@@ -4,6 +4,7 @@ import { Link } from '@/i18n/routing';
 import { locales } from '@/i18n/config';
 import { blogPosts } from '@/data/blog';
 import { tools, getToolSlug } from '@/data/tools';
+import { loadBlogMetaWithFallback } from '@/lib/blog-meta';
 
 const baseUrl = 'https://toolpic.me';
 
@@ -29,18 +30,18 @@ export async function generateMetadata({ params }: Props) {
   let metaTitle: string;
   let metaDescription: string;
   try {
-    const t = await getTranslations({ locale, namespace: 'blog' });
-    metaTitle = t(`posts.${slug}.metaTitle`);
-    metaDescription = t(`posts.${slug}.metaDescription`);
-  } catch {
-    try {
-      const tEn = await getTranslations({ locale: 'en', namespace: 'blog' });
-      metaTitle = tEn(`posts.${slug}.metaTitle`);
-      metaDescription = tEn(`posts.${slug}.metaDescription`);
-    } catch {
+    const { meta, enMeta } = await loadBlogMetaWithFallback(locale);
+    const entry = meta[slug] || enMeta[slug];
+    if (!entry) {
       metaTitle = 'ToolPic Blog - Image & Video Tips';
       metaDescription = 'Tips and guides for working with images and videos online.';
+    } else {
+      metaTitle = entry.metaTitle;
+      metaDescription = entry.metaDescription;
     }
+  } catch {
+    metaTitle = 'ToolPic Blog - Image & Video Tips';
+    metaDescription = 'Tips and guides for working with images and videos online.';
   }
 
   const url = `${baseUrl}/${locale}/blog/${slug}`;
@@ -88,14 +89,11 @@ export default async function BlogPostPage({ params }: Props) {
   const toolsT = await getTranslations({ locale, namespace: 'tools' });
   const commonT = await getTranslations({ locale, namespace: 'common' });
 
-  let title: string;
-  let relatedToolIds: string;
-  try {
-    title = t(`posts.${slug}.title`);
-    relatedToolIds = t(`posts.${slug}.relatedToolIds`);
-  } catch {
-    notFound();
-  }
+  const { meta: blogMeta, enMeta } = await loadBlogMetaWithFallback(locale);
+  const metaEntry = blogMeta[slug] || enMeta[slug];
+  if (!metaEntry) notFound();
+  const title = metaEntry.title;
+  const relatedToolIds = metaEntry.relatedToolIds;
 
   // Content bodies live in src/content/blog/{locale}/{slug}.json so they
   // don't inflate the next-intl messages bundled into middleware.
@@ -274,12 +272,10 @@ export default async function BlogPostPage({ params }: Props) {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {otherPosts.map((otherPost) => {
-                  let otherTitle: string;
-                  try {
-                    otherTitle = t(`posts.${otherPost.slug}.title`);
-                  } catch {
-                    otherTitle = otherPost.slug.replace(/-/g, ' ');
-                  }
+                  const otherTitle =
+                    blogMeta[otherPost.slug]?.title ||
+                    enMeta[otherPost.slug]?.title ||
+                    otherPost.slug.replace(/-/g, ' ');
                   const otherDate = new Date(otherPost.date).toLocaleDateString(locale, {
                     year: 'numeric',
                     month: 'short',

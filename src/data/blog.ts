@@ -7,6 +7,9 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  { slug: 'pinterest-image-sizes-2026-guide', date: '2026-04-27', readTime: 6, heroImage: '/blog/pinterest-sizes-hero.jpg', relatedToolIds: ['image-crop', 'image-compressor'] },
+  { slug: 'twitter-x-image-sizes-2026-guide', date: '2026-04-27', readTime: 5, heroImage: '/blog/twitter-x-sizes-hero.jpg', relatedToolIds: ['image-crop', 'image-compressor'] },
+  { slug: 'how-to-reduce-gif-file-size', date: '2026-04-27', readTime: 5, heroImage: '/blog/reduce-gif-size-hero.jpg', relatedToolIds: ['video-to-gif', 'video-convert', 'video-compress'] },
   { slug: 'gpt-image-2-everything-we-know-2026-guide', date: '2026-04-21', readTime: 7, heroImage: '/blog/gpt-image-2-guide-hero.jpg', relatedToolIds: ['image-compressor', 'image-crop', 'image-bg-remove'] },
   { slug: 'best-gpt-image-2-prompts-viral-examples', date: '2026-04-21', readTime: 8, heroImage: '/blog/gpt-image-2-prompts-hero.jpg', relatedToolIds: ['image-compressor', 'image-crop', 'image-bg-remove'] },
   { slug: 'instagram-story-image-size-resize-guide', date: '2026-04-07', readTime: 5, heroImage: '/blog/instagram-story-size-hero.jpg', relatedToolIds: ['image-crop', 'image-compressor'] },

@@ -3,7 +3,13 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { tools, getToolSlug } from '@/data/tools';
-import { getBlogPostsForTool } from '@/data/blog';
+
+type RelatedBlogPost = {
+  slug: string;
+  heroImage: string;
+  title: string;
+  excerpt: string;
+};
 import ImageCompressor from '@/components/tools/ImageCompressor';
 import ImageConverter from '@/components/tools/ImageConverter';
 import ImageCrop from '@/components/tools/ImageCrop';
@@ -41,13 +47,18 @@ function getRelatedTools(currentToolId: string) {
   return related.slice(0, 6);
 }
 
-export default function ToolPageClient({ toolId }: { toolId: string }) {
+export default function ToolPageClient({
+  toolId,
+  relatedBlogPosts = [],
+}: {
+  toolId: string;
+  relatedBlogPosts?: RelatedBlogPost[];
+}) {
   const t = useTranslations();
   const locale = useLocale();
   const toolT = t.raw(`tools.${toolId}`);
   const ToolComponent = toolComponents[toolId] || PlaceholderTool;
   const relatedTools = getRelatedTools(toolId);
-  const relatedBlogPosts = getBlogPostsForTool(toolId);
 
   return (
     <>
@@ -138,15 +149,8 @@ export default function ToolPageClient({ toolId }: { toolId: string }) {
         <h2 className="text-2xl font-bold mb-8 gradient-text">{t('common.relatedArticlesTitle')}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {relatedBlogPosts.map((post) => {
-            let postTitle: string;
-            let postExcerpt: string;
-            try {
-              postTitle = t(`blog.posts.${post.slug}.title`);
-              postExcerpt = t(`blog.posts.${post.slug}.excerpt`);
-            } catch {
-              postTitle = post.slug.replace(/-/g, ' ');
-              postExcerpt = '';
-            }
+            const postTitle = post.title;
+            const postExcerpt = post.excerpt;
             return (
               <Link
                 key={post.slug}

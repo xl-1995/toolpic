@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { locales } from '@/i18n/config';
 import { blogPosts } from '@/data/blog';
+import { loadBlogMetaWithFallback } from '@/lib/blog-meta';
 
 const baseUrl = 'https://toolpic.me';
 
@@ -49,6 +50,7 @@ export default async function BlogListPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: 'blog' });
+  const { meta: blogMeta, enMeta } = await loadBlogMetaWithFallback(locale);
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -81,14 +83,10 @@ export default async function BlogListPage({ params }: Props) {
       <div className="max-w-[900px] mx-auto px-4 sm:px-6 lg:px-8 pb-24">
         <div className="flex flex-col gap-6">
           {blogPosts.map((post) => {
-            let postTitle: string;
-            let postExcerpt: string;
-            try {
-              postTitle = t(`posts.${post.slug}.title`);
-              postExcerpt = t(`posts.${post.slug}.excerpt`);
-            } catch {
-              return null;
-            }
+            const entry = blogMeta[post.slug] || enMeta[post.slug];
+            if (!entry) return null;
+            const postTitle = entry.title;
+            const postExcerpt = entry.excerpt;
 
             const formattedDate = new Date(post.date).toLocaleDateString(locale, {
               year: 'numeric',

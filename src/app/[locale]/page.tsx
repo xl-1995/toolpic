@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { tools, getToolSlug } from '@/data/tools';
 import { blogPosts } from '@/data/blog';
+import { loadBlogMetaWithFallback, type BlogPostMeta } from '@/lib/blog-meta';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -13,6 +14,7 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: 'meta' });
+  const { meta: blogMeta, enMeta } = await loadBlogMetaWithFallback(locale);
   const baseUrl = 'https://toolpic.me';
   const url = `${baseUrl}/${locale}`;
 
@@ -60,12 +62,20 @@ export default async function HomePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <HomeContent locale={locale} />
+      <HomeContent locale={locale} blogMeta={blogMeta} enMeta={enMeta} />
     </>
   );
 }
 
-function HomeContent({ locale }: { locale: string }) {
+function HomeContent({
+  locale,
+  blogMeta,
+  enMeta,
+}: {
+  locale: string;
+  blogMeta: Record<string, BlogPostMeta>;
+  enMeta: Record<string, BlogPostMeta>;
+}) {
   const t = useTranslations();
   const imageTools = tools.filter((tool) => tool.category === 'image');
   const videoTools = tools.filter((tool) => tool.category === 'video');
@@ -176,7 +186,7 @@ function HomeContent({ locale }: { locale: string }) {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {blogPosts.slice(0, 4).map((post) => (
-              <BlogCard key={post.slug} post={post} t={t} />
+              <BlogCard key={post.slug} post={post} entry={blogMeta[post.slug] || enMeta[post.slug]} />
             ))}
           </div>
           <div className="text-center mt-10">
@@ -218,20 +228,13 @@ function ToolCard({
 
 function BlogCard({
   post,
-  t,
+  entry,
 }: {
   post: (typeof blogPosts)[number];
-  t: any;
+  entry?: BlogPostMeta;
 }) {
-  let postTitle: string;
-  let postExcerpt: string;
-  try {
-    postTitle = t(`blog.posts.${post.slug}.title`);
-    postExcerpt = t(`blog.posts.${post.slug}.excerpt`);
-  } catch {
-    postTitle = post.slug.replace(/-/g, ' ');
-    postExcerpt = '';
-  }
+  const postTitle = entry?.title || post.slug.replace(/-/g, ' ');
+  const postExcerpt = entry?.excerpt || '';
 
   return (
     <Link href={`/blog/${post.slug}`} className="tool-card glass-card p-6 block group">

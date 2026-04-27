@@ -1,7 +1,8 @@
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n/config';
 import { seoPages } from '@/data/seo-pages';
+import { loadSeoPagesMeta, resolveKey } from '@/lib/seo-pages-meta';
 import SeoPageClient from './SeoPageClient';
 
 const baseUrl = 'https://toolpic.me';
@@ -25,26 +26,17 @@ export async function generateMetadata({ params }: Props) {
   const page = seoPages.find((p) => p.slug === slug);
   if (!page) return {};
 
-  let metaTitle: string;
-  let metaDescription: string;
-  try {
-    const t = await getTranslations({ locale, namespace: 'seoPages' });
-    metaTitle = t(page.titleKey);
-    metaDescription = t(page.descKey);
-  } catch {
-    try {
-      const tEn = await getTranslations({ locale: 'en', namespace: 'seoPages' });
-      metaTitle = tEn(page.titleKey);
-      metaDescription = tEn(page.descKey);
-    } catch {
-      metaTitle = 'ToolPic - Free Online Image & Video Tools';
-      metaDescription = 'Free browser-based image and video tools. No uploads, 100% private.';
-    }
-  }
+  const { meta, enMeta } = await loadSeoPagesMeta(locale);
+
+  const metaTitle =
+    resolveKey(meta, enMeta, page.titleKey) ||
+    'ToolPic - Free Online Image & Video Tools';
+  const metaDescription =
+    resolveKey(meta, enMeta, page.descKey) ||
+    'Free browser-based image and video tools. No uploads, 100% private.';
 
   const url = `${baseUrl}/${locale}/tools/s/${slug}`;
 
-  // Build alternates for all locales
   const languages: Record<string, string> = {};
   for (const loc of locales) {
     languages[loc] = `${baseUrl}/${loc}/tools/s/${slug}`;
@@ -90,16 +82,37 @@ export default async function SeoLandingPage({ params }: Props) {
   const page = seoPages.find((p) => p.slug === slug);
   if (!page) notFound();
 
-  const t = await getTranslations({ locale, namespace: 'seoPages' });
+  const { meta, enMeta } = await loadSeoPagesMeta(locale);
+  const r = (k: string) => resolveKey(meta, enMeta, k);
+
+  const title = r(page.titleKey);
+  const description = r(page.descKey);
+
+  // Resolve How To steps
+  const howToTitle = r(`${page.titleKey}HowTo`);
+  const steps = [1, 2, 3].map((i) => ({
+    title: r(`${page.titleKey}Step${i}`),
+    desc: r(`${page.titleKey}Step${i}Desc`),
+  }));
+  const hasSteps = !!steps[0].title;
+
+  // Resolve FAQ
+  const faqTitle = r(`${page.titleKey}FaqTitle`);
+  const faqs = [1, 2, 3]
+    .map((i) => ({
+      q: r(`${page.titleKey}Faq${i}Q`),
+      a: r(`${page.titleKey}Faq${i}A`),
+    }))
+    .filter((f) => f.q && f.a);
+  const hasFaqs = faqs.length > 0;
 
   const url = `${baseUrl}/${locale}/tools/s/${slug}`;
 
-  // WebApplication JSON-LD
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: t(page.titleKey),
-    description: t(page.descKey),
+    name: title,
+    description,
     url,
     applicationCategory: 'MultimediaApplication',
     operatingSystem: 'Any',
@@ -110,28 +123,24 @@ export default async function SeoLandingPage({ params }: Props) {
     },
   };
 
-  // FAQPage structured data for rich results
-  const faqItems = [];
-  for (let i = 1; i <= 3; i++) {
-    try {
-      const q = t(`${page.titleKey}Faq${i}Q`);
-      const a = t(`${page.titleKey}Faq${i}A`);
-      if (q && a) faqItems.push({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } });
-    } catch { /* key missing */ }
-  }
-  const faqJsonLd = faqItems.length > 0 ? {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqItems,
-  } : null;
+  const faqJsonLd = hasFaqs
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      }
+    : null;
 
-  // BreadcrumbList JSON-LD
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'ToolPic', item: `${baseUrl}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: t(page.titleKey), item: url },
+      { '@type': 'ListItem', position: 2, name: title, item: url },
     ],
   };
 
@@ -153,8 +162,12 @@ export default async function SeoLandingPage({ params }: Props) {
       />
       <SeoPageClient
         toolId={page.toolId}
-        titleKey={page.titleKey}
-        descKey={page.descKey}
+        title={title}
+        description={description}
+        howToTitle={howToTitle}
+        steps={hasSteps ? steps : null}
+        faqTitle={faqTitle}
+        faqs={hasFaqs ? faqs : null}
       />
     </>
   );

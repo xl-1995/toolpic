@@ -1,7 +1,9 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { tools, getToolBySlug } from '@/data/tools';
+import { getBlogPostsForTool } from '@/data/blog';
 import { locales } from '@/i18n/config';
+import { loadBlogMetaWithFallback } from '@/lib/blog-meta';
 import ToolPageClient from './ToolPageClient';
 
 const baseUrl = 'https://toolpic.me';
@@ -79,6 +81,17 @@ export default async function ToolPage({ params }: Props) {
 
   const t = await getTranslations({ locale, namespace: `tools.${tool.id}` });
 
+  const { meta: blogMeta, enMeta } = await loadBlogMetaWithFallback(locale);
+  const relatedBlogData = getBlogPostsForTool(tool.id).map((post) => {
+    const entry = blogMeta[post.slug] || enMeta[post.slug];
+    return {
+      slug: post.slug,
+      heroImage: post.heroImage,
+      title: entry?.title || post.slug.replace(/-/g, ' '),
+      excerpt: entry?.excerpt || '',
+    };
+  });
+
   const localizedSlug = tool.slugs[locale] || tool.slugs['en'];
   const url = `${baseUrl}/${locale}/tools/${localizedSlug}`;
 
@@ -138,7 +151,7 @@ export default async function ToolPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <ToolPageClient toolId={tool.id} />
+      <ToolPageClient toolId={tool.id} relatedBlogPosts={relatedBlogData} />
     </>
   );
 }
