@@ -95,6 +95,11 @@ export default async function LocaleLayout({ children, params }: Props) {
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#7c3aed" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4488004936966976"
+          crossOrigin="anonymous"
+        ></script>
         {/* Load Font Awesome asynchronously to avoid render-blocking */}
         <link
           rel="preload"
